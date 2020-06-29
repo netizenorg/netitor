@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>netitor demo</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0 }
+
+      section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 3fr 1fr;
+        height: 100vh;
+      }
+
+      /* NOTE: netizen colors CSS variables are made available via netitor.js */
+      #nfo {
+        grid-column: 1 / 3;
+        padding: 5px 20px;
+        background-color: var(--netizen-black);
+        border: 8px solid var(--netizen-red);
+        font-family: sans-serif;
+        color: var(--netizen-white);
+      }
+
+      #nfo > p { max-width: 650px; }
+      #nfo a { color: var(--netizen-red); }
+      #nfo a:hover { color: var(--netizen-purple); }
+
+    </style>
+  </head>
+  <body>
+
+    <section>
+      <div id="editor"></div>
+      <div id="output"></div>
+      <div id="nfo"></div>
+    </section>
+
+    <script src="build/netitor.js"></script>
+    <script>
+
+      const exampleCode = `<div>
+  <style>
+    .info { color: green; }
+    body { background-color: yellow; }
+  </style>
+  <h1>Hello World</h1>
+  <p class="info">this is an example</p>
+  <script>
+    const t = document.querySelector('h1')
+    t.style.color = 'red'
+  <\/script>
+</div>`
+
+      const ne = new Netitor({
+        ele: '#editor',
+        render: '#output',
+        code: exampleCode
+      })
+
+      ne.on('hint-select', (data) => {
+        // just one example for how u might make use of our built in edu info
+      })
+
+      ne.on('edu-info', (data) => {
+        // just one example for how u might make use of our built in edu info
+        console.log(data)
+        if (data.nfo) {
+          if (data.language === 'html') showHTMLNFO(data)
+          else if (data.language === 'css') showCSSNFO(data)
+          else if (data.language === 'javascript') showJSNFO(data)
+        } else document.querySelector('#nfo').innerHTML = ''
+      })
+
+      // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
+      // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* some example helper functions
+
+      function showJSNFO (data) {
+        document.querySelector('#nfo').innerHTML = `
+          <p>${data.nfo.description}</p>
+        `
+      }
+
+      function showHTMLNFO (data) {
+        document.querySelector('#nfo').innerHTML = `
+          <h1>${data.nfo[data.type].html}</h1>
+          <p>${data.nfo.description.html}</p>
+        `
+      }
+
+      function showCSSNFO (data) {
+        const status = (data.nfo.status && data.nfo.status !== 'standard')
+          ? ` (<b>NOTE</b>: this CSS property is ${data.nfo.status}). ` : ''
+
+        let links = Object.keys(data.nfo.urls)
+          .map(k => `<a href="${data.nfo.urls[k]}" target="_blank">${k}</a>`)
+
+        links = (links.length > 0)
+          ? `To learn more visit ${links.join(', ').slice(0, -2)}.` : ''
+
+        document.querySelector('#nfo').innerHTML = `
+          <h1>${data.nfo[data.type].html}</h1>
+          <p>${data.nfo.description.html}. ${status} ${links}</p>
+        `
+      }
+
+    </script>
+  </body>
+</html>

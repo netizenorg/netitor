@@ -1,0 +1,28 @@
+{
+  "name": "netitor",
+  "version": "0.0.1",
+  "description": "a pedagogical web based code editor for creative netizens in training",
+  "main": "src/main.js",
+  "scripts": {
+    "lint": "standard src/*.js src/linters/*",
+    "compile-css": "cat src/css/css-start.txt node_modules/codemirror/lib/codemirror.css node_modules/codemirror/addon/hint/show-hint.css src/css/main.css src/css/css-end.txt > src/css/main.js",
+    "prebuild": "npm run lint; npm run compile-css",
+    "build": "browserify src/main.js > build/netitor.js",
+    "eduscraper": "eduscraper all src/edu-data",
+    "watch": "nodemon -w src --ignore css/* -x 'npm run build'"
+  },
+  "author": "netizen.org <hi@netizen.org>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "codemirror": "^5.52.2",
+    "csslint": "^1.0.5",
+    "htmllint": "^0.8.0",
+    "htmlparser2": "^4.1.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "eduscraper": "git+https://github.com/netizenorg/eduscraper.git",
+    "nodemon": "^2.0.2",
+    "standard": "^14.3.3"
+  }
+}
