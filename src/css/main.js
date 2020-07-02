@@ -389,6 +389,7 @@ li.CodeMirror-hint-active {
 */
 
 :root {
+  --test: 100px;
   --netizen-green: #82E22E;
   --netizen-blue: #66D9CF;
   --netizen-yellow: #E6DB6F;
@@ -410,21 +411,23 @@ li.CodeMirror-hint-active {
   color: var(--netizen-white);
   height: 100%;
 }
+
 .cm-s-netizen .CodeMirror-lines {
   padding: 8px 0;
 }
+
 .cm-s-netizen .CodeMirror-gutters {
-  box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 1px 0 2px 0 rgba(0, 0, 0, 0.5);
   background-color: var(--netizen-black);
   padding-right: 10px;
   z-index: 3;
   border: none;
   margin-right:5px;
 }
+
 .cm-s-netizen div.CodeMirror-cursor {
   border-left: 1px solid var(--netizen-white);
 }
+
 .cm-s-netizen .CodeMirror-activeline-background { background: #3A3A3A; }
 .cm-s-netizen .CodeMirror-selected { background: #474747; }
 .cm-s-netizen .cm-comment { color: var(--netizen-gray);  }
@@ -446,6 +449,7 @@ li.CodeMirror-hint-active {
 .cm-s-netizen .cm-builtin {color: var(--netizen-green);}
 .cm-s-netizen .cm-def { font-style: normal; color:var(--netizen-green); }
 
+/* THE LITTLE UNDERLINE THAT APPEARS WHEN A TAG OR BRACKET IS SELECTED */
 .cm-s-netizen .CodeMirror-matchingbracket {
   color: var(--netizen-white) !important;
 }
@@ -455,24 +459,19 @@ li.CodeMirror-hint-active {
   background: none;
 }
 
-/* AUTO-COMPLETE DROPDOWN LIST STYLES */
-
+/* HINTING STYLES: AUTO-COMPLETE DROPDOWN LIST */
 .CodeMirror-hints.netizen {
-  /* background: red; */
+  color: var(--netizen-black);
+  background: var(--netizen-white);
 }
 
 .CodeMirror-hints.netizen > .CodeMirror-hint {
-
+  /* individual items */
 }
 
 .CodeMirror-hints.netizen > .CodeMirror-hint.CodeMirror-hint-active {
-
-}
-
-/* for highlighting text :: w/html parser */
-.styled-background {
-  /*background-color: #b4b200; */
-  background:rgba(255,0,0,0.3);
-  /*color:#fff;*/
+  /* selected item */
+  color: var(--netizen-black);
+  background: var(--netizen-yellow);
 }
 `

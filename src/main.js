@@ -41,6 +41,7 @@ class Netitor {
 
     this._code = typeof opts.code === 'string' ? opts.code : ''
     this._lang = typeof opts.language === 'string' ? opts.language : 'html'
+    this._clrz = typeof opts.theme === 'string' ? opts.theme : 'netizen'
     this._lint = typeof opts.lint === 'boolean' ? opts.lint : true
     this._hint = typeof opts.hint === 'boolean' ? opts.hint : true
     this._auto = typeof opts.autoUpdate === 'boolean' ? opts.autoUpdate : true
@@ -85,6 +86,9 @@ class Netitor {
   get friendlyErr () { return this._ferr }
   set friendlyErr (v) { this._ferr = v }
 
+  get theme () { return this._clrz }
+  set theme (v) { this._clrz = v; this.cm.setOption('theme', v) }
+
   get language () { return this._lang }
   set language (v) {
     this._lang = v
@@ -119,7 +123,7 @@ class Netitor {
       matchTags: true,
       mode: (this._lang === 'html') ? 'htmlmixed' : this._lang,
       value: this._code,
-      theme: 'netizen',
+      theme: this._clrz,
       keyMap: 'sublime',
       autoCloseBrackets: true,
       autoCloseTags: true,

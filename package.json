@@ -9,7 +9,7 @@
     "prebuild": "npm run lint; npm run compile-css",
     "build": "browserify src/main.js > build/netitor.js",
     "eduscraper": "eduscraper all src/edu-data",
-    "watch": "nodemon -w src --ignore css/* -x 'npm run build'"
+    "watch": "nodemon --watch src --ignore src/css/*.js -x 'npm run build'"
   },
   "author": "netizen.org <hi@netizen.org>",
   "license": "GPL-3.0",
