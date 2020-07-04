@@ -16,8 +16,7 @@
   "dependencies": {
     "codemirror": "^5.52.2",
     "csslint": "^1.0.5",
-    "htmllint": "^0.8.0",
-    "htmlparser2": "^4.1.0"
+    "htmlhint": "^0.14.1"
   },
   "devDependencies": {
     "browserify": "^16.5.1",
