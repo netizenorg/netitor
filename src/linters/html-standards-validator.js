@@ -26,9 +26,9 @@ class HTMLStandards {
         )
 
         const lines = code.split('\n')
-        const match = lines.filter(str => str.indexOf(name) >= 0)[0]
-        line = lines.indexOf(match) + 1
-        if (match) col = match.indexOf(name)
+        const mch = lines.filter(str => str.toLowerCase().indexOf(name) >= 0)[0]
+        line = lines.indexOf(mch) + 1
+        if (mch) col = mch.indexOf(name)
 
         const fmsg = customElement
           ? 'But it may be a <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements" target="_blank">custom element</a>, assuming you\'ve imported this custom element yourself using a library or your own custom code.'
@@ -63,7 +63,7 @@ class HTMLStandards {
           const message = `${attr} is not a standard HTML attribute`
           const htmlMsg = `<code>${attr}</code> is not a standard HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">attribute</a>`
           const lines = code.split('\n')
-          const match = lines.filter(str => str.indexOf(attr) >= 0)[0]
+          const match = lines.filter(str => str.toLowerCase().indexOf(attr) >= 0)[0]
           line = lines.indexOf(match) + 1
           if (match) col = match.indexOf(attr)
 

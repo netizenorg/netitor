@@ -301,7 +301,7 @@ class Netitor {
   }
 
   highlight (line, color) {
-    if (line === 0) this._marked.clear()
+    if (this._marked && line === 0) this._marked.clear()
     if (typeof line !== 'number') {
       return this.err('highlight expects a number as it\'s first arg')
     } else if (color && typeof color !== 'string') {
