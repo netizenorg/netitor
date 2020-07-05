@@ -135,7 +135,7 @@ class Netitor {
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)
     })
 
-    this.cm.on('change', (cm) => this._editorChange(cm))
+    this.cm.on('change', (cm) => this._delayUpdate(cm))
     this.cm.on('cursorActivity', (cm) => this._cursorActivity(cm))
     this.cm.on('mousedown', (cm, e) => {
       // HACK: 'dblclick' doesn't always fire for some reason
@@ -175,48 +175,37 @@ class Netitor {
     return {}
   }
 
-  _editorChange (cm) {
-    if (this._hint && this._atEndOfWord(cm)) cm.showHint()
-    if (this._lint) this._runLint(cm)
-    if (this._auto) this._autoUpdate()
-  }
-
   _dblclick (cm, e) {
     const pos = cm.getCursor()
     const tok = cm.getTokenAt(pos)
     const lan = cm.getModeAt(pos).name
-    const o = {
-      language: lan === 'xml' ? 'html' : lan,
-      data: tok.string,
-      type: tok.type === 'tag' ? 'element' : tok.type
-    }
-    if (o.language === 'html') {
-      if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
-      if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
-    } else if (o.language === 'css') {
-      if (o.type === 'property' && cssProps[o.data]) o.nfo = cssProps[o.data]
-    } else if (o.language === 'javascript') {
-      // TODO
-      o.nfo = {
-        description: `this is a <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">JavaScript</a> ${o.type}, more info coming soon!`
-      }
-    }
-    this.emit('edu-info', o)
+    const obj = this._eduInfo(tok, lan)
+    this.emit('edu-info', obj)
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•  PRIVATE METHODS
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
-  _autoUpdate () {
+  _delayUpdate (cm) {
+    // TODO: better debounce logic, so this doesn't run unless there's been an _adly worth of non typing in editor
     clearTimeout(this._autoCallback)
     if (this._prevState !== this.cm.getValue()) {
-      this._autoCallback = setTimeout(() => { this.update() }, this._adly)
+      this.emit('code-update', this.code)
+      this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
     }
     this._prevState = this.cm.getValue()
   }
 
+  _update (cm) {
+    if (this._hint && this._atEndOfWord(cm)) cm.showHint()
+    const errz = (this._lint) ? this._runLint(cm) : []
+    if (errz) this.emit('lint-error', errz)
+    if (this._auto) this.update()
+  }
+
   _updateRenderIframe () {
+    // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
     if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
     this.iframe = document.createElement('iframe')
     this.iframe.style.width = '100%'
@@ -247,6 +236,29 @@ class Netitor {
     return word.length > 0 && alone
   }
 
+  _eduInfo (tok, lan) {
+    const o = {
+      language: lan === 'xml' ? 'html' : lan,
+      data: tok.string,
+      type: tok.type === 'tag' ? 'element' : tok.type
+    }
+    if (o.language === 'html') {
+      if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
+      if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
+      else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
+        o.nfo = htmlAttr['data-*']
+      }
+    } else if (o.language === 'css') {
+      if (o.type === 'property' && cssProps[o.data]) o.nfo = cssProps[o.data]
+    } else if (o.language === 'javascript') {
+      // TODO
+      o.nfo = {
+        description: `this is a <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">JavaScript</a> ${o.type}, more info coming soon!`
+      }
+    }
+    return o
+  }
+
   _hinter (cm, options) {
     // TODO consider how i might augment default lists (see my old hinters)
     const pos = cm.getCursor()
@@ -260,17 +272,16 @@ class Netitor {
   }
 
   _runLint (cm) {
-    // NOTE: IN PROGRESS
+    let errz = []
     if (this._lang === 'css') {
-      const errz = cssLinter(this.code)
-      console.log(errz)
+      errz = errz.concat(cssLinter(this.code))
     } else if (this._lang === 'javascript') {
-      const errz = jsLinter(this.code)
-      console.log(errz)
+      errz = errz.concat(jsLinter(this.code))
     } else {
-      const errz = htmlLinter(this.code)
-      console.log(errz)
+      // TODO: parse out CSS && JS to lint separately
+      errz = errz.concat(htmlLinter(this.code))
     }
+    return errz
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
@@ -289,13 +300,22 @@ class Netitor {
     } else this.err(`${event} is not a valid event`)
   }
 
-  update () {
-    // TODO: prevent render on errors?
-    this.emit('code-update', this.code)
-    if (this.iframe) {
-      // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
-      this._updateRenderIframe()
+  highlight (line, color) {
+    if (line === 0) this._marked.clear()
+    if (typeof line !== 'number') {
+      return this.err('highlight expects a number as it\'s first arg')
+    } else if (color && typeof color !== 'string') {
+      return this.err('highlight expects a color string as it\'s second arg')
     }
+    const start = { line: line - 1, ch: 0 }
+    const end = { line: line - 1, ch: null }
+    const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
+    if (this._marked) this._marked.clear()
+    this._marked = this.cm.markText(start, end, { css })
+  }
+
+  update () {
+    if (this.iframe) this._updateRenderIframe()
   }
 }
 

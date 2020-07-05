@@ -27530,14 +27530,14 @@ module.exports={
       "html": "background",
       "text": "background"
     },
-    "status": "standard",
+    "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
       "text": "<body>, <table>, <td>, <th>"
     },
     "description": {
-      "html": "Specifies the URL of an image file.",
-      "text": "Specifies the URL of an image file."
+      "html": "Specifies the URL of an image file.\t\t\t",
+      "text": "Specifies the URL of an image file.\t\t\t"
     },
     "note": {
       "html": "<strong>Note:</strong> Although browsers and email clients may still support this attribute, it is obsolete. Use CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/background-image\" title=\"The background-image CSS property sets one or more background images on an element.\"><code>background-image</code></a> instead.",
@@ -27549,14 +27549,14 @@ module.exports={
       "html": "bgcolor",
       "text": "bgcolor"
     },
-    "status": "standard",
+    "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\" title=\"The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element.\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee\" title=\"The HTML &lt;marquee&gt; element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.\"><code>&lt;marquee&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody\" title=\"The HTML Table Body element (&lt;tbody&gt;) encapsulates a set of table rows (&lt;tr&gt; elements), indicating that they comprise the body of the table (&lt;table&gt;).\"><code>&lt;tbody&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot\" title=\"The HTML &lt;tfoot&gt; element defines a set of rows summarizing the columns of the table.\"><code>&lt;tfoot&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\" title=\"The HTML &lt;tr&gt; element defines a row of cells in a table. The row&apos;s cells can then be established using a mix of &lt;td&gt; (data cell) and &lt;th&gt; (header cell) elements.\"><code>&lt;tr&gt;</code></a>",
       "text": "<body>, <col>, <colgroup>, <marquee>, <table>, <tbody>, <tfoot>, <td>, <th>, <tr>"
     },
     "description": {
-      "html": "<p>Background color of the element.</p> ",
-      "text": "Background color of the element. "
+      "html": "<p>Background color of the element.</p>",
+      "text": "Background color of the element."
     },
     "note": {
       "html": "<p><strong>Note:</strong> This is a legacy attribute. Please use the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/background-color\" title=\"The background-color CSS property sets the background color of an element.\"><code>background-color</code></a> property instead.</p>",
@@ -27568,14 +27568,14 @@ module.exports={
       "html": "border",
       "text": "border"
     },
-    "status": "standard",
+    "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>",
       "text": "<img>, <object>, <table>"
     },
     "description": {
-      "html": "<p>The border width.</p> ",
-      "text": "The border width. "
+      "html": "<p>The border width.</p>",
+      "text": "The border width."
     },
     "note": {
       "html": "<p><strong>Note:</strong> This is a legacy attribute. Please use the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/border\" title=\"The border shorthand CSS property sets an element&apos;s border.\"><code>border</code></a> property instead.</p>",
@@ -27731,14 +27731,14 @@ module.exports={
       "html": "color",
       "text": "color"
     },
-    "status": "standard",
+    "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/basefont\" title=\"The obsolete HTML Base Font element (&lt;basefont&gt;) sets a default font face, size, and color for the other elements which are descended from its parent element.\"><code>&lt;basefont&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font\" title=\"The HTML Font Element (&lt;font&gt;) defines the font size, color and face for its content.\"><code>&lt;font&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr\" title=\"The HTML &lt;hr&gt; element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.\"><code>&lt;hr&gt;</code></a>",
       "text": "<basefont>, <font>, <hr>"
     },
     "description": {
-      "html": "<p>This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format.</p> ",
-      "text": "This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format. "
+      "html": "<p>This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format.</p>",
+      "text": "This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format."
     },
     "note": {
       "html": "<p><strong>Note:</strong> This is a legacy attribute. Please use the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/color\" title=\"The color CSS property sets the foreground color value of an element&apos;s text and text decorations, and sets the currentcolor value.\"><code>color</code></a> property instead.</p>",
@@ -27859,7 +27859,7 @@ module.exports={
   },
   "crossorigin": {
     "attribute": {
-      "html": "<a target=\"_blank\" href=\"/docs/Web/HTML/CORS_settings_attributes\">crossorigin</a>",
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/docs/Web/HTML/CORS_settings_attributes\">crossorigin</a>",
       "text": "crossorigin"
     },
     "status": "standard",
@@ -27875,7 +27875,7 @@ module.exports={
   },
   "csp": {
     "attribute": {
-      "html": "<a target=\"_blank\" href=\"/docs/Web/API/HTMLiframeElement/csp\">csp</a>",
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/docs/Web/API/HTMLiframeElement/csp\">csp</a>",
       "text": "csp"
     },
     "status": "experimental",
@@ -28067,7 +28067,7 @@ module.exports={
   },
   "dropzone": {
     "attribute": {
-      "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/dropzone\" rel=\"nofollow\">dropzone</a>",
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dropzone\">dropzone</a>",
       "text": "dropzone"
     },
     "status": "standard",
@@ -28246,14 +28246,14 @@ module.exports={
       "html": "height",
       "text": "height"
     },
-    "status": "standard",
+    "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\" title=\"Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations.\"><code>&lt;canvas&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
       "text": "<canvas>, <embed>, <iframe>, <img>, <input>, <object>, <video>"
     },
     "description": {
-      "html": "<p>Specifies the height of elements listed here. For all other elements, use the CSS <a href=\"/en-US/docs/Web/CSS/height\" title=\"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\"><code>height</code></a> property.</p> ",
-      "text": "Specifies the height of elements listed here. For all other elements, use the CSS height property. "
+      "html": "<p>Specifies the height of elements listed here. For all other elements, use the CSS <a href=\"/en-US/docs/Web/CSS/height\" title=\"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\"><code>height</code></a> property.</p>",
+      "text": "Specifies the height of elements listed here. For all other elements, use the CSS height property."
     },
     "note": {
       "html": "<p><strong>Note:</strong> In some instances, such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div\" title=\"The HTML Content Division element (&lt;div&gt;) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.\"><code>&lt;div&gt;</code></a>, this is a legacy attribute, in which case the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\" title=\"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\"><code>height</code></a> property should be used instead.</p>",
@@ -28559,8 +28559,8 @@ module.exports={
       "text": "<img>, <iframe>"
     },
     "description": {
-      "html": "Indicates if the element should be loaded lazily (<code>loading=&quot;lazy&quot;</code>) or loaded immediately (<code>loading=&quot;eager&quot;</code>).",
-      "text": "Indicates if the element should be loaded lazily (loading=\"lazy\") or loaded immediately (loading=\"eager\")."
+      "html": "Indicates if the element should be loaded lazily (<code>loading=&quot;lazy&quot;</code>) or loaded immediately (<code>loading=&quot;eager&quot;</code>).\t\t\t",
+      "text": "Indicates if the element should be loaded lazily (loading=\"lazy\") or loaded immediately (loading=\"eager\").\t\t\t"
     },
     "note": {
       "html": "<strong>WIP:</strong> <a class=\"external\" target=\"_blank\" href=\"https://github.com/whatwg/html/pull/3752\" rel=\"noopener\">WHATWG PR #3752</a>",
@@ -28620,14 +28620,14 @@ module.exports={
       "html": "manifest",
       "text": "manifest"
     },
-    "status": "standard",
+    "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML &lt;html&gt; element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>",
       "text": "<html>"
     },
     "description": {
-      "html": "Specifies the URL of the document&apos;s cache manifest.",
-      "text": "Specifies the URL of the document's cache manifest."
+      "html": "Specifies the URL of the document&apos;s cache manifest.\t\t\t",
+      "text": "Specifies the URL of the document's cache manifest.\t\t\t"
     },
     "note": {
       "html": "<strong>Note:</strong> This attribute is obsolete, use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Manifest\"><code>&lt;link rel=&quot;manifest&quot;&gt;</code></a> instead.",
@@ -29425,7 +29425,7 @@ module.exports={
     },
     "status": "standard",
     "elements": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data\" title=\"The HTML &lt;data&gt; element links a given content with a machine-readable translation. If the content is time- or date-related, the &lt;time&gt; element must be used.\"><code>&lt;data&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li\" title=\"The HTML &lt;li&gt; element is used to represent an item in a list.\"><code>&lt;li&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\" title=\"The HTML &lt;param&gt; element defines parameters for an &lt;object&gt; element.\"><code>&lt;param&gt;</code></a>",
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data\" title=\"The HTML &lt;data&gt; element links a given piece of&#xA0;content with a machine-readable translation. If the content is time- or date-related, the &lt;time&gt; element must be used.\"><code>&lt;data&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li\" title=\"The HTML &lt;li&gt; element is used to represent an item in a list.\"><code>&lt;li&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\" title=\"The HTML &lt;param&gt; element defines parameters for an &lt;object&gt; element.\"><code>&lt;param&gt;</code></a>",
       "text": "<button>, <data>, <input>, <li>, <meter>, <option>, <progress>, <param>"
     },
     "description": {
@@ -29439,14 +29439,14 @@ module.exports={
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/width\" rel=\"nofollow\">width</a>",
       "text": "width"
     },
-    "status": "standard",
+    "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\" title=\"Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations.\"><code>&lt;canvas&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
       "text": "<canvas>, <embed>, <iframe>, <img>, <input>, <object>, <video>"
     },
     "description": {
-      "html": "<p>For the elements listed here, this establishes the element&apos;s width.</p> ",
-      "text": "For the elements listed here, this establishes the element's width. "
+      "html": "<p>For the elements listed here, this establishes the element&apos;s width.</p>",
+      "text": "For the elements listed here, this establishes the element's width."
     },
     "note": {
       "html": "<p><strong>Note:</strong> For all other instances, such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div\" title=\"The HTML Content Division element (&lt;div&gt;) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.\"><code>&lt;div&gt;</code></a>, this is a legacy attribute, in which case the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\" title=\"The width CSS property sets an element&apos;s width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\"><code>width</code></a> property should be used instead.</p>",
@@ -31520,39 +31520,323 @@ function linter (code) {
 module.exports = linter
 
 },{}],25:[function(require,module,exports){
-// const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
+const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 
-class HTMLFriendlyLinter {
-  static verifyStandardElements (doc) {
+function parseKeyword (o) {
+  return o.message.substring(
+    o.message.indexOf(o.start) + o.start.length,
+    o.message.indexOf(o.end)
+  )
+}
+
+function htmlToStr (html) {
+  return html.replace(/</g, '&lt;').replace(/>/g, '&gt;')
+}
+
+const translate = {
+  'doctype-first': (obj) => {
+    obj.type = 'warning'
+    obj.friendly = 'You forgot to specify a doctype (aka <a href="https://en.wikipedia.org/wiki/Document_type_declaration" target="_blank">document type declaration</a>). You should let the browser know this code was written in the era of HTML5 (our present web era) by including <code>&lt;!DOCTYPE html&gt;</code> at the top of your file. Using the proper doctype not only avoids having the browser misrender your code (see <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode" target="_blank">quirks mode</a>) but also helps to future proof your work.'
+    return obj
+  },
+  'doctype-html5': (obj) => {
+    obj.friendly = 'You\'re using a doctype (aka <a href="https://en.wikipedia.org/wiki/Document_type_declaration" target="_blank">document type declaration</a>) from a previous era. We\'re currently in the era of HTML5 so the doctype should look like <code>&lt;!DOCTYPE html&gt;</code>. Using the proper doctype not only avoids having the browser misrender your code (see <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode" target="_blank">quirks mode</a>) but also helps to future proof your work.'
+    return obj
+  },
+  'head-script-disabled': (obj) => {
+    obj.friendly = 'Are you sure you meant to put that <code>&lt;script&gt;</code> element in your <code>&lt;head&gt;</code>? JavaScript is often used to dynamically change the content of your HTML document, and so it\'s best to include it after all the other elements in your <code>&lt;body&gt;</code>. This will guarentee all the other elements exist before the JavaScript code attempts to reference and/or modify them. In some rare cases you do need to place the <code>&lt;script&gt;</code> element in your <code>&lt;head&gt;</code> (when including a library that creates custom elements being used in your <code>&lt;body&gt;</code> for example), but if this not one of those cases it might be best to move this <code>&lt;script&gt;</code>'
+    return obj
+  },
+  'style-disabled': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'title-require': (obj) => {
+    const msg = obj.message
+    obj.type = 'warning'
+    if (msg.includes('must not be empty')) {
+      obj.friendly = 'You\'re a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank"><code>&lt;title&gt;</code></a> doesn\'t seem to have any content between it\'s opening and closing tags.'
+    } else {
+      obj.friendly = 'You are missing a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank"><code>&lt;title&gt;</code></a> element in your <code>&lt;head&gt;</code>. While it is not technically required, it\'s highly recommended. Without it your browser tabs will display the name of the file by default and search engines won\'t know how to list the name of your page in their results.'
+    }
+    return obj
+  },
+  'attr-lowercase': (obj) => {
+    const attr = parseKeyword({
+      message: obj.message,
+      start: 'The attribute name of [ ',
+      end: ' ] must be in lowercase.'
+    })
+    obj.type = 'warning'
+    obj.friendly = `You shouldn't write attribute names in upper case like <code>${attr}</code>, instead they should be lower case like: <code>${attr.toLowerCase()}</code>. Previous versions of HTML required attribute names to be written in upper case, these days (in the era of HTML5) you can technically write them in either upper or lower case, but it's considered better practice to write them in lower case, because most folks find it easeir to read. In either case, it's best to keep your code consistent.`
+    return obj
+  },
+  'attr-no-duplication': (obj) => {
+    const attr = parseKeyword({
+      message: obj.message,
+      start: 'Duplicate of attribute name [ ',
+      end: ' ] was found'
+    })
+    obj.friendly = `You've declared the <code>${attr}</code> attribute twice in the same element. Attributes should only appear once per element.`
+    return obj
+  },
+  'attr-no-unnecessary-whitespace': (obj) => {
+    const attr = parseKeyword({
+      message: obj.message, start: 'attribute \'', end: '\' must not'
+    })
+    obj.friendly = `HTML attributes should not have any spaces between the name, the <code>=</code> symobl, and the value. You're <code>${attr}</code> seems to have an unnecessary space around its <code>=</code> symobl.`
+    return obj
+  },
+  'attr-sorted': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'attr-unsafe-chars': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'attr-value-double-quotes': (obj) => {
+    const attr = parseKeyword({
+      message: obj.message, start: 'attribute [ ', end: ' ] must'
+    })
+    obj.friendly = `You're <code>${attr}</code> attribute has it's value set with single quotes, but HTML attribute values should use double quotes.`
+    return obj
+  },
+  'attr-value-not-empty': (obj) => {
+    const attr = parseKeyword({
+      message: obj.message, start: 'attribute [ ', end: ' ] must'
+    })
+    // TODO make an exception list for stuff like controls, etc
+    obj.friendly = `Your <code>${attr}</code> attribute is missing a value.`
+    return obj
+  },
+  'attr-whitespace': (obj) => {
+    const attr = parseKeyword({
+      message: obj.message, start: 'The attributes of [ ', end: ' ] must '
+    })
+    if (obj.message.includes('trailing whitespace')) {
+      obj.friendly = `You have unnecessary spaces either before or after the value within the quotes of the <code>${attr}</code> attribute.`
+    } else if (attr === 'class') {
+      obj.friendly = 'You should only have a single space between a list of class names applied to an element within the quotes of the <code>class</code> attribute\'s value.'
+    } else {
+      obj.friendly = `You should only have a single space between individual values within the quotes of your <code>${attr}</code> attribute's value.`
+    }
+    return obj
+  },
+  'alt-require': (obj) => {
+    obj.friendly = `Your <code>${htmlToStr(obj.evidence)}</code> is missing it's <code>alt</code> attribute. The alt attribute's value should be a description of the image, while it isn't mandatory it is incredibly useful for accessibility — screen readers read this description out to their users so they know what the image means. Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or <a href="https://en.wikipedia.org/wiki/Link_rot" target="_blank">linkrot</a>.`
+    return obj
+  },
+  'tags-check': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'tag-pair': (obj) => {
+    const msg = obj.message
+    // check that singleton's don't have closing tags
+    if (msg.includes('Tag must be paired, no start tag: [ </')) {
+      const tagname = parseKeyword({
+        message: msg,
+        start: 'Tag must be paired, no start tag: [ </',
+        end: '> ]'
+      })
+      if (singletons.includes(tagname)) {
+        obj.friendly = `The <code>&lt;${tagname}&gt;</code> element is known as a "singleton" or "void element", which means it's one of the few elements that shouldn't have a closing tag (only an opening tag)`
+        return obj
+      }
+    }
+
+    // if not singleton, assuming then either opening/closing tag is missing
+    const line = msg.substring(msg.length - 2, msg.length - 1)
+    const tagname = parseKeyword({
+      message: msg, start: 'tag match failed [ <', end: '> ] on line'
+    })
+
+    obj.friendly = `It looks like the <code>&lt;${tagname}&gt;</code> tag on line ${line} doesn't have a matching closing tag. If you did add a closing tag make sure you spelled the element's name correctly in both the <a href="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png" target="_blank">opening and closing tags</a>.`
+    return obj
+  },
+  'tag-self-close': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'tagname-lowercase': (obj) => {
+    const tagname = parseKeyword({
+      message: obj.message,
+      start: 'The html element name of [ ',
+      end: ' ] must be in lowercase.'
+    })
+    obj.type = 'warning'
+    obj.friendly = `You shouldn't write tag names in upper case like <code>&lt;${tagname}&gt;</code>, instead they should be lower case like <code>&lt;${tagname.toLowerCase()}&gt;</code>. Previous versions of HTML required tag names to be written in upper case, these days (in the era of HTML5) you can technically write them in either upper or lower case, but it's considered better practice to write them in lower case, because most folks find it easeir to read. In either case, it's best to keep your code consistent.`
+    return obj
+  },
+  'empty-tag-not-self-closed': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'src-not-empty': (obj) => {
+    const tagname = parseKeyword({
+      message: obj.message,
+      start: ' ] of the tag [ ',
+      end: ' ] must have'
+    })
+    const attr = parseKeyword({
+      message: obj.message,
+      start: 'attribute [ ',
+      end: ' ] of the tag [ '
+    })
+    obj.friendly = `It looks like your <code>&lt;${tagname}&gt;</code> on line ${obj.line} has an empty <code>${attr}</code> attribute. Don't forget to set it's value.`
+    return obj
+  },
+  'href-abs-or-rel': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'input-requires-label': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'script-disabled': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'id-class-ad-disabled': (obj) => {
+    const attr = obj.message.includes(' class ') ? 'class' : 'id'
+    obj.friendly = `Careful, the <code>${attr}</code> you've set on line ${obj.line} has the word "ad" in it. If a viewer is using an ad-blocker in their browser it might effect this element.`
+    return obj
+  },
+  'id-class-value': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'id-unique': (obj) => {
+    const id = parseKeyword({
+      message: obj.message, start: 'value [ ', end: ' ] must '
+    })
+    obj.friendly = `While different elements can have the same <code>class</code> applied to them, the value of the <code>id</code> attribute is meant to be unique. It looks like you've used set <code>id="${id}"</code> on more than one element.`
+    return obj
+  },
+  'inline-script-disabled': (obj) => {
+    const attr = parseKeyword({
+      message: obj.message, start: 'script [  ', end: ' ] cannot'
+    })
+    obj.friendly = `Careful, though it is possible to run JavaScript code "inline" by setting attribute event handlers like <code>${attr}</code>, this approach is considered "obsolete", you should <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events" target="_blank">handle events like this</a> in your JavaScript code instead.`
+    return obj
+  },
+  'inline-style-disabled': (obj) => {
+    const css = parseKeyword({
+      message: obj.message, start: 'style [  ', end: ' ] cannot'
+    })
+    obj.friendly = `Careful, though "inline styling" (like the kind you are doing here <code>${css}</code>) is technically ok, it's better practice to keep your CSS between <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style" target="_blank">&lt;style&gt;</a> tags or saved in their own CSS file and imported/included in your HTML page using a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link" target="_blank">&lt;link&gt;</a> tag.`
+    return obj
+  },
+  'space-tab-mixed-disabled': (obj) => {
+    obj.friendly = obj.message
+    return obj
+  },
+  'spec-char-escape': (obj) => {
+    const char = parseKeyword({
+      message: obj.message, start: 'escaped : [ ', end: ' ]'
+    }).replace(/\s/g, '')
+    const convert = { '<': 'lt;', '>': 'gt;', '&': 'amp;' }
+    obj.type = 'warning'
+    obj.friendly = `Careful, the "&${convert[char]}" is a special symbol in HTML, use "&amp;${convert[char]}" instead, this will appear like "&${convert[char]}" on your page.`
+    return obj
+  }
+}
+
+module.exports = translate
+
+},{"../edu-data/html-elements.json":23}],26:[function(require,module,exports){
+const htmlEles = require('../edu-data/html-elements.json')
+const htmlAttr = require('../edu-data/html-attributes.json')
+
+class HTMLStandards {
+  static verifyStandardElements (doc, code) {
     const errz = []
+    let line = 0
+    let col = 0
+    const type = 'warning'
+    const rule = {
+      id: 'standard-elements',
+      description: 'Element must be standard HTML',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element'
+    }
+
     for (let i = 0; i < doc.all.length; i++) {
       const name = doc.all[i].localName
       const valid = Object.prototype.hasOwnProperty.call(htmlEles, name)
+      const message = `<${name}> is not a standard HTML element`
+      const htmlMsg = `<code>&lt;${name}&gt;</code> is not a standard HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">element</a>`
       if (!valid) {
-        const col = 0
-        const line = 0
-        const type = 'warning'
-        const rule = {
-          id: 'standard-elements',
-          description: 'Element must be standard HTML',
-          link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element'
-        }
-        const message = `<${name}> is not a standard HTML element`
-
         const customElement = (
           name.includes('-') &&
           name.indexOf('-') !== 0 &&
           name.indexOf('-') !== name.length - 1
         )
 
-        const fmsg = customElement
-          ? 'But it may be a <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements" alt="Custom Elements" target="_blank">custom element</a>, assuming you\'ve imported this custom element yourself using a library or your own custom code.'
-          : 'This won\'t break your HTML page, but it might not do what you\'re expecting.'
+        const lines = code.split('\n')
+        const match = lines.filter(str => str.indexOf(name) >= 0)[0]
+        line = lines.indexOf(match) + 1
+        if (match) col = match.indexOf(name)
 
-        const friendly = `${message}. ${fmsg}`
+        const fmsg = customElement
+          ? 'But it may be a <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements" target="_blank">custom element</a>, assuming you\'ve imported this custom element yourself using a library or your own custom code.'
+          : 'This might not break your HTML page, but regardless is probably not doing what you might be expecting.'
+
+        const friendly = `${htmlMsg}. ${fmsg}`
         const evidence = name
         errz.push({ type, message, friendly, evidence, col, line, rule })
+      }
+    }
+    return errz
+  }
+
+  static verifyStandardAttributes (doc, code) {
+    const errz = []
+    let line = 0
+    let col = 0
+    const type = 'warning'
+    const rule = {
+      id: 'standard-attributes',
+      description: 'Attribute must be standard HTML',
+      link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes'
+    }
+
+    for (let i = 0; i < doc.all.length; i++) {
+      const element = doc.all[i].localName
+      if (Object.prototype.hasOwnProperty.call(htmlEles, element)) {
+        const attrs = doc.all[i].attributes
+        for (let i = 0; i < attrs.length; i++) {
+          const attr = attrs[i].localName
+          const evidence = attr
+          const message = `${attr} is not a standard HTML attribute`
+          const htmlMsg = `<code>${attr}</code> is not a standard HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">attribute</a>`
+          const lines = code.split('\n')
+          const match = lines.filter(str => str.indexOf(attr) >= 0)[0]
+          line = lines.indexOf(match) + 1
+          if (match) col = match.indexOf(attr)
+
+          if (!Object.keys(htmlAttr).includes(attr)) {
+            const reEvent = /^on(unload|message|submit|select|scroll|resize|mouseover|mouseout|mousemove|mouseleave|mouseenter|mousedown|load|keyup|keypress|keydown|focus|dblclick|click|change|blur|error)$/i
+            if (attr.indexOf('data-') !== 0 && !reEvent.test(attr)) {
+              const fmsg = `Check your spelling. If you were trying to create your own <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes" target="_blank">custom data attribute</a> you need to write it like this: <code>data-${attr}</code>`
+              const friendly = `${htmlMsg}. ${fmsg}`
+
+              errz.push({ type, message, friendly, evidence, col, line, rule })
+            }
+          } else if (htmlAttr[attr].status !== 'standard') {
+            let fmsg = 'It may be depreciated or obsolete.'
+            if (htmlAttr[attr].status === 'experimental') {
+              fmsg = `<code>${attr}</code> is an experimental attribute, it may not work on all browsers. If browser compatability is important to you make sure you test your work on different browsers to be safe (or maybe avoid using it).`
+            } else if (htmlAttr[attr].status === 'obsolete') {
+              if (htmlAttr[attr].note) fmsg += htmlAttr[attr].note.html
+            }
+            const friendly = `${htmlMsg}. ${fmsg}`
+
+            errz.push({ type, message, friendly, evidence, col, line, rule })
+          }
+        }
       }
     }
     return errz
@@ -31564,41 +31848,27 @@ class HTMLFriendlyLinter {
     let errz = []
 
     if (Object.prototype.hasOwnProperty.call(rules, 'standard-elements')) {
-      errz = errz.concat(HTMLFriendlyLinter.verifyStandardElements(doc))
+      errz = errz.concat(HTMLStandards.verifyStandardElements(doc, code))
+    }
+
+    if (Object.prototype.hasOwnProperty.call(rules, 'standard-attributes')) {
+      errz = errz.concat(HTMLStandards.verifyStandardAttributes(doc, code))
     }
 
     return errz
   }
 }
 
-module.exports = HTMLFriendlyLinter
+module.exports = HTMLStandards
 
-},{"../edu-data/html-elements.json":23}],26:[function(require,module,exports){
-const translate = {
-  'doctype-first': (message) => {
-    return null
-  },
-  'tag-pair': (message) => {
-    const startStr = ' open tag match failed [ <'
-    const endStr = '> ] on line'
-    const tagname = message.substring(
-      message.indexOf(startStr) + startStr.length,
-      message.indexOf(endStr)
-    )
-    const line = message.substring(message.length - 2, message.length - 1)
-    return `It looks like the <${tagname}> tag on line ${line} doesn't have a matching closing tag. If you did add a closing tag make sure you spelled the element's name right.`
-  }
-}
-
-module.exports = translate
-
-},{}],27:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":22,"../edu-data/html-elements.json":23}],27:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
-const HTMLFriendlyLinter = require('./html-friendly-linter.js')
+const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
 
-const HTMLFriendlyLinterRules = {
-  'standard-elements': true
+const HTMLStandardsRules = {
+  'standard-elements': true,
+  'standard-attributes': true
 }
 
 // reles: https://github.com/htmlhint/HTMLHint/tree/master/src/core/rules
@@ -31613,25 +31883,25 @@ const HTMLHintRules = {
   'attr-lowercase': true,
   'attr-no-duplication': true,
   'attr-no-unnecessary-whitespace': true,
-  'attr-sorted': false,
+  'attr-sorted': false, // nope
   'attr-unsafe-chars': true,
   'attr-value-double-quotes': true,
   'attr-value-not-empty': true,
   'attr-whitespace': true,
   'alt-require': true,
   // tags
-  'tags-check': false, // AGGRESIVE!!!
+  'tags-check': false, // nope
   'tag-pair': true,
   'tag-self-close': false, // nope
   'tagname-lowercase': true,
   'empty-tag-not-self-closed': false, // nope
   'src-not-empty': true,
-  'href-abs-or-rel': true,
+  'href-abs-or-rel': false, // nope
   'input-requires-label': false, // nope
   'script-disabled': false, // nope
   // id
   'id-class-ad-disabled': true,
-  'id-class-value': true,
+  'id-class-value': false, // nope
   'id-unique': true,
   // inline
   'inline-script-disabled': true,
@@ -31642,21 +31912,19 @@ const HTMLHintRules = {
 }
 
 function linter (code) {
+  const frdlyErr = HTMLStandards.verify(code, HTMLStandardsRules)
   const err = HTMLHint.verify(code, HTMLHintRules)
-  const friendlyErr = HTMLFriendlyLinter.verify(code, HTMLFriendlyLinterRules)
-
   for (let i = 0; i < err.length; i++) {
     const rule = err[i].rule.id
-    const message = err[i].message
-    err[i].friendly = HTMLTranslateError[rule](message)
+    err[i] = HTMLTranslateError[rule](err[i])
   }
 
-  return err.concat(friendlyErr)
+  return frdlyErr.concat(err)
 }
 
 module.exports = linter
 
-},{"./html-friendly-linter.js":25,"./html-friendly-translator.js":26,"htmlhint":19}],28:[function(require,module,exports){
+},{"./html-friendly-translator.js":25,"./html-standards-validator.js":26,"htmlhint":19}],28:[function(require,module,exports){
 function linter (code) {
   return null
 }
@@ -31801,7 +32069,7 @@ class Netitor {
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)
     })
 
-    this.cm.on('change', (cm) => this._editorChange(cm))
+    this.cm.on('change', (cm) => this._delayUpdate(cm))
     this.cm.on('cursorActivity', (cm) => this._cursorActivity(cm))
     this.cm.on('mousedown', (cm, e) => {
       // HACK: 'dblclick' doesn't always fire for some reason
@@ -31841,48 +32109,37 @@ class Netitor {
     return {}
   }
 
-  _editorChange (cm) {
-    if (this._hint && this._atEndOfWord(cm)) cm.showHint()
-    if (this._lint) this._runLint(cm)
-    if (this._auto) this._autoUpdate()
-  }
-
   _dblclick (cm, e) {
     const pos = cm.getCursor()
     const tok = cm.getTokenAt(pos)
     const lan = cm.getModeAt(pos).name
-    const o = {
-      language: lan === 'xml' ? 'html' : lan,
-      data: tok.string,
-      type: tok.type === 'tag' ? 'element' : tok.type
-    }
-    if (o.language === 'html') {
-      if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
-      if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
-    } else if (o.language === 'css') {
-      if (o.type === 'property' && cssProps[o.data]) o.nfo = cssProps[o.data]
-    } else if (o.language === 'javascript') {
-      // TODO
-      o.nfo = {
-        description: `this is a <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">JavaScript</a> ${o.type}, more info coming soon!`
-      }
-    }
-    this.emit('edu-info', o)
+    const obj = this._eduInfo(tok, lan)
+    this.emit('edu-info', obj)
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•  PRIVATE METHODS
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
-  _autoUpdate () {
+  _delayUpdate (cm) {
+    // TODO: better debounce logic, so this doesn't run unless there's been an _adly worth of non typing in editor
     clearTimeout(this._autoCallback)
     if (this._prevState !== this.cm.getValue()) {
-      this._autoCallback = setTimeout(() => { this.update() }, this._adly)
+      this.emit('code-update', this.code)
+      this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
     }
     this._prevState = this.cm.getValue()
   }
 
+  _update (cm) {
+    if (this._hint && this._atEndOfWord(cm)) cm.showHint()
+    const errz = (this._lint) ? this._runLint(cm) : []
+    if (errz) this.emit('lint-error', errz)
+    if (this._auto) this.update()
+  }
+
   _updateRenderIframe () {
+    // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
     if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
     this.iframe = document.createElement('iframe')
     this.iframe.style.width = '100%'
@@ -31913,6 +32170,29 @@ class Netitor {
     return word.length > 0 && alone
   }
 
+  _eduInfo (tok, lan) {
+    const o = {
+      language: lan === 'xml' ? 'html' : lan,
+      data: tok.string,
+      type: tok.type === 'tag' ? 'element' : tok.type
+    }
+    if (o.language === 'html') {
+      if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
+      if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
+      else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
+        o.nfo = htmlAttr['data-*']
+      }
+    } else if (o.language === 'css') {
+      if (o.type === 'property' && cssProps[o.data]) o.nfo = cssProps[o.data]
+    } else if (o.language === 'javascript') {
+      // TODO
+      o.nfo = {
+        description: `this is a <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">JavaScript</a> ${o.type}, more info coming soon!`
+      }
+    }
+    return o
+  }
+
   _hinter (cm, options) {
     // TODO consider how i might augment default lists (see my old hinters)
     const pos = cm.getCursor()
@@ -31926,17 +32206,16 @@ class Netitor {
   }
 
   _runLint (cm) {
-    // NOTE: IN PROGRESS
+    let errz = []
     if (this._lang === 'css') {
-      const errz = cssLinter(this.code)
-      console.log(errz)
+      errz = errz.concat(cssLinter(this.code))
     } else if (this._lang === 'javascript') {
-      const errz = jsLinter(this.code)
-      console.log(errz)
+      errz = errz.concat(jsLinter(this.code))
     } else {
-      const errz = htmlLinter(this.code)
-      console.log(errz)
+      // TODO: parse out CSS && JS to lint separately
+      errz = errz.concat(htmlLinter(this.code))
     }
+    return errz
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
@@ -31955,13 +32234,22 @@ class Netitor {
     } else this.err(`${event} is not a valid event`)
   }
 
-  update () {
-    // TODO: prevent render on errors?
-    this.emit('code-update', this.code)
-    if (this.iframe) {
-      // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
-      this._updateRenderIframe()
+  highlight (line, color) {
+    if (line === 0) this._marked.clear()
+    if (typeof line !== 'number') {
+      return this.err('highlight expects a number as it\'s first arg')
+    } else if (color && typeof color !== 'string') {
+      return this.err('highlight expects a color string as it\'s second arg')
     }
+    const start = { line: line - 1, ch: 0 }
+    const end = { line: line - 1, ch: null }
+    const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
+    if (this._marked) this._marked.clear()
+    this._marked = this.cm.markText(start, end, { css })
+  }
+
+  update () {
+    if (this.iframe) this._updateRenderIframe()
   }
 }
 

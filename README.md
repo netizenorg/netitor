@@ -65,10 +65,12 @@ ne.friendlyErr = false
 
 **update()**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`
 
+**highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red). To remove a highlight simply call the method with 0 as the first argument (ex: `ne.highlight(0)`).
+
 **on('event-name', callbackFunction)**: the netitor has a l(still working on it)ist of events you can listen for and pass a callback function to, for example:
 
 ```js
-ne.on('code-update', (data) => {
+ne.on('code-update', (event) => {
   // this function will run every time the code in the editor changes
 })
 ```
@@ -83,7 +85,7 @@ ne.on('code-update', (data) => {
   language: 'css',
   data: 'color'
 }
-```
+```admitidly
 
 **lint-error**: Assuming you have `lint` set to `true`, if/when there are any errors in the netitor this callback will fire (**STILL IN DEVELOPMENT**)
 

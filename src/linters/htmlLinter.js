@@ -1,9 +1,10 @@
 const HTMLTranslateError = require('./html-friendly-translator.js')
-const HTMLFriendlyLinter = require('./html-friendly-linter.js')
+const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
 
-const HTMLFriendlyLinterRules = {
-  'standard-elements': true
+const HTMLStandardsRules = {
+  'standard-elements': true,
+  'standard-attributes': true
 }
 
 // reles: https://github.com/htmlhint/HTMLHint/tree/master/src/core/rules
@@ -18,25 +19,25 @@ const HTMLHintRules = {
   'attr-lowercase': true,
   'attr-no-duplication': true,
   'attr-no-unnecessary-whitespace': true,
-  'attr-sorted': false,
+  'attr-sorted': false, // nope
   'attr-unsafe-chars': true,
   'attr-value-double-quotes': true,
   'attr-value-not-empty': true,
   'attr-whitespace': true,
   'alt-require': true,
   // tags
-  'tags-check': false, // AGGRESIVE!!!
+  'tags-check': false, // nope
   'tag-pair': true,
   'tag-self-close': false, // nope
   'tagname-lowercase': true,
   'empty-tag-not-self-closed': false, // nope
   'src-not-empty': true,
-  'href-abs-or-rel': true,
+  'href-abs-or-rel': false, // nope
   'input-requires-label': false, // nope
   'script-disabled': false, // nope
   // id
   'id-class-ad-disabled': true,
-  'id-class-value': true,
+  'id-class-value': false, // nope
   'id-unique': true,
   // inline
   'inline-script-disabled': true,
@@ -47,16 +48,14 @@ const HTMLHintRules = {
 }
 
 function linter (code) {
+  const frdlyErr = HTMLStandards.verify(code, HTMLStandardsRules)
   const err = HTMLHint.verify(code, HTMLHintRules)
-  const friendlyErr = HTMLFriendlyLinter.verify(code, HTMLFriendlyLinterRules)
-
   for (let i = 0; i < err.length; i++) {
     const rule = err[i].rule.id
-    const message = err[i].message
-    err[i].friendly = HTMLTranslateError[rule](message)
+    err[i] = HTMLTranslateError[rule](err[i])
   }
 
-  return err.concat(friendlyErr)
+  return frdlyErr.concat(err)
 }
 
 module.exports = linter

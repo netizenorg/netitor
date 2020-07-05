@@ -24,9 +24,21 @@
         color: var(--netizen-white);
       }
 
-      #nfo > p { max-width: 650px; }
+      #nfo > p { max-width: 650px; line-height: 25px; }
       #nfo a { color: var(--netizen-red); }
       #nfo a:hover { color: var(--netizen-purple); }
+      #nfo > p code {
+        color: var(--netizen-black);
+        padding: 4px 10px;
+        border-radius: 5px;
+        font-size: 14px;
+        background-color: var(--netizen-red);
+      }
+
+      .error {
+        background-color: rgb(100, 0, 0) !important;
+        padding: 20px !important;
+      }
 
     </style>
   </head>
@@ -41,7 +53,8 @@
     <script src="build/netitor.js"></script>
     <script>
 
-      const exampleCode = `<div>
+      const exampleCode = `<!DOCTYPE html>
+<div>
   <style>
     .info { color: green; }
     body { background-color: yellow; }
@@ -60,49 +73,71 @@
         code: exampleCode
       })
 
-      ne.on('hint-select', (data) => {
+      ne.on('hint-select', (eve) => {
         // just one example for how u might make use of our built in edu info
       })
 
-      ne.on('edu-info', (data) => {
+      ne.on('lint-error', (eve) => {
+        // just one example for how u might make use of our built in error messages
+        console.log(eve)
+        if (eve.length > 0) {
+          let err = eve[0]
+          ne.highlight(err.line)
+          document.querySelector('#nfo').className = 'error'
+          document.querySelector('#nfo').innerHTML = err.friendly
+            ? `<p>${err.friendly}</p>` : `<p>${err.message}</p>`
+        } else {
+          document.querySelector('#nfo').innerHTML = ''
+          document.querySelector('#nfo').className = ''
+          ne.highlight(0) // remove any highlighted lines
+        }
+      })
+
+      ne.on('edu-info', (eve) => {
         // just one example for how u might make use of our built in edu info
-        console.log(data)
-        if (data.nfo) {
-          if (data.language === 'html') showHTMLNFO(data)
-          else if (data.language === 'css') showCSSNFO(data)
-          else if (data.language === 'javascript') showJSNFO(data)
+        console.log(eve)
+        if (eve.nfo) {
+          document.querySelector('#nfo').className = ''
+          if (eve.language === 'html') showHTMLNFO(eve)
+          else if (eve.language === 'css') showCSSNFO(eve)
+          else if (eve.language === 'javascript') showJSNFO(eve)
         } else document.querySelector('#nfo').innerHTML = ''
       })
 
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* some example helper functions
 
-      function showJSNFO (data) {
+      function showJSNFO (eve) {
         document.querySelector('#nfo').innerHTML = `
-          <p>${data.nfo.description}</p>
+          <p>${eve.nfo.description}</p>
         `
       }
 
-      function showHTMLNFO (data) {
+      function showHTMLNFO (eve) {
+        const note = eve.nfo.note
+          ? eve.nfo.note.html
+          : (eve.nfo.status && eve.nfo.status !== 'standard')
+            ? `This attribute is ${eve.nfo.status}. ` : ''
+
         document.querySelector('#nfo').innerHTML = `
-          <h1>${data.nfo[data.type].html}</h1>
-          <p>${data.nfo.description.html}</p>
+          <h1>${eve.nfo[eve.type].html}</h1>
+          <p>${eve.nfo.description.html} ${note}</p>
         `
       }
 
-      function showCSSNFO (data) {
-        const status = (data.nfo.status && data.nfo.status !== 'standard')
-          ? ` (<b>NOTE</b>: this CSS property is ${data.nfo.status}). ` : ''
+      function showCSSNFO (eve) {
+        const status = (eve.nfo.status && eve.nfo.status !== 'standard')
+          ? ` (<b>NOTE</b>: this CSS property is ${eve.nfo.status}). ` : ''
 
-        let links = Object.keys(data.nfo.urls)
-          .map(k => `<a href="${data.nfo.urls[k]}" target="_blank">${k}</a>`)
+        let links = Object.keys(eve.nfo.urls)
+          .map(k => `<a href="${eve.nfo.urls[k]}" target="_blank">${k}</a>`)
 
         links = (links.length > 0)
           ? `To learn more visit ${links.join(', ').slice(0, -2)}.` : ''
 
         document.querySelector('#nfo').innerHTML = `
-          <h1>${data.nfo[data.type].html}</h1>
-          <p>${data.nfo.description.html}. ${status} ${links}</p>
+          <h1>${eve.nfo[eve.type].html}</h1>
+          <p>${eve.nfo.description.html}. ${status} ${links}</p>
         `
       }
 
