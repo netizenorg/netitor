@@ -129,7 +129,7 @@ class Netitor {
       autoCloseTags: true,
       hintOptions: {
         hint: (cm, options) => this._hinter(cm, options),
-        closeOnUnfocus: true,
+        closeOnUnfocus: false,
         completeSingle: false
       },
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)

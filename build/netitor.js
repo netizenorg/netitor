@@ -17390,6 +17390,10 @@ li.CodeMirror-hint-active {
 .CodeMirror-hints.netizen {
   color: var(--netizen-black);
   background: var(--netizen-white);
+  padding: 11px;
+  border-radius: 8px;
+  border: 3px solid var(--netizen-red);
+  box-shadow: -9px 10px 25px -17px rgba(230,219,111,0.75);
 }
 
 .CodeMirror-hints.netizen > .CodeMirror-hint {
@@ -32063,7 +32067,7 @@ class Netitor {
       autoCloseTags: true,
       hintOptions: {
         hint: (cm, options) => this._hinter(cm, options),
-        closeOnUnfocus: true,
+        closeOnUnfocus: false,
         completeSingle: false
       },
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)
