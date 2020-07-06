@@ -1,0 +1,6 @@
+{
+  "a" : "a href=\"#\"></a>",
+  "img" : "img src=\"#\">",
+  "link" : "link rel=\"stylesheet\" href=\"#\">",
+  "doctype" : "!DOCTYPE html>"
+}

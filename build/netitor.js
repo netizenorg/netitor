@@ -31508,6 +31508,106 @@ module.exports={
   }
 }
 },{}],24:[function(require,module,exports){
+const htmlHinter = require('./htmlHinter.js')
+
+function coreHinter (cm, options) {
+  const pos = cm.getCursor()
+  const tok = cm.getTokenAt(pos)
+  const lan = cm.getModeAt(pos).name
+
+  let list = []
+  if (lan === 'xml') list = htmlHinter(tok)
+  // const list = htmlHinter(tok)
+  // console.log(list)
+
+  console.log(tok)
+
+  return {
+    list: list,
+    from: { line: pos.line, ch: tok.start },
+    to: { line: pos.line, ch: tok.end }
+  }
+}
+
+module.exports = coreHinter
+
+},{"./htmlHinter.js":25}],25:[function(require,module,exports){
+const htmlAttr = require('../edu-data/html-attributes.json')
+const htmlEles = require('../edu-data/html-elements.json')
+const snippets = require('./snippets.json')
+
+const eleAttrLists = {}
+// dictionary to keep track of attributes available on any given element
+for (const ele in htmlEles) {
+  eleAttrLists[ele] = []
+  for (const attr in htmlAttr) {
+    const a = htmlAttr[attr]
+    const e = a.elements.text
+    if (e === 'Global attribute') eleAttrLists[ele].push(attr)
+    else {
+      const els = e.split(', ').map(s => s.replace(/</g, '').replace(/>/g, ''))
+      if (els.includes(ele)) eleAttrLists[ele].push(attr)
+    }
+  }
+}
+
+// function bringToFront (str, arr) {
+//   const dtz = arr.map(o => o.displayText)
+//   const idx = dtz.indexOf(str)
+//   const obj = arr[idx]
+//   arr.splice(idx, 1)
+//   arr.splice(0, 0, obj)
+//   return arr
+// }
+
+function elementHintList (tok, tag) {
+  const str = tok.string
+  const list = []
+  for (const ele in htmlEles) {
+    if (ele.includes(str)) {
+      let text = htmlEles[ele].singleton ? `${ele}>` : `${ele}></${ele}>`
+      if (snippets[ele]) text = snippets[ele]
+      if (!tag) text = '<' + text
+      list.push({ text, displayText: ele })
+    }
+  }
+  // list = bringToFront(str, list)
+  return list
+}
+
+function attributeHintList (tok) {
+  const str = tok.string
+  const ele = tok.state.htmlState.tagName
+  const list = []
+  for (const attr in htmlAttr) {
+    if (attr.includes(str) && eleAttrLists[ele].includes(attr)) {
+      list.push({ text: attr + '=""', displayText: attr })
+    }
+  }
+  // list = bringToFront(str, list)
+  return list
+}
+
+function htmlHinter (token) {
+  // TBD: in future the token.state could be used to determine context
+  // for example: to decide whether or not to include <a-frame> elements
+  // console.log(token)
+  if (!token.type) return elementHintList(token)
+  else if (token.type === 'attribute') return attributeHintList(token)
+  else if (token.type === 'tag') return elementHintList(token, true)
+}
+
+module.exports = htmlHinter
+
+},{"../edu-data/html-attributes.json":22,"../edu-data/html-elements.json":23,"./snippets.json":26}],26:[function(require,module,exports){
+module.exports={
+  "a" : "a href=\"#\"></a>",
+  "img" : "img src=\"#\">",
+  "link" : "link rel=\"stylesheet\" href=\"#\">",
+  "doctype" : "!DOCTYPE html>"
+}
+
+},{}],27:[function(require,module,exports){
 // const CodeMirror = require('codemirror')
 // const CSSMode = CodeMirror.resolveMode('text/css')
 // console.log(JSON.stringify(CSSMode))
@@ -31523,7 +31623,7 @@ function linter (code) {
 
 module.exports = linter
 
-},{}],25:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 
@@ -31751,7 +31851,7 @@ const translate = {
 
 module.exports = translate
 
-},{"../edu-data/html-elements.json":23}],26:[function(require,module,exports){
+},{"../edu-data/html-elements.json":23}],29:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const htmlAttr = require('../edu-data/html-attributes.json')
 
@@ -31865,7 +31965,7 @@ class HTMLStandards {
 
 module.exports = HTMLStandards
 
-},{"../edu-data/html-attributes.json":22,"../edu-data/html-elements.json":23}],27:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":22,"../edu-data/html-elements.json":23}],30:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
@@ -31928,14 +32028,14 @@ function linter (code) {
 
 module.exports = linter
 
-},{"./html-friendly-translator.js":25,"./html-standards-validator.js":26,"htmlhint":19}],28:[function(require,module,exports){
+},{"./html-friendly-translator.js":28,"./html-standards-validator.js":29,"htmlhint":19}],31:[function(require,module,exports){
 function linter (code) {
   return null
 }
 
 module.exports = linter
 
-},{}],29:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 /* global HTMLElement */
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
@@ -31959,6 +32059,8 @@ require('codemirror/addon/hint/javascript-hint')
 const htmlLinter = require('./linters/htmlLinter.js')
 const jsLinter = require('./linters/jsLinter.js')
 const cssLinter = require('./linters/cssLinter.js')
+
+const coreHinter = require('./hinters/coreHinter.js')
 
 const htmlAttr = require('./edu-data/html-attributes.json')
 const htmlEles = require('./edu-data/html-elements.json')
@@ -32136,10 +32238,11 @@ class Netitor {
   }
 
   _update (cm) {
-    if (this._hint && this._atEndOfWord(cm)) cm.showHint()
-    const errz = (this._lint) ? this._runLint(cm) : []
+    if (this._hint && this._shouldHint(cm)) cm.showHint()
+    const h = document.querySelector('.CodeMirror-hints')
+    const errz = (this._lint && !h) ? this._runLint(cm) : []
     if (errz) this.emit('lint-error', errz)
-    if (this._auto) this.update()
+    if (this._auto && !h) this.update()
   }
 
   _updateRenderIframe () {
@@ -32156,22 +32259,27 @@ class Netitor {
     content.close()
   }
 
-  _atEndOfWord (cm) {
+  _shouldHint (cm) {
+    const pos = cm.getCursor()
+    const tok = cm.getTokenAt(pos)
+    const line = cm.getLine(pos.line)
+
+    // check to make sure user is actually typing something
+    const typing = tok.string.length > 0
+    const nextChar = line.slice(tok.end, tok.end + 1)
+
     // check to make sure the cursor is at the end of a lone word
     // otherwise we'll be creating hint menus all the time
-    const cursor = cm.getCursor()
-    const line = cm.getLine(cursor.line)
-    let start = cursor.ch
-    let end = cursor.ch
+    const alone = nextChar === '' || nextChar === ' '
 
-    while (start && /\w/.test(line.charAt(start - 1))) --start
-    while (end < line.length && /\w/.test(line.charAt(end))) ++end
+    // check to see if the cursor is inside of a tag (for attributes)
+    const tagAttr = nextChar === '>'
 
-    const alone = line.slice(end, end + 1) === '' ||
-      line.slice(end, end + 1) === ' '
-    const word = line.slice(start, end).toLowerCase()
+    // avoid buggy calls
+    const avoidList = ['""', '>']
+    const avoid = avoidList.includes(tok.string)
 
-    return word.length > 0 && alone
+    return typing && (alone || tagAttr) && !avoid
   }
 
   _eduInfo (tok, lan) {
@@ -32200,8 +32308,10 @@ class Netitor {
   _hinter (cm, options) {
     // TODO consider how i might augment default lists (see my old hinters)
     const pos = cm.getCursor()
-    const res = cm.getHelpers(pos, 'hint')[0](cm, options)
     const lan = cm.getModeAt(pos).name
+    const res = (lan === 'xml')
+      ? coreHinter(cm, options)
+      : cm.getHelpers(pos, 'hint')[0](cm, options)
     CodeMirror.on(res, 'select', (data) => {
       const language = lan === 'xml' ? 'html' : lan
       this.emit('hint-select', { language, data })
@@ -32259,4 +32369,4 @@ class Netitor {
 
 window.Netitor = Netitor
 
-},{"./css/main.js":20,"./edu-data/css-properties.json":21,"./edu-data/html-attributes.json":22,"./edu-data/html-elements.json":23,"./linters/cssLinter.js":24,"./linters/htmlLinter.js":27,"./linters/jsLinter.js":28,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[29]);
+},{"./css/main.js":20,"./edu-data/css-properties.json":21,"./edu-data/html-attributes.json":22,"./edu-data/html-elements.json":23,"./hinters/coreHinter.js":24,"./linters/cssLinter.js":27,"./linters/htmlLinter.js":30,"./linters/jsLinter.js":31,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[32]);

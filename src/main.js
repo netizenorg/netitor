@@ -22,6 +22,8 @@ const htmlLinter = require('./linters/htmlLinter.js')
 const jsLinter = require('./linters/jsLinter.js')
 const cssLinter = require('./linters/cssLinter.js')
 
+const coreHinter = require('./hinters/coreHinter.js')
+
 const htmlAttr = require('./edu-data/html-attributes.json')
 const htmlEles = require('./edu-data/html-elements.json')
 const cssProps = require('./edu-data/css-properties.json')
@@ -198,10 +200,11 @@ class Netitor {
   }
 
   _update (cm) {
-    if (this._hint && this._atEndOfWord(cm)) cm.showHint()
-    const errz = (this._lint) ? this._runLint(cm) : []
+    if (this._hint && this._shouldHint(cm)) cm.showHint()
+    const h = document.querySelector('.CodeMirror-hints')
+    const errz = (this._lint && !h) ? this._runLint(cm) : []
     if (errz) this.emit('lint-error', errz)
-    if (this._auto) this.update()
+    if (this._auto && !h) this.update()
   }
 
   _updateRenderIframe () {
@@ -218,22 +221,27 @@ class Netitor {
     content.close()
   }
 
-  _atEndOfWord (cm) {
+  _shouldHint (cm) {
+    const pos = cm.getCursor()
+    const tok = cm.getTokenAt(pos)
+    const line = cm.getLine(pos.line)
+
+    // check to make sure user is actually typing something
+    const typing = tok.string.length > 0
+    const nextChar = line.slice(tok.end, tok.end + 1)
+
     // check to make sure the cursor is at the end of a lone word
     // otherwise we'll be creating hint menus all the time
-    const cursor = cm.getCursor()
-    const line = cm.getLine(cursor.line)
-    let start = cursor.ch
-    let end = cursor.ch
+    const alone = nextChar === '' || nextChar === ' '
 
-    while (start && /\w/.test(line.charAt(start - 1))) --start
-    while (end < line.length && /\w/.test(line.charAt(end))) ++end
+    // check to see if the cursor is inside of a tag (for attributes)
+    const tagAttr = nextChar === '>'
 
-    const alone = line.slice(end, end + 1) === '' ||
-      line.slice(end, end + 1) === ' '
-    const word = line.slice(start, end).toLowerCase()
+    // avoid buggy calls
+    const avoidList = ['""', '>']
+    const avoid = avoidList.includes(tok.string)
 
-    return word.length > 0 && alone
+    return typing && (alone || tagAttr) && !avoid
   }
 
   _eduInfo (tok, lan) {
@@ -262,8 +270,10 @@ class Netitor {
   _hinter (cm, options) {
     // TODO consider how i might augment default lists (see my old hinters)
     const pos = cm.getCursor()
-    const res = cm.getHelpers(pos, 'hint')[0](cm, options)
     const lan = cm.getModeAt(pos).name
+    const res = (lan === 'xml')
+      ? coreHinter(cm, options)
+      : cm.getHelpers(pos, 'hint')[0](cm, options)
     CodeMirror.on(res, 'select', (data) => {
       const language = lan === 'xml' ? 'html' : lan
       this.emit('hint-select', { language, data })
