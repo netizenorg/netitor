@@ -1,7 +1,16 @@
 const htmlEles = require('../edu-data/html-elements.json')
 const htmlAttr = require('../edu-data/html-attributes.json')
+const stringSimilarity = require('string-similarity')
 
 class HTMLStandards {
+  static checkSpelling (str, type) {
+    const list = type === 'elements'
+      ? Object.keys(htmlEles) : Object.keys(htmlAttr)
+    const matches = stringSimilarity.findBestMatch(str, list)
+    if (matches.bestMatch.rating >= 0.5) return matches.bestMatch.target
+    else return null
+  }
+
   static verifyStandardElements (doc, code) {
     const errz = []
     let line = 0
@@ -30,11 +39,14 @@ class HTMLStandards {
         line = lines.indexOf(mch) + 1
         if (mch) col = mch.indexOf(name)
 
+        const smatch = this.checkSpelling(name, 'elements')
+        const suggest = smatch ? `Did you mean to write <strong>"${smatch}"</strong>? ` : ''
+
         const fmsg = customElement
           ? 'But it may be a <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements" target="_blank">custom element</a>, assuming you\'ve imported this custom element yourself using a library or your own custom code.'
           : 'This might not break your HTML page, but regardless is probably not doing what you might be expecting.'
 
-        const friendly = `${htmlMsg}. ${fmsg}`
+        const friendly = `${htmlMsg}. ${suggest}${fmsg}`
         const evidence = name
         errz.push({ type, message, friendly, evidence, col, line, rule })
       }
@@ -68,10 +80,14 @@ class HTMLStandards {
           if (match) col = match.indexOf(attr)
 
           if (!Object.keys(htmlAttr).includes(attr)) {
+            const smatch = this.checkSpelling(attr, 'attributes')
+            const suggest = smatch
+              ? `Check your spelling, did you mean to write <strong>"${smatch}"</strong>? ` : ''
+
             const reEvent = /^on(unload|message|submit|select|scroll|resize|mouseover|mouseout|mousemove|mouseleave|mouseenter|mousedown|load|keyup|keypress|keydown|focus|dblclick|click|change|blur|error)$/i
             if (attr.indexOf('data-') !== 0 && !reEvent.test(attr)) {
-              const fmsg = `Check your spelling. If you were trying to create your own <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes" target="_blank">custom data attribute</a> you need to write it like this: <code>data-${attr}</code>`
-              const friendly = `${htmlMsg}. ${fmsg}`
+              const fmsg = `If you were trying to create your own <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes" target="_blank">custom data attribute</a> you need to write it like this: <code>data-${attr}</code>`
+              const friendly = `${htmlMsg}. ${suggest}${fmsg}`
 
               errz.push({ type, message, friendly, evidence, col, line, rule })
             }

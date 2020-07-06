@@ -4,6 +4,7 @@ const snippets = require('./snippets.json')
 
 const eleAttrLists = {}
 // dictionary to keep track of attributes available on any given element
+// so hint-list only includes attributes that  an be used on that element
 for (const ele in htmlEles) {
   eleAttrLists[ele] = []
   for (const attr in htmlAttr) {
@@ -16,15 +17,6 @@ for (const ele in htmlEles) {
     }
   }
 }
-
-// function bringToFront (str, arr) {
-//   const dtz = arr.map(o => o.displayText)
-//   const idx = dtz.indexOf(str)
-//   const obj = arr[idx]
-//   arr.splice(idx, 1)
-//   arr.splice(0, 0, obj)
-//   return arr
-// }
 
 function elementHintList (tok, tag) {
   const str = tok.string
@@ -44,7 +36,6 @@ function elementHintList (tok, tag) {
       }
     }
   }
-  // list = bringToFront(str, list)
   return list
 }
 
@@ -57,7 +48,6 @@ function attributeHintList (tok) {
       list.push({ text: attr + '=""', displayText: attr })
     }
   }
-  // list = bringToFront(str, list)
   return list
 }
 

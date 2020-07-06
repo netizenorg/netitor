@@ -16925,6 +16925,77 @@ if (!CodeMirror.mimeModes.hasOwnProperty("text/html"))
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],20:[function(require,module,exports){
+module.exports = {
+	compareTwoStrings,
+	findBestMatch
+};
+
+function compareTwoStrings(first, second) {
+	first = first.replace(/\s+/g, '')
+	second = second.replace(/\s+/g, '')
+
+	if (!first.length && !second.length) return 1;                   // if both are empty strings
+	if (!first.length || !second.length) return 0;                   // if only one is empty string
+	if (first === second) return 1;       							 // identical
+	if (first.length === 1 && second.length === 1) return 0;         // both are 1-letter strings
+	if (first.length < 2 || second.length < 2) return 0;			 // if either is a 1-letter string
+
+	let firstBigrams = new Map();
+	for (let i = 0; i < first.length - 1; i++) {
+		const bigram = first.substring(i, i + 2);
+		const count = firstBigrams.has(bigram)
+			? firstBigrams.get(bigram) + 1
+			: 1;
+
+		firstBigrams.set(bigram, count);
+	};
+
+	let intersectionSize = 0;
+	for (let i = 0; i < second.length - 1; i++) {
+		const bigram = second.substring(i, i + 2);
+		const count = firstBigrams.has(bigram)
+			? firstBigrams.get(bigram)
+			: 0;
+
+		if (count > 0) {
+			firstBigrams.set(bigram, count - 1);
+			intersectionSize++;
+		}
+	}
+
+	return (2.0 * intersectionSize) / (first.length + second.length - 2);
+}
+
+function findBestMatch(mainString, targetStrings) {
+	if (!areArgsValid(mainString, targetStrings)) throw new Error('Bad arguments: First argument should be a string, second should be an array of strings');
+	
+	const ratings = [];
+	let bestMatchIndex = 0;
+
+	for (let i = 0; i < targetStrings.length; i++) {
+		const currentTargetString = targetStrings[i];
+		const currentRating = compareTwoStrings(mainString, currentTargetString)
+		ratings.push({target: currentTargetString, rating: currentRating})
+		if (currentRating > ratings[bestMatchIndex].rating) {
+			bestMatchIndex = i
+		}
+	}
+	
+	
+	const bestMatch = ratings[bestMatchIndex]
+	
+	return { ratings, bestMatch, bestMatchIndex };
+}
+
+function areArgsValid(mainString, targetStrings) {
+	if (typeof mainString !== 'string') return false;
+	if (!Array.isArray(targetStrings)) return false;
+	if (!targetStrings.length) return false;
+	if (targetStrings.find(s => typeof s !== 'string')) return false;
+	return true;
+}
+
+},{}],21:[function(require,module,exports){
 module.exports = `
 /* BASICS */
 
@@ -17407,7 +17478,7 @@ li.CodeMirror-hint-active {
 }
 `
 
-},{}],21:[function(require,module,exports){
+},{}],22:[function(require,module,exports){
 module.exports={
   "align-content": {
     "urls": {
@@ -27335,7 +27406,7 @@ module.exports={
     }
   }
 }
-},{}],22:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 module.exports={
   "accept": {
     "attribute": {
@@ -29474,7 +29545,7 @@ module.exports={
     "note": null
   }
 }
-},{}],23:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 module.exports={
   "html": {
     "status": "standard",
@@ -31507,7 +31578,7 @@ module.exports={
     "singleton": false
   }
 }
-},{}],24:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 const htmlHinter = require('./htmlHinter.js')
 
 function coreHinter (cm, options) {
@@ -31520,7 +31591,7 @@ function coreHinter (cm, options) {
   // const list = htmlHinter(tok)
   // console.log(list)
 
-  console.log(tok)
+  // console.log(tok)
 
   return {
     list: list,
@@ -31531,13 +31602,14 @@ function coreHinter (cm, options) {
 
 module.exports = coreHinter
 
-},{"./htmlHinter.js":25}],25:[function(require,module,exports){
+},{"./htmlHinter.js":26}],26:[function(require,module,exports){
 const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = require('./snippets.json')
 
 const eleAttrLists = {}
 // dictionary to keep track of attributes available on any given element
+// so hint-list only includes attributes that  an be used on that element
 for (const ele in htmlEles) {
   eleAttrLists[ele] = []
   for (const attr in htmlAttr) {
@@ -31550,15 +31622,6 @@ for (const ele in htmlEles) {
     }
   }
 }
-
-// function bringToFront (str, arr) {
-//   const dtz = arr.map(o => o.displayText)
-//   const idx = dtz.indexOf(str)
-//   const obj = arr[idx]
-//   arr.splice(idx, 1)
-//   arr.splice(0, 0, obj)
-//   return arr
-// }
 
 function elementHintList (tok, tag) {
   const str = tok.string
@@ -31578,7 +31641,6 @@ function elementHintList (tok, tag) {
       }
     }
   }
-  // list = bringToFront(str, list)
   return list
 }
 
@@ -31591,7 +31653,6 @@ function attributeHintList (tok) {
       list.push({ text: attr + '=""', displayText: attr })
     }
   }
-  // list = bringToFront(str, list)
   return list
 }
 
@@ -31606,7 +31667,7 @@ function htmlHinter (token) {
 
 module.exports = htmlHinter
 
-},{"../edu-data/html-attributes.json":22,"../edu-data/html-elements.json":23,"./snippets.json":26}],26:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":23,"../edu-data/html-elements.json":24,"./snippets.json":27}],27:[function(require,module,exports){
 module.exports={
   "doctype" : "!DOCTYPE html>",
   "html": "html lang=\"en-US\"></html>",
@@ -31616,7 +31677,7 @@ module.exports={
   "html (template)": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\n\t</body>\n</html>\n"
 }
 
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 // const CodeMirror = require('codemirror')
 // const CSSMode = CodeMirror.resolveMode('text/css')
 // console.log(JSON.stringify(CSSMode))
@@ -31632,9 +31693,10 @@ function linter (code) {
 
 module.exports = linter
 
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
+const HTMLStandards = require('./html-standards-validator.js')
 
 function parseKeyword (o) {
   return o.message.substring(
@@ -31761,12 +31823,15 @@ const translate = {
     }
 
     // if not singleton, assuming then either opening/closing tag is missing
-    const line = msg.substring(msg.length - 2, msg.length - 1)
-    const tagname = parseKeyword({
-      message: msg, start: 'tag match failed [ <', end: '> ] on line'
-    })
+    let line = msg.substring(msg.length - 2, msg.length - 1)
+    if (!Number(line)) line = obj.line
+    const end = msg.includes('></') ? '></' : '> ]'
+    const tagname = parseKeyword({ message: msg, start: '[ <', end })
 
-    obj.friendly = `It looks like the <code>&lt;${tagname}&gt;</code> tag on line ${line} doesn't have a matching closing tag. If you did add a closing tag make sure you spelled the element's name correctly in both the <a href="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png" target="_blank">opening and closing tags</a>.`
+    const smatch = HTMLStandards.checkSpelling(tagname, 'elements')
+    const suggest = smatch ? ` Did you mean to write <strong>"${smatch}"</strong>?` : ''
+
+    obj.friendly = `It looks like the <code>&lt;${tagname}&gt;</code> tag on line ${line} doesn't have a matching closing tag. If you did add a closing tag make sure you spelled the element's name correctly in both the <a href="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png" target="_blank">opening and closing tags</a>.${suggest}`
     return obj
   },
   'tag-self-close': (obj) => {
@@ -31860,11 +31925,20 @@ const translate = {
 
 module.exports = translate
 
-},{"../edu-data/html-elements.json":23}],29:[function(require,module,exports){
+},{"../edu-data/html-elements.json":24,"./html-standards-validator.js":30}],30:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const htmlAttr = require('../edu-data/html-attributes.json')
+const stringSimilarity = require('string-similarity')
 
 class HTMLStandards {
+  static checkSpelling (str, type) {
+    const list = type === 'elements'
+      ? Object.keys(htmlEles) : Object.keys(htmlAttr)
+    const matches = stringSimilarity.findBestMatch(str, list)
+    if (matches.bestMatch.rating >= 0.5) return matches.bestMatch.target
+    else return null
+  }
+
   static verifyStandardElements (doc, code) {
     const errz = []
     let line = 0
@@ -31893,11 +31967,14 @@ class HTMLStandards {
         line = lines.indexOf(mch) + 1
         if (mch) col = mch.indexOf(name)
 
+        const smatch = this.checkSpelling(name, 'elements')
+        const suggest = smatch ? `Did you mean to write <strong>"${smatch}"</strong>? ` : ''
+
         const fmsg = customElement
           ? 'But it may be a <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements" target="_blank">custom element</a>, assuming you\'ve imported this custom element yourself using a library or your own custom code.'
           : 'This might not break your HTML page, but regardless is probably not doing what you might be expecting.'
 
-        const friendly = `${htmlMsg}. ${fmsg}`
+        const friendly = `${htmlMsg}. ${suggest}${fmsg}`
         const evidence = name
         errz.push({ type, message, friendly, evidence, col, line, rule })
       }
@@ -31931,10 +32008,14 @@ class HTMLStandards {
           if (match) col = match.indexOf(attr)
 
           if (!Object.keys(htmlAttr).includes(attr)) {
+            const smatch = this.checkSpelling(attr, 'attributes')
+            const suggest = smatch
+              ? `Check your spelling, did you mean to write <strong>"${smatch}"</strong>? ` : ''
+
             const reEvent = /^on(unload|message|submit|select|scroll|resize|mouseover|mouseout|mousemove|mouseleave|mouseenter|mousedown|load|keyup|keypress|keydown|focus|dblclick|click|change|blur|error)$/i
             if (attr.indexOf('data-') !== 0 && !reEvent.test(attr)) {
-              const fmsg = `Check your spelling. If you were trying to create your own <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes" target="_blank">custom data attribute</a> you need to write it like this: <code>data-${attr}</code>`
-              const friendly = `${htmlMsg}. ${fmsg}`
+              const fmsg = `If you were trying to create your own <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes" target="_blank">custom data attribute</a> you need to write it like this: <code>data-${attr}</code>`
+              const friendly = `${htmlMsg}. ${suggest}${fmsg}`
 
               errz.push({ type, message, friendly, evidence, col, line, rule })
             }
@@ -32075,7 +32156,7 @@ class HTMLStandards {
 
 module.exports = HTMLStandards
 
-},{"../edu-data/html-attributes.json":22,"../edu-data/html-elements.json":23}],30:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":23,"../edu-data/html-elements.json":24,"string-similarity":20}],31:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
@@ -32141,14 +32222,14 @@ function linter (code) {
 
 module.exports = linter
 
-},{"./html-friendly-translator.js":28,"./html-standards-validator.js":29,"htmlhint":19}],31:[function(require,module,exports){
+},{"./html-friendly-translator.js":29,"./html-standards-validator.js":30,"htmlhint":19}],32:[function(require,module,exports){
 function linter (code) {
   return null
 }
 
 module.exports = linter
 
-},{}],32:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 /* global HTMLElement */
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
@@ -32168,6 +32249,7 @@ require('codemirror/addon/hint/javascript-hint')
 // require('codemirror/addon/lint/html-lint')
 // require('codemirror/addon/lint/css-lint')
 // require('codemirror/addon/lint/javascript-lint')
+const stringSimilarity = require('string-similarity')
 
 const htmlLinter = require('./linters/htmlLinter.js')
 const jsLinter = require('./linters/jsLinter.js')
@@ -32376,23 +32458,28 @@ class Netitor {
     const pos = cm.getCursor()
     const tok = cm.getTokenAt(pos)
     const line = cm.getLine(pos.line)
-
     // check to make sure user is actually typing something
     const typing = tok.string.length > 0
     const nextChar = line.slice(tok.end, tok.end + 1)
-
     // check to make sure the cursor is at the end of a lone word
     // otherwise we'll be creating hint menus all the time
     const alone = nextChar === '' || nextChar === ' '
-
     // check to see if the cursor is inside of a tag (for attributes)
     const tagAttr = nextChar === '>'
-
-    // avoid buggy calls
+    // avoid on error
+    const err = tok.type.includes('error')
+    // avoid buggy edge cases
     const avoidList = ['""', '>', '/>']
-    const avoid = avoidList.includes(tok.string)
+    let avoid = avoidList.includes(tok.string)
+    // avoid in closing style/script tag miss-spelling (edge-case)
+    if (tok.state.localMode &&
+      (tok.state.localMode.name === 'javascript' ||
+      tok.state.localMode.name === 'css') &&
+      (stringSimilarity.compareTwoStrings(tok.string, 'script') >= 0.5 ||
+      stringSimilarity.compareTwoStrings(tok.string, 'style') >= 0.5)
+    ) { avoid = true }
 
-    return typing && (alone || tagAttr) && !avoid
+    return typing && (alone || tagAttr) && !avoid && !err
   }
 
   _eduInfo (tok, lan) {
@@ -32482,4 +32569,4 @@ class Netitor {
 
 window.Netitor = Netitor
 
-},{"./css/main.js":20,"./edu-data/css-properties.json":21,"./edu-data/html-attributes.json":22,"./edu-data/html-elements.json":23,"./hinters/coreHinter.js":24,"./linters/cssLinter.js":27,"./linters/htmlLinter.js":30,"./linters/jsLinter.js":31,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[32]);
+},{"./css/main.js":21,"./edu-data/css-properties.json":22,"./edu-data/html-attributes.json":23,"./edu-data/html-elements.json":24,"./hinters/coreHinter.js":25,"./linters/cssLinter.js":28,"./linters/htmlLinter.js":31,"./linters/jsLinter.js":32,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16,"string-similarity":20}]},{},[33]);

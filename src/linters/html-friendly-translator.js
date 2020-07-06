@@ -1,5 +1,6 @@
 const htmlEles = require('../edu-data/html-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
+const HTMLStandards = require('./html-standards-validator.js')
 
 function parseKeyword (o) {
   return o.message.substring(
@@ -126,12 +127,15 @@ const translate = {
     }
 
     // if not singleton, assuming then either opening/closing tag is missing
-    const line = msg.substring(msg.length - 2, msg.length - 1)
-    const tagname = parseKeyword({
-      message: msg, start: 'tag match failed [ <', end: '> ] on line'
-    })
+    let line = msg.substring(msg.length - 2, msg.length - 1)
+    if (!Number(line)) line = obj.line
+    const end = msg.includes('></') ? '></' : '> ]'
+    const tagname = parseKeyword({ message: msg, start: '[ <', end })
 
-    obj.friendly = `It looks like the <code>&lt;${tagname}&gt;</code> tag on line ${line} doesn't have a matching closing tag. If you did add a closing tag make sure you spelled the element's name correctly in both the <a href="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png" target="_blank">opening and closing tags</a>.`
+    const smatch = HTMLStandards.checkSpelling(tagname, 'elements')
+    const suggest = smatch ? ` Did you mean to write <strong>"${smatch}"</strong>?` : ''
+
+    obj.friendly = `It looks like the <code>&lt;${tagname}&gt;</code> tag on line ${line} doesn't have a matching closing tag. If you did add a closing tag make sure you spelled the element's name correctly in both the <a href="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png" target="_blank">opening and closing tags</a>.${suggest}`
     return obj
   },
   'tag-self-close': (obj) => {

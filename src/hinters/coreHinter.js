@@ -10,7 +10,7 @@ function coreHinter (cm, options) {
   // const list = htmlHinter(tok)
   // console.log(list)
 
-  console.log(tok)
+  // console.log(tok)
 
   return {
     list: list,
