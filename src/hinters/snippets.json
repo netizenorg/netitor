@@ -1,6 +1,8 @@
 {
+  "doctype" : "!DOCTYPE html>",
+  "html": "html lang=\"en-US\"></html>",
+  "link" : "link rel=\"stylesheet\" href=\"#\">",
   "a" : "a href=\"#\"></a>",
   "img" : "img src=\"#\">",
-  "link" : "link rel=\"stylesheet\" href=\"#\">",
-  "doctype" : "!DOCTYPE html>"
+  "html (template)": "<!DOCTYPE html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\n\t</body>\n</html>\n"
 }

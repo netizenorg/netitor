@@ -37,6 +37,11 @@ function elementHintList (tok, tag) {
       list.push({ text, displayText: ele })
     }
   }
+  for (const snip in snippets) {
+    if (!Object.prototype.hasOwnProperty.call(htmlEles, snip)) {
+      list.push({ text: snippets[snip], displayText: snip })
+    }
+  }
   // list = bringToFront(str, list)
   return list
 }
