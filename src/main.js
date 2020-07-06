@@ -17,7 +17,6 @@ require('codemirror/addon/hint/javascript-hint')
 // require('codemirror/addon/lint/html-lint')
 // require('codemirror/addon/lint/css-lint')
 // require('codemirror/addon/lint/javascript-lint')
-const stringSimilarity = require('string-similarity')
 
 const htmlLinter = require('./linters/htmlLinter.js')
 const jsLinter = require('./linters/jsLinter.js')
@@ -222,34 +221,6 @@ class Netitor {
     content.close()
   }
 
-  _shouldHint (cm) {
-    const pos = cm.getCursor()
-    const tok = cm.getTokenAt(pos)
-    const line = cm.getLine(pos.line)
-    // check to make sure user is actually typing something
-    const typing = tok.string.length > 0
-    const nextChar = line.slice(tok.end, tok.end + 1)
-    // check to make sure the cursor is at the end of a lone word
-    // otherwise we'll be creating hint menus all the time
-    const alone = nextChar === '' || nextChar === ' '
-    // check to see if the cursor is inside of a tag (for attributes)
-    const tagAttr = nextChar === '>'
-    // avoid on error
-    const err = tok.type.includes('error')
-    // avoid buggy edge cases
-    const avoidList = ['""', '>', '/>']
-    let avoid = avoidList.includes(tok.string)
-    // avoid in closing style/script tag miss-spelling (edge-case)
-    if (tok.state.localMode &&
-      (tok.state.localMode.name === 'javascript' ||
-      tok.state.localMode.name === 'css') &&
-      (stringSimilarity.compareTwoStrings(tok.string, 'script') >= 0.5 ||
-      stringSimilarity.compareTwoStrings(tok.string, 'style') >= 0.5)
-    ) { avoid = true }
-
-    return typing && (alone || tagAttr) && !avoid && !err
-  }
-
   _eduInfo (tok, lan) {
     const o = {
       language: lan === 'xml' ? 'html' : lan,
@@ -273,6 +244,22 @@ class Netitor {
     return o
   }
 
+  _shouldHint (cm) {
+    const pos = cm.getCursor()
+    const tok = cm.getTokenAt(pos)
+    const line = cm.getLine(pos.line)
+    // check to make sure user is actually typing something
+    const typing = tok.string.length > 0
+    const nextChar = line.slice(tok.end, tok.end + 1)
+    // check to make sure the cursor is at the end of a lone word
+    // otherwise we'll be creating hint menus all the time
+    const alone = nextChar === '' || nextChar === ' '
+    // check to see if the cursor is inside of a tag (for attributes)
+    const tagAttr = nextChar === '>'
+
+    return typing && (alone || tagAttr)
+  }
+
   _hinter (cm, options) {
     // TODO consider how i might augment default lists (see my old hinters)
     const pos = cm.getCursor()
@@ -280,6 +267,8 @@ class Netitor {
     const res = (lan === 'xml')
       ? coreHinter(cm, options)
       : cm.getHelpers(pos, 'hint')[0](cm, options)
+    if (!res) return null
+    if (!res.list) res.list = []
     CodeMirror.on(res, 'select', (data) => {
       const language = lan === 'xml' ? 'html' : lan
       this.emit('hint-select', { language, data })
