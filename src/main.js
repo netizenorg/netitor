@@ -131,7 +131,7 @@ class Netitor {
       autoCloseTags: true,
       hintOptions: {
         hint: (cm, options) => this._hinter(cm, options),
-        closeOnUnfocus: false,
+        closeOnUnfocus: true,
         completeSingle: false
       },
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)
@@ -238,7 +238,7 @@ class Netitor {
     const tagAttr = nextChar === '>'
 
     // avoid buggy calls
-    const avoidList = ['""', '>']
+    const avoidList = ['""', '>', '/>']
     const avoid = avoidList.includes(tok.string)
 
     return typing && (alone || tagAttr) && !avoid

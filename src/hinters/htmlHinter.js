@@ -39,7 +39,9 @@ function elementHintList (tok, tag) {
   }
   for (const snip in snippets) {
     if (!Object.prototype.hasOwnProperty.call(htmlEles, snip)) {
-      list.push({ text: snippets[snip], displayText: snip })
+      if (snip.includes(str)) {
+        list.push({ text: snippets[snip], displayText: snip })
+      }
     }
   }
   // list = bringToFront(str, list)
