@@ -92,17 +92,118 @@ class HTMLStandards {
     return errz
   }
 
+  static verifyTrailingSlashes (doc, code) {
+    const errz = []
+    const type = 'warning'
+    const message = 'void elements should not have trailing slashes'
+    const friendly = 'It used to be common to include "<a href="https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML#Trailing_slashes" target="_blank">trailing slashes</a>" in void elements (aka singleton elements) like <code>&lt;br/&gt;</code> or <code>&lt;img/&gt;</code> but these days we avoid them, it\'s better to write them like <code>&lt;br&gt;</code> and <code>&lt;img&gt;</code> '
+    const rule = {
+      id: 'avoid-trailing-slashes',
+      description: 'Don\'t include trailing slashes for empty elements',
+      link: 'https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML#Trailing_slashes'
+    }
+    const lines = code.split('\n')
+    lines.filter(str => str.indexOf('/>') >= 0).forEach(match => {
+      console.log(match)
+      const evidence = match
+      const line = lines.indexOf(match) + 1
+      const col = match.indexOf('/>')
+      errz.push({ type, message, friendly, evidence, col, line, rule })
+    })
+
+    return errz
+  }
+
+  static verifyLanAttr (doc, code) {
+    const errz = []
+    const type = 'warning'
+    const message = '<html> element should have lang attribute'
+    const friendly = 'Your <code>&lt;html&gt;</code> element should include a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang" target="_blank">lang</a> attribute for accessibility and search enginges, for example <code>&lt;html lang="en-US"&gt;</code>'
+    const rule = {
+      id: 'declare-document-language',
+      description: 'Set document language',
+      link: 'https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML#Document_language'
+    }
+
+    if (code.indexOf('<html') > -1 && code.indexOf('</html>') > -1) {
+      if (!doc.documentElement.attributes.lang) {
+        const lines = code.split('\n')
+        const match = lines
+          .filter(str => str.toLowerCase().indexOf('<html') >= 0)[0]
+        const evidence = match
+        const line = lines.indexOf(match) + 1
+        const col = match.indexOf('<html')
+        errz.push({ type, message, friendly, evidence, col, line, rule })
+      }
+    }
+
+    return errz
+  }
+
+  static verifyCharset (doc, code) {
+    const errz = []
+    const type = 'warning'
+    const message = '<meata charset=""> must be present in <head> tag.'
+    const friendly = 'You are missing a <a href="https://developer.mozilla.org/en-US/docs/Glossary/character_encoding" target="_blank"><code>&lt;meta charset="utf-8"&gt;</code></a> element in your <code>&lt;head&gt;</code>. While it is not technically required, it\'s highly recommended. Use UTF-8 unless you have a very good reason not to; it will cover your character needs pretty much regardless of what language you are using in your document. In addition, you should always specify the characterset as early as possible within your HTML\'s <code>&lt;head&gt;</code>, as it protects against a rather nasty <a href="https://support.microsoft.com/en-us/help/928847/internet-explorer-uses-the-wrong-character-set-when-it-renders-an-html" target="_blank">Internet Explorer security vulnerability</a>.'
+    const rule = {
+      id: 'declare-document-charset',
+      description: 'Set document language',
+      link: 'https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML#Document_characterset'
+    }
+
+    if (code.indexOf('<head') > -1 && code.indexOf('</head>') > -1) {
+      let hasCharset = false
+      for (let i = 0; i < doc.head.children.length; i++) {
+        const child = doc.head.children[i]
+        if (child.localName.toLowerCase() === 'meta') {
+          if (child.attributes.charset) {
+            hasCharset = true
+            break
+          }
+        }
+      }
+
+      if (!hasCharset) {
+        const lines = code.split('\n')
+        const match = lines
+          .filter(str => str.toLowerCase().indexOf('<head') >= 0)[0]
+        const evidence = ''
+        const line = lines.indexOf(match) + 1
+        const col = match.indexOf('<head')
+        errz.push({ type, message, friendly, evidence, col, line, rule })
+      }
+    }
+
+    return errz
+  }
+
+  static checkRule (rules, rule) {
+    return Object.prototype.hasOwnProperty.call(rules, rule)
+  }
+
   static verify (code, rules) {
     const parser = new window.DOMParser()
     const doc = parser.parseFromString(code, 'text/html')
     let errz = []
 
-    if (Object.prototype.hasOwnProperty.call(rules, 'standard-elements')) {
-      errz = errz.concat(HTMLStandards.verifyStandardElements(doc, code))
+    if (this.checkRule(rules, 'standard-elements')) {
+      errz = errz.concat(this.verifyStandardElements(doc, code))
     }
 
-    if (Object.prototype.hasOwnProperty.call(rules, 'standard-attributes')) {
-      errz = errz.concat(HTMLStandards.verifyStandardAttributes(doc, code))
+    if (this.checkRule(rules, 'standard-attributes')) {
+      errz = errz.concat(this.verifyStandardAttributes(doc, code))
+    }
+
+    if (this.checkRule(rules, 'avoid-trailing-slashes')) {
+      errz = errz.concat(this.verifyTrailingSlashes(doc, code))
+    }
+
+    if (this.checkRule(rules, 'declare-document-language')) {
+      errz = errz.concat(this.verifyLanAttr(doc, code))
+    }
+
+    if (this.checkRule(rules, 'declare-document-charset')) {
+      errz = errz.concat(this.verifyCharset(doc, code))
     }
 
     return errz

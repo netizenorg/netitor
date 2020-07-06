@@ -4,7 +4,10 @@ const HTMLHint = require('htmlhint').HTMLHint
 
 const HTMLStandardsRules = {
   'standard-elements': true,
-  'standard-attributes': true
+  'standard-attributes': true,
+  'avoid-trailing-slashes': true,
+  'declare-document-language': true,
+  'declare-document-charset': true
 }
 
 // reles: https://github.com/htmlhint/HTMLHint/tree/master/src/core/rules

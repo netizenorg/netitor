@@ -34,7 +34,7 @@ const translate = {
     const msg = obj.message
     obj.type = 'warning'
     if (msg.includes('must not be empty')) {
-      obj.friendly = 'You\'re a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank"><code>&lt;title&gt;</code></a> doesn\'t seem to have any content between it\'s opening and closing tags.'
+      obj.friendly = 'Your <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank"><code>&lt;title&gt;</code></a> doesn\'t seem to have any content between it\'s opening and closing tags.'
     } else {
       obj.friendly = 'You are missing a <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title" target="_blank"><code>&lt;title&gt;</code></a> element in your <code>&lt;head&gt;</code>. While it is not technically required, it\'s highly recommended. Without it your browser tabs will display the name of the file by default and search engines won\'t know how to list the name of your page in their results.'
     }
