@@ -13,10 +13,6 @@ require('codemirror/addon/hint/xml-hint')
 require('codemirror/addon/hint/html-hint')
 require('codemirror/addon/hint/css-hint')
 require('codemirror/addon/hint/javascript-hint')
-// require('codemirror/addon/lint/lint')
-// require('codemirror/addon/lint/html-lint')
-// require('codemirror/addon/lint/css-lint')
-// require('codemirror/addon/lint/javascript-lint')
 
 const htmlLinter = require('./linters/htmlLinter.js')
 const jsLinter = require('./linters/jsLinter.js')
@@ -139,7 +135,10 @@ class Netitor {
     this.cm.on('mousedown', (cm, e) => {
       // HACK: 'dblclick' doesn't always fire for some reason
       // had to create a custom 'dblclick' event that would
-      if (Date.now() < this._lastMouseDown + 400) this._dblclick(cm, e)
+      if (Date.now() < this._lastMouseDown + 400) {
+        const obj = eduData(cm)
+        this.emit('edu-info', obj)
+      }
       this._lastMouseDown = Date.now()
     })
   }
@@ -172,11 +171,6 @@ class Netitor {
     // let's u moidfy behavior of mouse selection and dragging.
     // see "configureMouse" in code mirror manual
     return {}
-  }
-
-  _dblclick (cm, e) {
-    const obj = eduData(cm)
-    this.emit('edu-info', obj)
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*

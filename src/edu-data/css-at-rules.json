@@ -1,6 +1,7 @@
 {
   "@charset": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@charset",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@charset\">@charset</a>",
       "text": "@charset"
@@ -12,6 +13,7 @@
   },
   "@import": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@import",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@import\">@import</a>",
       "text": "@import"
@@ -23,6 +25,7 @@
   },
   "@namespace": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@namespace",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@namespace\">@namespace</a>",
       "text": "@namespace"
@@ -34,6 +37,7 @@
   },
   "@media": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@media",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@media\">@media</a>",
       "text": "@media"
@@ -45,6 +49,7 @@
   },
   "@supports": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@supports",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@supports\">@supports</a>",
       "text": "@supports"
@@ -56,6 +61,7 @@
   },
   "@document": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@document",
+    "status": "experimental",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@document\">@document</a>",
       "text": "@document"
@@ -67,6 +73,7 @@
   },
   "@page": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@page",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@page\">@page</a>",
       "text": "@page"
@@ -78,6 +85,7 @@
   },
   "@font-face": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@font-face",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@font-face\">@font-face</a>",
       "text": "@font-face"
@@ -89,6 +97,7 @@
   },
   "@keyframes": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@keyframes",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@keyframes\">@keyframes</a>",
       "text": "@keyframes"
@@ -100,6 +109,7 @@
   },
   "@viewport": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@viewport",
+    "status": "experimental",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@viewport\">@viewport</a>",
       "text": "@viewport"
@@ -111,6 +121,7 @@
   },
   "@counter-style": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@counter-style",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@counter-style\">@counter-style</a>",
       "text": "@counter-style"
@@ -122,6 +133,7 @@
   },
   "@font-feature-values": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@font-feature-values",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@font-feature-values\">@font-feature-values</a>",
       "text": "@font-feature-values"

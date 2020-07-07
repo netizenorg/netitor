@@ -17482,6 +17482,7 @@ li.CodeMirror-hint-active {
 module.exports={
   "@charset": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@charset",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@charset\">@charset</a>",
       "text": "@charset"
@@ -17493,6 +17494,7 @@ module.exports={
   },
   "@import": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@import",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@import\">@import</a>",
       "text": "@import"
@@ -17504,6 +17506,7 @@ module.exports={
   },
   "@namespace": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@namespace",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@namespace\">@namespace</a>",
       "text": "@namespace"
@@ -17515,6 +17518,7 @@ module.exports={
   },
   "@media": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@media",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@media\">@media</a>",
       "text": "@media"
@@ -17526,6 +17530,7 @@ module.exports={
   },
   "@supports": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@supports",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@supports\">@supports</a>",
       "text": "@supports"
@@ -17537,6 +17542,7 @@ module.exports={
   },
   "@document": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@document",
+    "status": "experimental",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@document\">@document</a>",
       "text": "@document"
@@ -17548,6 +17554,7 @@ module.exports={
   },
   "@page": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@page",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@page\">@page</a>",
       "text": "@page"
@@ -17559,6 +17566,7 @@ module.exports={
   },
   "@font-face": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@font-face",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@font-face\">@font-face</a>",
       "text": "@font-face"
@@ -17570,6 +17578,7 @@ module.exports={
   },
   "@keyframes": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@keyframes",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@keyframes\">@keyframes</a>",
       "text": "@keyframes"
@@ -17581,6 +17590,7 @@ module.exports={
   },
   "@viewport": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@viewport",
+    "status": "experimental",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@viewport\">@viewport</a>",
       "text": "@viewport"
@@ -17592,6 +17602,7 @@ module.exports={
   },
   "@counter-style": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@counter-style",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@counter-style\">@counter-style</a>",
       "text": "@counter-style"
@@ -17603,6 +17614,7 @@ module.exports={
   },
   "@font-feature-values": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@font-feature-values",
+    "status": "standard",
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@font-feature-values\">@font-feature-values</a>",
       "text": "@font-feature-values"
@@ -17615,748 +17627,1257 @@ module.exports={
 }
 },{}],23:[function(require,module,exports){
 module.exports={
-  "AliceBlue": {
-    "name": "AliceBlue",
+  "aliceblue": {
+    "name": "aliceblue",
     "hex": "#F0F8FF",
     "rgb": "rgb(240,248,255)"
   },
-  "AntiqueWhite": {
-    "name": "AntiqueWhite",
+  "antiquewhite": {
+    "name": "antiquewhite",
     "hex": "#FAEBD7",
     "rgb": "rgb(250,235,215)"
   },
-  "Aqua": {
-    "name": "Aqua",
+  "aqua": {
+    "name": "aqua",
     "hex": "#00FFFF",
     "rgb": "rgb(0,255,255)"
   },
-  "Aquamarine": {
-    "name": "Aquamarine",
+  "aquamarine": {
+    "name": "aquamarine",
     "hex": "#7FFFD4",
     "rgb": "rgb(127,255,212)"
   },
-  "Azure": {
-    "name": "Azure",
+  "azure": {
+    "name": "azure",
     "hex": "#F0FFFF",
     "rgb": "rgb(240,255,255)"
   },
-  "Beige": {
-    "name": "Beige",
+  "beige": {
+    "name": "beige",
     "hex": "#F5F5DC",
     "rgb": "rgb(245,245,220)"
   },
-  "Bisque": {
-    "name": "Bisque",
+  "bisque": {
+    "name": "bisque",
     "hex": "#FFE4C4",
     "rgb": "rgb(255,228,196)"
   },
-  "Black": {
-    "name": "Black",
+  "black": {
+    "name": "black",
     "hex": "#000000",
     "rgb": "rgb(0,0,0)"
   },
-  "BlanchedAlmond": {
-    "name": "BlanchedAlmond",
+  "blanchedalmond": {
+    "name": "blanchedalmond",
     "hex": "#FFEBCD",
     "rgb": "rgb(255,235,205)"
   },
-  "Blue": {
-    "name": "Blue",
+  "blue": {
+    "name": "blue",
     "hex": "#0000FF",
     "rgb": "rgb(0,0,255)"
   },
-  "BlueViolet": {
-    "name": "BlueViolet",
+  "blueviolet": {
+    "name": "blueviolet",
     "hex": "#8A2BE2",
     "rgb": "rgb(138,43,226)"
   },
-  "Brown": {
-    "name": "Brown",
+  "brown": {
+    "name": "brown",
     "hex": "#A52A2A",
     "rgb": "rgb(165,42,42)"
   },
-  "BurlyWood": {
-    "name": "BurlyWood",
+  "burlywood": {
+    "name": "burlywood",
     "hex": "#DEB887",
     "rgb": "rgb(222,184,135)"
   },
-  "CadetBlue": {
-    "name": "CadetBlue",
+  "cadetblue": {
+    "name": "cadetblue",
     "hex": "#5F9EA0",
     "rgb": "rgb(95,158,160)"
   },
-  "Chartreuse": {
-    "name": "Chartreuse",
+  "chartreuse": {
+    "name": "chartreuse",
     "hex": "#7FFF00",
     "rgb": "rgb(127,255,0)"
   },
-  "Chocolate": {
-    "name": "Chocolate",
+  "chocolate": {
+    "name": "chocolate",
     "hex": "#D2691E",
     "rgb": "rgb(210,105,30)"
   },
-  "Coral": {
-    "name": "Coral",
+  "coral": {
+    "name": "coral",
     "hex": "#FF7F50",
     "rgb": "rgb(255,127,80)"
   },
-  "CornflowerBlue": {
-    "name": "CornflowerBlue",
+  "cornflowerblue": {
+    "name": "cornflowerblue",
     "hex": "#6495ED",
     "rgb": "rgb(100,149,237)"
   },
-  "Cornsilk": {
-    "name": "Cornsilk",
+  "cornsilk": {
+    "name": "cornsilk",
     "hex": "#FFF8DC",
     "rgb": "rgb(255,248,220)"
   },
-  "Crimson": {
-    "name": "Crimson",
+  "crimson": {
+    "name": "crimson",
     "hex": "#DC143C",
     "rgb": "rgb(220,20,60)"
   },
-  "Cyan": {
-    "name": "Cyan",
+  "cyan": {
+    "name": "cyan",
     "hex": "#00FFFF",
     "rgb": "rgb(0,255,255)"
   },
-  "DarkBlue": {
-    "name": "DarkBlue",
+  "darkblue": {
+    "name": "darkblue",
     "hex": "#00008B",
     "rgb": "rgb(0,0,139)"
   },
-  "DarkCyan": {
-    "name": "DarkCyan",
+  "darkcyan": {
+    "name": "darkcyan",
     "hex": "#008B8B",
     "rgb": "rgb(0,139,139)"
   },
-  "DarkGoldenRod": {
-    "name": "DarkGoldenRod",
+  "darkgoldenrod": {
+    "name": "darkgoldenrod",
     "hex": "#B8860B",
     "rgb": "rgb(184,134,11)"
   },
-  "DarkGray": {
-    "name": "DarkGray",
+  "darkgray": {
+    "name": "darkgray",
     "hex": "#A9A9A9",
     "rgb": "rgb(169,169,169)"
   },
-  "DarkGrey": {
-    "name": "DarkGrey",
+  "darkgrey": {
+    "name": "darkgrey",
     "hex": "#A9A9A9",
     "rgb": "rgb(169,169,169)"
   },
-  "DarkGreen": {
-    "name": "DarkGreen",
+  "darkgreen": {
+    "name": "darkgreen",
     "hex": "#006400",
     "rgb": "rgb(0,100,0)"
   },
-  "DarkKhaki": {
-    "name": "DarkKhaki",
+  "darkkhaki": {
+    "name": "darkkhaki",
     "hex": "#BDB76B",
     "rgb": "rgb(189,183,107)"
   },
-  "DarkMagenta": {
-    "name": "DarkMagenta",
+  "darkmagenta": {
+    "name": "darkmagenta",
     "hex": "#8B008B",
     "rgb": "rgb(139,0,139)"
   },
-  "DarkOliveGreen": {
-    "name": "DarkOliveGreen",
+  "darkolivegreen": {
+    "name": "darkolivegreen",
     "hex": "#556B2F",
     "rgb": "rgb(85,107,47)"
   },
-  "DarkOrange": {
-    "name": "DarkOrange",
+  "darkorange": {
+    "name": "darkorange",
     "hex": "#FF8C00",
     "rgb": "rgb(255,140,0)"
   },
-  "DarkOrchid": {
-    "name": "DarkOrchid",
+  "darkorchid": {
+    "name": "darkorchid",
     "hex": "#9932CC",
     "rgb": "rgb(153,50,204)"
   },
-  "DarkRed": {
-    "name": "DarkRed",
+  "darkred": {
+    "name": "darkred",
     "hex": "#8B0000",
     "rgb": "rgb(139,0,0)"
   },
-  "DarkSalmon": {
-    "name": "DarkSalmon",
+  "darksalmon": {
+    "name": "darksalmon",
     "hex": "#E9967A",
     "rgb": "rgb(233,150,122)"
   },
-  "DarkSeaGreen": {
-    "name": "DarkSeaGreen",
+  "darkseagreen": {
+    "name": "darkseagreen",
     "hex": "#8FBC8F",
     "rgb": "rgb(143,188,143)"
   },
-  "DarkSlateBlue": {
-    "name": "DarkSlateBlue",
+  "darkslateblue": {
+    "name": "darkslateblue",
     "hex": "#483D8B",
     "rgb": "rgb(72,61,139)"
   },
-  "DarkSlateGray": {
-    "name": "DarkSlateGray",
+  "darkslategray": {
+    "name": "darkslategray",
     "hex": "#2F4F4F",
     "rgb": "rgb(47,79,79)"
   },
-  "DarkSlateGrey": {
-    "name": "DarkSlateGrey",
+  "darkslategrey": {
+    "name": "darkslategrey",
     "hex": "#2F4F4F",
     "rgb": "rgb(47,79,79)"
   },
-  "DarkTurquoise": {
-    "name": "DarkTurquoise",
+  "darkturquoise": {
+    "name": "darkturquoise",
     "hex": "#00CED1",
     "rgb": "rgb(0,206,209)"
   },
-  "DarkViolet": {
-    "name": "DarkViolet",
+  "darkviolet": {
+    "name": "darkviolet",
     "hex": "#9400D3",
     "rgb": "rgb(148,0,211)"
   },
-  "DeepPink": {
-    "name": "DeepPink",
+  "deeppink": {
+    "name": "deeppink",
     "hex": "#FF1493",
     "rgb": "rgb(255,20,147)"
   },
-  "DeepSkyBlue": {
-    "name": "DeepSkyBlue",
+  "deepskyblue": {
+    "name": "deepskyblue",
     "hex": "#00BFFF",
     "rgb": "rgb(0,191,255)"
   },
-  "DimGray": {
-    "name": "DimGray",
+  "dimgray": {
+    "name": "dimgray",
     "hex": "#696969",
     "rgb": "rgb(105,105,105)"
   },
-  "DimGrey": {
-    "name": "DimGrey",
+  "dimgrey": {
+    "name": "dimgrey",
     "hex": "#696969",
     "rgb": "rgb(105,105,105)"
   },
-  "DodgerBlue": {
-    "name": "DodgerBlue",
+  "dodgerblue": {
+    "name": "dodgerblue",
     "hex": "#1E90FF",
     "rgb": "rgb(30,144,255)"
   },
-  "FireBrick": {
-    "name": "FireBrick",
+  "firebrick": {
+    "name": "firebrick",
     "hex": "#B22222",
     "rgb": "rgb(178,34,34)"
   },
-  "FloralWhite": {
-    "name": "FloralWhite",
+  "floralwhite": {
+    "name": "floralwhite",
     "hex": "#FFFAF0",
     "rgb": "rgb(255,250,240)"
   },
-  "ForestGreen": {
-    "name": "ForestGreen",
+  "forestgreen": {
+    "name": "forestgreen",
     "hex": "#228B22",
     "rgb": "rgb(34,139,34)"
   },
-  "Fuchsia": {
-    "name": "Fuchsia",
+  "fuchsia": {
+    "name": "fuchsia",
     "hex": "#FF00FF",
     "rgb": "rgb(255,0,255)"
   },
-  "Gainsboro": {
-    "name": "Gainsboro",
+  "gainsboro": {
+    "name": "gainsboro",
     "hex": "#DCDCDC",
     "rgb": "rgb(220,220,220)"
   },
-  "GhostWhite": {
-    "name": "GhostWhite",
+  "ghostwhite": {
+    "name": "ghostwhite",
     "hex": "#F8F8FF",
     "rgb": "rgb(248,248,255)"
   },
-  "Gold": {
-    "name": "Gold",
+  "gold": {
+    "name": "gold",
     "hex": "#FFD700",
     "rgb": "rgb(255,215,0)"
   },
-  "GoldenRod": {
-    "name": "GoldenRod",
+  "goldenrod": {
+    "name": "goldenrod",
     "hex": "#DAA520",
     "rgb": "rgb(218,165,32)"
   },
-  "Gray": {
-    "name": "Gray",
+  "gray": {
+    "name": "gray",
     "hex": "#808080",
     "rgb": "rgb(128,128,128)"
   },
-  "Grey": {
-    "name": "Grey",
+  "grey": {
+    "name": "grey",
     "hex": "#808080",
     "rgb": "rgb(128,128,128)"
   },
-  "Green": {
-    "name": "Green",
+  "green": {
+    "name": "green",
     "hex": "#008000",
     "rgb": "rgb(0,128,0)"
   },
-  "GreenYellow": {
-    "name": "GreenYellow",
+  "greenyellow": {
+    "name": "greenyellow",
     "hex": "#ADFF2F",
     "rgb": "rgb(173,255,47)"
   },
-  "HoneyDew": {
-    "name": "HoneyDew",
+  "honeydew": {
+    "name": "honeydew",
     "hex": "#F0FFF0",
     "rgb": "rgb(240,255,240)"
   },
-  "HotPink": {
-    "name": "HotPink",
+  "hotpink": {
+    "name": "hotpink",
     "hex": "#FF69B4",
     "rgb": "rgb(255,105,180)"
   },
-  "IndianRed": {
-    "name": "IndianRed",
+  "indianred": {
+    "name": "indianred",
     "hex": "#CD5C5C",
     "rgb": "rgb(205,92,92)"
   },
-  "Indigo": {
-    "name": "Indigo",
+  "indigo": {
+    "name": "indigo",
     "hex": "#4B0082",
     "rgb": "rgb(75,0,130)"
   },
-  "Ivory": {
-    "name": "Ivory",
+  "ivory": {
+    "name": "ivory",
     "hex": "#FFFFF0",
     "rgb": "rgb(255,255,240)"
   },
-  "Khaki": {
-    "name": "Khaki",
+  "khaki": {
+    "name": "khaki",
     "hex": "#F0E68C",
     "rgb": "rgb(240,230,140)"
   },
-  "Lavender": {
-    "name": "Lavender",
+  "lavender": {
+    "name": "lavender",
     "hex": "#E6E6FA",
     "rgb": "rgb(230,230,250)"
   },
-  "LavenderBlush": {
-    "name": "LavenderBlush",
+  "lavenderblush": {
+    "name": "lavenderblush",
     "hex": "#FFF0F5",
     "rgb": "rgb(255,240,245)"
   },
-  "LawnGreen": {
-    "name": "LawnGreen",
+  "lawngreen": {
+    "name": "lawngreen",
     "hex": "#7CFC00",
     "rgb": "rgb(124,252,0)"
   },
-  "LemonChiffon": {
-    "name": "LemonChiffon",
+  "lemonchiffon": {
+    "name": "lemonchiffon",
     "hex": "#FFFACD",
     "rgb": "rgb(255,250,205)"
   },
-  "LightBlue": {
-    "name": "LightBlue",
+  "lightblue": {
+    "name": "lightblue",
     "hex": "#ADD8E6",
     "rgb": "rgb(173,216,230)"
   },
-  "LightCoral": {
-    "name": "LightCoral",
+  "lightcoral": {
+    "name": "lightcoral",
     "hex": "#F08080",
     "rgb": "rgb(240,128,128)"
   },
-  "LightCyan": {
-    "name": "LightCyan",
+  "lightcyan": {
+    "name": "lightcyan",
     "hex": "#E0FFFF",
     "rgb": "rgb(224,255,255)"
   },
-  "LightGoldenRodYellow": {
-    "name": "LightGoldenRodYellow",
+  "lightgoldenrodyellow": {
+    "name": "lightgoldenrodyellow",
     "hex": "#FAFAD2",
     "rgb": "rgb(250,250,210)"
   },
-  "LightGray": {
-    "name": "LightGray",
+  "lightgray": {
+    "name": "lightgray",
     "hex": "#D3D3D3",
     "rgb": "rgb(211,211,211)"
   },
-  "LightGrey": {
-    "name": "LightGrey",
+  "lightgrey": {
+    "name": "lightgrey",
     "hex": "#D3D3D3",
     "rgb": "rgb(211,211,211)"
   },
-  "LightGreen": {
-    "name": "LightGreen",
+  "lightgreen": {
+    "name": "lightgreen",
     "hex": "#90EE90",
     "rgb": "rgb(144,238,144)"
   },
-  "LightPink": {
-    "name": "LightPink",
+  "lightpink": {
+    "name": "lightpink",
     "hex": "#FFB6C1",
     "rgb": "rgb(255,182,193)"
   },
-  "LightSalmon": {
-    "name": "LightSalmon",
+  "lightsalmon": {
+    "name": "lightsalmon",
     "hex": "#FFA07A",
     "rgb": "rgb(255,160,122)"
   },
-  "LightSeaGreen": {
-    "name": "LightSeaGreen",
+  "lightseagreen": {
+    "name": "lightseagreen",
     "hex": "#20B2AA",
     "rgb": "rgb(32,178,170)"
   },
-  "LightSkyBlue": {
-    "name": "LightSkyBlue",
+  "lightskyblue": {
+    "name": "lightskyblue",
     "hex": "#87CEFA",
     "rgb": "rgb(135,206,250)"
   },
-  "LightSlateGray": {
-    "name": "LightSlateGray",
+  "lightslategray": {
+    "name": "lightslategray",
     "hex": "#778899",
     "rgb": "rgb(119,136,153)"
   },
-  "LightSlateGrey": {
-    "name": "LightSlateGrey",
+  "lightslategrey": {
+    "name": "lightslategrey",
     "hex": "#778899",
     "rgb": "rgb(119,136,153)"
   },
-  "LightSteelBlue": {
-    "name": "LightSteelBlue",
+  "lightsteelblue": {
+    "name": "lightsteelblue",
     "hex": "#B0C4DE",
     "rgb": "rgb(176,196,222)"
   },
-  "LightYellow": {
-    "name": "LightYellow",
+  "lightyellow": {
+    "name": "lightyellow",
     "hex": "#FFFFE0",
     "rgb": "rgb(255,255,224)"
   },
-  "Lime": {
-    "name": "Lime",
+  "lime": {
+    "name": "lime",
     "hex": "#00FF00",
     "rgb": "rgb(0,255,0)"
   },
-  "LimeGreen": {
-    "name": "LimeGreen",
+  "limegreen": {
+    "name": "limegreen",
     "hex": "#32CD32",
     "rgb": "rgb(50,205,50)"
   },
-  "Linen": {
-    "name": "Linen",
+  "linen": {
+    "name": "linen",
     "hex": "#FAF0E6",
     "rgb": "rgb(250,240,230)"
   },
-  "Magenta": {
-    "name": "Magenta",
+  "magenta": {
+    "name": "magenta",
     "hex": "#FF00FF",
     "rgb": "rgb(255,0,255)"
   },
-  "Maroon": {
-    "name": "Maroon",
+  "maroon": {
+    "name": "maroon",
     "hex": "#800000",
     "rgb": "rgb(128,0,0)"
   },
-  "MediumAquaMarine": {
-    "name": "MediumAquaMarine",
+  "mediumaquamarine": {
+    "name": "mediumaquamarine",
     "hex": "#66CDAA",
     "rgb": "rgb(102,205,170)"
   },
-  "MediumBlue": {
-    "name": "MediumBlue",
+  "mediumblue": {
+    "name": "mediumblue",
     "hex": "#0000CD",
     "rgb": "rgb(0,0,205)"
   },
-  "MediumOrchid": {
-    "name": "MediumOrchid",
+  "mediumorchid": {
+    "name": "mediumorchid",
     "hex": "#BA55D3",
     "rgb": "rgb(186,85,211)"
   },
-  "MediumPurple": {
-    "name": "MediumPurple",
+  "mediumpurple": {
+    "name": "mediumpurple",
     "hex": "#9370DB",
     "rgb": "rgb(147,112,219)"
   },
-  "MediumSeaGreen": {
-    "name": "MediumSeaGreen",
+  "mediumseagreen": {
+    "name": "mediumseagreen",
     "hex": "#3CB371",
     "rgb": "rgb(60,179,113)"
   },
-  "MediumSlateBlue": {
-    "name": "MediumSlateBlue",
+  "mediumslateblue": {
+    "name": "mediumslateblue",
     "hex": "#7B68EE",
     "rgb": "rgb(123,104,238)"
   },
-  "MediumSpringGreen": {
-    "name": "MediumSpringGreen",
+  "mediumspringgreen": {
+    "name": "mediumspringgreen",
     "hex": "#00FA9A",
     "rgb": "rgb(0,250,154)"
   },
-  "MediumTurquoise": {
-    "name": "MediumTurquoise",
+  "mediumturquoise": {
+    "name": "mediumturquoise",
     "hex": "#48D1CC",
     "rgb": "rgb(72,209,204)"
   },
-  "MediumVioletRed": {
-    "name": "MediumVioletRed",
+  "mediumvioletred": {
+    "name": "mediumvioletred",
     "hex": "#C71585",
     "rgb": "rgb(199,21,133)"
   },
-  "MidnightBlue": {
-    "name": "MidnightBlue",
+  "midnightblue": {
+    "name": "midnightblue",
     "hex": "#191970",
     "rgb": "rgb(25,25,112)"
   },
-  "MintCream": {
-    "name": "MintCream",
+  "mintcream": {
+    "name": "mintcream",
     "hex": "#F5FFFA",
     "rgb": "rgb(245,255,250)"
   },
-  "MistyRose": {
-    "name": "MistyRose",
+  "mistyrose": {
+    "name": "mistyrose",
     "hex": "#FFE4E1",
     "rgb": "rgb(255,228,225)"
   },
-  "Moccasin": {
-    "name": "Moccasin",
+  "moccasin": {
+    "name": "moccasin",
     "hex": "#FFE4B5",
     "rgb": "rgb(255,228,181)"
   },
-  "NavajoWhite": {
-    "name": "NavajoWhite",
+  "navajowhite": {
+    "name": "navajowhite",
     "hex": "#FFDEAD",
     "rgb": "rgb(255,222,173)"
   },
-  "Navy": {
-    "name": "Navy",
+  "navy": {
+    "name": "navy",
     "hex": "#000080",
     "rgb": "rgb(0,0,128)"
   },
-  "OldLace": {
-    "name": "OldLace",
+  "oldlace": {
+    "name": "oldlace",
     "hex": "#FDF5E6",
     "rgb": "rgb(253,245,230)"
   },
-  "Olive": {
-    "name": "Olive",
+  "olive": {
+    "name": "olive",
     "hex": "#808000",
     "rgb": "rgb(128,128,0)"
   },
-  "OliveDrab": {
-    "name": "OliveDrab",
+  "olivedrab": {
+    "name": "olivedrab",
     "hex": "#6B8E23",
     "rgb": "rgb(107,142,35)"
   },
-  "Orange": {
-    "name": "Orange",
+  "orange": {
+    "name": "orange",
     "hex": "#FFA500",
     "rgb": "rgb(255,165,0)"
   },
-  "OrangeRed": {
-    "name": "OrangeRed",
+  "orangered": {
+    "name": "orangered",
     "hex": "#FF4500",
     "rgb": "rgb(255,69,0)"
   },
-  "Orchid": {
-    "name": "Orchid",
+  "orchid": {
+    "name": "orchid",
     "hex": "#DA70D6",
     "rgb": "rgb(218,112,214)"
   },
-  "PaleGoldenRod": {
-    "name": "PaleGoldenRod",
+  "palegoldenrod": {
+    "name": "palegoldenrod",
     "hex": "#EEE8AA",
     "rgb": "rgb(238,232,170)"
   },
-  "PaleGreen": {
-    "name": "PaleGreen",
+  "palegreen": {
+    "name": "palegreen",
     "hex": "#98FB98",
     "rgb": "rgb(152,251,152)"
   },
-  "PaleTurquoise": {
-    "name": "PaleTurquoise",
+  "paleturquoise": {
+    "name": "paleturquoise",
     "hex": "#AFEEEE",
     "rgb": "rgb(175,238,238)"
   },
-  "PaleVioletRed": {
-    "name": "PaleVioletRed",
+  "palevioletred": {
+    "name": "palevioletred",
     "hex": "#DB7093",
     "rgb": "rgb(219,112,147)"
   },
-  "PapayaWhip": {
-    "name": "PapayaWhip",
+  "papayawhip": {
+    "name": "papayawhip",
     "hex": "#FFEFD5",
     "rgb": "rgb(255,239,213)"
   },
-  "PeachPuff": {
-    "name": "PeachPuff",
+  "peachpuff": {
+    "name": "peachpuff",
     "hex": "#FFDAB9",
     "rgb": "rgb(255,218,185)"
   },
-  "Peru": {
-    "name": "Peru",
+  "peru": {
+    "name": "peru",
     "hex": "#CD853F",
     "rgb": "rgb(205,133,63)"
   },
-  "Pink": {
-    "name": "Pink",
+  "pink": {
+    "name": "pink",
     "hex": "#FFC0CB",
     "rgb": "rgb(255,192,203)"
   },
-  "Plum": {
-    "name": "Plum",
+  "plum": {
+    "name": "plum",
     "hex": "#DDA0DD",
     "rgb": "rgb(221,160,221)"
   },
-  "PowderBlue": {
-    "name": "PowderBlue",
+  "powderblue": {
+    "name": "powderblue",
     "hex": "#B0E0E6",
     "rgb": "rgb(176,224,230)"
   },
-  "Purple": {
-    "name": "Purple",
+  "purple": {
+    "name": "purple",
     "hex": "#800080",
     "rgb": "rgb(128,0,128)"
   },
-  "RebeccaPurple": {
-    "name": "RebeccaPurple",
+  "rebeccapurple": {
+    "name": "rebeccapurple",
     "hex": "#663399",
     "rgb": "rgb(102,51,153)"
   },
-  "Red": {
-    "name": "Red",
+  "red": {
+    "name": "red",
     "hex": "#FF0000",
     "rgb": "rgb(255,0,0)"
   },
-  "RosyBrown": {
-    "name": "RosyBrown",
+  "rosybrown": {
+    "name": "rosybrown",
     "hex": "#BC8F8F",
     "rgb": "rgb(188,143,143)"
   },
-  "RoyalBlue": {
-    "name": "RoyalBlue",
+  "royalblue": {
+    "name": "royalblue",
     "hex": "#4169E1",
     "rgb": "rgb(65,105,225)"
   },
-  "SaddleBrown": {
-    "name": "SaddleBrown",
+  "saddlebrown": {
+    "name": "saddlebrown",
     "hex": "#8B4513",
     "rgb": "rgb(139,69,19)"
   },
-  "Salmon": {
-    "name": "Salmon",
+  "salmon": {
+    "name": "salmon",
     "hex": "#FA8072",
     "rgb": "rgb(250,128,114)"
   },
-  "SandyBrown": {
-    "name": "SandyBrown",
+  "sandybrown": {
+    "name": "sandybrown",
     "hex": "#F4A460",
     "rgb": "rgb(244,164,96)"
   },
-  "SeaGreen": {
-    "name": "SeaGreen",
+  "seagreen": {
+    "name": "seagreen",
     "hex": "#2E8B57",
     "rgb": "rgb(46,139,87)"
   },
-  "SeaShell": {
-    "name": "SeaShell",
+  "seashell": {
+    "name": "seashell",
     "hex": "#FFF5EE",
     "rgb": "rgb(255,245,238)"
   },
-  "Sienna": {
-    "name": "Sienna",
+  "sienna": {
+    "name": "sienna",
     "hex": "#A0522D",
     "rgb": "rgb(160,82,45)"
   },
-  "Silver": {
-    "name": "Silver",
+  "silver": {
+    "name": "silver",
     "hex": "#C0C0C0",
     "rgb": "rgb(192,192,192)"
   },
-  "SkyBlue": {
-    "name": "SkyBlue",
+  "skyblue": {
+    "name": "skyblue",
     "hex": "#87CEEB",
     "rgb": "rgb(135,206,235)"
   },
-  "SlateBlue": {
-    "name": "SlateBlue",
+  "slateblue": {
+    "name": "slateblue",
     "hex": "#6A5ACD",
     "rgb": "rgb(106,90,205)"
   },
-  "SlateGray": {
-    "name": "SlateGray",
+  "slategray": {
+    "name": "slategray",
     "hex": "#708090",
     "rgb": "rgb(112,128,144)"
   },
-  "SlateGrey": {
-    "name": "SlateGrey",
+  "slategrey": {
+    "name": "slategrey",
     "hex": "#708090",
     "rgb": "rgb(112,128,144)"
   },
-  "Snow": {
-    "name": "Snow",
+  "snow": {
+    "name": "snow",
     "hex": "#FFFAFA",
     "rgb": "rgb(255,250,250)"
   },
-  "SpringGreen": {
-    "name": "SpringGreen",
+  "springgreen": {
+    "name": "springgreen",
     "hex": "#00FF7F",
     "rgb": "rgb(0,255,127)"
   },
-  "SteelBlue": {
-    "name": "SteelBlue",
+  "steelblue": {
+    "name": "steelblue",
     "hex": "#4682B4",
     "rgb": "rgb(70,130,180)"
   },
-  "Tan": {
-    "name": "Tan",
+  "tan": {
+    "name": "tan",
     "hex": "#D2B48C",
     "rgb": "rgb(210,180,140)"
   },
-  "Teal": {
-    "name": "Teal",
+  "teal": {
+    "name": "teal",
     "hex": "#008080",
     "rgb": "rgb(0,128,128)"
   },
-  "Thistle": {
-    "name": "Thistle",
+  "thistle": {
+    "name": "thistle",
     "hex": "#D8BFD8",
     "rgb": "rgb(216,191,216)"
   },
-  "Tomato": {
-    "name": "Tomato",
+  "tomato": {
+    "name": "tomato",
     "hex": "#FF6347",
     "rgb": "rgb(255,99,71)"
   },
-  "Turquoise": {
-    "name": "Turquoise",
+  "turquoise": {
+    "name": "turquoise",
     "hex": "#40E0D0",
     "rgb": "rgb(64,224,208)"
   },
-  "Violet": {
-    "name": "Violet",
+  "violet": {
+    "name": "violet",
     "hex": "#EE82EE",
     "rgb": "rgb(238,130,238)"
   },
-  "Wheat": {
-    "name": "Wheat",
+  "wheat": {
+    "name": "wheat",
     "hex": "#F5DEB3",
     "rgb": "rgb(245,222,179)"
   },
-  "White": {
-    "name": "White",
+  "white": {
+    "name": "white",
     "hex": "#FFFFFF",
     "rgb": "rgb(255,255,255)"
   },
-  "WhiteSmoke": {
-    "name": "WhiteSmoke",
+  "whitesmoke": {
+    "name": "whitesmoke",
     "hex": "#F5F5F5",
     "rgb": "rgb(245,245,245)"
   },
-  "Yellow": {
-    "name": "Yellow",
+  "yellow": {
+    "name": "yellow",
     "hex": "#FFFF00",
     "rgb": "rgb(255,255,0)"
   },
-  "YellowGreen": {
-    "name": "YellowGreen",
+  "yellowgreen": {
+    "name": "yellowgreen",
     "hex": "#9ACD32",
     "rgb": "rgb(154,205,50)"
   }
 }
 },{}],24:[function(require,module,exports){
+module.exports={
+  "angle": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\">angle</a>",
+      "text": "angle"
+    },
+    "description": {
+      "html": "The \"angle\" CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in \"gradient\"s and in some transform functions.",
+      "text": "The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions."
+    }
+  },
+  "angle-percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle-percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle-percentage\">angle-percentage</a>",
+      "text": "angle-percentage"
+    },
+    "description": {
+      "html": "The \"angle-percentage\" CSS data type represents a value that can be either a \"angle\" or a \"percentage\".",
+      "text": "The <angle-percentage> CSS data type represents a value that can be either a <angle> or a <percentage>."
+    }
+  },
+  "angular-color-hint": {
+    "url": null,
+    "keyword": {
+      "html": "angular-color-hint",
+      "text": "angular-color-hint"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "angular-color-stop": {
+    "url": null,
+    "keyword": {
+      "html": "angular-color-stop",
+      "text": "angular-color-stop"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "attr-fallback": {
+    "url": null,
+    "keyword": {
+      "html": "attr-fallback",
+      "text": "attr-fallback"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "attr-name": {
+    "url": null,
+    "keyword": {
+      "html": "attr-name",
+      "text": "attr-name"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "basic-shape": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape\">basic-shape</a>",
+      "text": "basic-shape"
+    },
+    "description": {
+      "html": "The \"basic-shape\" CSS data type represents a shape used in the clip-path, shape-outside, and offset-path properties.",
+      "text": "The <basic-shape> CSS data type represents a shape used in the clip-path, shape-outside, and offset-path properties."
+    }
+  },
+  "blend-mode": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/blend-mode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/blend-mode\">blend-mode</a>",
+      "text": "blend-mode"
+    },
+    "description": {
+      "html": "The \"blend-mode\" CSS data type describes how colors should appear when elements overlap. It is used in the background-blend-mode and mix-blend-mode properties.",
+      "text": "The <blend-mode> CSS data type describes how colors should appear when elements overlap. It is used in the background-blend-mode and mix-blend-mode properties."
+    }
+  },
+  "calc-product": {
+    "url": null,
+    "keyword": {
+      "html": "calc-product",
+      "text": "calc-product"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "calc-sum": {
+    "url": null,
+    "keyword": {
+      "html": "calc-sum",
+      "text": "calc-sum"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "calc-value": {
+    "url": null,
+    "keyword": {
+      "html": "calc-value",
+      "text": "calc-value"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "color": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/color_value\">color</a>",
+      "text": "color"
+    },
+    "description": {
+      "html": "The \"color\" CSS data type represents a color in the sRGB color space. A \"color\" may also include an alpha-channel transparency value, indicating how the color should composite with its background.",
+      "text": "The <color> CSS data type represents a color in the sRGB color space. A <color> may also include an alpha-channel transparency value, indicating how the color should composite with its background."
+    }
+  },
+  "color-stop": {
+    "url": null,
+    "keyword": {
+      "html": "color-stop",
+      "text": "color-stop"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "color-stop-angle": {
+    "url": null,
+    "keyword": {
+      "html": "color-stop-angle",
+      "text": "color-stop-angle"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "counter-style": {
+    "url": null,
+    "keyword": {
+      "html": "counter-style",
+      "text": "counter-style"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "custom-ident": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident\">custom-ident</a>",
+      "text": "custom-ident"
+    },
+    "description": {
+      "html": "The \"custom-ident\" CSS data type denotes an arbitrary user-defined string used as an identifier. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity.",
+      "text": "The <custom-ident> CSS data type denotes an arbitrary user-defined string used as an identifier. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity."
+    }
+  },
+  "dimension": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/dimension",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/dimension\">dimension</a>",
+      "text": "dimension"
+    },
+    "description": {
+      "html": "The \"dimension\" CSS data type represents a \"number\" with a unit attached to it, for example 10px.",
+      "text": "The <dimension> CSS data type represents a <number> with a unit attached to it, for example 10px."
+    }
+  },
+  "filter-function": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function\">filter-function</a>",
+      "text": "filter-function"
+    },
+    "description": {
+      "html": "The \"filter-function\" CSS data type represents a graphical effect that can change the appearance of an input image. It is used in the filter and backdrop-filter properties.",
+      "text": "The <filter-function> CSS data type represents a graphical effect that can change the appearance of an input image. It is used in the filter and backdrop-filter properties."
+    }
+  },
+  "flex": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value\">flex</a>",
+      "text": "flex"
+    },
+    "description": {
+      "html": "The \"flex\" CSS data type denotes a flexible length within a grid container. It is used in grid-template-columns, grid-template-rows and other related properties.",
+      "text": "The <flex> CSS data type denotes a flexible length within a grid container. It is used in grid-template-columns, grid-template-rows and other related properties."
+    }
+  },
+  "frequency": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\">frequency</a>",
+      "text": "frequency"
+    },
+    "description": {
+      "html": "The \"frequency\" CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.",
+      "text": "The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties."
+    }
+  },
+  "frequency-percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency-percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency-percentage\">frequency-percentage</a>",
+      "text": "frequency-percentage"
+    },
+    "description": {
+      "html": "The \"frequency-percentage\" CSS data type represents a value that can be either a \"frequency\" or a \"percentage\".",
+      "text": "The <frequency-percentage> CSS data type represents a value that can be either a <frequency> or a <percentage>."
+    }
+  },
+  "gradient": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/gradient\">gradient</a>",
+      "text": "gradient"
+    },
+    "description": {
+      "html": "The \"gradient\" CSS data type is a special type of \"image\" that consists of a progressive transition between two or more colors.",
+      "text": "The <gradient> CSS data type is a special type of <image> that consists of a progressive transition between two or more colors."
+    }
+  },
+  "ident": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/ident",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/ident\">ident</a>",
+      "text": "ident"
+    },
+    "description": {
+      "html": "The \"ident\" CSS data type denotes an arbitrary string used as an identifier.",
+      "text": "The <ident> CSS data type denotes an arbitrary string used as an identifier."
+    }
+  },
+  "image": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/image",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/image\">image</a>",
+      "text": "image"
+    },
+    "description": {
+      "html": "The \"image\" CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a \"url\", and dynamically-generated images, generated with \"gradient\" or element(). Additional CSS image functions include image(), image-set(), and cross-fade(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image.",
+      "text": "The <image> CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a <url>, and dynamically-generated images, generated with <gradient> or element(). Additional CSS image functions include image(), image-set(), and cross-fade(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image."
+    }
+  },
+  "integer": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/integer",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\">integer</a>",
+      "text": "integer"
+    },
+    "description": {
+      "html": "The \"integer\" CSS data type is a special type of \"number\" that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.",
+      "text": "The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index."
+    }
+  },
+  "length": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\">length</a>",
+      "text": "length"
+    },
+    "description": {
+      "html": "The \"length\" CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.",
+      "text": "The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    }
+  },
+  "length-percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length-percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length-percentage\">length-percentage</a>",
+      "text": "length-percentage"
+    },
+    "description": {
+      "html": "The \"length-percentage\" CSS data type represents a value that can be either a \"length\" or a \"percentage\".",
+      "text": "The <length-percentage> CSS data type represents a value that can be either a <length> or a <percentage>."
+    }
+  },
+  "number": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/number",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\">number</a>",
+      "text": "number"
+    },
+    "description": {
+      "html": "The \"number\" CSS data type represents a number, being either an integer or a number with a fractional component.",
+      "text": "The <number> CSS data type represents a number, being either an integer or a number with a fractional component."
+    }
+  },
+  "number-percentage": {
+    "url": null,
+    "keyword": {
+      "html": "number-percentage",
+      "text": "number-percentage"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\">percentage</a>",
+      "text": "percentage"
+    },
+    "description": {
+      "html": "The \"percentage\" CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.",
+      "text": "The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size."
+    }
+  },
+  "position": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position_value",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/position_value\">position</a>",
+      "text": "position"
+    },
+    "description": {
+      "html": "The \"position\" (or \"bg-position\") CSS data type denotes a two-dimensional coordinate used to set a location relative to an element box. It is used in the background-position and offset-anchor properties.",
+      "text": "The <position> (or <bg-position>) CSS data type denotes a two-dimensional coordinate used to set a location relative to an element box. It is used in the background-position and offset-anchor properties."
+    }
+  },
+  "quote": {
+    "url": null,
+    "keyword": {
+      "html": "quote",
+      "text": "quote"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "ratio": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/ratio",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/ratio\">ratio</a>",
+      "text": "ratio"
+    },
+    "description": {
+      "html": "The \"ratio\" CSS data type, used for describing aspect ratios in media queries, denotes the proportion between two unitless values.",
+      "text": "The <ratio> CSS data type, used for describing aspect ratios in media queries, denotes the proportion between two unitless values."
+    }
+  },
+  "resolution": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/resolution\">resolution</a>",
+      "text": "resolution"
+    },
+    "description": {
+      "html": "The \"resolution\" CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution.",
+      "text": "The <resolution> CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution."
+    }
+  },
+  "shape-box": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-box",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/shape-box\">shape-box</a>",
+      "text": "shape-box"
+    },
+    "description": {
+      "html": "REDIRECT shape-outside",
+      "text": "REDIRECT shape-outside"
+    }
+  },
+  "shape-radius": {
+    "url": null,
+    "keyword": {
+      "html": "shape-radius",
+      "text": "shape-radius"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "string": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/string",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/string\">string</a>",
+      "text": "string"
+    },
+    "description": {
+      "html": "The \"string\" CSS data type represents a sequence of characters. Strings are used in numerous CSS properties, such as content, font-family, and quotes.",
+      "text": "The <string> CSS data type represents a sequence of characters. Strings are used in numerous CSS properties, such as content, font-family, and quotes."
+    }
+  },
+  "time": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\">time</a>",
+      "text": "time"
+    },
+    "description": {
+      "html": "The \"time\" CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.",
+      "text": "The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties."
+    }
+  },
+  "time-percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time-percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time-percentage\">time-percentage</a>",
+      "text": "time-percentage"
+    },
+    "description": {
+      "html": "The \"time-percentage\" CSS data type represents a value that can be either a \"time\" or a \"percentage\".",
+      "text": "The <time-percentage> CSS data type represents a value that can be either a <time> or a <percentage>."
+    }
+  },
+  "timing-function": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function\">timing-function</a>",
+      "text": "timing-function"
+    },
+    "description": {
+      "html": "REDIRECT \"easing-function\"",
+      "text": "REDIRECT <easing-function>"
+    }
+  },
+  "toggle-value": {
+    "url": null,
+    "keyword": {
+      "html": "toggle-value",
+      "text": "toggle-value"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "transform-function": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function\">transform-function</a>",
+      "text": "transform-function"
+    },
+    "description": {
+      "html": "The \"transform-function\" CSS data type represents a transformation that affects an element's appearance. Transformation functions can rotate, resize, distort, or move an element in 2D or 3D space. It is used in the transform property.",
+      "text": "The <transform-function> CSS data type represents a transformation that affects an element's appearance. Transformation functions can rotate, resize, distort, or move an element in 2D or 3D space. It is used in the transform property."
+    }
+  },
+  "type-or-unit": {
+    "url": null,
+    "keyword": {
+      "html": "type-or-unit",
+      "text": "type-or-unit"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "url": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/url",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/url\">url</a>",
+      "text": "url"
+    },
+    "description": {
+      "html": "The \"url\" CSS data type denotes a pointer to a resource, such as an image or a font. URLs can be used in numerous CSS properties, such as background-image, cursor, and list-style.",
+      "text": "The <url> CSS data type denotes a pointer to a resource, such as an image or a font. URLs can be used in numerous CSS properties, such as background-image, cursor, and list-style."
+    }
+  },
+  "url-modifier": {
+    "url": null,
+    "keyword": {
+      "html": "url-modifier",
+      "text": "url-modifier"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "zero": {
+    "url": null,
+    "keyword": {
+      "html": "zero",
+      "text": "zero"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  }
+}
+},{}],25:[function(require,module,exports){
 module.exports={
   "align-content": {
     "urls": {
@@ -28284,7 +28805,7 @@ module.exports={
     }
   }
 }
-},{}],25:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 module.exports={
   ":active": {
     "status": "standard",
@@ -29019,14 +29540,14 @@ module.exports={
     }
   }
 }
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 module.exports={
-  "::after ": {
+  "::after": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::after",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::after\">::after </a>",
-      "text": "::after "
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::after\">::after</a>",
+      "text": "::after"
     },
     "description": {
       "html": "<span class=\"seoSummary\">In CSS, <strong><code>::after</code></strong> creates a <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> that is the last child of the selected element. It is often used to add cosmetic content to an element with the <a href=\"/en-US/docs/Web/CSS/content\" title=\"The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.\"><code>content</code></a> property.</span> It is inline by default.",
@@ -29045,12 +29566,12 @@ module.exports={
       "text": "The ::backdrop CSS pseudo-element is a box the size of the viewport which is rendered immediately beneath any element being presented in full-screen mode. This includes both elements which have been placed in full-screen mode using the Fullscreen API and <dialog> elements."
     }
   },
-  "::before ": {
+  "::before": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::before",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::before\">::before </a>",
-      "text": "::before "
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::before\">::before</a>",
+      "text": "::before"
     },
     "description": {
       "html": "<span class=\"seoSummary\">In CSS, <strong><code>::before</code></strong> creates a <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> that is the first child of the selected element. It is often used to add cosmetic content to an element with the <a href=\"/en-US/docs/Web/CSS/content\" title=\"The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.\"><code>content</code></a> property.</span> It is inline by default.",
@@ -29081,24 +29602,24 @@ module.exports={
       "text": "The ::cue-region CSS pseudo-element matches WebVTT cues within a selected element. This can be used to style captions and other cues in media with VTT tracks."
     }
   },
-  "::first-letter ": {
+  "::first-letter": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter\">::first-letter </a>",
-      "text": "::first-letter "
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter\">::first-letter</a>",
+      "text": "::first-letter"
     },
     "description": {
       "html": "The <strong><code>::first-letter</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> applies styles to the first letter of the first line of a <a href=\"/en-US/docs/Web/CSS/Visual_formatting_model#Block-level_elements_and_block_boxes\">block-level element</a>, but only when not preceded by other content (such as images or inline tables).",
       "text": "The ::first-letter CSS pseudo-element applies styles to the first letter of the first line of a block-level element, but only when not preceded by other content (such as images or inline tables)."
     }
   },
-  "::first-line ": {
+  "::first-line": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line\">::first-line </a>",
-      "text": "::first-line "
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line\">::first-line</a>",
+      "text": "::first-line"
     },
     "description": {
       "html": "<span class=\"seoSummary\">The <strong><code>::first-line</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> applies styles to the first line of a <a href=\"/en-US/docs/Web/CSS/Visual_formatting_model#Block-level_elements_and_block_boxes\">block-level element</a>.</span> Note that the length of the first line depends on many factors, including the width of the element, the width of the document, and the font size of the text.",
@@ -29190,7 +29711,215 @@ module.exports={
     }
   }
 }
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
+module.exports={
+  "s": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
+    "html": "Represents a time in seconds. Examples: <code>0s</code>, <code>1.5s</code>, <code>-60s</code>.",
+    "text": "Represents a time in seconds. Examples: 0s, 1.5s, -60s."
+  },
+  "ms": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
+    "html": "Represents a time in milliseconds. Examples: <code>0ms</code>, <code>150.25ms</code>, <code>-60000ms</code>.",
+    "text": "Represents a time in milliseconds. Examples: 0ms, 150.25ms, -60000ms."
+  },
+  "%": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/percentage",
+    "html": "The <strong><code>&lt;percentage&gt;</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types\">data type</a> represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\" title=\"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\"><code>width</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\" title=\"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\"><code>height</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/margin\" title=\"The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left.\"><code>margin</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/padding\" title=\"The padding CSS property sets the padding area on all four sides of an element. It is a shorthand for padding-top, padding-right, padding-bottom, and padding-left.\"><code>padding</code></a>, and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a>.",
+    "text": "The % (percentage) CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size."
+  },
+  "cap": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the \"cap height\" (nominal height of capital letters) of the element’s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font\" title=\"The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.\"><code>font</code></a>.",
+    "text": "Represents the \"cap height\" (nominal height of capital letters) of the element’s font."
+  },
+  "ch": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the width, or more precisely the advance measure, of the glyph \"0\" (zero, the Unicode character U+0030) in the element's <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font\" title=\"The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.\"><code>font</code></a>. In the cases where it is impossible or impractical to determine the measure of the \"0\" glyph, it must be assumed to be 0.5em wide by 1em tall.",
+    "text": "Represents the width, or more precisely the advance measure, of the glyph \"0\" (zero, the Unicode character U+0030) in the element's font. In the cases where it is impossible or impractical to determine the measure of the \"0\" glyph, it must be assumed to be 0.5em wide by 1em tall."
+  },
+  "em": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the calculated <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> of the element. If used on the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> property itself, it represents the <em>inherited</em> font-size of the element.",
+    "text": "Represents the calculated font-size of the element. If used on the font-size property itself, it represents the inherited font-size of the element."
+  },
+  "ex": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the <a class=\"external\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/X-height\" rel=\"noopener\">x-height</a> of the element's <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font\" title=\"The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.\"><code>font</code></a>. On fonts with the \"x\" letter, this is generally the height of lowercase letters in the font; <code>1ex ≈ 0.5em</code> in many fonts.",
+    "text": "Represents the x-height of the element's font. On fonts with the \"x\" letter, this is generally the height of lowercase letters in the font; 1ex ≈ 0.5em in many fonts."
+  },
+  "ic": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the used advance measure of the \"水\" (CJK water ideograph, U+6C34) glyph found in the font used to render it.",
+    "text": "Equal to the used advance measure of the \"水\" (CJK water ideograph, U+6C34) glyph found in the font used to render it."
+  },
+  "lh": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the computed value of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/line-height\" title=\"The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.\"><code>line-height</code></a> property of the element on which it is used, converted to an absolute length.",
+    "text": "Equal to the computed value of the line-height property of the element on which it is used, converted to an absolute length."
+  },
+  "rem": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> of the root element (typically <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML <html> element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>). When used within the root element <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a>, it represents its initial value (a common browser default is <code>16px</code>, but user-defined preferences may modify this).",
+    "text": "Represents the font-size of the root element (typically <html>). When used within the root element font-size, it represents its initial value (a common browser default is 16px, but user-defined preferences may modify this)."
+  },
+  "rlh": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the computed value of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/line-height\" title=\"The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.\"><code>line-height</code></a> property on the root element (typically <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML <html> element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>), converted to an absolute length. When used on the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/line-height\" title=\"The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.\"><code>line-height</code></a> properties of the root element, it refers to the properties' initial value.",
+    "text": "Equal to the computed value of the line-height property on the root element (typically <html>), converted to an absolute length. When used on the font-size or line-height properties of the root element, it refers to the properties' initial value."
+  },
+  "vh": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to 1% of the height of the viewport's initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>.",
+    "text": "Equal to 1% of the height of the viewport's initial containing block."
+  },
+  "vw": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to 1% of the width of the viewport's initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>.",
+    "text": "Equal to 1% of the width of the viewport's initial containing block."
+  },
+  "vi": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to 1% of the size of the initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>, in the direction of the root element’s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties#inline-dimension\">inline axis</a>.",
+    "text": "Equal to 1% of the size of the initial containing block, in the direction of the root element’s inline axis."
+  },
+  "vb": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to 1% of the size of the initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>, in the direction of the root element’s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties#block-dimension\">block axis</a>.",
+    "text": "Equal to 1% of the size of the initial containing block, in the direction of the root element’s block axis."
+  },
+  "vmin": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the smaller of <code>vw</code> and <code>vh</code>.",
+    "text": "Equal to the smaller of vw and vh."
+  },
+  "vmax": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the larger of <code>vw</code> and <code>vh</code>.",
+    "text": "Equal to the larger of vw and vh."
+  },
+  "px": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One pixel. For screen displays, it traditionally represents one device pixel (dot). However, for <em>printers</em> and <em>high-resolution screens</em>, one CSS pixel implies multiple device pixels. <code>1px</code> = 1/96th of <code>1in</code>.",
+    "text": "One pixel. For screen displays, it traditionally represents one device pixel (dot). However, for printers and high-resolution screens, one CSS pixel implies multiple device pixels. 1px = 1/96th of 1in."
+  },
+  "cm": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One centimeter. <code>1cm</code> = <code>96px/2.54</code>.",
+    "text": "One centimeter. 1cm = 96px/2.54."
+  },
+  "mm": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One millimeter. <code>1mm</code> = 1/10th of <code>1cm</code>.",
+    "text": "One millimeter. 1mm = 1/10th of 1cm."
+  },
+  "Q": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One quarter of a millimeter. <code>1Q</code> = 1/40th of <code>1cm</code>.",
+    "text": "One quarter of a millimeter. 1Q = 1/40th of 1cm."
+  },
+  "in": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One inch. <code>1in</code> = <code>2.54cm</code> = <code>96px</code>.",
+    "text": "One inch. 1in = 2.54cm = 96px."
+  },
+  "pc": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One pica. <code>1pc</code> = <code>12pt</code> = 1/6th of <code>1in</code>.",
+    "text": "One pica. 1pc = 12pt = 1/6th of 1in."
+  },
+  "pt": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One point. <code>1pt</code> = 1/72nd of <code>1in</code>.",
+    "text": "One point. 1pt = 1/72nd of 1in."
+  },
+  "deg": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Degree_%28angle%29\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Degree_%28angle%29\">degrees</a>. One full circle is <code>360deg</code>. Examples: <code>0deg</code>, <code>90deg</code>, <code>14.23deg</code>.",
+    "text": "Represents an angle in degrees. One full circle is 360deg. Examples: 0deg, 90deg, 14.23deg."
+  },
+  "grad": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Gradian\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Gradian\">gradians</a>. One full circle is <code>400grad</code>. Examples: <code>0grad</code>, <code>100grad</code>, <code>38.8grad</code>.",
+    "text": "Represents an angle in gradians. One full circle is 400grad. Examples: 0grad, 100grad, 38.8grad."
+  },
+  "rad": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Radian\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Radian\">radians</a>. One full circle is 2π radians which approximates to <code>6.2832rad</code>. <code>1rad</code> is 180/π degrees. Examples: <code>0rad</code>, <code>1.0708rad</code>, <code>6.2832rad</code>.",
+    "text": "Represents an angle in radians. One full circle is 2π radians which approximates to 6.2832rad. 1rad is 180/π degrees. Examples: 0rad, 1.0708rad, 6.2832rad."
+  },
+  "turn": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "html": "Represents an angle in a number of turns. One full circle is <code>1turn</code>. Examples: <code>0turn</code>, <code>0.25turn</code>, <code>1.2turn</code>.",
+    "text": "Represents an angle in a number of turns. One full circle is 1turn. Examples: 0turn, 0.25turn, 1.2turn."
+  },
+  "fr": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value",
+    "html": "The <strong><code>&lt;flex&gt;</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types\">data type</a> denotes a flexible length within a grid container. It is used in <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns\" title=\"The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns.\"><code>grid-template-columns</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows\" title=\"The grid-template-rows CSS property defines the line names and track sizing functions of the grid rows.\"><code>grid-template-rows</code></a> and other related properties.",
+    "text": "The <flex> CSS data type denotes a flexible length within a grid container. It is used in grid-template-columns, grid-template-rows and other related properties"
+  },
+  "dpi": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "html": "Represents the number of <a class=\"external\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Dots_per_inch\" rel=\"noopener\">dots per inch</a>. Screens typically contains 72 or 96 dots per inch, but the dpi for printed documents is usually much greater. As 1 inch is 2.54 cm, <code>1dpi ≈ 0.39dpcm</code>.",
+    "text": "Represents the number of dots per inch. Screens typically contains 72 or 96 dots per inch, but the dpi for printed documents is usually much greater. As 1 inch is 2.54 cm, 1dpi ≈ 0.39dpcm."
+  },
+  "dpcm": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "html": "Represents the number of <a class=\"external\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Dots_per_inch\" rel=\"noopener\">dots per centimeter</a>. As 1 inch is 2.54 cm, <code>1dpcm ≈ 2.54dpi</code>.",
+    "text": "Represents the number of dots per centimeter. As 1 inch is 2.54 cm, 1dpcm ≈ 2.54dpi."
+  },
+  "dppx": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "html": "Represents the number of dots per <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length#px\">px</a></code> unit. Due to the 1:96 fixed ratio of CSS <code class=\"css\">in</code> to CSS <code class=\"css\">px</code>, <code class=\"css\">1dppx</code> is equivalent to <code class=\"css\">96dpi</code>, which corresponds to the default resolution of images displayed in CSS as defined by <a class=\"new\" rel=\"nofollow\" title=\"The documentation about this has not yet been written; please consider contributing!\"><code>image-resolution</code></a>.",
+    "text": "Represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS in to CSS px, 1dppx is equivalent to 96dpi, which corresponds to the default resolution of images displayed in CSS as defined by image-resolution."
+  },
+  "x": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "html": "Alias for dppx, which represents the number of dots per <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length#px\">px</a></code> unit. Due to the 1:96 fixed ratio of CSS <code class=\"css\">in</code> to CSS <code class=\"css\">px</code>, <code class=\"css\">1dppx</code> is equivalent to <code class=\"css\">96dpi</code>, which corresponds to the default resolution of images displayed in CSS as defined by <a class=\"new\" rel=\"nofollow\" title=\"The documentation about this has not yet been written; please consider contributing!\"><code>image-resolution</code></a>.",
+    "text": "Alias for dppx, which represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS in to CSS px, 1dppx is equivalent to 96dpi, which corresponds to the default resolution of images displayed in CSS as defined by image-resolution. "
+  },
+  "number": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/number",
+    "html": "The <strong><code>&lt;number&gt;</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types\">data type</a> represents a number, being either an integer or a number with a fractional component.",
+    "text": "The number CSS data type represents a number, being either an integer or a number with a fractional component."
+  }
+}
+
+},{}],29:[function(require,module,exports){
 module.exports={
   "accept": {
     "keyword": {
@@ -31461,7 +32190,7 @@ module.exports={
     "note": null
   }
 }
-},{}],28:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 module.exports={
   "html": {
     "status": "standard",
@@ -34425,14 +35154,14 @@ module.exports={
   "script": {
     "status": "standard",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
       "text": "<script>",
       "name": "script"
     },
     "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/script",
     "description": {
-      "html": "The <strong>HTML <code>&lt;script&gt;</code> element</strong> is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.",
-      "text": "The HTML <script> element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code."
+      "html": "The <strong>HTML <code>&lt;script&gt;</code> element</strong> is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.",
+      "text": "The HTML <script> element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code."
     },
     "singleton": false,
     "attributes": [
@@ -36831,11 +37560,123 @@ module.exports={
     ]
   }
 }
-},{}],29:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const htmlAttr = require('./html-attributes.json')
 const htmlEles = require('./html-elements.json')
 const cssProps = require('./css-properties.json')
+const pseudoEles = require('./css-pseudo-elements.json')
+const pseudoClasses = require('./css-pseudo-classes.json')
+const atRules = require('./css-at-rules.json')
+const cssColors = require('./css-colors.json')
+const cssTypes = require('./css-data-types.json')
+const cssUnits = require('./css-units.json')
+
+const clrURL = {
+  keyword: 'https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords',
+  rgb: 'https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#RGB_colors',
+  hsl: 'https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#HSL_colors',
+  hex: 'https://www.w3schools.com/colors/colors_hexadecimal.asp'
+}
+
+const cssCommentNfo = {
+  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/Comments',
+  keyword: {
+    html: '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Comments" target="_blank">comments</a>',
+    text: 'comments'
+  },
+  description: {
+    html: 'A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document.',
+    text: 'A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document.'
+  }
+}
+
+function createColorNfo (val, type) {
+  const nfo = {
+    url: cssTypes.color.url,
+    keyword: {
+      html: cssTypes.color.keyword.html,
+      text: cssTypes.color.keyword.text
+    },
+    description: {
+      html: cssTypes.color.description.html,
+      text: cssTypes.color.description.text
+    }
+  }
+  if (type === 'keyword') {
+    nfo.description.html = nfo.description.html + ` This specific color <code>${val}</code> is defined using a color <a href="${clrURL[type]}" target="_blank">${type}</a>. If this were written as a hex value it would be <code>${cssColors[val].hex}</code>, written as an rgb value it would be <code>${cssColors[val].rgb}</code>`
+    nfo.description.text = nfo.description.text + ` This specific color is defined using a color "${type}". If this were written as a hex value it would be ${cssColors[val].hex}, written as an rgb value it would be ${cssColors[val].rgb}`
+  } else {
+    nfo.description.html = nfo.description.html + ` This specific color is defined in the <a href="${clrURL[type]}" target="_blank">${type}</a> format.`
+    nfo.description.text = nfo.description.text + ` This specific color is defined in the "${type}" format.`
+  }
+  return nfo
+}
+
+function vendorPrefix (str) {
+  const vp = {
+    '-moz-': 'Firefox',
+    '-webkit-': 'Webkit (the browser engine inside of Chrome, newer versions of Opera and almost all iOS browsers)',
+    '-o-': 'Opera',
+    '-ms-': 'Internet Explorer and Microsof Edge'
+  }
+  const desc = `The "${str}" is the ${vp[str]} vendor prefix. Browser vendors sometimes add prefixes to experimental or nonstandard CSS properties and JavaScript APIs, so developers can experiment with new ideas while—in theory—preventing their experiments from being relied upon and then breaking web developers' code during the standardization process. Developers should wait to include the unprefixed property until browser behavior is standardized.`
+  const url = 'https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix'
+  return {
+    url: url,
+    keyword: {
+      html: `<a href="${url}" target="_blank">browser vendor prefix</a>`,
+      text: 'browser vendor prefix'
+    },
+    description: { html: desc, text: desc }
+  }
+}
+
+function cssVariables (str) {
+  return {
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/--*',
+    keyword: {
+      html: '<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/--*" target="_blank">custom properties: CSS variables</a>',
+      text: 'custom properties: CSS variables'
+    },
+    description: {
+      html: `Property names that are prefixed with <code>--</code>, like <code>${str}</code>, represent <em>custom properties</em> that contain a value that&nbsp;can be used in other declarations using the <a href="/en-US/docs/Web/CSS/var" title="The var() CSS function can be used to insert the value of a custom property (sometimes called a &quot;CSS variable&quot;) instead of any part of a value of another property."><code>var()</code></a>&nbsp;function.`,
+      text: `Property names that are prefixed with --, like ${str}, represent custom properties that contain a value that can be used in other declarations using the var() function.`
+    }
+  }
+}
+
+function cssNumber (str) {
+  const n = parseFloat(str)
+  const i = `${n}`.length
+  const u = str.substr(i)
+  if (cssUnits[u]) {
+    return {
+      status: cssUnits[u].status,
+      url: cssUnits[u].url,
+      keyword: {
+        html: `<a href="${cssUnits[u].url}" target="_blank">${u}</a>`,
+        text: 'number'
+      },
+      description: {
+        html: cssUnits[u].html,
+        text: cssUnits[u].text
+      }
+    }
+  } else if (u === '' || !cssUnits[u]) {
+    return {
+      url: cssUnits.number.url,
+      keyword: {
+        html: `<a href="${cssUnits.number.url}" target="_blank">number</a>`,
+        text: 'number'
+      },
+      description: {
+        html: cssUnits.number.html,
+        text: cssUnits.number.text
+      }
+    }
+  }
+}
 
 function htmlData (o) {
   if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
@@ -36847,9 +37688,42 @@ function htmlData (o) {
 }
 
 function cssData (o, inner) {
-  if (o.type === 'property' && cssProps[o.data]) o.nfo = cssProps[o.data]
   const state = inner.state.state
-  console.log(inner, state)
+  // TODO
+  // - CSS Selectors
+  // - other keyword? calc, transform functions, etc
+  if (o.type === 'property' && cssProps[o.data]) {
+    o.nfo = cssProps[o.data]
+  } else if (o.type === 'variable-3') {
+    if (pseudoClasses[':' + o.data]) o.nfo = pseudoClasses[':' + o.data]
+    else if (pseudoEles['::' + o.data]) o.nfo = pseudoEles['::' + o.data]
+    console.log(o.data, pseudoEles)
+  } else if (o.type === 'def' && o.data.indexOf('@') === 0 && atRules[o.data]) {
+    o.nfo = atRules[o.data]
+  } else if (o.type === 'meta') {
+    const prefixes = ['-moz-', '-webkit-', '-o-', '-ms-']
+    if (prefixes.includes(o.data)) o.nfo = vendorPrefix(o.data)
+  } else if (o.data.indexOf('--') === 0 && o.type === 'variable-2') {
+    o.nfo = cssVariables(o.data)
+  } else if (o.type === 'comment') {
+    o.nfo = cssCommentNfo
+  } else if (o.type === 'number') {
+    o.nfo = cssNumber(o.data)
+  } else if (state === 'prop') {
+    // handle colors values
+    const c = o.data.toLowerCase()
+    if (o.type === 'keyword' && Object.keys(cssColors).includes(c)) {
+      o.nfo = createColorNfo(c, 'keyword')
+    } else if (o.data.indexOf('#') === 0) {
+      o.nfo = createColorNfo(c, 'hex')
+    } else if (o.data.indexOf('rgb') === 0) {
+      o.nfo = createColorNfo(c, 'rgb')
+    } else if (o.data.indexOf('hsl') === 0) {
+      o.nfo = createColorNfo(c, 'hsl')
+    }
+  }
+
+  console.log(o.type, state)
   return o.nfo
 }
 
@@ -36880,7 +37754,7 @@ function eduData (cm) {
 
 module.exports = eduData
 
-},{"./css-properties.json":24,"./html-attributes.json":27,"./html-elements.json":28,"codemirror":14}],30:[function(require,module,exports){
+},{"./css-at-rules.json":22,"./css-colors.json":23,"./css-data-types.json":24,"./css-properties.json":25,"./css-pseudo-classes.json":26,"./css-pseudo-elements.json":27,"./css-units.json":28,"./html-attributes.json":29,"./html-elements.json":30,"codemirror":14}],32:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const cssProps = require('../edu-data/css-properties.json')
 const pseudoEles = require('../edu-data/css-pseudo-elements.json')
@@ -36964,7 +37838,7 @@ function cssHinter (token, cm) {
 
 module.exports = cssHinter
 
-},{"../edu-data/css-at-rules.json":22,"../edu-data/css-colors.json":23,"../edu-data/css-properties.json":24,"../edu-data/css-pseudo-classes.json":25,"../edu-data/css-pseudo-elements.json":26,"../edu-data/html-elements.json":28,"codemirror":14}],31:[function(require,module,exports){
+},{"../edu-data/css-at-rules.json":22,"../edu-data/css-colors.json":23,"../edu-data/css-properties.json":25,"../edu-data/css-pseudo-classes.json":26,"../edu-data/css-pseudo-elements.json":27,"../edu-data/html-elements.json":30,"codemirror":14}],33:[function(require,module,exports){
 const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = require('./snippets.json')
@@ -37013,7 +37887,7 @@ function htmlHinter (token) {
 
 module.exports = htmlHinter
 
-},{"../edu-data/html-attributes.json":27,"../edu-data/html-elements.json":28,"./snippets.json":33}],32:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":29,"../edu-data/html-elements.json":30,"./snippets.json":35}],34:[function(require,module,exports){
 const htmlHinter = require('./htmlHinter.js')
 const cssHinter = require('./cssHinter.js')
 
@@ -37060,7 +37934,7 @@ function main (cm, options) {
 
 module.exports = main
 
-},{"./cssHinter.js":30,"./htmlHinter.js":31}],33:[function(require,module,exports){
+},{"./cssHinter.js":32,"./htmlHinter.js":33}],35:[function(require,module,exports){
 module.exports={
   "doctype" : "!DOCTYPE html>",
   "html": "html lang=\"en-US\"></html>",
@@ -37070,7 +37944,7 @@ module.exports={
   "html (template)": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\n\t</body>\n</html>\n"
 }
 
-},{}],34:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 // const CodeMirror = require('codemirror')
 // const CSSMode = CodeMirror.resolveMode('text/css')
 // console.log(JSON.stringify(CSSMode))
@@ -37086,7 +37960,7 @@ function linter (code) {
 
 module.exports = linter
 
-},{}],35:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 const HTMLStandards = require('./html-standards-validator.js')
@@ -37318,7 +38192,7 @@ const translate = {
 
 module.exports = translate
 
-},{"../edu-data/html-elements.json":28,"./html-standards-validator.js":36}],36:[function(require,module,exports){
+},{"../edu-data/html-elements.json":30,"./html-standards-validator.js":38}],38:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const htmlAttr = require('../edu-data/html-attributes.json')
 const stringSimilarity = require('string-similarity')
@@ -37549,7 +38423,7 @@ class HTMLStandards {
 
 module.exports = HTMLStandards
 
-},{"../edu-data/html-attributes.json":27,"../edu-data/html-elements.json":28,"string-similarity":20}],37:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":29,"../edu-data/html-elements.json":30,"string-similarity":20}],39:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
@@ -37615,14 +38489,14 @@ function linter (code) {
 
 module.exports = linter
 
-},{"./html-friendly-translator.js":35,"./html-standards-validator.js":36,"htmlhint":19}],38:[function(require,module,exports){
+},{"./html-friendly-translator.js":37,"./html-standards-validator.js":38,"htmlhint":19}],40:[function(require,module,exports){
 function linter (code) {
   return null
 }
 
 module.exports = linter
 
-},{}],39:[function(require,module,exports){
+},{}],41:[function(require,module,exports){
 /* global HTMLElement */
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
@@ -37638,10 +38512,6 @@ require('codemirror/addon/hint/xml-hint')
 require('codemirror/addon/hint/html-hint')
 require('codemirror/addon/hint/css-hint')
 require('codemirror/addon/hint/javascript-hint')
-// require('codemirror/addon/lint/lint')
-// require('codemirror/addon/lint/html-lint')
-// require('codemirror/addon/lint/css-lint')
-// require('codemirror/addon/lint/javascript-lint')
 
 const htmlLinter = require('./linters/htmlLinter.js')
 const jsLinter = require('./linters/jsLinter.js')
@@ -37764,7 +38634,10 @@ class Netitor {
     this.cm.on('mousedown', (cm, e) => {
       // HACK: 'dblclick' doesn't always fire for some reason
       // had to create a custom 'dblclick' event that would
-      if (Date.now() < this._lastMouseDown + 400) this._dblclick(cm, e)
+      if (Date.now() < this._lastMouseDown + 400) {
+        const obj = eduData(cm)
+        this.emit('edu-info', obj)
+      }
       this._lastMouseDown = Date.now()
     })
   }
@@ -37797,11 +38670,6 @@ class Netitor {
     // let's u moidfy behavior of mouse selection and dragging.
     // see "configureMouse" in code mirror manual
     return {}
-  }
-
-  _dblclick (cm, e) {
-    const obj = eduData(cm)
-    this.emit('edu-info', obj)
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
@@ -37924,4 +38792,4 @@ class Netitor {
 
 window.Netitor = Netitor
 
-},{"./css/main.js":21,"./edu-data/index.js":29,"./hinters/index.js":32,"./linters/cssLinter.js":34,"./linters/htmlLinter.js":37,"./linters/jsLinter.js":38,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[39]);
+},{"./css/main.js":21,"./edu-data/index.js":31,"./hinters/index.js":34,"./linters/cssLinter.js":36,"./linters/htmlLinter.js":39,"./linters/jsLinter.js":40,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[41]);

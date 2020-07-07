@@ -1,0 +1,206 @@
+{
+  "s": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
+    "html": "Represents a time in seconds. Examples: <code>0s</code>, <code>1.5s</code>, <code>-60s</code>.",
+    "text": "Represents a time in seconds. Examples: 0s, 1.5s, -60s."
+  },
+  "ms": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
+    "html": "Represents a time in milliseconds. Examples: <code>0ms</code>, <code>150.25ms</code>, <code>-60000ms</code>.",
+    "text": "Represents a time in milliseconds. Examples: 0ms, 150.25ms, -60000ms."
+  },
+  "%": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/percentage",
+    "html": "The <strong><code>&lt;percentage&gt;</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types\">data type</a> represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\" title=\"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\"><code>width</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\" title=\"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\"><code>height</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/margin\" title=\"The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left.\"><code>margin</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/padding\" title=\"The padding CSS property sets the padding area on all four sides of an element. It is a shorthand for padding-top, padding-right, padding-bottom, and padding-left.\"><code>padding</code></a>, and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a>.",
+    "text": "The % (percentage) CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size."
+  },
+  "cap": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the \"cap height\" (nominal height of capital letters) of the element’s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font\" title=\"The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.\"><code>font</code></a>.",
+    "text": "Represents the \"cap height\" (nominal height of capital letters) of the element’s font."
+  },
+  "ch": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the width, or more precisely the advance measure, of the glyph \"0\" (zero, the Unicode character U+0030) in the element's <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font\" title=\"The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.\"><code>font</code></a>. In the cases where it is impossible or impractical to determine the measure of the \"0\" glyph, it must be assumed to be 0.5em wide by 1em tall.",
+    "text": "Represents the width, or more precisely the advance measure, of the glyph \"0\" (zero, the Unicode character U+0030) in the element's font. In the cases where it is impossible or impractical to determine the measure of the \"0\" glyph, it must be assumed to be 0.5em wide by 1em tall."
+  },
+  "em": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the calculated <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> of the element. If used on the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> property itself, it represents the <em>inherited</em> font-size of the element.",
+    "text": "Represents the calculated font-size of the element. If used on the font-size property itself, it represents the inherited font-size of the element."
+  },
+  "ex": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the <a class=\"external\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/X-height\" rel=\"noopener\">x-height</a> of the element's <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font\" title=\"The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.\"><code>font</code></a>. On fonts with the \"x\" letter, this is generally the height of lowercase letters in the font; <code>1ex ≈ 0.5em</code> in many fonts.",
+    "text": "Represents the x-height of the element's font. On fonts with the \"x\" letter, this is generally the height of lowercase letters in the font; 1ex ≈ 0.5em in many fonts."
+  },
+  "ic": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the used advance measure of the \"水\" (CJK water ideograph, U+6C34) glyph found in the font used to render it.",
+    "text": "Equal to the used advance measure of the \"水\" (CJK water ideograph, U+6C34) glyph found in the font used to render it."
+  },
+  "lh": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the computed value of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/line-height\" title=\"The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.\"><code>line-height</code></a> property of the element on which it is used, converted to an absolute length.",
+    "text": "Equal to the computed value of the line-height property of the element on which it is used, converted to an absolute length."
+  },
+  "rem": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Represents the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> of the root element (typically <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML <html> element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>). When used within the root element <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a>, it represents its initial value (a common browser default is <code>16px</code>, but user-defined preferences may modify this).",
+    "text": "Represents the font-size of the root element (typically <html>). When used within the root element font-size, it represents its initial value (a common browser default is 16px, but user-defined preferences may modify this)."
+  },
+  "rlh": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the computed value of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/line-height\" title=\"The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.\"><code>line-height</code></a> property on the root element (typically <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML <html> element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>), converted to an absolute length. When used on the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/line-height\" title=\"The line-height CSS property sets the height of a line box. It's commonly used to set the distance between lines of text.\"><code>line-height</code></a> properties of the root element, it refers to the properties' initial value.",
+    "text": "Equal to the computed value of the line-height property on the root element (typically <html>), converted to an absolute length. When used on the font-size or line-height properties of the root element, it refers to the properties' initial value."
+  },
+  "vh": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to 1% of the height of the viewport's initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>.",
+    "text": "Equal to 1% of the height of the viewport's initial containing block."
+  },
+  "vw": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to 1% of the width of the viewport's initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>.",
+    "text": "Equal to 1% of the width of the viewport's initial containing block."
+  },
+  "vi": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to 1% of the size of the initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>, in the direction of the root element’s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties#inline-dimension\">inline axis</a>.",
+    "text": "Equal to 1% of the size of the initial containing block, in the direction of the root element’s inline axis."
+  },
+  "vb": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to 1% of the size of the initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>, in the direction of the root element’s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties#block-dimension\">block axis</a>.",
+    "text": "Equal to 1% of the size of the initial containing block, in the direction of the root element’s block axis."
+  },
+  "vmin": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the smaller of <code>vw</code> and <code>vh</code>.",
+    "text": "Equal to the smaller of vw and vh."
+  },
+  "vmax": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "Equal to the larger of <code>vw</code> and <code>vh</code>.",
+    "text": "Equal to the larger of vw and vh."
+  },
+  "px": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One pixel. For screen displays, it traditionally represents one device pixel (dot). However, for <em>printers</em> and <em>high-resolution screens</em>, one CSS pixel implies multiple device pixels. <code>1px</code> = 1/96th of <code>1in</code>.",
+    "text": "One pixel. For screen displays, it traditionally represents one device pixel (dot). However, for printers and high-resolution screens, one CSS pixel implies multiple device pixels. 1px = 1/96th of 1in."
+  },
+  "cm": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One centimeter. <code>1cm</code> = <code>96px/2.54</code>.",
+    "text": "One centimeter. 1cm = 96px/2.54."
+  },
+  "mm": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One millimeter. <code>1mm</code> = 1/10th of <code>1cm</code>.",
+    "text": "One millimeter. 1mm = 1/10th of 1cm."
+  },
+  "Q": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One quarter of a millimeter. <code>1Q</code> = 1/40th of <code>1cm</code>.",
+    "text": "One quarter of a millimeter. 1Q = 1/40th of 1cm."
+  },
+  "in": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One inch. <code>1in</code> = <code>2.54cm</code> = <code>96px</code>.",
+    "text": "One inch. 1in = 2.54cm = 96px."
+  },
+  "pc": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One pica. <code>1pc</code> = <code>12pt</code> = 1/6th of <code>1in</code>.",
+    "text": "One pica. 1pc = 12pt = 1/6th of 1in."
+  },
+  "pt": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "html": "One point. <code>1pt</code> = 1/72nd of <code>1in</code>.",
+    "text": "One point. 1pt = 1/72nd of 1in."
+  },
+  "deg": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Degree_%28angle%29\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Degree_%28angle%29\">degrees</a>. One full circle is <code>360deg</code>. Examples: <code>0deg</code>, <code>90deg</code>, <code>14.23deg</code>.",
+    "text": "Represents an angle in degrees. One full circle is 360deg. Examples: 0deg, 90deg, 14.23deg."
+  },
+  "grad": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Gradian\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Gradian\">gradians</a>. One full circle is <code>400grad</code>. Examples: <code>0grad</code>, <code>100grad</code>, <code>38.8grad</code>.",
+    "text": "Represents an angle in gradians. One full circle is 400grad. Examples: 0grad, 100grad, 38.8grad."
+  },
+  "rad": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Radian\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Radian\">radians</a>. One full circle is 2π radians which approximates to <code>6.2832rad</code>. <code>1rad</code> is 180/π degrees. Examples: <code>0rad</code>, <code>1.0708rad</code>, <code>6.2832rad</code>.",
+    "text": "Represents an angle in radians. One full circle is 2π radians which approximates to 6.2832rad. 1rad is 180/π degrees. Examples: 0rad, 1.0708rad, 6.2832rad."
+  },
+  "turn": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "html": "Represents an angle in a number of turns. One full circle is <code>1turn</code>. Examples: <code>0turn</code>, <code>0.25turn</code>, <code>1.2turn</code>.",
+    "text": "Represents an angle in a number of turns. One full circle is 1turn. Examples: 0turn, 0.25turn, 1.2turn."
+  },
+  "fr": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value",
+    "html": "The <strong><code>&lt;flex&gt;</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types\">data type</a> denotes a flexible length within a grid container. It is used in <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-columns\" title=\"The grid-template-columns CSS property defines the line names and track sizing functions of the grid columns.\"><code>grid-template-columns</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/grid-template-rows\" title=\"The grid-template-rows CSS property defines the line names and track sizing functions of the grid rows.\"><code>grid-template-rows</code></a> and other related properties.",
+    "text": "The <flex> CSS data type denotes a flexible length within a grid container. It is used in grid-template-columns, grid-template-rows and other related properties"
+  },
+  "dpi": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "html": "Represents the number of <a class=\"external\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Dots_per_inch\" rel=\"noopener\">dots per inch</a>. Screens typically contains 72 or 96 dots per inch, but the dpi for printed documents is usually much greater. As 1 inch is 2.54 cm, <code>1dpi ≈ 0.39dpcm</code>.",
+    "text": "Represents the number of dots per inch. Screens typically contains 72 or 96 dots per inch, but the dpi for printed documents is usually much greater. As 1 inch is 2.54 cm, 1dpi ≈ 0.39dpcm."
+  },
+  "dpcm": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "html": "Represents the number of <a class=\"external\" target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Dots_per_inch\" rel=\"noopener\">dots per centimeter</a>. As 1 inch is 2.54 cm, <code>1dpcm ≈ 2.54dpi</code>.",
+    "text": "Represents the number of dots per centimeter. As 1 inch is 2.54 cm, 1dpcm ≈ 2.54dpi."
+  },
+  "dppx": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "html": "Represents the number of dots per <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length#px\">px</a></code> unit. Due to the 1:96 fixed ratio of CSS <code class=\"css\">in</code> to CSS <code class=\"css\">px</code>, <code class=\"css\">1dppx</code> is equivalent to <code class=\"css\">96dpi</code>, which corresponds to the default resolution of images displayed in CSS as defined by <a class=\"new\" rel=\"nofollow\" title=\"The documentation about this has not yet been written; please consider contributing!\"><code>image-resolution</code></a>.",
+    "text": "Represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS in to CSS px, 1dppx is equivalent to 96dpi, which corresponds to the default resolution of images displayed in CSS as defined by image-resolution."
+  },
+  "x": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "html": "Alias for dppx, which represents the number of dots per <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length#px\">px</a></code> unit. Due to the 1:96 fixed ratio of CSS <code class=\"css\">in</code> to CSS <code class=\"css\">px</code>, <code class=\"css\">1dppx</code> is equivalent to <code class=\"css\">96dpi</code>, which corresponds to the default resolution of images displayed in CSS as defined by <a class=\"new\" rel=\"nofollow\" title=\"The documentation about this has not yet been written; please consider contributing!\"><code>image-resolution</code></a>.",
+    "text": "Alias for dppx, which represents the number of dots per px unit. Due to the 1:96 fixed ratio of CSS in to CSS px, 1dppx is equivalent to 96dpi, which corresponds to the default resolution of images displayed in CSS as defined by image-resolution. "
+  },
+  "number": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/number",
+    "html": "The <strong><code>&lt;number&gt;</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types\">data type</a> represents a number, being either an integer or a number with a fractional component.",
+    "text": "The number CSS data type represents a number, being either an integer or a number with a fractional component."
+  }
+}

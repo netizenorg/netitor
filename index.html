@@ -63,6 +63,7 @@
     .info:hover {
       color: red;
     }
+    @media print { }
     body { background-color: yellow; }
   </style>
   <h1>Hello World</h1>
@@ -133,13 +134,16 @@
 
       function showCSSNFO (eve) {
         const status = (eve.nfo.status && eve.nfo.status !== 'standard')
-          ? ` (<b>NOTE</b>: this CSS property is ${eve.nfo.status}). ` : ''
+          ? ` (<b>NOTE</b>: this CSS feature is ${eve.nfo.status}). ` : ''
 
-        let links = Object.keys(eve.nfo.urls)
-          .map(k => `<a href="${eve.nfo.urls[k]}" target="_blank">${k}</a>`)
-
-        links = (links.length > 0)
-          ? `To learn more visit ${links.join(', ').slice(0, -2)}.` : ''
+        let links = '' // css properties have multiple reference URLs
+        if (eve.nfo.urls) {
+          links = Object.keys(eve.nfo.urls)
+            .map(k => `<a href="${eve.nfo.urls[k]}" target="_blank">${k}</a>`)
+          if (links.length > 0) {
+            links = `To learn more visit ${links.join(', ').slice(0, -2)}.`
+          }
+        }
 
         document.querySelector('#nfo').innerHTML = `
           <h1>${eve.nfo.keyword.html}</h1>

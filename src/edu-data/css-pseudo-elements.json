@@ -1,10 +1,10 @@
 {
-  "::after ": {
+  "::after": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::after",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::after\">::after </a>",
-      "text": "::after "
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::after\">::after</a>",
+      "text": "::after"
     },
     "description": {
       "html": "<span class=\"seoSummary\">In CSS, <strong><code>::after</code></strong> creates a <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> that is the last child of the selected element. It is often used to add cosmetic content to an element with the <a href=\"/en-US/docs/Web/CSS/content\" title=\"The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.\"><code>content</code></a> property.</span> It is inline by default.",
@@ -23,12 +23,12 @@
       "text": "The ::backdrop CSS pseudo-element is a box the size of the viewport which is rendered immediately beneath any element being presented in full-screen mode. This includes both elements which have been placed in full-screen mode using the Fullscreen API and <dialog> elements."
     }
   },
-  "::before ": {
+  "::before": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::before",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::before\">::before </a>",
-      "text": "::before "
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::before\">::before</a>",
+      "text": "::before"
     },
     "description": {
       "html": "<span class=\"seoSummary\">In CSS, <strong><code>::before</code></strong> creates a <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> that is the first child of the selected element. It is often used to add cosmetic content to an element with the <a href=\"/en-US/docs/Web/CSS/content\" title=\"The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.\"><code>content</code></a> property.</span> It is inline by default.",
@@ -59,24 +59,24 @@
       "text": "The ::cue-region CSS pseudo-element matches WebVTT cues within a selected element. This can be used to style captions and other cues in media with VTT tracks."
     }
   },
-  "::first-letter ": {
+  "::first-letter": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter\">::first-letter </a>",
-      "text": "::first-letter "
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter\">::first-letter</a>",
+      "text": "::first-letter"
     },
     "description": {
       "html": "The <strong><code>::first-letter</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> applies styles to the first letter of the first line of a <a href=\"/en-US/docs/Web/CSS/Visual_formatting_model#Block-level_elements_and_block_boxes\">block-level element</a>, but only when not preceded by other content (such as images or inline tables).",
       "text": "The ::first-letter CSS pseudo-element applies styles to the first letter of the first line of a block-level element, but only when not preceded by other content (such as images or inline tables)."
     }
   },
-  "::first-line ": {
+  "::first-line": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line\">::first-line </a>",
-      "text": "::first-line "
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line\">::first-line</a>",
+      "text": "::first-line"
     },
     "description": {
       "html": "<span class=\"seoSummary\">The <strong><code>::first-line</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> applies styles to the first line of a <a href=\"/en-US/docs/Web/CSS/Visual_formatting_model#Block-level_elements_and_block_boxes\">block-level element</a>.</span> Note that the length of the first line depends on many factors, including the width of the element, the width of the document, and the font size of the text.",

@@ -2961,14 +2961,14 @@
   "script": {
     "status": "standard",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
       "text": "<script>",
       "name": "script"
     },
     "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/script",
     "description": {
-      "html": "The <strong>HTML <code>&lt;script&gt;</code> element</strong> is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.",
-      "text": "The HTML <script> element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code."
+      "html": "The <strong>HTML <code>&lt;script&gt;</code> element</strong> is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.",
+      "text": "The HTML <script> element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code."
     },
     "singleton": false,
     "attributes": [
