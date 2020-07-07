@@ -4,6 +4,7 @@ const pseudoEles = require('../edu-data/css-pseudo-elements.json')
 const pseudoClasses = require('../edu-data/css-pseudo-classes.json')
 const atRules = require('../edu-data/css-at-rules.json')
 const cssColors = require('../edu-data/css-colors.json')
+const htmlEles = require('../edu-data/html-elements.json')
 
 const spec = CodeMirror.resolveMode('text/css')
 const keywords = Object.keys(spec.valueKeywords)
@@ -53,7 +54,6 @@ function valHintList (str, cm) {
 function mediaTypes (str, cm) {
   const pos = cm.getCursor()
   const line = cm.getLine(pos.line)
-  console.log(line)
   if (line.includes('@media')) return Object.keys(spec.mediaTypes)
   else return []
 }
@@ -62,7 +62,9 @@ function cssHinter (token, cm) {
   const inner = CodeMirror.innerMode(cm.getMode(), token.state)
   const state = inner.state.state
 
-  if (state === 'block' || state === 'maybeprop') {
+  if (token.type === 'tag') {
+    return Object.keys(htmlEles)
+  } else if (state === 'block' || state === 'maybeprop') {
     return propHintList(token.string)
   } else if (state === 'pseudo' || token.type === 'variable-3') {
     return pseudoHintList(token.string, cm)

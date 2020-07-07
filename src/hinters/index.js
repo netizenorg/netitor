@@ -23,7 +23,7 @@ function reOrder (list, str) {
   return list
 }
 
-function coreHinter (cm, options) {
+function main (cm, options) {
   const pos = cm.getCursor()
   const tok = cm.getTokenAt(pos)
   const lan = cm.getModeAt(pos).name
@@ -33,7 +33,7 @@ function coreHinter (cm, options) {
   else if (lan === 'css') list = cssHinter(tok, cm)
 
   // move most likely item to the top of the list
-  list = reOrder(list, tok.string)
+  if (list) list = reOrder(list, tok.string)
 
   return {
     list: list,
@@ -42,4 +42,4 @@ function coreHinter (cm, options) {
   }
 }
 
-module.exports = coreHinter
+module.exports = main

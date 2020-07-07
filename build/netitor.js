@@ -36832,59 +36832,62 @@ module.exports={
   }
 }
 },{}],29:[function(require,module,exports){
-const htmlHinter = require('./htmlHinter.js')
-const cssHinter = require('./cssHinter.js')
+const CodeMirror = require('codemirror')
+const htmlAttr = require('./html-attributes.json')
+const htmlEles = require('./html-elements.json')
+const cssProps = require('./css-properties.json')
 
-function reOrder (list, str) {
-  const newIdx = 0
-  let oldIdx
-  let item
-
-  for (let i = 0; i < list.length; i++) {
-    const val = list[i]
-    if (
-      (typeof val === 'string' && val.indexOf(str) === 0) ||
-      (typeof val === 'object' && val.displayText.indexOf(str) === 0)
-    ) {
-      oldIdx = i; item = list[i]; break
-    }
+function htmlData (o) {
+  if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
+  if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
+  else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
+    o.nfo = htmlAttr['data-*']
   }
-
-  if (item) {
-    list.splice(oldIdx, 1)
-    list.splice(newIdx, 0, item)
-  }
-  return list
+  return o.nfo
 }
 
-function coreHinter (cm, options) {
+function cssData (o, inner) {
+  if (o.type === 'property' && cssProps[o.data]) o.nfo = cssProps[o.data]
+  const state = inner.state.state
+  console.log(inner, state)
+  return o.nfo
+}
+
+function jsData (o) {
+  return {
+    description: `this is a <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">JavaScript</a> ${o.type}, more info coming soon!`
+  }
+}
+
+function eduData (cm) {
   const pos = cm.getCursor()
   const tok = cm.getTokenAt(pos)
   const lan = cm.getModeAt(pos).name
+  const inner = CodeMirror.innerMode(cm.getMode(), tok.state)
 
-  let list = []
-  if (lan === 'xml') list = htmlHinter(tok)
-  else if (lan === 'css') list = cssHinter(tok, cm)
-
-  // move most likely item to the top of the list
-  list = reOrder(list, tok.string)
-
-  return {
-    list: list,
-    from: { line: pos.line, ch: tok.start },
-    to: { line: pos.line, ch: tok.end }
+  const o = {
+    language: lan === 'xml' ? 'html' : lan,
+    data: tok.string,
+    type: tok.type === 'tag' ? 'element' : tok.type
   }
+
+  if (o.language === 'html') o.nfo = htmlData(o)
+  else if (o.language === 'css') o.nfo = cssData(o, inner)
+  else if (o.language === 'javascript') o.nfo = jsData(o)
+
+  return o
 }
 
-module.exports = coreHinter
+module.exports = eduData
 
-},{"./cssHinter.js":30,"./htmlHinter.js":31}],30:[function(require,module,exports){
+},{"./css-properties.json":24,"./html-attributes.json":27,"./html-elements.json":28,"codemirror":14}],30:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const cssProps = require('../edu-data/css-properties.json')
 const pseudoEles = require('../edu-data/css-pseudo-elements.json')
 const pseudoClasses = require('../edu-data/css-pseudo-classes.json')
 const atRules = require('../edu-data/css-at-rules.json')
 const cssColors = require('../edu-data/css-colors.json')
+const htmlEles = require('../edu-data/html-elements.json')
 
 const spec = CodeMirror.resolveMode('text/css')
 const keywords = Object.keys(spec.valueKeywords)
@@ -36934,7 +36937,6 @@ function valHintList (str, cm) {
 function mediaTypes (str, cm) {
   const pos = cm.getCursor()
   const line = cm.getLine(pos.line)
-  console.log(line)
   if (line.includes('@media')) return Object.keys(spec.mediaTypes)
   else return []
 }
@@ -36943,7 +36945,9 @@ function cssHinter (token, cm) {
   const inner = CodeMirror.innerMode(cm.getMode(), token.state)
   const state = inner.state.state
 
-  if (state === 'block' || state === 'maybeprop') {
+  if (token.type === 'tag') {
+    return Object.keys(htmlEles)
+  } else if (state === 'block' || state === 'maybeprop') {
     return propHintList(token.string)
   } else if (state === 'pseudo' || token.type === 'variable-3') {
     return pseudoHintList(token.string, cm)
@@ -36960,7 +36964,7 @@ function cssHinter (token, cm) {
 
 module.exports = cssHinter
 
-},{"../edu-data/css-at-rules.json":22,"../edu-data/css-colors.json":23,"../edu-data/css-properties.json":24,"../edu-data/css-pseudo-classes.json":25,"../edu-data/css-pseudo-elements.json":26,"codemirror":14}],31:[function(require,module,exports){
+},{"../edu-data/css-at-rules.json":22,"../edu-data/css-colors.json":23,"../edu-data/css-properties.json":24,"../edu-data/css-pseudo-classes.json":25,"../edu-data/css-pseudo-elements.json":26,"../edu-data/html-elements.json":28,"codemirror":14}],31:[function(require,module,exports){
 const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = require('./snippets.json')
@@ -37009,7 +37013,54 @@ function htmlHinter (token) {
 
 module.exports = htmlHinter
 
-},{"../edu-data/html-attributes.json":27,"../edu-data/html-elements.json":28,"./snippets.json":32}],32:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":27,"../edu-data/html-elements.json":28,"./snippets.json":33}],32:[function(require,module,exports){
+const htmlHinter = require('./htmlHinter.js')
+const cssHinter = require('./cssHinter.js')
+
+function reOrder (list, str) {
+  const newIdx = 0
+  let oldIdx
+  let item
+
+  for (let i = 0; i < list.length; i++) {
+    const val = list[i]
+    if (
+      (typeof val === 'string' && val.indexOf(str) === 0) ||
+      (typeof val === 'object' && val.displayText.indexOf(str) === 0)
+    ) {
+      oldIdx = i; item = list[i]; break
+    }
+  }
+
+  if (item) {
+    list.splice(oldIdx, 1)
+    list.splice(newIdx, 0, item)
+  }
+  return list
+}
+
+function main (cm, options) {
+  const pos = cm.getCursor()
+  const tok = cm.getTokenAt(pos)
+  const lan = cm.getModeAt(pos).name
+
+  let list = []
+  if (lan === 'xml') list = htmlHinter(tok)
+  else if (lan === 'css') list = cssHinter(tok, cm)
+
+  // move most likely item to the top of the list
+  if (list) list = reOrder(list, tok.string)
+
+  return {
+    list: list,
+    from: { line: pos.line, ch: tok.start },
+    to: { line: pos.line, ch: tok.end }
+  }
+}
+
+module.exports = main
+
+},{"./cssHinter.js":30,"./htmlHinter.js":31}],33:[function(require,module,exports){
 module.exports={
   "doctype" : "!DOCTYPE html>",
   "html": "html lang=\"en-US\"></html>",
@@ -37019,7 +37070,7 @@ module.exports={
   "html (template)": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\n\t</body>\n</html>\n"
 }
 
-},{}],33:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 // const CodeMirror = require('codemirror')
 // const CSSMode = CodeMirror.resolveMode('text/css')
 // console.log(JSON.stringify(CSSMode))
@@ -37035,7 +37086,7 @@ function linter (code) {
 
 module.exports = linter
 
-},{}],34:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 const HTMLStandards = require('./html-standards-validator.js')
@@ -37267,7 +37318,7 @@ const translate = {
 
 module.exports = translate
 
-},{"../edu-data/html-elements.json":28,"./html-standards-validator.js":35}],35:[function(require,module,exports){
+},{"../edu-data/html-elements.json":28,"./html-standards-validator.js":36}],36:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const htmlAttr = require('../edu-data/html-attributes.json')
 const stringSimilarity = require('string-similarity')
@@ -37498,7 +37549,7 @@ class HTMLStandards {
 
 module.exports = HTMLStandards
 
-},{"../edu-data/html-attributes.json":27,"../edu-data/html-elements.json":28,"string-similarity":20}],36:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":27,"../edu-data/html-elements.json":28,"string-similarity":20}],37:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
@@ -37564,14 +37615,14 @@ function linter (code) {
 
 module.exports = linter
 
-},{"./html-friendly-translator.js":34,"./html-standards-validator.js":35,"htmlhint":19}],37:[function(require,module,exports){
+},{"./html-friendly-translator.js":35,"./html-standards-validator.js":36,"htmlhint":19}],38:[function(require,module,exports){
 function linter (code) {
   return null
 }
 
 module.exports = linter
 
-},{}],38:[function(require,module,exports){
+},{}],39:[function(require,module,exports){
 /* global HTMLElement */
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
@@ -37596,11 +37647,8 @@ const htmlLinter = require('./linters/htmlLinter.js')
 const jsLinter = require('./linters/jsLinter.js')
 const cssLinter = require('./linters/cssLinter.js')
 
-const coreHinter = require('./hinters/coreHinter.js')
-
-const htmlAttr = require('./edu-data/html-attributes.json')
-const htmlEles = require('./edu-data/html-elements.json')
-const cssProps = require('./edu-data/css-properties.json')
+const coreHinter = require('./hinters/index.js')
+const eduData = require('./edu-data/index.js')
 
 const CSS = require('./css/main.js')
 
@@ -37752,10 +37800,7 @@ class Netitor {
   }
 
   _dblclick (cm, e) {
-    const pos = cm.getCursor()
-    const tok = cm.getTokenAt(pos)
-    const lan = cm.getModeAt(pos).name
-    const obj = this._eduInfo(tok, lan)
+    const obj = eduData(cm)
     this.emit('edu-info', obj)
   }
 
@@ -37793,29 +37838,6 @@ class Netitor {
     content.open()
     content.write(this.code)
     content.close()
-  }
-
-  _eduInfo (tok, lan) {
-    const o = {
-      language: lan === 'xml' ? 'html' : lan,
-      data: tok.string,
-      type: tok.type === 'tag' ? 'element' : tok.type
-    }
-    if (o.language === 'html') {
-      if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
-      if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
-      else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
-        o.nfo = htmlAttr['data-*']
-      }
-    } else if (o.language === 'css') {
-      if (o.type === 'property' && cssProps[o.data]) o.nfo = cssProps[o.data]
-    } else if (o.language === 'javascript') {
-      // TODO
-      o.nfo = {
-        description: `this is a <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">JavaScript</a> ${o.type}, more info coming soon!`
-      }
-    }
-    return o
   }
 
   _shouldHint (cm) {
@@ -37902,4 +37924,4 @@ class Netitor {
 
 window.Netitor = Netitor
 
-},{"./css/main.js":21,"./edu-data/css-properties.json":24,"./edu-data/html-attributes.json":27,"./edu-data/html-elements.json":28,"./hinters/coreHinter.js":29,"./linters/cssLinter.js":33,"./linters/htmlLinter.js":36,"./linters/jsLinter.js":37,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[38]);
+},{"./css/main.js":21,"./edu-data/index.js":29,"./hinters/index.js":32,"./linters/cssLinter.js":34,"./linters/htmlLinter.js":37,"./linters/jsLinter.js":38,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[39]);

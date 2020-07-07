@@ -22,11 +22,8 @@ const htmlLinter = require('./linters/htmlLinter.js')
 const jsLinter = require('./linters/jsLinter.js')
 const cssLinter = require('./linters/cssLinter.js')
 
-const coreHinter = require('./hinters/coreHinter.js')
-
-const htmlAttr = require('./edu-data/html-attributes.json')
-const htmlEles = require('./edu-data/html-elements.json')
-const cssProps = require('./edu-data/css-properties.json')
+const coreHinter = require('./hinters/index.js')
+const eduData = require('./edu-data/index.js')
 
 const CSS = require('./css/main.js')
 
@@ -178,10 +175,7 @@ class Netitor {
   }
 
   _dblclick (cm, e) {
-    const pos = cm.getCursor()
-    const tok = cm.getTokenAt(pos)
-    const lan = cm.getModeAt(pos).name
-    const obj = this._eduInfo(tok, lan)
+    const obj = eduData(cm)
     this.emit('edu-info', obj)
   }
 
@@ -219,29 +213,6 @@ class Netitor {
     content.open()
     content.write(this.code)
     content.close()
-  }
-
-  _eduInfo (tok, lan) {
-    const o = {
-      language: lan === 'xml' ? 'html' : lan,
-      data: tok.string,
-      type: tok.type === 'tag' ? 'element' : tok.type
-    }
-    if (o.language === 'html') {
-      if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
-      if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
-      else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
-        o.nfo = htmlAttr['data-*']
-      }
-    } else if (o.language === 'css') {
-      if (o.type === 'property' && cssProps[o.data]) o.nfo = cssProps[o.data]
-    } else if (o.language === 'javascript') {
-      // TODO
-      o.nfo = {
-        description: `this is a <a href="https://developer.mozilla.org/en-US/docs/Web/javascript" target="_blank">JavaScript</a> ${o.type}, more info coming soon!`
-      }
-    }
-    return o
   }
 
   _shouldHint (cm) {
