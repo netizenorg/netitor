@@ -254,17 +254,19 @@ class Netitor {
     // check to make sure the cursor is at the end of a lone word
     // otherwise we'll be creating hint menus all the time
     const alone = nextChar === '' || nextChar === ' '
+    // allow hinting when inside parens
+    const paren = nextChar === ')'
     // check to see if the cursor is inside of a tag (for attributes)
     const tagAttr = nextChar === '>'
 
-    return typing && (alone || tagAttr)
+    return typing && ((alone || paren) || tagAttr)
   }
 
   _hinter (cm, options) {
     // TODO consider how i might augment default lists (see my old hinters)
     const pos = cm.getCursor()
     const lan = cm.getModeAt(pos).name
-    const res = (lan === 'xml')
+    const res = (lan === 'xml' || lan === 'css')
       ? coreHinter(cm, options)
       : cm.getHelpers(pos, 'hint')[0](cm, options)
     if (!res) return null

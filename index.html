@@ -56,7 +56,13 @@
       const exampleCode = `<!DOCTYPE html>
 <div>
   <style>
-    .info { color: green; }
+    .info {
+      color: green;
+      font-size: 24px;
+    }
+    .info:hover {
+      color: red;
+    }
     body { background-color: yellow; }
   </style>
   <h1>Hello World</h1>
@@ -120,7 +126,7 @@
             ? `This attribute is ${eve.nfo.status}. ` : ''
 
         document.querySelector('#nfo').innerHTML = `
-          <h1>${eve.nfo[eve.type].html}</h1>
+          <h1>${eve.nfo.keyword.html}</h1>
           <p>${eve.nfo.description.html} ${note}</p>
         `
       }
@@ -136,7 +142,7 @@
           ? `To learn more visit ${links.join(', ').slice(0, -2)}.` : ''
 
         document.querySelector('#nfo').innerHTML = `
-          <h1>${eve.nfo[eve.type].html}</h1>
+          <h1>${eve.nfo.keyword.html}</h1>
           <p>${eve.nfo.description.html}. ${status} ${links}</p>
         `
       }

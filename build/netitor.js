@@ -17480,6 +17480,884 @@ li.CodeMirror-hint-active {
 
 },{}],22:[function(require,module,exports){
 module.exports={
+  "@charset": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@charset",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@charset\">@charset</a>",
+      "text": "@charset"
+    },
+    "description": {
+      "html": "The @charset CSS at-rule specifies the character encoding used in the style sheet. It must be the first element in the style sheet and not be preceded by any character; as it is not a nested statement, it cannot be used inside conditional group at-rules. If several @charset at-rules are defined, only the first one is used, and it cannot be used inside a style attribute on an HTML element or inside the \"style\" element where the character set of the HTML page is relevant.",
+      "text": "The @charset CSS at-rule specifies the character encoding used in the style sheet. It must be the first element in the style sheet and not be preceded by any character; as it is not a nested statement, it cannot be used inside conditional group at-rules. If several @charset at-rules are defined, only the first one is used, and it cannot be used inside a style attribute on an HTML element or inside the <style> element where the character set of the HTML page is relevant."
+    }
+  },
+  "@import": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@import",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@import\">@import</a>",
+      "text": "@import"
+    },
+    "description": {
+      "html": "The @import CSS at-rule is used to import style rules from other style sheets. These rules must precede all other types of rules, except @charset rules; as it is not a nested statement, @import cannot be used inside conditional group at-rules.",
+      "text": "The @import CSS at-rule is used to import style rules from other style sheets. These rules must precede all other types of rules, except @charset rules; as it is not a nested statement, @import cannot be used inside conditional group at-rules."
+    }
+  },
+  "@namespace": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@namespace",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@namespace\">@namespace</a>",
+      "text": "@namespace"
+    },
+    "description": {
+      "html": "@namespace is an at-rule that defines XML namespaces to be used in a CSS style sheet. The defined namespaces can be used to restrict the universal, type, and attribute selectors to only select elements within that namespace. The @namespace rule is generally only useful when dealing with documents containing multiple namespaces—such as HTML5 with inline SVG or MathML, or XML that mixes multiple vocabularies.",
+      "text": "@namespace is an at-rule that defines XML namespaces to be used in a CSS style sheet. The defined namespaces can be used to restrict the universal, type, and attribute selectors to only select elements within that namespace. The @namespace rule is generally only useful when dealing with documents containing multiple namespaces—such as HTML5 with inline SVG or MathML, or XML that mixes multiple vocabularies."
+    }
+  },
+  "@media": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@media",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@media\">@media</a>",
+      "text": "@media"
+    },
+    "description": {
+      "html": "The @media CSS at-rule can be used to apply part of a style sheet based on the result of one or more media queries.",
+      "text": "The @media CSS at-rule can be used to apply part of a style sheet based on the result of one or more media queries."
+    }
+  },
+  "@supports": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@supports",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@supports\">@supports</a>",
+      "text": "@supports"
+    },
+    "description": {
+      "html": "The @supports CSS at-rule lets you specify declarations that depend on a browser's support for one or more specific CSS features. This is called a feature query. The rule may be placed at the top level of your code or nested inside any other conditional group at-rule.",
+      "text": "The @supports CSS at-rule lets you specify declarations that depend on a browser's support for one or more specific CSS features. This is called a feature query. The rule may be placed at the top level of your code or nested inside any other conditional group at-rule."
+    }
+  },
+  "@document": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@document",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@document\">@document</a>",
+      "text": "@document"
+    },
+    "description": {
+      "html": "The @document CSS at-rule restricts the style rules contained within it based on the URL of the document. It is designed primarily for user-defined style sheets, though it can be used on author-defined style sheets, too.",
+      "text": "The @document CSS at-rule restricts the style rules contained within it based on the URL of the document. It is designed primarily for user-defined style sheets, though it can be used on author-defined style sheets, too."
+    }
+  },
+  "@page": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@page",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@page\">@page</a>",
+      "text": "@page"
+    },
+    "description": {
+      "html": "The @page CSS at-rule is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.",
+      "text": "The @page CSS at-rule is used to modify some CSS properties when printing a document. You can't change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored."
+    }
+  },
+  "@font-face": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@font-face",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@font-face\">@font-face</a>",
+      "text": "@font-face"
+    },
+    "description": {
+      "html": "The @font-face CSS at-rule specifies a custom font with which to display text; the font can be loaded from either a remote server or a locally-installed font on the user's own computer.",
+      "text": "The @font-face CSS at-rule specifies a custom font with which to display text; the font can be loaded from either a remote server or a locally-installed font on the user's own computer."
+    }
+  },
+  "@keyframes": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@keyframes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@keyframes\">@keyframes</a>",
+      "text": "@keyframes"
+    },
+    "description": {
+      "html": "The @keyframes CSS at-rule controls the intermediate steps in a CSS animation sequence by defining styles for keyframes (or waypoints) along the animation sequence.",
+      "text": "The @keyframes CSS at-rule controls the intermediate steps in a CSS animation sequence by defining styles for keyframes (or waypoints) along the animation sequence."
+    }
+  },
+  "@viewport": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@viewport",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@viewport\">@viewport</a>",
+      "text": "@viewport"
+    },
+    "description": {
+      "html": "The @viewport CSS at-rule lets you configure the viewport through which the document is viewed. It's primarily used for mobile devices, but is also used by desktop browsers that support features like \"snap to edge\" (such as Microsoft Edge).",
+      "text": "The @viewport CSS at-rule lets you configure the viewport through which the document is viewed. It's primarily used for mobile devices, but is also used by desktop browsers that support features like \"snap to edge\" (such as Microsoft Edge)."
+    }
+  },
+  "@counter-style": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@counter-style",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@counter-style\">@counter-style</a>",
+      "text": "@counter-style"
+    },
+    "description": {
+      "html": "The @counter-style CSS at-rule lets you define counter styles that are not part of the predefined set of styles. A @counter-style rule defines how to convert a counter value into a string representation.",
+      "text": "The @counter-style CSS at-rule lets you define counter styles that are not part of the predefined set of styles. A @counter-style rule defines how to convert a counter value into a string representation."
+    }
+  },
+  "@font-feature-values": {
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@font-feature-values",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org//en-US/docs/Web/CSS/@font-feature-values\">@font-feature-values</a>",
+      "text": "@font-feature-values"
+    },
+    "description": {
+      "html": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts.",
+      "text": "The @font-feature-values CSS at-rule lets you use a common name in the font-variant-alternates property for features activated differently in OpenType. This can help simplify your CSS when using multiple fonts."
+    }
+  }
+}
+},{}],23:[function(require,module,exports){
+module.exports={
+  "AliceBlue": {
+    "name": "AliceBlue",
+    "hex": "#F0F8FF",
+    "rgb": "rgb(240,248,255)"
+  },
+  "AntiqueWhite": {
+    "name": "AntiqueWhite",
+    "hex": "#FAEBD7",
+    "rgb": "rgb(250,235,215)"
+  },
+  "Aqua": {
+    "name": "Aqua",
+    "hex": "#00FFFF",
+    "rgb": "rgb(0,255,255)"
+  },
+  "Aquamarine": {
+    "name": "Aquamarine",
+    "hex": "#7FFFD4",
+    "rgb": "rgb(127,255,212)"
+  },
+  "Azure": {
+    "name": "Azure",
+    "hex": "#F0FFFF",
+    "rgb": "rgb(240,255,255)"
+  },
+  "Beige": {
+    "name": "Beige",
+    "hex": "#F5F5DC",
+    "rgb": "rgb(245,245,220)"
+  },
+  "Bisque": {
+    "name": "Bisque",
+    "hex": "#FFE4C4",
+    "rgb": "rgb(255,228,196)"
+  },
+  "Black": {
+    "name": "Black",
+    "hex": "#000000",
+    "rgb": "rgb(0,0,0)"
+  },
+  "BlanchedAlmond": {
+    "name": "BlanchedAlmond",
+    "hex": "#FFEBCD",
+    "rgb": "rgb(255,235,205)"
+  },
+  "Blue": {
+    "name": "Blue",
+    "hex": "#0000FF",
+    "rgb": "rgb(0,0,255)"
+  },
+  "BlueViolet": {
+    "name": "BlueViolet",
+    "hex": "#8A2BE2",
+    "rgb": "rgb(138,43,226)"
+  },
+  "Brown": {
+    "name": "Brown",
+    "hex": "#A52A2A",
+    "rgb": "rgb(165,42,42)"
+  },
+  "BurlyWood": {
+    "name": "BurlyWood",
+    "hex": "#DEB887",
+    "rgb": "rgb(222,184,135)"
+  },
+  "CadetBlue": {
+    "name": "CadetBlue",
+    "hex": "#5F9EA0",
+    "rgb": "rgb(95,158,160)"
+  },
+  "Chartreuse": {
+    "name": "Chartreuse",
+    "hex": "#7FFF00",
+    "rgb": "rgb(127,255,0)"
+  },
+  "Chocolate": {
+    "name": "Chocolate",
+    "hex": "#D2691E",
+    "rgb": "rgb(210,105,30)"
+  },
+  "Coral": {
+    "name": "Coral",
+    "hex": "#FF7F50",
+    "rgb": "rgb(255,127,80)"
+  },
+  "CornflowerBlue": {
+    "name": "CornflowerBlue",
+    "hex": "#6495ED",
+    "rgb": "rgb(100,149,237)"
+  },
+  "Cornsilk": {
+    "name": "Cornsilk",
+    "hex": "#FFF8DC",
+    "rgb": "rgb(255,248,220)"
+  },
+  "Crimson": {
+    "name": "Crimson",
+    "hex": "#DC143C",
+    "rgb": "rgb(220,20,60)"
+  },
+  "Cyan": {
+    "name": "Cyan",
+    "hex": "#00FFFF",
+    "rgb": "rgb(0,255,255)"
+  },
+  "DarkBlue": {
+    "name": "DarkBlue",
+    "hex": "#00008B",
+    "rgb": "rgb(0,0,139)"
+  },
+  "DarkCyan": {
+    "name": "DarkCyan",
+    "hex": "#008B8B",
+    "rgb": "rgb(0,139,139)"
+  },
+  "DarkGoldenRod": {
+    "name": "DarkGoldenRod",
+    "hex": "#B8860B",
+    "rgb": "rgb(184,134,11)"
+  },
+  "DarkGray": {
+    "name": "DarkGray",
+    "hex": "#A9A9A9",
+    "rgb": "rgb(169,169,169)"
+  },
+  "DarkGrey": {
+    "name": "DarkGrey",
+    "hex": "#A9A9A9",
+    "rgb": "rgb(169,169,169)"
+  },
+  "DarkGreen": {
+    "name": "DarkGreen",
+    "hex": "#006400",
+    "rgb": "rgb(0,100,0)"
+  },
+  "DarkKhaki": {
+    "name": "DarkKhaki",
+    "hex": "#BDB76B",
+    "rgb": "rgb(189,183,107)"
+  },
+  "DarkMagenta": {
+    "name": "DarkMagenta",
+    "hex": "#8B008B",
+    "rgb": "rgb(139,0,139)"
+  },
+  "DarkOliveGreen": {
+    "name": "DarkOliveGreen",
+    "hex": "#556B2F",
+    "rgb": "rgb(85,107,47)"
+  },
+  "DarkOrange": {
+    "name": "DarkOrange",
+    "hex": "#FF8C00",
+    "rgb": "rgb(255,140,0)"
+  },
+  "DarkOrchid": {
+    "name": "DarkOrchid",
+    "hex": "#9932CC",
+    "rgb": "rgb(153,50,204)"
+  },
+  "DarkRed": {
+    "name": "DarkRed",
+    "hex": "#8B0000",
+    "rgb": "rgb(139,0,0)"
+  },
+  "DarkSalmon": {
+    "name": "DarkSalmon",
+    "hex": "#E9967A",
+    "rgb": "rgb(233,150,122)"
+  },
+  "DarkSeaGreen": {
+    "name": "DarkSeaGreen",
+    "hex": "#8FBC8F",
+    "rgb": "rgb(143,188,143)"
+  },
+  "DarkSlateBlue": {
+    "name": "DarkSlateBlue",
+    "hex": "#483D8B",
+    "rgb": "rgb(72,61,139)"
+  },
+  "DarkSlateGray": {
+    "name": "DarkSlateGray",
+    "hex": "#2F4F4F",
+    "rgb": "rgb(47,79,79)"
+  },
+  "DarkSlateGrey": {
+    "name": "DarkSlateGrey",
+    "hex": "#2F4F4F",
+    "rgb": "rgb(47,79,79)"
+  },
+  "DarkTurquoise": {
+    "name": "DarkTurquoise",
+    "hex": "#00CED1",
+    "rgb": "rgb(0,206,209)"
+  },
+  "DarkViolet": {
+    "name": "DarkViolet",
+    "hex": "#9400D3",
+    "rgb": "rgb(148,0,211)"
+  },
+  "DeepPink": {
+    "name": "DeepPink",
+    "hex": "#FF1493",
+    "rgb": "rgb(255,20,147)"
+  },
+  "DeepSkyBlue": {
+    "name": "DeepSkyBlue",
+    "hex": "#00BFFF",
+    "rgb": "rgb(0,191,255)"
+  },
+  "DimGray": {
+    "name": "DimGray",
+    "hex": "#696969",
+    "rgb": "rgb(105,105,105)"
+  },
+  "DimGrey": {
+    "name": "DimGrey",
+    "hex": "#696969",
+    "rgb": "rgb(105,105,105)"
+  },
+  "DodgerBlue": {
+    "name": "DodgerBlue",
+    "hex": "#1E90FF",
+    "rgb": "rgb(30,144,255)"
+  },
+  "FireBrick": {
+    "name": "FireBrick",
+    "hex": "#B22222",
+    "rgb": "rgb(178,34,34)"
+  },
+  "FloralWhite": {
+    "name": "FloralWhite",
+    "hex": "#FFFAF0",
+    "rgb": "rgb(255,250,240)"
+  },
+  "ForestGreen": {
+    "name": "ForestGreen",
+    "hex": "#228B22",
+    "rgb": "rgb(34,139,34)"
+  },
+  "Fuchsia": {
+    "name": "Fuchsia",
+    "hex": "#FF00FF",
+    "rgb": "rgb(255,0,255)"
+  },
+  "Gainsboro": {
+    "name": "Gainsboro",
+    "hex": "#DCDCDC",
+    "rgb": "rgb(220,220,220)"
+  },
+  "GhostWhite": {
+    "name": "GhostWhite",
+    "hex": "#F8F8FF",
+    "rgb": "rgb(248,248,255)"
+  },
+  "Gold": {
+    "name": "Gold",
+    "hex": "#FFD700",
+    "rgb": "rgb(255,215,0)"
+  },
+  "GoldenRod": {
+    "name": "GoldenRod",
+    "hex": "#DAA520",
+    "rgb": "rgb(218,165,32)"
+  },
+  "Gray": {
+    "name": "Gray",
+    "hex": "#808080",
+    "rgb": "rgb(128,128,128)"
+  },
+  "Grey": {
+    "name": "Grey",
+    "hex": "#808080",
+    "rgb": "rgb(128,128,128)"
+  },
+  "Green": {
+    "name": "Green",
+    "hex": "#008000",
+    "rgb": "rgb(0,128,0)"
+  },
+  "GreenYellow": {
+    "name": "GreenYellow",
+    "hex": "#ADFF2F",
+    "rgb": "rgb(173,255,47)"
+  },
+  "HoneyDew": {
+    "name": "HoneyDew",
+    "hex": "#F0FFF0",
+    "rgb": "rgb(240,255,240)"
+  },
+  "HotPink": {
+    "name": "HotPink",
+    "hex": "#FF69B4",
+    "rgb": "rgb(255,105,180)"
+  },
+  "IndianRed": {
+    "name": "IndianRed",
+    "hex": "#CD5C5C",
+    "rgb": "rgb(205,92,92)"
+  },
+  "Indigo": {
+    "name": "Indigo",
+    "hex": "#4B0082",
+    "rgb": "rgb(75,0,130)"
+  },
+  "Ivory": {
+    "name": "Ivory",
+    "hex": "#FFFFF0",
+    "rgb": "rgb(255,255,240)"
+  },
+  "Khaki": {
+    "name": "Khaki",
+    "hex": "#F0E68C",
+    "rgb": "rgb(240,230,140)"
+  },
+  "Lavender": {
+    "name": "Lavender",
+    "hex": "#E6E6FA",
+    "rgb": "rgb(230,230,250)"
+  },
+  "LavenderBlush": {
+    "name": "LavenderBlush",
+    "hex": "#FFF0F5",
+    "rgb": "rgb(255,240,245)"
+  },
+  "LawnGreen": {
+    "name": "LawnGreen",
+    "hex": "#7CFC00",
+    "rgb": "rgb(124,252,0)"
+  },
+  "LemonChiffon": {
+    "name": "LemonChiffon",
+    "hex": "#FFFACD",
+    "rgb": "rgb(255,250,205)"
+  },
+  "LightBlue": {
+    "name": "LightBlue",
+    "hex": "#ADD8E6",
+    "rgb": "rgb(173,216,230)"
+  },
+  "LightCoral": {
+    "name": "LightCoral",
+    "hex": "#F08080",
+    "rgb": "rgb(240,128,128)"
+  },
+  "LightCyan": {
+    "name": "LightCyan",
+    "hex": "#E0FFFF",
+    "rgb": "rgb(224,255,255)"
+  },
+  "LightGoldenRodYellow": {
+    "name": "LightGoldenRodYellow",
+    "hex": "#FAFAD2",
+    "rgb": "rgb(250,250,210)"
+  },
+  "LightGray": {
+    "name": "LightGray",
+    "hex": "#D3D3D3",
+    "rgb": "rgb(211,211,211)"
+  },
+  "LightGrey": {
+    "name": "LightGrey",
+    "hex": "#D3D3D3",
+    "rgb": "rgb(211,211,211)"
+  },
+  "LightGreen": {
+    "name": "LightGreen",
+    "hex": "#90EE90",
+    "rgb": "rgb(144,238,144)"
+  },
+  "LightPink": {
+    "name": "LightPink",
+    "hex": "#FFB6C1",
+    "rgb": "rgb(255,182,193)"
+  },
+  "LightSalmon": {
+    "name": "LightSalmon",
+    "hex": "#FFA07A",
+    "rgb": "rgb(255,160,122)"
+  },
+  "LightSeaGreen": {
+    "name": "LightSeaGreen",
+    "hex": "#20B2AA",
+    "rgb": "rgb(32,178,170)"
+  },
+  "LightSkyBlue": {
+    "name": "LightSkyBlue",
+    "hex": "#87CEFA",
+    "rgb": "rgb(135,206,250)"
+  },
+  "LightSlateGray": {
+    "name": "LightSlateGray",
+    "hex": "#778899",
+    "rgb": "rgb(119,136,153)"
+  },
+  "LightSlateGrey": {
+    "name": "LightSlateGrey",
+    "hex": "#778899",
+    "rgb": "rgb(119,136,153)"
+  },
+  "LightSteelBlue": {
+    "name": "LightSteelBlue",
+    "hex": "#B0C4DE",
+    "rgb": "rgb(176,196,222)"
+  },
+  "LightYellow": {
+    "name": "LightYellow",
+    "hex": "#FFFFE0",
+    "rgb": "rgb(255,255,224)"
+  },
+  "Lime": {
+    "name": "Lime",
+    "hex": "#00FF00",
+    "rgb": "rgb(0,255,0)"
+  },
+  "LimeGreen": {
+    "name": "LimeGreen",
+    "hex": "#32CD32",
+    "rgb": "rgb(50,205,50)"
+  },
+  "Linen": {
+    "name": "Linen",
+    "hex": "#FAF0E6",
+    "rgb": "rgb(250,240,230)"
+  },
+  "Magenta": {
+    "name": "Magenta",
+    "hex": "#FF00FF",
+    "rgb": "rgb(255,0,255)"
+  },
+  "Maroon": {
+    "name": "Maroon",
+    "hex": "#800000",
+    "rgb": "rgb(128,0,0)"
+  },
+  "MediumAquaMarine": {
+    "name": "MediumAquaMarine",
+    "hex": "#66CDAA",
+    "rgb": "rgb(102,205,170)"
+  },
+  "MediumBlue": {
+    "name": "MediumBlue",
+    "hex": "#0000CD",
+    "rgb": "rgb(0,0,205)"
+  },
+  "MediumOrchid": {
+    "name": "MediumOrchid",
+    "hex": "#BA55D3",
+    "rgb": "rgb(186,85,211)"
+  },
+  "MediumPurple": {
+    "name": "MediumPurple",
+    "hex": "#9370DB",
+    "rgb": "rgb(147,112,219)"
+  },
+  "MediumSeaGreen": {
+    "name": "MediumSeaGreen",
+    "hex": "#3CB371",
+    "rgb": "rgb(60,179,113)"
+  },
+  "MediumSlateBlue": {
+    "name": "MediumSlateBlue",
+    "hex": "#7B68EE",
+    "rgb": "rgb(123,104,238)"
+  },
+  "MediumSpringGreen": {
+    "name": "MediumSpringGreen",
+    "hex": "#00FA9A",
+    "rgb": "rgb(0,250,154)"
+  },
+  "MediumTurquoise": {
+    "name": "MediumTurquoise",
+    "hex": "#48D1CC",
+    "rgb": "rgb(72,209,204)"
+  },
+  "MediumVioletRed": {
+    "name": "MediumVioletRed",
+    "hex": "#C71585",
+    "rgb": "rgb(199,21,133)"
+  },
+  "MidnightBlue": {
+    "name": "MidnightBlue",
+    "hex": "#191970",
+    "rgb": "rgb(25,25,112)"
+  },
+  "MintCream": {
+    "name": "MintCream",
+    "hex": "#F5FFFA",
+    "rgb": "rgb(245,255,250)"
+  },
+  "MistyRose": {
+    "name": "MistyRose",
+    "hex": "#FFE4E1",
+    "rgb": "rgb(255,228,225)"
+  },
+  "Moccasin": {
+    "name": "Moccasin",
+    "hex": "#FFE4B5",
+    "rgb": "rgb(255,228,181)"
+  },
+  "NavajoWhite": {
+    "name": "NavajoWhite",
+    "hex": "#FFDEAD",
+    "rgb": "rgb(255,222,173)"
+  },
+  "Navy": {
+    "name": "Navy",
+    "hex": "#000080",
+    "rgb": "rgb(0,0,128)"
+  },
+  "OldLace": {
+    "name": "OldLace",
+    "hex": "#FDF5E6",
+    "rgb": "rgb(253,245,230)"
+  },
+  "Olive": {
+    "name": "Olive",
+    "hex": "#808000",
+    "rgb": "rgb(128,128,0)"
+  },
+  "OliveDrab": {
+    "name": "OliveDrab",
+    "hex": "#6B8E23",
+    "rgb": "rgb(107,142,35)"
+  },
+  "Orange": {
+    "name": "Orange",
+    "hex": "#FFA500",
+    "rgb": "rgb(255,165,0)"
+  },
+  "OrangeRed": {
+    "name": "OrangeRed",
+    "hex": "#FF4500",
+    "rgb": "rgb(255,69,0)"
+  },
+  "Orchid": {
+    "name": "Orchid",
+    "hex": "#DA70D6",
+    "rgb": "rgb(218,112,214)"
+  },
+  "PaleGoldenRod": {
+    "name": "PaleGoldenRod",
+    "hex": "#EEE8AA",
+    "rgb": "rgb(238,232,170)"
+  },
+  "PaleGreen": {
+    "name": "PaleGreen",
+    "hex": "#98FB98",
+    "rgb": "rgb(152,251,152)"
+  },
+  "PaleTurquoise": {
+    "name": "PaleTurquoise",
+    "hex": "#AFEEEE",
+    "rgb": "rgb(175,238,238)"
+  },
+  "PaleVioletRed": {
+    "name": "PaleVioletRed",
+    "hex": "#DB7093",
+    "rgb": "rgb(219,112,147)"
+  },
+  "PapayaWhip": {
+    "name": "PapayaWhip",
+    "hex": "#FFEFD5",
+    "rgb": "rgb(255,239,213)"
+  },
+  "PeachPuff": {
+    "name": "PeachPuff",
+    "hex": "#FFDAB9",
+    "rgb": "rgb(255,218,185)"
+  },
+  "Peru": {
+    "name": "Peru",
+    "hex": "#CD853F",
+    "rgb": "rgb(205,133,63)"
+  },
+  "Pink": {
+    "name": "Pink",
+    "hex": "#FFC0CB",
+    "rgb": "rgb(255,192,203)"
+  },
+  "Plum": {
+    "name": "Plum",
+    "hex": "#DDA0DD",
+    "rgb": "rgb(221,160,221)"
+  },
+  "PowderBlue": {
+    "name": "PowderBlue",
+    "hex": "#B0E0E6",
+    "rgb": "rgb(176,224,230)"
+  },
+  "Purple": {
+    "name": "Purple",
+    "hex": "#800080",
+    "rgb": "rgb(128,0,128)"
+  },
+  "RebeccaPurple": {
+    "name": "RebeccaPurple",
+    "hex": "#663399",
+    "rgb": "rgb(102,51,153)"
+  },
+  "Red": {
+    "name": "Red",
+    "hex": "#FF0000",
+    "rgb": "rgb(255,0,0)"
+  },
+  "RosyBrown": {
+    "name": "RosyBrown",
+    "hex": "#BC8F8F",
+    "rgb": "rgb(188,143,143)"
+  },
+  "RoyalBlue": {
+    "name": "RoyalBlue",
+    "hex": "#4169E1",
+    "rgb": "rgb(65,105,225)"
+  },
+  "SaddleBrown": {
+    "name": "SaddleBrown",
+    "hex": "#8B4513",
+    "rgb": "rgb(139,69,19)"
+  },
+  "Salmon": {
+    "name": "Salmon",
+    "hex": "#FA8072",
+    "rgb": "rgb(250,128,114)"
+  },
+  "SandyBrown": {
+    "name": "SandyBrown",
+    "hex": "#F4A460",
+    "rgb": "rgb(244,164,96)"
+  },
+  "SeaGreen": {
+    "name": "SeaGreen",
+    "hex": "#2E8B57",
+    "rgb": "rgb(46,139,87)"
+  },
+  "SeaShell": {
+    "name": "SeaShell",
+    "hex": "#FFF5EE",
+    "rgb": "rgb(255,245,238)"
+  },
+  "Sienna": {
+    "name": "Sienna",
+    "hex": "#A0522D",
+    "rgb": "rgb(160,82,45)"
+  },
+  "Silver": {
+    "name": "Silver",
+    "hex": "#C0C0C0",
+    "rgb": "rgb(192,192,192)"
+  },
+  "SkyBlue": {
+    "name": "SkyBlue",
+    "hex": "#87CEEB",
+    "rgb": "rgb(135,206,235)"
+  },
+  "SlateBlue": {
+    "name": "SlateBlue",
+    "hex": "#6A5ACD",
+    "rgb": "rgb(106,90,205)"
+  },
+  "SlateGray": {
+    "name": "SlateGray",
+    "hex": "#708090",
+    "rgb": "rgb(112,128,144)"
+  },
+  "SlateGrey": {
+    "name": "SlateGrey",
+    "hex": "#708090",
+    "rgb": "rgb(112,128,144)"
+  },
+  "Snow": {
+    "name": "Snow",
+    "hex": "#FFFAFA",
+    "rgb": "rgb(255,250,250)"
+  },
+  "SpringGreen": {
+    "name": "SpringGreen",
+    "hex": "#00FF7F",
+    "rgb": "rgb(0,255,127)"
+  },
+  "SteelBlue": {
+    "name": "SteelBlue",
+    "hex": "#4682B4",
+    "rgb": "rgb(70,130,180)"
+  },
+  "Tan": {
+    "name": "Tan",
+    "hex": "#D2B48C",
+    "rgb": "rgb(210,180,140)"
+  },
+  "Teal": {
+    "name": "Teal",
+    "hex": "#008080",
+    "rgb": "rgb(0,128,128)"
+  },
+  "Thistle": {
+    "name": "Thistle",
+    "hex": "#D8BFD8",
+    "rgb": "rgb(216,191,216)"
+  },
+  "Tomato": {
+    "name": "Tomato",
+    "hex": "#FF6347",
+    "rgb": "rgb(255,99,71)"
+  },
+  "Turquoise": {
+    "name": "Turquoise",
+    "hex": "#40E0D0",
+    "rgb": "rgb(64,224,208)"
+  },
+  "Violet": {
+    "name": "Violet",
+    "hex": "#EE82EE",
+    "rgb": "rgb(238,130,238)"
+  },
+  "Wheat": {
+    "name": "Wheat",
+    "hex": "#F5DEB3",
+    "rgb": "rgb(245,222,179)"
+  },
+  "White": {
+    "name": "White",
+    "hex": "#FFFFFF",
+    "rgb": "rgb(255,255,255)"
+  },
+  "WhiteSmoke": {
+    "name": "WhiteSmoke",
+    "hex": "#F5F5F5",
+    "rgb": "rgb(245,245,245)"
+  },
+  "Yellow": {
+    "name": "Yellow",
+    "hex": "#FFFF00",
+    "rgb": "rgb(255,255,0)"
+  },
+  "YellowGreen": {
+    "name": "YellowGreen",
+    "hex": "#9ACD32",
+    "rgb": "rgb(154,205,50)"
+  }
+}
+},{}],24:[function(require,module,exports){
+module.exports={
   "align-content": {
     "urls": {
       "css-tricks": "https://css-tricks.com/almanac/properties/a/align-content/",
@@ -27406,7 +28284,913 @@ module.exports={
     }
   }
 }
-},{}],23:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
+module.exports={
+  ":active": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:active",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:active\">:active</a>",
+      "text": ":active"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>:active</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/CSS/Pseudo-classes\" title=\"Pseudo-classes\">pseudo-class</a> represents an element (such as a button) that is being activated by the user.</span> When using a mouse, &quot;activation&quot; typically starts when the user presses down the primary mouse button.",
+      "text": "The :active CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, \"activation\" typically starts when the user presses down the primary mouse button."
+    }
+  },
+  ":any-link": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:any-link\">:any-link</a>",
+      "text": ":any-link"
+    },
+    "description": {
+      "html": "The <strong><code>:any-link</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> selector represents an element that acts as the source anchor of a hyperlink, independent of whether it has been visited. In other words, it matches every <a href=\"/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a href=\"/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, or <a href=\"/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a> element that has an <code>href</code> attribute. Thus, it matches all elements that match <a href=\"/en-US/docs/Web/CSS/:link\" title=\"The :link CSS pseudo-class represents an element that has not yet been visited. It matches every unvisited &lt;a&gt;, &lt;area&gt;, or &lt;link&gt; element that has an href attribute.\"><code>:link</code></a> or <a href=\"/en-US/docs/Web/CSS/:visited\" title=\"The :visited CSS pseudo-class represents links that the user has already visited. For privacy reasons, the styles that can be modified using this selector are very limited.\"><code>:visited</code></a>.",
+      "text": "The :any-link CSS pseudo-class selector represents an element that acts as the source anchor of a hyperlink, independent of whether it has been visited. In other words, it matches every <a>, <area>, or <link> element that has an href attribute. Thus, it matches all elements that match :link or :visited."
+    }
+  },
+  ":blank": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:blank",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:blank\">:blank</a>",
+      "text": ":blank"
+    },
+    "description": {
+      "html": "The <strong><code>:blank</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> selects empty user input elements (eg.&#xA0;<a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a> or&#xA0;<a href=\"/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>).",
+      "text": "The :blank CSS pseudo-class selects empty user input elements (eg. <input> or <textarea>)."
+    }
+  },
+  ":checked": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:checked",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:checked\">:checked</a>",
+      "text": ":checked"
+    },
+    "description": {
+      "html": "The <strong><code>:checked</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/CSS/Pseudo-classes\" title=\"Pseudo-classes\">pseudo-class</a> selector represents any <strong>radio </strong>(<code><a href=\"/en-US/docs/Web/HTML/Element/input/radio\">&lt;input type=&quot;radio&quot;&gt;</a></code>), <strong>checkbox </strong>(<code><a href=\"/en-US/docs/Web/HTML/Element/input/checkbox\">&lt;input type=&quot;checkbox&quot;&gt;</a></code>), or <strong>option</strong> (<a href=\"/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a> in a <a href=\"/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>) element that is checked or toggled to an <code>on</code> state.",
+      "text": "The :checked CSS pseudo-class selector represents any radio (<input type=\"radio\">), checkbox (<input type=\"checkbox\">), or option (<option> in a <select>) element that is checked or toggled to an on state."
+    }
+  },
+  ":current": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":current",
+      "text": ":current"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":default": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:default",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:default\">:default</a>",
+      "text": ":default"
+    },
+    "description": {
+      "html": "The <strong><code>:default</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> selects form elements that are the default in a group of related elements.",
+      "text": "The :default CSS pseudo-class selects form elements that are the default in a group of related elements."
+    }
+  },
+  ":defined": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:defined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:defined\">:defined</a>",
+      "text": ":defined"
+    },
+    "description": {
+      "html": "The <strong><code>:defined</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the <a href=\"/en-US/docs/Web/API/CustomElementRegistry/define\"><code>CustomElementRegistry.define()</code></a> method).",
+      "text": "The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method)."
+    }
+  },
+  ":dir()": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:dir",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:dir\">:dir()</a>",
+      "text": ":dir()"
+    },
+    "description": {
+      "html": "The <strong><code>:dir()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches elements based on the directionality of the text contained in them.",
+      "text": "The :dir() CSS pseudo-class matches elements based on the directionality of the text contained in them."
+    }
+  },
+  ":disabled": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:disabled\">:disabled</a>",
+      "text": ":disabled"
+    },
+    "description": {
+      "html": "The <strong><code>:disabled</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any disabled element. An element is disabled if it can&apos;t be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has an enabled state, in which it can be activated or accept focus.",
+      "text": "The :disabled CSS pseudo-class represents any disabled element. An element is disabled if it can't be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has an enabled state, in which it can be activated or accept focus."
+    }
+  },
+  ":drop": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":drop",
+      "text": ":drop"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":empty": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:empty",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:empty\">:empty</a>",
+      "text": ":empty"
+    },
+    "description": {
+      "html": "The <strong><code>:empty</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any element that has no children. Children can be either element nodes or text (including whitespace). Comments, processing instructions, and CSS <a href=\"/en-US/docs/Web/CSS/content\" title=\"The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.\"><code>content</code></a> do not affect whether an element is considered empty.",
+      "text": "The :empty CSS pseudo-class represents any element that has no children. Children can be either element nodes or text (including whitespace). Comments, processing instructions, and CSS content do not affect whether an element is considered empty."
+    }
+  },
+  ":enabled": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:enabled\">:enabled</a>",
+      "text": ":enabled"
+    },
+    "description": {
+      "html": "The <strong><code>:enabled</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any enabled element. An element is enabled if it can be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has a disabled state, in which it can&apos;t be activated or accept focus.",
+      "text": "The :enabled CSS pseudo-class represents any enabled element. An element is enabled if it can be activated (selected, clicked on, typed into, etc.) or accept focus. The element also has a disabled state, in which it can't be activated or accept focus."
+    }
+  },
+  ":first": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:first",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:first\">:first</a>",
+      "text": ":first"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>:first</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the&#xA0; <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document. You can&apos;t change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents the first page of a printed document. </span>(See <a href=\"/en-US/docs/Web/CSS/:first-child\" title=\"The :first-child CSS pseudo-class represents the first element among a group of sibling elements.\"><code>:first-child</code></a> for general first element of a node.)",
+      "text": "The :first CSS pseudo-class, used with the  @page at-rule, represents the first page of a printed document. (See :first-child for general first element of a node.)"
+    }
+  },
+  ":first-child": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:first-child\">:first-child</a>",
+      "text": ":first-child"
+    },
+    "description": {
+      "html": "The <strong><code>:first-child</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents the first element among a group of sibling elements.",
+      "text": "The :first-child CSS pseudo-class represents the first element among a group of sibling elements."
+    }
+  },
+  ":first-of-type": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type\">:first-of-type</a>",
+      "text": ":first-of-type"
+    },
+    "description": {
+      "html": "The <strong><code>:first-of-type</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents the first element of its type among a group of sibling elements.",
+      "text": "The :first-of-type CSS pseudo-class represents the first element of its type among a group of sibling elements."
+    }
+  },
+  ":fullscreen": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:fullscreen",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:fullscreen\">:fullscreen</a>",
+      "text": ":fullscreen"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>:fullscreen</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches every element which is currently in full-screen mode. If multiple elements have been put into full-screen mode, this selects them all.</span>",
+      "text": "The :fullscreen CSS pseudo-class matches every element which is currently in full-screen mode. If multiple elements have been put into full-screen mode, this selects them all."
+    }
+  },
+  ":future": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":future",
+      "text": ":future"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":focus": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:focus\">:focus</a>",
+      "text": ":focus"
+    },
+    "description": {
+      "html": "The <strong><code>:focus</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\" title=\"Pseudo-classes\">pseudo-class</a> represents an element (such as a form input) that has received focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard&apos;s &quot;tab&quot; key.",
+      "text": "The :focus CSS pseudo-class represents an element (such as a form input) that has received focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's \"tab\" key."
+    }
+  },
+  ":focus-visible": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-visible\">:focus-visible</a>",
+      "text": ":focus-visible"
+    },
+    "description": {
+      "html": "The <strong><code>:focus-visible</code></strong> pseudo-class applies while an element matches the <a href=\"/en-US/docs/Web/CSS/:focus\" title=\"The :focus CSS pseudo-class represents an element (such as a form input) that has received focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard&apos;s &quot;tab&quot; key.\"><code>:focus</code></a> pseudo-class and the UA (<a href=\"/en-US/docs/Glossary/User_agent\">User Agent</a>) determines via heuristics that the focus should be made evident on the element. (Many browsers show a &#x201C;focus ring&#x201D; by default in this case.)",
+      "text": "The :focus-visible pseudo-class applies while an element matches the :focus pseudo-class and the UA (User Agent) determines via heuristics that the focus should be made evident on the element. (Many browsers show a “focus ring” by default in this case.)"
+    }
+  },
+  ":focus-within": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:focus-within\">:focus-within</a>",
+      "text": ":focus-within"
+    },
+    "description": {
+      "html": "The <strong><code>:focus-within</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents an element that has received focus or <em>contains</em> an element that has received focus. In other words, it represents an element that is itself matched by the <a href=\"/en-US/docs/Web/CSS/:focus\" title=\"The :focus CSS pseudo-class represents an element (such as a form input) that has received focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard&apos;s &quot;tab&quot; key.\"><code>:focus</code></a> pseudo-class or has a descendant that is matched by <code>:focus</code>. (This includes descendants in <a href=\"/en-US/docs/Web/Web_Components/Shadow_DOM\">shadow trees</a>.)",
+      "text": "The :focus-within CSS pseudo-class represents an element that has received focus or contains an element that has received focus. In other words, it represents an element that is itself matched by the :focus pseudo-class or has a descendant that is matched by :focus. (This includes descendants in shadow trees.)"
+    }
+  },
+  ":has()": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:has",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:has\">:has()</a>",
+      "text": ":has()"
+    },
+    "description": {
+      "html": "The <code>:has()</code> pseudo-class takes a relative selector&#xA0;list&#xA0;as an argument. In earlier revisions of the CSS Selectors Level 4 specification, <code>:has</code> had a limitation that it can not be used within stylesheets; only with functions like <a href=\"/en-US/docs/Web/API/Document/querySelector\"><code>document.querySelector()</code></a> (because of performance concerns). This limitation is now removed because no browser has implemented it this way.",
+      "text": "The :has() pseudo-class takes a relative selector list as an argument. In earlier revisions of the CSS Selectors Level 4 specification, :has had a limitation that it can not be used within stylesheets; only with functions like document.querySelector() (because of performance concerns). This limitation is now removed because no browser has implemented it this way."
+    }
+  },
+  ":host": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:host",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:host\">:host</a>",
+      "text": ":host"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>:host</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> selects the shadow host of the <a href=\"/en-US/docs/Web/Web_Components/Using_shadow_DOM\">shadow DOM</a> containing the CSS it is used inside &#x2014; in other words, this allows you to select a custom element from inside its shadow DOM.</span>",
+      "text": "The :host CSS pseudo-class selects the shadow host of the shadow DOM containing the CSS it is used inside — in other words, this allows you to select a custom element from inside its shadow DOM."
+    }
+  },
+  ":host()": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:host()",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:host()\">:host()</a>",
+      "text": ":host()"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>:host()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> function selects the shadow host of the <a href=\"/en-US/docs/Web/Web_Components/Using_shadow_DOM\">shadow DOM</a> containing the CSS it is used inside (so you can select a custom element from inside its shadow DOM) &#x2014; but only if the selector given as the function&apos;s parameter matches the shadow host.</span>",
+      "text": "The :host() CSS pseudo-class function selects the shadow host of the shadow DOM containing the CSS it is used inside (so you can select a custom element from inside its shadow DOM) — but only if the selector given as the function's parameter matches the shadow host."
+    }
+  },
+  ":host-context()": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:host-context()",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:host-context()\">:host-context()</a>",
+      "text": ":host-context()"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>:host-context()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> function selects the shadow host of the <a href=\"/en-US/docs/Web/Web_Components/Using_shadow_DOM\">shadow DOM</a> containing the CSS it is used inside (so you can select a custom element from inside its shadow DOM) &#x2014; but only if the selector given as the function&apos;s parameter matches the shadow host&apos;s ancestor(s) in the place it sits inside the DOM hierarchy.</span>",
+      "text": "The :host-context() CSS pseudo-class function selects the shadow host of the shadow DOM containing the CSS it is used inside (so you can select a custom element from inside its shadow DOM) — but only if the selector given as the function's parameter matches the shadow host's ancestor(s) in the place it sits inside the DOM hierarchy."
+    }
+  },
+  ":hover": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:hover",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:hover\">:hover</a>",
+      "text": ":hover"
+    },
+    "description": {
+      "html": "The <strong><code>:hover</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\" title=\"Pseudo-classes\">pseudo-class</a> matches when the user interacts with an element with a pointing device, but does not necessarily activate it. It is generally triggered when the user hovers over an element with the cursor (mouse pointer).",
+      "text": "The :hover CSS pseudo-class matches when the user interacts with an element with a pointing device, but does not necessarily activate it. It is generally triggered when the user hovers over an element with the cursor (mouse pointer)."
+    }
+  },
+  ":indeterminate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:indeterminate\">:indeterminate</a>",
+      "text": ":indeterminate"
+    },
+    "description": {
+      "html": "The <strong><code>:indeterminate</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any form element whose state is indeterminate.",
+      "text": "The :indeterminate CSS pseudo-class represents any form element whose state is indeterminate."
+    }
+  },
+  ":in-range": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:in-range",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:in-range\">:in-range</a>",
+      "text": ":in-range"
+    },
+    "description": {
+      "html": "The <strong><code>:in-range</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/CSS/Pseudo-classes\" title=\"Pseudo-classes\">pseudo-class</a> represents an <a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a> element whose current value is within the range limits specified by the <code><a href=\"/en-US/docs/Web/HTML/Element/input#attr-min\">min</a></code> and <code><a href=\"/en-US/docs/Web/HTML/Element/input#attr-max\">max</a></code> attributes.",
+      "text": "The :in-range CSS pseudo-class represents an <input> element whose current value is within the range limits specified by the min and max attributes."
+    }
+  },
+  ":invalid": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:invalid\">:invalid</a>",
+      "text": ":invalid"
+    },
+    "description": {
+      "html": "The <strong><code>:invalid</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any <a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a> or other <a href=\"/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a> element whose contents fail to <a href=\"/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation\">validate</a>.",
+      "text": "The :invalid CSS pseudo-class represents any <input> or other <form> element whose contents fail to validate."
+    }
+  },
+  ":is()": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:is",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:is\">:is()</a>",
+      "text": ":is()"
+    },
+    "description": {
+      "html": "The <strong><code>:is()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list. This is useful for writing large selectors in a more compact form.",
+      "text": "The :is() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list. This is useful for writing large selectors in a more compact form."
+    }
+  },
+  ":lang()": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:lang",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:lang\">:lang()</a>",
+      "text": ":lang()"
+    },
+    "description": {
+      "html": "The <strong><code>:lang()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches elements based on the language they are determined to be in.",
+      "text": "The :lang() CSS pseudo-class matches elements based on the language they are determined to be in."
+    }
+  },
+  ":last-child": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child\">:last-child</a>",
+      "text": ":last-child"
+    },
+    "description": {
+      "html": "The <strong><code>:last-child</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents the last element among a group of sibling elements.",
+      "text": "The :last-child CSS pseudo-class represents the last element among a group of sibling elements."
+    }
+  },
+  ":last-of-type": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type\">:last-of-type</a>",
+      "text": ":last-of-type"
+    },
+    "description": {
+      "html": "The <strong><code>:last-of-type</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents the last element of its type among a group of sibling elements.",
+      "text": "The :last-of-type CSS pseudo-class represents the last element of its type among a group of sibling elements."
+    }
+  },
+  ":left": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:left",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:left\">:left</a>",
+      "text": ":left"
+    },
+    "description": {
+      "html": "The <strong><code>:left</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document. You can&apos;t change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents all left-hand pages of a printed document.",
+      "text": "The :left CSS pseudo-class, used with the @page at-rule, represents all left-hand pages of a printed document."
+    }
+  },
+  ":link": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:link",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:link\">:link</a>",
+      "text": ":link"
+    },
+    "description": {
+      "html": "The <strong><code>:link</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents an element that has not yet been visited. It matches every unvisited <a href=\"/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a href=\"/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, or <a href=\"/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a> element that has an <code>href</code> attribute.",
+      "text": "The :link CSS pseudo-class represents an element that has not yet been visited. It matches every unvisited <a>, <area>, or <link> element that has an href attribute."
+    }
+  },
+  ":local-link": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":local-link",
+      "text": ":local-link"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":not()": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:not",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:not\">:not()</a>",
+      "text": ":not()"
+    },
+    "description": {
+      "html": "The <strong><code>:not()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the <em>negation pseudo-class</em>.",
+      "text": "The :not() CSS pseudo-class represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class."
+    }
+  },
+  ":nth-child()": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child\">:nth-child()</a>",
+      "text": ":nth-child()"
+    },
+    "description": {
+      "html": "The <strong><code>:nth-child()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches elements based on their position in a group of siblings.",
+      "text": "The :nth-child() CSS pseudo-class matches elements based on their position in a group of siblings."
+    }
+  },
+  ":nth-col()": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":nth-col()",
+      "text": ":nth-col()"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":nth-last-child()": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child\">:nth-last-child()</a>",
+      "text": ":nth-last-child()"
+    },
+    "description": {
+      "html": "The <strong><code>:nth-last-child()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches elements based on their position among a group of siblings, counting from the end.",
+      "text": "The :nth-last-child() CSS pseudo-class matches elements based on their position among a group of siblings, counting from the end."
+    }
+  },
+  ":nth-last-col()": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":nth-last-col()",
+      "text": ":nth-last-col()"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":nth-last-of-type()": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type\">:nth-last-of-type()</a>",
+      "text": ":nth-last-of-type()"
+    },
+    "description": {
+      "html": "The <strong><code>:nth-last-of-type()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches elements of a given type, based on their position among a group of siblings, counting from the end.",
+      "text": "The :nth-last-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings, counting from the end."
+    }
+  },
+  ":nth-of-type()": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type\">:nth-of-type()</a>",
+      "text": ":nth-of-type()"
+    },
+    "description": {
+      "html": "The <strong><code>:nth-of-type()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches elements of a given type, based on their position among a group of siblings.",
+      "text": "The :nth-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings."
+    }
+  },
+  ":only-child": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:only-child\">:only-child</a>",
+      "text": ":only-child"
+    },
+    "description": {
+      "html": "The <strong><code>:only-child</code></strong> CSS <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\" title=\"Pseudo classes\">pseudo-class</a> represents an element without any siblings. This is the same as <code>:first-child:last-child</code> or <code>:nth-child(1):nth-last-child(1)</code>, but with a lower specificity.",
+      "text": "The :only-child CSS pseudo-class represents an element without any siblings. This is the same as :first-child:last-child or :nth-child(1):nth-last-child(1), but with a lower specificity."
+    }
+  },
+  ":only-of-type": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:only-of-type",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:only-of-type\">:only-of-type</a>",
+      "text": ":only-of-type"
+    },
+    "description": {
+      "html": "The <strong><code>:only-of-type</code></strong> CSS <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents an element that has no siblings of the same type.",
+      "text": "The :only-of-type CSS pseudo-class represents an element that has no siblings of the same type."
+    }
+  },
+  ":optional": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:optional",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:optional\">:optional</a>",
+      "text": ":optional"
+    },
+    "description": {
+      "html": "The <strong><code>:optional</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any <a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a href=\"/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, or <a href=\"/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a> element that does not have the <code><a href=\"/en-US/docs/Web/HTML/Element/input#attr-required\">required</a></code> attribute set on it.",
+      "text": "The :optional CSS pseudo-class represents any <input>, <select>, or <textarea> element that does not have the required attribute set on it."
+    }
+  },
+  ":out-of-range": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:out-of-range\">:out-of-range</a>",
+      "text": ":out-of-range"
+    },
+    "description": {
+      "html": "The <strong><code>:out-of-range</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/CSS/Pseudo-classes\" title=\"Pseudo-classes\">pseudo-class</a> represents an <a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a> element whose current value is outside the range limits specified by the <code><a href=\"/en-US/docs/Web/HTML/Element/input#attr-min\">min</a></code> and <code><a href=\"/en-US/docs/Web/HTML/Element/input#attr-max\">max</a></code> attributes.",
+      "text": "The :out-of-range CSS pseudo-class represents an <input> element whose current value is outside the range limits specified by the min and max attributes."
+    }
+  },
+  ":past": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":past",
+      "text": ":past"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":placeholder-shown": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown\">:placeholder-shown</a>",
+      "text": ":placeholder-shown"
+    },
+    "description": {
+      "html": "The <strong><code>:placeholder-shown</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any <a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a> or <a href=\"/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a> element that is currently displaying <a href=\"/en-US/docs/Web/HTML/Element/input#attr-placeholder\">placeholder text</a>.",
+      "text": "The :placeholder-shown CSS pseudo-class represents any <input> or <textarea> element that is currently displaying placeholder text."
+    }
+  },
+  ":read-only": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:read-only\">:read-only</a>",
+      "text": ":read-only"
+    },
+    "description": {
+      "html": "The <strong><code>:read-only</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/CSS/Pseudo-classes\" title=\"Pseudo-classes\">pseudo-class</a> represents an element (such as&#xA0;<code>input</code>&#xA0;or <code>textarea</code>) that is not editable by the user.",
+      "text": "The :read-only CSS pseudo-class represents an element (such as input or textarea) that is not editable by the user."
+    }
+  },
+  ":read-write": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:read-write",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:read-write\">:read-write</a>",
+      "text": ":read-write"
+    },
+    "description": {
+      "html": "The <strong><code>:read-write</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents an element (such as <code>input</code> or <code>textarea</code>) that is editable by the user.",
+      "text": "The :read-write CSS pseudo-class represents an element (such as input or textarea) that is editable by the user."
+    }
+  },
+  ":required": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:required",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:required\">:required</a>",
+      "text": ":required"
+    },
+    "description": {
+      "html": "The <strong><code>:required</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any <a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a href=\"/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, or <a href=\"/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>&#xA0;element that has the <code><a href=\"/en-US/docs/Web/HTML/Element/input#attr-required\">required</a></code> attribute set on it.",
+      "text": "The :required CSS pseudo-class represents any <input>, <select>, or <textarea> element that has the required attribute set on it."
+    }
+  },
+  ":right": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:right",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:right\">:right</a>",
+      "text": ":right"
+    },
+    "description": {
+      "html": "The <strong><code>:right</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document. You can&apos;t change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents all right-hand pages of a printed document.",
+      "text": "The :right CSS pseudo-class, used with the @page at-rule, represents all right-hand pages of a printed document."
+    }
+  },
+  ":root": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:root",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:root\">:root</a>",
+      "text": ":root"
+    },
+    "description": {
+      "html": "The <strong><code>:root</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\"> pseudo-class</a> matches the root element of a tree representing the document. In HTML, <code>:root</code> represents the <a href=\"/en-US/docs/Web/HTML/Element/html\" title=\"The HTML &lt;html&gt; element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a> element and is identical to the selector <code>html</code>, except that its <a href=\"/en-US/docs/Web/CSS/Specificity\">specificity</a> is higher.",
+      "text": "The :root CSS  pseudo-class matches the root element of a tree representing the document. In HTML, :root represents the <html> element and is identical to the selector html, except that its specificity is higher."
+    }
+  },
+  ":scope": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:scope",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:scope\">:scope</a>",
+      "text": ":scope"
+    },
+    "description": {
+      "html": "The <strong><code>:scope</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en/CSS/Pseudo-classes\">pseudo-class</a> represents elements that are a reference point for selectors to match against.",
+      "text": "The :scope CSS pseudo-class represents elements that are a reference point for selectors to match against."
+    }
+  },
+  ":state()": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:state",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:state\">:state()</a>",
+      "text": ":state()"
+    },
+    "description": {
+      "html": "The <strong><code>:state</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any <a href=\"/en-US/docs/Web/Web_Components/Using_custom_elements\">custom element</a> with the specified custom state in <a class=\"new\" href=\"/en-US/docs/Web/API/ElementInternals/states\" rel=\"nofollow\"><code>ElementInternals.states</code></a>.",
+      "text": "The :state CSS pseudo-class represents any custom element with the specified custom state in ElementInternals.states."
+    }
+  },
+  ":target": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:target",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:target\">:target</a>",
+      "text": ":target"
+    },
+    "description": {
+      "html": "The <strong><code>:target</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents a unique element (the <em>target element</em>) with an <code><a href=\"/en-US/docs/Web/HTML/Global_attributes#attr-id\">id</a></code> matching the URL&apos;s fragment.",
+      "text": "The :target CSS pseudo-class represents a unique element (the target element) with an id matching the URL's fragment."
+    }
+  },
+  ":target-within": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":target-within",
+      "text": ":target-within"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":user-invalid": {
+    "status": "experimental",
+    "url": null,
+    "keyword": {
+      "html": ":user-invalid",
+      "text": ":user-invalid"
+    },
+    "description": {
+      "html": null,
+      "text": null
+    }
+  },
+  ":valid": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:valid",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:valid\">:valid</a>",
+      "text": ":valid"
+    },
+    "description": {
+      "html": "The <strong><code>:valid</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents any <a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a> or other <a href=\"/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a> element whose contents <a href=\"/en-US/docs/Web/Guide/HTML/HTML5/Constraint_validation\">validate</a> successfully. This allows to easily make valid fields adopt an appearance that helps the user confirm that their data is formatted properly.",
+      "text": "The :valid CSS pseudo-class represents any <input> or other <form> element whose contents validate successfully. This allows to easily make valid fields adopt an appearance that helps the user confirm that their data is formatted properly."
+    }
+  },
+  ":visited": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:visited",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:visited\">:visited</a>",
+      "text": ":visited"
+    },
+    "description": {
+      "html": "The <strong><code>:visited</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> represents links that the user has already visited. For privacy reasons, the styles that can be modified using this selector are very limited.",
+      "text": "The :visited CSS pseudo-class represents links that the user has already visited. For privacy reasons, the styles that can be modified using this selector are very limited."
+    }
+  },
+  ":where()": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:where",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/:where\">:where()</a>",
+      "text": ":where()"
+    },
+    "description": {
+      "html": "The <strong><code>:where()</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list.",
+      "text": "The :where() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list."
+    }
+  }
+}
+},{}],26:[function(require,module,exports){
+module.exports={
+  "::after ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::after",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::after\">::after </a>",
+      "text": "::after "
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">In CSS, <strong><code>::after</code></strong> creates a <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> that is the last child of the selected element. It is often used to add cosmetic content to an element with the <a href=\"/en-US/docs/Web/CSS/content\" title=\"The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.\"><code>content</code></a> property.</span> It is inline by default.",
+      "text": "In CSS, ::after creates a pseudo-element that is the last child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default."
+    }
+  },
+  "::backdrop": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop\">::backdrop</a>",
+      "text": "::backdrop"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>::backdrop</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> is a box the size of the <a href=\"/en-US/docs/Glossary/viewport\">viewport</a> which is rendered immediately beneath any element being presented in full-screen mode. </span>This includes both elements which have been placed in full-screen mode using the <a href=\"/en-US/docs/Web/API/Fullscreen_API\">Fullscreen API</a> and <a href=\"/en-US/docs/Web/HTML/Element/dialog\" title=\"The HTML &lt;dialog&gt; element represents a dialog box or other interactive component, such as a dismissable alert, inspector, or subwindow.\"><code>&lt;dialog&gt;</code></a> elements.",
+      "text": "The ::backdrop CSS pseudo-element is a box the size of the viewport which is rendered immediately beneath any element being presented in full-screen mode. This includes both elements which have been placed in full-screen mode using the Fullscreen API and <dialog> elements."
+    }
+  },
+  "::before ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::before",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::before\">::before </a>",
+      "text": "::before "
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">In CSS, <strong><code>::before</code></strong> creates a <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> that is the first child of the selected element. It is often used to add cosmetic content to an element with the <a href=\"/en-US/docs/Web/CSS/content\" title=\"The content CSS property replaces an element with a generated value. Objects inserted using the content property are anonymous replaced elements.\"><code>content</code></a> property.</span> It is inline by default.",
+      "text": "In CSS, ::before creates a pseudo-element that is the first child of the selected element. It is often used to add cosmetic content to an element with the content property. It is inline by default."
+    }
+  },
+  "::cue": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::cue",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::cue\">::cue</a>",
+      "text": "::cue"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>::cue</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> matches <a href=\"/en-US/docs/Web/API/WebVTT_API\">WebVTT</a> cues within a selected element. This can be used to <a href=\"/docs/Web/API/WebVTT_API#Styling_WebTT_cues\">style captions and other cues</a> in media with VTT tracks.</span>",
+      "text": "The ::cue CSS pseudo-element matches WebVTT cues within a selected element. This can be used to style captions and other cues in media with VTT tracks."
+    }
+  },
+  "::cue-region": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::cue-region\">::cue-region</a>",
+      "text": "::cue-region"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>::cue-region</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> matches <a href=\"/en-US/docs/Web/API/WebVTT_API\">WebVTT</a> cues within a selected element. This can be used to <a href=\"/docs/Web/API/WebVTT_API#Styling_WebTT_cues\">style captions and other cues</a> in media with VTT tracks.</span>",
+      "text": "The ::cue-region CSS pseudo-element matches WebVTT cues within a selected element. This can be used to style captions and other cues in media with VTT tracks."
+    }
+  },
+  "::first-letter ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-letter\">::first-letter </a>",
+      "text": "::first-letter "
+    },
+    "description": {
+      "html": "The <strong><code>::first-letter</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> applies styles to the first letter of the first line of a <a href=\"/en-US/docs/Web/CSS/Visual_formatting_model#Block-level_elements_and_block_boxes\">block-level element</a>, but only when not preceded by other content (such as images or inline tables).",
+      "text": "The ::first-letter CSS pseudo-element applies styles to the first letter of the first line of a block-level element, but only when not preceded by other content (such as images or inline tables)."
+    }
+  },
+  "::first-line ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::first-line\">::first-line </a>",
+      "text": "::first-line "
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>::first-line</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> applies styles to the first line of a <a href=\"/en-US/docs/Web/CSS/Visual_formatting_model#Block-level_elements_and_block_boxes\">block-level element</a>.</span> Note that the length of the first line depends on many factors, including the width of the element, the width of the document, and the font size of the text.",
+      "text": "The ::first-line CSS pseudo-element applies styles to the first line of a block-level element. Note that the length of the first line depends on many factors, including the width of the element, the width of the document, and the font size of the text."
+    }
+  },
+  "::grammar-error": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::grammar-error\">::grammar-error</a>",
+      "text": "::grammar-error"
+    },
+    "description": {
+      "html": "The <strong><code>::grammar-error</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en/CSS/Pseudo-elements\">pseudo-element</a> represents a text segment which the <a href=\"/en-US/docs/Glossary/user_agent\">user agent</a> has flagged as grammatically incorrect.",
+      "text": "The ::grammar-error CSS pseudo-element represents a text segment which the user agent has flagged as grammatically incorrect."
+    }
+  },
+  "::marker": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::marker",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::marker\">::marker</a>",
+      "text": "::marker"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>::marker</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en/CSS/Pseudo-elements\">pseudo-element</a> selects the marker box of a list item, which typically contains a bullet or number.</span> It works on any element or pseudo-element set to <code><a href=\"/en-US/docs/Web/CSS/display\">display: list-item</a></code>, such as the <a href=\"/en-US/docs/Web/HTML/Element/li\" title=\"The HTML &lt;li&gt; element is used to represent an item in a list.\"><code>&lt;li&gt;</code></a> and <a href=\"/en-US/docs/Web/HTML/Element/summary\" title=\"The HTML Disclosure Summary element (&lt;summary&gt;) element specifies a summary, caption, or legend for a &lt;details&gt; element&apos;s disclosure box.\"><code>&lt;summary&gt;</code></a> elements.",
+      "text": "The ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number. It works on any element or pseudo-element set to display: list-item, such as the <li> and <summary> elements."
+    }
+  },
+  "::part()": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::part",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::part\">::part()</a>",
+      "text": "::part()"
+    },
+    "description": {
+      "html": "The <strong><code>::part</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> represents any element within a <a href=\"/en-US/docs/Web/Web_Components/Using_shadow_DOM\">shadow tree</a> that has a matching <code><a href=\"/en-US/docs/Web/HTML/Global_attributes#attr-part\">part</a></code> attribute.",
+      "text": "The ::part CSS pseudo-element represents any element within a shadow tree that has a matching part attribute."
+    }
+  },
+  "::placeholder": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder\">::placeholder</a>",
+      "text": "::placeholder"
+    },
+    "description": {
+      "html": "The <strong><code>::placeholder</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> represents the <a href=\"/en-US/docs/Web/HTML/Forms_in_HTML#The_placeholder_attribute\">placeholder text</a> in an <a href=\"/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a> or <a href=\"/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a> element.",
+      "text": "The ::placeholder CSS pseudo-element represents the placeholder text in an <input> or <textarea> element."
+    }
+  },
+  "::selection": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::selection",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::selection\">::selection</a>",
+      "text": "::selection"
+    },
+    "description": {
+      "html": "<span class=\"seoSummary\">The <strong><code>::selection</code></strong> CSS <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text).</span>",
+      "text": "The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text)."
+    }
+  },
+  "::slotted()": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted\">::slotted()</a>",
+      "text": "::slotted()"
+    },
+    "description": {
+      "html": "The <strong><code>::slotted()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-element</a> represents any element that has been placed into a slot inside an HTML template (see <a href=\"/en-US/docs/Web/Web_Components/Using_templates_and_slots\">Using templates and slots</a> for more information).",
+      "text": "The ::slotted() CSS pseudo-element represents any element that has been placed into a slot inside an HTML template (see Using templates and slots for more information)."
+    }
+  },
+  "::spelling-error": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::spelling-error",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/::spelling-error\">::spelling-error</a>",
+      "text": "::spelling-error"
+    },
+    "description": {
+      "html": "The <strong><code>::spelling-error</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en/CSS/Pseudo-elements\">pseudo-element</a> represents a text segment which the <a href=\"/en-US/docs/Glossary/user_agent\">user agent</a> has flagged as incorrectly spelled.",
+      "text": "The ::spelling-error CSS pseudo-element represents a text segment which the user agent has flagged as incorrectly spelled."
+    }
+  }
+}
+},{}],27:[function(require,module,exports){
 module.exports={
   "accept": {
     "keyword": {
@@ -29677,7 +31461,7 @@ module.exports={
     "note": null
   }
 }
-},{}],24:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 module.exports={
   "html": {
     "status": "standard",
@@ -35047,8 +36831,31 @@ module.exports={
     ]
   }
 }
-},{}],25:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 const htmlHinter = require('./htmlHinter.js')
+const cssHinter = require('./cssHinter.js')
+
+function reOrder (list, str) {
+  const newIdx = 0
+  let oldIdx
+  let item
+
+  for (let i = 0; i < list.length; i++) {
+    const val = list[i]
+    if (
+      (typeof val === 'string' && val.indexOf(str) === 0) ||
+      (typeof val === 'object' && val.displayText.indexOf(str) === 0)
+    ) {
+      oldIdx = i; item = list[i]; break
+    }
+  }
+
+  if (item) {
+    list.splice(oldIdx, 1)
+    list.splice(newIdx, 0, item)
+  }
+  return list
+}
 
 function coreHinter (cm, options) {
   const pos = cm.getCursor()
@@ -35057,10 +36864,10 @@ function coreHinter (cm, options) {
 
   let list = []
   if (lan === 'xml') list = htmlHinter(tok)
-  // const list = htmlHinter(tok)
-  // console.log(list)
+  else if (lan === 'css') list = cssHinter(tok, cm)
 
-  // console.log(tok)
+  // move most likely item to the top of the list
+  list = reOrder(list, tok.string)
 
   return {
     list: list,
@@ -35071,7 +36878,89 @@ function coreHinter (cm, options) {
 
 module.exports = coreHinter
 
-},{"./htmlHinter.js":26}],26:[function(require,module,exports){
+},{"./cssHinter.js":30,"./htmlHinter.js":31}],30:[function(require,module,exports){
+const CodeMirror = require('codemirror')
+const cssProps = require('../edu-data/css-properties.json')
+const pseudoEles = require('../edu-data/css-pseudo-elements.json')
+const pseudoClasses = require('../edu-data/css-pseudo-classes.json')
+const atRules = require('../edu-data/css-at-rules.json')
+const cssColors = require('../edu-data/css-colors.json')
+
+const spec = CodeMirror.resolveMode('text/css')
+const keywords = Object.keys(spec.valueKeywords)
+  .map(key => { return { text: key + ';', displayText: key } })
+const colors = Object.keys(cssColors)
+  .map(key => { return { text: key + ';', displayText: key } })
+const medias = Object.keys(spec.mediaFeatures)
+  .map(key => { return { text: key + ': ', displayText: key } })
+
+function propHintList (str) {
+  const list = []
+  for (const prop in cssProps) {
+    if (prop.includes(str)) {
+      list.push({ text: prop + ': ', displayText: prop })
+    }
+  }
+  return list
+}
+
+function pseudoHintList (str, cm) {
+  const pos = cm.getCursor()
+  const line = cm.getLine(pos.line)
+  const list = []
+  if (line.includes('::')) {
+    for (const pe in pseudoEles) {
+      if (pe.includes(str)) list.push({ text: pe.substr(1), displayText: pe })
+    }
+  } else {
+    for (const pc in pseudoClasses) if (pc.includes(str)) list.push(pc)
+  }
+  return list
+}
+
+function atRulesHintList (str, cm) {
+  const list = []
+  for (const ar in atRules) if (ar.includes(str)) list.push(ar)
+  return list
+}
+
+function valHintList (str, cm) {
+  const pos = cm.getCursor()
+  const line = cm.getLine(pos.line)
+  if (line.includes('color')) return colors
+  else return keywords
+}
+
+function mediaTypes (str, cm) {
+  const pos = cm.getCursor()
+  const line = cm.getLine(pos.line)
+  console.log(line)
+  if (line.includes('@media')) return Object.keys(spec.mediaTypes)
+  else return []
+}
+
+function cssHinter (token, cm) {
+  const inner = CodeMirror.innerMode(cm.getMode(), token.state)
+  const state = inner.state.state
+
+  if (state === 'block' || state === 'maybeprop') {
+    return propHintList(token.string)
+  } else if (state === 'pseudo' || token.type === 'variable-3') {
+    return pseudoHintList(token.string, cm)
+  } else if (state === 'at') {
+    return atRulesHintList(token.string)
+  } else if (state === 'prop' && token.type === 'variable') {
+    return valHintList(token.string, cm)
+  } else if (state.includes('parens')) {
+    return medias
+  } else {
+    return mediaTypes(token.string, cm)
+  }
+}
+
+module.exports = cssHinter
+
+},{"../edu-data/css-at-rules.json":22,"../edu-data/css-colors.json":23,"../edu-data/css-properties.json":24,"../edu-data/css-pseudo-classes.json":25,"../edu-data/css-pseudo-elements.json":26,"codemirror":14}],31:[function(require,module,exports){
 const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = require('./snippets.json')
@@ -35120,7 +37009,7 @@ function htmlHinter (token) {
 
 module.exports = htmlHinter
 
-},{"../edu-data/html-attributes.json":23,"../edu-data/html-elements.json":24,"./snippets.json":27}],27:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":27,"../edu-data/html-elements.json":28,"./snippets.json":32}],32:[function(require,module,exports){
 module.exports={
   "doctype" : "!DOCTYPE html>",
   "html": "html lang=\"en-US\"></html>",
@@ -35130,7 +37019,7 @@ module.exports={
   "html (template)": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\n\t</body>\n</html>\n"
 }
 
-},{}],28:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
 // const CodeMirror = require('codemirror')
 // const CSSMode = CodeMirror.resolveMode('text/css')
 // console.log(JSON.stringify(CSSMode))
@@ -35146,7 +37035,7 @@ function linter (code) {
 
 module.exports = linter
 
-},{}],29:[function(require,module,exports){
+},{}],34:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 const HTMLStandards = require('./html-standards-validator.js')
@@ -35378,7 +37267,7 @@ const translate = {
 
 module.exports = translate
 
-},{"../edu-data/html-elements.json":24,"./html-standards-validator.js":30}],30:[function(require,module,exports){
+},{"../edu-data/html-elements.json":28,"./html-standards-validator.js":35}],35:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const htmlAttr = require('../edu-data/html-attributes.json')
 const stringSimilarity = require('string-similarity')
@@ -35609,7 +37498,7 @@ class HTMLStandards {
 
 module.exports = HTMLStandards
 
-},{"../edu-data/html-attributes.json":23,"../edu-data/html-elements.json":24,"string-similarity":20}],31:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":27,"../edu-data/html-elements.json":28,"string-similarity":20}],36:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
@@ -35675,14 +37564,14 @@ function linter (code) {
 
 module.exports = linter
 
-},{"./html-friendly-translator.js":29,"./html-standards-validator.js":30,"htmlhint":19}],32:[function(require,module,exports){
+},{"./html-friendly-translator.js":34,"./html-standards-validator.js":35,"htmlhint":19}],37:[function(require,module,exports){
 function linter (code) {
   return null
 }
 
 module.exports = linter
 
-},{}],33:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 /* global HTMLElement */
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
@@ -35939,17 +37828,19 @@ class Netitor {
     // check to make sure the cursor is at the end of a lone word
     // otherwise we'll be creating hint menus all the time
     const alone = nextChar === '' || nextChar === ' '
+    // allow hinting when inside parens
+    const paren = nextChar === ')'
     // check to see if the cursor is inside of a tag (for attributes)
     const tagAttr = nextChar === '>'
 
-    return typing && (alone || tagAttr)
+    return typing && ((alone || paren) || tagAttr)
   }
 
   _hinter (cm, options) {
     // TODO consider how i might augment default lists (see my old hinters)
     const pos = cm.getCursor()
     const lan = cm.getModeAt(pos).name
-    const res = (lan === 'xml')
+    const res = (lan === 'xml' || lan === 'css')
       ? coreHinter(cm, options)
       : cm.getHelpers(pos, 'hint')[0](cm, options)
     if (!res) return null
@@ -36011,4 +37902,4 @@ class Netitor {
 
 window.Netitor = Netitor
 
-},{"./css/main.js":21,"./edu-data/css-properties.json":22,"./edu-data/html-attributes.json":23,"./edu-data/html-elements.json":24,"./hinters/coreHinter.js":25,"./linters/cssLinter.js":28,"./linters/htmlLinter.js":31,"./linters/jsLinter.js":32,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[33]);
+},{"./css/main.js":21,"./edu-data/css-properties.json":24,"./edu-data/html-attributes.json":27,"./edu-data/html-elements.json":28,"./hinters/coreHinter.js":29,"./linters/cssLinter.js":33,"./linters/htmlLinter.js":36,"./linters/jsLinter.js":37,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[38]);

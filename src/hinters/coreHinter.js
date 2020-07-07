@@ -1,4 +1,27 @@
 const htmlHinter = require('./htmlHinter.js')
+const cssHinter = require('./cssHinter.js')
+
+function reOrder (list, str) {
+  const newIdx = 0
+  let oldIdx
+  let item
+
+  for (let i = 0; i < list.length; i++) {
+    const val = list[i]
+    if (
+      (typeof val === 'string' && val.indexOf(str) === 0) ||
+      (typeof val === 'object' && val.displayText.indexOf(str) === 0)
+    ) {
+      oldIdx = i; item = list[i]; break
+    }
+  }
+
+  if (item) {
+    list.splice(oldIdx, 1)
+    list.splice(newIdx, 0, item)
+  }
+  return list
+}
 
 function coreHinter (cm, options) {
   const pos = cm.getCursor()
@@ -7,10 +30,10 @@ function coreHinter (cm, options) {
 
   let list = []
   if (lan === 'xml') list = htmlHinter(tok)
-  // const list = htmlHinter(tok)
-  // console.log(list)
+  else if (lan === 'css') list = cssHinter(tok, cm)
 
-  // console.log(tok)
+  // move most likely item to the top of the list
+  list = reOrder(list, tok.string)
 
   return {
     list: list,
