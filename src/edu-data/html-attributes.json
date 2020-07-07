@@ -1,9 +1,10 @@
 {
   "accept": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept\">accept</a>",
       "text": "accept"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/accept",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -16,10 +17,11 @@
     "note": null
   },
   "accept-charset": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept-charset\" rel=\"nofollow\">accept-charset</a>",
       "text": "accept-charset"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/accept-charset",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -32,10 +34,11 @@
     "note": null
   },
   "accesskey": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey\">accesskey</a>",
       "text": "accesskey"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/accesskey",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -48,10 +51,11 @@
     "note": null
   },
   "action": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/action\" rel=\"nofollow\">action</a>",
       "text": "action"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/action",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -64,10 +68,11 @@
     "note": null
   },
   "align": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/align\" rel=\"nofollow\">align</a>",
       "text": "align"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/align",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption\" title=\"The HTML &lt;caption&gt; element specifies the caption (or title) of a table.\"><code>&lt;caption&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\" title=\"The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element.\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr\" title=\"The HTML &lt;hr&gt; element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.\"><code>&lt;hr&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody\" title=\"The HTML Table Body element (&lt;tbody&gt;) encapsulates a set of table rows (&lt;tr&gt; elements), indicating that they comprise the body of the table (&lt;table&gt;).\"><code>&lt;tbody&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot\" title=\"The HTML &lt;tfoot&gt; element defines a set of rows summarizing the columns of the table.\"><code>&lt;tfoot&gt;</code></a> , <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead\" title=\"The HTML &lt;thead&gt; element defines a set of rows defining the head of the columns of the table.\"><code>&lt;thead&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\" title=\"The HTML &lt;tr&gt; element defines a row of cells in a table. The row&apos;s cells can then be established using a mix of &lt;td&gt; (data cell) and &lt;th&gt; (header cell) elements.\"><code>&lt;tr&gt;</code></a>",
@@ -80,10 +85,11 @@
     "note": null
   },
   "allow": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/allow\" rel=\"nofollow\">allow</a>",
       "text": "allow"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/allow",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -96,10 +102,11 @@
     "note": null
   },
   "alt": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/alt\" rel=\"nofollow\">alt</a>",
       "text": "alt"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/alt",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -112,10 +119,11 @@
     "note": null
   },
   "async": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/async\" rel=\"nofollow\">async</a>",
       "text": "async"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/async",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -128,10 +136,11 @@
     "note": null
   },
   "autocapitalize": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocapitalize\">autocapitalize</a>",
       "text": "autocapitalize"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/autocapitalize",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -144,10 +153,11 @@
     "note": null
   },
   "autocomplete": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete\">autocomplete</a>",
       "text": "autocomplete"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/autocomplete",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -160,10 +170,11 @@
     "note": null
   },
   "autofocus": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autofocus\" rel=\"nofollow\">autofocus</a>",
       "text": "autofocus"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/autofocus",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -176,10 +187,11 @@
     "note": null
   },
   "autoplay": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autoplay\" rel=\"nofollow\">autoplay</a>",
       "text": "autoplay"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/autoplay",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -192,10 +204,11 @@
     "note": null
   },
   "background": {
-    "attribute": {
+    "keyword": {
       "html": "background",
       "text": "background"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -211,10 +224,11 @@
     }
   },
   "bgcolor": {
-    "attribute": {
+    "keyword": {
       "html": "bgcolor",
       "text": "bgcolor"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\" title=\"The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element.\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee\" title=\"The HTML &lt;marquee&gt; element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.\"><code>&lt;marquee&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody\" title=\"The HTML Table Body element (&lt;tbody&gt;) encapsulates a set of table rows (&lt;tr&gt; elements), indicating that they comprise the body of the table (&lt;table&gt;).\"><code>&lt;tbody&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot\" title=\"The HTML &lt;tfoot&gt; element defines a set of rows summarizing the columns of the table.\"><code>&lt;tfoot&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\" title=\"The HTML &lt;tr&gt; element defines a row of cells in a table. The row&apos;s cells can then be established using a mix of &lt;td&gt; (data cell) and &lt;th&gt; (header cell) elements.\"><code>&lt;tr&gt;</code></a>",
@@ -230,10 +244,11 @@
     }
   },
   "border": {
-    "attribute": {
+    "keyword": {
       "html": "border",
       "text": "border"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>",
@@ -249,10 +264,11 @@
     }
   },
   "buffered": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/buffered\" rel=\"nofollow\">buffered</a>",
       "text": "buffered"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/buffered",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -265,10 +281,11 @@
     "note": null
   },
   "capture": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture\">capture</a>",
       "text": "capture"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/capture",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -281,10 +298,11 @@
     "note": null
   },
   "challenge": {
-    "attribute": {
+    "keyword": {
       "html": "challenge",
       "text": "challenge"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>",
@@ -297,10 +315,11 @@
     "note": null
   },
   "charset": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/charset\" rel=\"nofollow\">charset</a>",
       "text": "charset"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/charset",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -313,10 +332,11 @@
     "note": null
   },
   "checked": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/checked\" rel=\"nofollow\">checked</a>",
       "text": "checked"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/checked",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -329,10 +349,11 @@
     "note": null
   },
   "cite": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/cite\" rel=\"nofollow\">cite</a>",
       "text": "cite"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/cite",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote\" title=\"The HTML &lt;blockquote&gt; Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the &lt;cite&gt; element.\"><code>&lt;blockquote&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del\" title=\"The HTML &lt;del&gt; element represents a range of text that has been deleted from a document.\"><code>&lt;del&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins\" title=\"The HTML &lt;ins&gt; element represents a range of text that has been added to a document.\"><code>&lt;ins&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q\" title=\"The HTML &lt;q&gt; element  indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. \"><code>&lt;q&gt;</code></a>",
@@ -345,10 +366,11 @@
     "note": null
   },
   "class": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class\">class</a>",
       "text": "class"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/class",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -361,10 +383,11 @@
     "note": null
   },
   "code": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/code\" rel=\"nofollow\">code</a>",
       "text": "code"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/code",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>",
@@ -377,10 +400,11 @@
     "note": null
   },
   "codebase": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/codebase\" rel=\"nofollow\">codebase</a>",
       "text": "codebase"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/codebase",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>",
@@ -393,10 +417,11 @@
     "note": null
   },
   "color": {
-    "attribute": {
+    "keyword": {
       "html": "color",
       "text": "color"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/basefont\" title=\"The obsolete HTML Base Font element (&lt;basefont&gt;) sets a default font face, size, and color for the other elements which are descended from its parent element.\"><code>&lt;basefont&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font\" title=\"The HTML Font Element (&lt;font&gt;) defines the font size, color and face for its content.\"><code>&lt;font&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr\" title=\"The HTML &lt;hr&gt; element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.\"><code>&lt;hr&gt;</code></a>",
@@ -412,10 +437,11 @@
     }
   },
   "cols": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/cols\" rel=\"nofollow\">cols</a>",
       "text": "cols"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/cols",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -428,10 +454,11 @@
     "note": null
   },
   "colspan": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/colspan\" rel=\"nofollow\">colspan</a>",
       "text": "colspan"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/colspan",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -444,10 +471,11 @@
     "note": null
   },
   "content": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/content\" rel=\"nofollow\">content</a>",
       "text": "content"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/content",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>",
@@ -460,10 +488,11 @@
     "note": null
   },
   "contenteditable": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\">contenteditable</a>",
       "text": "contenteditable"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/contenteditable",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -476,10 +505,11 @@
     "note": null
   },
   "contextmenu": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/contextmenu\" rel=\"nofollow\">contextmenu</a>",
       "text": "contextmenu"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/contextmenu",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -492,10 +522,11 @@
     "note": null
   },
   "controls": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/controls\" rel=\"nofollow\">controls</a>",
       "text": "controls"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/controls",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -508,10 +539,11 @@
     "note": null
   },
   "coords": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/coords\" rel=\"nofollow\">coords</a>",
       "text": "coords"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/coords",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
@@ -524,10 +556,11 @@
     "note": null
   },
   "crossorigin": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/docs/Web/HTML/CORS_settings_attributes\">crossorigin</a>",
       "text": "crossorigin"
     },
+    "url": "https://developer.mozilla.org//docs/Web/HTML/CORS_settings_attributes",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -540,10 +573,11 @@
     "note": null
   },
   "csp": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/docs/Web/API/HTMLiframeElement/csp\">csp</a>",
       "text": "csp"
     },
+    "url": "https://developer.mozilla.org//docs/Web/API/HTMLiframeElement/csp",
     "status": "experimental",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -556,10 +590,11 @@
     "note": null
   },
   "data": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/data\" rel=\"nofollow\">data</a>",
       "text": "data"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/data",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>",
@@ -572,10 +607,11 @@
     "note": null
   },
   "data-*": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*\">data-*</a>",
       "text": "data-*"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/data-*",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -588,10 +624,11 @@
     "note": null
   },
   "datetime": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/datetime\" rel=\"nofollow\">datetime</a>",
       "text": "datetime"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/datetime",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del\" title=\"The HTML &lt;del&gt; element represents a range of text that has been deleted from a document.\"><code>&lt;del&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins\" title=\"The HTML &lt;ins&gt; element represents a range of text that has been added to a document.\"><code>&lt;ins&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time\" title=\"The HTML &lt;time&gt; element represents a specific period in time.\"><code>&lt;time&gt;</code></a>",
@@ -604,10 +641,11 @@
     "note": null
   },
   "decoding": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/decoding\" rel=\"nofollow\">decoding</a>",
       "text": "decoding"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/decoding",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>",
@@ -620,10 +658,11 @@
     "note": null
   },
   "default": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/default\" rel=\"nofollow\">default</a>",
       "text": "default"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/default",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
@@ -636,10 +675,11 @@
     "note": null
   },
   "defer": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/defer\" rel=\"nofollow\">defer</a>",
       "text": "defer"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/defer",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -652,10 +692,11 @@
     "note": null
   },
   "dir": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir\">dir</a>",
       "text": "dir"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/dir",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -668,10 +709,11 @@
     "note": null
   },
   "dirname": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/dirname\" rel=\"nofollow\">dirname</a>",
       "text": "dirname"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/dirname",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -684,10 +726,11 @@
     "note": null
   },
   "disabled": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled\">disabled</a>",
       "text": "disabled"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/disabled",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\" title=\"The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form.\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup\" title=\"The HTML &lt;optgroup&gt; element creates a grouping of options within a &lt;select&gt; element.\"><code>&lt;optgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -700,10 +743,11 @@
     "note": null
   },
   "download": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/download\" rel=\"nofollow\">download</a>",
       "text": "download"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/download",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
@@ -716,10 +760,11 @@
     "note": null
   },
   "draggable": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable\">draggable</a>",
       "text": "draggable"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/draggable",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -732,10 +777,11 @@
     "note": null
   },
   "dropzone": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dropzone\">dropzone</a>",
       "text": "dropzone"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/dropzone",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -748,10 +794,11 @@
     "note": null
   },
   "enctype": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enctype\" rel=\"nofollow\">enctype</a>",
       "text": "enctype"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/enctype",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -764,10 +811,11 @@
     "note": null
   },
   "enterkeyhint": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enterkeyhint\" rel=\"nofollow\">enterkeyhint</a>",
       "text": "enterkeyhint"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/enterkeyhint",
     "status": "experimental",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\"><code>contenteditable</code></a>",
@@ -780,10 +828,11 @@
     "note": null
   },
   "for": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/for\" rel=\"nofollow\">for</a>",
       "text": "for"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/for",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label\" title=\"The HTML &lt;label&gt; element represents a caption for an item in a user interface.\"><code>&lt;label&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\" title=\"The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.\"><code>&lt;output&gt;</code></a>",
@@ -796,10 +845,11 @@
     "note": null
   },
   "form": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/form\" rel=\"nofollow\">form</a>",
       "text": "form"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/form",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\" title=\"The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form.\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label\" title=\"The HTML &lt;label&gt; element represents a caption for an item in a user interface.\"><code>&lt;label&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\" title=\"The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.\"><code>&lt;output&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -812,10 +862,11 @@
     "note": null
   },
   "formaction": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formaction\" rel=\"nofollow\">formaction</a>",
       "text": "formaction"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formaction",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>",
@@ -828,10 +879,11 @@
     "note": null
   },
   "formenctype": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formenctype\" rel=\"nofollow\">formenctype</a>",
       "text": "formenctype"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formenctype",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -844,10 +896,11 @@
     "note": null
   },
   "formmethod": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formmethod\" rel=\"nofollow\">formmethod</a>",
       "text": "formmethod"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formmethod",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -860,10 +913,11 @@
     "note": null
   },
   "formnovalidate": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formnovalidate\" rel=\"nofollow\">formnovalidate</a>",
       "text": "formnovalidate"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formnovalidate",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -876,10 +930,11 @@
     "note": null
   },
   "formtarget": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formtarget\" rel=\"nofollow\">formtarget</a>",
       "text": "formtarget"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formtarget",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -892,10 +947,11 @@
     "note": null
   },
   "headers": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/headers\" rel=\"nofollow\">headers</a>",
       "text": "headers"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/headers",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -908,10 +964,11 @@
     "note": null
   },
   "height": {
-    "attribute": {
+    "keyword": {
       "html": "height",
       "text": "height"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\" title=\"Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations.\"><code>&lt;canvas&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -927,10 +984,11 @@
     }
   },
   "hidden": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden\">hidden</a>",
       "text": "hidden"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/hidden",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -943,10 +1001,11 @@
     "note": null
   },
   "high": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/high\" rel=\"nofollow\">high</a>",
       "text": "high"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/high",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
@@ -959,10 +1018,11 @@
     "note": null
   },
   "href": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/href\" rel=\"nofollow\">href</a>",
       "text": "href"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/href",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" title=\"The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs in a document.\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>",
@@ -975,10 +1035,11 @@
     "note": null
   },
   "hreflang": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/hreflang\" rel=\"nofollow\">hreflang</a>",
       "text": "hreflang"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/hreflang",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>",
@@ -991,10 +1052,11 @@
     "note": null
   },
   "http-equiv": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/http-equiv\" rel=\"nofollow\">http-equiv</a>",
       "text": "http-equiv"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/http-equiv",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>",
@@ -1007,10 +1069,11 @@
     "note": null
   },
   "icon": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/icon\" rel=\"nofollow\">icon</a>",
       "text": "icon"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/icon",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>",
@@ -1023,10 +1086,11 @@
     "note": null
   },
   "id": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id\">id</a>",
       "text": "id"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/id",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -1039,10 +1103,11 @@
     "note": null
   },
   "importance": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/importance\" rel=\"nofollow\">importance</a>",
       "text": "importance"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/importance",
     "status": "experimental",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -1055,10 +1120,11 @@
     "note": null
   },
   "integrity": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity\">integrity</a>",
       "text": "integrity"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/Security/Subresource_Integrity",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -1071,10 +1137,11 @@
     "note": null
   },
   "intrinsicsize": {
-    "attribute": {
+    "keyword": {
       "html": "<code>intrinsicsize</code>",
       "text": "intrinsicsize"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/img#attr-intrinsicsize",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>",
@@ -1087,10 +1154,11 @@
     "note": null
   },
   "inputmode": {
-    "attribute": {
+    "keyword": {
       "html": "<code>inputmode</code>",
       "text": "inputmode"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/inputmode",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\"><code>contenteditable</code></a>",
@@ -1103,10 +1171,11 @@
     "note": null
   },
   "ismap": {
-    "attribute": {
+    "keyword": {
       "html": "ismap",
       "text": "ismap"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>",
@@ -1119,10 +1188,11 @@
     "note": null
   },
   "itemprop": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop\">itemprop</a>",
       "text": "itemprop"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/itemprop",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -1135,10 +1205,11 @@
     "note": null
   },
   "keytype": {
-    "attribute": {
+    "keyword": {
       "html": "keytype",
       "text": "keytype"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>",
@@ -1151,10 +1222,11 @@
     "note": null
   },
   "kind": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/kind\" rel=\"nofollow\">kind</a>",
       "text": "kind"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/kind",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
@@ -1167,10 +1239,11 @@
     "note": null
   },
   "label": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/label\" rel=\"nofollow\">label</a>",
       "text": "label"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/label",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup\" title=\"The HTML &lt;optgroup&gt; element creates a grouping of options within a &lt;select&gt; element.\"><code>&lt;optgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
@@ -1183,10 +1256,11 @@
     "note": null
   },
   "lang": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang\">lang</a>",
       "text": "lang"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/lang",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -1199,10 +1273,11 @@
     "note": null
   },
   "language": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/language\" rel=\"nofollow\">language</a>",
       "text": "language"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/language",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -1215,10 +1290,11 @@
     "note": null
   },
   "loading": {
-    "attribute": {
+    "keyword": {
       "html": "loading",
       "text": "loading"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "experimental",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -1234,10 +1310,11 @@
     }
   },
   "list": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/list\" rel=\"nofollow\">list</a>",
       "text": "list"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/list",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -1250,10 +1327,11 @@
     "note": null
   },
   "loop": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/loop\" rel=\"nofollow\">loop</a>",
       "text": "loop"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/loop",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound\" title=\"The Internet Explorer only HTML Background Sound element (&lt;bgsound&gt;) sets up a sound file to play in the background while the page is used; use &lt;audio&gt; instead.\"><code>&lt;bgsound&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee\" title=\"The HTML &lt;marquee&gt; element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.\"><code>&lt;marquee&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -1266,10 +1344,11 @@
     "note": null
   },
   "low": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/low\" rel=\"nofollow\">low</a>",
       "text": "low"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/low",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
@@ -1282,10 +1361,11 @@
     "note": null
   },
   "manifest": {
-    "attribute": {
+    "keyword": {
       "html": "manifest",
       "text": "manifest"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML &lt;html&gt; element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>",
@@ -1301,10 +1381,11 @@
     }
   },
   "max": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max\">max</a>",
       "text": "max"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/max",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>",
@@ -1317,10 +1398,11 @@
     "note": null
   },
   "maxlength": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength\">maxlength</a>",
       "text": "maxlength"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/maxlength",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -1333,10 +1415,11 @@
     "note": null
   },
   "minlength": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength\">minlength</a>",
       "text": "minlength"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/minlength",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -1349,10 +1432,11 @@
     "note": null
   },
   "media": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/media\" rel=\"nofollow\">media</a>",
       "text": "media"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/media",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a>",
@@ -1365,10 +1449,11 @@
     "note": null
   },
   "method": {
-    "attribute": {
+    "keyword": {
       "html": "method",
       "text": "method"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/method",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -1381,10 +1466,11 @@
     "note": null
   },
   "min": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min\">min</a>",
       "text": "min"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/min",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
@@ -1397,10 +1483,11 @@
     "note": null
   },
   "multiple": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple\">multiple</a>",
       "text": "multiple"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/multiple",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>",
@@ -1413,10 +1500,11 @@
     "note": null
   },
   "muted": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/muted\" rel=\"nofollow\">muted</a>",
       "text": "muted"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/muted",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -1429,10 +1517,11 @@
     "note": null
   },
   "name": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/name\" rel=\"nofollow\">name</a>",
       "text": "name"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/name",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\" title=\"The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form.\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\" title=\"The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.\"><code>&lt;output&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map\" title=\"The HTML &lt;map&gt; element is used with &lt;area&gt; elements to define an image map (a clickable link area).\"><code>&lt;map&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\" title=\"The HTML &lt;param&gt; element defines parameters for an &lt;object&gt; element.\"><code>&lt;param&gt;</code></a>",
@@ -1445,10 +1534,11 @@
     "note": null
   },
   "novalidate": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/novalidate\" rel=\"nofollow\">novalidate</a>",
       "text": "novalidate"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/novalidate",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -1461,10 +1551,11 @@
     "note": null
   },
   "open": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/open\" rel=\"nofollow\">open</a>",
       "text": "open"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/open",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details\" title=\"The HTML Details Element (&lt;details&gt;) creates a disclosure widget in which information is visible only when the widget is toggled into an &quot;open&quot; state.\"><code>&lt;details&gt;</code></a>",
@@ -1477,10 +1568,11 @@
     "note": null
   },
   "optimum": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/optimum\" rel=\"nofollow\">optimum</a>",
       "text": "optimum"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/optimum",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
@@ -1493,10 +1585,11 @@
     "note": null
   },
   "pattern": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern\">pattern</a>",
       "text": "pattern"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/pattern",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -1509,10 +1602,11 @@
     "note": null
   },
   "ping": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping\">ping</a>",
       "text": "ping"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/a#attr-ping",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
@@ -1525,10 +1619,11 @@
     "note": null
   },
   "placeholder": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/placeholder\" rel=\"nofollow\">placeholder</a>",
       "text": "placeholder"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/placeholder",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -1541,10 +1636,11 @@
     "note": null
   },
   "poster": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/poster\" rel=\"nofollow\">poster</a>",
       "text": "poster"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/poster",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -1557,10 +1653,11 @@
     "note": null
   },
   "preload": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/preload\" rel=\"nofollow\">preload</a>",
       "text": "preload"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/preload",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -1573,10 +1670,11 @@
     "note": null
   },
   "radiogroup": {
-    "attribute": {
+    "keyword": {
       "html": "radiogroup",
       "text": "radiogroup"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>",
@@ -1589,10 +1687,11 @@
     "note": null
   },
   "readonly": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly\">readonly</a>",
       "text": "readonly"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/readonly",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -1605,10 +1704,11 @@
     "note": null
   },
   "referrerpolicy": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/referralpolicy\" rel=\"nofollow\">referrerpolicy</a>",
       "text": "referrerpolicy"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/referralpolicy",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -1621,10 +1721,11 @@
     "note": null
   },
   "rel": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel\">rel</a>",
       "text": "rel"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/rel",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>",
@@ -1637,10 +1738,11 @@
     "note": null
   },
   "required": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required\">required</a>",
       "text": "required"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/required",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -1653,10 +1755,11 @@
     "note": null
   },
   "reversed": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/reversed\" rel=\"nofollow\">reversed</a>",
       "text": "reversed"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/reversed",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol\" title=\"The HTML &lt;ol&gt; element represents an ordered list of items &#x2014; typically rendered as a numbered list.\"><code>&lt;ol&gt;</code></a>",
@@ -1669,10 +1772,11 @@
     "note": null
   },
   "rows": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rows\" rel=\"nofollow\">rows</a>",
       "text": "rows"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/rows",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -1685,10 +1789,11 @@
     "note": null
   },
   "rowspan": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rowspan\" rel=\"nofollow\">rowspan</a>",
       "text": "rowspan"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/rowspan",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -1701,10 +1806,11 @@
     "note": null
   },
   "sandbox": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox\">sandbox</a>",
       "text": "sandbox"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/iframe#attr-sandbox",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -1717,10 +1823,11 @@
     "note": null
   },
   "scope": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/scope\" rel=\"nofollow\">scope</a>",
       "text": "scope"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/scope",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -1733,10 +1840,11 @@
     "note": null
   },
   "scoped": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/scoped\" rel=\"nofollow\">scoped</a>",
       "text": "scoped"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/scoped",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a>",
@@ -1749,10 +1857,11 @@
     "note": null
   },
   "selected": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/selected\" rel=\"nofollow\">selected</a>",
       "text": "selected"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/selected",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>",
@@ -1765,10 +1874,11 @@
     "note": null
   },
   "shape": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/shape\" rel=\"nofollow\">shape</a>",
       "text": "shape"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/shape",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
@@ -1781,10 +1891,11 @@
     "note": null
   },
   "size": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size\">size</a>",
       "text": "size"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/size",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>",
@@ -1797,10 +1908,11 @@
     "note": null
   },
   "sizes": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/sizes\" rel=\"nofollow\">sizes</a>",
       "text": "sizes"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/sizes",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>",
@@ -1813,10 +1925,11 @@
     "note": null
   },
   "slot": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/slot\" rel=\"nofollow\">slot</a>",
       "text": "slot"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/slot",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -1829,10 +1942,11 @@
     "note": null
   },
   "span": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/span\" rel=\"nofollow\">span</a>",
       "text": "span"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/span",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\" title=\"The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element.\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a>",
@@ -1845,10 +1959,11 @@
     "note": null
   },
   "spellcheck": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck\">spellcheck</a>",
       "text": "spellcheck"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/spellcheck",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -1861,10 +1976,11 @@
     "note": null
   },
   "src": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/src\" rel=\"nofollow\">src</a>",
       "text": "src"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/src",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -1877,10 +1993,11 @@
     "note": null
   },
   "srcdoc": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srcdoc\" rel=\"nofollow\">srcdoc</a>",
       "text": "srcdoc"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/srcdoc",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -1893,10 +2010,11 @@
     "note": null
   },
   "srclang": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srclang\" rel=\"nofollow\">srclang</a>",
       "text": "srclang"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/srclang",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
@@ -1909,10 +2027,11 @@
     "note": null
   },
   "srcset": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srcset\" rel=\"nofollow\">srcset</a>",
       "text": "srcset"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/srcset",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>",
@@ -1925,10 +2044,11 @@
     "note": null
   },
   "start": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/start\" rel=\"nofollow\">start</a>",
       "text": "start"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/start",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol\" title=\"The HTML &lt;ol&gt; element represents an ordered list of items &#x2014; typically rendered as a numbered list.\"><code>&lt;ol&gt;</code></a>",
@@ -1941,10 +2061,11 @@
     "note": null
   },
   "step": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step\">step</a>",
       "text": "step"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/step",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -1957,10 +2078,11 @@
     "note": null
   },
   "style": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style\">style</a>",
       "text": "style"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/style",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -1973,10 +2095,11 @@
     "note": null
   },
   "summary": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/summary\" rel=\"nofollow\">summary</a>",
       "text": "summary"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/summary",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>",
@@ -1989,10 +2112,11 @@
     "note": null
   },
   "tabindex": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex\">tabindex</a>",
       "text": "tabindex"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/tabindex",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -2005,10 +2129,11 @@
     "note": null
   },
   "target": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/target\" rel=\"nofollow\">target</a>",
       "text": "target"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/target",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" title=\"The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs in a document.\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -2021,10 +2146,11 @@
     "note": null
   },
   "title": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title\">title</a>",
       "text": "title"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/title",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -2037,10 +2163,11 @@
     "note": null
   },
   "translate": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/translate\" rel=\"nofollow\">translate</a>",
       "text": "translate"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/translate",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -2053,10 +2180,11 @@
     "note": null
   },
   "type": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/type\" rel=\"nofollow\">type</a>",
       "text": "type"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/type",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu\" title=\"The HTML &lt;menu&gt; element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked.\"><code>&lt;menu&gt;</code></a>",
@@ -2069,10 +2197,11 @@
     "note": null
   },
   "usemap": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/usemap\" rel=\"nofollow\">usemap</a>",
       "text": "usemap"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/usemap",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>",
@@ -2085,10 +2214,11 @@
     "note": null
   },
   "value": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/value\" rel=\"nofollow\">value</a>",
       "text": "value"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/value",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data\" title=\"The HTML &lt;data&gt; element links a given piece of&#xA0;content with a machine-readable translation. If the content is time- or date-related, the &lt;time&gt; element must be used.\"><code>&lt;data&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li\" title=\"The HTML &lt;li&gt; element is used to represent an item in a list.\"><code>&lt;li&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\" title=\"The HTML &lt;param&gt; element defines parameters for an &lt;object&gt; element.\"><code>&lt;param&gt;</code></a>",
@@ -2101,10 +2231,11 @@
     "note": null
   },
   "width": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/width\" rel=\"nofollow\">width</a>",
       "text": "width"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/width",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\" title=\"Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations.\"><code>&lt;canvas&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -2120,10 +2251,11 @@
     }
   },
   "wrap": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/wrap\" rel=\"nofollow\">wrap</a>",
       "text": "wrap"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/wrap",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",

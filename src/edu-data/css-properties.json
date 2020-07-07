@@ -12,7 +12,7 @@
       "text": "Specifies the alignment between the lines inside a flexible container when the items do not use all available space"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-content",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/align-content\" target=\"_blank\">align-content</a>",
       "text": "align-content"
     }
@@ -30,7 +30,7 @@
       "text": "Specifies the alignment for items inside a flexible container"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/align-items\" target=\"_blank\">align-items</a>",
       "text": "align-items"
     }
@@ -48,7 +48,7 @@
       "text": "Specifies the alignment for selected items inside a flexible container"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-self",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/align-self\" target=\"_blank\">align-self</a>",
       "text": "align-self"
     }
@@ -105,7 +105,7 @@
       "text": "A shorthand property for all the animation-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation\" target=\"_blank\">animation</a>",
       "text": "animation"
     }
@@ -122,7 +122,7 @@
       "text": "Specifies a delay for the start of an animation"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-delay",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-delay\" target=\"_blank\">animation-delay</a>",
       "text": "animation-delay"
     }
@@ -139,7 +139,7 @@
       "text": "Specifies whether an animation should be played forwards, backwards or \n    in alternate cycles"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-direction",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-direction\" target=\"_blank\">animation-direction</a>",
       "text": "animation-direction"
     }
@@ -156,7 +156,7 @@
       "text": "Specifies how long an animation should take to complete one cycle"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-duration",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-duration\" target=\"_blank\">animation-duration</a>",
       "text": "animation-duration"
     }
@@ -173,7 +173,7 @@
       "text": "Specifies a style for the element when the animation is not playing (before \n    it starts, after it ends, or both)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode\" target=\"_blank\">animation-fill-mode</a>",
       "text": "animation-fill-mode"
     }
@@ -190,7 +190,7 @@
       "text": "Specifies the number of times an animation should be played"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count\" target=\"_blank\">animation-iteration-count</a>",
       "text": "animation-iteration-count"
     }
@@ -207,7 +207,7 @@
       "text": "Specifies a name for the @keyframes animation"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-name",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-name\" target=\"_blank\">animation-name</a>",
       "text": "animation-name"
     }
@@ -224,7 +224,7 @@
       "text": "Specifies whether the animation is running or paused"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-play-state",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-play-state\" target=\"_blank\">animation-play-state</a>",
       "text": "animation-play-state"
     }
@@ -241,7 +241,7 @@
       "text": "Specifies the speed curve of an animation"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-timing-function\" target=\"_blank\">animation-timing-function</a>",
       "text": "animation-timing-function"
     }
@@ -254,7 +254,7 @@
     "default": "auto",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/appearance",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/appearance\" target=\"_blank\">appearance</a>",
       "text": "appearance"
     },
@@ -270,7 +270,7 @@
     "default": "center",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/azimuth",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/azimuth\" target=\"_blank\">azimuth</a>",
       "text": "azimuth"
     },
@@ -287,7 +287,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/backdrop-filter",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/backdrop-filter\" target=\"_blank\">backdrop-filter</a>",
       "text": "backdrop-filter"
     },
@@ -309,7 +309,7 @@
       "text": "Defines whether or not the back face of an element should be visible when facing the user"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/backface-visibility",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/backface-visibility\" target=\"_blank\">backface-visibility</a>",
       "text": "backface-visibility"
     }
@@ -336,7 +336,7 @@
       "text": "A shorthand property for all the background-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background\" target=\"_blank\">background</a>",
       "text": "background"
     }
@@ -354,7 +354,7 @@
       "text": "Sets whether a background image scrolls with the rest of the page, or is fixed"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-attachment",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-attachment\" target=\"_blank\">background-attachment</a>",
       "text": "background-attachment"
     }
@@ -372,7 +372,7 @@
       "text": "Specifies the blending mode of each background layer (color/image)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-blend-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-blend-mode\" target=\"_blank\">background-blend-mode</a>",
       "text": "background-blend-mode"
     }
@@ -390,7 +390,7 @@
       "text": "Defines how far the background (color or image) should extend within an \n    element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-clip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-clip\" target=\"_blank\">background-clip</a>",
       "text": "background-clip"
     }
@@ -408,7 +408,7 @@
       "text": "Specifies the background color of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-color\" target=\"_blank\">background-color</a>",
       "text": "background-color"
     }
@@ -426,7 +426,7 @@
       "text": "Specifies one or more background images for an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-image\" target=\"_blank\">background-image</a>",
       "text": "background-image"
     }
@@ -444,7 +444,7 @@
       "text": "Specifies the origin position of a background image"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-origin\" target=\"_blank\">background-origin</a>",
       "text": "background-origin"
     }
@@ -462,7 +462,7 @@
       "text": "Specifies the position of a background image"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-position\" target=\"_blank\">background-position</a>",
       "text": "background-position"
     }
@@ -474,7 +474,7 @@
     "default": "left",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-position-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-position-x\" target=\"_blank\">background-position-x</a>",
       "text": "background-position-x"
     },
@@ -490,7 +490,7 @@
     "default": "top",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-position-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-position-y\" target=\"_blank\">background-position-y</a>",
       "text": "background-position-y"
     },
@@ -512,7 +512,7 @@
       "text": "Sets if/how a background image will be repeated"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-repeat\" target=\"_blank\">background-repeat</a>",
       "text": "background-repeat"
     }
@@ -530,7 +530,7 @@
       "text": "Specifies the size of the background images"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-size\" target=\"_blank\">background-size</a>",
       "text": "background-size"
     }
@@ -560,7 +560,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/b/bleed/"
     },
     "url": "https://css-tricks.com/almanac/properties/b/bleed/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/b/bleed/\" target=\"_blank\">bleed</a>",
       "text": "bleed"
     },
@@ -576,7 +576,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/block-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/block-size\" target=\"_blank\">block-size</a>",
       "text": "block-size"
     },
@@ -642,7 +642,7 @@
       "text": "A shorthand property for border-width, border-style and border-color"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border\" target=\"_blank\">border</a>",
       "text": "border"
     }
@@ -663,7 +663,7 @@
       "text": "A shorthand property for border-bottom-width, border-bottom-style \n    and border-bottom-color"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom\" target=\"_blank\">border-bottom</a>",
       "text": "border-bottom"
     }
@@ -680,7 +680,7 @@
       "text": "Sets the color of the bottom border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-color\" target=\"_blank\">border-bottom-color</a>",
       "text": "border-bottom-color"
     }
@@ -697,7 +697,7 @@
       "text": "Defines the radius of the border of the bottom-left corner"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius\" target=\"_blank\">border-bottom-left-radius</a>",
       "text": "border-bottom-left-radius"
     }
@@ -714,7 +714,7 @@
       "text": "Defines the radius of the border of the bottom-right corner"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius\" target=\"_blank\">border-bottom-right-radius</a>",
       "text": "border-bottom-right-radius"
     }
@@ -731,7 +731,7 @@
       "text": "Sets the style of the bottom border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-style\" target=\"_blank\">border-bottom-style</a>",
       "text": "border-bottom-style"
     }
@@ -748,7 +748,7 @@
       "text": "Sets the width of the bottom border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-width\" target=\"_blank\">border-bottom-width</a>",
       "text": "border-bottom-width"
     }
@@ -766,7 +766,7 @@
       "text": "Sets whether table borders should collapse into a single border or be separated"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-collapse",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-collapse\" target=\"_blank\">border-collapse</a>",
       "text": "border-collapse"
     }
@@ -788,7 +788,7 @@
       "text": "Sets the color of the four borders"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-color\" target=\"_blank\">border-color</a>",
       "text": "border-color"
     }
@@ -812,7 +812,7 @@
       "text": "A shorthand property for all the border-image-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image\" target=\"_blank\">border-image</a>",
       "text": "border-image"
     }
@@ -829,7 +829,7 @@
       "text": "Specifies the amount by which the border image area extends beyond the border box"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-outset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-outset\" target=\"_blank\">border-image-outset</a>",
       "text": "border-image-outset"
     }
@@ -846,7 +846,7 @@
       "text": "Specifies whether the border image should be repeated, rounded or stretched"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-repeat\" target=\"_blank\">border-image-repeat</a>",
       "text": "border-image-repeat"
     }
@@ -863,7 +863,7 @@
       "text": "Specifies how to slice the border image"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-slice",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-slice\" target=\"_blank\">border-image-slice</a>",
       "text": "border-image-slice"
     }
@@ -880,7 +880,7 @@
       "text": "Specifies the path to the image to be used as a border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-source",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-source\" target=\"_blank\">border-image-source</a>",
       "text": "border-image-source"
     }
@@ -897,7 +897,7 @@
       "text": "Specifies the width of the border image"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-width\" target=\"_blank\">border-image-width</a>",
       "text": "border-image-width"
     }
@@ -918,7 +918,7 @@
       "text": "A shorthand property for all the border-left-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-left\" target=\"_blank\">border-left</a>",
       "text": "border-left"
     }
@@ -935,7 +935,7 @@
       "text": "Sets the color of the left border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-left-color\" target=\"_blank\">border-left-color</a>",
       "text": "border-left-color"
     }
@@ -952,7 +952,7 @@
       "text": "Sets the style of the left border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-left-style\" target=\"_blank\">border-left-style</a>",
       "text": "border-left-style"
     }
@@ -969,7 +969,7 @@
       "text": "Sets the width of the left border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-left-width\" target=\"_blank\">border-left-width</a>",
       "text": "border-left-width"
     }
@@ -992,7 +992,7 @@
       "text": "A shorthand property for the four border-*-radius properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-radius\" target=\"_blank\">border-radius</a>",
       "text": "border-radius"
     }
@@ -1013,7 +1013,7 @@
       "text": "A shorthand property for all the border-right-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-right\" target=\"_blank\">border-right</a>",
       "text": "border-right"
     }
@@ -1030,7 +1030,7 @@
       "text": "Sets the color of the right border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-right-color\" target=\"_blank\">border-right-color</a>",
       "text": "border-right-color"
     }
@@ -1047,7 +1047,7 @@
       "text": "Sets the style of the right border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-right-style\" target=\"_blank\">border-right-style</a>",
       "text": "border-right-style"
     }
@@ -1064,7 +1064,7 @@
       "text": "Sets the width of the right border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-right-width\" target=\"_blank\">border-right-width</a>",
       "text": "border-right-width"
     }
@@ -1082,7 +1082,7 @@
       "text": "Sets the distance between the borders of adjacent cells"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-spacing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-spacing\" target=\"_blank\">border-spacing</a>",
       "text": "border-spacing"
     }
@@ -1104,7 +1104,7 @@
       "text": "Sets the style of the four borders"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-style\" target=\"_blank\">border-style</a>",
       "text": "border-style"
     }
@@ -1125,7 +1125,7 @@
       "text": "A shorthand property for border-top-width, border-top-style and\n    border-top-color"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top\" target=\"_blank\">border-top</a>",
       "text": "border-top"
     }
@@ -1142,7 +1142,7 @@
       "text": "Sets the color of the top border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-color\" target=\"_blank\">border-top-color</a>",
       "text": "border-top-color"
     }
@@ -1159,7 +1159,7 @@
       "text": "Defines the radius of the border of the top-left corner"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius\" target=\"_blank\">border-top-left-radius</a>",
       "text": "border-top-left-radius"
     }
@@ -1176,7 +1176,7 @@
       "text": "Defines the radius of the border of the top-right corner"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius\" target=\"_blank\">border-top-right-radius</a>",
       "text": "border-top-right-radius"
     }
@@ -1193,7 +1193,7 @@
       "text": "Sets the style of the top border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-style\" target=\"_blank\">border-top-style</a>",
       "text": "border-top-style"
     }
@@ -1210,7 +1210,7 @@
       "text": "Sets the width of the top border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-width\" target=\"_blank\">border-top-width</a>",
       "text": "border-top-width"
     }
@@ -1232,7 +1232,7 @@
       "text": "Sets the width of the four borders"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-width\" target=\"_blank\">border-width</a>",
       "text": "border-width"
     }
@@ -1250,7 +1250,7 @@
       "text": "Sets the elements position, from the bottom of its parent element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/bottom\" target=\"_blank\">bottom</a>",
       "text": "bottom"
     }
@@ -1268,7 +1268,7 @@
       "text": "Sets the behavior of the background and border of an element at page-break, or, for  in-line elements, at line-break."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-decoration-break",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-decoration-break\" target=\"_blank\">box-decoration-break</a>",
       "text": "box-decoration-break"
     }
@@ -1286,7 +1286,7 @@
       "text": "Attaches one or more shadows to an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-shadow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-shadow\" target=\"_blank\">box-shadow</a>",
       "text": "box-shadow"
     }
@@ -1304,7 +1304,7 @@
       "text": "Defines how the width and height of an element are calculated: should \n    they include padding and borders, or not"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-sizing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-sizing\" target=\"_blank\">box-sizing</a>",
       "text": "box-sizing"
     }
@@ -1321,7 +1321,7 @@
       "text": "Specifies whether or not a page-, column-, or region-break should occur \n    after the specified element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-after",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/break-after\" target=\"_blank\">break-after</a>",
       "text": "break-after"
     }
@@ -1338,7 +1338,7 @@
       "text": "Specifies whether or not a page-, column-, or region-break should occur \n    before the specified element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-before",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/break-before\" target=\"_blank\">break-before</a>",
       "text": "break-before"
     }
@@ -1356,7 +1356,7 @@
       "text": "Specifies whether or not a page-, column-, or region-break should occur \n    inside the specified element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/break-inside\" target=\"_blank\">break-inside</a>",
       "text": "break-inside"
     }
@@ -1374,7 +1374,7 @@
       "text": "Specifies the placement of a table caption"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/caption-side",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/caption-side\" target=\"_blank\">caption-side</a>",
       "text": "caption-side"
     }
@@ -1392,7 +1392,7 @@
       "text": "Specifies the color of the cursor (caret) in inputs, textareas, or any \n    element that is editable"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/caret-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/caret-color\" target=\"_blank\">caret-color</a>",
       "text": "caret-color"
     }
@@ -1410,7 +1410,7 @@
       "text": "Specifies on which sides of an element floating elements are not allowed to float"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/clear",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/clear\" target=\"_blank\">clear</a>",
       "text": "clear"
     }
@@ -1427,7 +1427,7 @@
       "text": "Clips an absolutely positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/clip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/clip\" target=\"_blank\">clip</a>",
       "text": "clip"
     }
@@ -1445,7 +1445,7 @@
       "text": "Sets the color of text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/color\" target=\"_blank\">color</a>",
       "text": "color"
     }
@@ -1473,7 +1473,7 @@
       "text": "Specifies the number of columns an element should be divided into"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-count",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-count\" target=\"_blank\">column-count</a>",
       "text": "column-count"
     }
@@ -1491,7 +1491,7 @@
       "text": "Specifies how to fill columns, balanced or not"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-fill",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-fill\" target=\"_blank\">column-fill</a>",
       "text": "column-fill"
     }
@@ -1509,7 +1509,7 @@
       "text": "Specifies the gap between the columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-gap\" target=\"_blank\">column-gap</a>",
       "text": "column-gap"
     }
@@ -1531,7 +1531,7 @@
       "text": "A shorthand property for all the column-rule-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-rule",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-rule\" target=\"_blank\">column-rule</a>",
       "text": "column-rule"
     }
@@ -1548,7 +1548,7 @@
       "text": "Specifies the color of the rule between columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-rule-color\" target=\"_blank\">column-rule-color</a>",
       "text": "column-rule-color"
     }
@@ -1565,7 +1565,7 @@
       "text": "Specifies the style of the rule between columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-rule-style\" target=\"_blank\">column-rule-style</a>",
       "text": "column-rule-style"
     }
@@ -1582,7 +1582,7 @@
       "text": "Specifies the width of the rule between columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-rule-width\" target=\"_blank\">column-rule-width</a>",
       "text": "column-rule-width"
     }
@@ -1600,7 +1600,7 @@
       "text": "Specifies how many columns an element should span across"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-span",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-span\" target=\"_blank\">column-span</a>",
       "text": "column-span"
     }
@@ -1618,7 +1618,7 @@
       "text": "Specifies the column width"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-width\" target=\"_blank\">column-width</a>",
       "text": "column-width"
     }
@@ -1639,7 +1639,7 @@
       "text": "A shorthand property for column-width and column-count"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/columns",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/columns\" target=\"_blank\">columns</a>",
       "text": "columns"
     }
@@ -1652,7 +1652,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/contain",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/contain\" target=\"_blank\">contain</a>",
       "text": "contain"
     },
@@ -1674,7 +1674,7 @@
       "text": "Used with the :before and :after pseudo-elements, to insert generated content"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/content",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/content\" target=\"_blank\">content</a>",
       "text": "content"
     }
@@ -1692,7 +1692,7 @@
       "text": "Increases or decreases the value of one or more CSS counters"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/counter-increment",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/counter-increment\" target=\"_blank\">counter-increment</a>",
       "text": "counter-increment"
     }
@@ -1710,7 +1710,7 @@
       "text": "Creates or resets one or more CSS counters"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/counter-reset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/counter-reset\" target=\"_blank\">counter-reset</a>",
       "text": "counter-reset"
     }
@@ -1768,7 +1768,7 @@
       "text": "Specifies the mouse cursor to be displayed when pointing over an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/cursor",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/cursor\" target=\"_blank\">cursor</a>",
       "text": "cursor"
     }
@@ -1786,7 +1786,7 @@
       "text": "Specifies the text direction/writing direction"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/direction",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/direction\" target=\"_blank\">direction</a>",
       "text": "direction"
     }
@@ -1804,7 +1804,7 @@
       "text": "Specifies how a certain HTML element should be displayed"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/display",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/display\" target=\"_blank\">display</a>",
       "text": "display"
     }
@@ -1902,7 +1902,7 @@
       "text": "Specifies whether or not to display borders and background on empty cells in a table"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/empty-cells",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/empty-cells\" target=\"_blank\">empty-cells</a>",
       "text": "empty-cells"
     }
@@ -1944,7 +1944,7 @@
       "text": "A shorthand property for the flex-grow, flex-shrink, and the \n    flex-basis \n    properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex\" target=\"_blank\">flex</a>",
       "text": "flex"
     }
@@ -1962,7 +1962,7 @@
       "text": "Specifies the initial length of a flexible item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-basis",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-basis\" target=\"_blank\">flex-basis</a>",
       "text": "flex-basis"
     }
@@ -1980,7 +1980,7 @@
       "text": "Specifies the direction of the flexible items"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-direction",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-direction\" target=\"_blank\">flex-direction</a>",
       "text": "flex-direction"
     }
@@ -2001,7 +2001,7 @@
       "text": "A shorthand property for the flex-direction and the flex-wrap properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-flow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-flow\" target=\"_blank\">flex-flow</a>",
       "text": "flex-flow"
     }
@@ -2019,7 +2019,7 @@
       "text": "Specifies how much the item will grow relative to the rest"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-grow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-grow\" target=\"_blank\">flex-grow</a>",
       "text": "flex-grow"
     }
@@ -2037,7 +2037,7 @@
       "text": "Specifies how the item will shrink relative to the rest"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-shrink",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-shrink\" target=\"_blank\">flex-shrink</a>",
       "text": "flex-shrink"
     }
@@ -2055,7 +2055,7 @@
       "text": "Specifies whether the flexible items should wrap or not"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-wrap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-wrap\" target=\"_blank\">flex-wrap</a>",
       "text": "flex-wrap"
     }
@@ -2073,7 +2073,7 @@
       "text": "Specifies whether or not a box should float"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/float",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/float\" target=\"_blank\">float</a>",
       "text": "float"
     }
@@ -2129,7 +2129,7 @@
       "text": "A shorthand property for the font-style, font-variant, font-weight, \n    font-size/line-height, and the font-family properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font\" target=\"_blank\">font</a>",
       "text": "font"
     }
@@ -2147,7 +2147,7 @@
       "text": "Specifies the font family for text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-family",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-family\" target=\"_blank\">font-family</a>",
       "text": "font-family"
     }
@@ -2165,7 +2165,7 @@
       "text": "Allows control over advanced typographic features in OpenType fonts"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-feature-settings",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-feature-settings\" target=\"_blank\">font-feature-settings</a>",
       "text": "font-feature-settings"
     }
@@ -2182,7 +2182,7 @@
       "text": "Controls the usage of the kerning information (how letters are spaced)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-kerning",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-kerning\" target=\"_blank\">font-kerning</a>",
       "text": "font-kerning"
     }
@@ -2194,7 +2194,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-language-override",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-language-override\" target=\"_blank\">font-language-override</a>",
       "text": "font-language-override"
     },
@@ -2210,7 +2210,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing\" target=\"_blank\">font-optical-sizing</a>",
       "text": "font-optical-sizing"
     },
@@ -2232,7 +2232,7 @@
       "text": "Specifies the font size of text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-size\" target=\"_blank\">font-size</a>",
       "text": "font-size"
     }
@@ -2250,7 +2250,7 @@
       "text": "Preserves the readability of text when font fallback occurs"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-size-adjust",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-size-adjust\" target=\"_blank\">font-size-adjust</a>",
       "text": "font-size-adjust"
     }
@@ -2268,7 +2268,7 @@
       "text": "Selects a normal, condensed, or expanded face from a font family"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-stretch",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-stretch\" target=\"_blank\">font-stretch</a>",
       "text": "font-stretch"
     }
@@ -2286,7 +2286,7 @@
       "text": "Specifies the font style for text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-style\" target=\"_blank\">font-style</a>",
       "text": "font-style"
     }
@@ -2298,7 +2298,7 @@
     "default": "weight style",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-synthesis\" target=\"_blank\">font-synthesis</a>",
       "text": "font-synthesis"
     },
@@ -2320,7 +2320,7 @@
       "text": "Specifies whether or not a text should be displayed in a small-caps font"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant\" target=\"_blank\">font-variant</a>",
       "text": "font-variant"
     }
@@ -2332,7 +2332,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates\" target=\"_blank\">font-variant-alternates</a>",
       "text": "font-variant-alternates"
     },
@@ -2353,7 +2353,7 @@
       "text": "Controls the usage of alternate glyphs for capital letters"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-caps",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-caps\" target=\"_blank\">font-variant-caps</a>",
       "text": "font-variant-caps"
     }
@@ -2365,7 +2365,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian\" target=\"_blank\">font-variant-east-asian</a>",
       "text": "font-variant-east-asian"
     },
@@ -2381,7 +2381,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures\" target=\"_blank\">font-variant-ligatures</a>",
       "text": "font-variant-ligatures"
     },
@@ -2398,7 +2398,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric\" target=\"_blank\">font-variant-numeric</a>",
       "text": "font-variant-numeric"
     },
@@ -2414,7 +2414,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-position\" target=\"_blank\">font-variant-position</a>",
       "text": "font-variant-position"
     },
@@ -2430,7 +2430,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variation-settings",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variation-settings\" target=\"_blank\">font-variation-settings</a>",
       "text": "font-variation-settings"
     },
@@ -2452,7 +2452,7 @@
       "text": "Specifies the weight of a font"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-weight",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-weight\" target=\"_blank\">font-weight</a>",
       "text": "font-weight"
     }
@@ -2467,7 +2467,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/gap\" target=\"_blank\">gap</a>",
       "text": "gap"
     },
@@ -2499,7 +2499,7 @@
       "text": "A shorthand property for the grid-template-rows, \n    grid-template-columns, grid-template-areas, grid-auto-rows, \n    grid-auto-columns, and the grid-auto-flow properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid\" target=\"_blank\">grid</a>",
       "text": "grid"
     }
@@ -2521,7 +2521,7 @@
       "text": "Either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-area",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-area\" target=\"_blank\">grid-area</a>",
       "text": "grid-area"
     }
@@ -2538,7 +2538,7 @@
       "text": "Specifies a default column size"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-columns",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-auto-columns\" target=\"_blank\">grid-auto-columns</a>",
       "text": "grid-auto-columns"
     }
@@ -2555,7 +2555,7 @@
       "text": "Specifies how auto-placed items are inserted in the grid"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow\" target=\"_blank\">grid-auto-flow</a>",
       "text": "grid-auto-flow"
     }
@@ -2572,7 +2572,7 @@
       "text": "Specifies a default row size"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-rows",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-auto-rows\" target=\"_blank\">grid-auto-rows</a>",
       "text": "grid-auto-rows"
     }
@@ -2593,7 +2593,7 @@
       "text": "A shorthand property for the grid-column-start and the grid-column-end properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-column",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-column\" target=\"_blank\">grid-column</a>",
       "text": "grid-column"
     }
@@ -2610,7 +2610,7 @@
       "text": "Specifies where to end the grid item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-column-end\" target=\"_blank\">grid-column-end</a>",
       "text": "grid-column-end"
     }
@@ -2627,7 +2627,7 @@
       "text": "Specifies the size of the gap between columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-gap\" target=\"_blank\">grid-column-gap</a>",
       "text": "grid-column-gap"
     }
@@ -2644,7 +2644,7 @@
       "text": "Specifies where to start the grid item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-column-start\" target=\"_blank\">grid-column-start</a>",
       "text": "grid-column-start"
     }
@@ -2664,7 +2664,7 @@
       "text": "A shorthand property for the grid-row-gap and grid-column-gap properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/gap\" target=\"_blank\">grid-gap</a>",
       "text": "grid-gap"
     }
@@ -2685,7 +2685,7 @@
       "text": "A shorthand property for the grid-row-start and the grid-row-end properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-row",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-row\" target=\"_blank\">grid-row</a>",
       "text": "grid-row"
     }
@@ -2702,7 +2702,7 @@
       "text": "Specifies where to end the grid item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-row-end\" target=\"_blank\">grid-row-end</a>",
       "text": "grid-row-end"
     }
@@ -2719,7 +2719,7 @@
       "text": "Specifies the size of the gap between rows"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/row-gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/row-gap\" target=\"_blank\">grid-row-gap</a>",
       "text": "grid-row-gap"
     }
@@ -2736,7 +2736,7 @@
       "text": "Specifies where to start the grid item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-row-start\" target=\"_blank\">grid-row-start</a>",
       "text": "grid-row-start"
     }
@@ -2757,7 +2757,7 @@
       "text": "A shorthand property for the grid-template-rows, grid-template-columns \n    and grid-areas properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-template\" target=\"_blank\">grid-template</a>",
       "text": "grid-template"
     }
@@ -2774,7 +2774,7 @@
       "text": "Specifies how to display columns and rows, using named grid items"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-areas",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-template-areas\" target=\"_blank\">grid-template-areas</a>",
       "text": "grid-template-areas"
     }
@@ -2792,7 +2792,7 @@
       "text": "Specifies the size of the columns, and how many columns in a grid layout"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-columns",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-template-columns\" target=\"_blank\">grid-template-columns</a>",
       "text": "grid-template-columns"
     }
@@ -2810,7 +2810,7 @@
       "text": "Specifies the size of the rows in a grid layout"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-rows",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-template-rows\" target=\"_blank\">grid-template-rows</a>",
       "text": "grid-template-rows"
     }
@@ -2828,7 +2828,7 @@
       "text": "Specifies whether a punctuation character may be placed outside the line box"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation\" target=\"_blank\">hanging-punctuation</a>",
       "text": "hanging-punctuation"
     }
@@ -2846,7 +2846,7 @@
       "text": "Sets the height of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/height",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/height\" target=\"_blank\">height</a>",
       "text": "height"
     }
@@ -2864,7 +2864,7 @@
       "text": "Sets how to split words to improve the layout of paragraphs"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/hyphens",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/hyphens\" target=\"_blank\">hyphens</a>",
       "text": "hyphens"
     }
@@ -2886,7 +2886,7 @@
     "default": "0deg",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/image-orientation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/image-orientation\" target=\"_blank\">image-orientation</a>",
       "text": "image-orientation"
     },
@@ -2903,7 +2903,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/image-rendering",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/image-rendering\" target=\"_blank\">image-rendering</a>",
       "text": "image-rendering"
     },
@@ -2916,7 +2916,7 @@
     "urls": {},
     "default": "1dppx",
     "status": "experimental",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">image-resolution</a>",
       "text": "image-resolution"
     },
@@ -2942,7 +2942,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset\" target=\"_blank\">inset</a>",
       "text": "inset"
     },
@@ -2958,7 +2958,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-block\" target=\"_blank\">inset-block</a>",
       "text": "inset-block"
     },
@@ -2974,7 +2974,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-block-end\" target=\"_blank\">inset-block-end</a>",
       "text": "inset-block-end"
     },
@@ -2990,7 +2990,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-block-start\" target=\"_blank\">inset-block-start</a>",
       "text": "inset-block-start"
     },
@@ -3006,7 +3006,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-inline\" target=\"_blank\">inset-inline</a>",
       "text": "inset-inline"
     },
@@ -3022,7 +3022,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-inline-end\" target=\"_blank\">inset-inline-end</a>",
       "text": "inset-inline-end"
     },
@@ -3038,7 +3038,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-inline-start\" target=\"_blank\">inset-inline-start</a>",
       "text": "inset-inline-start"
     },
@@ -3060,7 +3060,7 @@
       "text": "Defines whether an element must create a new stacking content"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/isolation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/isolation\" target=\"_blank\">isolation</a>",
       "text": "isolation"
     }
@@ -3078,7 +3078,7 @@
       "text": "Specifies the alignment between the items inside a flexible container when the items do not use all available space"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/justify-content",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/justify-content\" target=\"_blank\">justify-content</a>",
       "text": "justify-content"
     }
@@ -3090,7 +3090,7 @@
     "default": "legacy",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/justify-items",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/justify-items\" target=\"_blank\">justify-items</a>",
       "text": "justify-items"
     },
@@ -3106,7 +3106,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/justify-self",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/justify-self\" target=\"_blank\">justify-self</a>",
       "text": "justify-self"
     },
@@ -3128,7 +3128,7 @@
       "text": "Specifies the left position of a positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/left\" target=\"_blank\">left</a>",
       "text": "left"
     }
@@ -3146,7 +3146,7 @@
       "text": "Increases or decreases the space between characters in a text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/letter-spacing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/letter-spacing\" target=\"_blank\">letter-spacing</a>",
       "text": "letter-spacing"
     }
@@ -3158,7 +3158,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/line-break",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/line-break\" target=\"_blank\">line-break</a>",
       "text": "line-break"
     },
@@ -3180,7 +3180,7 @@
       "text": "Sets the line height"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/line-height",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/line-height\" target=\"_blank\">line-height</a>",
       "text": "line-height"
     }
@@ -3192,7 +3192,7 @@
     "default": "0",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/line-height-step",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/line-height-step\" target=\"_blank\">line-height-step</a>",
       "text": "line-height-step"
     },
@@ -3258,7 +3258,7 @@
       "text": "Sets all the properties for a list in one declaration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/list-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/list-style\" target=\"_blank\">list-style</a>",
       "text": "list-style"
     }
@@ -3275,7 +3275,7 @@
       "text": "Specifies an image as the list-item marker"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/list-style-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/list-style-image\" target=\"_blank\">list-style-image</a>",
       "text": "list-style-image"
     }
@@ -3292,7 +3292,7 @@
       "text": "Specifies the position of the list-item markers (bullet points)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/list-style-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/list-style-position\" target=\"_blank\">list-style-position</a>",
       "text": "list-style-position"
     }
@@ -3309,7 +3309,7 @@
       "text": "Specifies the type of list-item marker"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/list-style-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/list-style-type\" target=\"_blank\">list-style-type</a>",
       "text": "list-style-type"
     }
@@ -3332,7 +3332,7 @@
       "text": "Sets all the margin properties in one declaration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin\" target=\"_blank\">margin</a>",
       "text": "margin"
     }
@@ -3349,7 +3349,7 @@
       "text": "Sets the bottom margin of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-bottom\" target=\"_blank\">margin-bottom</a>",
       "text": "margin-bottom"
     }
@@ -3366,7 +3366,7 @@
       "text": "Sets the left margin of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-left\" target=\"_blank\">margin-left</a>",
       "text": "margin-left"
     }
@@ -3383,7 +3383,7 @@
       "text": "Sets the right margin of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-right\" target=\"_blank\">margin-right</a>",
       "text": "margin-right"
     }
@@ -3400,7 +3400,7 @@
       "text": "Sets the top margin of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-top\" target=\"_blank\">margin-top</a>",
       "text": "margin-top"
     }
@@ -3472,7 +3472,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/max-block-size\" target=\"_blank\">max-block-size</a>",
       "text": "max-block-size"
     },
@@ -3494,7 +3494,7 @@
       "text": "Sets the maximum height of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/max-height",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/max-height\" target=\"_blank\">max-height</a>",
       "text": "max-height"
     }
@@ -3506,7 +3506,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/max-inline-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/max-inline-size\" target=\"_blank\">max-inline-size</a>",
       "text": "max-inline-size"
     },
@@ -3528,7 +3528,7 @@
       "text": "Sets the maximum width of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/max-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/max-width\" target=\"_blank\">max-width</a>",
       "text": "max-width"
     }
@@ -3540,7 +3540,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/min-block-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/min-block-size\" target=\"_blank\">min-block-size</a>",
       "text": "min-block-size"
     },
@@ -3562,7 +3562,7 @@
       "text": "Sets the minimum height of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/min-height",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/min-height\" target=\"_blank\">min-height</a>",
       "text": "min-height"
     }
@@ -3574,7 +3574,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/min-inline-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/min-inline-size\" target=\"_blank\">min-inline-size</a>",
       "text": "min-inline-size"
     },
@@ -3596,7 +3596,7 @@
       "text": "Sets the minimum width of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/min-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/min-width\" target=\"_blank\">min-width</a>",
       "text": "min-width"
     }
@@ -3614,7 +3614,7 @@
       "text": "Specifies how an element's content should blend with its direct parent background"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode\" target=\"_blank\">mix-blend-mode</a>",
       "text": "mix-blend-mode"
     }
@@ -3692,7 +3692,7 @@
       "text": "Specifies how the contents of a replaced element should be fitted to the box established by its used height and width"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/object-fit\" target=\"_blank\">object-fit</a>",
       "text": "object-fit"
     }
@@ -3710,7 +3710,7 @@
       "text": "Specifies the alignment of the replaced element inside its box"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/object-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/object-position\" target=\"_blank\">object-position</a>",
       "text": "object-position"
     }
@@ -3728,7 +3728,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/offset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/offset\" target=\"_blank\">offset</a>",
       "text": "offset"
     },
@@ -3744,7 +3744,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://css-tricks.com/almanac/properties/o/offset-anchor/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/o/offset-anchor/\" target=\"_blank\">offset-anchor</a>",
       "text": "offset-anchor"
     },
@@ -3761,7 +3761,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/offset-distance\" target=\"_blank\">offset-distance</a>",
       "text": "offset-distance"
     },
@@ -3778,7 +3778,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/offset-path",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/offset-path\" target=\"_blank\">offset-path</a>",
       "text": "offset-path"
     },
@@ -3791,7 +3791,7 @@
     "urls": {},
     "default": "auto",
     "status": "experimental",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">offset-position</a>",
       "text": "offset-position"
     },
@@ -3808,7 +3808,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/offset-rotate\" target=\"_blank\">offset-rotate</a>",
       "text": "offset-rotate"
     },
@@ -3830,7 +3830,7 @@
       "text": "Sets the opacity level for an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/opacity",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/opacity\" target=\"_blank\">opacity</a>",
       "text": "opacity"
     }
@@ -3848,7 +3848,7 @@
       "text": "Sets the order of the flexible item, relative to the rest"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/order",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/order\" target=\"_blank\">order</a>",
       "text": "order"
     }
@@ -3861,7 +3861,7 @@
     "default": "2",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/orphans",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/orphans\" target=\"_blank\">orphans</a>",
       "text": "orphans"
     },
@@ -3887,7 +3887,7 @@
       "text": "A shorthand property for the outline-width, outline-style, and \n    the outline-color properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline\" target=\"_blank\">outline</a>",
       "text": "outline"
     }
@@ -3904,7 +3904,7 @@
       "text": "Sets the color of an outline"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline-color\" target=\"_blank\">outline-color</a>",
       "text": "outline-color"
     }
@@ -3922,7 +3922,7 @@
       "text": "Offsets an outline, and draws it beyond the border edge"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline-offset\" target=\"_blank\">outline-offset</a>",
       "text": "outline-offset"
     }
@@ -3939,7 +3939,7 @@
       "text": "Sets the style of an outline"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline-style\" target=\"_blank\">outline-style</a>",
       "text": "outline-style"
     }
@@ -3956,7 +3956,7 @@
       "text": "Sets the width of an outline"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline-width\" target=\"_blank\">outline-width</a>",
       "text": "outline-width"
     }
@@ -3974,7 +3974,7 @@
       "text": "Specifies what happens if content overflows an element's box"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow\" target=\"_blank\">overflow</a>",
       "text": "overflow"
     }
@@ -3997,7 +3997,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow-wrap\" target=\"_blank\">overflow-wrap</a>",
       "text": "overflow-wrap"
     },
@@ -4018,7 +4018,7 @@
       "text": "Specifies whether or not to clip the left/right edges of the content, if it overflows the element's content area"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow-x\" target=\"_blank\">overflow-x</a>",
       "text": "overflow-x"
     }
@@ -4035,7 +4035,7 @@
       "text": "Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's content area"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow-y\" target=\"_blank\">overflow-y</a>",
       "text": "overflow-y"
     }
@@ -4058,7 +4058,7 @@
       "text": "A shorthand property for all the padding-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding\" target=\"_blank\">padding</a>",
       "text": "padding"
     }
@@ -4075,7 +4075,7 @@
       "text": "Sets the bottom padding of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-bottom\" target=\"_blank\">padding-bottom</a>",
       "text": "padding-bottom"
     }
@@ -4092,7 +4092,7 @@
       "text": "Sets the left padding of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-left\" target=\"_blank\">padding-left</a>",
       "text": "padding-left"
     }
@@ -4109,7 +4109,7 @@
       "text": "Sets the right padding of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-right\" target=\"_blank\">padding-right</a>",
       "text": "padding-right"
     }
@@ -4126,7 +4126,7 @@
       "text": "Sets the top padding of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-top\" target=\"_blank\">padding-top</a>",
       "text": "padding-top"
     }
@@ -4153,7 +4153,7 @@
       "text": "Sets the page-break behavior after an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/page-break-after",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/page-break-after\" target=\"_blank\">page-break-after</a>",
       "text": "page-break-after"
     }
@@ -4170,7 +4170,7 @@
       "text": "Sets the page-break behavior before an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/page-break-before",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/page-break-before\" target=\"_blank\">page-break-before</a>",
       "text": "page-break-before"
     }
@@ -4187,7 +4187,7 @@
       "text": "Sets the page-break behavior inside an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/page-break-inside",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/page-break-inside\" target=\"_blank\">page-break-inside</a>",
       "text": "page-break-inside"
     }
@@ -4245,7 +4245,7 @@
       "text": "Gives a 3D-positioned element some perspective"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/perspective",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/perspective\" target=\"_blank\">perspective</a>",
       "text": "perspective"
     }
@@ -4263,7 +4263,7 @@
       "text": "Defines at which position the user is looking at the 3D-positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/perspective-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/perspective-origin\" target=\"_blank\">perspective-origin</a>",
       "text": "perspective-origin"
     }
@@ -4295,7 +4295,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/place-content",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/place-content\" target=\"_blank\">place-content</a>",
       "text": "place-content"
     },
@@ -4315,7 +4315,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/place-items",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/place-items\" target=\"_blank\">place-items</a>",
       "text": "place-items"
     },
@@ -4334,7 +4334,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/place-self",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/place-self\" target=\"_blank\">place-self</a>",
       "text": "place-self"
     },
@@ -4366,7 +4366,7 @@
       "text": "Specifies the type of positioning method used for an element (static, relative, absolute or fixed)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/position\" target=\"_blank\">position</a>",
       "text": "position"
     }
@@ -4404,7 +4404,7 @@
       "text": "Sets the type of quotation marks for embedded quotations"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/quotes",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/quotes\" target=\"_blank\">quotes</a>",
       "text": "quotes"
     }
@@ -4472,7 +4472,7 @@
       "text": "Defines if (and how) an element is resizable by the user"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/resize",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/resize\" target=\"_blank\">resize</a>",
       "text": "resize"
     }
@@ -4530,7 +4530,7 @@
       "text": "Specifies the right position of a positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/right\" target=\"_blank\">right</a>",
       "text": "right"
     }
@@ -4542,7 +4542,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/rotate",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/rotate\" target=\"_blank\">rotate</a>",
       "text": "rotate"
     },
@@ -4578,7 +4578,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/row-gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/row-gap\" target=\"_blank\">row-gap</a>",
       "text": "row-gap"
     },
@@ -4594,7 +4594,7 @@
     "default": "space-around",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/ruby-align\" target=\"_blank\">ruby-align</a>",
       "text": "ruby-align"
     },
@@ -4620,7 +4620,7 @@
     "default": "over",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/ruby-position\" target=\"_blank\">ruby-position</a>",
       "text": "ruby-position"
     },
@@ -4646,7 +4646,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scale",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scale\" target=\"_blank\">scale</a>",
       "text": "scale"
     },
@@ -4668,7 +4668,7 @@
       "text": "Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight jump"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-behavior\" target=\"_blank\">scroll-behavior</a>",
       "text": "scroll-behavior"
     }
@@ -4681,7 +4681,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin\" target=\"_blank\">scroll-margin</a>",
       "text": "scroll-margin"
     },
@@ -4697,7 +4697,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block\" target=\"_blank\">scroll-margin-block</a>",
       "text": "scroll-margin-block"
     },
@@ -4713,7 +4713,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end\" target=\"_blank\">scroll-margin-block-end</a>",
       "text": "scroll-margin-block-end"
     },
@@ -4729,7 +4729,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start\" target=\"_blank\">scroll-margin-block-start</a>",
       "text": "scroll-margin-block-start"
     },
@@ -4745,7 +4745,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom\" target=\"_blank\">scroll-margin-bottom</a>",
       "text": "scroll-margin-bottom"
     },
@@ -4761,7 +4761,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline\" target=\"_blank\">scroll-margin-inline</a>",
       "text": "scroll-margin-inline"
     },
@@ -4777,7 +4777,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end\" target=\"_blank\">scroll-margin-inline-end</a>",
       "text": "scroll-margin-inline-end"
     },
@@ -4793,7 +4793,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start\" target=\"_blank\">scroll-margin-inline-start</a>",
       "text": "scroll-margin-inline-start"
     },
@@ -4809,7 +4809,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left\" target=\"_blank\">scroll-margin-left</a>",
       "text": "scroll-margin-left"
     },
@@ -4825,7 +4825,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right\" target=\"_blank\">scroll-margin-right</a>",
       "text": "scroll-margin-right"
     },
@@ -4841,7 +4841,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top\" target=\"_blank\">scroll-margin-top</a>",
       "text": "scroll-margin-top"
     },
@@ -4858,7 +4858,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding\" target=\"_blank\">scroll-padding</a>",
       "text": "scroll-padding"
     },
@@ -4874,7 +4874,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block\" target=\"_blank\">scroll-padding-block</a>",
       "text": "scroll-padding-block"
     },
@@ -4890,7 +4890,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end\" target=\"_blank\">scroll-padding-block-end</a>",
       "text": "scroll-padding-block-end"
     },
@@ -4906,7 +4906,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start\" target=\"_blank\">scroll-padding-block-start</a>",
       "text": "scroll-padding-block-start"
     },
@@ -4922,7 +4922,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom\" target=\"_blank\">scroll-padding-bottom</a>",
       "text": "scroll-padding-bottom"
     },
@@ -4938,7 +4938,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline\" target=\"_blank\">scroll-padding-inline</a>",
       "text": "scroll-padding-inline"
     },
@@ -4954,7 +4954,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end\" target=\"_blank\">scroll-padding-inline-end</a>",
       "text": "scroll-padding-inline-end"
     },
@@ -4970,7 +4970,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start\" target=\"_blank\">scroll-padding-inline-start</a>",
       "text": "scroll-padding-inline-start"
     },
@@ -4986,7 +4986,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left\" target=\"_blank\">scroll-padding-left</a>",
       "text": "scroll-padding-left"
     },
@@ -5002,7 +5002,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right\" target=\"_blank\">scroll-padding-right</a>",
       "text": "scroll-padding-right"
     },
@@ -5018,7 +5018,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top\" target=\"_blank\">scroll-padding-top</a>",
       "text": "scroll-padding-top"
     },
@@ -5035,7 +5035,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align\" target=\"_blank\">scroll-snap-align</a>",
       "text": "scroll-snap-align"
     },
@@ -5052,7 +5052,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type\" target=\"_blank\">scroll-snap-type</a>",
       "text": "scroll-snap-type"
     },
@@ -5068,7 +5068,7 @@
     "default": "0.0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold\" target=\"_blank\">shape-image-threshold</a>",
       "text": "shape-image-threshold"
     },
@@ -5094,7 +5094,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/shape-margin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/shape-margin\" target=\"_blank\">shape-margin</a>",
       "text": "shape-margin"
     },
@@ -5111,7 +5111,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/shape-outside",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/shape-outside\" target=\"_blank\">shape-outside</a>",
       "text": "shape-outside"
     },
@@ -5135,7 +5135,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/speak/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/speak/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/speak/\" target=\"_blank\">speak</a>",
       "text": "speak"
     },
@@ -5227,7 +5227,7 @@
       "text": "Specifies the width of a tab character"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/tab-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/tab-size\" target=\"_blank\">tab-size</a>",
       "text": "tab-size"
     }
@@ -5245,7 +5245,7 @@
       "text": "Defines the algorithm used to lay out table cells, rows, and columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/table-layout",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/table-layout\" target=\"_blank\">table-layout</a>",
       "text": "table-layout"
     }
@@ -5303,7 +5303,7 @@
       "text": "Specifies the horizontal alignment of text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-align\" target=\"_blank\">text-align</a>",
       "text": "text-align"
     }
@@ -5321,7 +5321,7 @@
       "text": "Describes how the last line of a block or a line right before a forced line break is aligned when text-align is \"justify\""
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-align-last",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-align-last\" target=\"_blank\">text-align-last</a>",
       "text": "text-align-last"
     }
@@ -5333,7 +5333,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-combine-upright",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-combine-upright\" target=\"_blank\">text-combine-upright</a>",
       "text": "text-combine-upright"
     },
@@ -5359,7 +5359,7 @@
       "text": "Specifies the decoration added to text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration\" target=\"_blank\">text-decoration</a>",
       "text": "text-decoration"
     }
@@ -5377,7 +5377,7 @@
       "text": "Specifies the color of the text-decoration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-color\" target=\"_blank\">text-decoration-color</a>",
       "text": "text-decoration-color"
     }
@@ -5395,7 +5395,7 @@
       "text": "Specifies the type of line in a text-decoration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-line",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-line\" target=\"_blank\">text-decoration-line</a>",
       "text": "text-decoration-line"
     }
@@ -5408,7 +5408,7 @@
     "default": "objects",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip\" target=\"_blank\">text-decoration-skip</a>",
       "text": "text-decoration-skip"
     },
@@ -5425,7 +5425,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink\" target=\"_blank\">text-decoration-skip-ink</a>",
       "text": "text-decoration-skip-ink"
     },
@@ -5447,7 +5447,7 @@
       "text": "Specifies the style of the line in a text decoration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-style\" target=\"_blank\">text-decoration-style</a>",
       "text": "text-decoration-style"
     }
@@ -5462,7 +5462,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-emphasis\" target=\"_blank\">text-emphasis</a>",
       "text": "text-emphasis"
     },
@@ -5478,7 +5478,7 @@
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color\" target=\"_blank\">text-emphasis-color</a>",
       "text": "text-emphasis-color"
     },
@@ -5494,7 +5494,7 @@
     "default": "over right",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position\" target=\"_blank\">text-emphasis-position</a>",
       "text": "text-emphasis-position"
     },
@@ -5510,7 +5510,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style\" target=\"_blank\">text-emphasis-style</a>",
       "text": "text-emphasis-style"
     },
@@ -5542,7 +5542,7 @@
       "text": "Specifies the indentation of the first line in a text-block"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-indent",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-indent\" target=\"_blank\">text-indent</a>",
       "text": "text-indent"
     }
@@ -5560,7 +5560,7 @@
       "text": "Specifies the justification method used when text-align is \"justify\""
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-justify",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-justify\" target=\"_blank\">text-justify</a>",
       "text": "text-justify"
     }
@@ -5572,7 +5572,7 @@
     "default": "mixed",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-orientation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-orientation\" target=\"_blank\">text-orientation</a>",
       "text": "text-orientation"
     },
@@ -5604,7 +5604,7 @@
       "text": "Specifies what should happen when text overflows the containing element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-overflow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-overflow\" target=\"_blank\">text-overflow</a>",
       "text": "text-overflow"
     }
@@ -5617,7 +5617,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-rendering",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-rendering\" target=\"_blank\">text-rendering</a>",
       "text": "text-rendering"
     },
@@ -5639,7 +5639,7 @@
       "text": "Adds shadow to text "
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-shadow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-shadow\" target=\"_blank\">text-shadow</a>",
       "text": "text-shadow"
     }
@@ -5651,7 +5651,7 @@
     "default": "autoForSmartphoneBrowsersSupportingInflation",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-size-adjust\" target=\"_blank\">text-size-adjust</a>",
       "text": "text-size-adjust"
     },
@@ -5683,7 +5683,7 @@
       "text": "Controls the capitalization of text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-transform",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-transform\" target=\"_blank\">text-transform</a>",
       "text": "text-transform"
     }
@@ -5696,7 +5696,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-underline-position\" target=\"_blank\">text-underline-position</a>",
       "text": "text-underline-position"
     },
@@ -5728,7 +5728,7 @@
       "text": "Specifies the top position of a positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/top\" target=\"_blank\">top</a>",
       "text": "top"
     }
@@ -5746,7 +5746,7 @@
       "text": "Applies a 2D or 3D transformation to an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transform",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transform\" target=\"_blank\">transform</a>",
       "text": "transform"
     }
@@ -5764,7 +5764,7 @@
       "text": "Allows you to change the position on transformed elements"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transform-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transform-origin\" target=\"_blank\">transform-origin</a>",
       "text": "transform-origin"
     }
@@ -5782,7 +5782,7 @@
       "text": "Specifies how nested elements are rendered in 3D space"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transform-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transform-style\" target=\"_blank\">transform-style</a>",
       "text": "transform-style"
     }
@@ -5805,7 +5805,7 @@
       "text": "A shorthand property for all the transition-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition\" target=\"_blank\">transition</a>",
       "text": "transition"
     }
@@ -5823,7 +5823,7 @@
       "text": "Specifies when the transition effect will start"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition-delay",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition-delay\" target=\"_blank\">transition-delay</a>",
       "text": "transition-delay"
     }
@@ -5841,7 +5841,7 @@
       "text": "Specifies how many seconds or milliseconds a transition effect takes to complete"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition-duration",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition-duration\" target=\"_blank\">transition-duration</a>",
       "text": "transition-duration"
     }
@@ -5859,7 +5859,7 @@
       "text": "Specifies the name of the CSS property the transition effect is for"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition-property",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition-property\" target=\"_blank\">transition-property</a>",
       "text": "transition-property"
     }
@@ -5877,7 +5877,7 @@
       "text": "Specifies the speed curve of the transition effect"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition-timing-function",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition-timing-function\" target=\"_blank\">transition-timing-function</a>",
       "text": "transition-timing-function"
     }
@@ -5889,7 +5889,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/translate",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/translate\" target=\"_blank\">translate</a>",
       "text": "translate"
     },
@@ -5911,7 +5911,7 @@
       "text": "Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/unicode-bidi",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/unicode-bidi\" target=\"_blank\">unicode-bidi</a>",
       "text": "unicode-bidi"
     }
@@ -5929,7 +5929,7 @@
       "text": "Specifies whether the text of an element can be selected"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/user-select",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/user-select\" target=\"_blank\">user-select</a>",
       "text": "user-select"
     }
@@ -5947,7 +5947,7 @@
       "text": "Sets the vertical alignment of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/vertical-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/vertical-align\" target=\"_blank\">vertical-align</a>",
       "text": "vertical-align"
     }
@@ -5965,7 +5965,7 @@
       "text": "Specifies whether or not an element is visible"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/visibility",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/visibility\" target=\"_blank\">visibility</a>",
       "text": "visibility"
     }
@@ -6073,7 +6073,7 @@
       "text": "Specifies how white-space inside an element is handled"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/white-space",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/white-space\" target=\"_blank\">white-space</a>",
       "text": "white-space"
     }
@@ -6086,7 +6086,7 @@
     "default": "2",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/widows",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/widows\" target=\"_blank\">widows</a>",
       "text": "widows"
     },
@@ -6108,7 +6108,7 @@
       "text": "Sets the width of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/width\" target=\"_blank\">width</a>",
       "text": "width"
     }
@@ -6121,7 +6121,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/will-change",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/will-change\" target=\"_blank\">will-change</a>",
       "text": "will-change"
     },
@@ -6143,7 +6143,7 @@
       "text": "Specifies how words should break when reaching the end of a line"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/word-break",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/word-break\" target=\"_blank\">word-break</a>",
       "text": "word-break"
     }
@@ -6161,7 +6161,7 @@
       "text": "Increases or decreases the space between words in a text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/word-spacing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/word-spacing\" target=\"_blank\">word-spacing</a>",
       "text": "word-spacing"
     }
@@ -6178,7 +6178,7 @@
       "text": "Allows long, unbreakable words to be broken and wrap to the next line"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow-wrap\" target=\"_blank\">word-wrap</a>",
       "text": "word-wrap"
     }
@@ -6196,7 +6196,7 @@
       "text": "Specifies whether lines of text are laid out horizontally or vertically"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/writing-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/writing-mode\" target=\"_blank\">writing-mode</a>",
       "text": "writing-mode"
     }
@@ -6214,7 +6214,7 @@
       "text": "Sets the stack order of a positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/z-index",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/z-index\" target=\"_blank\">z-index</a>",
       "text": "z-index"
     }
@@ -6227,7 +6227,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/clip-path",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/clip-path\" target=\"_blank\">clip-path</a>",
       "text": "clip-path"
     },
@@ -6262,7 +6262,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask\" target=\"_blank\">mask</a>",
       "text": "mask"
     },
@@ -6294,7 +6294,7 @@
       "text": "Defines effects (e.g. blurring or color shifting) on an element before the element is displayed"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/filter",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/filter\" target=\"_blank\">filter</a>",
       "text": "filter"
     }
@@ -6362,7 +6362,7 @@
       "text": "Defines whether or not an element reacts to pointer events"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/pointer-events",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/pointer-events\" target=\"_blank\">pointer-events</a>",
       "text": "pointer-events"
     }
@@ -6402,7 +6402,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/f/fill/"
     },
     "url": "https://css-tricks.com/almanac/properties/f/fill/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/f/fill/\" target=\"_blank\">fill</a>",
       "text": "fill"
     },
@@ -6486,7 +6486,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke/\" target=\"_blank\">stroke</a>",
       "text": "stroke"
     },
@@ -6500,7 +6500,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-dasharray/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-dasharray/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-dasharray/\" target=\"_blank\">stroke-dasharray</a>",
       "text": "stroke-dasharray"
     },
@@ -6514,7 +6514,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-dashoffset/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-dashoffset/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-dashoffset/\" target=\"_blank\">stroke-dashoffset</a>",
       "text": "stroke-dashoffset"
     },
@@ -6528,7 +6528,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-linecap/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-linecap/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-linecap/\" target=\"_blank\">stroke-linecap</a>",
       "text": "stroke-linecap"
     },
@@ -6542,7 +6542,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-linejoin/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-linejoin/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-linejoin/\" target=\"_blank\">stroke-linejoin</a>",
       "text": "stroke-linejoin"
     },
@@ -6576,7 +6576,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-width/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-width/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-width/\" target=\"_blank\">stroke-width</a>",
       "text": "stroke-width"
     },
@@ -6628,7 +6628,7 @@
       "text": "Resets all properties (except unicode-bidi and direction)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/all",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/all\" target=\"_blank\">all</a>",
       "text": "all"
     }
@@ -6640,7 +6640,7 @@
     "default": "clip",
     "status": "experimental",
     "url": "https://css-tricks.com/almanac/properties/b/block-overflow/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/b/block-overflow/\" target=\"_blank\">block-overflow</a>",
       "text": "block-overflow"
     },
@@ -6657,7 +6657,7 @@
     "default": "economy",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/color-adjust",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/color-adjust\" target=\"_blank\">color-adjust</a>",
       "text": "color-adjust"
     },
@@ -6671,7 +6671,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/f/font-display/"
     },
     "url": "https://css-tricks.com/almanac/properties/f/font-display/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/f/font-display/\" target=\"_blank\">font-display</a>",
       "text": "font-display"
     },
@@ -6688,7 +6688,7 @@
     "default": "normal",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/initial-letter\" target=\"_blank\">initial-letter</a>",
       "text": "initial-letter"
     },
@@ -6704,7 +6704,7 @@
     "default": "none",
     "status": "experimental",
     "url": "https://css-tricks.com/almanac/properties/l/line-clamp/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/l/line-clamp/\" target=\"_blank\">line-clamp</a>",
       "text": "line-clamp"
     },
@@ -6721,7 +6721,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-image\" target=\"_blank\">mask-image</a>",
       "text": "mask-image"
     },
@@ -6738,7 +6738,7 @@
     "default": "no-repeat",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-repeat\" target=\"_blank\">mask-repeat</a>",
       "text": "mask-repeat"
     },
@@ -6754,7 +6754,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://css-tricks.com/almanac/properties/o/overflow-anchor/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/o/overflow-anchor/\" target=\"_blank\">overflow-anchor</a>",
       "text": "overflow-anchor"
     },
@@ -6771,7 +6771,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior\" target=\"_blank\">overscroll-behavior</a>",
       "text": "overscroll-behavior"
     },
@@ -6785,7 +6785,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/p/page-break/"
     },
     "url": "https://css-tricks.com/almanac/properties/p/page-break/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/p/page-break/\" target=\"_blank\">page-break</a>",
       "text": "page-break"
     },
@@ -6802,7 +6802,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop\" target=\"_blank\">scroll-snap-stop</a>",
       "text": "scroll-snap-stop"
     },
@@ -6816,7 +6816,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/scrollbar/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/scrollbar/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/scrollbar/\" target=\"_blank\">scrollbar</a>",
       "text": "scrollbar"
     },
@@ -6833,7 +6833,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scrollbar-color\" target=\"_blank\">scrollbar-color</a>",
       "text": "scrollbar-color"
     },
@@ -6847,7 +6847,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/s/scrollbar-gutter/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/scrollbar-gutter/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/scrollbar-gutter/\" target=\"_blank\">scrollbar-gutter</a>",
       "text": "scrollbar-gutter"
     },
@@ -6864,7 +6864,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scrollbar-width\" target=\"_blank\">scrollbar-width</a>",
       "text": "scrollbar-width"
     },
@@ -6881,7 +6881,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness\" target=\"_blank\">text-decoration-thickness</a>",
       "text": "text-decoration-thickness"
     },
@@ -6895,7 +6895,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/t/text-stroke/"
     },
     "url": "https://css-tricks.com/almanac/properties/t/text-stroke/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/t/text-stroke/\" target=\"_blank\">text-stroke</a>",
       "text": "text-stroke"
     },
@@ -6912,7 +6912,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-offset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-underline-offset\" target=\"_blank\">text-underline-offset</a>",
       "text": "text-underline-offset"
     },
@@ -6929,7 +6929,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/touch-action",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/touch-action\" target=\"_blank\">touch-action</a>",
       "text": "touch-action"
     },
@@ -6943,7 +6943,7 @@
       "css-tricks": "https://css-tricks.com/almanac/properties/u/unicode-range/"
     },
     "url": "https://css-tricks.com/almanac/properties/u/unicode-range/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/u/unicode-range/\" target=\"_blank\">unicode-range</a>",
       "text": "unicode-range"
     },
@@ -6960,7 +6960,7 @@
     "default": "normal",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/zoom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/zoom\" target=\"_blank\">zoom</a>",
       "text": "zoom"
     },
@@ -6976,7 +6976,7 @@
     "default": "false",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-accelerator",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-accelerator\" target=\"_blank\">-ms-accelerator</a>",
       "text": "-ms-accelerator"
     },
@@ -6992,7 +6992,7 @@
     "default": "tb",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-block-progression",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-block-progression\" target=\"_blank\">-ms-block-progression</a>",
       "text": "-ms-block-progression"
     },
@@ -7008,7 +7008,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-chaining",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-chaining\" target=\"_blank\">-ms-content-zoom-chaining</a>",
       "text": "-ms-content-zoom-chaining"
     },
@@ -7024,7 +7024,7 @@
     "default": "zoomForTheTopLevelNoneForTheRest",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zooming",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zooming\" target=\"_blank\">-ms-content-zooming</a>",
       "text": "-ms-content-zooming"
     },
@@ -7043,7 +7043,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit\" target=\"_blank\">-ms-content-zoom-limit</a>",
       "text": "-ms-content-zoom-limit"
     },
@@ -7059,7 +7059,7 @@
     "default": "400%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-max",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-max\" target=\"_blank\">-ms-content-zoom-limit-max</a>",
       "text": "-ms-content-zoom-limit-max"
     },
@@ -7075,7 +7075,7 @@
     "default": "100%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-min",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-min\" target=\"_blank\">-ms-content-zoom-limit-min</a>",
       "text": "-ms-content-zoom-limit-min"
     },
@@ -7094,7 +7094,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap\" target=\"_blank\">-ms-content-zoom-snap</a>",
       "text": "-ms-content-zoom-snap"
     },
@@ -7110,7 +7110,7 @@
     "default": "snapInterval(0%, 100%)",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-points",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-points\" target=\"_blank\">-ms-content-zoom-snap-points</a>",
       "text": "-ms-content-zoom-snap-points"
     },
@@ -7126,7 +7126,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-type\" target=\"_blank\">-ms-content-zoom-snap-type</a>",
       "text": "-ms-content-zoom-snap-type"
     },
@@ -7142,7 +7142,7 @@
     "default": "\"\"",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-filter",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-filter\" target=\"_blank\">-ms-filter</a>",
       "text": "-ms-filter"
     },
@@ -7158,7 +7158,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-flow-from",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-flow-from\" target=\"_blank\">-ms-flow-from</a>",
       "text": "-ms-flow-from"
     },
@@ -7174,7 +7174,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-flow-into",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-flow-into\" target=\"_blank\">-ms-flow-into</a>",
       "text": "-ms-flow-into"
     },
@@ -7190,7 +7190,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-high-contrast-adjust",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-high-contrast-adjust\" target=\"_blank\">-ms-high-contrast-adjust</a>",
       "text": "-ms-high-contrast-adjust"
     },
@@ -7206,7 +7206,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-chars",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-chars\" target=\"_blank\">-ms-hyphenate-limit-chars</a>",
       "text": "-ms-hyphenate-limit-chars"
     },
@@ -7222,7 +7222,7 @@
     "default": "no-limit",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-lines",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-lines\" target=\"_blank\">-ms-hyphenate-limit-lines</a>",
       "text": "-ms-hyphenate-limit-lines"
     },
@@ -7238,7 +7238,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-zone",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-zone\" target=\"_blank\">-ms-hyphenate-limit-zone</a>",
       "text": "-ms-hyphenate-limit-zone"
     },
@@ -7254,7 +7254,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-ime-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-ime-align\" target=\"_blank\">-ms-ime-align</a>",
       "text": "-ms-ime-align"
     },
@@ -7270,7 +7270,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-overflow-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-overflow-style\" target=\"_blank\">-ms-overflow-style</a>",
       "text": "-ms-overflow-style"
     },
@@ -7286,7 +7286,7 @@
     "default": "dependsOnUserAgent",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-3dlight-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-3dlight-color\" target=\"_blank\">-ms-scrollbar-3dlight-color</a>",
       "text": "-ms-scrollbar-3dlight-color"
     },
@@ -7302,7 +7302,7 @@
     "default": "ButtonText",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-arrow-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-arrow-color\" target=\"_blank\">-ms-scrollbar-arrow-color</a>",
       "text": "-ms-scrollbar-arrow-color"
     },
@@ -7318,7 +7318,7 @@
     "default": "dependsOnUserAgent",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-base-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-base-color\" target=\"_blank\">-ms-scrollbar-base-color</a>",
       "text": "-ms-scrollbar-base-color"
     },
@@ -7334,7 +7334,7 @@
     "default": "ThreeDDarkShadow",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-darkshadow-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-darkshadow-color\" target=\"_blank\">-ms-scrollbar-darkshadow-color</a>",
       "text": "-ms-scrollbar-darkshadow-color"
     },
@@ -7350,7 +7350,7 @@
     "default": "ThreeDFace",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-face-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-face-color\" target=\"_blank\">-ms-scrollbar-face-color</a>",
       "text": "-ms-scrollbar-face-color"
     },
@@ -7366,7 +7366,7 @@
     "default": "ThreeDHighlight",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-highlight-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-highlight-color\" target=\"_blank\">-ms-scrollbar-highlight-color</a>",
       "text": "-ms-scrollbar-highlight-color"
     },
@@ -7382,7 +7382,7 @@
     "default": "ThreeDDarkShadow",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-shadow-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-shadow-color\" target=\"_blank\">-ms-scrollbar-shadow-color</a>",
       "text": "-ms-scrollbar-shadow-color"
     },
@@ -7398,7 +7398,7 @@
     "default": "Scrollbar",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-track-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-track-color\" target=\"_blank\">-ms-scrollbar-track-color</a>",
       "text": "-ms-scrollbar-track-color"
     },
@@ -7414,7 +7414,7 @@
     "default": "chained",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-chaining",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-chaining\" target=\"_blank\">-ms-scroll-chaining</a>",
       "text": "-ms-scroll-chaining"
     },
@@ -7435,7 +7435,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit\" target=\"_blank\">-ms-scroll-limit</a>",
       "text": "-ms-scroll-limit"
     },
@@ -7451,7 +7451,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-max",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-max\" target=\"_blank\">-ms-scroll-limit-x-max</a>",
       "text": "-ms-scroll-limit-x-max"
     },
@@ -7467,7 +7467,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-min",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-min\" target=\"_blank\">-ms-scroll-limit-x-min</a>",
       "text": "-ms-scroll-limit-x-min"
     },
@@ -7483,7 +7483,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-max",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-max\" target=\"_blank\">-ms-scroll-limit-y-max</a>",
       "text": "-ms-scroll-limit-y-max"
     },
@@ -7499,7 +7499,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-min",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-min\" target=\"_blank\">-ms-scroll-limit-y-min</a>",
       "text": "-ms-scroll-limit-y-min"
     },
@@ -7515,7 +7515,7 @@
     "default": "railed",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-rails",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-rails\" target=\"_blank\">-ms-scroll-rails</a>",
       "text": "-ms-scroll-rails"
     },
@@ -7531,7 +7531,7 @@
     "default": "snapInterval(0px, 100%)",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-x\" target=\"_blank\">-ms-scroll-snap-points-x</a>",
       "text": "-ms-scroll-snap-points-x"
     },
@@ -7547,7 +7547,7 @@
     "default": "snapInterval(0px, 100%)",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-y\" target=\"_blank\">-ms-scroll-snap-points-y</a>",
       "text": "-ms-scroll-snap-points-y"
     },
@@ -7563,7 +7563,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-type\" target=\"_blank\">-ms-scroll-snap-type</a>",
       "text": "-ms-scroll-snap-type"
     },
@@ -7582,7 +7582,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-x\" target=\"_blank\">-ms-scroll-snap-x</a>",
       "text": "-ms-scroll-snap-x"
     },
@@ -7601,7 +7601,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-y\" target=\"_blank\">-ms-scroll-snap-y</a>",
       "text": "-ms-scroll-snap-y"
     },
@@ -7617,7 +7617,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-translation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-translation\" target=\"_blank\">-ms-scroll-translation</a>",
       "text": "-ms-scroll-translation"
     },
@@ -7633,7 +7633,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-text-autospace",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-text-autospace\" target=\"_blank\">-ms-text-autospace</a>",
       "text": "-ms-text-autospace"
     },
@@ -7649,7 +7649,7 @@
     "default": "grippers",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-touch-select",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-touch-select\" target=\"_blank\">-ms-touch-select</a>",
       "text": "-ms-touch-select"
     },
@@ -7665,7 +7665,7 @@
     "default": "text",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-user-select",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-user-select\" target=\"_blank\">-ms-user-select</a>",
       "text": "-ms-user-select"
     },
@@ -7681,7 +7681,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-flow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-flow\" target=\"_blank\">-ms-wrap-flow</a>",
       "text": "-ms-wrap-flow"
     },
@@ -7697,7 +7697,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-margin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-margin\" target=\"_blank\">-ms-wrap-margin</a>",
       "text": "-ms-wrap-margin"
     },
@@ -7713,7 +7713,7 @@
     "default": "wrap",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-through",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-through\" target=\"_blank\">-ms-wrap-through</a>",
       "text": "-ms-wrap-through"
     },
@@ -7729,7 +7729,7 @@
     "default": "noneButOverriddenInUserAgentCSS",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/appearance",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/appearance\" target=\"_blank\">-moz-appearance</a>",
       "text": "-moz-appearance"
     },
@@ -7745,7 +7745,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-binding",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-binding\" target=\"_blank\">-moz-binding</a>",
       "text": "-moz-binding"
     },
@@ -7761,7 +7761,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors\" target=\"_blank\">-moz-border-bottom-colors</a>",
       "text": "-moz-border-bottom-colors"
     },
@@ -7777,7 +7777,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors\" target=\"_blank\">-moz-border-left-colors</a>",
       "text": "-moz-border-left-colors"
     },
@@ -7793,7 +7793,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors\" target=\"_blank\">-moz-border-right-colors</a>",
       "text": "-moz-border-right-colors"
     },
@@ -7809,7 +7809,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors\" target=\"_blank\">-moz-border-top-colors</a>",
       "text": "-moz-border-top-colors"
     },
@@ -7825,7 +7825,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-context-properties",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-context-properties\" target=\"_blank\">-moz-context-properties</a>",
       "text": "-moz-context-properties"
     },
@@ -7841,7 +7841,7 @@
     "default": "content-box",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-float-edge",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-float-edge\" target=\"_blank\">-moz-float-edge</a>",
       "text": "-moz-float-edge"
     },
@@ -7857,7 +7857,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon\" target=\"_blank\">-moz-force-broken-image-icon</a>",
       "text": "-moz-force-broken-image-icon"
     },
@@ -7873,7 +7873,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-image-region",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-image-region\" target=\"_blank\">-moz-image-region</a>",
       "text": "-moz-image-region"
     },
@@ -7889,7 +7889,7 @@
     "default": "inline",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-orient",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-orient\" target=\"_blank\">-moz-orient</a>",
       "text": "-moz-orient"
     },
@@ -7910,7 +7910,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius\" target=\"_blank\">-moz-outline-radius</a>",
       "text": "-moz-outline-radius"
     },
@@ -7926,7 +7926,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomleft",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomleft\" target=\"_blank\">-moz-outline-radius-bottomleft</a>",
       "text": "-moz-outline-radius-bottomleft"
     },
@@ -7942,7 +7942,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomright",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomright\" target=\"_blank\">-moz-outline-radius-bottomright</a>",
       "text": "-moz-outline-radius-bottomright"
     },
@@ -7958,7 +7958,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topleft",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topleft\" target=\"_blank\">-moz-outline-radius-topleft</a>",
       "text": "-moz-outline-radius-topleft"
     },
@@ -7974,7 +7974,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topright",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topright\" target=\"_blank\">-moz-outline-radius-topright</a>",
       "text": "-moz-outline-radius-topright"
     },
@@ -7990,7 +7990,7 @@
     "default": "stretch-to-fit",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-stack-sizing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-stack-sizing\" target=\"_blank\">-moz-stack-sizing</a>",
       "text": "-moz-stack-sizing"
     },
@@ -8006,7 +8006,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-text-blink",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-text-blink\" target=\"_blank\">-moz-text-blink</a>",
       "text": "-moz-text-blink"
     },
@@ -8022,7 +8022,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-user-focus",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-user-focus\" target=\"_blank\">-moz-user-focus</a>",
       "text": "-moz-user-focus"
     },
@@ -8038,7 +8038,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-user-input",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-user-input\" target=\"_blank\">-moz-user-input</a>",
       "text": "-moz-user-input"
     },
@@ -8054,7 +8054,7 @@
     "default": "read-only",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-user-modify",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-user-modify\" target=\"_blank\">-moz-user-modify</a>",
       "text": "-moz-user-modify"
     },
@@ -8070,7 +8070,7 @@
     "default": "drag",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-window-dragging",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-window-dragging\" target=\"_blank\">-moz-window-dragging</a>",
       "text": "-moz-window-dragging"
     },
@@ -8086,7 +8086,7 @@
     "default": "default",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-window-shadow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-window-shadow\" target=\"_blank\">-moz-window-shadow</a>",
       "text": "-moz-window-shadow"
     },
@@ -8102,7 +8102,7 @@
     "default": "noneButOverriddenInUserAgentCSS",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/appearance",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/appearance\" target=\"_blank\">-webkit-appearance</a>",
       "text": "-webkit-appearance"
     },
@@ -8122,7 +8122,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-border-before",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-border-before\" target=\"_blank\">-webkit-border-before</a>",
       "text": "-webkit-border-before"
     },
@@ -8135,7 +8135,7 @@
     "urls": {},
     "default": "currentcolor",
     "status": "nonstandard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">-webkit-border-before-color</a>",
       "text": "-webkit-border-before-color"
     },
@@ -8148,7 +8148,7 @@
     "urls": {},
     "default": "none",
     "status": "nonstandard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">-webkit-border-before-style</a>",
       "text": "-webkit-border-before-style"
     },
@@ -8161,7 +8161,7 @@
     "urls": {},
     "default": "medium",
     "status": "nonstandard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">-webkit-border-before-width</a>",
       "text": "-webkit-border-before-width"
     },
@@ -8177,7 +8177,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-box-reflect",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-box-reflect\" target=\"_blank\">-webkit-box-reflect</a>",
       "text": "-webkit-box-reflect"
     },
@@ -8193,7 +8193,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp\" target=\"_blank\">-webkit-line-clamp</a>",
       "text": "-webkit-line-clamp"
     },
@@ -8216,7 +8216,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask\" target=\"_blank\">-webkit-mask</a>",
       "text": "-webkit-mask"
     },
@@ -8232,7 +8232,7 @@
     "default": "scroll",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-attachment",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-attachment\" target=\"_blank\">-webkit-mask-attachment</a>",
       "text": "-webkit-mask-attachment"
     },
@@ -8248,7 +8248,7 @@
     "default": "border",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-clip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-clip\" target=\"_blank\">-webkit-mask-clip</a>",
       "text": "-webkit-mask-clip"
     },
@@ -8264,7 +8264,7 @@
     "default": "source-over",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-composite",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-composite\" target=\"_blank\">-webkit-mask-composite</a>",
       "text": "-webkit-mask-composite"
     },
@@ -8280,7 +8280,7 @@
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-image\" target=\"_blank\">-webkit-mask-image</a>",
       "text": "-webkit-mask-image"
     },
@@ -8296,7 +8296,7 @@
     "default": "padding",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-origin\" target=\"_blank\">-webkit-mask-origin</a>",
       "text": "-webkit-mask-origin"
     },
@@ -8312,7 +8312,7 @@
     "default": "0% 0%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-position\" target=\"_blank\">-webkit-mask-position</a>",
       "text": "-webkit-mask-position"
     },
@@ -8328,7 +8328,7 @@
     "default": "0%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-x\" target=\"_blank\">-webkit-mask-position-x</a>",
       "text": "-webkit-mask-position-x"
     },
@@ -8344,7 +8344,7 @@
     "default": "0%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-y\" target=\"_blank\">-webkit-mask-position-y</a>",
       "text": "-webkit-mask-position-y"
     },
@@ -8360,7 +8360,7 @@
     "default": "repeat",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-repeat\" target=\"_blank\">-webkit-mask-repeat</a>",
       "text": "-webkit-mask-repeat"
     },
@@ -8376,7 +8376,7 @@
     "default": "repeat",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-x\" target=\"_blank\">-webkit-mask-repeat-x</a>",
       "text": "-webkit-mask-repeat-x"
     },
@@ -8392,7 +8392,7 @@
     "default": "repeat",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-y\" target=\"_blank\">-webkit-mask-repeat-y</a>",
       "text": "-webkit-mask-repeat-y"
     },
@@ -8408,7 +8408,7 @@
     "default": "auto auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-size\" target=\"_blank\">-webkit-mask-size</a>",
       "text": "-webkit-mask-size"
     },
@@ -8424,7 +8424,7 @@
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-overflow-scrolling",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-overflow-scrolling\" target=\"_blank\">-webkit-overflow-scrolling</a>",
       "text": "-webkit-overflow-scrolling"
     },
@@ -8440,7 +8440,7 @@
     "default": "black",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-tap-highlight-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-tap-highlight-color\" target=\"_blank\">-webkit-tap-highlight-color</a>",
       "text": "-webkit-tap-highlight-color"
     },
@@ -8456,7 +8456,7 @@
     "default": "currentcolor",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color\" target=\"_blank\">-webkit-text-fill-color</a>",
       "text": "-webkit-text-fill-color"
     },
@@ -8475,7 +8475,7 @@
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke\" target=\"_blank\">-webkit-text-stroke</a>",
       "text": "-webkit-text-stroke"
     },
@@ -8491,7 +8491,7 @@
     "default": "currentcolor",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color\" target=\"_blank\">-webkit-text-stroke-color</a>",
       "text": "-webkit-text-stroke-color"
     },
@@ -8507,7 +8507,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-width\" target=\"_blank\">-webkit-text-stroke-width</a>",
       "text": "-webkit-text-stroke-width"
     },
@@ -8523,7 +8523,7 @@
     "default": "default",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-touch-callout",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-touch-callout\" target=\"_blank\">-webkit-touch-callout</a>",
       "text": "-webkit-touch-callout"
     },
@@ -8536,7 +8536,7 @@
     "urls": {},
     "default": "read-only",
     "status": "nonstandard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">-webkit-user-modify</a>",
       "text": "-webkit-user-modify"
     },
@@ -8552,7 +8552,7 @@
     "default": "auto",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/aspect-ratio\" target=\"_blank\">aspect-ratio</a>",
       "text": "aspect-ratio"
     },
@@ -8572,7 +8572,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block\" target=\"_blank\">border-block</a>",
       "text": "border-block"
     },
@@ -8588,7 +8588,7 @@
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-color\" target=\"_blank\">border-block-color</a>",
       "text": "border-block-color"
     },
@@ -8604,7 +8604,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-style\" target=\"_blank\">border-block-style</a>",
       "text": "border-block-style"
     },
@@ -8620,7 +8620,7 @@
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-width\" target=\"_blank\">border-block-width</a>",
       "text": "border-block-width"
     },
@@ -8640,7 +8640,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-end\" target=\"_blank\">border-block-end</a>",
       "text": "border-block-end"
     },
@@ -8656,7 +8656,7 @@
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-end-color\" target=\"_blank\">border-block-end-color</a>",
       "text": "border-block-end-color"
     },
@@ -8672,7 +8672,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-end-style\" target=\"_blank\">border-block-end-style</a>",
       "text": "border-block-end-style"
     },
@@ -8688,7 +8688,7 @@
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-end-width\" target=\"_blank\">border-block-end-width</a>",
       "text": "border-block-end-width"
     },
@@ -8708,7 +8708,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-start\" target=\"_blank\">border-block-start</a>",
       "text": "border-block-start"
     },
@@ -8724,7 +8724,7 @@
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-start-color\" target=\"_blank\">border-block-start-color</a>",
       "text": "border-block-start-color"
     },
@@ -8740,7 +8740,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-start-style\" target=\"_blank\">border-block-start-style</a>",
       "text": "border-block-start-style"
     },
@@ -8756,7 +8756,7 @@
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-start-width\" target=\"_blank\">border-block-start-width</a>",
       "text": "border-block-start-width"
     },
@@ -8772,7 +8772,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius\" target=\"_blank\">border-end-end-radius</a>",
       "text": "border-end-end-radius"
     },
@@ -8788,7 +8788,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius\" target=\"_blank\">border-end-start-radius</a>",
       "text": "border-end-start-radius"
     },
@@ -8808,7 +8808,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline\" target=\"_blank\">border-inline</a>",
       "text": "border-inline"
     },
@@ -8828,7 +8828,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-end\" target=\"_blank\">border-inline-end</a>",
       "text": "border-inline-end"
     },
@@ -8844,7 +8844,7 @@
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-color\" target=\"_blank\">border-inline-color</a>",
       "text": "border-inline-color"
     },
@@ -8860,7 +8860,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-style\" target=\"_blank\">border-inline-style</a>",
       "text": "border-inline-style"
     },
@@ -8876,7 +8876,7 @@
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-width\" target=\"_blank\">border-inline-width</a>",
       "text": "border-inline-width"
     },
@@ -8892,7 +8892,7 @@
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color\" target=\"_blank\">border-inline-end-color</a>",
       "text": "border-inline-end-color"
     },
@@ -8908,7 +8908,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style\" target=\"_blank\">border-inline-end-style</a>",
       "text": "border-inline-end-style"
     },
@@ -8924,7 +8924,7 @@
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width\" target=\"_blank\">border-inline-end-width</a>",
       "text": "border-inline-end-width"
     },
@@ -8944,7 +8944,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-start\" target=\"_blank\">border-inline-start</a>",
       "text": "border-inline-start"
     },
@@ -8960,7 +8960,7 @@
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color\" target=\"_blank\">border-inline-start-color</a>",
       "text": "border-inline-start-color"
     },
@@ -8976,7 +8976,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style\" target=\"_blank\">border-inline-start-style</a>",
       "text": "border-inline-start-style"
     },
@@ -8992,7 +8992,7 @@
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width\" target=\"_blank\">border-inline-start-width</a>",
       "text": "border-inline-start-width"
     },
@@ -9008,7 +9008,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius\" target=\"_blank\">border-start-end-radius</a>",
       "text": "border-start-end-radius"
     },
@@ -9024,7 +9024,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius\" target=\"_blank\">border-start-start-radius</a>",
       "text": "border-start-start-radius"
     },
@@ -9040,7 +9040,7 @@
     "default": "stretch",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-align\" target=\"_blank\">box-align</a>",
       "text": "box-align"
     },
@@ -9056,7 +9056,7 @@
     "default": "normal",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-direction",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-direction\" target=\"_blank\">box-direction</a>",
       "text": "box-direction"
     },
@@ -9072,7 +9072,7 @@
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-flex",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-flex\" target=\"_blank\">box-flex</a>",
       "text": "box-flex"
     },
@@ -9088,7 +9088,7 @@
     "default": "1",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-flex-group",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-flex-group\" target=\"_blank\">box-flex-group</a>",
       "text": "box-flex-group"
     },
@@ -9104,7 +9104,7 @@
     "default": "single",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-lines",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-lines\" target=\"_blank\">box-lines</a>",
       "text": "box-lines"
     },
@@ -9120,7 +9120,7 @@
     "default": "1",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-ordinal-group",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-ordinal-group\" target=\"_blank\">box-ordinal-group</a>",
       "text": "box-ordinal-group"
     },
@@ -9136,7 +9136,7 @@
     "default": "inlineAxisHorizontalInXUL",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-orient",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-orient\" target=\"_blank\">box-orient</a>",
       "text": "box-orient"
     },
@@ -9152,7 +9152,7 @@
     "default": "start",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-pack",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-pack\" target=\"_blank\">box-pack</a>",
       "text": "box-pack"
     },
@@ -9168,7 +9168,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/counter-set",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/counter-set\" target=\"_blank\">counter-set</a>",
       "text": "counter-set"
     },
@@ -9184,7 +9184,7 @@
     "default": "auto",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/ime-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/ime-mode\" target=\"_blank\">ime-mode</a>",
       "text": "ime-mode"
     },
@@ -9200,7 +9200,7 @@
     "default": "auto",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/initial-letter-align\" target=\"_blank\">initial-letter-align</a>",
       "text": "initial-letter-align"
     },
@@ -9216,7 +9216,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inline-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inline-size\" target=\"_blank\">inline-size</a>",
       "text": "inline-size"
     },
@@ -9232,7 +9232,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-block\" target=\"_blank\">margin-block</a>",
       "text": "margin-block"
     },
@@ -9248,7 +9248,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-block-end\" target=\"_blank\">margin-block-end</a>",
       "text": "margin-block-end"
     },
@@ -9264,7 +9264,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-block-start\" target=\"_blank\">margin-block-start</a>",
       "text": "margin-block-start"
     },
@@ -9280,7 +9280,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-inline\" target=\"_blank\">margin-inline</a>",
       "text": "margin-inline"
     },
@@ -9296,7 +9296,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-inline-end\" target=\"_blank\">margin-inline-end</a>",
       "text": "margin-inline-end"
     },
@@ -9312,7 +9312,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-inline-start\" target=\"_blank\">margin-inline-start</a>",
       "text": "margin-inline-start"
     },
@@ -9328,7 +9328,7 @@
     "default": "none",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-trim\" target=\"_blank\">margin-trim</a>",
       "text": "margin-trim"
     },
@@ -9351,7 +9351,7 @@
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border\" target=\"_blank\">mask-border</a>",
       "text": "mask-border"
     },
@@ -9367,7 +9367,7 @@
     "default": "alpha",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-mode\" target=\"_blank\">mask-border-mode</a>",
       "text": "mask-border-mode"
     },
@@ -9383,7 +9383,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-outset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-outset\" target=\"_blank\">mask-border-outset</a>",
       "text": "mask-border-outset"
     },
@@ -9399,7 +9399,7 @@
     "default": "stretch",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat\" target=\"_blank\">mask-border-repeat</a>",
       "text": "mask-border-repeat"
     },
@@ -9415,7 +9415,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-slice",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-slice\" target=\"_blank\">mask-border-slice</a>",
       "text": "mask-border-slice"
     },
@@ -9431,7 +9431,7 @@
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-source",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-source\" target=\"_blank\">mask-border-source</a>",
       "text": "mask-border-source"
     },
@@ -9447,7 +9447,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-width\" target=\"_blank\">mask-border-width</a>",
       "text": "mask-border-width"
     },
@@ -9463,7 +9463,7 @@
     "default": "border-box",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-clip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-clip\" target=\"_blank\">mask-clip</a>",
       "text": "mask-clip"
     },
@@ -9479,7 +9479,7 @@
     "default": "add",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-composite",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-composite\" target=\"_blank\">mask-composite</a>",
       "text": "mask-composite"
     },
@@ -9495,7 +9495,7 @@
     "default": "match-source",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-mode\" target=\"_blank\">mask-mode</a>",
       "text": "mask-mode"
     },
@@ -9511,7 +9511,7 @@
     "default": "border-box",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-origin\" target=\"_blank\">mask-origin</a>",
       "text": "mask-origin"
     },
@@ -9527,7 +9527,7 @@
     "default": "center",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-position\" target=\"_blank\">mask-position</a>",
       "text": "mask-position"
     },
@@ -9543,7 +9543,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-size\" target=\"_blank\">mask-size</a>",
       "text": "mask-size"
     },
@@ -9559,7 +9559,7 @@
     "default": "luminance",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-type\" target=\"_blank\">mask-type</a>",
       "text": "mask-type"
     },
@@ -9572,7 +9572,7 @@
     "urls": {},
     "default": "none",
     "status": "experimental",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">max-lines</a>",
       "text": "max-lines"
     },
@@ -9585,7 +9585,7 @@
     "urls": {},
     "default": "auto",
     "status": "standard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">overflow-block</a>",
       "text": "overflow-block"
     },
@@ -9601,7 +9601,7 @@
     "default": "padding-box",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box\" target=\"_blank\">overflow-clip-box</a>",
       "text": "overflow-clip-box"
     },
@@ -9614,7 +9614,7 @@
     "urls": {},
     "default": "auto",
     "status": "standard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">overflow-inline</a>",
       "text": "overflow-inline"
     },
@@ -9630,7 +9630,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block\" target=\"_blank\">overscroll-behavior-block</a>",
       "text": "overscroll-behavior-block"
     },
@@ -9646,7 +9646,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline\" target=\"_blank\">overscroll-behavior-inline</a>",
       "text": "overscroll-behavior-inline"
     },
@@ -9662,7 +9662,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x\" target=\"_blank\">overscroll-behavior-x</a>",
       "text": "overscroll-behavior-x"
     },
@@ -9678,7 +9678,7 @@
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y\" target=\"_blank\">overscroll-behavior-y</a>",
       "text": "overscroll-behavior-y"
     },
@@ -9694,7 +9694,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-block\" target=\"_blank\">padding-block</a>",
       "text": "padding-block"
     },
@@ -9710,7 +9710,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-block-end\" target=\"_blank\">padding-block-end</a>",
       "text": "padding-block-end"
     },
@@ -9726,7 +9726,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-block-start\" target=\"_blank\">padding-block-start</a>",
       "text": "padding-block-start"
     },
@@ -9742,7 +9742,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-inline\" target=\"_blank\">padding-inline</a>",
       "text": "padding-inline"
     },
@@ -9758,7 +9758,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-inline-end\" target=\"_blank\">padding-inline-end</a>",
       "text": "padding-inline-end"
     },
@@ -9774,7 +9774,7 @@
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-inline-start\" target=\"_blank\">padding-inline-start</a>",
       "text": "padding-inline-start"
     },
@@ -9790,7 +9790,7 @@
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/paint-order",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/paint-order\" target=\"_blank\">paint-order</a>",
       "text": "paint-order"
     },
@@ -9803,7 +9803,7 @@
     "urls": {},
     "default": "separate",
     "status": "experimental",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">ruby-merge</a>",
       "text": "ruby-merge"
     },
@@ -9819,7 +9819,7 @@
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-coordinate",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-coordinate\" target=\"_blank\">scroll-snap-coordinate</a>",
       "text": "scroll-snap-coordinate"
     },
@@ -9835,7 +9835,7 @@
     "default": "0px 0px",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-destination",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-destination\" target=\"_blank\">scroll-snap-destination</a>",
       "text": "scroll-snap-destination"
     },
@@ -9851,7 +9851,7 @@
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-x\" target=\"_blank\">scroll-snap-points-x</a>",
       "text": "scroll-snap-points-x"
     },
@@ -9867,7 +9867,7 @@
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-y\" target=\"_blank\">scroll-snap-points-y</a>",
       "text": "scroll-snap-points-y"
     },
@@ -9883,7 +9883,7 @@
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x\" target=\"_blank\">scroll-snap-type-x</a>",
       "text": "scroll-snap-type-x"
     },
@@ -9899,7 +9899,7 @@
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y\" target=\"_blank\">scroll-snap-type-y</a>",
       "text": "scroll-snap-type-y"
     },
@@ -9915,7 +9915,7 @@
     "default": "view-box",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/transform-box",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transform-box\" target=\"_blank\">transform-box</a>",
       "text": "transform-box"
     },

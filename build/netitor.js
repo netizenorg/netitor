@@ -17493,7 +17493,7 @@ module.exports={
       "text": "Specifies the alignment between the lines inside a flexible container when the items do not use all available space"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-content",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/align-content\" target=\"_blank\">align-content</a>",
       "text": "align-content"
     }
@@ -17511,7 +17511,7 @@ module.exports={
       "text": "Specifies the alignment for items inside a flexible container"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/align-items\" target=\"_blank\">align-items</a>",
       "text": "align-items"
     }
@@ -17529,7 +17529,7 @@ module.exports={
       "text": "Specifies the alignment for selected items inside a flexible container"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-self",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/align-self\" target=\"_blank\">align-self</a>",
       "text": "align-self"
     }
@@ -17586,7 +17586,7 @@ module.exports={
       "text": "A shorthand property for all the animation-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation\" target=\"_blank\">animation</a>",
       "text": "animation"
     }
@@ -17603,7 +17603,7 @@ module.exports={
       "text": "Specifies a delay for the start of an animation"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-delay",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-delay\" target=\"_blank\">animation-delay</a>",
       "text": "animation-delay"
     }
@@ -17620,7 +17620,7 @@ module.exports={
       "text": "Specifies whether an animation should be played forwards, backwards or \n    in alternate cycles"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-direction",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-direction\" target=\"_blank\">animation-direction</a>",
       "text": "animation-direction"
     }
@@ -17637,7 +17637,7 @@ module.exports={
       "text": "Specifies how long an animation should take to complete one cycle"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-duration",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-duration\" target=\"_blank\">animation-duration</a>",
       "text": "animation-duration"
     }
@@ -17654,7 +17654,7 @@ module.exports={
       "text": "Specifies a style for the element when the animation is not playing (before \n    it starts, after it ends, or both)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode\" target=\"_blank\">animation-fill-mode</a>",
       "text": "animation-fill-mode"
     }
@@ -17671,7 +17671,7 @@ module.exports={
       "text": "Specifies the number of times an animation should be played"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count\" target=\"_blank\">animation-iteration-count</a>",
       "text": "animation-iteration-count"
     }
@@ -17688,7 +17688,7 @@ module.exports={
       "text": "Specifies a name for the @keyframes animation"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-name",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-name\" target=\"_blank\">animation-name</a>",
       "text": "animation-name"
     }
@@ -17705,7 +17705,7 @@ module.exports={
       "text": "Specifies whether the animation is running or paused"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-play-state",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-play-state\" target=\"_blank\">animation-play-state</a>",
       "text": "animation-play-state"
     }
@@ -17722,7 +17722,7 @@ module.exports={
       "text": "Specifies the speed curve of an animation"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/animation-timing-function\" target=\"_blank\">animation-timing-function</a>",
       "text": "animation-timing-function"
     }
@@ -17735,7 +17735,7 @@ module.exports={
     "default": "auto",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/appearance",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/appearance\" target=\"_blank\">appearance</a>",
       "text": "appearance"
     },
@@ -17751,7 +17751,7 @@ module.exports={
     "default": "center",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/azimuth",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/azimuth\" target=\"_blank\">azimuth</a>",
       "text": "azimuth"
     },
@@ -17768,7 +17768,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/backdrop-filter",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/backdrop-filter\" target=\"_blank\">backdrop-filter</a>",
       "text": "backdrop-filter"
     },
@@ -17790,7 +17790,7 @@ module.exports={
       "text": "Defines whether or not the back face of an element should be visible when facing the user"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/backface-visibility",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/backface-visibility\" target=\"_blank\">backface-visibility</a>",
       "text": "backface-visibility"
     }
@@ -17817,7 +17817,7 @@ module.exports={
       "text": "A shorthand property for all the background-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background\" target=\"_blank\">background</a>",
       "text": "background"
     }
@@ -17835,7 +17835,7 @@ module.exports={
       "text": "Sets whether a background image scrolls with the rest of the page, or is fixed"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-attachment",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-attachment\" target=\"_blank\">background-attachment</a>",
       "text": "background-attachment"
     }
@@ -17853,7 +17853,7 @@ module.exports={
       "text": "Specifies the blending mode of each background layer (color/image)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-blend-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-blend-mode\" target=\"_blank\">background-blend-mode</a>",
       "text": "background-blend-mode"
     }
@@ -17871,7 +17871,7 @@ module.exports={
       "text": "Defines how far the background (color or image) should extend within an \n    element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-clip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-clip\" target=\"_blank\">background-clip</a>",
       "text": "background-clip"
     }
@@ -17889,7 +17889,7 @@ module.exports={
       "text": "Specifies the background color of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-color\" target=\"_blank\">background-color</a>",
       "text": "background-color"
     }
@@ -17907,7 +17907,7 @@ module.exports={
       "text": "Specifies one or more background images for an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-image\" target=\"_blank\">background-image</a>",
       "text": "background-image"
     }
@@ -17925,7 +17925,7 @@ module.exports={
       "text": "Specifies the origin position of a background image"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-origin\" target=\"_blank\">background-origin</a>",
       "text": "background-origin"
     }
@@ -17943,7 +17943,7 @@ module.exports={
       "text": "Specifies the position of a background image"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-position\" target=\"_blank\">background-position</a>",
       "text": "background-position"
     }
@@ -17955,7 +17955,7 @@ module.exports={
     "default": "left",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-position-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-position-x\" target=\"_blank\">background-position-x</a>",
       "text": "background-position-x"
     },
@@ -17971,7 +17971,7 @@ module.exports={
     "default": "top",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-position-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-position-y\" target=\"_blank\">background-position-y</a>",
       "text": "background-position-y"
     },
@@ -17993,7 +17993,7 @@ module.exports={
       "text": "Sets if/how a background image will be repeated"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-repeat\" target=\"_blank\">background-repeat</a>",
       "text": "background-repeat"
     }
@@ -18011,7 +18011,7 @@ module.exports={
       "text": "Specifies the size of the background images"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/background-size\" target=\"_blank\">background-size</a>",
       "text": "background-size"
     }
@@ -18041,7 +18041,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/b/bleed/"
     },
     "url": "https://css-tricks.com/almanac/properties/b/bleed/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/b/bleed/\" target=\"_blank\">bleed</a>",
       "text": "bleed"
     },
@@ -18057,7 +18057,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/block-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/block-size\" target=\"_blank\">block-size</a>",
       "text": "block-size"
     },
@@ -18123,7 +18123,7 @@ module.exports={
       "text": "A shorthand property for border-width, border-style and border-color"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border\" target=\"_blank\">border</a>",
       "text": "border"
     }
@@ -18144,7 +18144,7 @@ module.exports={
       "text": "A shorthand property for border-bottom-width, border-bottom-style \n    and border-bottom-color"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom\" target=\"_blank\">border-bottom</a>",
       "text": "border-bottom"
     }
@@ -18161,7 +18161,7 @@ module.exports={
       "text": "Sets the color of the bottom border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-color\" target=\"_blank\">border-bottom-color</a>",
       "text": "border-bottom-color"
     }
@@ -18178,7 +18178,7 @@ module.exports={
       "text": "Defines the radius of the border of the bottom-left corner"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius\" target=\"_blank\">border-bottom-left-radius</a>",
       "text": "border-bottom-left-radius"
     }
@@ -18195,7 +18195,7 @@ module.exports={
       "text": "Defines the radius of the border of the bottom-right corner"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius\" target=\"_blank\">border-bottom-right-radius</a>",
       "text": "border-bottom-right-radius"
     }
@@ -18212,7 +18212,7 @@ module.exports={
       "text": "Sets the style of the bottom border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-style\" target=\"_blank\">border-bottom-style</a>",
       "text": "border-bottom-style"
     }
@@ -18229,7 +18229,7 @@ module.exports={
       "text": "Sets the width of the bottom border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-bottom-width\" target=\"_blank\">border-bottom-width</a>",
       "text": "border-bottom-width"
     }
@@ -18247,7 +18247,7 @@ module.exports={
       "text": "Sets whether table borders should collapse into a single border or be separated"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-collapse",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-collapse\" target=\"_blank\">border-collapse</a>",
       "text": "border-collapse"
     }
@@ -18269,7 +18269,7 @@ module.exports={
       "text": "Sets the color of the four borders"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-color\" target=\"_blank\">border-color</a>",
       "text": "border-color"
     }
@@ -18293,7 +18293,7 @@ module.exports={
       "text": "A shorthand property for all the border-image-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image\" target=\"_blank\">border-image</a>",
       "text": "border-image"
     }
@@ -18310,7 +18310,7 @@ module.exports={
       "text": "Specifies the amount by which the border image area extends beyond the border box"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-outset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-outset\" target=\"_blank\">border-image-outset</a>",
       "text": "border-image-outset"
     }
@@ -18327,7 +18327,7 @@ module.exports={
       "text": "Specifies whether the border image should be repeated, rounded or stretched"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-repeat\" target=\"_blank\">border-image-repeat</a>",
       "text": "border-image-repeat"
     }
@@ -18344,7 +18344,7 @@ module.exports={
       "text": "Specifies how to slice the border image"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-slice",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-slice\" target=\"_blank\">border-image-slice</a>",
       "text": "border-image-slice"
     }
@@ -18361,7 +18361,7 @@ module.exports={
       "text": "Specifies the path to the image to be used as a border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-source",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-source\" target=\"_blank\">border-image-source</a>",
       "text": "border-image-source"
     }
@@ -18378,7 +18378,7 @@ module.exports={
       "text": "Specifies the width of the border image"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-image-width\" target=\"_blank\">border-image-width</a>",
       "text": "border-image-width"
     }
@@ -18399,7 +18399,7 @@ module.exports={
       "text": "A shorthand property for all the border-left-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-left\" target=\"_blank\">border-left</a>",
       "text": "border-left"
     }
@@ -18416,7 +18416,7 @@ module.exports={
       "text": "Sets the color of the left border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-left-color\" target=\"_blank\">border-left-color</a>",
       "text": "border-left-color"
     }
@@ -18433,7 +18433,7 @@ module.exports={
       "text": "Sets the style of the left border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-left-style\" target=\"_blank\">border-left-style</a>",
       "text": "border-left-style"
     }
@@ -18450,7 +18450,7 @@ module.exports={
       "text": "Sets the width of the left border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-left-width\" target=\"_blank\">border-left-width</a>",
       "text": "border-left-width"
     }
@@ -18473,7 +18473,7 @@ module.exports={
       "text": "A shorthand property for the four border-*-radius properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-radius\" target=\"_blank\">border-radius</a>",
       "text": "border-radius"
     }
@@ -18494,7 +18494,7 @@ module.exports={
       "text": "A shorthand property for all the border-right-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-right\" target=\"_blank\">border-right</a>",
       "text": "border-right"
     }
@@ -18511,7 +18511,7 @@ module.exports={
       "text": "Sets the color of the right border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-right-color\" target=\"_blank\">border-right-color</a>",
       "text": "border-right-color"
     }
@@ -18528,7 +18528,7 @@ module.exports={
       "text": "Sets the style of the right border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-right-style\" target=\"_blank\">border-right-style</a>",
       "text": "border-right-style"
     }
@@ -18545,7 +18545,7 @@ module.exports={
       "text": "Sets the width of the right border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-right-width\" target=\"_blank\">border-right-width</a>",
       "text": "border-right-width"
     }
@@ -18563,7 +18563,7 @@ module.exports={
       "text": "Sets the distance between the borders of adjacent cells"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-spacing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-spacing\" target=\"_blank\">border-spacing</a>",
       "text": "border-spacing"
     }
@@ -18585,7 +18585,7 @@ module.exports={
       "text": "Sets the style of the four borders"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-style\" target=\"_blank\">border-style</a>",
       "text": "border-style"
     }
@@ -18606,7 +18606,7 @@ module.exports={
       "text": "A shorthand property for border-top-width, border-top-style and\n    border-top-color"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top\" target=\"_blank\">border-top</a>",
       "text": "border-top"
     }
@@ -18623,7 +18623,7 @@ module.exports={
       "text": "Sets the color of the top border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-color\" target=\"_blank\">border-top-color</a>",
       "text": "border-top-color"
     }
@@ -18640,7 +18640,7 @@ module.exports={
       "text": "Defines the radius of the border of the top-left corner"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius\" target=\"_blank\">border-top-left-radius</a>",
       "text": "border-top-left-radius"
     }
@@ -18657,7 +18657,7 @@ module.exports={
       "text": "Defines the radius of the border of the top-right corner"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius\" target=\"_blank\">border-top-right-radius</a>",
       "text": "border-top-right-radius"
     }
@@ -18674,7 +18674,7 @@ module.exports={
       "text": "Sets the style of the top border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-style\" target=\"_blank\">border-top-style</a>",
       "text": "border-top-style"
     }
@@ -18691,7 +18691,7 @@ module.exports={
       "text": "Sets the width of the top border"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-top-width\" target=\"_blank\">border-top-width</a>",
       "text": "border-top-width"
     }
@@ -18713,7 +18713,7 @@ module.exports={
       "text": "Sets the width of the four borders"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-width\" target=\"_blank\">border-width</a>",
       "text": "border-width"
     }
@@ -18731,7 +18731,7 @@ module.exports={
       "text": "Sets the elements position, from the bottom of its parent element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/bottom\" target=\"_blank\">bottom</a>",
       "text": "bottom"
     }
@@ -18749,7 +18749,7 @@ module.exports={
       "text": "Sets the behavior of the background and border of an element at page-break, or, for  in-line elements, at line-break."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-decoration-break",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-decoration-break\" target=\"_blank\">box-decoration-break</a>",
       "text": "box-decoration-break"
     }
@@ -18767,7 +18767,7 @@ module.exports={
       "text": "Attaches one or more shadows to an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-shadow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-shadow\" target=\"_blank\">box-shadow</a>",
       "text": "box-shadow"
     }
@@ -18785,7 +18785,7 @@ module.exports={
       "text": "Defines how the width and height of an element are calculated: should \n    they include padding and borders, or not"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-sizing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-sizing\" target=\"_blank\">box-sizing</a>",
       "text": "box-sizing"
     }
@@ -18802,7 +18802,7 @@ module.exports={
       "text": "Specifies whether or not a page-, column-, or region-break should occur \n    after the specified element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-after",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/break-after\" target=\"_blank\">break-after</a>",
       "text": "break-after"
     }
@@ -18819,7 +18819,7 @@ module.exports={
       "text": "Specifies whether or not a page-, column-, or region-break should occur \n    before the specified element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-before",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/break-before\" target=\"_blank\">break-before</a>",
       "text": "break-before"
     }
@@ -18837,7 +18837,7 @@ module.exports={
       "text": "Specifies whether or not a page-, column-, or region-break should occur \n    inside the specified element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/break-inside\" target=\"_blank\">break-inside</a>",
       "text": "break-inside"
     }
@@ -18855,7 +18855,7 @@ module.exports={
       "text": "Specifies the placement of a table caption"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/caption-side",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/caption-side\" target=\"_blank\">caption-side</a>",
       "text": "caption-side"
     }
@@ -18873,7 +18873,7 @@ module.exports={
       "text": "Specifies the color of the cursor (caret) in inputs, textareas, or any \n    element that is editable"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/caret-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/caret-color\" target=\"_blank\">caret-color</a>",
       "text": "caret-color"
     }
@@ -18891,7 +18891,7 @@ module.exports={
       "text": "Specifies on which sides of an element floating elements are not allowed to float"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/clear",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/clear\" target=\"_blank\">clear</a>",
       "text": "clear"
     }
@@ -18908,7 +18908,7 @@ module.exports={
       "text": "Clips an absolutely positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/clip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/clip\" target=\"_blank\">clip</a>",
       "text": "clip"
     }
@@ -18926,7 +18926,7 @@ module.exports={
       "text": "Sets the color of text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/color\" target=\"_blank\">color</a>",
       "text": "color"
     }
@@ -18954,7 +18954,7 @@ module.exports={
       "text": "Specifies the number of columns an element should be divided into"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-count",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-count\" target=\"_blank\">column-count</a>",
       "text": "column-count"
     }
@@ -18972,7 +18972,7 @@ module.exports={
       "text": "Specifies how to fill columns, balanced or not"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-fill",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-fill\" target=\"_blank\">column-fill</a>",
       "text": "column-fill"
     }
@@ -18990,7 +18990,7 @@ module.exports={
       "text": "Specifies the gap between the columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-gap\" target=\"_blank\">column-gap</a>",
       "text": "column-gap"
     }
@@ -19012,7 +19012,7 @@ module.exports={
       "text": "A shorthand property for all the column-rule-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-rule",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-rule\" target=\"_blank\">column-rule</a>",
       "text": "column-rule"
     }
@@ -19029,7 +19029,7 @@ module.exports={
       "text": "Specifies the color of the rule between columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-rule-color\" target=\"_blank\">column-rule-color</a>",
       "text": "column-rule-color"
     }
@@ -19046,7 +19046,7 @@ module.exports={
       "text": "Specifies the style of the rule between columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-rule-style\" target=\"_blank\">column-rule-style</a>",
       "text": "column-rule-style"
     }
@@ -19063,7 +19063,7 @@ module.exports={
       "text": "Specifies the width of the rule between columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-rule-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-rule-width\" target=\"_blank\">column-rule-width</a>",
       "text": "column-rule-width"
     }
@@ -19081,7 +19081,7 @@ module.exports={
       "text": "Specifies how many columns an element should span across"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-span",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-span\" target=\"_blank\">column-span</a>",
       "text": "column-span"
     }
@@ -19099,7 +19099,7 @@ module.exports={
       "text": "Specifies the column width"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-width\" target=\"_blank\">column-width</a>",
       "text": "column-width"
     }
@@ -19120,7 +19120,7 @@ module.exports={
       "text": "A shorthand property for column-width and column-count"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/columns",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/columns\" target=\"_blank\">columns</a>",
       "text": "columns"
     }
@@ -19133,7 +19133,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/contain",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/contain\" target=\"_blank\">contain</a>",
       "text": "contain"
     },
@@ -19155,7 +19155,7 @@ module.exports={
       "text": "Used with the :before and :after pseudo-elements, to insert generated content"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/content",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/content\" target=\"_blank\">content</a>",
       "text": "content"
     }
@@ -19173,7 +19173,7 @@ module.exports={
       "text": "Increases or decreases the value of one or more CSS counters"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/counter-increment",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/counter-increment\" target=\"_blank\">counter-increment</a>",
       "text": "counter-increment"
     }
@@ -19191,7 +19191,7 @@ module.exports={
       "text": "Creates or resets one or more CSS counters"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/counter-reset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/counter-reset\" target=\"_blank\">counter-reset</a>",
       "text": "counter-reset"
     }
@@ -19249,7 +19249,7 @@ module.exports={
       "text": "Specifies the mouse cursor to be displayed when pointing over an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/cursor",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/cursor\" target=\"_blank\">cursor</a>",
       "text": "cursor"
     }
@@ -19267,7 +19267,7 @@ module.exports={
       "text": "Specifies the text direction/writing direction"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/direction",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/direction\" target=\"_blank\">direction</a>",
       "text": "direction"
     }
@@ -19285,7 +19285,7 @@ module.exports={
       "text": "Specifies how a certain HTML element should be displayed"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/display",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/display\" target=\"_blank\">display</a>",
       "text": "display"
     }
@@ -19383,7 +19383,7 @@ module.exports={
       "text": "Specifies whether or not to display borders and background on empty cells in a table"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/empty-cells",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/empty-cells\" target=\"_blank\">empty-cells</a>",
       "text": "empty-cells"
     }
@@ -19425,7 +19425,7 @@ module.exports={
       "text": "A shorthand property for the flex-grow, flex-shrink, and the \n    flex-basis \n    properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex\" target=\"_blank\">flex</a>",
       "text": "flex"
     }
@@ -19443,7 +19443,7 @@ module.exports={
       "text": "Specifies the initial length of a flexible item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-basis",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-basis\" target=\"_blank\">flex-basis</a>",
       "text": "flex-basis"
     }
@@ -19461,7 +19461,7 @@ module.exports={
       "text": "Specifies the direction of the flexible items"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-direction",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-direction\" target=\"_blank\">flex-direction</a>",
       "text": "flex-direction"
     }
@@ -19482,7 +19482,7 @@ module.exports={
       "text": "A shorthand property for the flex-direction and the flex-wrap properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-flow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-flow\" target=\"_blank\">flex-flow</a>",
       "text": "flex-flow"
     }
@@ -19500,7 +19500,7 @@ module.exports={
       "text": "Specifies how much the item will grow relative to the rest"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-grow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-grow\" target=\"_blank\">flex-grow</a>",
       "text": "flex-grow"
     }
@@ -19518,7 +19518,7 @@ module.exports={
       "text": "Specifies how the item will shrink relative to the rest"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-shrink",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-shrink\" target=\"_blank\">flex-shrink</a>",
       "text": "flex-shrink"
     }
@@ -19536,7 +19536,7 @@ module.exports={
       "text": "Specifies whether the flexible items should wrap or not"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/flex-wrap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/flex-wrap\" target=\"_blank\">flex-wrap</a>",
       "text": "flex-wrap"
     }
@@ -19554,7 +19554,7 @@ module.exports={
       "text": "Specifies whether or not a box should float"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/float",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/float\" target=\"_blank\">float</a>",
       "text": "float"
     }
@@ -19610,7 +19610,7 @@ module.exports={
       "text": "A shorthand property for the font-style, font-variant, font-weight, \n    font-size/line-height, and the font-family properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font\" target=\"_blank\">font</a>",
       "text": "font"
     }
@@ -19628,7 +19628,7 @@ module.exports={
       "text": "Specifies the font family for text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-family",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-family\" target=\"_blank\">font-family</a>",
       "text": "font-family"
     }
@@ -19646,7 +19646,7 @@ module.exports={
       "text": "Allows control over advanced typographic features in OpenType fonts"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-feature-settings",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-feature-settings\" target=\"_blank\">font-feature-settings</a>",
       "text": "font-feature-settings"
     }
@@ -19663,7 +19663,7 @@ module.exports={
       "text": "Controls the usage of the kerning information (how letters are spaced)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-kerning",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-kerning\" target=\"_blank\">font-kerning</a>",
       "text": "font-kerning"
     }
@@ -19675,7 +19675,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-language-override",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-language-override\" target=\"_blank\">font-language-override</a>",
       "text": "font-language-override"
     },
@@ -19691,7 +19691,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing\" target=\"_blank\">font-optical-sizing</a>",
       "text": "font-optical-sizing"
     },
@@ -19713,7 +19713,7 @@ module.exports={
       "text": "Specifies the font size of text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-size\" target=\"_blank\">font-size</a>",
       "text": "font-size"
     }
@@ -19731,7 +19731,7 @@ module.exports={
       "text": "Preserves the readability of text when font fallback occurs"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-size-adjust",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-size-adjust\" target=\"_blank\">font-size-adjust</a>",
       "text": "font-size-adjust"
     }
@@ -19749,7 +19749,7 @@ module.exports={
       "text": "Selects a normal, condensed, or expanded face from a font family"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-stretch",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-stretch\" target=\"_blank\">font-stretch</a>",
       "text": "font-stretch"
     }
@@ -19767,7 +19767,7 @@ module.exports={
       "text": "Specifies the font style for text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-style\" target=\"_blank\">font-style</a>",
       "text": "font-style"
     }
@@ -19779,7 +19779,7 @@ module.exports={
     "default": "weight style",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-synthesis\" target=\"_blank\">font-synthesis</a>",
       "text": "font-synthesis"
     },
@@ -19801,7 +19801,7 @@ module.exports={
       "text": "Specifies whether or not a text should be displayed in a small-caps font"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant\" target=\"_blank\">font-variant</a>",
       "text": "font-variant"
     }
@@ -19813,7 +19813,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates\" target=\"_blank\">font-variant-alternates</a>",
       "text": "font-variant-alternates"
     },
@@ -19834,7 +19834,7 @@ module.exports={
       "text": "Controls the usage of alternate glyphs for capital letters"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-caps",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-caps\" target=\"_blank\">font-variant-caps</a>",
       "text": "font-variant-caps"
     }
@@ -19846,7 +19846,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian\" target=\"_blank\">font-variant-east-asian</a>",
       "text": "font-variant-east-asian"
     },
@@ -19862,7 +19862,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures\" target=\"_blank\">font-variant-ligatures</a>",
       "text": "font-variant-ligatures"
     },
@@ -19879,7 +19879,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric\" target=\"_blank\">font-variant-numeric</a>",
       "text": "font-variant-numeric"
     },
@@ -19895,7 +19895,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variant-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variant-position\" target=\"_blank\">font-variant-position</a>",
       "text": "font-variant-position"
     },
@@ -19911,7 +19911,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-variation-settings",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-variation-settings\" target=\"_blank\">font-variation-settings</a>",
       "text": "font-variation-settings"
     },
@@ -19933,7 +19933,7 @@ module.exports={
       "text": "Specifies the weight of a font"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/font-weight",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-weight\" target=\"_blank\">font-weight</a>",
       "text": "font-weight"
     }
@@ -19948,7 +19948,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/gap\" target=\"_blank\">gap</a>",
       "text": "gap"
     },
@@ -19980,7 +19980,7 @@ module.exports={
       "text": "A shorthand property for the grid-template-rows, \n    grid-template-columns, grid-template-areas, grid-auto-rows, \n    grid-auto-columns, and the grid-auto-flow properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid\" target=\"_blank\">grid</a>",
       "text": "grid"
     }
@@ -20002,7 +20002,7 @@ module.exports={
       "text": "Either specifies a name for the grid item, or this property is a shorthand property for the grid-row-start, grid-column-start, grid-row-end, and grid-column-end properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-area",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-area\" target=\"_blank\">grid-area</a>",
       "text": "grid-area"
     }
@@ -20019,7 +20019,7 @@ module.exports={
       "text": "Specifies a default column size"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-columns",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-auto-columns\" target=\"_blank\">grid-auto-columns</a>",
       "text": "grid-auto-columns"
     }
@@ -20036,7 +20036,7 @@ module.exports={
       "text": "Specifies how auto-placed items are inserted in the grid"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow\" target=\"_blank\">grid-auto-flow</a>",
       "text": "grid-auto-flow"
     }
@@ -20053,7 +20053,7 @@ module.exports={
       "text": "Specifies a default row size"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-rows",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-auto-rows\" target=\"_blank\">grid-auto-rows</a>",
       "text": "grid-auto-rows"
     }
@@ -20074,7 +20074,7 @@ module.exports={
       "text": "A shorthand property for the grid-column-start and the grid-column-end properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-column",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-column\" target=\"_blank\">grid-column</a>",
       "text": "grid-column"
     }
@@ -20091,7 +20091,7 @@ module.exports={
       "text": "Specifies where to end the grid item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-column-end\" target=\"_blank\">grid-column-end</a>",
       "text": "grid-column-end"
     }
@@ -20108,7 +20108,7 @@ module.exports={
       "text": "Specifies the size of the gap between columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/column-gap\" target=\"_blank\">grid-column-gap</a>",
       "text": "grid-column-gap"
     }
@@ -20125,7 +20125,7 @@ module.exports={
       "text": "Specifies where to start the grid item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-column-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-column-start\" target=\"_blank\">grid-column-start</a>",
       "text": "grid-column-start"
     }
@@ -20145,7 +20145,7 @@ module.exports={
       "text": "A shorthand property for the grid-row-gap and grid-column-gap properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/gap\" target=\"_blank\">grid-gap</a>",
       "text": "grid-gap"
     }
@@ -20166,7 +20166,7 @@ module.exports={
       "text": "A shorthand property for the grid-row-start and the grid-row-end properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-row",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-row\" target=\"_blank\">grid-row</a>",
       "text": "grid-row"
     }
@@ -20183,7 +20183,7 @@ module.exports={
       "text": "Specifies where to end the grid item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-row-end\" target=\"_blank\">grid-row-end</a>",
       "text": "grid-row-end"
     }
@@ -20200,7 +20200,7 @@ module.exports={
       "text": "Specifies the size of the gap between rows"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/row-gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/row-gap\" target=\"_blank\">grid-row-gap</a>",
       "text": "grid-row-gap"
     }
@@ -20217,7 +20217,7 @@ module.exports={
       "text": "Specifies where to start the grid item"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-row-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-row-start\" target=\"_blank\">grid-row-start</a>",
       "text": "grid-row-start"
     }
@@ -20238,7 +20238,7 @@ module.exports={
       "text": "A shorthand property for the grid-template-rows, grid-template-columns \n    and grid-areas properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-template\" target=\"_blank\">grid-template</a>",
       "text": "grid-template"
     }
@@ -20255,7 +20255,7 @@ module.exports={
       "text": "Specifies how to display columns and rows, using named grid items"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-areas",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-template-areas\" target=\"_blank\">grid-template-areas</a>",
       "text": "grid-template-areas"
     }
@@ -20273,7 +20273,7 @@ module.exports={
       "text": "Specifies the size of the columns, and how many columns in a grid layout"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-columns",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-template-columns\" target=\"_blank\">grid-template-columns</a>",
       "text": "grid-template-columns"
     }
@@ -20291,7 +20291,7 @@ module.exports={
       "text": "Specifies the size of the rows in a grid layout"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/grid-template-rows",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/grid-template-rows\" target=\"_blank\">grid-template-rows</a>",
       "text": "grid-template-rows"
     }
@@ -20309,7 +20309,7 @@ module.exports={
       "text": "Specifies whether a punctuation character may be placed outside the line box"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation\" target=\"_blank\">hanging-punctuation</a>",
       "text": "hanging-punctuation"
     }
@@ -20327,7 +20327,7 @@ module.exports={
       "text": "Sets the height of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/height",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/height\" target=\"_blank\">height</a>",
       "text": "height"
     }
@@ -20345,7 +20345,7 @@ module.exports={
       "text": "Sets how to split words to improve the layout of paragraphs"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/hyphens",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/hyphens\" target=\"_blank\">hyphens</a>",
       "text": "hyphens"
     }
@@ -20367,7 +20367,7 @@ module.exports={
     "default": "0deg",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/image-orientation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/image-orientation\" target=\"_blank\">image-orientation</a>",
       "text": "image-orientation"
     },
@@ -20384,7 +20384,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/image-rendering",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/image-rendering\" target=\"_blank\">image-rendering</a>",
       "text": "image-rendering"
     },
@@ -20397,7 +20397,7 @@ module.exports={
     "urls": {},
     "default": "1dppx",
     "status": "experimental",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">image-resolution</a>",
       "text": "image-resolution"
     },
@@ -20423,7 +20423,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset\" target=\"_blank\">inset</a>",
       "text": "inset"
     },
@@ -20439,7 +20439,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-block\" target=\"_blank\">inset-block</a>",
       "text": "inset-block"
     },
@@ -20455,7 +20455,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-block-end\" target=\"_blank\">inset-block-end</a>",
       "text": "inset-block-end"
     },
@@ -20471,7 +20471,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-block-start\" target=\"_blank\">inset-block-start</a>",
       "text": "inset-block-start"
     },
@@ -20487,7 +20487,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-inline\" target=\"_blank\">inset-inline</a>",
       "text": "inset-inline"
     },
@@ -20503,7 +20503,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-inline-end\" target=\"_blank\">inset-inline-end</a>",
       "text": "inset-inline-end"
     },
@@ -20519,7 +20519,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inset-inline-start\" target=\"_blank\">inset-inline-start</a>",
       "text": "inset-inline-start"
     },
@@ -20541,7 +20541,7 @@ module.exports={
       "text": "Defines whether an element must create a new stacking content"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/isolation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/isolation\" target=\"_blank\">isolation</a>",
       "text": "isolation"
     }
@@ -20559,7 +20559,7 @@ module.exports={
       "text": "Specifies the alignment between the items inside a flexible container when the items do not use all available space"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/justify-content",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/justify-content\" target=\"_blank\">justify-content</a>",
       "text": "justify-content"
     }
@@ -20571,7 +20571,7 @@ module.exports={
     "default": "legacy",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/justify-items",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/justify-items\" target=\"_blank\">justify-items</a>",
       "text": "justify-items"
     },
@@ -20587,7 +20587,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/justify-self",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/justify-self\" target=\"_blank\">justify-self</a>",
       "text": "justify-self"
     },
@@ -20609,7 +20609,7 @@ module.exports={
       "text": "Specifies the left position of a positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/left\" target=\"_blank\">left</a>",
       "text": "left"
     }
@@ -20627,7 +20627,7 @@ module.exports={
       "text": "Increases or decreases the space between characters in a text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/letter-spacing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/letter-spacing\" target=\"_blank\">letter-spacing</a>",
       "text": "letter-spacing"
     }
@@ -20639,7 +20639,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/line-break",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/line-break\" target=\"_blank\">line-break</a>",
       "text": "line-break"
     },
@@ -20661,7 +20661,7 @@ module.exports={
       "text": "Sets the line height"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/line-height",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/line-height\" target=\"_blank\">line-height</a>",
       "text": "line-height"
     }
@@ -20673,7 +20673,7 @@ module.exports={
     "default": "0",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/line-height-step",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/line-height-step\" target=\"_blank\">line-height-step</a>",
       "text": "line-height-step"
     },
@@ -20739,7 +20739,7 @@ module.exports={
       "text": "Sets all the properties for a list in one declaration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/list-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/list-style\" target=\"_blank\">list-style</a>",
       "text": "list-style"
     }
@@ -20756,7 +20756,7 @@ module.exports={
       "text": "Specifies an image as the list-item marker"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/list-style-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/list-style-image\" target=\"_blank\">list-style-image</a>",
       "text": "list-style-image"
     }
@@ -20773,7 +20773,7 @@ module.exports={
       "text": "Specifies the position of the list-item markers (bullet points)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/list-style-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/list-style-position\" target=\"_blank\">list-style-position</a>",
       "text": "list-style-position"
     }
@@ -20790,7 +20790,7 @@ module.exports={
       "text": "Specifies the type of list-item marker"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/list-style-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/list-style-type\" target=\"_blank\">list-style-type</a>",
       "text": "list-style-type"
     }
@@ -20813,7 +20813,7 @@ module.exports={
       "text": "Sets all the margin properties in one declaration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin\" target=\"_blank\">margin</a>",
       "text": "margin"
     }
@@ -20830,7 +20830,7 @@ module.exports={
       "text": "Sets the bottom margin of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-bottom\" target=\"_blank\">margin-bottom</a>",
       "text": "margin-bottom"
     }
@@ -20847,7 +20847,7 @@ module.exports={
       "text": "Sets the left margin of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-left\" target=\"_blank\">margin-left</a>",
       "text": "margin-left"
     }
@@ -20864,7 +20864,7 @@ module.exports={
       "text": "Sets the right margin of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-right\" target=\"_blank\">margin-right</a>",
       "text": "margin-right"
     }
@@ -20881,7 +20881,7 @@ module.exports={
       "text": "Sets the top margin of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-top\" target=\"_blank\">margin-top</a>",
       "text": "margin-top"
     }
@@ -20953,7 +20953,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/max-block-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/max-block-size\" target=\"_blank\">max-block-size</a>",
       "text": "max-block-size"
     },
@@ -20975,7 +20975,7 @@ module.exports={
       "text": "Sets the maximum height of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/max-height",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/max-height\" target=\"_blank\">max-height</a>",
       "text": "max-height"
     }
@@ -20987,7 +20987,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/max-inline-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/max-inline-size\" target=\"_blank\">max-inline-size</a>",
       "text": "max-inline-size"
     },
@@ -21009,7 +21009,7 @@ module.exports={
       "text": "Sets the maximum width of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/max-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/max-width\" target=\"_blank\">max-width</a>",
       "text": "max-width"
     }
@@ -21021,7 +21021,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/min-block-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/min-block-size\" target=\"_blank\">min-block-size</a>",
       "text": "min-block-size"
     },
@@ -21043,7 +21043,7 @@ module.exports={
       "text": "Sets the minimum height of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/min-height",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/min-height\" target=\"_blank\">min-height</a>",
       "text": "min-height"
     }
@@ -21055,7 +21055,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/min-inline-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/min-inline-size\" target=\"_blank\">min-inline-size</a>",
       "text": "min-inline-size"
     },
@@ -21077,7 +21077,7 @@ module.exports={
       "text": "Sets the minimum width of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/min-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/min-width\" target=\"_blank\">min-width</a>",
       "text": "min-width"
     }
@@ -21095,7 +21095,7 @@ module.exports={
       "text": "Specifies how an element's content should blend with its direct parent background"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode\" target=\"_blank\">mix-blend-mode</a>",
       "text": "mix-blend-mode"
     }
@@ -21173,7 +21173,7 @@ module.exports={
       "text": "Specifies how the contents of a replaced element should be fitted to the box established by its used height and width"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/object-fit\" target=\"_blank\">object-fit</a>",
       "text": "object-fit"
     }
@@ -21191,7 +21191,7 @@ module.exports={
       "text": "Specifies the alignment of the replaced element inside its box"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/object-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/object-position\" target=\"_blank\">object-position</a>",
       "text": "object-position"
     }
@@ -21209,7 +21209,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/offset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/offset\" target=\"_blank\">offset</a>",
       "text": "offset"
     },
@@ -21225,7 +21225,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://css-tricks.com/almanac/properties/o/offset-anchor/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/o/offset-anchor/\" target=\"_blank\">offset-anchor</a>",
       "text": "offset-anchor"
     },
@@ -21242,7 +21242,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/offset-distance",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/offset-distance\" target=\"_blank\">offset-distance</a>",
       "text": "offset-distance"
     },
@@ -21259,7 +21259,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/offset-path",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/offset-path\" target=\"_blank\">offset-path</a>",
       "text": "offset-path"
     },
@@ -21272,7 +21272,7 @@ module.exports={
     "urls": {},
     "default": "auto",
     "status": "experimental",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">offset-position</a>",
       "text": "offset-position"
     },
@@ -21289,7 +21289,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/offset-rotate\" target=\"_blank\">offset-rotate</a>",
       "text": "offset-rotate"
     },
@@ -21311,7 +21311,7 @@ module.exports={
       "text": "Sets the opacity level for an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/opacity",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/opacity\" target=\"_blank\">opacity</a>",
       "text": "opacity"
     }
@@ -21329,7 +21329,7 @@ module.exports={
       "text": "Sets the order of the flexible item, relative to the rest"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/order",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/order\" target=\"_blank\">order</a>",
       "text": "order"
     }
@@ -21342,7 +21342,7 @@ module.exports={
     "default": "2",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/orphans",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/orphans\" target=\"_blank\">orphans</a>",
       "text": "orphans"
     },
@@ -21368,7 +21368,7 @@ module.exports={
       "text": "A shorthand property for the outline-width, outline-style, and \n    the outline-color properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline\" target=\"_blank\">outline</a>",
       "text": "outline"
     }
@@ -21385,7 +21385,7 @@ module.exports={
       "text": "Sets the color of an outline"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline-color\" target=\"_blank\">outline-color</a>",
       "text": "outline-color"
     }
@@ -21403,7 +21403,7 @@ module.exports={
       "text": "Offsets an outline, and draws it beyond the border edge"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline-offset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline-offset\" target=\"_blank\">outline-offset</a>",
       "text": "outline-offset"
     }
@@ -21420,7 +21420,7 @@ module.exports={
       "text": "Sets the style of an outline"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline-style\" target=\"_blank\">outline-style</a>",
       "text": "outline-style"
     }
@@ -21437,7 +21437,7 @@ module.exports={
       "text": "Sets the width of an outline"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/outline-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/outline-width\" target=\"_blank\">outline-width</a>",
       "text": "outline-width"
     }
@@ -21455,7 +21455,7 @@ module.exports={
       "text": "Specifies what happens if content overflows an element's box"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow\" target=\"_blank\">overflow</a>",
       "text": "overflow"
     }
@@ -21478,7 +21478,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow-wrap\" target=\"_blank\">overflow-wrap</a>",
       "text": "overflow-wrap"
     },
@@ -21499,7 +21499,7 @@ module.exports={
       "text": "Specifies whether or not to clip the left/right edges of the content, if it overflows the element's content area"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow-x\" target=\"_blank\">overflow-x</a>",
       "text": "overflow-x"
     }
@@ -21516,7 +21516,7 @@ module.exports={
       "text": "Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's content area"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow-y\" target=\"_blank\">overflow-y</a>",
       "text": "overflow-y"
     }
@@ -21539,7 +21539,7 @@ module.exports={
       "text": "A shorthand property for all the padding-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding\" target=\"_blank\">padding</a>",
       "text": "padding"
     }
@@ -21556,7 +21556,7 @@ module.exports={
       "text": "Sets the bottom padding of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-bottom\" target=\"_blank\">padding-bottom</a>",
       "text": "padding-bottom"
     }
@@ -21573,7 +21573,7 @@ module.exports={
       "text": "Sets the left padding of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-left\" target=\"_blank\">padding-left</a>",
       "text": "padding-left"
     }
@@ -21590,7 +21590,7 @@ module.exports={
       "text": "Sets the right padding of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-right\" target=\"_blank\">padding-right</a>",
       "text": "padding-right"
     }
@@ -21607,7 +21607,7 @@ module.exports={
       "text": "Sets the top padding of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-top\" target=\"_blank\">padding-top</a>",
       "text": "padding-top"
     }
@@ -21634,7 +21634,7 @@ module.exports={
       "text": "Sets the page-break behavior after an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/page-break-after",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/page-break-after\" target=\"_blank\">page-break-after</a>",
       "text": "page-break-after"
     }
@@ -21651,7 +21651,7 @@ module.exports={
       "text": "Sets the page-break behavior before an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/page-break-before",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/page-break-before\" target=\"_blank\">page-break-before</a>",
       "text": "page-break-before"
     }
@@ -21668,7 +21668,7 @@ module.exports={
       "text": "Sets the page-break behavior inside an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/page-break-inside",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/page-break-inside\" target=\"_blank\">page-break-inside</a>",
       "text": "page-break-inside"
     }
@@ -21726,7 +21726,7 @@ module.exports={
       "text": "Gives a 3D-positioned element some perspective"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/perspective",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/perspective\" target=\"_blank\">perspective</a>",
       "text": "perspective"
     }
@@ -21744,7 +21744,7 @@ module.exports={
       "text": "Defines at which position the user is looking at the 3D-positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/perspective-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/perspective-origin\" target=\"_blank\">perspective-origin</a>",
       "text": "perspective-origin"
     }
@@ -21776,7 +21776,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/place-content",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/place-content\" target=\"_blank\">place-content</a>",
       "text": "place-content"
     },
@@ -21796,7 +21796,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/place-items",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/place-items\" target=\"_blank\">place-items</a>",
       "text": "place-items"
     },
@@ -21815,7 +21815,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/place-self",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/place-self\" target=\"_blank\">place-self</a>",
       "text": "place-self"
     },
@@ -21847,7 +21847,7 @@ module.exports={
       "text": "Specifies the type of positioning method used for an element (static, relative, absolute or fixed)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/position\" target=\"_blank\">position</a>",
       "text": "position"
     }
@@ -21885,7 +21885,7 @@ module.exports={
       "text": "Sets the type of quotation marks for embedded quotations"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/quotes",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/quotes\" target=\"_blank\">quotes</a>",
       "text": "quotes"
     }
@@ -21953,7 +21953,7 @@ module.exports={
       "text": "Defines if (and how) an element is resizable by the user"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/resize",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/resize\" target=\"_blank\">resize</a>",
       "text": "resize"
     }
@@ -22011,7 +22011,7 @@ module.exports={
       "text": "Specifies the right position of a positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/right\" target=\"_blank\">right</a>",
       "text": "right"
     }
@@ -22023,7 +22023,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/rotate",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/rotate\" target=\"_blank\">rotate</a>",
       "text": "rotate"
     },
@@ -22059,7 +22059,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/row-gap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/row-gap\" target=\"_blank\">row-gap</a>",
       "text": "row-gap"
     },
@@ -22075,7 +22075,7 @@ module.exports={
     "default": "space-around",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/ruby-align\" target=\"_blank\">ruby-align</a>",
       "text": "ruby-align"
     },
@@ -22101,7 +22101,7 @@ module.exports={
     "default": "over",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/ruby-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/ruby-position\" target=\"_blank\">ruby-position</a>",
       "text": "ruby-position"
     },
@@ -22127,7 +22127,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scale",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scale\" target=\"_blank\">scale</a>",
       "text": "scale"
     },
@@ -22149,7 +22149,7 @@ module.exports={
       "text": "Specifies whether to smoothly animate the scroll position in a scrollable box, instead of a straight jump"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-behavior\" target=\"_blank\">scroll-behavior</a>",
       "text": "scroll-behavior"
     }
@@ -22162,7 +22162,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin\" target=\"_blank\">scroll-margin</a>",
       "text": "scroll-margin"
     },
@@ -22178,7 +22178,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block\" target=\"_blank\">scroll-margin-block</a>",
       "text": "scroll-margin-block"
     },
@@ -22194,7 +22194,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end\" target=\"_blank\">scroll-margin-block-end</a>",
       "text": "scroll-margin-block-end"
     },
@@ -22210,7 +22210,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start\" target=\"_blank\">scroll-margin-block-start</a>",
       "text": "scroll-margin-block-start"
     },
@@ -22226,7 +22226,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom\" target=\"_blank\">scroll-margin-bottom</a>",
       "text": "scroll-margin-bottom"
     },
@@ -22242,7 +22242,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline\" target=\"_blank\">scroll-margin-inline</a>",
       "text": "scroll-margin-inline"
     },
@@ -22258,7 +22258,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end\" target=\"_blank\">scroll-margin-inline-end</a>",
       "text": "scroll-margin-inline-end"
     },
@@ -22274,7 +22274,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start\" target=\"_blank\">scroll-margin-inline-start</a>",
       "text": "scroll-margin-inline-start"
     },
@@ -22290,7 +22290,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left\" target=\"_blank\">scroll-margin-left</a>",
       "text": "scroll-margin-left"
     },
@@ -22306,7 +22306,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right\" target=\"_blank\">scroll-margin-right</a>",
       "text": "scroll-margin-right"
     },
@@ -22322,7 +22322,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top\" target=\"_blank\">scroll-margin-top</a>",
       "text": "scroll-margin-top"
     },
@@ -22339,7 +22339,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding\" target=\"_blank\">scroll-padding</a>",
       "text": "scroll-padding"
     },
@@ -22355,7 +22355,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block\" target=\"_blank\">scroll-padding-block</a>",
       "text": "scroll-padding-block"
     },
@@ -22371,7 +22371,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end\" target=\"_blank\">scroll-padding-block-end</a>",
       "text": "scroll-padding-block-end"
     },
@@ -22387,7 +22387,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start\" target=\"_blank\">scroll-padding-block-start</a>",
       "text": "scroll-padding-block-start"
     },
@@ -22403,7 +22403,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom\" target=\"_blank\">scroll-padding-bottom</a>",
       "text": "scroll-padding-bottom"
     },
@@ -22419,7 +22419,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline\" target=\"_blank\">scroll-padding-inline</a>",
       "text": "scroll-padding-inline"
     },
@@ -22435,7 +22435,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end\" target=\"_blank\">scroll-padding-inline-end</a>",
       "text": "scroll-padding-inline-end"
     },
@@ -22451,7 +22451,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start\" target=\"_blank\">scroll-padding-inline-start</a>",
       "text": "scroll-padding-inline-start"
     },
@@ -22467,7 +22467,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left\" target=\"_blank\">scroll-padding-left</a>",
       "text": "scroll-padding-left"
     },
@@ -22483,7 +22483,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right\" target=\"_blank\">scroll-padding-right</a>",
       "text": "scroll-padding-right"
     },
@@ -22499,7 +22499,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top\" target=\"_blank\">scroll-padding-top</a>",
       "text": "scroll-padding-top"
     },
@@ -22516,7 +22516,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align\" target=\"_blank\">scroll-snap-align</a>",
       "text": "scroll-snap-align"
     },
@@ -22533,7 +22533,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type\" target=\"_blank\">scroll-snap-type</a>",
       "text": "scroll-snap-type"
     },
@@ -22549,7 +22549,7 @@ module.exports={
     "default": "0.0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold\" target=\"_blank\">shape-image-threshold</a>",
       "text": "shape-image-threshold"
     },
@@ -22575,7 +22575,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/shape-margin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/shape-margin\" target=\"_blank\">shape-margin</a>",
       "text": "shape-margin"
     },
@@ -22592,7 +22592,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/shape-outside",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/shape-outside\" target=\"_blank\">shape-outside</a>",
       "text": "shape-outside"
     },
@@ -22616,7 +22616,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/speak/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/speak/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/speak/\" target=\"_blank\">speak</a>",
       "text": "speak"
     },
@@ -22708,7 +22708,7 @@ module.exports={
       "text": "Specifies the width of a tab character"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/tab-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/tab-size\" target=\"_blank\">tab-size</a>",
       "text": "tab-size"
     }
@@ -22726,7 +22726,7 @@ module.exports={
       "text": "Defines the algorithm used to lay out table cells, rows, and columns"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/table-layout",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/table-layout\" target=\"_blank\">table-layout</a>",
       "text": "table-layout"
     }
@@ -22784,7 +22784,7 @@ module.exports={
       "text": "Specifies the horizontal alignment of text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-align\" target=\"_blank\">text-align</a>",
       "text": "text-align"
     }
@@ -22802,7 +22802,7 @@ module.exports={
       "text": "Describes how the last line of a block or a line right before a forced line break is aligned when text-align is \"justify\""
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-align-last",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-align-last\" target=\"_blank\">text-align-last</a>",
       "text": "text-align-last"
     }
@@ -22814,7 +22814,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-combine-upright",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-combine-upright\" target=\"_blank\">text-combine-upright</a>",
       "text": "text-combine-upright"
     },
@@ -22840,7 +22840,7 @@ module.exports={
       "text": "Specifies the decoration added to text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration\" target=\"_blank\">text-decoration</a>",
       "text": "text-decoration"
     }
@@ -22858,7 +22858,7 @@ module.exports={
       "text": "Specifies the color of the text-decoration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-color\" target=\"_blank\">text-decoration-color</a>",
       "text": "text-decoration-color"
     }
@@ -22876,7 +22876,7 @@ module.exports={
       "text": "Specifies the type of line in a text-decoration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-line",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-line\" target=\"_blank\">text-decoration-line</a>",
       "text": "text-decoration-line"
     }
@@ -22889,7 +22889,7 @@ module.exports={
     "default": "objects",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip\" target=\"_blank\">text-decoration-skip</a>",
       "text": "text-decoration-skip"
     },
@@ -22906,7 +22906,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink\" target=\"_blank\">text-decoration-skip-ink</a>",
       "text": "text-decoration-skip-ink"
     },
@@ -22928,7 +22928,7 @@ module.exports={
       "text": "Specifies the style of the line in a text decoration"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-style\" target=\"_blank\">text-decoration-style</a>",
       "text": "text-decoration-style"
     }
@@ -22943,7 +22943,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-emphasis\" target=\"_blank\">text-emphasis</a>",
       "text": "text-emphasis"
     },
@@ -22959,7 +22959,7 @@ module.exports={
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color\" target=\"_blank\">text-emphasis-color</a>",
       "text": "text-emphasis-color"
     },
@@ -22975,7 +22975,7 @@ module.exports={
     "default": "over right",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position\" target=\"_blank\">text-emphasis-position</a>",
       "text": "text-emphasis-position"
     },
@@ -22991,7 +22991,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style\" target=\"_blank\">text-emphasis-style</a>",
       "text": "text-emphasis-style"
     },
@@ -23023,7 +23023,7 @@ module.exports={
       "text": "Specifies the indentation of the first line in a text-block"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-indent",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-indent\" target=\"_blank\">text-indent</a>",
       "text": "text-indent"
     }
@@ -23041,7 +23041,7 @@ module.exports={
       "text": "Specifies the justification method used when text-align is \"justify\""
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-justify",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-justify\" target=\"_blank\">text-justify</a>",
       "text": "text-justify"
     }
@@ -23053,7 +23053,7 @@ module.exports={
     "default": "mixed",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-orientation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-orientation\" target=\"_blank\">text-orientation</a>",
       "text": "text-orientation"
     },
@@ -23085,7 +23085,7 @@ module.exports={
       "text": "Specifies what should happen when text overflows the containing element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-overflow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-overflow\" target=\"_blank\">text-overflow</a>",
       "text": "text-overflow"
     }
@@ -23098,7 +23098,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-rendering",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-rendering\" target=\"_blank\">text-rendering</a>",
       "text": "text-rendering"
     },
@@ -23120,7 +23120,7 @@ module.exports={
       "text": "Adds shadow to text "
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-shadow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-shadow\" target=\"_blank\">text-shadow</a>",
       "text": "text-shadow"
     }
@@ -23132,7 +23132,7 @@ module.exports={
     "default": "autoForSmartphoneBrowsersSupportingInflation",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-size-adjust\" target=\"_blank\">text-size-adjust</a>",
       "text": "text-size-adjust"
     },
@@ -23164,7 +23164,7 @@ module.exports={
       "text": "Controls the capitalization of text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-transform",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-transform\" target=\"_blank\">text-transform</a>",
       "text": "text-transform"
     }
@@ -23177,7 +23177,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-underline-position\" target=\"_blank\">text-underline-position</a>",
       "text": "text-underline-position"
     },
@@ -23209,7 +23209,7 @@ module.exports={
       "text": "Specifies the top position of a positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/top",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/top\" target=\"_blank\">top</a>",
       "text": "top"
     }
@@ -23227,7 +23227,7 @@ module.exports={
       "text": "Applies a 2D or 3D transformation to an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transform",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transform\" target=\"_blank\">transform</a>",
       "text": "transform"
     }
@@ -23245,7 +23245,7 @@ module.exports={
       "text": "Allows you to change the position on transformed elements"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transform-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transform-origin\" target=\"_blank\">transform-origin</a>",
       "text": "transform-origin"
     }
@@ -23263,7 +23263,7 @@ module.exports={
       "text": "Specifies how nested elements are rendered in 3D space"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transform-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transform-style\" target=\"_blank\">transform-style</a>",
       "text": "transform-style"
     }
@@ -23286,7 +23286,7 @@ module.exports={
       "text": "A shorthand property for all the transition-* properties"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition\" target=\"_blank\">transition</a>",
       "text": "transition"
     }
@@ -23304,7 +23304,7 @@ module.exports={
       "text": "Specifies when the transition effect will start"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition-delay",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition-delay\" target=\"_blank\">transition-delay</a>",
       "text": "transition-delay"
     }
@@ -23322,7 +23322,7 @@ module.exports={
       "text": "Specifies how many seconds or milliseconds a transition effect takes to complete"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition-duration",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition-duration\" target=\"_blank\">transition-duration</a>",
       "text": "transition-duration"
     }
@@ -23340,7 +23340,7 @@ module.exports={
       "text": "Specifies the name of the CSS property the transition effect is for"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition-property",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition-property\" target=\"_blank\">transition-property</a>",
       "text": "transition-property"
     }
@@ -23358,7 +23358,7 @@ module.exports={
       "text": "Specifies the speed curve of the transition effect"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/transition-timing-function",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transition-timing-function\" target=\"_blank\">transition-timing-function</a>",
       "text": "transition-timing-function"
     }
@@ -23370,7 +23370,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/translate",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/translate\" target=\"_blank\">translate</a>",
       "text": "translate"
     },
@@ -23392,7 +23392,7 @@ module.exports={
       "text": "Used together with the direction property to set or return whether the text should be overridden to support multiple languages in the same document"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/unicode-bidi",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/unicode-bidi\" target=\"_blank\">unicode-bidi</a>",
       "text": "unicode-bidi"
     }
@@ -23410,7 +23410,7 @@ module.exports={
       "text": "Specifies whether the text of an element can be selected"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/user-select",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/user-select\" target=\"_blank\">user-select</a>",
       "text": "user-select"
     }
@@ -23428,7 +23428,7 @@ module.exports={
       "text": "Sets the vertical alignment of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/vertical-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/vertical-align\" target=\"_blank\">vertical-align</a>",
       "text": "vertical-align"
     }
@@ -23446,7 +23446,7 @@ module.exports={
       "text": "Specifies whether or not an element is visible"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/visibility",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/visibility\" target=\"_blank\">visibility</a>",
       "text": "visibility"
     }
@@ -23554,7 +23554,7 @@ module.exports={
       "text": "Specifies how white-space inside an element is handled"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/white-space",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/white-space\" target=\"_blank\">white-space</a>",
       "text": "white-space"
     }
@@ -23567,7 +23567,7 @@ module.exports={
     "default": "2",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/widows",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/widows\" target=\"_blank\">widows</a>",
       "text": "widows"
     },
@@ -23589,7 +23589,7 @@ module.exports={
       "text": "Sets the width of an element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/width\" target=\"_blank\">width</a>",
       "text": "width"
     }
@@ -23602,7 +23602,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/will-change",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/will-change\" target=\"_blank\">will-change</a>",
       "text": "will-change"
     },
@@ -23624,7 +23624,7 @@ module.exports={
       "text": "Specifies how words should break when reaching the end of a line"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/word-break",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/word-break\" target=\"_blank\">word-break</a>",
       "text": "word-break"
     }
@@ -23642,7 +23642,7 @@ module.exports={
       "text": "Increases or decreases the space between words in a text"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/word-spacing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/word-spacing\" target=\"_blank\">word-spacing</a>",
       "text": "word-spacing"
     }
@@ -23659,7 +23659,7 @@ module.exports={
       "text": "Allows long, unbreakable words to be broken and wrap to the next line"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overflow-wrap\" target=\"_blank\">word-wrap</a>",
       "text": "word-wrap"
     }
@@ -23677,7 +23677,7 @@ module.exports={
       "text": "Specifies whether lines of text are laid out horizontally or vertically"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/writing-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/writing-mode\" target=\"_blank\">writing-mode</a>",
       "text": "writing-mode"
     }
@@ -23695,7 +23695,7 @@ module.exports={
       "text": "Sets the stack order of a positioned element"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/z-index",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/z-index\" target=\"_blank\">z-index</a>",
       "text": "z-index"
     }
@@ -23708,7 +23708,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/clip-path",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/clip-path\" target=\"_blank\">clip-path</a>",
       "text": "clip-path"
     },
@@ -23743,7 +23743,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask\" target=\"_blank\">mask</a>",
       "text": "mask"
     },
@@ -23775,7 +23775,7 @@ module.exports={
       "text": "Defines effects (e.g. blurring or color shifting) on an element before the element is displayed"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/filter",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/filter\" target=\"_blank\">filter</a>",
       "text": "filter"
     }
@@ -23843,7 +23843,7 @@ module.exports={
       "text": "Defines whether or not an element reacts to pointer events"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/pointer-events",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/pointer-events\" target=\"_blank\">pointer-events</a>",
       "text": "pointer-events"
     }
@@ -23883,7 +23883,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/f/fill/"
     },
     "url": "https://css-tricks.com/almanac/properties/f/fill/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/f/fill/\" target=\"_blank\">fill</a>",
       "text": "fill"
     },
@@ -23967,7 +23967,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke/\" target=\"_blank\">stroke</a>",
       "text": "stroke"
     },
@@ -23981,7 +23981,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-dasharray/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-dasharray/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-dasharray/\" target=\"_blank\">stroke-dasharray</a>",
       "text": "stroke-dasharray"
     },
@@ -23995,7 +23995,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-dashoffset/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-dashoffset/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-dashoffset/\" target=\"_blank\">stroke-dashoffset</a>",
       "text": "stroke-dashoffset"
     },
@@ -24009,7 +24009,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-linecap/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-linecap/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-linecap/\" target=\"_blank\">stroke-linecap</a>",
       "text": "stroke-linecap"
     },
@@ -24023,7 +24023,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-linejoin/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-linejoin/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-linejoin/\" target=\"_blank\">stroke-linejoin</a>",
       "text": "stroke-linejoin"
     },
@@ -24057,7 +24057,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/stroke-width/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/stroke-width/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/stroke-width/\" target=\"_blank\">stroke-width</a>",
       "text": "stroke-width"
     },
@@ -24109,7 +24109,7 @@ module.exports={
       "text": "Resets all properties (except unicode-bidi and direction)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/all",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/all\" target=\"_blank\">all</a>",
       "text": "all"
     }
@@ -24121,7 +24121,7 @@ module.exports={
     "default": "clip",
     "status": "experimental",
     "url": "https://css-tricks.com/almanac/properties/b/block-overflow/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/b/block-overflow/\" target=\"_blank\">block-overflow</a>",
       "text": "block-overflow"
     },
@@ -24138,7 +24138,7 @@ module.exports={
     "default": "economy",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/color-adjust",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/color-adjust\" target=\"_blank\">color-adjust</a>",
       "text": "color-adjust"
     },
@@ -24152,7 +24152,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/f/font-display/"
     },
     "url": "https://css-tricks.com/almanac/properties/f/font-display/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/f/font-display/\" target=\"_blank\">font-display</a>",
       "text": "font-display"
     },
@@ -24169,7 +24169,7 @@ module.exports={
     "default": "normal",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/initial-letter\" target=\"_blank\">initial-letter</a>",
       "text": "initial-letter"
     },
@@ -24185,7 +24185,7 @@ module.exports={
     "default": "none",
     "status": "experimental",
     "url": "https://css-tricks.com/almanac/properties/l/line-clamp/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/l/line-clamp/\" target=\"_blank\">line-clamp</a>",
       "text": "line-clamp"
     },
@@ -24202,7 +24202,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-image\" target=\"_blank\">mask-image</a>",
       "text": "mask-image"
     },
@@ -24219,7 +24219,7 @@ module.exports={
     "default": "no-repeat",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-repeat\" target=\"_blank\">mask-repeat</a>",
       "text": "mask-repeat"
     },
@@ -24235,7 +24235,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://css-tricks.com/almanac/properties/o/overflow-anchor/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/o/overflow-anchor/\" target=\"_blank\">overflow-anchor</a>",
       "text": "overflow-anchor"
     },
@@ -24252,7 +24252,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior\" target=\"_blank\">overscroll-behavior</a>",
       "text": "overscroll-behavior"
     },
@@ -24266,7 +24266,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/p/page-break/"
     },
     "url": "https://css-tricks.com/almanac/properties/p/page-break/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/p/page-break/\" target=\"_blank\">page-break</a>",
       "text": "page-break"
     },
@@ -24283,7 +24283,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop\" target=\"_blank\">scroll-snap-stop</a>",
       "text": "scroll-snap-stop"
     },
@@ -24297,7 +24297,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/scrollbar/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/scrollbar/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/scrollbar/\" target=\"_blank\">scrollbar</a>",
       "text": "scrollbar"
     },
@@ -24314,7 +24314,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scrollbar-color\" target=\"_blank\">scrollbar-color</a>",
       "text": "scrollbar-color"
     },
@@ -24328,7 +24328,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/s/scrollbar-gutter/"
     },
     "url": "https://css-tricks.com/almanac/properties/s/scrollbar-gutter/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/s/scrollbar-gutter/\" target=\"_blank\">scrollbar-gutter</a>",
       "text": "scrollbar-gutter"
     },
@@ -24345,7 +24345,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scrollbar-width\" target=\"_blank\">scrollbar-width</a>",
       "text": "scrollbar-width"
     },
@@ -24362,7 +24362,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness\" target=\"_blank\">text-decoration-thickness</a>",
       "text": "text-decoration-thickness"
     },
@@ -24376,7 +24376,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/t/text-stroke/"
     },
     "url": "https://css-tricks.com/almanac/properties/t/text-stroke/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/t/text-stroke/\" target=\"_blank\">text-stroke</a>",
       "text": "text-stroke"
     },
@@ -24393,7 +24393,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/text-underline-offset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/text-underline-offset\" target=\"_blank\">text-underline-offset</a>",
       "text": "text-underline-offset"
     },
@@ -24410,7 +24410,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/touch-action",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/touch-action\" target=\"_blank\">touch-action</a>",
       "text": "touch-action"
     },
@@ -24424,7 +24424,7 @@ module.exports={
       "css-tricks": "https://css-tricks.com/almanac/properties/u/unicode-range/"
     },
     "url": "https://css-tricks.com/almanac/properties/u/unicode-range/",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://css-tricks.com/almanac/properties/u/unicode-range/\" target=\"_blank\">unicode-range</a>",
       "text": "unicode-range"
     },
@@ -24441,7 +24441,7 @@ module.exports={
     "default": "normal",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/zoom",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/zoom\" target=\"_blank\">zoom</a>",
       "text": "zoom"
     },
@@ -24457,7 +24457,7 @@ module.exports={
     "default": "false",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-accelerator",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-accelerator\" target=\"_blank\">-ms-accelerator</a>",
       "text": "-ms-accelerator"
     },
@@ -24473,7 +24473,7 @@ module.exports={
     "default": "tb",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-block-progression",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-block-progression\" target=\"_blank\">-ms-block-progression</a>",
       "text": "-ms-block-progression"
     },
@@ -24489,7 +24489,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-chaining",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-chaining\" target=\"_blank\">-ms-content-zoom-chaining</a>",
       "text": "-ms-content-zoom-chaining"
     },
@@ -24505,7 +24505,7 @@ module.exports={
     "default": "zoomForTheTopLevelNoneForTheRest",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zooming",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zooming\" target=\"_blank\">-ms-content-zooming</a>",
       "text": "-ms-content-zooming"
     },
@@ -24524,7 +24524,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit\" target=\"_blank\">-ms-content-zoom-limit</a>",
       "text": "-ms-content-zoom-limit"
     },
@@ -24540,7 +24540,7 @@ module.exports={
     "default": "400%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-max",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-max\" target=\"_blank\">-ms-content-zoom-limit-max</a>",
       "text": "-ms-content-zoom-limit-max"
     },
@@ -24556,7 +24556,7 @@ module.exports={
     "default": "100%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-min",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-limit-min\" target=\"_blank\">-ms-content-zoom-limit-min</a>",
       "text": "-ms-content-zoom-limit-min"
     },
@@ -24575,7 +24575,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap\" target=\"_blank\">-ms-content-zoom-snap</a>",
       "text": "-ms-content-zoom-snap"
     },
@@ -24591,7 +24591,7 @@ module.exports={
     "default": "snapInterval(0%, 100%)",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-points",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-points\" target=\"_blank\">-ms-content-zoom-snap-points</a>",
       "text": "-ms-content-zoom-snap-points"
     },
@@ -24607,7 +24607,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-content-zoom-snap-type\" target=\"_blank\">-ms-content-zoom-snap-type</a>",
       "text": "-ms-content-zoom-snap-type"
     },
@@ -24623,7 +24623,7 @@ module.exports={
     "default": "\"\"",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-filter",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-filter\" target=\"_blank\">-ms-filter</a>",
       "text": "-ms-filter"
     },
@@ -24639,7 +24639,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-flow-from",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-flow-from\" target=\"_blank\">-ms-flow-from</a>",
       "text": "-ms-flow-from"
     },
@@ -24655,7 +24655,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-flow-into",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-flow-into\" target=\"_blank\">-ms-flow-into</a>",
       "text": "-ms-flow-into"
     },
@@ -24671,7 +24671,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-high-contrast-adjust",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-high-contrast-adjust\" target=\"_blank\">-ms-high-contrast-adjust</a>",
       "text": "-ms-high-contrast-adjust"
     },
@@ -24687,7 +24687,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-chars",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-chars\" target=\"_blank\">-ms-hyphenate-limit-chars</a>",
       "text": "-ms-hyphenate-limit-chars"
     },
@@ -24703,7 +24703,7 @@ module.exports={
     "default": "no-limit",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-lines",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-lines\" target=\"_blank\">-ms-hyphenate-limit-lines</a>",
       "text": "-ms-hyphenate-limit-lines"
     },
@@ -24719,7 +24719,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-zone",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-hyphenate-limit-zone\" target=\"_blank\">-ms-hyphenate-limit-zone</a>",
       "text": "-ms-hyphenate-limit-zone"
     },
@@ -24735,7 +24735,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-ime-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-ime-align\" target=\"_blank\">-ms-ime-align</a>",
       "text": "-ms-ime-align"
     },
@@ -24751,7 +24751,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-overflow-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-overflow-style\" target=\"_blank\">-ms-overflow-style</a>",
       "text": "-ms-overflow-style"
     },
@@ -24767,7 +24767,7 @@ module.exports={
     "default": "dependsOnUserAgent",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-3dlight-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-3dlight-color\" target=\"_blank\">-ms-scrollbar-3dlight-color</a>",
       "text": "-ms-scrollbar-3dlight-color"
     },
@@ -24783,7 +24783,7 @@ module.exports={
     "default": "ButtonText",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-arrow-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-arrow-color\" target=\"_blank\">-ms-scrollbar-arrow-color</a>",
       "text": "-ms-scrollbar-arrow-color"
     },
@@ -24799,7 +24799,7 @@ module.exports={
     "default": "dependsOnUserAgent",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-base-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-base-color\" target=\"_blank\">-ms-scrollbar-base-color</a>",
       "text": "-ms-scrollbar-base-color"
     },
@@ -24815,7 +24815,7 @@ module.exports={
     "default": "ThreeDDarkShadow",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-darkshadow-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-darkshadow-color\" target=\"_blank\">-ms-scrollbar-darkshadow-color</a>",
       "text": "-ms-scrollbar-darkshadow-color"
     },
@@ -24831,7 +24831,7 @@ module.exports={
     "default": "ThreeDFace",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-face-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-face-color\" target=\"_blank\">-ms-scrollbar-face-color</a>",
       "text": "-ms-scrollbar-face-color"
     },
@@ -24847,7 +24847,7 @@ module.exports={
     "default": "ThreeDHighlight",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-highlight-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-highlight-color\" target=\"_blank\">-ms-scrollbar-highlight-color</a>",
       "text": "-ms-scrollbar-highlight-color"
     },
@@ -24863,7 +24863,7 @@ module.exports={
     "default": "ThreeDDarkShadow",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-shadow-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-shadow-color\" target=\"_blank\">-ms-scrollbar-shadow-color</a>",
       "text": "-ms-scrollbar-shadow-color"
     },
@@ -24879,7 +24879,7 @@ module.exports={
     "default": "Scrollbar",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-track-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scrollbar-track-color\" target=\"_blank\">-ms-scrollbar-track-color</a>",
       "text": "-ms-scrollbar-track-color"
     },
@@ -24895,7 +24895,7 @@ module.exports={
     "default": "chained",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-chaining",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-chaining\" target=\"_blank\">-ms-scroll-chaining</a>",
       "text": "-ms-scroll-chaining"
     },
@@ -24916,7 +24916,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit\" target=\"_blank\">-ms-scroll-limit</a>",
       "text": "-ms-scroll-limit"
     },
@@ -24932,7 +24932,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-max",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-max\" target=\"_blank\">-ms-scroll-limit-x-max</a>",
       "text": "-ms-scroll-limit-x-max"
     },
@@ -24948,7 +24948,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-min",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-x-min\" target=\"_blank\">-ms-scroll-limit-x-min</a>",
       "text": "-ms-scroll-limit-x-min"
     },
@@ -24964,7 +24964,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-max",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-max\" target=\"_blank\">-ms-scroll-limit-y-max</a>",
       "text": "-ms-scroll-limit-y-max"
     },
@@ -24980,7 +24980,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-min",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-limit-y-min\" target=\"_blank\">-ms-scroll-limit-y-min</a>",
       "text": "-ms-scroll-limit-y-min"
     },
@@ -24996,7 +24996,7 @@ module.exports={
     "default": "railed",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-rails",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-rails\" target=\"_blank\">-ms-scroll-rails</a>",
       "text": "-ms-scroll-rails"
     },
@@ -25012,7 +25012,7 @@ module.exports={
     "default": "snapInterval(0px, 100%)",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-x\" target=\"_blank\">-ms-scroll-snap-points-x</a>",
       "text": "-ms-scroll-snap-points-x"
     },
@@ -25028,7 +25028,7 @@ module.exports={
     "default": "snapInterval(0px, 100%)",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-points-y\" target=\"_blank\">-ms-scroll-snap-points-y</a>",
       "text": "-ms-scroll-snap-points-y"
     },
@@ -25044,7 +25044,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-type\" target=\"_blank\">-ms-scroll-snap-type</a>",
       "text": "-ms-scroll-snap-type"
     },
@@ -25063,7 +25063,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-x\" target=\"_blank\">-ms-scroll-snap-x</a>",
       "text": "-ms-scroll-snap-x"
     },
@@ -25082,7 +25082,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-snap-y\" target=\"_blank\">-ms-scroll-snap-y</a>",
       "text": "-ms-scroll-snap-y"
     },
@@ -25098,7 +25098,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-translation",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-scroll-translation\" target=\"_blank\">-ms-scroll-translation</a>",
       "text": "-ms-scroll-translation"
     },
@@ -25114,7 +25114,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-text-autospace",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-text-autospace\" target=\"_blank\">-ms-text-autospace</a>",
       "text": "-ms-text-autospace"
     },
@@ -25130,7 +25130,7 @@ module.exports={
     "default": "grippers",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-touch-select",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-touch-select\" target=\"_blank\">-ms-touch-select</a>",
       "text": "-ms-touch-select"
     },
@@ -25146,7 +25146,7 @@ module.exports={
     "default": "text",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-user-select",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-user-select\" target=\"_blank\">-ms-user-select</a>",
       "text": "-ms-user-select"
     },
@@ -25162,7 +25162,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-flow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-flow\" target=\"_blank\">-ms-wrap-flow</a>",
       "text": "-ms-wrap-flow"
     },
@@ -25178,7 +25178,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-margin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-margin\" target=\"_blank\">-ms-wrap-margin</a>",
       "text": "-ms-wrap-margin"
     },
@@ -25194,7 +25194,7 @@ module.exports={
     "default": "wrap",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-through",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-ms-wrap-through\" target=\"_blank\">-ms-wrap-through</a>",
       "text": "-ms-wrap-through"
     },
@@ -25210,7 +25210,7 @@ module.exports={
     "default": "noneButOverriddenInUserAgentCSS",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/appearance",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/appearance\" target=\"_blank\">-moz-appearance</a>",
       "text": "-moz-appearance"
     },
@@ -25226,7 +25226,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-binding",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-binding\" target=\"_blank\">-moz-binding</a>",
       "text": "-moz-binding"
     },
@@ -25242,7 +25242,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-border-bottom-colors\" target=\"_blank\">-moz-border-bottom-colors</a>",
       "text": "-moz-border-bottom-colors"
     },
@@ -25258,7 +25258,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-border-left-colors\" target=\"_blank\">-moz-border-left-colors</a>",
       "text": "-moz-border-left-colors"
     },
@@ -25274,7 +25274,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-border-right-colors\" target=\"_blank\">-moz-border-right-colors</a>",
       "text": "-moz-border-right-colors"
     },
@@ -25290,7 +25290,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-border-top-colors\" target=\"_blank\">-moz-border-top-colors</a>",
       "text": "-moz-border-top-colors"
     },
@@ -25306,7 +25306,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-context-properties",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-context-properties\" target=\"_blank\">-moz-context-properties</a>",
       "text": "-moz-context-properties"
     },
@@ -25322,7 +25322,7 @@ module.exports={
     "default": "content-box",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-float-edge",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-float-edge\" target=\"_blank\">-moz-float-edge</a>",
       "text": "-moz-float-edge"
     },
@@ -25338,7 +25338,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-force-broken-image-icon\" target=\"_blank\">-moz-force-broken-image-icon</a>",
       "text": "-moz-force-broken-image-icon"
     },
@@ -25354,7 +25354,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-image-region",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-image-region\" target=\"_blank\">-moz-image-region</a>",
       "text": "-moz-image-region"
     },
@@ -25370,7 +25370,7 @@ module.exports={
     "default": "inline",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-orient",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-orient\" target=\"_blank\">-moz-orient</a>",
       "text": "-moz-orient"
     },
@@ -25391,7 +25391,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius\" target=\"_blank\">-moz-outline-radius</a>",
       "text": "-moz-outline-radius"
     },
@@ -25407,7 +25407,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomleft",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomleft\" target=\"_blank\">-moz-outline-radius-bottomleft</a>",
       "text": "-moz-outline-radius-bottomleft"
     },
@@ -25423,7 +25423,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomright",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-bottomright\" target=\"_blank\">-moz-outline-radius-bottomright</a>",
       "text": "-moz-outline-radius-bottomright"
     },
@@ -25439,7 +25439,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topleft",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topleft\" target=\"_blank\">-moz-outline-radius-topleft</a>",
       "text": "-moz-outline-radius-topleft"
     },
@@ -25455,7 +25455,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topright",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-outline-radius-topright\" target=\"_blank\">-moz-outline-radius-topright</a>",
       "text": "-moz-outline-radius-topright"
     },
@@ -25471,7 +25471,7 @@ module.exports={
     "default": "stretch-to-fit",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-stack-sizing",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-stack-sizing\" target=\"_blank\">-moz-stack-sizing</a>",
       "text": "-moz-stack-sizing"
     },
@@ -25487,7 +25487,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-text-blink",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-text-blink\" target=\"_blank\">-moz-text-blink</a>",
       "text": "-moz-text-blink"
     },
@@ -25503,7 +25503,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-user-focus",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-user-focus\" target=\"_blank\">-moz-user-focus</a>",
       "text": "-moz-user-focus"
     },
@@ -25519,7 +25519,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-user-input",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-user-input\" target=\"_blank\">-moz-user-input</a>",
       "text": "-moz-user-input"
     },
@@ -25535,7 +25535,7 @@ module.exports={
     "default": "read-only",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-user-modify",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-user-modify\" target=\"_blank\">-moz-user-modify</a>",
       "text": "-moz-user-modify"
     },
@@ -25551,7 +25551,7 @@ module.exports={
     "default": "drag",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-window-dragging",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-window-dragging\" target=\"_blank\">-moz-window-dragging</a>",
       "text": "-moz-window-dragging"
     },
@@ -25567,7 +25567,7 @@ module.exports={
     "default": "default",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-moz-window-shadow",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-moz-window-shadow\" target=\"_blank\">-moz-window-shadow</a>",
       "text": "-moz-window-shadow"
     },
@@ -25583,7 +25583,7 @@ module.exports={
     "default": "noneButOverriddenInUserAgentCSS",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/appearance",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/appearance\" target=\"_blank\">-webkit-appearance</a>",
       "text": "-webkit-appearance"
     },
@@ -25603,7 +25603,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-border-before",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-border-before\" target=\"_blank\">-webkit-border-before</a>",
       "text": "-webkit-border-before"
     },
@@ -25616,7 +25616,7 @@ module.exports={
     "urls": {},
     "default": "currentcolor",
     "status": "nonstandard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">-webkit-border-before-color</a>",
       "text": "-webkit-border-before-color"
     },
@@ -25629,7 +25629,7 @@ module.exports={
     "urls": {},
     "default": "none",
     "status": "nonstandard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">-webkit-border-before-style</a>",
       "text": "-webkit-border-before-style"
     },
@@ -25642,7 +25642,7 @@ module.exports={
     "urls": {},
     "default": "medium",
     "status": "nonstandard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">-webkit-border-before-width</a>",
       "text": "-webkit-border-before-width"
     },
@@ -25658,7 +25658,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-box-reflect",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-box-reflect\" target=\"_blank\">-webkit-box-reflect</a>",
       "text": "-webkit-box-reflect"
     },
@@ -25674,7 +25674,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp\" target=\"_blank\">-webkit-line-clamp</a>",
       "text": "-webkit-line-clamp"
     },
@@ -25697,7 +25697,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask\" target=\"_blank\">-webkit-mask</a>",
       "text": "-webkit-mask"
     },
@@ -25713,7 +25713,7 @@ module.exports={
     "default": "scroll",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-attachment",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-attachment\" target=\"_blank\">-webkit-mask-attachment</a>",
       "text": "-webkit-mask-attachment"
     },
@@ -25729,7 +25729,7 @@ module.exports={
     "default": "border",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-clip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-clip\" target=\"_blank\">-webkit-mask-clip</a>",
       "text": "-webkit-mask-clip"
     },
@@ -25745,7 +25745,7 @@ module.exports={
     "default": "source-over",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-composite",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-composite\" target=\"_blank\">-webkit-mask-composite</a>",
       "text": "-webkit-mask-composite"
     },
@@ -25761,7 +25761,7 @@ module.exports={
     "default": "none",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-image",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-image\" target=\"_blank\">-webkit-mask-image</a>",
       "text": "-webkit-mask-image"
     },
@@ -25777,7 +25777,7 @@ module.exports={
     "default": "padding",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-origin\" target=\"_blank\">-webkit-mask-origin</a>",
       "text": "-webkit-mask-origin"
     },
@@ -25793,7 +25793,7 @@ module.exports={
     "default": "0% 0%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-position\" target=\"_blank\">-webkit-mask-position</a>",
       "text": "-webkit-mask-position"
     },
@@ -25809,7 +25809,7 @@ module.exports={
     "default": "0%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-x\" target=\"_blank\">-webkit-mask-position-x</a>",
       "text": "-webkit-mask-position-x"
     },
@@ -25825,7 +25825,7 @@ module.exports={
     "default": "0%",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-position-y\" target=\"_blank\">-webkit-mask-position-y</a>",
       "text": "-webkit-mask-position-y"
     },
@@ -25841,7 +25841,7 @@ module.exports={
     "default": "repeat",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-repeat\" target=\"_blank\">-webkit-mask-repeat</a>",
       "text": "-webkit-mask-repeat"
     },
@@ -25857,7 +25857,7 @@ module.exports={
     "default": "repeat",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-x\" target=\"_blank\">-webkit-mask-repeat-x</a>",
       "text": "-webkit-mask-repeat-x"
     },
@@ -25873,7 +25873,7 @@ module.exports={
     "default": "repeat",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-mask-repeat-y\" target=\"_blank\">-webkit-mask-repeat-y</a>",
       "text": "-webkit-mask-repeat-y"
     },
@@ -25889,7 +25889,7 @@ module.exports={
     "default": "auto auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-size\" target=\"_blank\">-webkit-mask-size</a>",
       "text": "-webkit-mask-size"
     },
@@ -25905,7 +25905,7 @@ module.exports={
     "default": "auto",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-overflow-scrolling",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-overflow-scrolling\" target=\"_blank\">-webkit-overflow-scrolling</a>",
       "text": "-webkit-overflow-scrolling"
     },
@@ -25921,7 +25921,7 @@ module.exports={
     "default": "black",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-tap-highlight-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-tap-highlight-color\" target=\"_blank\">-webkit-tap-highlight-color</a>",
       "text": "-webkit-tap-highlight-color"
     },
@@ -25937,7 +25937,7 @@ module.exports={
     "default": "currentcolor",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color\" target=\"_blank\">-webkit-text-fill-color</a>",
       "text": "-webkit-text-fill-color"
     },
@@ -25956,7 +25956,7 @@ module.exports={
     ],
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke\" target=\"_blank\">-webkit-text-stroke</a>",
       "text": "-webkit-text-stroke"
     },
@@ -25972,7 +25972,7 @@ module.exports={
     "default": "currentcolor",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color\" target=\"_blank\">-webkit-text-stroke-color</a>",
       "text": "-webkit-text-stroke-color"
     },
@@ -25988,7 +25988,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-width\" target=\"_blank\">-webkit-text-stroke-width</a>",
       "text": "-webkit-text-stroke-width"
     },
@@ -26004,7 +26004,7 @@ module.exports={
     "default": "default",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/-webkit-touch-callout",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/-webkit-touch-callout\" target=\"_blank\">-webkit-touch-callout</a>",
       "text": "-webkit-touch-callout"
     },
@@ -26017,7 +26017,7 @@ module.exports={
     "urls": {},
     "default": "read-only",
     "status": "nonstandard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">-webkit-user-modify</a>",
       "text": "-webkit-user-modify"
     },
@@ -26033,7 +26033,7 @@ module.exports={
     "default": "auto",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/aspect-ratio\" target=\"_blank\">aspect-ratio</a>",
       "text": "aspect-ratio"
     },
@@ -26053,7 +26053,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block\" target=\"_blank\">border-block</a>",
       "text": "border-block"
     },
@@ -26069,7 +26069,7 @@ module.exports={
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-color\" target=\"_blank\">border-block-color</a>",
       "text": "border-block-color"
     },
@@ -26085,7 +26085,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-style\" target=\"_blank\">border-block-style</a>",
       "text": "border-block-style"
     },
@@ -26101,7 +26101,7 @@ module.exports={
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-width\" target=\"_blank\">border-block-width</a>",
       "text": "border-block-width"
     },
@@ -26121,7 +26121,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-end\" target=\"_blank\">border-block-end</a>",
       "text": "border-block-end"
     },
@@ -26137,7 +26137,7 @@ module.exports={
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-end-color\" target=\"_blank\">border-block-end-color</a>",
       "text": "border-block-end-color"
     },
@@ -26153,7 +26153,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-end-style\" target=\"_blank\">border-block-end-style</a>",
       "text": "border-block-end-style"
     },
@@ -26169,7 +26169,7 @@ module.exports={
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-end-width\" target=\"_blank\">border-block-end-width</a>",
       "text": "border-block-end-width"
     },
@@ -26189,7 +26189,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-start\" target=\"_blank\">border-block-start</a>",
       "text": "border-block-start"
     },
@@ -26205,7 +26205,7 @@ module.exports={
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-start-color\" target=\"_blank\">border-block-start-color</a>",
       "text": "border-block-start-color"
     },
@@ -26221,7 +26221,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-start-style\" target=\"_blank\">border-block-start-style</a>",
       "text": "border-block-start-style"
     },
@@ -26237,7 +26237,7 @@ module.exports={
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-block-start-width\" target=\"_blank\">border-block-start-width</a>",
       "text": "border-block-start-width"
     },
@@ -26253,7 +26253,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius\" target=\"_blank\">border-end-end-radius</a>",
       "text": "border-end-end-radius"
     },
@@ -26269,7 +26269,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius\" target=\"_blank\">border-end-start-radius</a>",
       "text": "border-end-start-radius"
     },
@@ -26289,7 +26289,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline\" target=\"_blank\">border-inline</a>",
       "text": "border-inline"
     },
@@ -26309,7 +26309,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-end\" target=\"_blank\">border-inline-end</a>",
       "text": "border-inline-end"
     },
@@ -26325,7 +26325,7 @@ module.exports={
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-color\" target=\"_blank\">border-inline-color</a>",
       "text": "border-inline-color"
     },
@@ -26341,7 +26341,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-style\" target=\"_blank\">border-inline-style</a>",
       "text": "border-inline-style"
     },
@@ -26357,7 +26357,7 @@ module.exports={
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-width\" target=\"_blank\">border-inline-width</a>",
       "text": "border-inline-width"
     },
@@ -26373,7 +26373,7 @@ module.exports={
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color\" target=\"_blank\">border-inline-end-color</a>",
       "text": "border-inline-end-color"
     },
@@ -26389,7 +26389,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style\" target=\"_blank\">border-inline-end-style</a>",
       "text": "border-inline-end-style"
     },
@@ -26405,7 +26405,7 @@ module.exports={
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width\" target=\"_blank\">border-inline-end-width</a>",
       "text": "border-inline-end-width"
     },
@@ -26425,7 +26425,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-start\" target=\"_blank\">border-inline-start</a>",
       "text": "border-inline-start"
     },
@@ -26441,7 +26441,7 @@ module.exports={
     "default": "currentcolor",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color\" target=\"_blank\">border-inline-start-color</a>",
       "text": "border-inline-start-color"
     },
@@ -26457,7 +26457,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style\" target=\"_blank\">border-inline-start-style</a>",
       "text": "border-inline-start-style"
     },
@@ -26473,7 +26473,7 @@ module.exports={
     "default": "medium",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width\" target=\"_blank\">border-inline-start-width</a>",
       "text": "border-inline-start-width"
     },
@@ -26489,7 +26489,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius\" target=\"_blank\">border-start-end-radius</a>",
       "text": "border-start-end-radius"
     },
@@ -26505,7 +26505,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius\" target=\"_blank\">border-start-start-radius</a>",
       "text": "border-start-start-radius"
     },
@@ -26521,7 +26521,7 @@ module.exports={
     "default": "stretch",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-align\" target=\"_blank\">box-align</a>",
       "text": "box-align"
     },
@@ -26537,7 +26537,7 @@ module.exports={
     "default": "normal",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-direction",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-direction\" target=\"_blank\">box-direction</a>",
       "text": "box-direction"
     },
@@ -26553,7 +26553,7 @@ module.exports={
     "default": "0",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-flex",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-flex\" target=\"_blank\">box-flex</a>",
       "text": "box-flex"
     },
@@ -26569,7 +26569,7 @@ module.exports={
     "default": "1",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-flex-group",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-flex-group\" target=\"_blank\">box-flex-group</a>",
       "text": "box-flex-group"
     },
@@ -26585,7 +26585,7 @@ module.exports={
     "default": "single",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-lines",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-lines\" target=\"_blank\">box-lines</a>",
       "text": "box-lines"
     },
@@ -26601,7 +26601,7 @@ module.exports={
     "default": "1",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-ordinal-group",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-ordinal-group\" target=\"_blank\">box-ordinal-group</a>",
       "text": "box-ordinal-group"
     },
@@ -26617,7 +26617,7 @@ module.exports={
     "default": "inlineAxisHorizontalInXUL",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-orient",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-orient\" target=\"_blank\">box-orient</a>",
       "text": "box-orient"
     },
@@ -26633,7 +26633,7 @@ module.exports={
     "default": "start",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-pack",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/box-pack\" target=\"_blank\">box-pack</a>",
       "text": "box-pack"
     },
@@ -26649,7 +26649,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/counter-set",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/counter-set\" target=\"_blank\">counter-set</a>",
       "text": "counter-set"
     },
@@ -26665,7 +26665,7 @@ module.exports={
     "default": "auto",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/ime-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/ime-mode\" target=\"_blank\">ime-mode</a>",
       "text": "ime-mode"
     },
@@ -26681,7 +26681,7 @@ module.exports={
     "default": "auto",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/initial-letter-align",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/initial-letter-align\" target=\"_blank\">initial-letter-align</a>",
       "text": "initial-letter-align"
     },
@@ -26697,7 +26697,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/inline-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/inline-size\" target=\"_blank\">inline-size</a>",
       "text": "inline-size"
     },
@@ -26713,7 +26713,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-block\" target=\"_blank\">margin-block</a>",
       "text": "margin-block"
     },
@@ -26729,7 +26729,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-block-end\" target=\"_blank\">margin-block-end</a>",
       "text": "margin-block-end"
     },
@@ -26745,7 +26745,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-block-start\" target=\"_blank\">margin-block-start</a>",
       "text": "margin-block-start"
     },
@@ -26761,7 +26761,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-inline\" target=\"_blank\">margin-inline</a>",
       "text": "margin-inline"
     },
@@ -26777,7 +26777,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-inline-end\" target=\"_blank\">margin-inline-end</a>",
       "text": "margin-inline-end"
     },
@@ -26793,7 +26793,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-inline-start\" target=\"_blank\">margin-inline-start</a>",
       "text": "margin-inline-start"
     },
@@ -26809,7 +26809,7 @@ module.exports={
     "default": "none",
     "status": "experimental",
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin-trim",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/margin-trim\" target=\"_blank\">margin-trim</a>",
       "text": "margin-trim"
     },
@@ -26832,7 +26832,7 @@ module.exports={
     ],
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border\" target=\"_blank\">mask-border</a>",
       "text": "mask-border"
     },
@@ -26848,7 +26848,7 @@ module.exports={
     "default": "alpha",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-mode\" target=\"_blank\">mask-border-mode</a>",
       "text": "mask-border-mode"
     },
@@ -26864,7 +26864,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-outset",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-outset\" target=\"_blank\">mask-border-outset</a>",
       "text": "mask-border-outset"
     },
@@ -26880,7 +26880,7 @@ module.exports={
     "default": "stretch",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat\" target=\"_blank\">mask-border-repeat</a>",
       "text": "mask-border-repeat"
     },
@@ -26896,7 +26896,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-slice",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-slice\" target=\"_blank\">mask-border-slice</a>",
       "text": "mask-border-slice"
     },
@@ -26912,7 +26912,7 @@ module.exports={
     "default": "none",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-source",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-source\" target=\"_blank\">mask-border-source</a>",
       "text": "mask-border-source"
     },
@@ -26928,7 +26928,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-border-width",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-border-width\" target=\"_blank\">mask-border-width</a>",
       "text": "mask-border-width"
     },
@@ -26944,7 +26944,7 @@ module.exports={
     "default": "border-box",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-clip",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-clip\" target=\"_blank\">mask-clip</a>",
       "text": "mask-clip"
     },
@@ -26960,7 +26960,7 @@ module.exports={
     "default": "add",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-composite",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-composite\" target=\"_blank\">mask-composite</a>",
       "text": "mask-composite"
     },
@@ -26976,7 +26976,7 @@ module.exports={
     "default": "match-source",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-mode",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-mode\" target=\"_blank\">mask-mode</a>",
       "text": "mask-mode"
     },
@@ -26992,7 +26992,7 @@ module.exports={
     "default": "border-box",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-origin",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-origin\" target=\"_blank\">mask-origin</a>",
       "text": "mask-origin"
     },
@@ -27008,7 +27008,7 @@ module.exports={
     "default": "center",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-position",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-position\" target=\"_blank\">mask-position</a>",
       "text": "mask-position"
     },
@@ -27024,7 +27024,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-size",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-size\" target=\"_blank\">mask-size</a>",
       "text": "mask-size"
     },
@@ -27040,7 +27040,7 @@ module.exports={
     "default": "luminance",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/mask-type",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/mask-type\" target=\"_blank\">mask-type</a>",
       "text": "mask-type"
     },
@@ -27053,7 +27053,7 @@ module.exports={
     "urls": {},
     "default": "none",
     "status": "experimental",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">max-lines</a>",
       "text": "max-lines"
     },
@@ -27066,7 +27066,7 @@ module.exports={
     "urls": {},
     "default": "auto",
     "status": "standard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">overflow-block</a>",
       "text": "overflow-block"
     },
@@ -27082,7 +27082,7 @@ module.exports={
     "default": "padding-box",
     "status": "nonstandard",
     "url": "https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Mozilla/CSS/overflow-clip-box\" target=\"_blank\">overflow-clip-box</a>",
       "text": "overflow-clip-box"
     },
@@ -27095,7 +27095,7 @@ module.exports={
     "urls": {},
     "default": "auto",
     "status": "standard",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">overflow-inline</a>",
       "text": "overflow-inline"
     },
@@ -27111,7 +27111,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block\" target=\"_blank\">overscroll-behavior-block</a>",
       "text": "overscroll-behavior-block"
     },
@@ -27127,7 +27127,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline\" target=\"_blank\">overscroll-behavior-inline</a>",
       "text": "overscroll-behavior-inline"
     },
@@ -27143,7 +27143,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x\" target=\"_blank\">overscroll-behavior-x</a>",
       "text": "overscroll-behavior-x"
     },
@@ -27159,7 +27159,7 @@ module.exports={
     "default": "auto",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y\" target=\"_blank\">overscroll-behavior-y</a>",
       "text": "overscroll-behavior-y"
     },
@@ -27175,7 +27175,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-block",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-block\" target=\"_blank\">padding-block</a>",
       "text": "padding-block"
     },
@@ -27191,7 +27191,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-block-end\" target=\"_blank\">padding-block-end</a>",
       "text": "padding-block-end"
     },
@@ -27207,7 +27207,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-block-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-block-start\" target=\"_blank\">padding-block-start</a>",
       "text": "padding-block-start"
     },
@@ -27223,7 +27223,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-inline\" target=\"_blank\">padding-inline</a>",
       "text": "padding-inline"
     },
@@ -27239,7 +27239,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-end",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-inline-end\" target=\"_blank\">padding-inline-end</a>",
       "text": "padding-inline-end"
     },
@@ -27255,7 +27255,7 @@ module.exports={
     "default": "0",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-start",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/padding-inline-start\" target=\"_blank\">padding-inline-start</a>",
       "text": "padding-inline-start"
     },
@@ -27271,7 +27271,7 @@ module.exports={
     "default": "normal",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/paint-order",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/paint-order\" target=\"_blank\">paint-order</a>",
       "text": "paint-order"
     },
@@ -27284,7 +27284,7 @@ module.exports={
     "urls": {},
     "default": "separate",
     "status": "experimental",
-    "property": {
+    "keyword": {
       "html": "<a href=\"undefined\" target=\"_blank\">ruby-merge</a>",
       "text": "ruby-merge"
     },
@@ -27300,7 +27300,7 @@ module.exports={
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-coordinate",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-coordinate\" target=\"_blank\">scroll-snap-coordinate</a>",
       "text": "scroll-snap-coordinate"
     },
@@ -27316,7 +27316,7 @@ module.exports={
     "default": "0px 0px",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-destination",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-destination\" target=\"_blank\">scroll-snap-destination</a>",
       "text": "scroll-snap-destination"
     },
@@ -27332,7 +27332,7 @@ module.exports={
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-x\" target=\"_blank\">scroll-snap-points-x</a>",
       "text": "scroll-snap-points-x"
     },
@@ -27348,7 +27348,7 @@ module.exports={
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-points-y\" target=\"_blank\">scroll-snap-points-y</a>",
       "text": "scroll-snap-points-y"
     },
@@ -27364,7 +27364,7 @@ module.exports={
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-x\" target=\"_blank\">scroll-snap-type-x</a>",
       "text": "scroll-snap-type-x"
     },
@@ -27380,7 +27380,7 @@ module.exports={
     "default": "none",
     "status": "obsolete",
     "url": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type-y\" target=\"_blank\">scroll-snap-type-y</a>",
       "text": "scroll-snap-type-y"
     },
@@ -27396,7 +27396,7 @@ module.exports={
     "default": "view-box",
     "status": "standard",
     "url": "https://developer.mozilla.org/docs/Web/CSS/transform-box",
-    "property": {
+    "keyword": {
       "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/transform-box\" target=\"_blank\">transform-box</a>",
       "text": "transform-box"
     },
@@ -27409,10 +27409,11 @@ module.exports={
 },{}],23:[function(require,module,exports){
 module.exports={
   "accept": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept\">accept</a>",
       "text": "accept"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/accept",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -27425,10 +27426,11 @@ module.exports={
     "note": null
   },
   "accept-charset": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept-charset\" rel=\"nofollow\">accept-charset</a>",
       "text": "accept-charset"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/accept-charset",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -27441,10 +27443,11 @@ module.exports={
     "note": null
   },
   "accesskey": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey\">accesskey</a>",
       "text": "accesskey"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/accesskey",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -27457,10 +27460,11 @@ module.exports={
     "note": null
   },
   "action": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/action\" rel=\"nofollow\">action</a>",
       "text": "action"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/action",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -27473,10 +27477,11 @@ module.exports={
     "note": null
   },
   "align": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/align\" rel=\"nofollow\">align</a>",
       "text": "align"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/align",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption\" title=\"The HTML &lt;caption&gt; element specifies the caption (or title) of a table.\"><code>&lt;caption&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\" title=\"The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element.\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr\" title=\"The HTML &lt;hr&gt; element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.\"><code>&lt;hr&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody\" title=\"The HTML Table Body element (&lt;tbody&gt;) encapsulates a set of table rows (&lt;tr&gt; elements), indicating that they comprise the body of the table (&lt;table&gt;).\"><code>&lt;tbody&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot\" title=\"The HTML &lt;tfoot&gt; element defines a set of rows summarizing the columns of the table.\"><code>&lt;tfoot&gt;</code></a> , <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead\" title=\"The HTML &lt;thead&gt; element defines a set of rows defining the head of the columns of the table.\"><code>&lt;thead&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\" title=\"The HTML &lt;tr&gt; element defines a row of cells in a table. The row&apos;s cells can then be established using a mix of &lt;td&gt; (data cell) and &lt;th&gt; (header cell) elements.\"><code>&lt;tr&gt;</code></a>",
@@ -27489,10 +27494,11 @@ module.exports={
     "note": null
   },
   "allow": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/allow\" rel=\"nofollow\">allow</a>",
       "text": "allow"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/allow",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -27505,10 +27511,11 @@ module.exports={
     "note": null
   },
   "alt": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/alt\" rel=\"nofollow\">alt</a>",
       "text": "alt"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/alt",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -27521,10 +27528,11 @@ module.exports={
     "note": null
   },
   "async": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/async\" rel=\"nofollow\">async</a>",
       "text": "async"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/async",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -27537,10 +27545,11 @@ module.exports={
     "note": null
   },
   "autocapitalize": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocapitalize\">autocapitalize</a>",
       "text": "autocapitalize"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/autocapitalize",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -27553,10 +27562,11 @@ module.exports={
     "note": null
   },
   "autocomplete": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete\">autocomplete</a>",
       "text": "autocomplete"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/autocomplete",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -27569,10 +27579,11 @@ module.exports={
     "note": null
   },
   "autofocus": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autofocus\" rel=\"nofollow\">autofocus</a>",
       "text": "autofocus"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/autofocus",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -27585,10 +27596,11 @@ module.exports={
     "note": null
   },
   "autoplay": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autoplay\" rel=\"nofollow\">autoplay</a>",
       "text": "autoplay"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/autoplay",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -27601,10 +27613,11 @@ module.exports={
     "note": null
   },
   "background": {
-    "attribute": {
+    "keyword": {
       "html": "background",
       "text": "background"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -27620,10 +27633,11 @@ module.exports={
     }
   },
   "bgcolor": {
-    "attribute": {
+    "keyword": {
       "html": "bgcolor",
       "text": "bgcolor"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\" title=\"The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element.\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee\" title=\"The HTML &lt;marquee&gt; element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.\"><code>&lt;marquee&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody\" title=\"The HTML Table Body element (&lt;tbody&gt;) encapsulates a set of table rows (&lt;tr&gt; elements), indicating that they comprise the body of the table (&lt;table&gt;).\"><code>&lt;tbody&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot\" title=\"The HTML &lt;tfoot&gt; element defines a set of rows summarizing the columns of the table.\"><code>&lt;tfoot&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\" title=\"The HTML &lt;tr&gt; element defines a row of cells in a table. The row&apos;s cells can then be established using a mix of &lt;td&gt; (data cell) and &lt;th&gt; (header cell) elements.\"><code>&lt;tr&gt;</code></a>",
@@ -27639,10 +27653,11 @@ module.exports={
     }
   },
   "border": {
-    "attribute": {
+    "keyword": {
       "html": "border",
       "text": "border"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>",
@@ -27658,10 +27673,11 @@ module.exports={
     }
   },
   "buffered": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/buffered\" rel=\"nofollow\">buffered</a>",
       "text": "buffered"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/buffered",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -27674,10 +27690,11 @@ module.exports={
     "note": null
   },
   "capture": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture\">capture</a>",
       "text": "capture"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/capture",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -27690,10 +27707,11 @@ module.exports={
     "note": null
   },
   "challenge": {
-    "attribute": {
+    "keyword": {
       "html": "challenge",
       "text": "challenge"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>",
@@ -27706,10 +27724,11 @@ module.exports={
     "note": null
   },
   "charset": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/charset\" rel=\"nofollow\">charset</a>",
       "text": "charset"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/charset",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -27722,10 +27741,11 @@ module.exports={
     "note": null
   },
   "checked": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/checked\" rel=\"nofollow\">checked</a>",
       "text": "checked"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/checked",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -27738,10 +27758,11 @@ module.exports={
     "note": null
   },
   "cite": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/cite\" rel=\"nofollow\">cite</a>",
       "text": "cite"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/cite",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote\" title=\"The HTML &lt;blockquote&gt; Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the &lt;cite&gt; element.\"><code>&lt;blockquote&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del\" title=\"The HTML &lt;del&gt; element represents a range of text that has been deleted from a document.\"><code>&lt;del&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins\" title=\"The HTML &lt;ins&gt; element represents a range of text that has been added to a document.\"><code>&lt;ins&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q\" title=\"The HTML &lt;q&gt; element  indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. \"><code>&lt;q&gt;</code></a>",
@@ -27754,10 +27775,11 @@ module.exports={
     "note": null
   },
   "class": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class\">class</a>",
       "text": "class"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/class",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -27770,10 +27792,11 @@ module.exports={
     "note": null
   },
   "code": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/code\" rel=\"nofollow\">code</a>",
       "text": "code"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/code",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>",
@@ -27786,10 +27809,11 @@ module.exports={
     "note": null
   },
   "codebase": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/codebase\" rel=\"nofollow\">codebase</a>",
       "text": "codebase"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/codebase",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>",
@@ -27802,10 +27826,11 @@ module.exports={
     "note": null
   },
   "color": {
-    "attribute": {
+    "keyword": {
       "html": "color",
       "text": "color"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/basefont\" title=\"The obsolete HTML Base Font element (&lt;basefont&gt;) sets a default font face, size, and color for the other elements which are descended from its parent element.\"><code>&lt;basefont&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font\" title=\"The HTML Font Element (&lt;font&gt;) defines the font size, color and face for its content.\"><code>&lt;font&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr\" title=\"The HTML &lt;hr&gt; element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.\"><code>&lt;hr&gt;</code></a>",
@@ -27821,10 +27846,11 @@ module.exports={
     }
   },
   "cols": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/cols\" rel=\"nofollow\">cols</a>",
       "text": "cols"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/cols",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -27837,10 +27863,11 @@ module.exports={
     "note": null
   },
   "colspan": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/colspan\" rel=\"nofollow\">colspan</a>",
       "text": "colspan"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/colspan",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -27853,10 +27880,11 @@ module.exports={
     "note": null
   },
   "content": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/content\" rel=\"nofollow\">content</a>",
       "text": "content"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/content",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>",
@@ -27869,10 +27897,11 @@ module.exports={
     "note": null
   },
   "contenteditable": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\">contenteditable</a>",
       "text": "contenteditable"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/contenteditable",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -27885,10 +27914,11 @@ module.exports={
     "note": null
   },
   "contextmenu": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/contextmenu\" rel=\"nofollow\">contextmenu</a>",
       "text": "contextmenu"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/contextmenu",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -27901,10 +27931,11 @@ module.exports={
     "note": null
   },
   "controls": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/controls\" rel=\"nofollow\">controls</a>",
       "text": "controls"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/controls",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -27917,10 +27948,11 @@ module.exports={
     "note": null
   },
   "coords": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/coords\" rel=\"nofollow\">coords</a>",
       "text": "coords"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/coords",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
@@ -27933,10 +27965,11 @@ module.exports={
     "note": null
   },
   "crossorigin": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/docs/Web/HTML/CORS_settings_attributes\">crossorigin</a>",
       "text": "crossorigin"
     },
+    "url": "https://developer.mozilla.org//docs/Web/HTML/CORS_settings_attributes",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -27949,10 +27982,11 @@ module.exports={
     "note": null
   },
   "csp": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/docs/Web/API/HTMLiframeElement/csp\">csp</a>",
       "text": "csp"
     },
+    "url": "https://developer.mozilla.org//docs/Web/API/HTMLiframeElement/csp",
     "status": "experimental",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -27965,10 +27999,11 @@ module.exports={
     "note": null
   },
   "data": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/data\" rel=\"nofollow\">data</a>",
       "text": "data"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/data",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>",
@@ -27981,10 +28016,11 @@ module.exports={
     "note": null
   },
   "data-*": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*\">data-*</a>",
       "text": "data-*"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/data-*",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -27997,10 +28033,11 @@ module.exports={
     "note": null
   },
   "datetime": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/datetime\" rel=\"nofollow\">datetime</a>",
       "text": "datetime"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/datetime",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del\" title=\"The HTML &lt;del&gt; element represents a range of text that has been deleted from a document.\"><code>&lt;del&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins\" title=\"The HTML &lt;ins&gt; element represents a range of text that has been added to a document.\"><code>&lt;ins&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time\" title=\"The HTML &lt;time&gt; element represents a specific period in time.\"><code>&lt;time&gt;</code></a>",
@@ -28013,10 +28050,11 @@ module.exports={
     "note": null
   },
   "decoding": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/decoding\" rel=\"nofollow\">decoding</a>",
       "text": "decoding"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/decoding",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>",
@@ -28029,10 +28067,11 @@ module.exports={
     "note": null
   },
   "default": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/default\" rel=\"nofollow\">default</a>",
       "text": "default"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/default",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
@@ -28045,10 +28084,11 @@ module.exports={
     "note": null
   },
   "defer": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/defer\" rel=\"nofollow\">defer</a>",
       "text": "defer"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/defer",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -28061,10 +28101,11 @@ module.exports={
     "note": null
   },
   "dir": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir\">dir</a>",
       "text": "dir"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/dir",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -28077,10 +28118,11 @@ module.exports={
     "note": null
   },
   "dirname": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/dirname\" rel=\"nofollow\">dirname</a>",
       "text": "dirname"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/dirname",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -28093,10 +28135,11 @@ module.exports={
     "note": null
   },
   "disabled": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled\">disabled</a>",
       "text": "disabled"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/disabled",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\" title=\"The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form.\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup\" title=\"The HTML &lt;optgroup&gt; element creates a grouping of options within a &lt;select&gt; element.\"><code>&lt;optgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -28109,10 +28152,11 @@ module.exports={
     "note": null
   },
   "download": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/download\" rel=\"nofollow\">download</a>",
       "text": "download"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/download",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
@@ -28125,10 +28169,11 @@ module.exports={
     "note": null
   },
   "draggable": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable\">draggable</a>",
       "text": "draggable"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/draggable",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -28141,10 +28186,11 @@ module.exports={
     "note": null
   },
   "dropzone": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dropzone\">dropzone</a>",
       "text": "dropzone"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/dropzone",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -28157,10 +28203,11 @@ module.exports={
     "note": null
   },
   "enctype": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enctype\" rel=\"nofollow\">enctype</a>",
       "text": "enctype"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/enctype",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -28173,10 +28220,11 @@ module.exports={
     "note": null
   },
   "enterkeyhint": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enterkeyhint\" rel=\"nofollow\">enterkeyhint</a>",
       "text": "enterkeyhint"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/enterkeyhint",
     "status": "experimental",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\"><code>contenteditable</code></a>",
@@ -28189,10 +28237,11 @@ module.exports={
     "note": null
   },
   "for": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/for\" rel=\"nofollow\">for</a>",
       "text": "for"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/for",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label\" title=\"The HTML &lt;label&gt; element represents a caption for an item in a user interface.\"><code>&lt;label&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\" title=\"The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.\"><code>&lt;output&gt;</code></a>",
@@ -28205,10 +28254,11 @@ module.exports={
     "note": null
   },
   "form": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/form\" rel=\"nofollow\">form</a>",
       "text": "form"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/form",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\" title=\"The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form.\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label\" title=\"The HTML &lt;label&gt; element represents a caption for an item in a user interface.\"><code>&lt;label&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\" title=\"The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.\"><code>&lt;output&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -28221,10 +28271,11 @@ module.exports={
     "note": null
   },
   "formaction": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formaction\" rel=\"nofollow\">formaction</a>",
       "text": "formaction"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formaction",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>",
@@ -28237,10 +28288,11 @@ module.exports={
     "note": null
   },
   "formenctype": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formenctype\" rel=\"nofollow\">formenctype</a>",
       "text": "formenctype"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formenctype",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -28253,10 +28305,11 @@ module.exports={
     "note": null
   },
   "formmethod": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formmethod\" rel=\"nofollow\">formmethod</a>",
       "text": "formmethod"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formmethod",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -28269,10 +28322,11 @@ module.exports={
     "note": null
   },
   "formnovalidate": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formnovalidate\" rel=\"nofollow\">formnovalidate</a>",
       "text": "formnovalidate"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formnovalidate",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -28285,10 +28339,11 @@ module.exports={
     "note": null
   },
   "formtarget": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formtarget\" rel=\"nofollow\">formtarget</a>",
       "text": "formtarget"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/formtarget",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -28301,10 +28356,11 @@ module.exports={
     "note": null
   },
   "headers": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/headers\" rel=\"nofollow\">headers</a>",
       "text": "headers"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/headers",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -28317,10 +28373,11 @@ module.exports={
     "note": null
   },
   "height": {
-    "attribute": {
+    "keyword": {
       "html": "height",
       "text": "height"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\" title=\"Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations.\"><code>&lt;canvas&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -28336,10 +28393,11 @@ module.exports={
     }
   },
   "hidden": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden\">hidden</a>",
       "text": "hidden"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/hidden",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -28352,10 +28410,11 @@ module.exports={
     "note": null
   },
   "high": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/high\" rel=\"nofollow\">high</a>",
       "text": "high"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/high",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
@@ -28368,10 +28427,11 @@ module.exports={
     "note": null
   },
   "href": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/href\" rel=\"nofollow\">href</a>",
       "text": "href"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/href",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" title=\"The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs in a document.\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>",
@@ -28384,10 +28444,11 @@ module.exports={
     "note": null
   },
   "hreflang": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/hreflang\" rel=\"nofollow\">hreflang</a>",
       "text": "hreflang"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/hreflang",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>",
@@ -28400,10 +28461,11 @@ module.exports={
     "note": null
   },
   "http-equiv": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/http-equiv\" rel=\"nofollow\">http-equiv</a>",
       "text": "http-equiv"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/http-equiv",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>",
@@ -28416,10 +28478,11 @@ module.exports={
     "note": null
   },
   "icon": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/icon\" rel=\"nofollow\">icon</a>",
       "text": "icon"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/icon",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>",
@@ -28432,10 +28495,11 @@ module.exports={
     "note": null
   },
   "id": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id\">id</a>",
       "text": "id"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/id",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -28448,10 +28512,11 @@ module.exports={
     "note": null
   },
   "importance": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/importance\" rel=\"nofollow\">importance</a>",
       "text": "importance"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/importance",
     "status": "experimental",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -28464,10 +28529,11 @@ module.exports={
     "note": null
   },
   "integrity": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity\">integrity</a>",
       "text": "integrity"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/Security/Subresource_Integrity",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -28480,10 +28546,11 @@ module.exports={
     "note": null
   },
   "intrinsicsize": {
-    "attribute": {
+    "keyword": {
       "html": "<code>intrinsicsize</code>",
       "text": "intrinsicsize"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/img#attr-intrinsicsize",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>",
@@ -28496,10 +28563,11 @@ module.exports={
     "note": null
   },
   "inputmode": {
-    "attribute": {
+    "keyword": {
       "html": "<code>inputmode</code>",
       "text": "inputmode"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/inputmode",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\"><code>contenteditable</code></a>",
@@ -28512,10 +28580,11 @@ module.exports={
     "note": null
   },
   "ismap": {
-    "attribute": {
+    "keyword": {
       "html": "ismap",
       "text": "ismap"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>",
@@ -28528,10 +28597,11 @@ module.exports={
     "note": null
   },
   "itemprop": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop\">itemprop</a>",
       "text": "itemprop"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/itemprop",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -28544,10 +28614,11 @@ module.exports={
     "note": null
   },
   "keytype": {
-    "attribute": {
+    "keyword": {
       "html": "keytype",
       "text": "keytype"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>",
@@ -28560,10 +28631,11 @@ module.exports={
     "note": null
   },
   "kind": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/kind\" rel=\"nofollow\">kind</a>",
       "text": "kind"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/kind",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
@@ -28576,10 +28648,11 @@ module.exports={
     "note": null
   },
   "label": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/label\" rel=\"nofollow\">label</a>",
       "text": "label"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/label",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup\" title=\"The HTML &lt;optgroup&gt; element creates a grouping of options within a &lt;select&gt; element.\"><code>&lt;optgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
@@ -28592,10 +28665,11 @@ module.exports={
     "note": null
   },
   "lang": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang\">lang</a>",
       "text": "lang"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/lang",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -28608,10 +28682,11 @@ module.exports={
     "note": null
   },
   "language": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/language\" rel=\"nofollow\">language</a>",
       "text": "language"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/language",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -28624,10 +28699,11 @@ module.exports={
     "note": null
   },
   "loading": {
-    "attribute": {
+    "keyword": {
       "html": "loading",
       "text": "loading"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "experimental",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -28643,10 +28719,11 @@ module.exports={
     }
   },
   "list": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/list\" rel=\"nofollow\">list</a>",
       "text": "list"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/list",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -28659,10 +28736,11 @@ module.exports={
     "note": null
   },
   "loop": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/loop\" rel=\"nofollow\">loop</a>",
       "text": "loop"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/loop",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound\" title=\"The Internet Explorer only HTML Background Sound element (&lt;bgsound&gt;) sets up a sound file to play in the background while the page is used; use &lt;audio&gt; instead.\"><code>&lt;bgsound&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee\" title=\"The HTML &lt;marquee&gt; element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.\"><code>&lt;marquee&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -28675,10 +28753,11 @@ module.exports={
     "note": null
   },
   "low": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/low\" rel=\"nofollow\">low</a>",
       "text": "low"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/low",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
@@ -28691,10 +28770,11 @@ module.exports={
     "note": null
   },
   "manifest": {
-    "attribute": {
+    "keyword": {
       "html": "manifest",
       "text": "manifest"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML &lt;html&gt; element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>",
@@ -28710,10 +28790,11 @@ module.exports={
     }
   },
   "max": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max\">max</a>",
       "text": "max"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/max",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>",
@@ -28726,10 +28807,11 @@ module.exports={
     "note": null
   },
   "maxlength": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength\">maxlength</a>",
       "text": "maxlength"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/maxlength",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -28742,10 +28824,11 @@ module.exports={
     "note": null
   },
   "minlength": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength\">minlength</a>",
       "text": "minlength"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/minlength",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -28758,10 +28841,11 @@ module.exports={
     "note": null
   },
   "media": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/media\" rel=\"nofollow\">media</a>",
       "text": "media"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/media",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a>",
@@ -28774,10 +28858,11 @@ module.exports={
     "note": null
   },
   "method": {
-    "attribute": {
+    "keyword": {
       "html": "method",
       "text": "method"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/method",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -28790,10 +28875,11 @@ module.exports={
     "note": null
   },
   "min": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min\">min</a>",
       "text": "min"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/min",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
@@ -28806,10 +28892,11 @@ module.exports={
     "note": null
   },
   "multiple": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple\">multiple</a>",
       "text": "multiple"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/multiple",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>",
@@ -28822,10 +28909,11 @@ module.exports={
     "note": null
   },
   "muted": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/muted\" rel=\"nofollow\">muted</a>",
       "text": "muted"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/muted",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -28838,10 +28926,11 @@ module.exports={
     "note": null
   },
   "name": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/name\" rel=\"nofollow\">name</a>",
       "text": "name"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/name",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\" title=\"The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form.\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\" title=\"The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.\"><code>&lt;output&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map\" title=\"The HTML &lt;map&gt; element is used with &lt;area&gt; elements to define an image map (a clickable link area).\"><code>&lt;map&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\" title=\"The HTML &lt;param&gt; element defines parameters for an &lt;object&gt; element.\"><code>&lt;param&gt;</code></a>",
@@ -28854,10 +28943,11 @@ module.exports={
     "note": null
   },
   "novalidate": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/novalidate\" rel=\"nofollow\">novalidate</a>",
       "text": "novalidate"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/novalidate",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -28870,10 +28960,11 @@ module.exports={
     "note": null
   },
   "open": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/open\" rel=\"nofollow\">open</a>",
       "text": "open"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/open",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details\" title=\"The HTML Details Element (&lt;details&gt;) creates a disclosure widget in which information is visible only when the widget is toggled into an &quot;open&quot; state.\"><code>&lt;details&gt;</code></a>",
@@ -28886,10 +28977,11 @@ module.exports={
     "note": null
   },
   "optimum": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/optimum\" rel=\"nofollow\">optimum</a>",
       "text": "optimum"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/optimum",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
@@ -28902,10 +28994,11 @@ module.exports={
     "note": null
   },
   "pattern": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern\">pattern</a>",
       "text": "pattern"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/pattern",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -28918,10 +29011,11 @@ module.exports={
     "note": null
   },
   "ping": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping\">ping</a>",
       "text": "ping"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/a#attr-ping",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
@@ -28934,10 +29028,11 @@ module.exports={
     "note": null
   },
   "placeholder": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/placeholder\" rel=\"nofollow\">placeholder</a>",
       "text": "placeholder"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/placeholder",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -28950,10 +29045,11 @@ module.exports={
     "note": null
   },
   "poster": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/poster\" rel=\"nofollow\">poster</a>",
       "text": "poster"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/poster",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -28966,10 +29062,11 @@ module.exports={
     "note": null
   },
   "preload": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/preload\" rel=\"nofollow\">preload</a>",
       "text": "preload"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/preload",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -28982,10 +29079,11 @@ module.exports={
     "note": null
   },
   "radiogroup": {
-    "attribute": {
+    "keyword": {
       "html": "radiogroup",
       "text": "radiogroup"
     },
+    "url": "https://developer.mozilla.org/undefined",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>",
@@ -28998,10 +29096,11 @@ module.exports={
     "note": null
   },
   "readonly": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly\">readonly</a>",
       "text": "readonly"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/readonly",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -29014,10 +29113,11 @@ module.exports={
     "note": null
   },
   "referrerpolicy": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/referralpolicy\" rel=\"nofollow\">referrerpolicy</a>",
       "text": "referrerpolicy"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/referralpolicy",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
@@ -29030,10 +29130,11 @@ module.exports={
     "note": null
   },
   "rel": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel\">rel</a>",
       "text": "rel"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/rel",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>",
@@ -29046,10 +29147,11 @@ module.exports={
     "note": null
   },
   "required": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required\">required</a>",
       "text": "required"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/required",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -29062,10 +29164,11 @@ module.exports={
     "note": null
   },
   "reversed": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/reversed\" rel=\"nofollow\">reversed</a>",
       "text": "reversed"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/reversed",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol\" title=\"The HTML &lt;ol&gt; element represents an ordered list of items &#x2014; typically rendered as a numbered list.\"><code>&lt;ol&gt;</code></a>",
@@ -29078,10 +29181,11 @@ module.exports={
     "note": null
   },
   "rows": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rows\" rel=\"nofollow\">rows</a>",
       "text": "rows"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/rows",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -29094,10 +29198,11 @@ module.exports={
     "note": null
   },
   "rowspan": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rowspan\" rel=\"nofollow\">rowspan</a>",
       "text": "rowspan"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/rowspan",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -29110,10 +29215,11 @@ module.exports={
     "note": null
   },
   "sandbox": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox\">sandbox</a>",
       "text": "sandbox"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/iframe#attr-sandbox",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -29126,10 +29232,11 @@ module.exports={
     "note": null
   },
   "scope": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/scope\" rel=\"nofollow\">scope</a>",
       "text": "scope"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/scope",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
@@ -29142,10 +29249,11 @@ module.exports={
     "note": null
   },
   "scoped": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/scoped\" rel=\"nofollow\">scoped</a>",
       "text": "scoped"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/scoped",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a>",
@@ -29158,10 +29266,11 @@ module.exports={
     "note": null
   },
   "selected": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/selected\" rel=\"nofollow\">selected</a>",
       "text": "selected"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/selected",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>",
@@ -29174,10 +29283,11 @@ module.exports={
     "note": null
   },
   "shape": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/shape\" rel=\"nofollow\">shape</a>",
       "text": "shape"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/shape",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
@@ -29190,10 +29300,11 @@ module.exports={
     "note": null
   },
   "size": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size\">size</a>",
       "text": "size"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/size",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>",
@@ -29206,10 +29317,11 @@ module.exports={
     "note": null
   },
   "sizes": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/sizes\" rel=\"nofollow\">sizes</a>",
       "text": "sizes"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/sizes",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>",
@@ -29222,10 +29334,11 @@ module.exports={
     "note": null
   },
   "slot": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/slot\" rel=\"nofollow\">slot</a>",
       "text": "slot"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/slot",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -29238,10 +29351,11 @@ module.exports={
     "note": null
   },
   "span": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/span\" rel=\"nofollow\">span</a>",
       "text": "span"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/span",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\" title=\"The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element.\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a>",
@@ -29254,10 +29368,11 @@ module.exports={
     "note": null
   },
   "spellcheck": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck\">spellcheck</a>",
       "text": "spellcheck"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/spellcheck",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -29270,10 +29385,11 @@ module.exports={
     "note": null
   },
   "src": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/src\" rel=\"nofollow\">src</a>",
       "text": "src"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/src",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -29286,10 +29402,11 @@ module.exports={
     "note": null
   },
   "srcdoc": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srcdoc\" rel=\"nofollow\">srcdoc</a>",
       "text": "srcdoc"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/srcdoc",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
@@ -29302,10 +29419,11 @@ module.exports={
     "note": null
   },
   "srclang": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srclang\" rel=\"nofollow\">srclang</a>",
       "text": "srclang"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/srclang",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
@@ -29318,10 +29436,11 @@ module.exports={
     "note": null
   },
   "srcset": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srcset\" rel=\"nofollow\">srcset</a>",
       "text": "srcset"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/srcset",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>",
@@ -29334,10 +29453,11 @@ module.exports={
     "note": null
   },
   "start": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/start\" rel=\"nofollow\">start</a>",
       "text": "start"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/start",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol\" title=\"The HTML &lt;ol&gt; element represents an ordered list of items &#x2014; typically rendered as a numbered list.\"><code>&lt;ol&gt;</code></a>",
@@ -29350,10 +29470,11 @@ module.exports={
     "note": null
   },
   "step": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step\">step</a>",
       "text": "step"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/step",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
@@ -29366,10 +29487,11 @@ module.exports={
     "note": null
   },
   "style": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style\">style</a>",
       "text": "style"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/style",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -29382,10 +29504,11 @@ module.exports={
     "note": null
   },
   "summary": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/summary\" rel=\"nofollow\">summary</a>",
       "text": "summary"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/summary",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>",
@@ -29398,10 +29521,11 @@ module.exports={
     "note": null
   },
   "tabindex": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex\">tabindex</a>",
       "text": "tabindex"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/tabindex",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -29414,10 +29538,11 @@ module.exports={
     "note": null
   },
   "target": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/target\" rel=\"nofollow\">target</a>",
       "text": "target"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/target",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" title=\"The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs in a document.\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
@@ -29430,10 +29555,11 @@ module.exports={
     "note": null
   },
   "title": {
-    "attribute": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title\">title</a>",
       "text": "title"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Global_attributes/title",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -29446,10 +29572,11 @@ module.exports={
     "note": null
   },
   "translate": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/translate\" rel=\"nofollow\">translate</a>",
       "text": "translate"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/translate",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
@@ -29462,10 +29589,11 @@ module.exports={
     "note": null
   },
   "type": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/type\" rel=\"nofollow\">type</a>",
       "text": "type"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/type",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu\" title=\"The HTML &lt;menu&gt; element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked.\"><code>&lt;menu&gt;</code></a>",
@@ -29478,10 +29606,11 @@ module.exports={
     "note": null
   },
   "usemap": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/usemap\" rel=\"nofollow\">usemap</a>",
       "text": "usemap"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/usemap",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>",
@@ -29494,10 +29623,11 @@ module.exports={
     "note": null
   },
   "value": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/value\" rel=\"nofollow\">value</a>",
       "text": "value"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/value",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data\" title=\"The HTML &lt;data&gt; element links a given piece of&#xA0;content with a machine-readable translation. If the content is time- or date-related, the &lt;time&gt; element must be used.\"><code>&lt;data&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li\" title=\"The HTML &lt;li&gt; element is used to represent an item in a list.\"><code>&lt;li&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\" title=\"The HTML &lt;param&gt; element defines parameters for an &lt;object&gt; element.\"><code>&lt;param&gt;</code></a>",
@@ -29510,10 +29640,11 @@ module.exports={
     "note": null
   },
   "width": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/width\" rel=\"nofollow\">width</a>",
       "text": "width"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/width",
     "status": "obsolete",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\" title=\"Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations.\"><code>&lt;canvas&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
@@ -29529,10 +29660,11 @@ module.exports={
     }
   },
   "wrap": {
-    "attribute": {
+    "keyword": {
       "html": "<a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/wrap\" rel=\"nofollow\">wrap</a>",
       "text": "wrap"
     },
+    "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Attributes/wrap",
     "status": "standard",
     "elements": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
@@ -29549,7 +29681,7 @@ module.exports={
 module.exports={
   "html": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML &lt;html&gt; element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>",
       "text": "<html>",
       "name": "html"
@@ -29559,11 +29691,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;html&gt;</code> element</strong> represents the root (top-level element) of an HTML document, so it is also referred to as the <em>root element</em>. All other elements must be descendants of this element.",
       "text": "The HTML <html> element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "manifest",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "base": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" title=\"The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs in a document.\"><code>&lt;base&gt;</code></a>",
       "text": "<base>",
       "name": "base"
@@ -29573,11 +29727,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;base&gt;</code> element</strong> specifies the base URL to use for all relative URLs in a document.",
       "text": "The HTML <base> element specifies the base URL to use for all relative URLs in a document."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "href",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "target",
+      "title",
+      "translate"
+    ]
   },
   "head": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head\" title=\"The HTML &lt;head&gt; element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.\"><code>&lt;head&gt;</code></a>",
       "text": "<head>",
       "name": "head"
@@ -29587,11 +29764,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;head&gt;</code> element</strong> contains machine-readable information (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/metadata\">metadata</a>) about the document, like its <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title\">title</a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\">scripts</a>, and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\">style sheets</a>.",
       "text": "The HTML <head> element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "link": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&lt;link&gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>",
       "text": "<link>",
       "name": "link"
@@ -29601,11 +29799,41 @@ module.exports={
       "html": "The <strong>HTML External Resource Link element (<code>&lt;link&gt;</code>)</strong> specifies relationships between the current document and an external resource. This element is most commonly used to link to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/CSS\">stylesheets</a>, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.",
       "text": "The HTML External Resource Link element (<link>) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both \"favicon\" style icons and icons for the home screen and apps on mobile devices) among other things."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "crossorigin",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "href",
+      "hreflang",
+      "id",
+      "importance",
+      "integrity",
+      "itemprop",
+      "lang",
+      "media",
+      "referrerpolicy",
+      "rel",
+      "sizes",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "meta": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>",
       "text": "<meta>",
       "name": "meta"
@@ -29615,11 +29843,36 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;meta&gt;</code> element</strong> represents <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Metadata\">metadata</a> that cannot be represented by other HTML meta-related elements, like <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" title=\"The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs in a document.\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&amp;lt;link&amp;gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title\" title=\"The HTML Title element (&lt;title&gt;) defines the document&apos;s title that is shown in a browser&apos;s title bar or a page&apos;s tab.\"><code>&lt;title&gt;</code></a>.",
       "text": "The HTML <meta> element represents metadata that cannot be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "charset",
+      "class",
+      "content",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "http-equiv",
+      "id",
+      "itemprop",
+      "lang",
+      "name",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "style": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a>",
       "text": "<style>",
       "name": "style"
@@ -29629,11 +29882,35 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;style&gt;</code> element</strong> contains style information for a document, or part of a document.",
       "text": "The HTML <style> element contains style information for a document, or part of a document."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "media",
+      "scoped",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type"
+    ]
   },
   "title": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title\" title=\"The HTML Title element (&lt;title&gt;) defines the document&apos;s title that is shown in a browser&apos;s title bar or a page&apos;s tab.\"><code>&lt;title&gt;</code></a>",
       "text": "<title>",
       "name": "title"
@@ -29643,11 +29920,32 @@ module.exports={
       "html": "The <strong>HTML Title element</strong> (<strong><code>&lt;title&gt;</code></strong>) defines the document&apos;s title that is shown in a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Browser\">browser</a>&apos;s title bar or a page&apos;s tab.",
       "text": "The HTML Title element (<title>) defines the document's title that is shown in a browser's title bar or a page's tab."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "body": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a>",
       "text": "<body>",
       "name": "body"
@@ -29657,11 +29955,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;body&gt;</code> Element</strong> represents the content of an HTML&#xA0;document. There can be only one <code>&lt;body&gt;</code> element in a document.",
       "text": "The HTML <body> Element represents the content of an HTML document. There can be only one <body> element in a document."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "background",
+      "bgcolor",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "address": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address\" title=\"The HTML &lt;address&gt; element indicates that the enclosed HTML provides contact information for a person or people, or for an organization.\"><code>&lt;address&gt;</code></a>",
       "text": "<address>",
       "name": "address"
@@ -29671,11 +29992,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;address&gt;</code> element</strong> indicates that the enclosed HTML provides contact information for a person or people, or for an organization.",
       "text": "The HTML <address> element indicates that the enclosed HTML provides contact information for a person or people, or for an organization."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "article": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article\" title=\"The HTML &lt;article&gt; element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).\"><code>&lt;article&gt;</code></a>",
       "text": "<article>",
       "name": "article"
@@ -29685,11 +30027,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;article&gt;</code> element</strong> represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).",
       "text": "The HTML <article> element represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication)."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "aside": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/aside\" title=\"The HTML &lt;aside&gt; element represents a portion of a document whose content is only indirectly related to the document&apos;s main content.\"><code>&lt;aside&gt;</code></a>",
       "text": "<aside>",
       "name": "aside"
@@ -29699,11 +30062,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;aside&gt;</code> element</strong> represents a portion of a document whose content is only indirectly related to the document&apos;s main content.",
       "text": "The HTML <aside> element represents a portion of a document whose content is only indirectly related to the document's main content."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "footer": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer\" title=\"The HTML &lt;footer&gt; element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents.\"><code>&lt;footer&gt;</code></a>",
       "text": "<footer>",
       "name": "footer"
@@ -29713,11 +30097,32 @@ module.exports={
       "html": "The<strong> HTML <code>&lt;footer&gt;</code> element</strong> represents a footer for its nearest <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Sectioning_content\">sectioning content</a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Sections_and_Outlines_of_an_HTML5_document#Sectioning_roots\">sectioning root</a> element. A footer typically contains information about the author of the section, copyright data or links to related documents.",
       "text": "The HTML <footer> element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "header": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header\" title=\"The HTML &lt;header&gt; element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.\"><code>&lt;header&gt;</code></a>",
       "text": "<header>",
       "name": "header"
@@ -29727,11 +30132,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;header&gt;</code> element</strong> represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.",
       "text": "The HTML <header> element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "h1": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h1&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h2&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h3&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h4&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h5&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h6&gt;</code></a>",
       "text": "<h1>, <h2>, <h3>, <h4>, <h5>, <h6>",
       "name": "h1, h2, h3, h4, h5, h6"
@@ -29741,11 +30167,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
       "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "h2": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h1&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h2&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h3&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h4&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h5&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h6&gt;</code></a>",
       "text": "<h1>, <h2>, <h3>, <h4>, <h5>, <h6>",
       "name": "h1, h2, h3, h4, h5, h6"
@@ -29755,11 +30202,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
       "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "h3": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h1&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h2&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h3&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h4&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h5&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h6&gt;</code></a>",
       "text": "<h1>, <h2>, <h3>, <h4>, <h5>, <h6>",
       "name": "h1, h2, h3, h4, h5, h6"
@@ -29769,11 +30237,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
       "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "h4": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h1&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h2&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h3&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h4&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h5&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h6&gt;</code></a>",
       "text": "<h1>, <h2>, <h3>, <h4>, <h5>, <h6>",
       "name": "h1, h2, h3, h4, h5, h6"
@@ -29783,11 +30272,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
       "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "h5": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h1&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h2&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h3&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h4&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h5&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h6&gt;</code></a>",
       "text": "<h1>, <h2>, <h3>, <h4>, <h5>, <h6>",
       "name": "h1, h2, h3, h4, h5, h6"
@@ -29797,11 +30307,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
       "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "h6": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h1&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h2\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h2&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h3\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h3&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h4\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h4&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h5\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h5&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h6\" title=\"REDIRECT Heading elements [en-US]\"><code>&lt;h6&gt;</code></a>",
       "text": "<h1>, <h2>, <h3>, <h4>, <h5>, <h6>",
       "name": "h1, h2, h3, h4, h5, h6"
@@ -29811,11 +30342,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
       "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "hgroup": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hgroup\" title=\"The HTML &lt;hgroup&gt; element represents a multi-level heading for a section of a document. It groups a set of &lt;h1&gt;&#x2013;&lt;h6&gt; elements.\"><code>&lt;hgroup&gt;</code></a>",
       "text": "<hgroup>",
       "name": "hgroup"
@@ -29825,11 +30377,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;hgroup&gt;</code> element</strong> represents a multi-level heading for a section of a document. It groups a set of <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements\">&lt;h1&gt;&#x2013;&lt;h6&gt;</a></code> elements.",
       "text": "The HTML <hgroup> element represents a multi-level heading for a section of a document. It groups a set of <h1>–<h6> elements."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "main": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main\" title=\"The HTML &lt;main&gt; element represents the dominant content of the &lt;body&gt; of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.\"><code>&lt;main&gt;</code></a>",
       "text": "<main>",
       "name": "main"
@@ -29839,11 +30412,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;main&gt;</code> element</strong> represents the dominant content of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a> of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.",
       "text": "The HTML <main> element represents the dominant content of the <body> of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "nav": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav\" title=\"The HTML &lt;nav&gt; element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.\"><code>&lt;nav&gt;</code></a>",
       "text": "<nav>",
       "name": "nav"
@@ -29853,11 +30447,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;nav&gt;</code> element</strong> represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.",
       "text": "The HTML <nav> element represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "section": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section\" title=\"The HTML &lt;section&gt; element represents a standalone section &#x2014; which doesn&apos;t have a more specific semantic element to represent it &#x2014; contained within an HTML document.\"><code>&lt;section&gt;</code></a>",
       "text": "<section>",
       "name": "section"
@@ -29867,11 +30482,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;section&gt;</code> element</strong> represents a standalone section &#x2014; which doesn&apos;t have a more specific semantic element to represent it &#x2014; contained within an HTML document.",
       "text": "The HTML <section> element represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "blockquote": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote\" title=\"The HTML &lt;blockquote&gt; Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the &lt;cite&gt; element.\"><code>&lt;blockquote&gt;</code></a>",
       "text": "<blockquote>",
       "name": "blockquote"
@@ -29881,11 +30517,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block Quotation Element</em>) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see <a target=\"_blank\" href=\"#Usage_notes\" rel=\"internal\">Notes</a> for how to change it). A URL for the source of the quotation may be given using the <strong>cite</strong> attribute, while a text representation of the source can be given using the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite\" title=\"The HTML Citation element (&lt;cite&gt;) is used to describe a reference to a cited creative work, and must include the title of that work.\"><code>&lt;cite&gt;</code></a> element.",
       "text": "The HTML <blockquote> Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the <cite> element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "cite",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "dd": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd\" title=\"The HTML &lt;dd&gt; element provides the description, definition, or value for the preceding term (&lt;dt&gt;) in a description list (&lt;dl&gt;).\"><code>&lt;dd&gt;</code></a>",
       "text": "<dd>",
       "name": "dd"
@@ -29895,11 +30553,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;dd&gt;</code> element</strong> provides the description, definition, or value for the preceding term (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt\" title=\"The HTML &lt;dt&gt; element specifies a term in a description or definition list, and as such must be used inside a &lt;dl&gt; element.\"><code>&lt;dt&gt;</code></a>) in a description list (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl\" title=\"The HTML &lt;dl&gt; element represents a description list. The element encloses a list of groups of terms (specified using the &lt;dt&gt; element) and descriptions (provided by &lt;dd&gt; elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).\"><code>&lt;dl&gt;</code></a>).",
       "text": "The HTML <dd> element provides the description, definition, or value for the preceding term (<dt>) in a description list (<dl>)."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "div": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div\" title=\"The HTML Content Division element (&lt;div&gt;) is the generic container for flow content. It has no effect on the content or layout until styled using CSS.\"><code>&lt;div&gt;</code></a>",
       "text": "<div>",
       "name": "div"
@@ -29909,11 +30588,32 @@ module.exports={
       "html": "The <strong>HTML Content Division element</strong> (<strong><code>&lt;div&gt;</code></strong>) is the generic container for flow content. It has no effect on the content or layout until styled using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/CSS\">CSS</a>.",
       "text": "The HTML Content Division element (<div>) is the generic container for flow content. It has no effect on the content or layout until styled using CSS."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "dl": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl\" title=\"The HTML &lt;dl&gt; element represents a description list. The element encloses a list of groups of terms (specified using the &lt;dt&gt; element) and descriptions (provided by &lt;dd&gt; elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).\"><code>&lt;dl&gt;</code></a>",
       "text": "<dl>",
       "name": "dl"
@@ -29923,11 +30623,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;dl&gt;</code> </strong>element represents a description list. The element encloses a list of groups of terms (specified using the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt\" title=\"The HTML &lt;dt&gt; element specifies a term in a description or definition list, and as such must be used inside a &lt;dl&gt; element.\"><code>&lt;dt&gt;</code></a> element) and descriptions (provided by <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dd\" title=\"The HTML &lt;dd&gt; element provides the description, definition, or value for the preceding term (&lt;dt&gt;) in a description list (&lt;dl&gt;).\"><code>&lt;dd&gt;</code></a> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).",
       "text": "The HTML <dl> element represents a description list. The element encloses a list of groups of terms (specified using the <dt> element) and descriptions (provided by <dd> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs)."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "dt": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dt\" title=\"The HTML &lt;dt&gt; element specifies a term in a description or definition list, and as such must be used inside a &lt;dl&gt; element.\"><code>&lt;dt&gt;</code></a>",
       "text": "<dt>",
       "name": "dt"
@@ -29937,11 +30658,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;dt&gt;</code> element</strong> specifies a term in a description or definition list, and as such must be used inside a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl\" title=\"The HTML &lt;dl&gt; element represents a description list. The element encloses a list of groups of terms (specified using the &lt;dt&gt; element) and descriptions (provided by &lt;dd&gt; elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).\"><code>&lt;dl&gt;</code></a> element.",
       "text": "The HTML <dt> element specifies a term in a description or definition list, and as such must be used inside a <dl> element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "figcaption": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption\" title=\"The HTML &lt;figcaption&gt; or Figure Caption element represents a caption or legend describing the rest of the contents of its parent &lt;figure&gt; element.\"><code>&lt;figcaption&gt;</code></a>",
       "text": "<figcaption>",
       "name": "figcaption"
@@ -29951,11 +30693,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;figcaption&gt;</code> or Figure Caption element</strong> represents a caption or legend describing the rest of the contents of its parent <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure\" title=\"The HTML &lt;figure&gt; (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (&lt;figcaption&gt;) element.\"><code>&lt;figure&gt;</code></a> element.",
       "text": "The HTML <figcaption> or Figure Caption element represents a caption or legend describing the rest of the contents of its parent <figure> element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "figure": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure\" title=\"The HTML &lt;figure&gt; (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (&lt;figcaption&gt;) element.\"><code>&lt;figure&gt;</code></a>",
       "text": "<figure>",
       "name": "figure"
@@ -29965,11 +30728,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;figure&gt;</code> (Figure With Optional Caption) element</strong> represents self-contained content, potentially with an optional caption, which is specified using the (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption\" title=\"The HTML &lt;figcaption&gt; or Figure Caption element represents a caption or legend describing the rest of the contents of its parent &lt;figure&gt; element.\"><code>&lt;figcaption&gt;</code></a>) element.",
       "text": "The HTML <figure> (Figure With Optional Caption) element represents self-contained content, potentially with an optional caption, which is specified using the (<figcaption>) element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "hr": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr\" title=\"The HTML &lt;hr&gt; element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.\"><code>&lt;hr&gt;</code></a>",
       "text": "<hr>",
       "name": "hr"
@@ -29979,11 +30763,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;hr&gt;</code> element</strong> represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.",
       "text": "The HTML <hr> element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "class",
+      "color",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "li": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li\" title=\"The HTML &lt;li&gt; element is used to represent an item in a list.\"><code>&lt;li&gt;</code></a>",
       "text": "<li>",
       "name": "li"
@@ -29993,11 +30800,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;li&gt;</code> element</strong> is used to represent an item in a list.",
       "text": "The HTML <li> element is used to represent an item in a list."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "value"
+    ]
   },
   "ol": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol\" title=\"The HTML &lt;ol&gt; element represents an ordered list of items &#x2014; typically rendered as a numbered list.\"><code>&lt;ol&gt;</code></a>",
       "text": "<ol>",
       "name": "ol"
@@ -30007,11 +30836,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;ol&gt;</code> element</strong> represents an ordered list of items &#x2014; typically rendered as a numbered list.",
       "text": "The HTML <ol> element represents an ordered list of items — typically rendered as a numbered list."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "reversed",
+      "slot",
+      "spellcheck",
+      "start",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "p": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/p\" title=\"The HTML &lt;p&gt; element represents a paragraph.\"><code>&lt;p&gt;</code></a>",
       "text": "<p>",
       "name": "p"
@@ -30021,11 +30873,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;p&gt;</code> element</strong> represents a paragraph.",
       "text": "The HTML <p> element represents a paragraph."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "pre": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre\" title=\"The HTML &lt;pre&gt; element represents preformatted text which is to be presented exactly as written in the HTML file.\"><code>&lt;pre&gt;</code></a>",
       "text": "<pre>",
       "name": "pre"
@@ -30035,11 +30908,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;pre&gt;</code> element</strong> represents preformatted text which is to be presented exactly as written in the HTML file.",
       "text": "The HTML <pre> element represents preformatted text which is to be presented exactly as written in the HTML file."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "ul": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul\" title=\"The HTML &lt;ul&gt; element represents an unordered list of items, typically rendered as a bulleted list.\"><code>&lt;ul&gt;</code></a>",
       "text": "<ul>",
       "name": "ul"
@@ -30049,11 +30943,32 @@ module.exports={
       "html": "The<strong> HTML <code>&lt;ul&gt;</code> element</strong> represents an unordered list of items, typically rendered as a bulleted list.",
       "text": "The HTML <ul> element represents an unordered list of items, typically rendered as a bulleted list."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "a": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\" title=\"The HTML &lt;a&gt; element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.\"><code>&lt;a&gt;</code></a>",
       "text": "<a>",
       "name": "a"
@@ -30063,11 +30978,41 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;a&gt;</code> element</strong> (or <em>anchor</em> element), with <a target=\"_blank\" href=\"#href\">its <code>href</code> attribute</a>, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.",
       "text": "The HTML <a> element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "download",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "href",
+      "hreflang",
+      "id",
+      "itemprop",
+      "lang",
+      "media",
+      "ping",
+      "referrerpolicy",
+      "rel",
+      "shape",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "target",
+      "title",
+      "translate"
+    ]
   },
   "abbr": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/abbr\" title=\"The HTML Abbreviation element (&lt;abbr&gt;) represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation.\"><code>&lt;abbr&gt;</code></a>",
       "text": "<abbr>",
       "name": "abbr"
@@ -30077,11 +31022,32 @@ module.exports={
       "html": "The <strong>HTML Abbreviation element </strong>(<strong><code>&lt;abbr&gt;</code></strong>) represents an abbreviation or acronym; the optional <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-title\">title</a></code> attribute can provide an expansion or description for the abbreviation.",
       "text": "The HTML Abbreviation element (<abbr>) represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "b": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b\" title=\"The HTML Bring Attention To element (&lt;b&gt;) is used to draw the reader&apos;s attention to the element&apos;s contents, which are not otherwise granted special importance.\"><code>&lt;b&gt;</code></a>",
       "text": "<b>",
       "name": "b"
@@ -30091,11 +31057,32 @@ module.exports={
       "html": "The <strong>HTML Bring Attention To element (<code>&lt;b&gt;</code>)</strong> is used to draw the reader&apos;s attention to the element&apos;s contents, which are not otherwise granted special importance.",
       "text": "The HTML Bring Attention To element (<b>) is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "bdi": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdi\" title=\"The HTML Bidirectional Isolate element (&lt;bdi&gt;)&#xA0; tells the browser&apos;s bidirectional algorithm to treat the text it contains in isolation from its surrounding text.\"><code>&lt;bdi&gt;</code></a>",
       "text": "<bdi>",
       "name": "bdi"
@@ -30105,11 +31092,32 @@ module.exports={
       "html": "The HTML <strong>Bidirectional Isolate element</strong> (<strong><code>&lt;bdi&gt;</code></strong>)&#xA0; tells the browser&apos;s bidirectional algorithm to treat the text it contains in isolation from its surrounding text.",
       "text": "The HTML Bidirectional Isolate element (<bdi>)  tells the browser's bidirectional algorithm to treat the text it contains in isolation from its surrounding text."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "bdo": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bdo\" title=\"The HTML Bidirectional Text Override element (&lt;bdo&gt;) overrides the current directionality of text, so that the text within is rendered in a different direction.\"><code>&lt;bdo&gt;</code></a>",
       "text": "<bdo>",
       "name": "bdo"
@@ -30119,11 +31127,32 @@ module.exports={
       "html": "The <strong>HTML Bidirectional Text Override element</strong> (<strong><code>&lt;bdo&gt;</code></strong>) overrides the current directionality of text, so that the text within is rendered in a different direction.",
       "text": "The HTML Bidirectional Text Override element (<bdo>) overrides the current directionality of text, so that the text within is rendered in a different direction."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "br": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br\" title=\"The HTML &lt;br&gt; element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.\"><code>&lt;br&gt;</code></a>",
       "text": "<br>",
       "name": "br"
@@ -30133,11 +31162,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;br&gt;</code> element</strong> produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.",
       "text": "The HTML <br> element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "cite": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite\" title=\"The HTML Citation element (&lt;cite&gt;) is used to describe a reference to a cited creative work, and must include the title of that work.\"><code>&lt;cite&gt;</code></a>",
       "text": "<cite>",
       "name": "cite"
@@ -30147,11 +31197,32 @@ module.exports={
       "html": "The <strong>HTML Citation element</strong> (<strong><code>&lt;cite&gt;</code></strong>) is used to describe a reference to a cited creative work, and must include the title of that work.",
       "text": "The HTML Citation element (<cite>) is used to describe a reference to a cited creative work, and must include the title of that work."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "code": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code\" title=\"The HTML &lt;code&gt; element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code.\"><code>&lt;code&gt;</code></a>",
       "text": "<code>",
       "name": "code"
@@ -30161,11 +31232,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;code&gt;</code> element</strong> displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code.",
       "text": "The HTML <code> element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "data": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data\" title=\"The HTML &lt;data&gt; element links a given piece of&#xA0;content with a machine-readable translation. If the content is time- or date-related, the &lt;time&gt; element must be used.\"><code>&lt;data&gt;</code></a>",
       "text": "<data>",
       "name": "data"
@@ -30175,11 +31267,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;data&gt;</code> element</strong> links a given piece of&#xA0;content with a machine-readable translation. If the content is time- or date-related, the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time\" title=\"The HTML &lt;time&gt; element represents a specific period in time.\"><code>&lt;time&gt;</code></a> element must be used.",
       "text": "The HTML <data> element links a given piece of content with a machine-readable translation. If the content is time- or date-related, the <time> element must be used."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "value"
+    ]
   },
   "dfn": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dfn\" title=\"The HTML Definition element (&lt;dfn&gt;) is used to indicate the term being defined within the context of a definition phrase or sentence.\"><code>&lt;dfn&gt;</code></a>",
       "text": "<dfn>",
       "name": "dfn"
@@ -30189,11 +31303,32 @@ module.exports={
       "html": "The <strong>HTML Definition element</strong> (<code><strong><dfn>&lt;dfn&gt;</dfn></strong></code>) is used to indicate the term being defined within the context of a definition phrase or sentence.",
       "text": "The HTML Definition element (<dfn>) is used to indicate the term being defined within the context of a definition phrase or sentence."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "em": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em\" title=\"The HTML &lt;em&gt; element marks text that has stress emphasis. The &lt;em&gt; element can be nested, with each level of nesting indicating a greater degree of emphasis.\"><code>&lt;em&gt;</code></a>",
       "text": "<em>",
       "name": "em"
@@ -30203,11 +31338,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;em&gt;</code> element</strong> marks text that has stress emphasis. The <code>&lt;em&gt;</code> element can be nested, with each level of nesting indicating a greater degree of emphasis.",
       "text": "The HTML <em> element marks text that has stress emphasis. The <em> element can be nested, with each level of nesting indicating a greater degree of emphasis."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "i": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i\" title=\"The HTML Interesting Text element (&lt;i&gt;) represents a range of text that is set off from the normal text for some reason.\"><code>&lt;i&gt;</code></a>",
       "text": "<i>",
       "name": "i"
@@ -30217,11 +31373,32 @@ module.exports={
       "html": "The <strong>HTML Interesting Text element (<code>&lt;i&gt;</code>)</strong> represents a range of text that is set off from the normal text for some reason.",
       "text": "The HTML Interesting Text element (<i>) represents a range of text that is set off from the normal text for some reason."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "kbd": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd\" title=\"The HTML Keyboard Input element (&lt;kbd&gt;) represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device.\"><code>&lt;kbd&gt;</code></a>",
       "text": "<kbd>",
       "name": "kbd"
@@ -30231,11 +31408,32 @@ module.exports={
       "html": "The <strong>HTML Keyboard Input element</strong> (<strong><code>&lt;kbd&gt;</code></strong>) represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device.",
       "text": "The HTML Keyboard Input element (<kbd>) represents a span of inline text denoting textual user input from a keyboard, voice input, or any other text entry device."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "mark": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/mark\" title=\"The HTML Mark Text element (&lt;mark&gt;) represents text which is marked or highlighted for reference or notation purposes, due to the marked passage&apos;s relevance or importance in the enclosing context.\"><code>&lt;mark&gt;</code></a>",
       "text": "<mark>",
       "name": "mark"
@@ -30245,11 +31443,32 @@ module.exports={
       "html": "The <strong>HTML Mark Text element</strong> (<strong><code>&lt;mark&gt;</code></strong>) represents text which is <strong>marked</strong> or <strong>highlighted</strong> for reference or notation purposes, due to the marked passage&apos;s relevance or importance in the enclosing context.",
       "text": "The HTML Mark Text element (<mark>) represents text which is marked or highlighted for reference or notation purposes, due to the marked passage's relevance or importance in the enclosing context."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "q": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q\" title=\"The HTML &lt;q&gt; element  indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. \"><code>&lt;q&gt;</code></a>",
       "text": "<q>",
       "name": "q"
@@ -30259,11 +31478,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;q&gt;</code> element </strong> indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. ",
       "text": "The HTML <q> element  indicates that the enclosed text is a short inline quotation. Most modern browsers implement this by surrounding the text in quotation marks. "
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "cite",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "rb": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rb\" title=\"The HTML Ruby Base (&lt;rb&gt;) element is used to delimit the base text component of a&#xA0; &lt;ruby&gt; annotation, i.e. the text that is being annotated.\"><code>&lt;rb&gt;</code></a>",
       "text": "<rb>",
       "name": "rb"
@@ -30273,11 +31514,32 @@ module.exports={
       "html": "The <strong>HTML Ruby Base (<code>&lt;rb&gt;</code>) element</strong> is used to delimit the base text component of a&#xA0; <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby\" title=\"The HTML &lt;ruby&gt; element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.\"><code>&lt;ruby&gt;</code></a> annotation, i.e. the text that is being annotated.",
       "text": "The HTML Ruby Base (<rb>) element is used to delimit the base text component of a  <ruby> annotation, i.e. the text that is being annotated."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "rp": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rp\" title=\"The HTML Ruby Fallback Parenthesis (&lt;rp&gt;) element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the &lt;ruby&gt; element.\"><code>&lt;rp&gt;</code></a>",
       "text": "<rp>",
       "name": "rp"
@@ -30287,11 +31549,32 @@ module.exports={
       "html": "The <strong>HTML Ruby Fallback Parenthesis (<code>&lt;rp&gt;</code>) element</strong> is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby\" title=\"The HTML &lt;ruby&gt; element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.\"><code>&lt;ruby&gt;</code></a> element.",
       "text": "The HTML Ruby Fallback Parenthesis (<rp>) element is used to provide fall-back parentheses for browsers that do not support display of ruby annotations using the <ruby> element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "rt": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt\" title=\"The HTML Ruby Text (&lt;rt&gt;) element specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The &lt;rt&gt; element must always be contained within a &lt;ruby&gt; element.\"><code>&lt;rt&gt;</code></a>",
       "text": "<rt>",
       "name": "rt"
@@ -30301,11 +31584,32 @@ module.exports={
       "html": "The <strong>HTML Ruby Text (<code>&lt;rt&gt;</code>) element</strong> specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The <code>&lt;rt&gt;</code> element must always be contained within a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby\" title=\"The HTML &lt;ruby&gt; element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.\"><code>&lt;ruby&gt;</code></a> element.",
       "text": "The HTML Ruby Text (<rt>) element specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The <rt> element must always be contained within a <ruby> element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "rtc": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rtc\" title=\"The HTML Ruby Text Container (&lt;rtc&gt;) element embraces semantic annotations of characters presented in a ruby of &lt;rb&gt; elements used inside of &lt;ruby&gt; element. &lt;rb&gt; elements can have both pronunciation (&lt;rt&gt;) and semantic (&lt;rtc&gt;) annotations.\"><code>&lt;rtc&gt;</code></a>",
       "text": "<rtc>",
       "name": "rtc"
@@ -30315,11 +31619,32 @@ module.exports={
       "html": "The <strong>HTML Ruby Text Container (<code>&lt;rtc&gt;</code>) element</strong> embraces semantic annotations of characters presented in a ruby of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rb\" title=\"The HTML Ruby Base (&lt;rb&gt;) element is used to delimit the base text component of a&#xA0; &lt;ruby&gt; annotation, i.e. the text that is being annotated.\"><code>&lt;rb&gt;</code></a> elements used inside of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby\" title=\"The HTML &lt;ruby&gt; element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.\"><code>&lt;ruby&gt;</code></a> element. <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rb\" title=\"The HTML Ruby Base (&lt;rb&gt;) element is used to delimit the base text component of a&#xA0; &lt;ruby&gt; annotation, i.e. the text that is being annotated.\"><code>&lt;rb&gt;</code></a> elements can have both pronunciation (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rt\" title=\"The HTML Ruby Text (&lt;rt&gt;) element specifies the ruby text component of a ruby annotation, which is used to provide pronunciation, translation, or transliteration information for East Asian typography. The &lt;rt&gt; element must always be contained within a &lt;ruby&gt; element.\"><code>&lt;rt&gt;</code></a>) and semantic (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/rtc\" title=\"The HTML Ruby Text Container (&lt;rtc&gt;) element embraces semantic annotations of characters presented in a ruby of &lt;rb&gt; elements used inside of &lt;ruby&gt; element. &lt;rb&gt; elements can have both pronunciation (&lt;rt&gt;) and semantic (&lt;rtc&gt;) annotations.\"><code>&lt;rtc&gt;</code></a>) annotations.",
       "text": "The HTML Ruby Text Container (<rtc>) element embraces semantic annotations of characters presented in a ruby of <rb> elements used inside of <ruby> element. <rb> elements can have both pronunciation (<rt>) and semantic (<rtc>) annotations."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "ruby": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ruby\" title=\"The HTML &lt;ruby&gt; element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.\"><code>&lt;ruby&gt;</code></a>",
       "text": "<ruby>",
       "name": "ruby"
@@ -30329,11 +31654,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;ruby&gt;</code> element</strong> represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters.",
       "text": "The HTML <ruby> element represents a ruby annotation. Ruby annotations are for showing pronunciation of East Asian characters."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "s": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/s\" title=\"The HTML &lt;s&gt; element renders text with a strikethrough, or a line through it. Use the &lt;s&gt; element to represent things that are no longer relevant or no longer accurate. However, &lt;s&gt; is not appropriate when indicating document edits; for that, use the &lt;del&gt; and &lt;ins&gt; elements, as appropriate.\"><code>&lt;s&gt;</code></a>",
       "text": "<s>",
       "name": "s"
@@ -30343,11 +31689,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;s&gt;</code> element</strong> renders text with a strikethrough, or a line through it. Use the <code>&lt;s&gt;</code> element to represent things that are no longer relevant or no longer accurate. However, <code>&lt;s&gt;</code> is not appropriate when indicating document edits; for that, use the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del\" title=\"The HTML &lt;del&gt; element represents a range of text that has been deleted from a document.\"><code>&lt;del&gt;</code></a> and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins\" title=\"The HTML &lt;ins&gt; element represents a range of text that has been added to a document.\"><code>&lt;ins&gt;</code></a> elements, as appropriate.",
       "text": "The HTML <s> element renders text with a strikethrough, or a line through it. Use the <s> element to represent things that are no longer relevant or no longer accurate. However, <s> is not appropriate when indicating document edits; for that, use the <del> and <ins> elements, as appropriate."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "samp": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/samp\" title=\"The HTML Sample Element (&lt;samp&gt;) is used to enclose inline text which represents sample (or quoted) output from a computer program.\"><code>&lt;samp&gt;</code></a>",
       "text": "<samp>",
       "name": "samp"
@@ -30357,11 +31724,32 @@ module.exports={
       "html": "The <strong>HTML Sample Element</strong> (<strong><code>&lt;samp&gt;</code></strong>) is used to enclose inline text which represents sample (or quoted) output from a computer program.",
       "text": "The HTML Sample Element (<samp>) is used to enclose inline text which represents sample (or quoted) output from a computer program."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "small": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small\" title=\"The HTML &lt;small&gt; element represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from small to x-small.\"><code>&lt;small&gt;</code></a>",
       "text": "<small>",
       "name": "small"
@@ -30371,11 +31759,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;small&gt;</code></strong> <strong>element </strong>represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from <code>small</code> to <code>x-small</code>.",
       "text": "The HTML <small> element represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from small to x-small."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "span": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span\" title=\"The HTML &lt;span&gt; element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang.\"><code>&lt;span&gt;</code></a>",
       "text": "<span>",
       "name": "span"
@@ -30385,11 +31794,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;span&gt;</code> element</strong> is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-class\">class</a></code> or <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-id\">id</a></code> attributes), or because they share attribute values, such as <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes#attr-lang\">lang</a></code>.",
       "text": "The HTML <span> element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "strong": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong\" title=\"The HTML Strong Importance Element (&lt;strong&gt;) indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.\"><code>&lt;strong&gt;</code></a>",
       "text": "<strong>",
       "name": "strong"
@@ -30399,11 +31829,32 @@ module.exports={
       "html": "The HTML <strong>Strong Importance Element</strong> (<strong><code>&lt;strong&gt;</code></strong>) indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type.",
       "text": "The HTML Strong Importance Element (<strong>) indicates that its contents have strong importance, seriousness, or urgency. Browsers typically render the contents in bold type."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "sub": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub\" title=\"The HTML Subscript element (&lt;sub&gt;) specifies inline text which should be displayed as subscript for solely typographical reasons.\"><code>&lt;sub&gt;</code></a>",
       "text": "<sub>",
       "name": "sub"
@@ -30413,11 +31864,32 @@ module.exports={
       "html": "The HTML <strong>Subscript element</strong> (<strong><code>&lt;sub&gt;</code></strong>) specifies inline text which should be displayed as subscript for solely typographical reasons.",
       "text": "The HTML Subscript element (<sub>) specifies inline text which should be displayed as subscript for solely typographical reasons."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "sup": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup\" title=\"The HTML Superscript element (&lt;sup&gt;) specifies inline text which is to be displayed as superscript for solely typographical reasons.\"><code>&lt;sup&gt;</code></a>",
       "text": "<sup>",
       "name": "sup"
@@ -30427,11 +31899,32 @@ module.exports={
       "html": "The <strong>HTML Superscript element</strong> (<strong><code>&lt;sup&gt;</code></strong>) specifies inline text which is to be displayed as superscript for solely typographical reasons.",
       "text": "The HTML Superscript element (<sup>) specifies inline text which is to be displayed as superscript for solely typographical reasons."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "time": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time\" title=\"The HTML &lt;time&gt; element represents a specific period in time.\"><code>&lt;time&gt;</code></a>",
       "text": "<time>",
       "name": "time"
@@ -30441,11 +31934,33 @@ module.exports={
       "html": "The HTML <strong><code>&lt;time&gt;</code> element</strong> represents a specific period in time.",
       "text": "The HTML <time> element represents a specific period in time."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "datetime",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "u": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u\" title=\"The HTML Unarticulated Annotation Element (&lt;u&gt;) represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation.\"><code>&lt;u&gt;</code></a>",
       "text": "<u>",
       "name": "u"
@@ -30455,11 +31970,32 @@ module.exports={
       "html": "The HTML <strong>Unarticulated Annotation Element</strong> (<strong><code>&lt;u&gt;</code></strong>) represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation.",
       "text": "The HTML Unarticulated Annotation Element (<u>) represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "var": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/var\" title=\"The HTML Variable element (&lt;var&gt;) represents the name of a variable in a mathematical expression or a programming context.\"><code>&lt;var&gt;</code></a>",
       "text": "<var>",
       "name": "var"
@@ -30469,11 +32005,32 @@ module.exports={
       "html": "The HTML <strong>Variable element</strong> (<strong><code>&lt;var&gt;</code></strong>) represents the name of a variable in a mathematical expression or a programming context.",
       "text": "The HTML Variable element (<var>) represents the name of a variable in a mathematical expression or a programming context."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "wbr": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/wbr\" title=\"The HTML &lt;wbr&gt; element represents a word break opportunity&#x2014;a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.\"><code>&lt;wbr&gt;</code></a>",
       "text": "<wbr>",
       "name": "wbr"
@@ -30483,11 +32040,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;wbr&gt;</code> element</strong> represents a word break opportunity&#x2014;a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location.",
       "text": "The HTML <wbr> element represents a word break opportunity—a position within text where the browser may optionally break a line, though its line-breaking rules would not otherwise create a break at that location."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "area": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a>",
       "text": "<area>",
       "name": "area"
@@ -30497,11 +32075,43 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;area&gt;</code> element</strong> defines a hot-spot region on an image, and optionally associates it with a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Hyperlink\">hypertext link</a>. This element is used only within a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map\" title=\"The HTML &lt;map&gt; element is used with &lt;area&gt; elements to define an image map (a clickable link area).\"><code>&lt;map&gt;</code></a> element.",
       "text": "The HTML <area> element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a <map> element."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "alt",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "coords",
+      "data-*",
+      "dir",
+      "download",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "href",
+      "hreflang",
+      "id",
+      "itemprop",
+      "lang",
+      "media",
+      "ping",
+      "referrerpolicy",
+      "rel",
+      "shape",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "target",
+      "title",
+      "translate"
+    ]
   },
   "audio": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a>",
       "text": "<audio>",
       "name": "audio"
@@ -30511,11 +32121,40 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;audio&gt;</code> element</strong> is used to embed sound content in documents. It may contain one or more audio sources, represented using the <code>src</code> attribute or the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a> element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaStream\"><code>MediaStream</code></a>.",
       "text": "The HTML <audio> element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the <source> element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "autoplay",
+      "buffered",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "controls",
+      "crossorigin",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "loop",
+      "muted",
+      "preload",
+      "slot",
+      "spellcheck",
+      "src",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "img": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a>",
       "text": "<img>",
       "name": "img"
@@ -30525,11 +32164,48 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;img&gt;</code> element</strong> embeds an image into the document.",
       "text": "The HTML <img> element embeds an image into the document."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "align",
+      "alt",
+      "autocapitalize",
+      "border",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "crossorigin",
+      "data-*",
+      "decoding",
+      "dir",
+      "draggable",
+      "dropzone",
+      "height",
+      "hidden",
+      "id",
+      "importance",
+      "intrinsicsize",
+      "ismap",
+      "itemprop",
+      "lang",
+      "loading",
+      "referrerpolicy",
+      "sizes",
+      "slot",
+      "spellcheck",
+      "src",
+      "srcset",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "usemap",
+      "width"
+    ]
   },
   "map": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map\" title=\"The HTML &lt;map&gt; element is used with &lt;area&gt; elements to define an image map (a clickable link area).\"><code>&lt;map&gt;</code></a>",
       "text": "<map>",
       "name": "map"
@@ -30539,11 +32215,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;map&gt;</code> element</strong> is used with <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\" title=\"The HTML &lt;area&gt; element defines a hot-spot region on an image, and optionally associates it with a hypertext link. This element is used only within a &lt;map&gt; element.\"><code>&lt;area&gt;</code></a> elements to define an image map (a clickable link area).",
       "text": "The HTML <map> element is used with <area> elements to define an image map (a clickable link area)."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "name",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "track": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\" title=\"The HTML &lt;track&gt; element is used as a child of the media elements &lt;audio&gt; and &lt;video&gt;. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) &#x2014; Web Video Text Tracks or&#xA0;Timed Text Markup Language (TTML).\"><code>&lt;track&gt;</code></a>",
       "text": "<track>",
       "name": "track"
@@ -30553,11 +32251,37 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;track&gt;</code> element</strong> is used as a child of the media elements <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a> and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Video_Text_Tracks_Format\">WebVTT format</a> (<code>.vtt</code> files) &#x2014; Web Video Text Tracks or&#xA0;<a class=\"external\" target=\"_blank\" href=\"https://w3c.github.io/ttml2/index.html\" rel=\"noopener\">Timed Text Markup Language (TTML).</a>",
       "text": "The HTML <track> element is used as a child of the media elements <audio> and <video>. It lets you specify timed text tracks (or time-based data), for example to automatically handle subtitles. The tracks are formatted in WebVTT format (.vtt files) — Web Video Text Tracks or Timed Text Markup Language (TTML)."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "default",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "kind",
+      "label",
+      "lang",
+      "slot",
+      "spellcheck",
+      "src",
+      "srclang",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "video": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a>",
       "text": "<video>",
       "name": "video"
@@ -30567,11 +32291,43 @@ module.exports={
       "html": "The <strong>HTML Video element</strong> (<strong><code>&lt;video&gt;</code></strong>) embeds a media player which supports video playback into the document. You can use <code>&lt;video&gt;</code> for audio content as well, but the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a> element may provide a more appropriate user experience.",
       "text": "The HTML Video element (<video>) embeds a media player which supports video playback into the document. You can use <video> for audio content as well, but the <audio> element may provide a more appropriate user experience."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "autoplay",
+      "buffered",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "controls",
+      "crossorigin",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "height",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "loop",
+      "muted",
+      "poster",
+      "preload",
+      "slot",
+      "spellcheck",
+      "src",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "width"
+    ]
   },
   "embed": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a>",
       "text": "<embed>",
       "name": "embed"
@@ -30581,11 +32337,36 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;embed&gt;</code> element</strong> embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.",
       "text": "The HTML <embed> element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "height",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "src",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type",
+      "width"
+    ]
   },
   "iframe": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\" title=\"The HTML Inline Frame element (&lt;iframe&gt;) represents a nested browsing context, embedding another HTML page into the current one.\"><code>&lt;iframe&gt;</code></a>",
       "text": "<iframe>",
       "name": "iframe"
@@ -30595,11 +32376,44 @@ module.exports={
       "html": "The <strong>HTML Inline Frame element (<code>&lt;iframe&gt;</code>)</strong> represents a nested <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/browsing_context\">browsing context</a>, embedding another HTML page into the current one.",
       "text": "The HTML Inline Frame element (<iframe>) represents a nested browsing context, embedding another HTML page into the current one."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "allow",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "csp",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "height",
+      "hidden",
+      "id",
+      "importance",
+      "itemprop",
+      "lang",
+      "loading",
+      "name",
+      "referrerpolicy",
+      "sandbox",
+      "slot",
+      "spellcheck",
+      "src",
+      "srcdoc",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "width"
+    ]
   },
   "object": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>",
       "text": "<object>",
       "name": "object"
@@ -30609,11 +32423,40 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;object&gt;</code> element</strong> represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.",
       "text": "The HTML <object> element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "border",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "form",
+      "height",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "name",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type",
+      "usemap",
+      "width"
+    ]
   },
   "param": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\" title=\"The HTML &lt;param&gt; element defines parameters for an &lt;object&gt; element.\"><code>&lt;param&gt;</code></a>",
       "text": "<param>",
       "name": "param"
@@ -30623,11 +32466,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;param&gt;</code> element</strong> defines parameters for an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a> element.",
       "text": "The HTML <param> element defines parameters for an <object> element."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "name",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "value"
+    ]
   },
   "picture": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture\" title=\"The HTML &lt;picture&gt; element contains zero or more &lt;source&gt; elements and one &lt;img&gt; element to offer alternative versions of an image for different display/device scenarios.\"><code>&lt;picture&gt;</code></a>",
       "text": "<picture>",
       "name": "picture"
@@ -30637,11 +32503,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;picture&gt;</code> element</strong> contains zero or more <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a> elements and one <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a> element to offer alternative versions of an image for different display/device scenarios.",
       "text": "The HTML <picture> element contains zero or more <source> elements and one <img> element to offer alternative versions of an image for different display/device scenarios."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "source": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\" title=\"The HTML &lt;source&gt; element specifies multiple media resources for the &lt;picture&gt;, the &lt;audio&gt; element, or the &lt;video&gt; element.\"><code>&lt;source&gt;</code></a>",
       "text": "<source>",
       "name": "source"
@@ -30651,11 +32538,37 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;source&gt;</code> element</strong> specifies multiple media resources for the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/picture\" title=\"The HTML &lt;picture&gt; element contains zero or more &lt;source&gt; elements and one &lt;img&gt; element to offer alternative versions of an image for different display/device scenarios.\"><code>&lt;picture&gt;</code></a>, the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a> element, or the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\" title=\"The HTML Video element (&lt;video&gt;) embeds a media player which supports video playback into the document. You can use &lt;video&gt; for audio content as well, but the &lt;audio&gt; element may provide a more appropriate user experience.\"><code>&lt;video&gt;</code></a> element.",
       "text": "The HTML <source> element specifies multiple media resources for the <picture>, the <audio> element, or the <video> element."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "media",
+      "sizes",
+      "slot",
+      "spellcheck",
+      "src",
+      "srcset",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type"
+    ]
   },
   "canvas": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\" title=\"Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations.\"><code>&lt;canvas&gt;</code></a>",
       "text": "<canvas>",
       "name": "canvas"
@@ -30665,11 +32578,34 @@ module.exports={
       "html": "Use the <strong>HTML <code>&lt;canvas&gt;</code> element</strong> with either the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API\">canvas scripting API</a> or the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API\">WebGL API</a> to draw graphics and animations.",
       "text": "Use the HTML <canvas> element with either the canvas scripting API or the WebGL API to draw graphics and animations."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "height",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "width"
+    ]
   },
   "noscript": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noscript\" title=\"The HTML &lt;noscript&gt; element defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.\"><code>&lt;noscript&gt;</code></a>",
       "text": "<noscript>",
       "name": "noscript"
@@ -30679,11 +32615,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;noscript&gt;</code> element</strong> defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser.",
       "text": "The HTML <noscript> element defines a section of HTML to be inserted if a script type on the page is unsupported or if scripting is currently turned off in the browser."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "script": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>",
       "text": "<script>",
       "name": "script"
@@ -30693,11 +32650,42 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;script&gt;</code> element</strong> is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.",
       "text": "The HTML <script> element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "async",
+      "autocapitalize",
+      "charset",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "crossorigin",
+      "data-*",
+      "defer",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "importance",
+      "integrity",
+      "itemprop",
+      "lang",
+      "language",
+      "referrerpolicy",
+      "slot",
+      "spellcheck",
+      "src",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type"
+    ]
   },
   "del": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del\" title=\"The HTML &lt;del&gt; element represents a range of text that has been deleted from a document.\"><code>&lt;del&gt;</code></a>",
       "text": "<del>",
       "name": "del"
@@ -30707,11 +32695,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;del&gt;</code> element</strong> represents a range of text that has been deleted from a document.",
       "text": "The HTML <del> element represents a range of text that has been deleted from a document."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "cite",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "datetime",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "ins": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins\" title=\"The HTML &lt;ins&gt; element represents a range of text that has been added to a document.\"><code>&lt;ins&gt;</code></a>",
       "text": "<ins>",
       "name": "ins"
@@ -30721,11 +32732,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;ins&gt;</code> element</strong> represents a range of text that has been added to a document.",
       "text": "The HTML <ins> element represents a range of text that has been added to a document."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "cite",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "datetime",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "caption": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption\" title=\"The HTML &lt;caption&gt; element specifies the caption (or title) of a table.\"><code>&lt;caption&gt;</code></a>",
       "text": "<caption>",
       "name": "caption"
@@ -30735,11 +32769,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;caption&gt;</code> element</strong> specifies the caption (or title) of a table.",
       "text": "The HTML <caption> element specifies the caption (or title) of a table."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "col": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\" title=\"The HTML &lt;col&gt; element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a &lt;colgroup&gt; element.\"><code>&lt;col&gt;</code></a>",
       "text": "<col>",
       "name": "col"
@@ -30749,11 +32805,35 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;col&gt;</code> element</strong> defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a> element.",
       "text": "The HTML <col> element defines a column within a table and is used for defining common semantics on all common cells. It is generally found within a <colgroup> element."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "bgcolor",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "span",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "colgroup": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\" title=\"The HTML &lt;colgroup&gt; element defines a group of columns within a table.\"><code>&lt;colgroup&gt;</code></a>",
       "text": "<colgroup>",
       "name": "colgroup"
@@ -30763,11 +32843,35 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;colgroup&gt;</code> element</strong> defines a group of columns within a table.",
       "text": "The HTML <colgroup> element defines a group of columns within a table."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "bgcolor",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "span",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "table": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>",
       "text": "<table>",
       "name": "table"
@@ -30777,11 +32881,37 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;table&gt;</code> element</strong> represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.",
       "text": "The HTML <table> element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "background",
+      "bgcolor",
+      "border",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "summary",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "tbody": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody\" title=\"The HTML Table Body element (&lt;tbody&gt;) encapsulates a set of table rows (&lt;tr&gt; elements), indicating that they comprise the body of the table (&lt;table&gt;).\"><code>&lt;tbody&gt;</code></a>",
       "text": "<tbody>",
       "name": "tbody"
@@ -30791,11 +32921,34 @@ module.exports={
       "html": "The <strong>HTML Table Body element</strong> (<strong><code>&lt;tbody&gt;</code></strong>) encapsulates a set of table rows (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\" title=\"The HTML &lt;tr&gt; element defines a row of cells in a table. The row&apos;s cells can then be established using a mix of &lt;td&gt; (data cell) and &lt;th&gt; (header cell) elements.\"><code>&lt;tr&gt;</code></a> elements), indicating that they comprise the body of the table (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\" title=\"The HTML &lt;table&gt; element represents tabular data &#x2014; that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data.\"><code>&lt;table&gt;</code></a>).",
       "text": "The HTML Table Body element (<tbody>) encapsulates a set of table rows (<tr> elements), indicating that they comprise the body of the table (<table>)."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "bgcolor",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "td": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a>",
       "text": "<td>",
       "name": "td"
@@ -30805,11 +32958,38 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;td&gt;</code> element</strong> defines a cell of a table that contains data. It participates in the <em>table model</em>.",
       "text": "The HTML <td> element defines a cell of a table that contains data. It participates in the table model."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "background",
+      "bgcolor",
+      "class",
+      "colspan",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "headers",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "rowspan",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "tfoot": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot\" title=\"The HTML &lt;tfoot&gt; element defines a set of rows summarizing the columns of the table.\"><code>&lt;tfoot&gt;</code></a>",
       "text": "<tfoot>",
       "name": "tfoot"
@@ -30819,11 +32999,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;tfoot&gt;</code> element</strong> defines a set of rows summarizing the columns of the table.",
       "text": "The HTML <tfoot> element defines a set of rows summarizing the columns of the table."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "bgcolor",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "th": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a>",
       "text": "<th>",
       "name": "th"
@@ -30833,11 +33035,39 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;th&gt;</code> element</strong> defines a cell as header of a group of table cells. The exact nature of this group is defined by the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-scope\">scope</a></code> and <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th#attr-headers\">headers</a></code> attributes.",
       "text": "The HTML <th> element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "background",
+      "bgcolor",
+      "class",
+      "colspan",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "headers",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "rowspan",
+      "scope",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "thead": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead\" title=\"The HTML &lt;thead&gt; element defines a set of rows defining the head of the columns of the table.\"><code>&lt;thead&gt;</code></a>",
       "text": "<thead>",
       "name": "thead"
@@ -30847,11 +33077,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;thead&gt;</code> element</strong> defines a set of rows defining the head of the columns of the table.",
       "text": "The HTML <thead> element defines a set of rows defining the head of the columns of the table."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "tr": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\" title=\"The HTML &lt;tr&gt; element defines a row of cells in a table. The row&apos;s cells can then be established using a mix of &lt;td&gt; (data cell) and &lt;th&gt; (header cell) elements.\"><code>&lt;tr&gt;</code></a>",
       "text": "<tr>",
       "name": "tr"
@@ -30861,11 +33113,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;tr&gt;</code> element</strong> defines a row of cells in a table. The row&apos;s cells can then be established using a mix of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\" title=\"The HTML &lt;td&gt; element defines a cell of a table that contains data. It participates in the table model.\"><code>&lt;td&gt;</code></a> (data cell) and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\" title=\"The HTML &lt;th&gt; element defines a cell as header of a group of table cells. The exact nature of this group is defined by the scope and headers attributes.\"><code>&lt;th&gt;</code></a> (header cell) elements.",
       "text": "The HTML <tr> element defines a row of cells in a table. The row's cells can then be established using a mix of <td> (data cell) and <th> (header cell) elements."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "autocapitalize",
+      "bgcolor",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "button": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\" title=\"The HTML &lt;button&gt; element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.\"><code>&lt;button&gt;</code></a>",
       "text": "<button>",
       "name": "button"
@@ -30875,11 +33150,43 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;button&gt;</code> element</strong> represents a clickable button, used to submit <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms\">forms</a> or anywhere in a document for accessible, standard button functionality.",
       "text": "The HTML <button> element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "autofocus",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "form",
+      "formaction",
+      "formenctype",
+      "formmethod",
+      "formnovalidate",
+      "formtarget",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "name",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type",
+      "value"
+    ]
   },
   "datalist": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist\" title=\"The HTML &lt;datalist&gt; element contains a set of &lt;option&gt; elements that represent the permissible or recommended options available to choose from within other controls.\"><code>&lt;datalist&gt;</code></a>",
       "text": "<datalist>",
       "name": "datalist"
@@ -30889,11 +33196,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;datalist&gt;</code> element</strong> contains a set of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a> elements that represent the permissible or recommended options available to choose from within other controls.",
       "text": "The HTML <datalist> element contains a set of <option> elements that represent the permissible or recommended options available to choose from within other controls."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "fieldset": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\" title=\"The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form.\"><code>&lt;fieldset&gt;</code></a>",
       "text": "<fieldset>",
       "name": "fieldset"
@@ -30903,11 +33231,35 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;fieldset&gt;</code> element</strong> is used to group several controls as well as labels (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label\" title=\"The HTML &lt;label&gt; element represents a caption for an item in a user interface.\"><code>&lt;label&gt;</code></a>) within a web form.",
       "text": "The HTML <fieldset> element is used to group several controls as well as labels (<label>) within a web form."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "form",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "name",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "form": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a>",
       "text": "<form>",
       "name": "form"
@@ -30917,11 +33269,41 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;form&gt;</code> element</strong> represents a document section containing interactive controls for submitting information.",
       "text": "The HTML <form> element represents a document section containing interactive controls for submitting information."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accept",
+      "accept-charset",
+      "accesskey",
+      "action",
+      "autocapitalize",
+      "autocomplete",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "enctype",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "method",
+      "name",
+      "novalidate",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "target",
+      "title",
+      "translate"
+    ]
   },
   "input": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>",
       "text": "<input>",
       "name": "input"
@@ -30931,11 +33313,65 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;input&gt;</code> element</strong> is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/user_agent\">user agent</a>. ",
       "text": "The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. "
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accept",
+      "accesskey",
+      "alt",
+      "autocapitalize",
+      "autocomplete",
+      "autofocus",
+      "capture",
+      "checked",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "dirname",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "form",
+      "formaction",
+      "formenctype",
+      "formmethod",
+      "formnovalidate",
+      "formtarget",
+      "height",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "list",
+      "max",
+      "maxlength",
+      "minlength",
+      "min",
+      "multiple",
+      "name",
+      "pattern",
+      "placeholder",
+      "readonly",
+      "required",
+      "size",
+      "slot",
+      "spellcheck",
+      "src",
+      "step",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type",
+      "usemap",
+      "value",
+      "width"
+    ]
   },
   "label": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label\" title=\"The HTML &lt;label&gt; element represents a caption for an item in a user interface.\"><code>&lt;label&gt;</code></a>",
       "text": "<label>",
       "name": "label"
@@ -30945,11 +33381,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;label&gt;</code> element</strong> represents a caption for an item in a user interface.",
       "text": "The HTML <label> element represents a caption for an item in a user interface."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "for",
+      "form",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "legend": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/legend\" title=\"The HTML &lt;legend&gt; element represents a caption for the content of its parent &lt;fieldset&gt;.\"><code>&lt;legend&gt;</code></a>",
       "text": "<legend>",
       "name": "legend"
@@ -30959,11 +33418,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;legend&gt;</code> element</strong> represents a caption for the content of its parent <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\" title=\"The HTML &lt;fieldset&gt; element is used to group several controls as well as labels (&lt;label&gt;) within a web form.\"><code>&lt;fieldset&gt;</code></a>.",
       "text": "The HTML <legend> element represents a caption for the content of its parent <fieldset>."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "meter": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\" title=\"The HTML &lt;meter&gt; element represents either a scalar value within a known range or a fractional value.\"><code>&lt;meter&gt;</code></a>",
       "text": "<meter>",
       "name": "meter"
@@ -30973,11 +33453,39 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;meter&gt;</code> element</strong> represents either a scalar value within a known range or a fractional value.",
       "text": "The HTML <meter> element represents either a scalar value within a known range or a fractional value."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "form",
+      "hidden",
+      "high",
+      "id",
+      "itemprop",
+      "lang",
+      "low",
+      "max",
+      "min",
+      "optimum",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "value"
+    ]
   },
   "optgroup": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup\" title=\"The HTML &lt;optgroup&gt; element creates a grouping of options within a &lt;select&gt; element.\"><code>&lt;optgroup&gt;</code></a>",
       "text": "<optgroup>",
       "name": "optgroup"
@@ -30987,11 +33495,34 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;optgroup&gt;</code> element</strong> creates a grouping of options within a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a> element.",
       "text": "The HTML <optgroup> element creates a grouping of options within a <select> element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "label",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "option": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\" title=\"The HTML &lt;option&gt; element is used to define an item contained in a &lt;select&gt;, an &lt;optgroup&gt;, or a &lt;datalist&gt;&#xA0;element. As such,&#xA0;&lt;option&gt;&#xA0;can represent menu items in popups and other lists of items in an HTML document.\"><code>&lt;option&gt;</code></a>",
       "text": "<option>",
       "name": "option"
@@ -31001,11 +33532,36 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;option&gt;</code> element</strong> is used to define an item contained in a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup\" title=\"The HTML &lt;optgroup&gt; element creates a grouping of options within a &lt;select&gt; element.\"><code>&lt;optgroup&gt;</code></a>, or a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/datalist\" title=\"The HTML &lt;datalist&gt; element contains a set of &lt;option&gt; elements that represent the permissible or recommended options available to choose from within other controls.\"><code>&lt;datalist&gt;</code></a>&#xA0;element. As such,&#xA0;<code>&lt;option&gt;</code>&#xA0;can represent menu items in popups and other lists of items in an HTML document.",
       "text": "The HTML <option> element is used to define an item contained in a <select>, an <optgroup>, or a <datalist> element. As such, <option> can represent menu items in popups and other lists of items in an HTML document."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "label",
+      "lang",
+      "selected",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "value"
+    ]
   },
   "output": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\" title=\"The HTML Output element (&lt;output&gt;) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.\"><code>&lt;output&gt;</code></a>",
       "text": "<output>",
       "name": "output"
@@ -31015,11 +33571,35 @@ module.exports={
       "html": "The <strong>HTML Output element</strong> (<strong><code>&lt;output&gt;</code></strong>) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.",
       "text": "The HTML Output element (<output>) is a container element into which a site or app can inject the results of a calculation or the outcome of a user action."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "for",
+      "form",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "name",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "progress": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\" title=\"The HTML &lt;progress&gt; element displays an indicator showing the completion progress of a task, typically displayed as a progress bar.\"><code>&lt;progress&gt;</code></a>",
       "text": "<progress>",
       "name": "progress"
@@ -31029,11 +33609,35 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;progress&gt;</code> element</strong> displays an indicator showing the completion progress of a task, typically displayed as a progress bar.",
       "text": "The HTML <progress> element displays an indicator showing the completion progress of a task, typically displayed as a progress bar."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "form",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "max",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "value"
+    ]
   },
   "select": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>",
       "text": "<select>",
       "name": "select"
@@ -31043,11 +33647,40 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;select&gt;</code> element</strong> represents a control that provides a menu of options",
       "text": "The HTML <select> element represents a control that provides a menu of options"
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "autocomplete",
+      "autofocus",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "form",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "multiple",
+      "name",
+      "required",
+      "size",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "textarea": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a>",
       "text": "<textarea>",
       "name": "textarea"
@@ -31057,11 +33690,48 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;textarea&gt;</code> element</strong> represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.",
       "text": "The HTML <textarea> element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "autocomplete",
+      "autofocus",
+      "class",
+      "cols",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "dirname",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "enterkeyhint",
+      "form",
+      "hidden",
+      "id",
+      "inputmode",
+      "itemprop",
+      "lang",
+      "maxlength",
+      "minlength",
+      "name",
+      "placeholder",
+      "readonly",
+      "required",
+      "rows",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "wrap"
+    ]
   },
   "details": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details\" title=\"The HTML Details Element (&lt;details&gt;) creates a disclosure widget in which information is visible only when the widget is toggled into an &quot;open&quot; state.\"><code>&lt;details&gt;</code></a>",
       "text": "<details>",
       "name": "details"
@@ -31071,11 +33741,33 @@ module.exports={
       "html": "The <strong>HTML Details Element (<code>&lt;details&gt;</code>)</strong> creates a disclosure widget in which information is visible only when the widget is toggled into an &quot;open&quot; state.",
       "text": "The HTML Details Element (<details>) creates a disclosure widget in which information is visible only when the widget is toggled into an \"open\" state."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "open",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "dialog": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog\" title=\"The HTML &lt;dialog&gt; element represents a dialog box or other interactive component, such as a dismissable alert, inspector, or subwindow.\"><code>&lt;dialog&gt;</code></a>",
       "text": "<dialog>",
       "name": "dialog"
@@ -31085,11 +33777,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;dialog&gt;</code> element</strong> represents a dialog box or other interactive component, such as a dismissable alert, inspector, or subwindow.",
       "text": "The HTML <dialog> element represents a dialog box or other interactive component, such as a dismissable alert, inspector, or subwindow."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "menu": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu\" title=\"The HTML &lt;menu&gt; element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked.\"><code>&lt;menu&gt;</code></a>",
       "text": "<menu>",
       "name": "menu"
@@ -31099,11 +33812,33 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;menu&gt;</code> element</strong> represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu#Context_menu\">context menus</a>, such as those that might appear underneath a button after it has been clicked.",
       "text": "The HTML <menu> element represents a group of commands that a user can perform or activate. This includes both list menus, which might appear across the top of a screen, as well as context menus, such as those that might appear underneath a button after it has been clicked."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type"
+    ]
   },
   "summary": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/summary\" title=\"The HTML Disclosure Summary element (&lt;summary&gt;) element specifies a summary, caption, or legend for a &lt;details&gt; element&apos;s disclosure box.\"><code>&lt;summary&gt;</code></a>",
       "text": "<summary>",
       "name": "summary"
@@ -31113,11 +33848,32 @@ module.exports={
       "html": "The <strong>HTML Disclosure Summary element</strong> (<strong><code>&lt;summary&gt;</code></strong>) element specifies a summary, caption, or legend for a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details\" title=\"The HTML Details Element (&amp;lt;details&amp;gt;) creates a disclosure widget in which information is visible only when the widget is toggled into an &quot;open&quot; state.\"><code>&lt;details&gt;</code></a> element&apos;s disclosure box.",
       "text": "The HTML Disclosure Summary element (<summary>) element specifies a summary, caption, or legend for a <details> element's disclosure box."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "slot": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot\" title=\"The HTML &lt;slot&gt; element&#x2014;part of the Web Components technology suite&#x2014;is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.\"><code>&lt;slot&gt;</code></a>",
       "text": "<slot>",
       "name": "slot"
@@ -31127,11 +33883,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;slot&gt;</code> element</strong>&#x2014;part of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components\">Web Components</a> technology suite&#x2014;is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.",
       "text": "The HTML <slot> element—part of the Web Components technology suite—is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "template": {
     "status": "standard",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/template\" title=\"The HTML Content Template (&lt;template&gt;) element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript.\"><code>&lt;template&gt;</code></a>",
       "text": "<template>",
       "name": "template"
@@ -31141,11 +33918,32 @@ module.exports={
       "html": "The <strong>HTML Content Template (<code>&lt;template&gt;</code>) element</strong> is a mechanism for holding <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/HTML\">HTML</a> that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript.",
       "text": "The HTML Content Template (<template>) element is a mechanism for holding HTML that is not to be rendered immediately when a page is loaded but may be instantiated subsequently during runtime using JavaScript."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "acronym": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/acronym\" title=\"The HTML Acronym Element (&lt;acronym&gt;) allows authors to clearly indicate a sequence of characters that compose an acronym or abbreviation for a word.\"><code>&lt;acronym&gt;</code></a>",
       "text": "<acronym>",
       "name": "acronym"
@@ -31155,11 +33953,32 @@ module.exports={
       "html": "The HTML Acronym Element (<code>&lt;acronym&gt;</code>) allows authors to clearly indicate a sequence of characters that compose an acronym or abbreviation for a word.",
       "text": "The HTML Acronym Element (<acronym>) allows authors to clearly indicate a sequence of characters that compose an acronym or abbreviation for a word."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "applet": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\" title=\"The obsolete HTML Applet Element (&lt;applet&gt;) embeds a Java applet into the document; this element has been deprecated in favor of &lt;object&gt;.\"><code>&lt;applet&gt;</code></a>",
       "text": "<applet>",
       "name": "applet"
@@ -31169,11 +33988,36 @@ module.exports={
       "html": "The obsolete <strong>HTML Applet Element</strong> (<strong><code>&lt;applet&gt;</code></strong>) embeds a Java applet into the document; this element has been deprecated in favor of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\" title=\"The HTML &lt;object&gt; element represents an external resource, which can be treated as an image, a nested browsing context, or a resource to be handled by a plugin.\"><code>&lt;object&gt;</code></a>.",
       "text": "The obsolete HTML Applet Element (<applet>) embeds a Java applet into the document; this element has been deprecated in favor of <object>."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "align",
+      "alt",
+      "autocapitalize",
+      "class",
+      "code",
+      "codebase",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "basefont": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/basefont\" title=\"The obsolete HTML Base Font element (&lt;basefont&gt;) sets a default font face, size, and color for the other elements which are descended from its parent element.\"><code>&lt;basefont&gt;</code></a>",
       "text": "<basefont>",
       "name": "basefont"
@@ -31183,11 +34027,33 @@ module.exports={
       "html": "The obsolete <strong>HTML Base Font element</strong> (<strong><code>&lt;basefont&gt;</code></strong>) sets a default font face, size, and color for the other elements which are descended from its parent element.",
       "text": "The obsolete HTML Base Font element (<basefont>) sets a default font face, size, and color for the other elements which are descended from its parent element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "color",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "bgsound": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound\" title=\"The Internet Explorer only HTML Background Sound element (&lt;bgsound&gt;) sets up a sound file to play in the background while the page is used; use &lt;audio&gt; instead.\"><code>&lt;bgsound&gt;</code></a>",
       "text": "<bgsound>",
       "name": "bgsound"
@@ -31197,11 +34063,33 @@ module.exports={
       "html": "The Internet Explorer only <strong>HTML Background Sound element</strong> (<strong><code>&lt;bgsound&gt;</code></strong>) sets up a sound file to play in the background while the page is used; use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\" title=\"The HTML &lt;audio&gt; element is used to embed sound content in documents. It may contain one or more audio sources, represented using the src attribute or the &lt;source&gt; element: the browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.\"><code>&lt;audio&gt;</code></a> instead.",
       "text": "The Internet Explorer only HTML Background Sound element (<bgsound>) sets up a sound file to play in the background while the page is used; use <audio> instead."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "loop",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "big": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/big\" title=\"The obsolete HTML Big Element (&lt;big&gt;) renders the enclosed text at a font size one level larger than the surrounding text (medium becomes large, for example).\"><code>&lt;big&gt;</code></a>",
       "text": "<big>",
       "name": "big"
@@ -31211,11 +34099,32 @@ module.exports={
       "html": "The obsolete <strong>HTML Big Element</strong> (<strong><code>&lt;big&gt;</code></strong>) renders the enclosed text at a font size one level larger than the surrounding text (<code>medium</code> becomes <code>large</code>, for example).",
       "text": "The obsolete HTML Big Element (<big>) renders the enclosed text at a font size one level larger than the surrounding text (medium becomes large, for example)."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "blink": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink\" title=\"The HTML Blink Element (&lt;blink&gt;) is a non-standard element which causes the enclosed text to flash slowly.\"><code>&lt;blink&gt;</code></a>",
       "text": "<blink>",
       "name": "blink"
@@ -31225,11 +34134,32 @@ module.exports={
       "html": "The <strong>HTML Blink Element</strong> (<code>&lt;blink&gt;</code>) is a non-standard element which causes the enclosed text to flash slowly.",
       "text": "The HTML Blink Element (<blink>) is a non-standard element which causes the enclosed text to flash slowly."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "center": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/center\" title=\"The obsolete HTML Center Element (&lt;center&gt;) is a block-level element that displays its block-level or inline contents centered horizontally within its containing element.\"><code>&lt;center&gt;</code></a>",
       "text": "<center>",
       "name": "center"
@@ -31239,11 +34169,32 @@ module.exports={
       "html": "The obsolete <strong>HTML Center Element</strong> (<strong><code>&lt;center&gt;</code></strong>) is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/HTML/Block-level_elements\" title=\"HTML/Block-level_elements\">block-level element</a> that displays its block-level or inline contents centered horizontally within its containing element.",
       "text": "The obsolete HTML Center Element (<center>) is a block-level element that displays its block-level or inline contents centered horizontally within its containing element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "command": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\" title=\"The HTML Command element (&lt;command&gt;) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.\"><code>&lt;command&gt;</code></a>",
       "text": "<command>",
       "name": "command"
@@ -31253,11 +34204,37 @@ module.exports={
       "html": "The <strong>HTML Command element</strong> (<strong><code>&lt;command&gt;</code></strong>) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar.",
       "text": "The HTML Command element (<command>) represents a command which the user can invoke. Commands are often used as part of a context menu or toolbar."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "checked",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "icon",
+      "id",
+      "itemprop",
+      "lang",
+      "radiogroup",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate",
+      "type"
+    ]
   },
   "content": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/content\" title=\"The HTML &lt;content&gt; element&#x2014;an obsolete part of the Web Components suite of technologies&#x2014;was used inside of Shadow DOM as an insertion point, and wasn&apos;t meant to be used in ordinary HTML.\"><code>&lt;content&gt;</code></a>",
       "text": "<content>",
       "name": "content"
@@ -31267,11 +34244,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;content&gt;</code> element</strong>&#x2014;an obsolete part of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components\">Web Components</a> suite of technologies&#x2014;was used inside of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components/Shadow_DOM\">Shadow DOM</a> as an <a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/insertion_point\" rel=\"nofollow\">insertion point</a>, and wasn&apos;t meant to be used in ordinary HTML.",
       "text": "The HTML <content> element—an obsolete part of the Web Components suite of technologies—was used inside of Shadow DOM as an insertion point, and wasn't meant to be used in ordinary HTML."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "dir": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dir\" title=\"The obsolete HTML Directory element (&lt;dir&gt;) is used as a container for a directory of files and/or folders, potentially with styles and icons applied by the user agent.\"><code>&lt;dir&gt;</code></a>",
       "text": "<dir>",
       "name": "dir"
@@ -31281,11 +34279,32 @@ module.exports={
       "html": "The obsolete <strong>HTML Directory element</strong> (<strong><code>&lt;dir&gt;</code></strong>) is used as a container for a directory of files and/or folders, potentially with styles and icons applied by the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/user_agent\">user agent</a>.",
       "text": "The obsolete HTML Directory element (<dir>) is used as a container for a directory of files and/or folders, potentially with styles and icons applied by the user agent."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "element": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/element\" title=\"The obsolete HTML &lt;element&gt; element was part of the Web Components specification; it was intended to be used to define new custom DOM elements.\"><code>&lt;element&gt;</code></a>",
       "text": "<element>",
       "name": "element"
@@ -31295,11 +34314,32 @@ module.exports={
       "html": "The obsolete <strong>HTML <code>&lt;element&gt;</code> element</strong> was part of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components\">Web Components</a> specification; it was intended to be used to define new custom DOM elements.",
       "text": "The obsolete HTML <element> element was part of the Web Components specification; it was intended to be used to define new custom DOM elements."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "font": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font\" title=\"The HTML Font Element (&lt;font&gt;) defines the font size, color and face for its content.\"><code>&lt;font&gt;</code></a>",
       "text": "<font>",
       "name": "font"
@@ -31309,11 +34349,33 @@ module.exports={
       "html": "The <em>HTML Font Element</em> (<code>&lt;font&gt;</code>) defines the font size, color and face for its content.",
       "text": "The HTML Font Element (<font>) defines the font size, color and face for its content."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "color",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "frame": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame\" title=\"&lt;frame&gt; is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a &lt;frameset&gt;.\"><code>&lt;frame&gt;</code></a>",
       "text": "<frame>",
       "name": "frame"
@@ -31323,11 +34385,32 @@ module.exports={
       "html": "<code>&lt;frame&gt;</code> is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frameset\" title=\"The HTML &lt;frameset&gt; element is used to contain &lt;frame&gt; elements.\"><code>&lt;frameset&gt;</code></a>.",
       "text": "<frame> is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a <frameset>."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "frameset": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frameset\" title=\"The HTML &lt;frameset&gt; element is used to contain &lt;frame&gt; elements.\"><code>&lt;frameset&gt;</code></a>",
       "text": "<frameset>",
       "name": "frameset"
@@ -31337,11 +34420,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;frameset&gt;</code> element</strong> is used to contain <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame\" title=\"&lt;frame&gt; is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a &lt;frameset&gt;.\"><code>&lt;frame&gt;</code></a> elements.",
       "text": "The HTML <frameset> element is used to contain <frame> elements."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "image": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/image\" title=\"The obsolete HTML Image element (&lt;image&gt;) is an obsolete remnant of an ancient version of HTML lost in the mists of time; use the standard &lt;img&gt; element instead.\"><code>&lt;image&gt;</code></a>",
       "text": "<image>",
       "name": "image"
@@ -31351,11 +34455,32 @@ module.exports={
       "html": "The obsolete <strong>HTML Image element (<code>&lt;image&gt;</code>)</strong> is an obsolete remnant of an ancient version of HTML lost in the mists of time; use the standard <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\" title=\"The HTML &lt;img&gt; element embeds an image into the document.\"><code>&lt;img&gt;</code></a> element instead.",
       "text": "The obsolete HTML Image element (<image>) is an obsolete remnant of an ancient version of HTML lost in the mists of time; use the standard <img> element instead."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "isindex": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/isindex\" title=\"&lt;isindex&gt; was an obsolete HTML element that put a text field in a page for querying the document.\"><code>&lt;isindex&gt;</code></a>",
       "text": "<isindex>",
       "name": "isindex"
@@ -31365,11 +34490,32 @@ module.exports={
       "html": "<strong><code>&lt;isindex&gt;</code></strong> was an obsolete HTML element that put a text field in a page for querying the document.",
       "text": "<isindex> was an obsolete HTML element that put a text field in a page for querying the document."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "keygen": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\" title=\"The HTML &lt;keygen&gt; element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the &lt;keygen&gt; element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.\"><code>&lt;keygen&gt;</code></a>",
       "text": "<keygen>",
       "name": "keygen"
@@ -31379,11 +34525,38 @@ module.exports={
       "html": "The HTML <code>&lt;keygen&gt;</code> element exists to facilitate generation of key material, and submission of the public key as part of an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms\">HTML form</a>. This mechanism is designed for use with Web-based certificate management systems. It is expected that the <code>&lt;keygen&gt;</code> element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate.",
       "text": "The HTML <keygen> element exists to facilitate generation of key material, and submission of the public key as part of an HTML form. This mechanism is designed for use with Web-based certificate management systems. It is expected that the <keygen> element will be used in an HTML form along with other information needed to construct a certificate request, and that the result of the process will be a signed certificate."
     },
-    "singleton": true
+    "singleton": true,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "autofocus",
+      "challenge",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "disabled",
+      "draggable",
+      "dropzone",
+      "form",
+      "hidden",
+      "id",
+      "itemprop",
+      "keytype",
+      "lang",
+      "name",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "listing": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/listing\" title=\"The HTML Listing Element (&lt;listing&gt;) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML 2 standard recommended that lines shouldn&apos;t be broken when not greater than 132 characters.\"><code>&lt;listing&gt;</code></a>",
       "text": "<listing>",
       "name": "listing"
@@ -31393,11 +34566,32 @@ module.exports={
       "html": "The <em>HTML Listing Element</em> (<code>&lt;listing&gt;</code>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML 2 standard recommended that lines shouldn&apos;t be broken when not greater than 132 characters.",
       "text": "The HTML Listing Element (<listing>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML 2 standard recommended that lines shouldn't be broken when not greater than 132 characters."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "marquee": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee\" title=\"The HTML &lt;marquee&gt; element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.\"><code>&lt;marquee&gt;</code></a>",
       "text": "<marquee>",
       "name": "marquee"
@@ -31407,11 +34601,34 @@ module.exports={
       "html": "The HTML <code>&lt;marquee&gt;</code> element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes.",
       "text": "The HTML <marquee> element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "bgcolor",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "loop",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "menuitem": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menuitem\" title=\"The HTML &lt;menuitem&gt; element represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button.\"><code>&lt;menuitem&gt;</code></a>",
       "text": "<menuitem>",
       "name": "menuitem"
@@ -31421,11 +34638,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;menuitem&gt;</code> element</strong> represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button.",
       "text": "The HTML <menuitem> element represents a command that a user is able to invoke through a popup menu. This includes context menus, as well as menus that might be attached to a menu button."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "multicol": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/multicol\" title=\"The HTML Multi-Column Layout element (&lt;multicol&gt;) was an experimental element designed to allow multi-column layouts and must not be used.\"><code>&lt;multicol&gt;</code></a>",
       "text": "<multicol>",
       "name": "multicol"
@@ -31435,11 +34673,32 @@ module.exports={
       "html": "The <strong>HTML Multi-Column Layout element</strong> (<strong><code>&lt;multicol&gt;</code></strong>) was an experimental element designed to allow multi-column layouts and must not be used.",
       "text": "The HTML Multi-Column Layout element (<multicol>) was an experimental element designed to allow multi-column layouts and must not be used."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "nextid": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nextid\" title=\"&lt;nextid&gt; is an obsolete HTML element that served to enable the NeXT web designing tool to generate automatic NAME labels for its anchors.\"><code>&lt;nextid&gt;</code></a>",
       "text": "<nextid>",
       "name": "nextid"
@@ -31449,11 +34708,32 @@ module.exports={
       "html": "<strong><code>&lt;nextid&gt;</code></strong> is an obsolete HTML element that served to enable the NeXT web designing tool to generate automatic NAME labels for its anchors.",
       "text": "<nextid> is an obsolete HTML element that served to enable the NeXT web designing tool to generate automatic NAME labels for its anchors."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "nobr": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nobr\" title=\"The non-standard, obsolete HTML &lt;nobr&gt; element prevents the text it contains from automatically wrapping across multiple lines, potentially resulting in the user having to scroll horizontally to see the entire width of the text.\"><code>&lt;nobr&gt;</code></a>",
       "text": "<nobr>",
       "name": "nobr"
@@ -31463,11 +34743,32 @@ module.exports={
       "html": "The non-standard, obsolete HTML <code>&lt;nobr&gt;</code> element prevents the text it contains from automatically wrapping across multiple lines, potentially resulting in the user having to scroll horizontally to see the entire width of the text.",
       "text": "The non-standard, obsolete HTML <nobr> element prevents the text it contains from automatically wrapping across multiple lines, potentially resulting in the user having to scroll horizontally to see the entire width of the text."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "noembed": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noembed\" title=\"The &lt;noembed&gt; element is an obsolete, non-standard way to provide alternative, or &quot;fallback&quot;, content for browsers that do not support the &lt;embed&gt; element or do not support the type of embedded content an author wishes to use.\"><code>&lt;noembed&gt;</code></a>",
       "text": "<noembed>",
       "name": "noembed"
@@ -31477,11 +34778,32 @@ module.exports={
       "html": "The <code><strong>&lt;noembed&gt;</strong></code> element is an obsolete, non-standard way to provide alternative, or &quot;fallback&quot;, content for browsers that do not support the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a> element or do not support the type of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Embedded_content\">embedded content</a> an author wishes to use.",
       "text": "The <noembed> element is an obsolete, non-standard way to provide alternative, or \"fallback\", content for browsers that do not support the <embed> element or do not support the type of embedded content an author wishes to use."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "noframes": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/noframes\" title=\"The obsolete HTML No Frames or frame fallback element, &lt;noframes&gt;, provides content to be presented in browsers that don&apos;t support (or have disabled support for) the &lt;frame&gt; element.\"><code>&lt;noframes&gt;</code></a>",
       "text": "<noframes>",
       "name": "noframes"
@@ -31491,11 +34813,32 @@ module.exports={
       "html": "The obsolete HTML <strong>No Frames</strong> or <strong>frame fallback</strong> element, <strong><code>&lt;noframes&gt;</code></strong>, provides content to be presented in browsers that don&apos;t support (or have disabled support for) the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame\" title=\"&lt;frame&gt; is an HTML element which defines a particular area in which another HTML document can be displayed. A frame should be used within a &lt;frameset&gt;.\"><code>&lt;frame&gt;</code></a> element.",
       "text": "The obsolete HTML No Frames or frame fallback element, <noframes>, provides content to be presented in browsers that don't support (or have disabled support for) the <frame> element."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "plaintext": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/plaintext\" title=\"The HTML Plaintext Element (&lt;plaintext&gt;) renders everything following the start tag as raw text, ignoring any following HTML.\"><code>&lt;plaintext&gt;</code></a>",
       "text": "<plaintext>",
       "name": "plaintext"
@@ -31505,11 +34848,32 @@ module.exports={
       "html": "The <em>HTML Plaintext Element</em> (<code>&lt;plaintext&gt;</code>) renders everything following the start tag as raw text, ignoring any following HTML.",
       "text": "The HTML Plaintext Element (<plaintext>) renders everything following the start tag as raw text, ignoring any following HTML."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "shadow": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/shadow\" title=\"The HTML &lt;shadow&gt; element&#x2014;an obsolete part of the Web Components technology suite&#x2014;was intended to be used as a shadow DOM insertion point.\"><code>&lt;shadow&gt;</code></a>",
       "text": "<shadow>",
       "name": "shadow"
@@ -31519,11 +34883,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;shadow&gt;</code> element</strong>&#x2014;an obsolete part of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components\">Web Components</a> technology suite&#x2014;was intended to be used as a shadow DOM <a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/insertion_point\" rel=\"nofollow\">insertion point</a>.",
       "text": "The HTML <shadow> element—an obsolete part of the Web Components technology suite—was intended to be used as a shadow DOM insertion point."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "spacer": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/spacer\" title=\"&lt;spacer&gt; is an obsolete HTML element which allowed insertion of empty spaces on pages. It was devised by Netscape to accomplish the same effect as a single-pixel layout image, which was something web designers used to use to add white spaces to web pages without actually using an image. However, &lt;spacer&gt; no longer supported by any major browser and the same effects can now be achieved using simple CSS. \"><code>&lt;spacer&gt;</code></a>",
       "text": "<spacer>",
       "name": "spacer"
@@ -31533,11 +34918,32 @@ module.exports={
       "html": "<strong><code>&lt;spacer&gt;</code></strong> is an obsolete HTML element which allowed insertion of empty spaces on pages. It was devised by Netscape to accomplish the same effect as a single-pixel layout image, which was something web designers used to use to add white spaces to web pages without actually using an image. However, <code>&lt;spacer&gt;</code> no longer supported by any major browser and the same effects can now be achieved using simple CSS. ",
       "text": "<spacer> is an obsolete HTML element which allowed insertion of empty spaces on pages. It was devised by Netscape to accomplish the same effect as a single-pixel layout image, which was something web designers used to use to add white spaces to web pages without actually using an image. However, <spacer> no longer supported by any major browser and the same effects can now be achieved using simple CSS. "
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "strike": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strike\" title=\"The HTML &lt;strike&gt; element (or HTML Strikethrough Element) places&#xA0;a strikethrough (horizontal line) over text.\"><code>&lt;strike&gt;</code></a>",
       "text": "<strike>",
       "name": "strike"
@@ -31547,11 +34953,32 @@ module.exports={
       "html": "The <strong>HTML <code>&lt;strike&gt;</code> element</strong> (or <em>HTML Strikethrough Element</em>) places&#xA0;a strikethrough (horizontal line) over text.",
       "text": "The HTML <strike> element (or HTML Strikethrough Element) places a strikethrough (horizontal line) over text."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "tt": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tt\" title=\"The obsolete HTML Teletype Text element (&lt;tt&gt;) creates inline text which is presented using the user agent&apos;s default monospace font face.\"><code>&lt;tt&gt;</code></a>",
       "text": "<tt>",
       "name": "tt"
@@ -31561,11 +34988,32 @@ module.exports={
       "html": "The obsolete <strong>HTML Teletype Text element</strong> (<strong><code>&lt;tt&gt;</code></strong>) creates inline text which is presented using the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/user_agent\">user agent&apos;s</a> default monospace font face.",
       "text": "The obsolete HTML Teletype Text element (<tt>) creates inline text which is presented using the user agent's default monospace font face."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   },
   "xmp": {
     "status": "obsolete",
-    "element": {
+    "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/xmp\" title=\"The HTML Example Element (&lt;xmp&gt;) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line.\"><code>&lt;xmp&gt;</code></a>",
       "text": "<xmp>",
       "name": "xmp"
@@ -31575,7 +35023,28 @@ module.exports={
       "html": "The <em>HTML Example Element</em> (<code>&lt;xmp&gt;</code>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line.",
       "text": "The HTML Example Element (<xmp>) renders text between the start and end tags without interpreting the HTML in between and using a monospaced font. The HTML2 specification recommended that it should be rendered wide enough to allow 80 characters per line."
     },
-    "singleton": false
+    "singleton": false,
+    "attributes": [
+      "accesskey",
+      "autocapitalize",
+      "class",
+      "contenteditable",
+      "contextmenu",
+      "data-*",
+      "dir",
+      "draggable",
+      "dropzone",
+      "hidden",
+      "id",
+      "itemprop",
+      "lang",
+      "slot",
+      "spellcheck",
+      "style",
+      "tabindex",
+      "title",
+      "translate"
+    ]
   }
 }
 },{}],25:[function(require,module,exports){
@@ -31607,22 +35076,6 @@ const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = require('./snippets.json')
 
-const eleAttrLists = {}
-// dictionary to keep track of attributes available on any given element
-// so hint-list only includes attributes that  an be used on that element
-for (const ele in htmlEles) {
-  eleAttrLists[ele] = []
-  for (const attr in htmlAttr) {
-    const a = htmlAttr[attr]
-    const e = a.elements.text
-    if (e === 'Global attribute') eleAttrLists[ele].push(attr)
-    else {
-      const els = e.split(', ').map(s => s.replace(/</g, '').replace(/>/g, ''))
-      if (els.includes(ele)) eleAttrLists[ele].push(attr)
-    }
-  }
-}
-
 function elementHintList (tok, tag) {
   const str = tok.string
   const list = []
@@ -31649,7 +35102,7 @@ function attributeHintList (tok) {
   const ele = tok.state.htmlState.tagName
   const list = []
   for (const attr in htmlAttr) {
-    if (attr.includes(str) && eleAttrLists[ele].includes(attr)) {
+    if (attr.includes(str) && htmlEles[ele].attributes.includes(attr)) {
       list.push({ text: attr + '=""', displayText: attr })
     }
   }

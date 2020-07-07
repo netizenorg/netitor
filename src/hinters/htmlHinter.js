@@ -2,22 +2,6 @@ const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = require('./snippets.json')
 
-const eleAttrLists = {}
-// dictionary to keep track of attributes available on any given element
-// so hint-list only includes attributes that  an be used on that element
-for (const ele in htmlEles) {
-  eleAttrLists[ele] = []
-  for (const attr in htmlAttr) {
-    const a = htmlAttr[attr]
-    const e = a.elements.text
-    if (e === 'Global attribute') eleAttrLists[ele].push(attr)
-    else {
-      const els = e.split(', ').map(s => s.replace(/</g, '').replace(/>/g, ''))
-      if (els.includes(ele)) eleAttrLists[ele].push(attr)
-    }
-  }
-}
-
 function elementHintList (tok, tag) {
   const str = tok.string
   const list = []
@@ -44,7 +28,7 @@ function attributeHintList (tok) {
   const ele = tok.state.htmlState.tagName
   const list = []
   for (const attr in htmlAttr) {
-    if (attr.includes(str) && eleAttrLists[ele].includes(attr)) {
+    if (attr.includes(str) && htmlEles[ele].attributes.includes(attr)) {
       list.push({ text: attr + '=""', displayText: attr })
     }
   }

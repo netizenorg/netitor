@@ -1,0 +1,508 @@
+{
+  "angle": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\">angle</a>",
+      "text": "angle"
+    },
+    "description": {
+      "html": "The \"angle\" CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in \"gradient\"s and in some transform functions.",
+      "text": "The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions."
+    }
+  },
+  "angle-percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle-percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle-percentage\">angle-percentage</a>",
+      "text": "angle-percentage"
+    },
+    "description": {
+      "html": "The \"angle-percentage\" CSS data type represents a value that can be either a \"angle\" or a \"percentage\".",
+      "text": "The <angle-percentage> CSS data type represents a value that can be either a <angle> or a <percentage>."
+    }
+  },
+  "angular-color-hint": {
+    "url": null,
+    "keyword": {
+      "html": "angular-color-hint",
+      "text": "angular-color-hint"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "angular-color-stop": {
+    "url": null,
+    "keyword": {
+      "html": "angular-color-stop",
+      "text": "angular-color-stop"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "attr-fallback": {
+    "url": null,
+    "keyword": {
+      "html": "attr-fallback",
+      "text": "attr-fallback"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "attr-name": {
+    "url": null,
+    "keyword": {
+      "html": "attr-name",
+      "text": "attr-name"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "basic-shape": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape\">basic-shape</a>",
+      "text": "basic-shape"
+    },
+    "description": {
+      "html": "The \"basic-shape\" CSS data type represents a shape used in the clip-path, shape-outside, and offset-path properties.",
+      "text": "The <basic-shape> CSS data type represents a shape used in the clip-path, shape-outside, and offset-path properties."
+    }
+  },
+  "blend-mode": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/blend-mode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/blend-mode\">blend-mode</a>",
+      "text": "blend-mode"
+    },
+    "description": {
+      "html": "The \"blend-mode\" CSS data type describes how colors should appear when elements overlap. It is used in the background-blend-mode and mix-blend-mode properties.",
+      "text": "The <blend-mode> CSS data type describes how colors should appear when elements overlap. It is used in the background-blend-mode and mix-blend-mode properties."
+    }
+  },
+  "calc-product": {
+    "url": null,
+    "keyword": {
+      "html": "calc-product",
+      "text": "calc-product"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "calc-sum": {
+    "url": null,
+    "keyword": {
+      "html": "calc-sum",
+      "text": "calc-sum"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "calc-value": {
+    "url": null,
+    "keyword": {
+      "html": "calc-value",
+      "text": "calc-value"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "color": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/color_value",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/color_value\">color</a>",
+      "text": "color"
+    },
+    "description": {
+      "html": "The \"color\" CSS data type represents a color in the sRGB color space. A \"color\" may also include an alpha-channel transparency value, indicating how the color should composite with its background.",
+      "text": "The <color> CSS data type represents a color in the sRGB color space. A <color> may also include an alpha-channel transparency value, indicating how the color should composite with its background."
+    }
+  },
+  "color-stop": {
+    "url": null,
+    "keyword": {
+      "html": "color-stop",
+      "text": "color-stop"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "color-stop-angle": {
+    "url": null,
+    "keyword": {
+      "html": "color-stop-angle",
+      "text": "color-stop-angle"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "counter-style": {
+    "url": null,
+    "keyword": {
+      "html": "counter-style",
+      "text": "counter-style"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "custom-ident": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/custom-ident\">custom-ident</a>",
+      "text": "custom-ident"
+    },
+    "description": {
+      "html": "The \"custom-ident\" CSS data type denotes an arbitrary user-defined string used as an identifier. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity.",
+      "text": "The <custom-ident> CSS data type denotes an arbitrary user-defined string used as an identifier. It is case-sensitive, and certain values are forbidden in various contexts to prevent ambiguity."
+    }
+  },
+  "dimension": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/dimension",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/dimension\">dimension</a>",
+      "text": "dimension"
+    },
+    "description": {
+      "html": "The \"dimension\" CSS data type represents a \"number\" with a unit attached to it, for example 10px.",
+      "text": "The <dimension> CSS data type represents a <number> with a unit attached to it, for example 10px."
+    }
+  },
+  "filter-function": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function\">filter-function</a>",
+      "text": "filter-function"
+    },
+    "description": {
+      "html": "The \"filter-function\" CSS data type represents a graphical effect that can change the appearance of an input image. It is used in the filter and backdrop-filter properties.",
+      "text": "The <filter-function> CSS data type represents a graphical effect that can change the appearance of an input image. It is used in the filter and backdrop-filter properties."
+    }
+  },
+  "flex": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/flex_value\">flex</a>",
+      "text": "flex"
+    },
+    "description": {
+      "html": "The \"flex\" CSS data type denotes a flexible length within a grid container. It is used in grid-template-columns, grid-template-rows and other related properties.",
+      "text": "The <flex> CSS data type denotes a flexible length within a grid container. It is used in grid-template-columns, grid-template-rows and other related properties."
+    }
+  },
+  "frequency": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\">frequency</a>",
+      "text": "frequency"
+    },
+    "description": {
+      "html": "The \"frequency\" CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.",
+      "text": "The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties."
+    }
+  },
+  "frequency-percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/frequency-percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency-percentage\">frequency-percentage</a>",
+      "text": "frequency-percentage"
+    },
+    "description": {
+      "html": "The \"frequency-percentage\" CSS data type represents a value that can be either a \"frequency\" or a \"percentage\".",
+      "text": "The <frequency-percentage> CSS data type represents a value that can be either a <frequency> or a <percentage>."
+    }
+  },
+  "gradient": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/gradient\">gradient</a>",
+      "text": "gradient"
+    },
+    "description": {
+      "html": "The \"gradient\" CSS data type is a special type of \"image\" that consists of a progressive transition between two or more colors.",
+      "text": "The <gradient> CSS data type is a special type of <image> that consists of a progressive transition between two or more colors."
+    }
+  },
+  "ident": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/ident",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/ident\">ident</a>",
+      "text": "ident"
+    },
+    "description": {
+      "html": "The \"ident\" CSS data type denotes an arbitrary string used as an identifier.",
+      "text": "The <ident> CSS data type denotes an arbitrary string used as an identifier."
+    }
+  },
+  "image": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/image",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/image\">image</a>",
+      "text": "image"
+    },
+    "description": {
+      "html": "The \"image\" CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a \"url\", and dynamically-generated images, generated with \"gradient\" or element(). Additional CSS image functions include image(), image-set(), and cross-fade(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image.",
+      "text": "The <image> CSS data type represents a two-dimensional image. There are two kinds of images: plain images, referenced with a <url>, and dynamically-generated images, generated with <gradient> or element(). Additional CSS image functions include image(), image-set(), and cross-fade(). Images can be used with numerous CSS properties, such as background-image, border-image, content, cursor, and list-style-image."
+    }
+  },
+  "integer": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/integer",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\">integer</a>",
+      "text": "integer"
+    },
+    "description": {
+      "html": "The \"integer\" CSS data type is a special type of \"number\" that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.",
+      "text": "The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index."
+    }
+  },
+  "length": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\">length</a>",
+      "text": "length"
+    },
+    "description": {
+      "html": "The \"length\" CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.",
+      "text": "The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow."
+    }
+  },
+  "length-percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length-percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length-percentage\">length-percentage</a>",
+      "text": "length-percentage"
+    },
+    "description": {
+      "html": "The \"length-percentage\" CSS data type represents a value that can be either a \"length\" or a \"percentage\".",
+      "text": "The <length-percentage> CSS data type represents a value that can be either a <length> or a <percentage>."
+    }
+  },
+  "number": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/number",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\">number</a>",
+      "text": "number"
+    },
+    "description": {
+      "html": "The \"number\" CSS data type represents a number, being either an integer or a number with a fractional component.",
+      "text": "The <number> CSS data type represents a number, being either an integer or a number with a fractional component."
+    }
+  },
+  "number-percentage": {
+    "url": null,
+    "keyword": {
+      "html": "number-percentage",
+      "text": "number-percentage"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\">percentage</a>",
+      "text": "percentage"
+    },
+    "description": {
+      "html": "The \"percentage\" CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.",
+      "text": "The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size."
+    }
+  },
+  "position": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/position_value",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/position_value\">position</a>",
+      "text": "position"
+    },
+    "description": {
+      "html": "The \"position\" (or \"bg-position\") CSS data type denotes a two-dimensional coordinate used to set a location relative to an element box. It is used in the background-position and offset-anchor properties.",
+      "text": "The <position> (or <bg-position>) CSS data type denotes a two-dimensional coordinate used to set a location relative to an element box. It is used in the background-position and offset-anchor properties."
+    }
+  },
+  "quote": {
+    "url": null,
+    "keyword": {
+      "html": "quote",
+      "text": "quote"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "ratio": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/ratio",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/ratio\">ratio</a>",
+      "text": "ratio"
+    },
+    "description": {
+      "html": "The \"ratio\" CSS data type, used for describing aspect ratios in media queries, denotes the proportion between two unitless values.",
+      "text": "The <ratio> CSS data type, used for describing aspect ratios in media queries, denotes the proportion between two unitless values."
+    }
+  },
+  "resolution": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/resolution",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/resolution\">resolution</a>",
+      "text": "resolution"
+    },
+    "description": {
+      "html": "The \"resolution\" CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution.",
+      "text": "The <resolution> CSS data type, used for describing resolutions in media queries, denotes the pixel density of an output device, i.e., its resolution."
+    }
+  },
+  "shape-box": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/shape-box",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/shape-box\">shape-box</a>",
+      "text": "shape-box"
+    },
+    "description": {
+      "html": "REDIRECT shape-outside",
+      "text": "REDIRECT shape-outside"
+    }
+  },
+  "shape-radius": {
+    "url": null,
+    "keyword": {
+      "html": "shape-radius",
+      "text": "shape-radius"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "string": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/string",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/string\">string</a>",
+      "text": "string"
+    },
+    "description": {
+      "html": "The \"string\" CSS data type represents a sequence of characters. Strings are used in numerous CSS properties, such as content, font-family, and quotes.",
+      "text": "The <string> CSS data type represents a sequence of characters. Strings are used in numerous CSS properties, such as content, font-family, and quotes."
+    }
+  },
+  "time": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\">time</a>",
+      "text": "time"
+    },
+    "description": {
+      "html": "The \"time\" CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.",
+      "text": "The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties."
+    }
+  },
+  "time-percentage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time-percentage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time-percentage\">time-percentage</a>",
+      "text": "time-percentage"
+    },
+    "description": {
+      "html": "The \"time-percentage\" CSS data type represents a value that can be either a \"time\" or a \"percentage\".",
+      "text": "The <time-percentage> CSS data type represents a value that can be either a <time> or a <percentage>."
+    }
+  },
+  "timing-function": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function\">timing-function</a>",
+      "text": "timing-function"
+    },
+    "description": {
+      "html": "REDIRECT \"easing-function\"",
+      "text": "REDIRECT <easing-function>"
+    }
+  },
+  "toggle-value": {
+    "url": null,
+    "keyword": {
+      "html": "toggle-value",
+      "text": "toggle-value"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "transform-function": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function\">transform-function</a>",
+      "text": "transform-function"
+    },
+    "description": {
+      "html": "The \"transform-function\" CSS data type represents a transformation that affects an element's appearance. Transformation functions can rotate, resize, distort, or move an element in 2D or 3D space. It is used in the transform property.",
+      "text": "The <transform-function> CSS data type represents a transformation that affects an element's appearance. Transformation functions can rotate, resize, distort, or move an element in 2D or 3D space. It is used in the transform property."
+    }
+  },
+  "type-or-unit": {
+    "url": null,
+    "keyword": {
+      "html": "type-or-unit",
+      "text": "type-or-unit"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "url": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/url",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/url\">url</a>",
+      "text": "url"
+    },
+    "description": {
+      "html": "The \"url\" CSS data type denotes a pointer to a resource, such as an image or a font. URLs can be used in numerous CSS properties, such as background-image, cursor, and list-style.",
+      "text": "The <url> CSS data type denotes a pointer to a resource, such as an image or a font. URLs can be used in numerous CSS properties, such as background-image, cursor, and list-style."
+    }
+  },
+  "url-modifier": {
+    "url": null,
+    "keyword": {
+      "html": "url-modifier",
+      "text": "url-modifier"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  },
+  "zero": {
+    "url": null,
+    "keyword": {
+      "html": "zero",
+      "text": "zero"
+    },
+    "description": {
+      "html": "The documentation about this has not yet been written; please consider contributing!",
+      "text": "The documentation about this has not yet been written; please consider contributing!"
+    }
+  }
+}
