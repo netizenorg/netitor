@@ -8,6 +8,7 @@ const atRules = require('./css-at-rules.json')
 const cssColors = require('./css-colors.json')
 const cssTypes = require('./css-data-types.json')
 const cssUnits = require('./css-units.json')
+const cssFunctions = require('./css-functions.json')
 
 const clrURL = {
   keyword: 'https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords',
@@ -115,6 +116,22 @@ function cssNumber (str) {
   }
 }
 
+function cssFunc (str) {
+  if (!cssFunctions[str]) return null
+  return {
+    status: cssFunctions[str].status,
+    url: cssFunctions[str].url,
+    keyword: {
+      html: `<a href="${cssFunctions[str].url}" target="_blank">${str}()</a>`,
+      text: 'number'
+    },
+    description: {
+      html: cssFunctions[str].html,
+      text: cssFunctions[str].text
+    }
+  }
+}
+
 function htmlData (o) {
   if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
   if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
@@ -128,7 +145,6 @@ function cssData (o, inner) {
   const state = inner.state.state
   // TODO
   // - CSS Selectors
-  // - other keyword? calc, transform functions, etc
   if (o.type === 'property' && cssProps[o.data]) {
     o.nfo = cssProps[o.data]
   } else if (o.type === 'variable-3') {
@@ -146,6 +162,8 @@ function cssData (o, inner) {
     o.nfo = cssCommentNfo
   } else if (o.type === 'number') {
     o.nfo = cssNumber(o.data)
+  } else if (o.type === 'variable callee') {
+    o.nfo = cssFunc(o.data)
   } else if (state === 'prop') {
     // handle colors values
     const c = o.data.toLowerCase()

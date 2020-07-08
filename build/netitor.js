@@ -18879,6 +18879,166 @@ module.exports={
 }
 },{}],25:[function(require,module,exports){
 module.exports={
+  "calc": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/calc",
+    "html": "The <strong><code>calc()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function lets you perform calculations when specifying CSS property values. It can be used anywhere a <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\" title=\"The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.\">\"length\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\" title=\"The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.\">\"frequency\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" title=\"The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions.\">\"angle\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\" title=\"The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.\">\"time\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\" title=\"The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.\">\"percentage\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\" title=\"The <number> CSS data type represents a number, being either an integer or a number with a fractional component.\">\"number\"</a>, or <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\" title=\"The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.\">\"integer\"</a> is allowed.",
+    "text": "The calc() CSS function lets you perform calculations when specifying CSS property values. It can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed."
+  },
+  "min": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/min",
+    "html": "The <strong><code>min()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function lets you set the smallest (most negative) value from a list of comma-separated expressions as the value of a CSS property value. The <code>min()</code> function can be used anywhere a <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\" title=\"The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.\">\"length\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\" title=\"The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.\">\"frequency\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" title=\"The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions.\">\"angle\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\" title=\"The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.\">\"time\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\" title=\"The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.\">\"percentage\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\" title=\"The <number> CSS data type represents a number, being either an integer or a number with a fractional component.\">\"number\"</a>, or <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\" title=\"The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.\">\"integer\"</a> is allowed.",
+    "text": "The min() CSS function lets you set the smallest (most negative) value from a list of comma-separated expressions as the value of a CSS property value. The min() function can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed."
+  },
+  "max": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/max",
+    "html": "The <strong><code>max()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function lets you set the largest (most positive) value from a list of comma-separated expressions as the value of a CSS property value. The <code>max()</code> function can be used anywhere a <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\" title=\"The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.\">\"length\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\" title=\"The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.\">\"frequency\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" title=\"The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions.\">\"angle\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\" title=\"The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.\">\"time\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\" title=\"The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.\">\"percentage\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\" title=\"The <number> CSS data type represents a number, being either an integer or a number with a fractional component.\">\"number\"</a>, or <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\" title=\"The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.\">\"integer\"</a> is allowed.",
+    "text": "The max() CSS function lets you set the largest (most positive) value from a list of comma-separated expressions as the value of a CSS property value. The max() function can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed."
+  },
+  "clamp": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp",
+    "html": "The <strong><code>clamp()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function clamps a value between an upper and lower bound. <code>clamp()</code> enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. The <code>clamp()</code> function can be used anywhere a <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\" title=\"The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.\">\"length\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\" title=\"The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.\">\"frequency\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" title=\"The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions.\">\"angle\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\" title=\"The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.\">\"time\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\" title=\"The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.\">\"percentage\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\" title=\"The <number> CSS data type represents a number, being either an integer or a number with a fractional component.\">\"number\"</a>, or <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\" title=\"The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.\">\"integer\"</a> is allowed.",
+    "text": "The clamp() CSS function clamps a value between an upper and lower bound. clamp() enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. The clamp() function can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed."
+  },
+  "attr": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/attr",
+    "html": "The <strong><code>attr()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function is used to retrieve the value of an attribute of the selected element and use it in the stylesheet. It can also be used on <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-elements</a>, in which case the value of the attribute on the pseudo-element's originating element is returned.",
+    "text": "The attr() CSS function is used to retrieve the value of an attribute of the selected element and use it in the stylesheet. It can also be used on pseudo-elements, in which case the value of the attribute on the pseudo-element's originating element is returned."
+  },
+  "matrix": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/matrix",
+    "html": "Describes a homogeneous 2D transformation matrix.",
+    "text": "Describes a homogeneous 2D transformation matrix."
+  },
+  "matrix3d": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/matrix3d",
+    "html": "Describes a 3D transformation as a 4×4 homogeneous matrix.",
+    "text": "Describes a 3D transformation as a 4×4 homogeneous matrix."
+  },
+  "perspective": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/perspective",
+    "html": "Sets the distance between the user and the z=0 plane.",
+    "text": "Sets the distance between the user and the z=0 plane."
+  },
+  "rotate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotate",
+    "html": "Rotates an element around a fixed point on the 2D plane.",
+    "text": "Rotates an element around a fixed point on the 2D plane."
+  },
+  "rotate3d": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotate3d",
+    "html": "Rotates an element around a fixed axis in 3D space.",
+    "text": "Rotates an element around a fixed axis in 3D space."
+  },
+  "rotateX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotateX",
+    "html": "Rotates an element around the horizontal axis.",
+    "text": "Rotates an element around the horizontal axis."
+  },
+  "rotateY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotateY",
+    "html": "Rotates an element around the vertical axis.",
+    "text": "Rotates an element around the vertical axis."
+  },
+  "rotateZ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotateZ",
+    "html": "Rotates an element around the z-axis.",
+    "text": "Rotates an element around the z-axis."
+  },
+  "scale": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scale",
+    "html": "Scales an element up or down on the 2D plane.",
+    "text": "Scales an element up or down on the 2D plane."
+  },
+  "scale3d": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scale3d",
+    "html": "Scales an element up or down in 3D space.",
+    "text": "Scales an element up or down in 3D space."
+  },
+  "scaleX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scaleX",
+    "html": "Scales an element up or down horizontally.",
+    "text": "Scales an element up or down horizontally."
+  },
+  "scaleY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scaleY",
+    "html": "Scales an element up or down vertically.",
+    "text": "Scales an element up or down vertically."
+  },
+  "scaleZ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scaleZ",
+    "html": "Scales an element up or down along the z-axis.",
+    "text": "Scales an element up or down along the z-axis."
+  },
+  "skew": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/skew",
+    "html": "Skews an element on the 2D plane.",
+    "text": "Skews an element on the 2D plane."
+  },
+  "skewX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/skewX",
+    "html": "Skews an element in the horizontal direction.",
+    "text": "Skews an element in the horizontal direction."
+  },
+  "skewY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/skewY",
+    "html": "Skews an element in the vertical direction.",
+    "text": "Skews an element in the vertical direction."
+  },
+  "translate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translate",
+    "html": "Translates an element on the 2D plane.",
+    "text": "Translates an element on the 2D plane."
+  },
+  "translate3d": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translate3d",
+    "html": "Translates an element in 3D space.",
+    "text": "Translates an element in 3D space."
+  },
+  "translateX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translateX",
+    "html": "Translates an element horizontally.",
+    "text": "Translates an element horizontally."
+  },
+  "translateY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translateY",
+    "html": "Translates an element vertically.",
+    "text": "Translates an element vertically."
+  },
+  "translateZ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translateZ",
+    "html": "Translates an element along the z-axis.",
+    "text": "Translates an element along the z-axis."
+  }
+}
+
+},{}],26:[function(require,module,exports){
+module.exports={
   "align-content": {
     "urls": {
       "css-tricks": "https://css-tricks.com/almanac/properties/a/align-content/",
@@ -28805,7 +28965,7 @@ module.exports={
     }
   }
 }
-},{}],26:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 module.exports={
   ":active": {
     "status": "standard",
@@ -29540,7 +29700,7 @@ module.exports={
     }
   }
 }
-},{}],27:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 module.exports={
   "::after": {
     "status": "standard",
@@ -29711,7 +29871,7 @@ module.exports={
     }
   }
 }
-},{}],28:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 module.exports={
   "s": {
     "status": "standard",
@@ -29919,7 +30079,7 @@ module.exports={
   }
 }
 
-},{}],29:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 module.exports={
   "accept": {
     "keyword": {
@@ -32190,7 +32350,7 @@ module.exports={
     "note": null
   }
 }
-},{}],30:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 module.exports={
   "html": {
     "status": "standard",
@@ -37560,7 +37720,7 @@ module.exports={
     ]
   }
 }
-},{}],31:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const htmlAttr = require('./html-attributes.json')
 const htmlEles = require('./html-elements.json')
@@ -37571,6 +37731,7 @@ const atRules = require('./css-at-rules.json')
 const cssColors = require('./css-colors.json')
 const cssTypes = require('./css-data-types.json')
 const cssUnits = require('./css-units.json')
+const cssFunctions = require('./css-functions.json')
 
 const clrURL = {
   keyword: 'https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords',
@@ -37678,6 +37839,22 @@ function cssNumber (str) {
   }
 }
 
+function cssFunc (str) {
+  if (!cssFunctions[str]) return null
+  return {
+    status: cssFunctions[str].status,
+    url: cssFunctions[str].url,
+    keyword: {
+      html: `<a href="${cssFunctions[str].url}" target="_blank">${str}()</a>`,
+      text: 'number'
+    },
+    description: {
+      html: cssFunctions[str].html,
+      text: cssFunctions[str].text
+    }
+  }
+}
+
 function htmlData (o) {
   if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
   if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
@@ -37691,7 +37868,6 @@ function cssData (o, inner) {
   const state = inner.state.state
   // TODO
   // - CSS Selectors
-  // - other keyword? calc, transform functions, etc
   if (o.type === 'property' && cssProps[o.data]) {
     o.nfo = cssProps[o.data]
   } else if (o.type === 'variable-3') {
@@ -37709,6 +37885,8 @@ function cssData (o, inner) {
     o.nfo = cssCommentNfo
   } else if (o.type === 'number') {
     o.nfo = cssNumber(o.data)
+  } else if (o.type === 'variable callee') {
+    o.nfo = cssFunc(o.data)
   } else if (state === 'prop') {
     // handle colors values
     const c = o.data.toLowerCase()
@@ -37754,7 +37932,7 @@ function eduData (cm) {
 
 module.exports = eduData
 
-},{"./css-at-rules.json":22,"./css-colors.json":23,"./css-data-types.json":24,"./css-properties.json":25,"./css-pseudo-classes.json":26,"./css-pseudo-elements.json":27,"./css-units.json":28,"./html-attributes.json":29,"./html-elements.json":30,"codemirror":14}],32:[function(require,module,exports){
+},{"./css-at-rules.json":22,"./css-colors.json":23,"./css-data-types.json":24,"./css-functions.json":25,"./css-properties.json":26,"./css-pseudo-classes.json":27,"./css-pseudo-elements.json":28,"./css-units.json":29,"./html-attributes.json":30,"./html-elements.json":31,"codemirror":14}],33:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const cssProps = require('../edu-data/css-properties.json')
 const pseudoEles = require('../edu-data/css-pseudo-elements.json')
@@ -37838,7 +38016,7 @@ function cssHinter (token, cm) {
 
 module.exports = cssHinter
 
-},{"../edu-data/css-at-rules.json":22,"../edu-data/css-colors.json":23,"../edu-data/css-properties.json":25,"../edu-data/css-pseudo-classes.json":26,"../edu-data/css-pseudo-elements.json":27,"../edu-data/html-elements.json":30,"codemirror":14}],33:[function(require,module,exports){
+},{"../edu-data/css-at-rules.json":22,"../edu-data/css-colors.json":23,"../edu-data/css-properties.json":26,"../edu-data/css-pseudo-classes.json":27,"../edu-data/css-pseudo-elements.json":28,"../edu-data/html-elements.json":31,"codemirror":14}],34:[function(require,module,exports){
 const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = require('./snippets.json')
@@ -37887,7 +38065,7 @@ function htmlHinter (token) {
 
 module.exports = htmlHinter
 
-},{"../edu-data/html-attributes.json":29,"../edu-data/html-elements.json":30,"./snippets.json":35}],34:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":30,"../edu-data/html-elements.json":31,"./snippets.json":36}],35:[function(require,module,exports){
 const htmlHinter = require('./htmlHinter.js')
 const cssHinter = require('./cssHinter.js')
 
@@ -37934,7 +38112,7 @@ function main (cm, options) {
 
 module.exports = main
 
-},{"./cssHinter.js":32,"./htmlHinter.js":33}],35:[function(require,module,exports){
+},{"./cssHinter.js":33,"./htmlHinter.js":34}],36:[function(require,module,exports){
 module.exports={
   "doctype" : "!DOCTYPE html>",
   "html": "html lang=\"en-US\"></html>",
@@ -37944,7 +38122,7 @@ module.exports={
   "html (template)": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\n\t</body>\n</html>\n"
 }
 
-},{}],36:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 // const CodeMirror = require('codemirror')
 // const CSSMode = CodeMirror.resolveMode('text/css')
 // console.log(JSON.stringify(CSSMode))
@@ -37960,7 +38138,7 @@ function linter (code) {
 
 module.exports = linter
 
-},{}],37:[function(require,module,exports){
+},{}],38:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 const HTMLStandards = require('./html-standards-validator.js')
@@ -38192,7 +38370,7 @@ const translate = {
 
 module.exports = translate
 
-},{"../edu-data/html-elements.json":30,"./html-standards-validator.js":38}],38:[function(require,module,exports){
+},{"../edu-data/html-elements.json":31,"./html-standards-validator.js":39}],39:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const htmlAttr = require('../edu-data/html-attributes.json')
 const stringSimilarity = require('string-similarity')
@@ -38423,7 +38601,7 @@ class HTMLStandards {
 
 module.exports = HTMLStandards
 
-},{"../edu-data/html-attributes.json":29,"../edu-data/html-elements.json":30,"string-similarity":20}],39:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":30,"../edu-data/html-elements.json":31,"string-similarity":20}],40:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
@@ -38489,14 +38667,14 @@ function linter (code) {
 
 module.exports = linter
 
-},{"./html-friendly-translator.js":37,"./html-standards-validator.js":38,"htmlhint":19}],40:[function(require,module,exports){
+},{"./html-friendly-translator.js":38,"./html-standards-validator.js":39,"htmlhint":19}],41:[function(require,module,exports){
 function linter (code) {
   return null
 }
 
 module.exports = linter
 
-},{}],41:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 /* global HTMLElement */
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
@@ -38792,4 +38970,4 @@ class Netitor {
 
 window.Netitor = Netitor
 
-},{"./css/main.js":21,"./edu-data/index.js":31,"./hinters/index.js":34,"./linters/cssLinter.js":36,"./linters/htmlLinter.js":39,"./linters/jsLinter.js":40,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[41]);
+},{"./css/main.js":21,"./edu-data/index.js":32,"./hinters/index.js":35,"./linters/cssLinter.js":37,"./linters/htmlLinter.js":40,"./linters/jsLinter.js":41,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[42]);
