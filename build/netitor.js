@@ -46356,6 +46356,7 @@ module.exports = linter
 
 },{}],63:[function(require,module,exports){
 /* global HTMLElement */
+const pako = require('pako')
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
 require('codemirror/keymap/sublime')
@@ -46372,15 +46373,11 @@ require('codemirror/addon/hint/css-hint')
 require('codemirror/addon/hint/javascript-hint')
 
 const htmlLinter = require('./linters/htmlLinter.js')
-const jsLinter = require('./linters/jsLinter.js')
 const cssLinter = require('./linters/cssLinter.js')
+const jsLinter = require('./linters/jsLinter.js')
 
-const coreHinter = require('./hinters/index.js')
+const hinter = require('./hinters/index.js')
 const eduData = require('./edu-data/index.js')
-
-// const inflate = require('./compress/rawinflate.js')
-// const deflate = require('./compress/rawdeflate.js')
-const pako = require('pako')
 
 const CSS = require('./css/main.js')
 
@@ -46594,7 +46591,7 @@ class Netitor {
     const pos = cm.getCursor()
     const lan = cm.getModeAt(pos).name
     const res = (lan === 'xml' || lan === 'css')
-      ? coreHinter(cm, options)
+      ? hinter(cm, options)
       : cm.getHelpers(pos, 'hint')[0](cm, options)
     if (!res) return null
     if (!res.list) res.list = []
