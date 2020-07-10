@@ -54,6 +54,7 @@
     <script>
 
       const exampleCode = `<!DOCTYPE html>
+      <!-- test -->
 <div>
   <style>
     .info {
@@ -65,6 +66,22 @@
     }
     @media print { }
     body { background-color: yellow; }
+    div#test.test {}
+
+    a[title] {}
+    a[href="https://example.org"] {}
+    a[href*="example"] {}
+    a[href$=".org"] {}
+    a[class~="logo"] {}
+
+
+    #test > p {}
+    #test ~ a[href="hello"] {}
+    p, div { }
+    p div { }
+    div,
+    a,
+    .test { }
   </style>
   <h1>Hello World</h1>
   <p class="info">this is an example</p>
@@ -86,7 +103,7 @@
 
       ne.on('lint-error', (eve) => {
         // just one example for how u might make use of our built in error messages
-        console.log(eve)
+        // console.log(eve)
         if (eve.length > 0) {
           let err = eve[0]
           ne.highlight(err.line)
@@ -102,7 +119,7 @@
 
       ne.on('edu-info', (eve) => {
         // just one example for how u might make use of our built in edu info
-        console.log(eve)
+        // console.log(eve.nfo.description.text)
         if (eve.nfo) {
           document.querySelector('#nfo').className = ''
           if (eve.language === 'html') showHTMLNFO(eve)

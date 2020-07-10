@@ -15352,6 +15352,664 @@ if (!CodeMirror.mimeModes.hasOwnProperty("text/html"))
 });
 
 },{"../../lib/codemirror":14}],19:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var parser_context_1 = require("./parser-context");
+var render_1 = require("./render");
+var CssSelectorParser = /** @class */ (function () {
+    function CssSelectorParser() {
+        this.pseudos = {};
+        this.attrEqualityMods = {};
+        this.ruleNestingOperators = {};
+        this.substitutesEnabled = false;
+    }
+    CssSelectorParser.prototype.registerSelectorPseudos = function () {
+        var pseudos = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            pseudos[_i] = arguments[_i];
+        }
+        for (var _a = 0, pseudos_1 = pseudos; _a < pseudos_1.length; _a++) {
+            var pseudo = pseudos_1[_a];
+            this.pseudos[pseudo] = 'selector';
+        }
+        return this;
+    };
+    CssSelectorParser.prototype.unregisterSelectorPseudos = function () {
+        var pseudos = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            pseudos[_i] = arguments[_i];
+        }
+        for (var _a = 0, pseudos_2 = pseudos; _a < pseudos_2.length; _a++) {
+            var pseudo = pseudos_2[_a];
+            delete this.pseudos[pseudo];
+        }
+        return this;
+    };
+    CssSelectorParser.prototype.registerNumericPseudos = function () {
+        var pseudos = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            pseudos[_i] = arguments[_i];
+        }
+        for (var _a = 0, pseudos_3 = pseudos; _a < pseudos_3.length; _a++) {
+            var pseudo = pseudos_3[_a];
+            this.pseudos[pseudo] = 'numeric';
+        }
+        return this;
+    };
+    CssSelectorParser.prototype.unregisterNumericPseudos = function () {
+        var pseudos = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            pseudos[_i] = arguments[_i];
+        }
+        for (var _a = 0, pseudos_4 = pseudos; _a < pseudos_4.length; _a++) {
+            var pseudo = pseudos_4[_a];
+            delete this.pseudos[pseudo];
+        }
+        return this;
+    };
+    CssSelectorParser.prototype.registerNestingOperators = function () {
+        var operators = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            operators[_i] = arguments[_i];
+        }
+        for (var _a = 0, operators_1 = operators; _a < operators_1.length; _a++) {
+            var operator = operators_1[_a];
+            this.ruleNestingOperators[operator] = true;
+        }
+        return this;
+    };
+    CssSelectorParser.prototype.unregisterNestingOperators = function () {
+        var operators = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            operators[_i] = arguments[_i];
+        }
+        for (var _a = 0, operators_2 = operators; _a < operators_2.length; _a++) {
+            var operator = operators_2[_a];
+            delete this.ruleNestingOperators[operator];
+        }
+        return this;
+    };
+    CssSelectorParser.prototype.registerAttrEqualityMods = function () {
+        var mods = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            mods[_i] = arguments[_i];
+        }
+        for (var _a = 0, mods_1 = mods; _a < mods_1.length; _a++) {
+            var mod = mods_1[_a];
+            this.attrEqualityMods[mod] = true;
+        }
+        return this;
+    };
+    CssSelectorParser.prototype.unregisterAttrEqualityMods = function () {
+        var mods = [];
+        for (var _i = 0; _i < arguments.length; _i++) {
+            mods[_i] = arguments[_i];
+        }
+        for (var _a = 0, mods_2 = mods; _a < mods_2.length; _a++) {
+            var mod = mods_2[_a];
+            delete this.attrEqualityMods[mod];
+        }
+        return this;
+    };
+    CssSelectorParser.prototype.enableSubstitutes = function () {
+        this.substitutesEnabled = true;
+        return this;
+    };
+    CssSelectorParser.prototype.disableSubstitutes = function () {
+        this.substitutesEnabled = false;
+        return this;
+    };
+    CssSelectorParser.prototype.parse = function (str) {
+        return parser_context_1.parseCssSelector(str, 0, this.pseudos, this.attrEqualityMods, this.ruleNestingOperators, this.substitutesEnabled);
+    };
+    CssSelectorParser.prototype.render = function (path) {
+        return render_1.renderEntity(path).trim();
+    };
+    return CssSelectorParser;
+}());
+exports.CssSelectorParser = CssSelectorParser;
+
+},{"./parser-context":20,"./render":21}],20:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var utils_1 = require("./utils");
+function parseCssSelector(str, pos, pseudos, attrEqualityMods, ruleNestingOperators, substitutesEnabled) {
+    var l = str.length;
+    var chr = '';
+    function getStr(quote, escapeTable) {
+        var result = '';
+        pos++;
+        chr = str.charAt(pos);
+        while (pos < l) {
+            if (chr === quote) {
+                pos++;
+                return result;
+            }
+            else if (chr === '\\') {
+                pos++;
+                chr = str.charAt(pos);
+                var esc = void 0;
+                if (chr === quote) {
+                    result += quote;
+                }
+                else if ((esc = escapeTable[chr]) !== undefined) {
+                    result += esc;
+                }
+                else if (utils_1.isHex(chr)) {
+                    var hex = chr;
+                    pos++;
+                    chr = str.charAt(pos);
+                    while (utils_1.isHex(chr)) {
+                        hex += chr;
+                        pos++;
+                        chr = str.charAt(pos);
+                    }
+                    if (chr === ' ') {
+                        pos++;
+                        chr = str.charAt(pos);
+                    }
+                    result += String.fromCharCode(parseInt(hex, 16));
+                    continue;
+                }
+                else {
+                    result += chr;
+                }
+            }
+            else {
+                result += chr;
+            }
+            pos++;
+            chr = str.charAt(pos);
+        }
+        return result;
+    }
+    function getIdent() {
+        var result = '';
+        chr = str.charAt(pos);
+        while (pos < l) {
+            if (utils_1.isIdent(chr)) {
+                result += chr;
+            }
+            else if (chr === '\\') {
+                pos++;
+                if (pos >= l) {
+                    throw Error('Expected symbol but end of file reached.');
+                }
+                chr = str.charAt(pos);
+                if (utils_1.identSpecialChars[chr]) {
+                    result += chr;
+                }
+                else if (utils_1.isHex(chr)) {
+                    var hex = chr;
+                    pos++;
+                    chr = str.charAt(pos);
+                    while (utils_1.isHex(chr)) {
+                        hex += chr;
+                        pos++;
+                        chr = str.charAt(pos);
+                    }
+                    if (chr === ' ') {
+                        pos++;
+                        chr = str.charAt(pos);
+                    }
+                    result += String.fromCharCode(parseInt(hex, 16));
+                    continue;
+                }
+                else {
+                    result += chr;
+                }
+            }
+            else {
+                return result;
+            }
+            pos++;
+            chr = str.charAt(pos);
+        }
+        return result;
+    }
+    function skipWhitespace() {
+        chr = str.charAt(pos);
+        var result = false;
+        while (chr === ' ' || chr === "\t" || chr === "\n" || chr === "\r" || chr === "\f") {
+            result = true;
+            pos++;
+            chr = str.charAt(pos);
+        }
+        return result;
+    }
+    function parse() {
+        var res = parseSelector();
+        if (pos < l) {
+            throw Error('Rule expected but "' + str.charAt(pos) + '" found.');
+        }
+        return res;
+    }
+    function parseSelector() {
+        var selector = parseSingleSelector();
+        if (!selector) {
+            return null;
+        }
+        var res = selector;
+        chr = str.charAt(pos);
+        while (chr === ',') {
+            pos++;
+            skipWhitespace();
+            if (res.type !== 'selectors') {
+                res = {
+                    type: 'selectors',
+                    selectors: [selector]
+                };
+            }
+            selector = parseSingleSelector();
+            if (!selector) {
+                throw Error('Rule expected after ",".');
+            }
+            res.selectors.push(selector);
+        }
+        return res;
+    }
+    function parseSingleSelector() {
+        skipWhitespace();
+        var selector = {
+            type: 'ruleSet'
+        };
+        var rule = parseRule();
+        if (!rule) {
+            return null;
+        }
+        var currentRule = selector;
+        while (rule) {
+            rule.type = 'rule';
+            currentRule.rule = rule;
+            currentRule = rule;
+            skipWhitespace();
+            chr = str.charAt(pos);
+            if (pos >= l || chr === ',' || chr === ')') {
+                break;
+            }
+            if (ruleNestingOperators[chr]) {
+                var op = chr;
+                pos++;
+                skipWhitespace();
+                rule = parseRule();
+                if (!rule) {
+                    throw Error('Rule expected after "' + op + '".');
+                }
+                rule.nestingOperator = op;
+            }
+            else {
+                rule = parseRule();
+                if (rule) {
+                    rule.nestingOperator = null;
+                }
+            }
+        }
+        return selector;
+    }
+    // @ts-ignore no-overlap
+    function parseRule() {
+        var rule = null;
+        while (pos < l) {
+            chr = str.charAt(pos);
+            if (chr === '*') {
+                pos++;
+                (rule = rule || {}).tagName = '*';
+            }
+            else if (utils_1.isIdentStart(chr) || chr === '\\') {
+                (rule = rule || {}).tagName = getIdent();
+            }
+            else if (chr === '.') {
+                pos++;
+                rule = rule || {};
+                (rule.classNames = rule.classNames || []).push(getIdent());
+            }
+            else if (chr === '#') {
+                pos++;
+                (rule = rule || {}).id = getIdent();
+            }
+            else if (chr === '[') {
+                pos++;
+                skipWhitespace();
+                var attr = {
+                    name: getIdent()
+                };
+                skipWhitespace();
+                // @ts-ignore
+                if (chr === ']') {
+                    pos++;
+                }
+                else {
+                    var operator = '';
+                    if (attrEqualityMods[chr]) {
+                        operator = chr;
+                        pos++;
+                        chr = str.charAt(pos);
+                    }
+                    if (pos >= l) {
+                        throw Error('Expected "=" but end of file reached.');
+                    }
+                    if (chr !== '=') {
+                        throw Error('Expected "=" but "' + chr + '" found.');
+                    }
+                    attr.operator = operator + '=';
+                    pos++;
+                    skipWhitespace();
+                    var attrValue = '';
+                    attr.valueType = 'string';
+                    // @ts-ignore
+                    if (chr === '"') {
+                        attrValue = getStr('"', utils_1.doubleQuotesEscapeChars);
+                        // @ts-ignore
+                    }
+                    else if (chr === '\'') {
+                        attrValue = getStr('\'', utils_1.singleQuoteEscapeChars);
+                        // @ts-ignore
+                    }
+                    else if (substitutesEnabled && chr === '$') {
+                        pos++;
+                        attrValue = getIdent();
+                        attr.valueType = 'substitute';
+                    }
+                    else {
+                        while (pos < l) {
+                            if (chr === ']') {
+                                break;
+                            }
+                            attrValue += chr;
+                            pos++;
+                            chr = str.charAt(pos);
+                        }
+                        attrValue = attrValue.trim();
+                    }
+                    skipWhitespace();
+                    if (pos >= l) {
+                        throw Error('Expected "]" but end of file reached.');
+                    }
+                    if (chr !== ']') {
+                        throw Error('Expected "]" but "' + chr + '" found.');
+                    }
+                    pos++;
+                    attr.value = attrValue;
+                }
+                rule = rule || {};
+                (rule.attrs = rule.attrs || []).push(attr);
+            }
+            else if (chr === ':') {
+                pos++;
+                var pseudoName = getIdent();
+                var pseudo = {
+                    name: pseudoName
+                };
+                // @ts-ignore
+                if (chr === '(') {
+                    pos++;
+                    var value = '';
+                    skipWhitespace();
+                    if (pseudos[pseudoName] === 'selector') {
+                        pseudo.valueType = 'selector';
+                        value = parseSelector();
+                    }
+                    else {
+                        pseudo.valueType = pseudos[pseudoName] || 'string';
+                        // @ts-ignore
+                        if (chr === '"') {
+                            value = getStr('"', utils_1.doubleQuotesEscapeChars);
+                            // @ts-ignore
+                        }
+                        else if (chr === '\'') {
+                            value = getStr('\'', utils_1.singleQuoteEscapeChars);
+                            // @ts-ignore
+                        }
+                        else if (substitutesEnabled && chr === '$') {
+                            pos++;
+                            value = getIdent();
+                            pseudo.valueType = 'substitute';
+                        }
+                        else {
+                            while (pos < l) {
+                                if (chr === ')') {
+                                    break;
+                                }
+                                value += chr;
+                                pos++;
+                                chr = str.charAt(pos);
+                            }
+                            value = value.trim();
+                        }
+                        skipWhitespace();
+                    }
+                    if (pos >= l) {
+                        throw Error('Expected ")" but end of file reached.');
+                    }
+                    if (chr !== ')') {
+                        throw Error('Expected ")" but "' + chr + '" found.');
+                    }
+                    pos++;
+                    pseudo.value = value;
+                }
+                rule = rule || {};
+                (rule.pseudos = rule.pseudos || []).push(pseudo);
+            }
+            else {
+                break;
+            }
+        }
+        return rule;
+    }
+    return parse();
+}
+exports.parseCssSelector = parseCssSelector;
+
+},{"./utils":22}],21:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var utils_1 = require("./utils");
+function renderEntity(entity) {
+    var res = '';
+    switch (entity.type) {
+        case 'ruleSet':
+            var currentEntity = entity.rule;
+            var parts = [];
+            while (currentEntity) {
+                if (currentEntity.nestingOperator) {
+                    parts.push(currentEntity.nestingOperator);
+                }
+                parts.push(renderEntity(currentEntity));
+                currentEntity = currentEntity.rule;
+            }
+            res = parts.join(' ');
+            break;
+        case 'selectors':
+            res = entity.selectors.map(renderEntity).join(', ');
+            break;
+        case 'rule':
+            if (entity.tagName) {
+                if (entity.tagName === '*') {
+                    res = '*';
+                }
+                else {
+                    res = utils_1.escapeIdentifier(entity.tagName);
+                }
+            }
+            if (entity.id) {
+                res += "#" + utils_1.escapeIdentifier(entity.id);
+            }
+            if (entity.classNames) {
+                res += entity.classNames.map(function (cn) {
+                    return "." + (utils_1.escapeIdentifier(cn));
+                }).join('');
+            }
+            if (entity.attrs) {
+                res += entity.attrs.map(function (attr) {
+                    if ('operator' in attr) {
+                        if (attr.valueType === 'substitute') {
+                            return "[" + utils_1.escapeIdentifier(attr.name) + attr.operator + "$" + attr.value + "]";
+                        }
+                        else {
+                            return "[" + utils_1.escapeIdentifier(attr.name) + attr.operator + utils_1.escapeStr(attr.value) + "]";
+                        }
+                    }
+                    else {
+                        return "[" + utils_1.escapeIdentifier(attr.name) + "]";
+                    }
+                }).join('');
+            }
+            if (entity.pseudos) {
+                res += entity.pseudos.map(function (pseudo) {
+                    if (pseudo.valueType) {
+                        if (pseudo.valueType === 'selector') {
+                            return ":" + utils_1.escapeIdentifier(pseudo.name) + "(" + renderEntity(pseudo.value) + ")";
+                        }
+                        else if (pseudo.valueType === 'substitute') {
+                            return ":" + utils_1.escapeIdentifier(pseudo.name) + "($" + pseudo.value + ")";
+                        }
+                        else if (pseudo.valueType === 'numeric') {
+                            return ":" + utils_1.escapeIdentifier(pseudo.name) + "(" + pseudo.value + ")";
+                        }
+                        else {
+                            return (":" + utils_1.escapeIdentifier(pseudo.name) +
+                                "(" + utils_1.escapeIdentifier(pseudo.value) + ")");
+                        }
+                    }
+                    else {
+                        return ":" + utils_1.escapeIdentifier(pseudo.name);
+                    }
+                }).join('');
+            }
+            break;
+        default:
+            throw Error('Unknown entity type: "' + entity.type + '".');
+    }
+    return res;
+}
+exports.renderEntity = renderEntity;
+
+},{"./utils":22}],22:[function(require,module,exports){
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+function isIdentStart(c) {
+    return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c === '-') || (c === '_');
+}
+exports.isIdentStart = isIdentStart;
+function isIdent(c) {
+    return (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z') || (c >= '0' && c <= '9') || c === '-' || c === '_';
+}
+exports.isIdent = isIdent;
+function isHex(c) {
+    return (c >= 'a' && c <= 'f') || (c >= 'A' && c <= 'F') || (c >= '0' && c <= '9');
+}
+exports.isHex = isHex;
+function escapeIdentifier(s) {
+    var len = s.length;
+    var result = '';
+    var i = 0;
+    while (i < len) {
+        var chr = s.charAt(i);
+        if (exports.identSpecialChars[chr]) {
+            result += '\\' + chr;
+        }
+        else {
+            if (!(chr === '_' || chr === '-' ||
+                (chr >= 'A' && chr <= 'Z') ||
+                (chr >= 'a' && chr <= 'z') ||
+                (i !== 0 && chr >= '0' && chr <= '9'))) {
+                var charCode = chr.charCodeAt(0);
+                if ((charCode & 0xF800) === 0xD800) {
+                    var extraCharCode = s.charCodeAt(i++);
+                    if ((charCode & 0xFC00) !== 0xD800 || (extraCharCode & 0xFC00) !== 0xDC00) {
+                        throw Error('UCS-2(decode): illegal sequence');
+                    }
+                    charCode = ((charCode & 0x3FF) << 10) + (extraCharCode & 0x3FF) + 0x10000;
+                }
+                result += '\\' + charCode.toString(16) + ' ';
+            }
+            else {
+                result += chr;
+            }
+        }
+        i++;
+    }
+    return result;
+}
+exports.escapeIdentifier = escapeIdentifier;
+function escapeStr(s) {
+    var len = s.length;
+    var result = '';
+    var i = 0;
+    var replacement;
+    while (i < len) {
+        var chr = s.charAt(i);
+        if (chr === '"') {
+            chr = '\\"';
+        }
+        else if (chr === '\\') {
+            chr = '\\\\';
+        }
+        else if ((replacement = exports.strReplacementsRev[chr]) !== undefined) {
+            chr = replacement;
+        }
+        result += chr;
+        i++;
+    }
+    return "\"" + result + "\"";
+}
+exports.escapeStr = escapeStr;
+exports.identSpecialChars = {
+    '!': true,
+    '"': true,
+    '#': true,
+    '$': true,
+    '%': true,
+    '&': true,
+    '\'': true,
+    '(': true,
+    ')': true,
+    '*': true,
+    '+': true,
+    ',': true,
+    '.': true,
+    '/': true,
+    ';': true,
+    '<': true,
+    '=': true,
+    '>': true,
+    '?': true,
+    '@': true,
+    '[': true,
+    '\\': true,
+    ']': true,
+    '^': true,
+    '`': true,
+    '{': true,
+    '|': true,
+    '}': true,
+    '~': true
+};
+exports.strReplacementsRev = {
+    '\n': '\\n',
+    '\r': '\\r',
+    '\t': '\\t',
+    '\f': '\\f',
+    '\v': '\\v'
+};
+exports.singleQuoteEscapeChars = {
+    n: '\n',
+    r: '\r',
+    t: '\t',
+    f: '\f',
+    '\\': '\\',
+    '\'': '\''
+};
+exports.doubleQuotesEscapeChars = {
+    n: '\n',
+    r: '\r',
+    t: '\t',
+    f: '\f',
+    '\\': '\\',
+    '"': '"'
+};
+
+},{}],23:[function(require,module,exports){
 (function (global){
 (function (global, factory) {
 	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
@@ -16924,7 +17582,7 @@ if (!CodeMirror.mimeModes.hasOwnProperty("text/html"))
 })));
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],20:[function(require,module,exports){
+},{}],24:[function(require,module,exports){
 module.exports = {
 	compareTwoStrings,
 	findBestMatch
@@ -16995,7 +17653,7 @@ function areArgsValid(mainString, targetStrings) {
 	return true;
 }
 
-},{}],21:[function(require,module,exports){
+},{}],25:[function(require,module,exports){
 module.exports = `
 /* BASICS */
 
@@ -17478,7 +18136,7 @@ li.CodeMirror-hint-active {
 }
 `
 
-},{}],22:[function(require,module,exports){
+},{}],26:[function(require,module,exports){
 module.exports={
   "@charset": {
     "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/@charset",
@@ -17625,7 +18283,7 @@ module.exports={
     }
   }
 }
-},{}],23:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 module.exports={
   "aliceblue": {
     "name": "aliceblue",
@@ -18368,7 +19026,7 @@ module.exports={
     "rgb": "rgb(154,205,50)"
   }
 }
-},{}],24:[function(require,module,exports){
+},{}],28:[function(require,module,exports){
 module.exports={
   "angle": {
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
@@ -18877,7 +19535,7 @@ module.exports={
     }
   }
 }
-},{}],25:[function(require,module,exports){
+},{}],29:[function(require,module,exports){
 module.exports={
   "calc": {
     "status": "standard",
@@ -19037,7 +19695,7 @@ module.exports={
   }
 }
 
-},{}],26:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 module.exports={
   "align-content": {
     "urls": {
@@ -28965,7 +29623,7 @@ module.exports={
     }
   }
 }
-},{}],27:[function(require,module,exports){
+},{}],31:[function(require,module,exports){
 module.exports={
   ":active": {
     "status": "standard",
@@ -29700,7 +30358,7 @@ module.exports={
     }
   }
 }
-},{}],28:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
 module.exports={
   "::after": {
     "status": "standard",
@@ -29871,7 +30529,170 @@ module.exports={
     }
   }
 }
-},{}],29:[function(require,module,exports){
+},{}],33:[function(require,module,exports){
+const pseudoEles = require('./css-pseudo-elements.json')
+const pseudoClasses = require('./css-pseudo-classes.json')
+const CssSelectorParser = require('css-selector-parser').CssSelectorParser
+const cssSelector = new CssSelectorParser()
+// cssSelector.registerSelectorPseudos('has')
+cssSelector.registerNestingOperators('>', '+', '~')
+cssSelector.registerAttrEqualityMods('^', '$', '*', '~')
+cssSelector.enableSubstitutes()
+
+const refURL = 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors'
+
+function ntro (group) {
+  if (group) return 'Commas separate multiple <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank">CSS selectors</a> determining how to apply the CSS rules in the code block that follows it, ' // the 1st ... the 2nd... etc
+  else return 'This <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank">CSS selector</a> will apply the CSS rules in the code block that follows it to '
+}
+
+function ordinal (num) {
+  if (num === 0) return '1st'
+  else if (num === 1) return '2nd'
+  else if (num === 2) return '3rd'
+  else return `${num + 1}th`
+}
+
+function gatherGroup (cm, l) {
+  let str = ''
+  let line = cm.getLine(l).trim()
+  while (line.indexOf('{') === -1) { // are we at last ", "
+    str += cm.getLine(l).trim() + ' '
+    l++; line = cm.getLine(l)
+    if (!line) break
+    else line = line.trim()
+  }
+  if (line.trim().length > 1) { // is there more selector left?
+    str += line.substr(0, line.indexOf('{'))
+  }
+  return str
+}
+
+function parsePseudos (pseudos) {
+  let m = '('
+  for (let i = 0; i < pseudos.length; i++) {
+    let link
+    const key = pseudos[i].name
+    if (pseudoEles['::' + key]) {
+      link = pseudoEles['::' + key].keyword.html
+    } else if (pseudoClasses[':' + key]) {
+      link = pseudoClasses[':' + key].keyword.html
+    }
+    if (pseudoEles['::' + key] || pseudoClasses[':' + key]) {
+      m += (i === 0) ? `if/when it is ${link}` : ` and if/when it is ${link}`
+    }
+  }
+  if (m === '(') return ''
+  else return m + ')'
+}
+
+const isVowel = s => s === 'a' || s === 'e' || s === 'i' || s === 'o' || s === 'u' || s === 'h'
+
+function parseAttr (attr, singular) {
+  const has = (singular) ? 'has' : 'have'
+  let m = `which also ${has}`
+  attr.forEach((a, i) => {
+    m += (i > 0) ? ` and also ${has}` : ''
+    m += (isVowel(a.name[0])) ? ' an' : ' a'
+    m += ` <s>${a.name}<e> attribute`
+    if (a.operator) {
+      if (a.operator === '=') {
+        m += ` with a value of <s>${a.value}<e>`
+      } else if (a.operator === '~=') {
+        m += ` which includes the word <s>${a.value}<e> in it's value`
+      } else if (a.operator === '|=') {
+        m += ` whose value is exactly <s>${a.value}<e> or starts with <s>${a.value}-<e>`
+      } else if (a.operator === '^=') {
+        m += ` whose value starts with <s>${a.value}<e>`
+      } else if (a.operator === '$=') {
+        m += ` whose value ends with with <s>${a.value}<e>`
+      } else if (a.operator === '*=') {
+        m += ` which contains the fragment <s>${a.value}<e> somewhere within it's value`
+      }
+    }
+  })
+  return m
+}
+
+function parseRules (rule, frags) {
+  if (!rule.id && !rule.tagName && !rule.classNames) {
+    if (rule.rule) return parseRules(rule.rule, frags)
+    else return []
+  }
+  // handle basic slectors: element-type, class, id
+  let m = (rule.id) ? 'the ' : 'any '
+  if (rule.tagName === 'body') m = `the <s>${rule.tagName}<e> `
+  else if (rule.tagName === '*') m += ''
+  else if (rule.tagName) m += `<s>${rule.tagName}<e> `
+  m += (rule.id || rule.tagName === 'body') ? 'tag ' : 'tags '
+  if (rule.id) m += `with <s>id="${rule.id}"<e> `
+  if (rule.id && rule.classNames) m += 'and also '
+  else if (rule.classNames) m += 'with '
+  if (rule.classNames) m += `<s>class="${rule.classNames.join(' ')}"<e> `
+  // handle pseudo elements/classes
+  if (rule.pseudos) m += parsePseudos(rule.pseudos)
+  // handle attribute selectors
+  if (rule.attrs) m += parseAttr(rule.attrs, rule.id)
+
+  if (rule.nestingOperator === null) frags.push(' ')
+  else if (rule.nestingOperator) frags.push(rule.nestingOperator)
+  frags.push(m)
+
+  if (rule.rule) return parseRules(rule.rule, frags)
+  else return frags
+}
+
+function parseNestedRules (rule) {
+  const ops = {
+    ' ': 'which is/are a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator" target="_blank">descendant</a> of ',
+    '>': 'which is/are a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator" target="_blank">direct child</a> of ',
+    '~': 'which is/are <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator target="_blank">any sibling</a> of ',
+    '+': 'which is/are a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator" target="_blank">sibling directly following</a> any '
+  }
+  const frags = parseRules(rule, []).reverse()
+  let m = ''
+  frags.forEach(str => { m += (ops[str]) ? ops[str] : str })
+  return m
+}
+
+function checkSelector (o, cm) {
+  const pos = cm.getCursor()
+  const line = cm.getLine(pos.line).trim()
+  const end = line[line.length - 1]
+  const str = (end === ',')
+    ? gatherGroup(cm, pos.line) : line.substr(0, line.indexOf('{'))
+  const obj = cssSelector.parse(str)
+
+  console.log(obj)
+
+  let msg = ''
+  if (obj.type === 'selectors') {
+    obj.selectors.forEach((r, i) => {
+      msg += (i > 0) ? '; ' : ''
+      msg += `the ${ordinal(i)} selector applies to ` + parseNestedRules(r)
+    })
+  } else {
+    msg += parseNestedRules(obj.rule)
+  }
+
+  msg = ntro(obj.type === 'selectors') + msg
+  const html = msg.replace(/<s>/g, '<code>').replace(/<e>/g, '</code>')
+  const text = msg.replace(/<s>/g, '[ ').replace(/<e>/g, ' ]')
+    .replace(/<a.*?>/g, '').replace(/<\/a>/g, '')
+
+  return {
+    url: refURL,
+    keyword: {
+      html: `<a href="${refURL}" target="_blank">CSS slector</a>`,
+      text: 'CSS selector'
+    },
+    description: { html: html, text: text }
+  }
+}
+
+module.exports = checkSelector
+
+},{"./css-pseudo-classes.json":31,"./css-pseudo-elements.json":32,"css-selector-parser":19}],34:[function(require,module,exports){
 module.exports={
   "s": {
     "status": "standard",
@@ -30079,7 +30900,7 @@ module.exports={
   }
 }
 
-},{}],30:[function(require,module,exports){
+},{}],35:[function(require,module,exports){
 module.exports={
   "accept": {
     "keyword": {
@@ -32350,7 +33171,7 @@ module.exports={
     "note": null
   }
 }
-},{}],31:[function(require,module,exports){
+},{}],36:[function(require,module,exports){
 module.exports={
   "html": {
     "status": "standard",
@@ -37720,7 +38541,7 @@ module.exports={
     ]
   }
 }
-},{}],32:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const htmlAttr = require('./html-attributes.json')
 const htmlEles = require('./html-elements.json')
@@ -37732,6 +38553,51 @@ const cssColors = require('./css-colors.json')
 const cssTypes = require('./css-data-types.json')
 const cssUnits = require('./css-units.json')
 const cssFunctions = require('./css-functions.json')
+const checkSelector = require('./css-read-selector.js')
+
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  HTML FUNCTIONS
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
+
+const htmlC = {
+  name: 'HTML comments',
+  url: 'https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#HTML_comments',
+  nfo: 'HTML has a mechanism to write comments in the code. Browsers ignore comments,  effectively making comments invisible to the user. The purpose of comments is to allow you to include notes in the code to explain your logic or coding. This is very useful if you return to a code base after being away for long enough that you don\'t completely remember it.'
+}
+
+const htmlD = {
+  name: 'HTML doctype',
+  url: 'https://en.wikipedia.org/wiki/Document_type_declaration',
+  nfo: 'This tag is not an HTML element in the traditional sense. It is an "declaration" to the browser about what document type to expect. This helps the browser determine the best way to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode" target="_blank">render</a> the page. There are different doctypes for code written at different points in history of HTML, we\'re currently in the era of HTML5, so any pages created now should have the HTML5 doctype which looks like <code>&lt;!DOCTYPE html&gt;</code>.'
+}
+
+const genObj = (o) => {
+  return {
+    url: o.url,
+    keyword: {
+      html: `<a href="${o.url}" target="_blank">${o.name}</a>`,
+      text: 'HTML comments'
+    },
+    description: { html: o.nfo, text: o.nfo }
+  }
+}
+
+function htmlData (o) {
+  if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
+  else if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
+  else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
+    o.nfo = htmlAttr['data-*']
+  } else if (o.type === 'comment') {
+    o.nfo = genObj(htmlC)
+  } else if (o.data.includes('<!DOCTYPE')) {
+    o.nfo = genObj(htmlD)
+  }
+  return o.nfo
+}
+
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  CSS FUNCTIONS
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
 const clrURL = {
   keyword: 'https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#Color_keywords',
@@ -37855,20 +38721,10 @@ function cssFunc (str) {
   }
 }
 
-function htmlData (o) {
-  if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
-  if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
-  else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
-    o.nfo = htmlAttr['data-*']
-  }
-  return o.nfo
-}
-
-function cssData (o, inner) {
-  const state = inner.state.state
-  // TODO
-  // - CSS Selectors
-  if (o.type === 'property' && cssProps[o.data]) {
+function cssData (o, state, cm) {
+  if (state === 'top') {
+    o.nfo = checkSelector(o, cm)
+  } else if (o.type === 'property' && cssProps[o.data]) {
     o.nfo = cssProps[o.data]
   } else if (o.type === 'variable-3') {
     if (pseudoClasses[':' + o.data]) o.nfo = pseudoClasses[':' + o.data]
@@ -37901,9 +38757,13 @@ function cssData (o, inner) {
     }
   }
 
-  console.log(o.type, state)
+  // console.log(o.type, state)
   return o.nfo
 }
+
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  JS FUNCTIONS
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
 function jsData (o) {
   return {
@@ -37911,11 +38771,15 @@ function jsData (o) {
   }
 }
 
+// •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
+// main
+
 function eduData (cm) {
   const pos = cm.getCursor()
   const tok = cm.getTokenAt(pos)
   const lan = cm.getModeAt(pos).name
   const inner = CodeMirror.innerMode(cm.getMode(), tok.state)
+  const state = inner.state.state
 
   const o = {
     language: lan === 'xml' ? 'html' : lan,
@@ -37924,7 +38788,7 @@ function eduData (cm) {
   }
 
   if (o.language === 'html') o.nfo = htmlData(o)
-  else if (o.language === 'css') o.nfo = cssData(o, inner)
+  else if (o.language === 'css') o.nfo = cssData(o, state, cm)
   else if (o.language === 'javascript') o.nfo = jsData(o)
 
   return o
@@ -37932,7 +38796,7 @@ function eduData (cm) {
 
 module.exports = eduData
 
-},{"./css-at-rules.json":22,"./css-colors.json":23,"./css-data-types.json":24,"./css-functions.json":25,"./css-properties.json":26,"./css-pseudo-classes.json":27,"./css-pseudo-elements.json":28,"./css-units.json":29,"./html-attributes.json":30,"./html-elements.json":31,"codemirror":14}],33:[function(require,module,exports){
+},{"./css-at-rules.json":26,"./css-colors.json":27,"./css-data-types.json":28,"./css-functions.json":29,"./css-properties.json":30,"./css-pseudo-classes.json":31,"./css-pseudo-elements.json":32,"./css-read-selector.js":33,"./css-units.json":34,"./html-attributes.json":35,"./html-elements.json":36,"codemirror":14}],38:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const cssProps = require('../edu-data/css-properties.json')
 const pseudoEles = require('../edu-data/css-pseudo-elements.json')
@@ -38016,7 +38880,7 @@ function cssHinter (token, cm) {
 
 module.exports = cssHinter
 
-},{"../edu-data/css-at-rules.json":22,"../edu-data/css-colors.json":23,"../edu-data/css-properties.json":26,"../edu-data/css-pseudo-classes.json":27,"../edu-data/css-pseudo-elements.json":28,"../edu-data/html-elements.json":31,"codemirror":14}],34:[function(require,module,exports){
+},{"../edu-data/css-at-rules.json":26,"../edu-data/css-colors.json":27,"../edu-data/css-properties.json":30,"../edu-data/css-pseudo-classes.json":31,"../edu-data/css-pseudo-elements.json":32,"../edu-data/html-elements.json":36,"codemirror":14}],39:[function(require,module,exports){
 const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = require('./snippets.json')
@@ -38065,7 +38929,7 @@ function htmlHinter (token) {
 
 module.exports = htmlHinter
 
-},{"../edu-data/html-attributes.json":30,"../edu-data/html-elements.json":31,"./snippets.json":36}],35:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":35,"../edu-data/html-elements.json":36,"./snippets.json":41}],40:[function(require,module,exports){
 const htmlHinter = require('./htmlHinter.js')
 const cssHinter = require('./cssHinter.js')
 
@@ -38112,7 +38976,7 @@ function main (cm, options) {
 
 module.exports = main
 
-},{"./cssHinter.js":33,"./htmlHinter.js":34}],36:[function(require,module,exports){
+},{"./cssHinter.js":38,"./htmlHinter.js":39}],41:[function(require,module,exports){
 module.exports={
   "doctype" : "!DOCTYPE html>",
   "html": "html lang=\"en-US\"></html>",
@@ -38122,7 +38986,7 @@ module.exports={
   "html (template)": "<!DOCTYPE html>\n<html lang=\"en-US\">\n\t<head>\n\t\t<meta charset=\"utf-8\">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\n\t</body>\n</html>\n"
 }
 
-},{}],37:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 // const CodeMirror = require('codemirror')
 // const CSSMode = CodeMirror.resolveMode('text/css')
 // console.log(JSON.stringify(CSSMode))
@@ -38138,7 +39002,7 @@ function linter (code) {
 
 module.exports = linter
 
-},{}],38:[function(require,module,exports){
+},{}],43:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 const HTMLStandards = require('./html-standards-validator.js')
@@ -38370,7 +39234,7 @@ const translate = {
 
 module.exports = translate
 
-},{"../edu-data/html-elements.json":31,"./html-standards-validator.js":39}],39:[function(require,module,exports){
+},{"../edu-data/html-elements.json":36,"./html-standards-validator.js":44}],44:[function(require,module,exports){
 const htmlEles = require('../edu-data/html-elements.json')
 const htmlAttr = require('../edu-data/html-attributes.json')
 const stringSimilarity = require('string-similarity')
@@ -38601,7 +39465,7 @@ class HTMLStandards {
 
 module.exports = HTMLStandards
 
-},{"../edu-data/html-attributes.json":30,"../edu-data/html-elements.json":31,"string-similarity":20}],40:[function(require,module,exports){
+},{"../edu-data/html-attributes.json":35,"../edu-data/html-elements.json":36,"string-similarity":24}],45:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
@@ -38667,14 +39531,14 @@ function linter (code) {
 
 module.exports = linter
 
-},{"./html-friendly-translator.js":38,"./html-standards-validator.js":39,"htmlhint":19}],41:[function(require,module,exports){
+},{"./html-friendly-translator.js":43,"./html-standards-validator.js":44,"htmlhint":23}],46:[function(require,module,exports){
 function linter (code) {
   return null
 }
 
 module.exports = linter
 
-},{}],42:[function(require,module,exports){
+},{}],47:[function(require,module,exports){
 /* global HTMLElement */
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
@@ -38970,4 +39834,4 @@ class Netitor {
 
 window.Netitor = Netitor
 
-},{"./css/main.js":21,"./edu-data/index.js":32,"./hinters/index.js":35,"./linters/cssLinter.js":37,"./linters/htmlLinter.js":40,"./linters/jsLinter.js":41,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[42]);
+},{"./css/main.js":25,"./edu-data/index.js":37,"./hinters/index.js":40,"./linters/cssLinter.js":42,"./linters/htmlLinter.js":45,"./linters/jsLinter.js":46,"codemirror":14,"codemirror/addon/comment/comment":1,"codemirror/addon/edit/closebrackets":2,"codemirror/addon/edit/closetag":3,"codemirror/addon/edit/matchbrackets":4,"codemirror/addon/edit/matchtags":5,"codemirror/addon/hint/css-hint":7,"codemirror/addon/hint/html-hint":8,"codemirror/addon/hint/javascript-hint":9,"codemirror/addon/hint/show-hint":10,"codemirror/addon/hint/xml-hint":11,"codemirror/addon/search/searchcursor":12,"codemirror/keymap/sublime":13,"codemirror/mode/htmlmixed/htmlmixed":16}]},{},[47]);

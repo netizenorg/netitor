@@ -15,6 +15,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "codemirror": "^5.52.2",
+    "css-selector-parser": "^1.4.1",
     "csslint": "^1.0.5",
     "htmlhint": "^0.14.1",
     "string-similarity": "^4.0.1"
