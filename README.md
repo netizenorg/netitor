@@ -106,7 +106,7 @@ ne.on('code-update', (event) => {
   nfo: {…}
 }
 ```
-The `nfo` property will contain an object with educational/reference information as well as links to further resources on that particular piece of code. This may not always be available, it depends on whether the particular piece of code selected has additional info.
+The `nfo` property will contain an object with educational/reference information as well as links to further resources on that particular piece of code. This may not always be available, it depends on whether the particular piece of code selected has additional info. This info is generated from our [eduscraper](https://github.com/netizenorg/eduscraper) you can take a look at that repo to get a sense of the structure of the data.
 
 
 # Development
