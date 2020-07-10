@@ -93,7 +93,7 @@ ne.on('code-update', (event) => {
   language: 'css',
   data: 'color'
 }
-```admitidly
+```
 
 **lint-error**: Assuming you have `lint` set to `true`, if/when there are any errors in the netitor this callback will fire (**STILL IN DEVELOPMENT**)
 
