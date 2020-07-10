@@ -53,49 +53,29 @@
     <script src="build/netitor.js"></script>
     <script>
 
-      const exampleCode = `<!DOCTYPE html>
-      <!-- test -->
-<div>
-  <style>
-    .info {
-      color: green;
-      font-size: 24px;
-    }
-    .info:hover {
-      color: red;
-    }
-    @media print { }
-    body { background-color: yellow; }
-    div#test.test {}
-
-    a[title] {}
-    a[href="https://example.org"] {}
-    a[href*="example"] {}
-    a[href$=".org"] {}
-    a[class~="logo"] {}
-
-
-    #test > p {}
-    #test ~ a[href="hello"] {}
-    p, div { }
-    p div { }
-    div,
-    a,
-    .test { }
-  </style>
-  <h1>Hello World</h1>
-  <p class="info">this is an example</p>
-  <script>
-    const t = document.querySelector('h1')
-    t.style.color = 'red'
-  <\/script>
-</div>`
-
       const ne = new Netitor({
         ele: '#editor',
         render: '#output',
-        code: exampleCode
+        code: `<!DOCTYPE html>\n<h1>hello world!</h1>`
       })
+
+      // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
+      // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸ examples for saving/loading to URL
+
+      // if there is code saved in the URL load it to the editor
+      if (ne.hasCodeInHash) ne.loadFromHash()
+
+      // here we're creating a shortcut to save the current sketch to the URL
+      // if when the user either presses Ctrl+S or ⌘+S
+      window.addEventListener('keydown', (e) => {
+        if((e.ctrlKey || e.metaKey) && e.key === 's'){
+          e.preventDefault()
+          ne.saveToHash()
+        }
+      })
+
+      // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
+      // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* handling Netitor's events
 
       ne.on('hint-select', (eve) => {
         // just one example for how u might make use of our built in edu info

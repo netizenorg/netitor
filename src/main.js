@@ -21,6 +21,10 @@ const cssLinter = require('./linters/cssLinter.js')
 const coreHinter = require('./hinters/index.js')
 const eduData = require('./edu-data/index.js')
 
+// const inflate = require('./compress/rawinflate.js')
+// const deflate = require('./compress/rawdeflate.js')
+const pako = require('pako')
+
 const CSS = require('./css/main.js')
 
 class Netitor {
@@ -62,6 +66,9 @@ class Netitor {
       console.error('Netitor:', m)
     }
   }
+
+  get hasCodeInHash () { return window.location.hash.indexOf('#code/') === 0 }
+  set hasCodeInHash (v) { this.err('hasCodeInHash is read only') }
 
   get code () { return this.cm.getValue() }
   set code (v) { this.cm.setValue(v) }
@@ -284,6 +291,33 @@ class Netitor {
     const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
     if (this._marked) this._marked.clear()
     this._marked = this.cm.markText(start, end, { css })
+  }
+
+  saveToHash () {
+    const data = pako.deflate(this.code, { to: 'string' })
+    window.location.hash = '#code/' + window.btoa(data)
+    return window.btoa(data)
+  }
+
+  loadFromHash () {
+    if (this.hasCodeInHash) {
+      const code = window.location.hash.substr(6)
+      const decoded = pako.inflate(window.atob(code), { to: 'string' })
+      this.code = decoded
+      return decoded
+    } else {
+      this.err('.decodeFromURL() did not find any #code in the current URL')
+    }
+  }
+
+  loadFromURL (url) {
+    if (!url) {
+      return this.err('loadFromURL() expects a url to a raw text/html file')
+    }
+    window.fetch(url, { method: 'GET' })
+      .then(res => res.text())
+      .then(text => { this.code = text })
+      .catch(err => this.err(err))
   }
 
   update () {
