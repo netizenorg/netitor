@@ -119,6 +119,7 @@ class Netitor {
     this.cm = CodeMirror(this.ele, {
       tabSize: 2,
       indentUnit: 2,
+      indentWithTabs: false,
       lineNumbers: true,
       matchBrackets: true,
       matchTags: true,
@@ -134,6 +135,13 @@ class Netitor {
         completeSingle: false
       },
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)
+    })
+
+    this.cm.setOption('extraKeys', {
+      Tab: function (cm) {
+        const spaces = Array(cm.getOption('indentUnit') + 1).join(' ')
+        cm.replaceSelection(spaces)
+      }
     })
 
     this.cm.on('change', (cm) => this._delayUpdate(cm))
