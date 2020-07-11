@@ -178,14 +178,13 @@ function cssFunc (str) {
 }
 
 function cssData (o, state, cm) {
-  if (state === 'top' && o.type !== 'comment') {
+  if (state === 'top' && o.type !== 'comment' && o.type !== 'variable-3') {
     o.nfo = checkSelector(o, cm)
   } else if (o.type === 'property' && cssProps[o.data]) {
     o.nfo = cssProps[o.data]
   } else if (o.type === 'variable-3') {
     if (pseudoClasses[':' + o.data]) o.nfo = pseudoClasses[':' + o.data]
     else if (pseudoEles['::' + o.data]) o.nfo = pseudoEles['::' + o.data]
-    console.log(o.data, pseudoEles)
   } else if (o.type === 'def' && o.data.indexOf('@') === 0 && atRules[o.data]) {
     o.nfo = atRules[o.data]
   } else if (o.type === 'meta') {

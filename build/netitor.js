@@ -26353,6 +26353,12 @@ module.exports={
 }
 },{}],45:[function(require,module,exports){
 module.exports={
+  "var": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/var",
+    "html": "The <strong><code>var()</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function can be used to insert the value of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/--*\">custom property</a> (sometimes called a \"CSS variable\") instead of any part of a value of another property.",
+    "text": "The var() CSS function can be used to insert the value of a custom property (sometimes called a \"CSS variable\") instead of any part of a value of another property."
+  },
   "calc": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/calc",
@@ -45538,14 +45544,13 @@ function cssFunc (str) {
 }
 
 function cssData (o, state, cm) {
-  if (state === 'top' && o.type !== 'comment') {
+  if (state === 'top' && o.type !== 'comment' && o.type !== 'variable-3') {
     o.nfo = checkSelector(o, cm)
   } else if (o.type === 'property' && cssProps[o.data]) {
     o.nfo = cssProps[o.data]
   } else if (o.type === 'variable-3') {
     if (pseudoClasses[':' + o.data]) o.nfo = pseudoClasses[':' + o.data]
     else if (pseudoEles['::' + o.data]) o.nfo = pseudoEles['::' + o.data]
-    console.log(o.data, pseudoEles)
   } else if (o.type === 'def' && o.data.indexOf('@') === 0 && atRules[o.data]) {
     o.nfo = atRules[o.data]
   } else if (o.type === 'meta') {

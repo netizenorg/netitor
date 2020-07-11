@@ -1,4 +1,10 @@
 {
+  "var": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/var",
+    "html": "The <strong><code>var()</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function can be used to insert the value of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/--*\">custom property</a> (sometimes called a \"CSS variable\") instead of any part of a value of another property.",
+    "text": "The var() CSS function can be used to insert the value of a custom property (sometimes called a \"CSS variable\") instead of any part of a value of another property."
+  },
   "calc": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/calc",
