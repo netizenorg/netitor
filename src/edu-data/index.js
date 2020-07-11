@@ -178,7 +178,7 @@ function cssFunc (str) {
 }
 
 function cssData (o, state, cm) {
-  if (state === 'top') {
+  if (state === 'top' && o.type !== 'comment') {
     o.nfo = checkSelector(o, cm)
   } else if (o.type === 'property' && cssProps[o.data]) {
     o.nfo = cssProps[o.data]
