@@ -99,7 +99,7 @@
 
       ne.on('edu-info', (eve) => {
         // just one example for how u might make use of our built in edu info
-        // console.log(eve.nfo.description.text)
+        console.log(eve.nfo)
         if (eve.nfo) {
           document.querySelector('#nfo').className = ''
           if (eve.language === 'html') showHTMLNFO(eve)
@@ -118,10 +118,12 @@
       }
 
       function showHTMLNFO (eve) {
+        const type = (typeof eve.nfo.singleton === 'boolean')
+          ? 'element' : 'attribute'
         const note = eve.nfo.note
           ? eve.nfo.note.html
           : (eve.nfo.status && eve.nfo.status !== 'standard')
-            ? `This attribute is ${eve.nfo.status}. ` : ''
+            ? `This ${type} is ${eve.nfo.status}. ` : ''
 
         document.querySelector('#nfo').innerHTML = `
           <h1>${eve.nfo.keyword.html}</h1>
