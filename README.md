@@ -60,8 +60,11 @@ ne.autoUpdate = false
 ne.updateDelay = 2000
 ne.friendlyErr = false
 ```
+### read-only properites
 
 Netitor is a fully static web-based editor, as such it allows you to save and load code sketches to the URL (no database or back-end needed to save/share/remix/etc), in order to check if the current URL has a hash with code/data in it you can use `ne.hasCodeInHash`, this read-only property returns either `true` or `false`
+
+You can check to see if the code in the editor is "tidy" (aka property formatted/indented) by calling `ne.isTidy`.
 
 ## Methods
 
@@ -74,6 +77,8 @@ Netitor is a fully static web-based editor, as such it allows you to save and lo
 **loadFromHash()**: if the current site's URL hash has encoded/compressed code in it (which you can check for using `ne.hasCodeInHash`) this will decode the URL and load the data into the editor.
 
 **loadFromURL(url)**: if you have some example code saved online somewhere (with CORS enabled) this method will send a fetch request for that code and load it up in the editor.
+
+**tidy()**: calling this method will clean-up (aka format) the code in the editor (fix spacing, indentation, etc).
 
 **on('event-name', callbackFunction)**: the netitor has a l(still working on it)ist of events you can listen for and pass a callback function to, for example:
 

@@ -69,8 +69,20 @@ const cssCommentNfo = {
     text: 'comments'
   },
   description: {
-    html: 'A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document.',
-    text: 'A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document.'
+    html: 'A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document',
+    text: 'A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document'
+  }
+}
+
+const cssImportant = {
+  url: 'hhttps://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#The_!important_exception',
+  keyword: {
+    html: '<a href="hhttps://developer.mozilla.org/en-US/docs/Web/CSS/Specificity#The_!important_exception" target="_blank">!important</a>',
+    text: '!important'
+  },
+  description: {
+    html: 'When an <code>!important</code> rule is used on a style declaration, this declaration overrides any other declarations. It\'s not considered the best practice (because it can be tricky to debug as it overrides all default CSS specificity rules) so you should use it sparingly when no other options are available',
+    text: 'When an !important rule is used on a style declaration, this declaration overrides any other declarations. It\'s not considered the best practice (because it can be tricky to debug as it overrides all default CSS specificity rules) so you should use it sparingly when no other options are available'
   }
 }
 
@@ -123,8 +135,8 @@ function cssVariables (str) {
       text: 'custom properties: CSS variables'
     },
     description: {
-      html: `Property names that are prefixed with <code>--</code>, like <code>${str}</code>, represent <em>custom properties</em> that contain a value that&nbsp;can be used in other declarations using the <a href="/en-US/docs/Web/CSS/var" title="The var() CSS function can be used to insert the value of a custom property (sometimes called a &quot;CSS variable&quot;) instead of any part of a value of another property."><code>var()</code></a>&nbsp;function.`,
-      text: `Property names that are prefixed with --, like ${str}, represent custom properties that contain a value that can be used in other declarations using the var() function.`
+      html: `Property names that are prefixed with <code>--</code>, like <code>${str}</code>, represent <em>custom properties</em> that contain a value that&nbsp;can be used in other declarations using the <a href="/en-US/docs/Web/CSS/var" title="The var() CSS function can be used to insert the value of a custom property (sometimes called a &quot;CSS variable&quot;) instead of any part of a value of another property."><code>var()</code></a>&nbsp;function`,
+      text: `Property names that are prefixed with --, like ${str}, represent custom properties that contain a value that can be used in other declarations using the var() function`
     }
   }
 }
@@ -201,7 +213,9 @@ function cssData (o, state, cm) {
   } else if (state === 'prop') {
     // handle colors values
     const c = o.data.toLowerCase()
-    if (o.type === 'keyword' && Object.keys(cssColors).includes(c)) {
+    if (o.data === '!important') {
+      o.nfo = cssImportant
+    } else if (o.type === 'keyword' && Object.keys(cssColors).includes(c)) {
       o.nfo = createColorNfo(c, 'keyword')
     } else if (o.data.indexOf('#') === 0) {
       o.nfo = createColorNfo(c, 'hex')
@@ -212,7 +226,6 @@ function cssData (o, state, cm) {
     }
   }
 
-  // console.log(o.type, state)
   return o.nfo
 }
 

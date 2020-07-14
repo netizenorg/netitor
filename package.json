@@ -16,10 +16,11 @@
   "dependencies": {
     "codemirror": "^5.52.2",
     "css-selector-parser": "^1.4.1",
-    "csslint": "^1.0.5",
     "htmlhint": "^0.14.1",
+    "js-beautify": "^1.11.0",
     "pako": "^1.0.11",
-    "string-similarity": "^4.0.1"
+    "string-similarity": "^4.0.1",
+    "stylelint-browser-bundle": "git+https://github.com/nbriz/stylelint-browser-bundle"
   },
   "devDependencies": {
     "browserify": "^16.5.1",
