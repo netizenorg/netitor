@@ -227,7 +227,7 @@ class Netitor {
     const tok = cm.getTokenAt(pos)
     const line = cm.getLine(pos.line)
     // check to make sure user is actually typing something
-    const typing = tok.string.length > 0
+    const typing = tok.string.replace(/\s/g, '').length > 0
     const nextChar = line.slice(tok.end, tok.end + 1)
     // check to make sure the cursor is at the end of a lone word
     // otherwise we'll be creating hint menus all the time
@@ -237,7 +237,7 @@ class Netitor {
     // check to see if the cursor is inside of a tag (for attributes)
     const tagAttr = nextChar === '>'
 
-    return typing && ((alone || paren) || tagAttr)
+    return typing && (alone || paren || tagAttr)
   }
 
   _hinter (cm, options) {
