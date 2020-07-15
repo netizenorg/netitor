@@ -45,8 +45,9 @@ function parseTypeSelectors (rule, frags) {
 function catchTypeSelectorErrz (code) {
   const errz = []
   const lines = code.split('\n')
-  const strs = code.match(/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/g)
-    .filter(s => !s.includes('@'))
+  let strs = code.match(/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/g)
+  if (!strs) return errz // probably there's another err taking precedence
+  else strs = strs.filter(s => !s.includes('@'))
   for (let i = 0; i < strs.length; i++) {
     const s = strs[i].substr(0, strs[i].length - 1)
     const o = cssSelector.parse(s)
