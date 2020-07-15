@@ -92,12 +92,12 @@ const dict = {
     return obj
   },
   'declaration-colon-space-after': (obj) => {
-    obj = reformatObj(obj)
+    obj = reformatObj(obj, true)
     obj.friendly = 'You should always have a space between the <code>:</code> and the property\'s value'
     return obj
   },
   'declaration-colon-space-before': (obj) => {
-    obj = reformatObj(obj)
+    obj = reformatObj(obj, true)
     obj.friendly = 'You shouldn\'t put a space between a CSS property name and the <code>:</code>, only between the <code>:</code> and it\'s value'
     return obj
   },
