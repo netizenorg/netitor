@@ -76,7 +76,7 @@ const dict = {
   },
   'block-no-empty': (obj) => {
     obj = reformatObj(obj, true)
-    obj.friendly = 'A CSS rule block should always have at least one CSS rule (property and value) inside it. If you\'re planning on coming back to this later it\'s good ractice to leave a <code>/* comment */</code> inside the CSS rule block in the meantime.'
+    obj.friendly = 'A CSS rule block should always have at least one CSS rule (property and value) inside it. If you\'re planning on coming back to this later it\'s good practice to leave a <code>/* comment */</code> inside the CSS rule block in the meantime.'
     return obj
   },
   'declaration-block-no-duplicate-properties': (obj) => {
