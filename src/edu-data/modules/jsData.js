@@ -250,6 +250,7 @@ function jsData (o, cm) {
     o.nfo = checkDefNfo(o.data, cm)
   } else if (o.type === 'variable') {
     if (jsWindow[o.data]) o.nfo = jsWindow[o.data]
+    else if (jsRefs[o.data]) o.nfo = jsRefs[o.data]
     else o.nfo = checkDefNfo(o.data, cm)
   } else if (o.data === 'function') {
     o.nfo = funcNfo
