@@ -1,0 +1,170 @@
+{
+  "ancestorOrigins": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/ancestorOrigins",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/ancestorOrigins\">ancestorOrigins</a>",
+      "text": "ancestorOrigins"
+    },
+    "description": {
+      "html": "Is a static <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMStringList\"><code>DOMStringList</code></a> containing, in reverse order, the origins of all ancestor browsing contexts of the document associated with the given <code>Location</code> object.",
+      "text": "Is a static DOMStringList containing, in reverse order, the origins of all ancestor browsing contexts of the document associated with the given Location object."
+    }
+  },
+  "href": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/href",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/href\">href</a>",
+      "text": "href"
+    },
+    "description": {
+      "html": "Is a stringifier that returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing the entire URL. If changed, the associated document navigates to the new page. It can be set from a different origin than the associated document.",
+      "text": "Is a stringifier that returns a USVString containing the entire URL. If changed, the associated document navigates to the new page. It can be set from a different origin than the associated document."
+    }
+  },
+  "protocol": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/protocol",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/protocol\">protocol</a>",
+      "text": "protocol"
+    },
+    "description": {
+      "html": "Is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing the protocol scheme of the URL, including the final <code>&apos;:&apos;</code>.",
+      "text": "Is a USVString containing the protocol scheme of the URL, including the final ':'."
+    }
+  },
+  "host": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/host",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/host\">host</a>",
+      "text": "host"
+    },
+    "description": {
+      "html": "Is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing the host, that is the <em>hostname</em>, a <code>&apos;:&apos;</code>, and the <em>port</em> of the URL.",
+      "text": "Is a USVString containing the host, that is the hostname, a ':', and the port of the URL."
+    }
+  },
+  "hostname": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/hostname",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/hostname\">hostname</a>",
+      "text": "hostname"
+    },
+    "description": {
+      "html": "Is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing the domain of the URL.",
+      "text": "Is a USVString containing the domain of the URL."
+    }
+  },
+  "port": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/port",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/port\">port</a>",
+      "text": "port"
+    },
+    "description": {
+      "html": "Is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing the port number of the URL.",
+      "text": "Is a USVString containing the port number of the URL."
+    }
+  },
+  "pathname": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/pathname",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/pathname\">pathname</a>",
+      "text": "pathname"
+    },
+    "description": {
+      "html": "Is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing an initial <code>&apos;/&apos;</code> followed by the path of the URL.",
+      "text": "Is a USVString containing an initial '/' followed by the path of the URL."
+    }
+  },
+  "search": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/search",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/search\">search</a>",
+      "text": "search"
+    },
+    "description": {
+      "html": "Is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing a <code>&apos;?&apos;</code> followed by the parameters or &quot;querystring&quot; of the URL. Modern browsers provide <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams/get#Example\">URLSearchParams</a> and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/URL/searchParams#Example\">URL.searchParams</a> to make it easy to parse out the parameters from the querystring.",
+      "text": "Is a USVString containing a '?' followed by the parameters or \"querystring\" of the URL. Modern browsers provide URLSearchParams and URL.searchParams to make it easy to parse out the parameters from the querystring."
+    }
+  },
+  "hash": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/hash",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/hash\">hash</a>",
+      "text": "hash"
+    },
+    "description": {
+      "html": "Is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing a <code>&apos;#&apos;</code> followed by the fragment identifier of the URL.",
+      "text": "Is a USVString containing a '#' followed by the fragment identifier of the URL."
+    }
+  },
+  "origin": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/origin",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/origin\">origin</a>",
+      "text": "origin"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing the canonical form of the origin of the specific location.",
+      "text": "Returns a USVString containing the canonical form of the origin of the specific location."
+    }
+  },
+  "assign": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/assign",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/assign\">assign()</a>",
+      "text": "assign()"
+    },
+    "description": {
+      "html": "Loads the resource at the URL provided in parameter.",
+      "text": "Loads the resource at the URL provided in parameter."
+    }
+  },
+  "reload": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/reload",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/reload\">reload()</a>",
+      "text": "reload()"
+    },
+    "description": {
+      "html": "Reloads the current URL, like the Refresh button.",
+      "text": "Reloads the current URL, like the Refresh button."
+    }
+  },
+  "replace": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/replace",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/replace\">replace()</a>",
+      "text": "replace()"
+    },
+    "description": {
+      "html": "Replaces the current resource with the one at the provided URL (redirects to the provided URL). The difference from the <code>assign()</code> method and setting the <code>href</code> property is that after using <code>replace()</code> the current page will not be saved in session <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/History\"><code>History</code></a>, meaning the user won&apos;t be able to use the <em>back</em> button to navigate to it.",
+      "text": "Replaces the current resource with the one at the provided URL (redirects to the provided URL). The difference from the assign() method and setting the href property is that after using replace() the current page will not be saved in session History, meaning the user won't be able to use the back button to navigate to it."
+    }
+  },
+  "toString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location/toString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location/toString\">toString()</a>",
+      "text": "toString()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/USVString\"><code>USVString</code></a> containing the whole URL. It is a synonym for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLHyperlinkElementUtils/href\"><code>HTMLHyperlinkElementUtils.href</code></a>, though it can&apos;t be used to modify the value.",
+      "text": "Returns a USVString containing the whole URL. It is a synonym for HTMLHyperlinkElementUtils.href, though it can't be used to modify the value."
+    }
+  }
+}

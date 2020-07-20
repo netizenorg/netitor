@@ -1,0 +1,362 @@
+{
+  "length": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length\">length</a>",
+      "text": "length"
+    },
+    "description": {
+      "html": "Reflects the number of elements in an array.",
+      "text": "Reflects the number of elements in an array."
+    }
+  },
+  "concat": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat\">concat()</a>",
+      "text": "concat()"
+    },
+    "description": {
+      "html": "Returns a new array that is this array joined with other array(s) and/or value(s).",
+      "text": "Returns a new array that is this array joined with other array(s) and/or value(s)."
+    }
+  },
+  "copyWithin": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin\">copyWithin()</a>",
+      "text": "copyWithin()"
+    },
+    "description": {
+      "html": "Copies a sequence of array elements within the array.",
+      "text": "Copies a sequence of array elements within the array."
+    }
+  },
+  "entries": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/entries\">entries()</a>",
+      "text": "entries()"
+    },
+    "description": {
+      "html": "Returns a new <code>Array Iterator</code> object that contains the key/value pairs for each index in the array.",
+      "text": "Returns a new Array Iterator object that contains the key/value pairs for each index in the array."
+    }
+  },
+  "every": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every\">every()</a>",
+      "text": "every()"
+    },
+    "description": {
+      "html": "Returns <code>true</code> if every element in this array satisfies the testing function.",
+      "text": "Returns true if every element in this array satisfies the testing function."
+    }
+  },
+  "fill": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/fill\">fill()</a>",
+      "text": "fill()"
+    },
+    "description": {
+      "html": "Fills all the elements of an array from a start index to an end index with a static value.",
+      "text": "Fills all the elements of an array from a start index to an end index with a static value."
+    }
+  },
+  "filter": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter\">filter()</a>",
+      "text": "filter()"
+    },
+    "description": {
+      "html": "Returns a new array containing all elements of the calling array for which the provided filtering function returns <code>true</code>.",
+      "text": "Returns a new array containing all elements of the calling array for which the provided filtering function returns true."
+    }
+  },
+  "find": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find\">find()</a>",
+      "text": "find()"
+    },
+    "description": {
+      "html": "Returns the found <code><var>element</var></code> in the array, if some element in the array satisfies the testing function, or <code>undefined</code> if not found.",
+      "text": "Returns the found element in the array, if some element in the array satisfies the testing function, or undefined if not found."
+    }
+  },
+  "findIndex": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex\">findIndex()</a>",
+      "text": "findIndex()"
+    },
+    "description": {
+      "html": "Returns the found index in the array, if an element in the array satisfies the testing function, or <code>-1</code> if not found.",
+      "text": "Returns the found index in the array, if an element in the array satisfies the testing function, or -1 if not found."
+    }
+  },
+  "forEach": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach\">forEach()</a>",
+      "text": "forEach()"
+    },
+    "description": {
+      "html": "Calls a function for each element in the array.",
+      "text": "Calls a function for each element in the array."
+    }
+  },
+  "includes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes\">includes()</a>",
+      "text": "includes()"
+    },
+    "description": {
+      "html": "Determines whether the array contains a value, returning <code>true</code> or <code>false</code> as appropriate.",
+      "text": "Determines whether the array contains a value, returning true or false as appropriate."
+    }
+  },
+  "indexOf": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf\">indexOf()</a>",
+      "text": "indexOf()"
+    },
+    "description": {
+      "html": "Returns the first (least) index of an element within the array equal to an elemnet, or <code>-1</code> if none is found.",
+      "text": "Returns the first (least) index of an element within the array equal to an elemnet, or -1 if none is found."
+    }
+  },
+  "join": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join\">join()</a>",
+      "text": "join()"
+    },
+    "description": {
+      "html": "Joins all elements of an array into a string.",
+      "text": "Joins all elements of an array into a string."
+    }
+  },
+  "keys": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/keys\">keys()</a>",
+      "text": "keys()"
+    },
+    "description": {
+      "html": "Returns a new <code>Array Iterator</code> that contains the keys for each index in the array.",
+      "text": "Returns a new Array Iterator that contains the keys for each index in the array."
+    }
+  },
+  "lastIndexOf": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf\">lastIndexOf()</a>",
+      "text": "lastIndexOf()"
+    },
+    "description": {
+      "html": "Returns the last (greatest) index of an element within the array equal to an element, or <code>-1</code> if none is found.",
+      "text": "Returns the last (greatest) index of an element within the array equal to an element, or -1 if none is found."
+    }
+  },
+  "map": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map\">map()</a>",
+      "text": "map()"
+    },
+    "description": {
+      "html": "Returns a new array containing the results of calling a function on every element in this array.",
+      "text": "Returns a new array containing the results of calling a function on every element in this array."
+    }
+  },
+  "pop": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop\">pop()</a>",
+      "text": "pop()"
+    },
+    "description": {
+      "html": "Removes the last element from an array and returns that element.",
+      "text": "Removes the last element from an array and returns that element."
+    }
+  },
+  "push": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push\">push()</a>",
+      "text": "push()"
+    },
+    "description": {
+      "html": "Adds one or more elements to the end of an array, and returns the new <code>length</code> of the array.",
+      "text": "Adds one or more elements to the end of an array, and returns the new length of the array."
+    }
+  },
+  "reduce": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce\">reduce()</a>",
+      "text": "reduce()"
+    },
+    "description": {
+      "html": "Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.",
+      "text": "Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value."
+    }
+  },
+  "reduceRight": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight\">reduceRight()</a>",
+      "text": "reduceRight()"
+    },
+    "description": {
+      "html": "Apply a funciton against an accumulator&gt; and each value of the array (from right-to-left) as to reduce it to a single value.",
+      "text": "Apply a funciton against an accumulator> and each value of the array (from right-to-left) as to reduce it to a single value."
+    }
+  },
+  "reverse": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse\">reverse()</a>",
+      "text": "reverse()"
+    },
+    "description": {
+      "html": "Reverses the order of the elements of an array <em>in place</em>. (First becomes the last, last becomes first.)",
+      "text": "Reverses the order of the elements of an array in place. (First becomes the last, last becomes first.)"
+    }
+  },
+  "shift": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift\">shift()</a>",
+      "text": "shift()"
+    },
+    "description": {
+      "html": "Removes the first element from an array and returns that element.",
+      "text": "Removes the first element from an array and returns that element."
+    }
+  },
+  "slice": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice\">slice()</a>",
+      "text": "slice()"
+    },
+    "description": {
+      "html": "Extracts a section of the calling array and returns a new array.",
+      "text": "Extracts a section of the calling array and returns a new array."
+    }
+  },
+  "some": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some\">some()</a>",
+      "text": "some()"
+    },
+    "description": {
+      "html": "Returns <code>true</code> if at least one element in this array satisfies the provided testing function.",
+      "text": "Returns true if at least one element in this array satisfies the provided testing function."
+    }
+  },
+  "sort": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort\">sort()</a>",
+      "text": "sort()"
+    },
+    "description": {
+      "html": "Sorts the elements of an array in place and returns the array.",
+      "text": "Sorts the elements of an array in place and returns the array."
+    }
+  },
+  "splice": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice\">splice()</a>",
+      "text": "splice()"
+    },
+    "description": {
+      "html": "Adds and/or removes elements from an array.",
+      "text": "Adds and/or removes elements from an array."
+    }
+  },
+  "toLocaleString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString\">toLocaleString()</a>",
+      "text": "toLocaleString()"
+    },
+    "description": {
+      "html": "Returns a localized string representing the array and its elements. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString\"><code>Object.prototype.toLocaleString()</code></a> method.",
+      "text": "Returns a localized string representing the array and its elements. Overrides the Object.prototype.toLocaleString() method."
+    }
+  },
+  "toString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/toString\">toString()</a>",
+      "text": "toString()"
+    },
+    "description": {
+      "html": "Returns a string representing the array and its elements. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString\"><code>Object.prototype.toString()</code></a> method.",
+      "text": "Returns a string representing the array and its elements. Overrides the Object.prototype.toString() method."
+    }
+  },
+  "unshift": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift\">unshift()</a>",
+      "text": "unshift()"
+    },
+    "description": {
+      "html": "Adds one or more elements to the front of an array, and returns the new <code>length</code> of the array.",
+      "text": "Adds one or more elements to the front of an array, and returns the new length of the array."
+    }
+  },
+  "values": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values\">values()</a>",
+      "text": "values()"
+    },
+    "description": {
+      "html": "Returns a new <code>Array Iterator</code> object that contains the values for each index in the array.",
+      "text": "Returns a new Array Iterator object that contains the values for each index in the array."
+    }
+  }
+}

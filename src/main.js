@@ -205,7 +205,7 @@ class Netitor {
     const h = document.querySelector('.CodeMirror-hints')
     const errz = (this._lint && !h) ? await linter(cm) : []
     if (errz) this.emit('lint-error', errz)
-    if (this._auto && !h) this.update()
+    if (this._auto && !h && errz.length === 0) this.update()
   }
 
   _updateRenderIframe () {
@@ -236,19 +236,32 @@ class Netitor {
     const paren = nextChar === ')'
     // check to see if the cursor is inside of a tag (for attributes)
     const tagAttr = nextChar === '>'
+    // check for JS event args (rest of logic in jsHinter)
+    const jsArg = cm.getModeAt(pos).name === 'javascript' && nextChar === ','
 
-    return typing && (alone || paren || tagAttr)
+    return typing && (alone || paren || tagAttr || jsArg)
+  }
+
+  _placeHintCursor (cm, data) {
+    const cur = '<CURSOR_GOES_HERE>'
+    if (data.text.includes(cur) && this.code.includes(cur)) {
+      const arr = this.code.split('\n')
+      const str = arr.find(s => s.includes(cur))
+      const idx = arr.indexOf(str)
+      const col = str.indexOf(cur)
+      this.code = this.code.replace(cur, '')
+      cm.setCursor({ line: idx, ch: col })
+    }
   }
 
   _hinter (cm, options) {
     const pos = cm.getCursor()
     const lan = cm.getModeAt(pos).name
-    const res = (lan === 'xml' || lan === 'css')
-      ? hinter(cm, options)
-      : cm.getHelpers(pos, 'hint')[0](cm, options)
+    const res = hinter(cm, options)
     if (!res) return null
     if (!res.list) res.list = []
     CodeMirror.on(res, 'close', () => { this._delayUpdate(cm) })
+    CodeMirror.on(res, 'pick', (d) => { this._placeHintCursor(cm, d) })
     CodeMirror.on(res, 'select', (data) => {
       const language = lan === 'xml' ? 'html' : lan
       this.emit('hint-select', { language, data })

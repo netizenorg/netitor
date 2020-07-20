@@ -47,7 +47,8 @@ async function linter (cm) {
 
   if (lang === 'htmlmixed') {
     const parsed = parseMixed(code)
-    errz = concatErrz(errz, parsed, 'css')
+    errz = await concatErrz(errz, parsed, 'css')
+    errz = await concatErrz(errz, parsed, 'js')
   }
 
   // // clean err objs

@@ -1,0 +1,266 @@
+{
+  "Number": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/Number",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/Number\">Number()</a>",
+      "text": "Number()"
+    },
+    "description": {
+      "html": "The <strong><code>Number()</code> constructor</strong> creates a <a  target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number\"><code>Number</code></a> object.",
+      "text": "The Number() constructor creates a Number object."
+    }
+  },
+  "EPSILON": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON\">EPSILON</a>",
+      "text": "EPSILON"
+    },
+    "description": {
+      "html": "The smallest interval between two representable numbers.",
+      "text": "The smallest interval between two representable numbers."
+    }
+  },
+  "MAX_SAFE_INTEGER": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER\">MAX_SAFE_INTEGER</a>",
+      "text": "MAX_SAFE_INTEGER"
+    },
+    "description": {
+      "html": "The maximum safe integer in JavaScript (<code>2<sup>53</sup> - 1</code>).",
+      "text": "The maximum safe integer in JavaScript (253 - 1)."
+    }
+  },
+  "MAX_VALUE": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_VALUE",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_VALUE\">MAX_VALUE</a>",
+      "text": "MAX_VALUE"
+    },
+    "description": {
+      "html": "The largest positive representable number.",
+      "text": "The largest positive representable number."
+    }
+  },
+  "MIN_SAFE_INTEGER": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_SAFE_INTEGER",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_SAFE_INTEGER\">MIN_SAFE_INTEGER</a>",
+      "text": "MIN_SAFE_INTEGER"
+    },
+    "description": {
+      "html": "The minimum safe integer in JavaScript (<code>-(2<sup>53</sup> - 1)</code>).",
+      "text": "The minimum safe integer in JavaScript (-(253 - 1))."
+    }
+  },
+  "MIN_VALUE": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_VALUE",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_VALUE\">MIN_VALUE</a>",
+      "text": "MIN_VALUE"
+    },
+    "description": {
+      "html": "The smallest positive representable number&#x2014;that is, the positive number closest to zero (without actually being zero).",
+      "text": "The smallest positive representable number—that is, the positive number closest to zero (without actually being zero)."
+    }
+  },
+  "NaN": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/NaN",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/NaN\">NaN</a>",
+      "text": "NaN"
+    },
+    "description": {
+      "html": "Special &quot;<strong>N</strong>ot <strong>a</strong> <strong>N</strong>umber&quot; value.",
+      "text": "Special \"Not a Number\" value."
+    }
+  },
+  "NEGATIVE_INFINITY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/NEGATIVE_INFINITY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/NEGATIVE_INFINITY\">NEGATIVE_INFINITY</a>",
+      "text": "NEGATIVE_INFINITY"
+    },
+    "description": {
+      "html": "Special value representing negative infinity. Returned on overflow.",
+      "text": "Special value representing negative infinity. Returned on overflow."
+    }
+  },
+  "POSITIVE_INFINITY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/POSITIVE_INFINITY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/POSITIVE_INFINITY\">POSITIVE_INFINITY</a>",
+      "text": "POSITIVE_INFINITY"
+    },
+    "description": {
+      "html": "Special value representing infinity. Returned on overflow.",
+      "text": "Special value representing infinity. Returned on overflow."
+    }
+  },
+  "prototype": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/prototype",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/prototype\">prototype</a>",
+      "text": "prototype"
+    },
+    "description": {
+      "html": "Allows the addition of properties to the&#xA0;<code>Number</code> object.",
+      "text": "Allows the addition of properties to the Number object."
+    }
+  },
+  "isNaN": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN\">isNaN()</a>",
+      "text": "isNaN()"
+    },
+    "description": {
+      "html": "Determine whether the passed value is <code>NaN</code>.",
+      "text": "Determine whether the passed value is NaN."
+    }
+  },
+  "isFinite": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite\">isFinite()</a>",
+      "text": "isFinite()"
+    },
+    "description": {
+      "html": "Determine whether the passed value is a finite number.",
+      "text": "Determine whether the passed value is a finite number."
+    }
+  },
+  "isInteger": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger\">isInteger()</a>",
+      "text": "isInteger()"
+    },
+    "description": {
+      "html": "Determine whether the passed value is an integer.",
+      "text": "Determine whether the passed value is an integer."
+    }
+  },
+  "isSafeInteger": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isSafeInteger",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/isSafeInteger\">isSafeInteger()</a>",
+      "text": "isSafeInteger()"
+    },
+    "description": {
+      "html": "Determine whether the&#xA0;passed value is a safe integer (number between <code>-(2<sup>53</sup> - 1)</code> and <code>2<sup>53</sup> - 1</code>).",
+      "text": "Determine whether the passed value is a safe integer (number between -(253 - 1) and 253 - 1)."
+    }
+  },
+  "parseFloat": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseFloat",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseFloat\">parseFloat()</a>",
+      "text": "parseFloat()"
+    },
+    "description": {
+      "html": "This&#xA0;is the same as the global <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat\"><code>parseFloat()</code></a> function.",
+      "text": "This is the same as the global parseFloat() function."
+    }
+  },
+  "parseInt": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt\">parseInt()</a>",
+      "text": "parseInt()"
+    },
+    "description": {
+      "html": "This is the same as the global <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt\"><code>parseInt()</code></a> function.",
+      "text": "This is the same as the global parseInt() function."
+    }
+  },
+  "toExponential": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential\">toExponential()</a>",
+      "text": "toExponential()"
+    },
+    "description": {
+      "html": "Returns a string representing the number in exponential notation.",
+      "text": "Returns a string representing the number in exponential notation."
+    }
+  },
+  "toFixed": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed\">toFixed()</a>",
+      "text": "toFixed()"
+    },
+    "description": {
+      "html": "Returns a string representing the number in fixed-point notation.",
+      "text": "Returns a string representing the number in fixed-point notation."
+    }
+  },
+  "toLocaleString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString\">toLocaleString()</a>",
+      "text": "toLocaleString()"
+    },
+    "description": {
+      "html": "Returns a string with a language sensitive representation of this number. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString\"><code>Object.prototype.toLocaleString()</code></a> method.",
+      "text": "Returns a string with a language sensitive representation of this number. Overrides the Object.prototype.toLocaleString() method."
+    }
+  },
+  "toPrecision": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision\">toPrecision()</a>",
+      "text": "toPrecision()"
+    },
+    "description": {
+      "html": "Returns a string representing the number to a specified precision in fixed-point or exponential notation.",
+      "text": "Returns a string representing the number to a specified precision in fixed-point or exponential notation."
+    }
+  },
+  "toString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toString\">toString()</a>",
+      "text": "toString()"
+    },
+    "description": {
+      "html": "Returns a string representing the specified object in the specified <var>radix</var> (&quot;base&quot;). Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString\"><code>Object.prototype.toString()</code></a> method.",
+      "text": "Returns a string representing the specified object in the specified radix (\"base\"). Overrides the Object.prototype.toString() method."
+    }
+  },
+  "valueOf": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/valueOf",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/valueOf\">valueOf()</a>",
+      "text": "valueOf()"
+    },
+    "description": {
+      "html": "Returns the primitive value of the specified object. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf\"><code>Object.prototype.valueOf()</code></a> method.",
+      "text": "Returns the primitive value of the specified object. Overrides the Object.prototype.valueOf() method."
+    }
+  }
+}

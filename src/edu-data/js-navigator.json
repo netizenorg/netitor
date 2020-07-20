@@ -1,0 +1,698 @@
+{
+  "activeVRDisplays": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/activeVRDisplays",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/activeVRDisplays\">activeVRDisplays</a>",
+      "text": "activeVRDisplays"
+    },
+    "description": {
+      "html": "Returns an array containing every <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/VRDisplay\"><code>VRDisplay</code></a> object that is currently presenting (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/VRDisplay/ispresenting\"><code>VRDisplay.ispresenting</code></a> is <code>true</code>).",
+      "text": "Returns an array containing every VRDisplay object that is currently presenting (VRDisplay.ispresenting is true)."
+    }
+  },
+  "appCodeName": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/appCodeName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/appCodeName\">appCodeName</a>",
+      "text": "appCodeName"
+    },
+    "description": {
+      "html": "Returns the internal &quot;code&quot; name of the current browser. Do not rely on this property to return the correct value.",
+      "text": "Returns the internal \"code\" name of the current browser. Do not rely on this property to return the correct value."
+    }
+  },
+  "appName": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/appName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/appName\">appName</a>",
+      "text": "appName"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a> with the official name of the browser. Do not rely on this property to return the correct value.",
+      "text": "Returns a DOMString with the official name of the browser. Do not rely on this property to return the correct value."
+    }
+  },
+  "appVersion": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/appVersion",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/appVersion\">appVersion</a>",
+      "text": "appVersion"
+    },
+    "description": {
+      "html": "Returns the version of the browser as a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a>. Do not rely on this property to return the correct value.",
+      "text": "Returns the version of the browser as a DOMString. Do not rely on this property to return the correct value."
+    }
+  },
+  "battery": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/battery",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/battery\">battery</a>",
+      "text": "battery"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/BatteryManager\"><code>BatteryManager</code></a> object you can use to get information about the battery charging status.",
+      "text": "Returns a BatteryManager object you can use to get information about the battery charging status."
+    }
+  },
+  "connection": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/connection",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/connection\">connection</a>",
+      "text": "connection"
+    },
+    "description": {
+      "html": "Provides a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NetworkInformation\"><code>NetworkInformation</code></a> object containing information about the network connection of a device.",
+      "text": "Provides a NetworkInformation object containing information about the network connection of a device."
+    }
+  },
+  "cookieEnabled": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/cookieEnabled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/cookieEnabled\">cookieEnabled</a>",
+      "text": "cookieEnabled"
+    },
+    "description": {
+      "html": "Returns false if setting a cookie will be ignored and true otherwise.",
+      "text": "Returns false if setting a cookie will be ignored and true otherwise."
+    }
+  },
+  "geolocation": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/geolocation\">geolocation</a>",
+      "text": "geolocation"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Geolocation\"><code>Geolocation</code></a> object allowing accessing the location of the device.",
+      "text": "Returns a Geolocation object allowing accessing the location of the device."
+    }
+  },
+  "hardwareConcurrency": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorConcurrentHardware/hardwareConcurrency",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorConcurrentHardware/hardwareConcurrency\">hardwareConcurrency</a>",
+      "text": "hardwareConcurrency"
+    },
+    "description": {
+      "html": "Returns the number of logical processor cores available.",
+      "text": "Returns the number of logical processor cores available."
+    }
+  },
+  "javaEnabled": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/javaEnabled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/javaEnabled\">javaEnabled</a>",
+      "text": "javaEnabled"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Boolean\"><code>Boolean</code></a> flag indicating whether the host browser is Java-enabled or not.",
+      "text": "Returns a Boolean flag indicating whether the host browser is Java-enabled or not."
+    }
+  },
+  "keyboard": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/keyboard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/keyboard\">keyboard</a>",
+      "text": "keyboard"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Keyboard\"><code>Keyboard</code></a> object which provides access to functions that retrieve keyboard layout maps and toggle capturing of key presses from the physical keyboard.",
+      "text": "Returns a Keyboard object which provides access to functions that retrieve keyboard layout maps and toggle capturing of key presses from the physical keyboard."
+    }
+  },
+  "language": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/language\">language</a>",
+      "text": "language"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a> representing the preferred language of the user, usually the language of the browser UI. The <code>null</code> value is returned when this is unknown.",
+      "text": "Returns a DOMString representing the preferred language of the user, usually the language of the browser UI. The null value is returned when this is unknown."
+    }
+  },
+  "languages": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/languages",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorLanguage/languages\">languages</a>",
+      "text": "languages"
+    },
+    "description": {
+      "html": "Returns an array of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a> representing the languages known to the user, by order of preference.",
+      "text": "Returns an array of DOMString representing the languages known to the user, by order of preference."
+    }
+  },
+  "locks": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/locks",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/locks\">locks</a>",
+      "text": "locks"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/LockManager\"><code>LockManager</code></a> object which&#xA0;provides methods for requesting a new <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Lock\"><code>Lock</code></a> object and querying for an existing <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Lock\"><code>Lock</code></a> object",
+      "text": "Returns a LockManager object which provides methods for requesting a new Lock object and querying for an existing Lock object"
+    }
+  },
+  "mediaCapabilities": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaCapabilities",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaCapabilities\">mediaCapabilities</a>",
+      "text": "mediaCapabilities"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaCapabilities\"><code>MediaCapabilities</code></a> object that can expose information about the decoding and encoding capabilities for a given format and output capabilities.",
+      "text": "Returns a MediaCapabilities object that can expose information about the decoding and encoding capabilities for a given format and output capabilities."
+    }
+  },
+  "maxTouchPoints": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/maxTouchPoints",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/maxTouchPoints\">maxTouchPoints</a>",
+      "text": "maxTouchPoints"
+    },
+    "description": {
+      "html": "Returns the maximum number of simultaneous touch contact points are supported by the current device.",
+      "text": "Returns the maximum number of simultaneous touch contact points are supported by the current device."
+    }
+  },
+  "mimeTypes": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/mimeTypes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/mimeTypes\">mimeTypes</a>",
+      "text": "mimeTypes"
+    },
+    "description": {
+      "html": "Returns an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MimeTypeArray\"><code>MimeTypeArray</code></a> listing the MIME types supported by the browser.",
+      "text": "Returns an MimeTypeArray listing the MIME types supported by the browser."
+    }
+  },
+  "onLine": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine\">onLine</a>",
+      "text": "onLine"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Boolean\"><code>Boolean</code></a> indicating whether the browser is working online.",
+      "text": "Returns a Boolean indicating whether the browser is working online."
+    }
+  },
+  "permissions": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/permissions",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/permissions\">permissions</a>",
+      "text": "permissions"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Permissions\"><code>Permissions</code></a> object that can be used to query and update permission status of APIs covered by the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API\">Permissions API</a>.",
+      "text": "Returns a Permissions object that can be used to query and update permission status of APIs covered by the Permissions API."
+    }
+  },
+  "platform": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/platform",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/platform\">platform</a>",
+      "text": "platform"
+    },
+    "description": {
+      "html": "Returns a string representing the platform of the browser. Do not rely on this function to return a significant value.",
+      "text": "Returns a string representing the platform of the browser. Do not rely on this function to return a significant value."
+    }
+  },
+  "plugins": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/plugins",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorPlugins/plugins\">plugins</a>",
+      "text": "plugins"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/PluginArray\"><code>PluginArray</code></a> listing the plugins installed in the browser.",
+      "text": "Returns a PluginArray listing the plugins installed in the browser."
+    }
+  },
+  "product": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/product",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/product\">product</a>",
+      "text": "product"
+    },
+    "description": {
+      "html": "Always returns <code>&apos;Gecko&apos;</code>, on any browser. This property is kept only for compatibility purpose.",
+      "text": "Always returns 'Gecko', on any browser. This property is kept only for compatibility purpose."
+    }
+  },
+  "serviceWorker": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/serviceWorker",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/serviceWorker\">serviceWorker</a>",
+      "text": "serviceWorker"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer\"><code>ServiceWorkerContainer</code></a>&#xA0;object, which provides access to registration, removal, upgrade, and communication with the&#xA0;<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker\"><code>ServiceWorker</code></a> objects&#xA0;for the <a class=\"external\" target=\"_blank\" href=\"https://html.spec.whatwg.org/multipage/browsers.html#concept-document-window\" rel=\"noopener\">associated document</a>.",
+      "text": "Returns a ServiceWorkerContainer object, which provides access to registration, removal, upgrade, and communication with the ServiceWorker objects for the associated document."
+    }
+  },
+  "storage": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorStorage/storage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorStorage/storage\">storage</a>",
+      "text": "storage"
+    },
+    "description": {
+      "html": "Returns the singleton <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/StorageManager\"><code>StorageManager</code></a> object used for managing persistence permissions and estimating available storage on a site-by-site/app-by-app basis.",
+      "text": "Returns the singleton StorageManager object used for managing persistence permissions and estimating available storage on a site-by-site/app-by-app basis."
+    }
+  },
+  "userAgent": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/userAgent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/userAgent\">userAgent</a>",
+      "text": "userAgent"
+    },
+    "description": {
+      "html": "Returns the user agent string for the current browser.",
+      "text": "Returns the user agent string for the current browser."
+    }
+  },
+  "webdriver": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/webdriver",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/webdriver\">webdriver</a>",
+      "text": "webdriver"
+    },
+    "description": {
+      "html": "Indicates&#xA0;whether the user agent is controlled by automation.",
+      "text": "Indicates whether the user agent is controlled by automation."
+    }
+  },
+  "xr": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/xr",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/xr\">xr</a>",
+      "text": "xr"
+    },
+    "description": {
+      "html": "Returns <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/XR\"><code>XR</code></a> object, which represents the entry point into the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebXR_API\">WebXR API</a>.",
+      "text": "Returns XR object, which represents the entry point into the WebXR API."
+    }
+  },
+  "buildID": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/buildID",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/buildID\">buildID</a>",
+      "text": "buildID"
+    },
+    "description": {
+      "html": "Returns the build identifier of the browser. In modern browsers this property now returns a fixed timestamp as a privacy measure, e.g. <code>20181001000000</code> in Firefox 64 onwards.",
+      "text": "Returns the build identifier of the browser. In modern browsers this property now returns a fixed timestamp as a privacy measure, e.g. 20181001000000 in Firefox 64 onwards."
+    }
+  },
+  "credentials": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/credentials",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/credentials\">credentials</a>",
+      "text": "credentials"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CredentialsContainer\"><code>CredentialsContainer</code></a> interface which&#xA0;exposes methods to request credentials and notify the user agent when interesting events occur such as successful sign in or sign out.&#xA0;",
+      "text": "Returns the CredentialsContainer interface which exposes methods to request credentials and notify the user agent when interesting events occur such as successful sign in or sign out. "
+    }
+  },
+  "deviceMemory": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/deviceMemory\">deviceMemory</a>",
+      "text": "deviceMemory"
+    },
+    "description": {
+      "html": "Returns the amount of device memory in gigabytes. This value is an approximation given by rounding to the nearest power of 2 and dividing that number by 1024.",
+      "text": "Returns the amount of device memory in gigabytes. This value is an approximation given by rounding to the nearest power of 2 and dividing that number by 1024."
+    }
+  },
+  "doNotTrack": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/doNotTrack",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/doNotTrack\">doNotTrack</a>",
+      "text": "doNotTrack"
+    },
+    "description": {
+      "html": "Reports the value of the user&apos;s do-not-track preference. When this value is &quot;yes&quot;, your web site or application should not track the user.",
+      "text": "Reports the value of the user's do-not-track preference. When this value is \"yes\", your web site or application should not track the user."
+    }
+  },
+  "mediaDevices": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaDevices",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaDevices\">mediaDevices</a>",
+      "text": "mediaDevices"
+    },
+    "description": {
+      "html": "Returns a reference to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices\"><code>MediaDevices</code></a> object which can then be used to get information about available media devices (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/enumerateDevices\"><code>MediaDevices.enumerateDevices()</code></a>), find out what constrainable properties are supported for media on the user&apos;s computer and user agent (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getSupportedConstraints\"><code>MediaDevices.getSupportedConstraints()</code></a>), and to request access to media using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia\"><code>MediaDevices.getUserMedia()</code></a>.",
+      "text": "Returns a reference to a MediaDevices object which can then be used to get information about available media devices (MediaDevices.enumerateDevices()), find out what constrainable properties are supported for media on the user's computer and user agent (MediaDevices.getSupportedConstraints()), and to request access to media using MediaDevices.getUserMedia()."
+    }
+  },
+  "mediaSession": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaSession",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mediaSession\">mediaSession</a>",
+      "text": "mediaSession"
+    },
+    "description": {
+      "html": "Returns <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaSession\"><code>MediaSession</code></a> object which can be used to provide metadata that can be used by the browser to present information about the currently-playing media to the user, such as in a global media controls UI.",
+      "text": "Returns MediaSession object which can be used to provide metadata that can be used by the browser to present information about the currently-playing media to the user, such as in a global media controls UI."
+    }
+  },
+  "mozNotification": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozNotification",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozNotification\">mozNotification</a>",
+      "text": "mozNotification"
+    },
+    "description": {
+      "html": "...",
+      "text": "..."
+    }
+  },
+  "wakeLock": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/wakeLock",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/wakeLock\">wakeLock</a>",
+      "text": "wakeLock"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WakeLock\"><code>WakeLock</code></a> interface you can use to request screen wake locks and prevent screen from dimming, turning off, or showing a screen saver.",
+      "text": "Returns a WakeLock interface you can use to request screen wake locks and prevent screen from dimming, turning off, or showing a screen saver."
+    }
+  },
+  "webkitNotification": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/webkitNotification",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/webkitNotification\">webkitNotification</a>",
+      "text": "webkitNotification"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozNotification\"><code>notification</code></a> object you can use to deliver notifications to the user from your web application.",
+      "text": "Returns a notification object you can use to deliver notifications to the user from your web application."
+    }
+  },
+  "mozSocial": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozSocial",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozSocial\">mozSocial</a>",
+      "text": "mozSocial"
+    },
+    "description": {
+      "html": "The Object, returned by the <code>navigator.mozSocial</code> property, is available within the social media provider&apos;s panel to provide functionality it may need.",
+      "text": "The Object, returned by the navigator.mozSocial property, is available within the social media provider's panel to provide functionality it may need."
+    }
+  },
+  "oscpu": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/oscpu",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/oscpu\">oscpu</a>",
+      "text": "oscpu"
+    },
+    "description": {
+      "html": "Returns a string that represents the current operating system.",
+      "text": "Returns a string that represents the current operating system."
+    }
+  },
+  "presentation": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/presentation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/presentation\">presentation</a>",
+      "text": "presentation"
+    },
+    "description": {
+      "html": "Returns a reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Presentation\"><code>Presentation</code></a> API.",
+      "text": "Returns a reference to the Presentation API."
+    }
+  },
+  "productSub": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/productSub",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/productSub\">productSub</a>",
+      "text": "productSub"
+    },
+    "description": {
+      "html": "Returns the build number of the current browser (e.g., &quot;20060909&quot;).",
+      "text": "Returns the build number of the current browser (e.g., \"20060909\")."
+    }
+  },
+  "securitypolicy": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/securitypolicy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/securitypolicy\">securitypolicy</a>",
+      "text": "securitypolicy"
+    },
+    "description": {
+      "html": "Returns an empty string. In Netscape 4.7x, returns &quot;US &amp; CA domestic policy&quot; or &quot;Export policy&quot;.",
+      "text": "Returns an empty string. In Netscape 4.7x, returns \"US & CA domestic policy\" or \"Export policy\"."
+    }
+  },
+  "standalone": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/standalone",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/standalone\">standalone</a>",
+      "text": "standalone"
+    },
+    "description": {
+      "html": "Returns a boolean indicating whether the browser is running in standalone mode. Available on Apple&apos;s iOS Safari only.",
+      "text": "Returns a boolean indicating whether the browser is running in standalone mode. Available on Apple's iOS Safari only."
+    }
+  },
+  "storageQuota": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/storageQuota",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/storageQuota\">storageQuota</a>",
+      "text": "storageQuota"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/StorageQuota\"><code>StorageQuota</code></a> interface which provides means to query and request storage usage and quota information.",
+      "text": "Returns a StorageQuota interface which provides means to query and request storage usage and quota information."
+    }
+  },
+  "vendor": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vendor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vendor\">vendor</a>",
+      "text": "vendor"
+    },
+    "description": {
+      "html": "Returns the vendor name of the current browser (e.g., &quot;Netscape6&quot;).",
+      "text": "Returns the vendor name of the current browser (e.g., \"Netscape6\")."
+    }
+  },
+  "vendorSub": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vendorSub",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vendorSub\">vendorSub</a>",
+      "text": "vendorSub"
+    },
+    "description": {
+      "html": "Returns the vendor version number (e.g. &quot;6.1&quot;).",
+      "text": "Returns the vendor version number (e.g. \"6.1\")."
+    }
+  },
+  "webkitPointer": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/webkitPointer",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/webkitPointer\">webkitPointer</a>",
+      "text": "webkitPointer"
+    },
+    "description": {
+      "html": "Returns a PointerLock object for the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/API/Pointer_Lock_API\" title=\"Mouse Lock API\">Mouse Lock API</a>.",
+      "text": "Returns a PointerLock object for the Mouse Lock API."
+    }
+  },
+  "canShare": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/canShare",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/canShare\">canShare()</a>",
+      "text": "canShare()"
+    },
+    "description": {
+      "html": "Returns <code>true</code>&#xA0;if a call to <code>Navigator.share()</code> would succeed.",
+      "text": "Returns true if a call to Navigator.share() would succeed."
+    }
+  },
+  "getVRDisplays": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getVRDisplays",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getVRDisplays\">getVRDisplays()</a>",
+      "text": "getVRDisplays()"
+    },
+    "description": {
+      "html": "Returns a promise that resolves to an array of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/VRDisplay\"><code>VRDisplay</code></a> objects representing any available VR devices connected to the computer.",
+      "text": "Returns a promise that resolves to an array of VRDisplay objects representing any available VR devices connected to the computer."
+    }
+  },
+  "getUserMedia": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getUserMedia\">getUserMedia()</a>",
+      "text": "getUserMedia()"
+    },
+    "description": {
+      "html": "After having prompted the user for permission, returns the audio or video stream associated to a camera or microphone on the local computer.",
+      "text": "After having prompted the user for permission, returns the audio or video stream associated to a camera or microphone on the local computer."
+    }
+  },
+  "registerContentHandler": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerContentHandler",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerContentHandler\">registerContentHandler()</a>",
+      "text": "registerContentHandler()"
+    },
+    "description": {
+      "html": "Allows web sites to register themselves as a possible handler for a given MIME type.",
+      "text": "Allows web sites to register themselves as a possible handler for a given MIME type."
+    }
+  },
+  "registerProtocolHandler": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/registerProtocolHandler\">registerProtocolHandler()</a>",
+      "text": "registerProtocolHandler()"
+    },
+    "description": {
+      "html": "Allows web sites to register themselves as a possible handler for a given protocol.",
+      "text": "Allows web sites to register themselves as a possible handler for a given protocol."
+    }
+  },
+  "requestMediaKeySystemAccess": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/requestMediaKeySystemAccess",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/requestMediaKeySystemAccess\">requestMediaKeySystemAccess()</a>",
+      "text": "requestMediaKeySystemAccess()"
+    },
+    "description": {
+      "html": "Returns a&#xA0;<span style=\"line-height: 19.0909080505371px;\"><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a> for a MediaKeySystemAccess object.</span>",
+      "text": "Returns a Promise for a MediaKeySystemAccess object."
+    }
+  },
+  "sendBeacon": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon\">sendBeacon()</a>",
+      "text": "sendBeacon()"
+    },
+    "description": {
+      "html": "Used to asynchronously transfer a small amount of data using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/HTTP\">HTTP</a> from the User Agent to a web server.",
+      "text": "Used to asynchronously transfer a small amount of data using HTTP from the User Agent to a web server."
+    }
+  },
+  "share": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share\">share()</a>",
+      "text": "share()"
+    },
+    "description": {
+      "html": "Invokes the native sharing mechanism of the current platform.",
+      "text": "Invokes the native sharing mechanism of the current platform."
+    }
+  },
+  "taintEnabled": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/taintEnabled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NavigatorID/taintEnabled\">taintEnabled()</a>",
+      "text": "taintEnabled()"
+    },
+    "description": {
+      "html": "Returns <code>false</code>. JavaScript taint/untaint functions removed in JavaScript 1.2.",
+      "text": "Returns false. JavaScript taint/untaint functions removed in JavaScript 1.2."
+    }
+  },
+  "vibrate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vibrate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/vibrate\">vibrate()</a>",
+      "text": "vibrate()"
+    },
+    "description": {
+      "html": "Causes vibration on devices with support for it. Does nothing if vibration support isn&apos;t available.",
+      "text": "Causes vibration on devices with support for it. Does nothing if vibration support isn't available."
+    }
+  },
+  "mozIsLocallyAvailable": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozIsLocallyAvailable",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozIsLocallyAvailable\">mozIsLocallyAvailable()</a>",
+      "text": "mozIsLocallyAvailable()"
+    },
+    "description": {
+      "html": "Lets code check to see if the document at a given URI is available without using the network.",
+      "text": "Lets code check to see if the document at a given URI is available without using the network."
+    }
+  },
+  "mozPay": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozPay",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/mozPay\">mozPay()</a>",
+      "text": "mozPay()"
+    },
+    "description": {
+      "html": "Allows in-app payment.",
+      "text": "Allows in-app payment."
+    }
+  }
+}

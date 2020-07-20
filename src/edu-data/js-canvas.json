@@ -1,0 +1,806 @@
+{
+  "clearRect": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect\">clearRect()</a>",
+      "text": "clearRect()"
+    },
+    "description": {
+      "html": "Sets all pixels in the rectangle defined by starting point <em>(x, y)</em> and size <em>(width, height)</em> to transparent black, erasing any previously drawn content.",
+      "text": "Sets all pixels in the rectangle defined by starting point (x, y) and size (width, height) to transparent black, erasing any previously drawn content."
+    }
+  },
+  "fillRect": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillRect",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillRect\">fillRect()</a>",
+      "text": "fillRect()"
+    },
+    "description": {
+      "html": "Draws a filled rectangle at <em>(x, y) </em>position whose size is determined by <em>width</em> and <em>height</em>.",
+      "text": "Draws a filled rectangle at (x, y) position whose size is determined by width and height."
+    }
+  },
+  "strokeRect": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeRect",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeRect\">strokeRect()</a>",
+      "text": "strokeRect()"
+    },
+    "description": {
+      "html": "Paints a rectangle which has a starting point at <em>(x, y)</em> and has a<em> w</em> width and an <em>h</em> height onto the canvas, using the current stroke style.",
+      "text": "Paints a rectangle which has a starting point at (x, y) and has a w width and an h height onto the canvas, using the current stroke style."
+    }
+  },
+  "fillText": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillText",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillText\">fillText()</a>",
+      "text": "fillText()"
+    },
+    "description": {
+      "html": "Draws (fills) a given text at the given (x, y) position.",
+      "text": "Draws (fills) a given text at the given (x, y) position."
+    }
+  },
+  "strokeText": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeText",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeText\">strokeText()</a>",
+      "text": "strokeText()"
+    },
+    "description": {
+      "html": "Draws (strokes) a given text at the given (x, y)<em> </em>position.",
+      "text": "Draws (strokes) a given text at the given (x, y) position."
+    }
+  },
+  "measureText": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/measureText",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/measureText\">measureText()</a>",
+      "text": "measureText()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TextMetrics\"><code>TextMetrics</code></a> object.",
+      "text": "Returns a TextMetrics object."
+    }
+  },
+  "lineWidth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineWidth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineWidth\">lineWidth</a>",
+      "text": "lineWidth"
+    },
+    "description": {
+      "html": "Width of lines. Default <code>1.0</code>.",
+      "text": "Width of lines. Default 1.0."
+    }
+  },
+  "lineCap": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap\">lineCap</a>",
+      "text": "lineCap"
+    },
+    "description": {
+      "html": "Type of endings on the end of lines. Possible values: <code>butt</code> (default), <code>round</code>, <code>square</code>.",
+      "text": "Type of endings on the end of lines. Possible values: butt (default), round, square."
+    }
+  },
+  "lineJoin": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin\">lineJoin</a>",
+      "text": "lineJoin"
+    },
+    "description": {
+      "html": "Defines the type of corners where two lines meet. Possible values: <code>round</code>, <code>bevel</code>, <code>miter</code> (default).",
+      "text": "Defines the type of corners where two lines meet. Possible values: round, bevel, miter (default)."
+    }
+  },
+  "miterLimit": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/miterLimit",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/miterLimit\">miterLimit</a>",
+      "text": "miterLimit"
+    },
+    "description": {
+      "html": "Miter limit ratio. Default <code>10</code>.",
+      "text": "Miter limit ratio. Default 10."
+    }
+  },
+  "getLineDash": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getLineDash",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getLineDash\">getLineDash()</a>",
+      "text": "getLineDash()"
+    },
+    "description": {
+      "html": "Returns the current line dash pattern array containing an even number of non-negative numbers.",
+      "text": "Returns the current line dash pattern array containing an even number of non-negative numbers."
+    }
+  },
+  "setLineDash": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash\">setLineDash()</a>",
+      "text": "setLineDash()"
+    },
+    "description": {
+      "html": "Sets the current line dash pattern.",
+      "text": "Sets the current line dash pattern."
+    }
+  },
+  "lineDashOffset": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset\">lineDashOffset</a>",
+      "text": "lineDashOffset"
+    },
+    "description": {
+      "html": "Specifies where to start a dash array on a line.",
+      "text": "Specifies where to start a dash array on a line."
+    }
+  },
+  "font": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/font",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/font\">font</a>",
+      "text": "font"
+    },
+    "description": {
+      "html": "Font setting. Default value <code>10px sans-serif</code>.",
+      "text": "Font setting. Default value 10px sans-serif."
+    }
+  },
+  "textAlign": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textAlign",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textAlign\">textAlign</a>",
+      "text": "textAlign"
+    },
+    "description": {
+      "html": "Text alignment setting. Possible values: <code>start</code> (default), <code>end</code>, <code>left</code>, <code>right</code>, <code>center</code>.",
+      "text": "Text alignment setting. Possible values: start (default), end, left, right, center."
+    }
+  },
+  "textBaseline": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textBaseline",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textBaseline\">textBaseline</a>",
+      "text": "textBaseline"
+    },
+    "description": {
+      "html": "Baseline alignment setting. Possible values: <code>top</code>, <code>hanging</code>, <code>middle</code>, <code>alphabetic</code> (default), <code>ideographic</code>, <code>bottom</code>.",
+      "text": "Baseline alignment setting. Possible values: top, hanging, middle, alphabetic (default), ideographic, bottom."
+    }
+  },
+  "direction": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/direction",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/direction\">direction</a>",
+      "text": "direction"
+    },
+    "description": {
+      "html": "Directionality. Possible values: <code>ltr</code>, <code>rtl</code>, <code>inherit</code> (default).",
+      "text": "Directionality. Possible values: ltr, rtl, inherit (default)."
+    }
+  },
+  "fillStyle": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillStyle",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillStyle\">fillStyle</a>",
+      "text": "fillStyle"
+    },
+    "description": {
+      "html": "Color or style to use inside shapes. Default <code>#000</code> (black).",
+      "text": "Color or style to use inside shapes. Default #000 (black)."
+    }
+  },
+  "strokeStyle": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeStyle",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeStyle\">strokeStyle</a>",
+      "text": "strokeStyle"
+    },
+    "description": {
+      "html": "Color or style to use for the lines around shapes. Default <code>#000</code> (black).",
+      "text": "Color or style to use for the lines around shapes. Default #000 (black)."
+    }
+  },
+  "createLinearGradient": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient\">createLinearGradient()</a>",
+      "text": "createLinearGradient()"
+    },
+    "description": {
+      "html": "Creates a linear gradient along the line given by the coordinates represented by the parameters.",
+      "text": "Creates a linear gradient along the line given by the coordinates represented by the parameters."
+    }
+  },
+  "createRadialGradient": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient\">createRadialGradient()</a>",
+      "text": "createRadialGradient()"
+    },
+    "description": {
+      "html": "Creates a radial gradient given by the coordinates of the two circles represented by the parameters.",
+      "text": "Creates a radial gradient given by the coordinates of the two circles represented by the parameters."
+    }
+  },
+  "createPattern": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createPattern",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createPattern\">createPattern()</a>",
+      "text": "createPattern()"
+    },
+    "description": {
+      "html": "Creates a pattern using the specified image (a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasImageSource\"><code>CanvasImageSource</code></a>). It repeats the source in the directions specified by the repetition argument. This method returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasPattern\"><code>CanvasPattern</code></a>.",
+      "text": "Creates a pattern using the specified image (a CanvasImageSource). It repeats the source in the directions specified by the repetition argument. This method returns a CanvasPattern."
+    }
+  },
+  "shadowBlur": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowBlur",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowBlur\">shadowBlur</a>",
+      "text": "shadowBlur"
+    },
+    "description": {
+      "html": "Specifies the blurring effect. Default: <code>0</code>",
+      "text": "Specifies the blurring effect. Default: 0"
+    }
+  },
+  "shadowColor": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowColor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowColor\">shadowColor</a>",
+      "text": "shadowColor"
+    },
+    "description": {
+      "html": "Color of the shadow. Default: fully-transparent black.",
+      "text": "Color of the shadow. Default: fully-transparent black."
+    }
+  },
+  "shadowOffsetX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX\">shadowOffsetX</a>",
+      "text": "shadowOffsetX"
+    },
+    "description": {
+      "html": "Horizontal distance the shadow will be offset. Default: <code>0</code>.",
+      "text": "Horizontal distance the shadow will be offset. Default: 0."
+    }
+  },
+  "shadowOffsetY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY\">shadowOffsetY</a>",
+      "text": "shadowOffsetY"
+    },
+    "description": {
+      "html": "Vertical distance the shadow will be offset. Default: <code>0</code>.",
+      "text": "Vertical distance the shadow will be offset. Default: 0."
+    }
+  },
+  "beginPath": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/beginPath",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/beginPath\">beginPath()</a>",
+      "text": "beginPath()"
+    },
+    "description": {
+      "html": "Starts a new path by emptying the list of sub-paths. Call this method when you want to create a new path.",
+      "text": "Starts a new path by emptying the list of sub-paths. Call this method when you want to create a new path."
+    }
+  },
+  "closePath": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/closePath",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/closePath\">closePath()</a>",
+      "text": "closePath()"
+    },
+    "description": {
+      "html": "Causes the point of the pen to move back to the start of the current sub-path. It tries to draw a straight line from the current point to the start. If the shape has already been closed or has only one point, this function does nothing.",
+      "text": "Causes the point of the pen to move back to the start of the current sub-path. It tries to draw a straight line from the current point to the start. If the shape has already been closed or has only one point, this function does nothing."
+    }
+  },
+  "moveTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/moveTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/moveTo\">moveTo()</a>",
+      "text": "moveTo()"
+    },
+    "description": {
+      "html": "Moves the starting point of a new sub-path to the (x, y) coordinates.",
+      "text": "Moves the starting point of a new sub-path to the (x, y) coordinates."
+    }
+  },
+  "lineTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo\">lineTo()</a>",
+      "text": "lineTo()"
+    },
+    "description": {
+      "html": "Connects the last point in the current sub-path to the specified (x, y) coordinates with a straight line.",
+      "text": "Connects the last point in the current sub-path to the specified (x, y) coordinates with a straight line."
+    }
+  },
+  "bezierCurveTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo\">bezierCurveTo()</a>",
+      "text": "bezierCurveTo()"
+    },
+    "description": {
+      "html": "Adds a cubic B&#xE9;zier curve to the current path.",
+      "text": "Adds a cubic Bézier curve to the current path."
+    }
+  },
+  "quadraticCurveTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo\">quadraticCurveTo()</a>",
+      "text": "quadraticCurveTo()"
+    },
+    "description": {
+      "html": "Adds a quadratic B&#xE9;zier curve to the current path.",
+      "text": "Adds a quadratic Bézier curve to the current path."
+    }
+  },
+  "arc": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc\">arc()</a>",
+      "text": "arc()"
+    },
+    "description": {
+      "html": "Adds a circular arc to the current path.",
+      "text": "Adds a circular arc to the current path."
+    }
+  },
+  "arcTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo\">arcTo()</a>",
+      "text": "arcTo()"
+    },
+    "description": {
+      "html": "Adds an arc to the current path with the given control points and radius, connected to the previous point by a straight line.",
+      "text": "Adds an arc to the current path with the given control points and radius, connected to the previous point by a straight line."
+    }
+  },
+  "ellipse": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/ellipse",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/ellipse\">ellipse()</a>",
+      "text": "ellipse()"
+    },
+    "description": {
+      "html": "Adds an elliptical arc to the current path.",
+      "text": "Adds an elliptical arc to the current path."
+    }
+  },
+  "rect": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rect",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rect\">rect()</a>",
+      "text": "rect()"
+    },
+    "description": {
+      "html": "Creates a path for a rectangle at<em> </em>position (x, y) with a size that is determined by <em>width</em> and <em>height</em>.",
+      "text": "Creates a path for a rectangle at position (x, y) with a size that is determined by width and height."
+    }
+  },
+  "fill": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fill",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fill\">fill()</a>",
+      "text": "fill()"
+    },
+    "description": {
+      "html": "Fills the current sub-paths with the current fill style.",
+      "text": "Fills the current sub-paths with the current fill style."
+    }
+  },
+  "stroke": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/stroke",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/stroke\">stroke()</a>",
+      "text": "stroke()"
+    },
+    "description": {
+      "html": "Strokes the current sub-paths with the current stroke style.",
+      "text": "Strokes the current sub-paths with the current stroke style."
+    }
+  },
+  "drawFocusIfNeeded": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawFocusIfNeeded",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawFocusIfNeeded\">drawFocusIfNeeded()</a>",
+      "text": "drawFocusIfNeeded()"
+    },
+    "description": {
+      "html": "If a given element is focused, this method draws a focus ring around the current path.",
+      "text": "If a given element is focused, this method draws a focus ring around the current path."
+    }
+  },
+  "scrollPathIntoView": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scrollPathIntoView",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scrollPathIntoView\">scrollPathIntoView()</a>",
+      "text": "scrollPathIntoView()"
+    },
+    "description": {
+      "html": "Scrolls the current path or a given path into the view.",
+      "text": "Scrolls the current path or a given path into the view."
+    }
+  },
+  "clip": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clip",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clip\">clip()</a>",
+      "text": "clip()"
+    },
+    "description": {
+      "html": "Creates a clipping path from the current sub-paths. Everything drawn after <code>clip()</code> is called appears inside the clipping path only. For an example, see <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Compositing\" title=\"Clipping paths\">Clipping paths</a> in the Canvas tutorial.",
+      "text": "Creates a clipping path from the current sub-paths. Everything drawn after clip() is called appears inside the clipping path only. For an example, see Clipping paths in the Canvas tutorial."
+    }
+  },
+  "isPointInPath": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/isPointInPath",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/isPointInPath\">isPointInPath()</a>",
+      "text": "isPointInPath()"
+    },
+    "description": {
+      "html": "Reports whether or not the specified point is contained in the current path.",
+      "text": "Reports whether or not the specified point is contained in the current path."
+    }
+  },
+  "isPointInStroke": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/isPointInStroke",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/isPointInStroke\">isPointInStroke()</a>",
+      "text": "isPointInStroke()"
+    },
+    "description": {
+      "html": "Reports whether or not the specified point is inside the area contained by the stroking of a path.",
+      "text": "Reports whether or not the specified point is inside the area contained by the stroking of a path."
+    }
+  },
+  "currentTransform": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/currentTransform",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/currentTransform\">currentTransform</a>",
+      "text": "currentTransform"
+    },
+    "description": {
+      "html": "Current transformation matrix (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGMatrix\"><code>SVGMatrix</code></a> object).",
+      "text": "Current transformation matrix (SVGMatrix object)."
+    }
+  },
+  "getTransform": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getTransform",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getTransform\">getTransform</a>",
+      "text": "getTransform"
+    },
+    "description": {
+      "html": "Retrieves the current transformation matrix being applied to the context.",
+      "text": "Retrieves the current transformation matrix being applied to the context."
+    }
+  },
+  "rotate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rotate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/rotate\">rotate()</a>",
+      "text": "rotate()"
+    },
+    "description": {
+      "html": "Adds a rotation to the transformation matrix. The angle argument represents a clockwise rotation angle and is expressed in radians.",
+      "text": "Adds a rotation to the transformation matrix. The angle argument represents a clockwise rotation angle and is expressed in radians."
+    }
+  },
+  "scale": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scale",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/scale\">scale()</a>",
+      "text": "scale()"
+    },
+    "description": {
+      "html": "Adds a scaling transformation to the canvas units by x horizontally and by y vertically.",
+      "text": "Adds a scaling transformation to the canvas units by x horizontally and by y vertically."
+    }
+  },
+  "translate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate\">translate()</a>",
+      "text": "translate()"
+    },
+    "description": {
+      "html": "Adds a translation transformation by moving the canvas and its origin x horzontally and y vertically on the grid.",
+      "text": "Adds a translation transformation by moving the canvas and its origin x horzontally and y vertically on the grid."
+    }
+  },
+  "transform": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/transform",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/transform\">transform()</a>",
+      "text": "transform()"
+    },
+    "description": {
+      "html": "Multiplies the current transformation matrix with the matrix described by its arguments.",
+      "text": "Multiplies the current transformation matrix with the matrix described by its arguments."
+    }
+  },
+  "setTransform": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setTransform",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setTransform\">setTransform()</a>",
+      "text": "setTransform()"
+    },
+    "description": {
+      "html": "Resets the current transform to the identity matrix, and then invokes the <code>transform()</code> method with the same arguments.",
+      "text": "Resets the current transform to the identity matrix, and then invokes the transform() method with the same arguments."
+    }
+  },
+  "resetTransform": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/resetTransform",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/resetTransform\">resetTransform()</a>",
+      "text": "resetTransform()"
+    },
+    "description": {
+      "html": "Resets the current transform by the identity matrix.",
+      "text": "Resets the current transform by the identity matrix."
+    }
+  },
+  "globalAlpha": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalAlpha",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalAlpha\">globalAlpha</a>",
+      "text": "globalAlpha"
+    },
+    "description": {
+      "html": "Alpha value that is applied to shapes and images before they are composited onto the canvas. Default <code>1.0</code> (opaque).",
+      "text": "Alpha value that is applied to shapes and images before they are composited onto the canvas. Default 1.0 (opaque)."
+    }
+  },
+  "globalCompositeOperation": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation\">globalCompositeOperation</a>",
+      "text": "globalCompositeOperation"
+    },
+    "description": {
+      "html": "With <code>globalAlpha</code> applied this sets how shapes and images are drawn onto the existing bitmap.",
+      "text": "With globalAlpha applied this sets how shapes and images are drawn onto the existing bitmap."
+    }
+  },
+  "drawImage": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage\">drawImage()</a>",
+      "text": "drawImage()"
+    },
+    "description": {
+      "html": "Draws the specified image. This method is available in multiple formats, providing a great deal of flexibility in its use.",
+      "text": "Draws the specified image. This method is available in multiple formats, providing a great deal of flexibility in its use."
+    }
+  },
+  "createImageData": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createImageData",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createImageData\">createImageData()</a>",
+      "text": "createImageData()"
+    },
+    "description": {
+      "html": "Creates a new, blank <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ImageData\"><code>ImageData</code></a> object with the specified dimensions. All of the pixels in the new object are transparent black.",
+      "text": "Creates a new, blank ImageData object with the specified dimensions. All of the pixels in the new object are transparent black."
+    }
+  },
+  "getImageData": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/getImageData\">getImageData()</a>",
+      "text": "getImageData()"
+    },
+    "description": {
+      "html": "Returns an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ImageData\"><code>ImageData</code></a> object representing the underlying pixel data for the area of the canvas denoted by the rectangle which starts at <em>(sx, sy)</em> and has an <em>sw</em> width and <em>sh</em> height.",
+      "text": "Returns an ImageData object representing the underlying pixel data for the area of the canvas denoted by the rectangle which starts at (sx, sy) and has an sw width and sh height."
+    }
+  },
+  "putImageData": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/putImageData",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/putImageData\">putImageData()</a>",
+      "text": "putImageData()"
+    },
+    "description": {
+      "html": "Paints data from the given <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ImageData\"><code>ImageData</code></a> object onto the bitmap. If a dirty rectangle is provided, only the pixels from that rectangle are painted.",
+      "text": "Paints data from the given ImageData object onto the bitmap. If a dirty rectangle is provided, only the pixels from that rectangle are painted."
+    }
+  },
+  "imageSmoothingEnabled": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled\">imageSmoothingEnabled</a>",
+      "text": "imageSmoothingEnabled"
+    },
+    "description": {
+      "html": "Image smoothing mode; if disabled, images will not be smoothed if scaled.",
+      "text": "Image smoothing mode; if disabled, images will not be smoothed if scaled."
+    }
+  },
+  "imageSmoothingQuality": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingQuality\">imageSmoothingQuality</a>",
+      "text": "imageSmoothingQuality"
+    },
+    "description": {
+      "html": "Allows you to set the quality of image smoothing.",
+      "text": "Allows you to set the quality of image smoothing."
+    }
+  },
+  "save": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/save",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/save\">save()</a>",
+      "text": "save()"
+    },
+    "description": {
+      "html": "Saves the current drawing style state using a stack so you can revert any change you make to it using <code>restore()</code>.",
+      "text": "Saves the current drawing style state using a stack so you can revert any change you make to it using restore()."
+    }
+  },
+  "restore": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/restore",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/restore\">restore()</a>",
+      "text": "restore()"
+    },
+    "description": {
+      "html": "Restores the drawing style state to the last element on the &apos;state stack&apos; saved by <code>save()</code>.",
+      "text": "Restores the drawing style state to the last element on the 'state stack' saved by save()."
+    }
+  },
+  "canvas": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/canvas",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/canvas\">canvas</a>",
+      "text": "canvas"
+    },
+    "description": {
+      "html": "A read-only back-reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement\"><code>HTMLCanvasElement</code></a>. Might be <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null\"><code>null</code></a> if it is not associated with a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\" title=\"Use the HTML &lt;canvas&gt; element with either the canvas scripting API or the WebGL API to draw graphics and animations.\"><code>&lt;canvas&gt;</code></a> element.",
+      "text": "A read-only back-reference to the HTMLCanvasElement. Might be null if it is not associated with a <canvas> element."
+    }
+  },
+  "addHitRegion": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/addHitRegion",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/addHitRegion\">addHitRegion()</a>",
+      "text": "addHitRegion()"
+    },
+    "description": {
+      "html": "Adds a hit region to the canvas.",
+      "text": "Adds a hit region to the canvas."
+    }
+  },
+  "removeHitRegion": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/removeHitRegion",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/removeHitRegion\">removeHitRegion()</a>",
+      "text": "removeHitRegion()"
+    },
+    "description": {
+      "html": "Removes the hit region with the specified <code>id</code> from the canvas.",
+      "text": "Removes the hit region with the specified id from the canvas."
+    }
+  },
+  "clearHitRegions": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearHitRegions",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearHitRegions\">clearHitRegions()</a>",
+      "text": "clearHitRegions()"
+    },
+    "description": {
+      "html": "Removes all hit regions from the canvas.",
+      "text": "Removes all hit regions from the canvas."
+    }
+  },
+  "filter": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/filter\">filter</a>",
+      "text": "filter"
+    },
+    "description": {
+      "html": "Applies a CSS or SVG filter to the canvas, e.g., to change its brightness or bluriness.",
+      "text": "Applies a CSS or SVG filter to the canvas, e.g., to change its brightness or bluriness."
+    }
+  },
+  "drawWindow": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawWindow",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawWindow\">drawWindow()</a>",
+      "text": "drawWindow()"
+    },
+    "description": {
+      "html": "Renders a region of a window into the <code>canvas</code>. The contents of the window&apos;s viewport are rendered, ignoring viewport clipping and scrolling.",
+      "text": "Renders a region of a window into the canvas. The contents of the window's viewport are rendered, ignoring viewport clipping and scrolling."
+    }
+  }
+}
