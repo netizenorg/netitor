@@ -131,8 +131,6 @@ function checkSelector (o, cm) {
     ? gatherGroup(cm, pos.line) : line.substr(0, line.indexOf('{'))
   const obj = cssSelector.parse(str)
 
-  console.log(obj)
-
   let msg = ''
   if (obj.type === 'selectors') {
     obj.selectors.forEach((r, i) => {
