@@ -95,12 +95,21 @@ ne.on('code-update', (event) => {
 **hint-select**: This fires every time the user tabs up or down in the autocomplete hinting menu with the up/down arrow keys. The data object passed into the callback function contains the language of and the autocomplete option currently selected, an example might look like this:
 ```js
 {
-  language: 'css',
-  data: 'color'
+  language: "css",
+  data: "color"
 }
 ```
 
-**lint-error**: Assuming you have `lint` set to `true`, if/when there are any errors in the netitor this callback will fire (**STILL IN DEVELOPMENT**)
+**lint-error**: Assuming you have `lint` set to `true`, if/when there are any errors in the netitor this callback will fire. The callback gets passed an array of error objects. These error objects vary a bit between languages but will all have at the very least the following properties:
+```js
+{
+  type: "error", // or "warning"
+  message: "traditional error message in programmer lingo",
+  friendly: "beginner friendly error message",
+  line: 6, // line where the error was found
+  col: 3 // column where the error was found
+}
+```
 
 **edu-info**: Anytime you double-click on a piece of code in the netitor this callback will fire. The data object passed into the callback function will at the very least look this:
 ```js
