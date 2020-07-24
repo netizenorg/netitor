@@ -8,6 +8,7 @@
     "compile-css": "echo 'module.exports = `' > src/css/main.js && cat node_modules/codemirror/lib/codemirror.css node_modules/codemirror/addon/hint/show-hint.css src/css/main.css >> src/css/main.js && echo '`' >> src/css/main.js",
     "prebuild": "npm run lint; npm run compile-css",
     "build": "browserify src/main.js > build/netitor.js",
+    "postbuild": "terser build/netitor.js -cm -o build/netitor.min.js",
     "watch": "nodemon --watch src --ignore src/css/*.js -x 'npm run build'",
     "eduscraper": "eduscraper all src/edu-data"
   },
@@ -27,6 +28,7 @@
     "browserify": "^16.5.1",
     "eduscraper": "git+https://github.com/netizenorg/eduscraper.git",
     "nodemon": "^2.0.2",
-    "standard": "^14.3.3"
+    "standard": "^14.3.3",
+    "terser": "^4.8.0"
   }
 }
