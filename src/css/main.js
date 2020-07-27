@@ -521,6 +521,9 @@ light syntax highlighting theme
   border: none;
   margin-right:5px;
 }
+.cm-s-light .CodeMirror-linenumber {
+  color: #cdb1ae;
+}
 
 .cm-s-light div.CodeMirror-cursor {
   width: 1px;
@@ -535,9 +538,6 @@ light syntax highlighting theme
 }
 .cm-s-light .cm-comment {
   color: var(--light-comment);
-}
-.cm-s-light .CodeMirror-linenumber {
-  color: var(--light-bracket);
 }
 .cm-s-light .cm-tag.cm-bracket {
   color: var(--light-bracket);
@@ -641,15 +641,14 @@ dark syntax highlighting theme
 •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*/
 
 :root {
-  --dark-green: #72d6ad;
-  --dark-blue: #99c2c7;
-  --dark-yellow: #dfd29b;
-  --dark-purple: #aa90fe;
-  --light-red: #E07E7E;
-  --dark-orange: #ef9f9f;
+  --dark-green: #81c994;
+  --dark-blue: #82ccd7;
+  --dark-yellow: #dacb8e;
+  --dark-purple: #9482d1;
+  --dark-red: #c76ebc;
+  --dark-orange: #d5805e;
 
-  /*--dark-bracket: #f3f0c3;*/
-  --dark-bracket: #a8a8d1;
+  --dark-bracket: #e7e5c9;
   --dark-comment: #515199;
   --dark-gray: #c3c3db;
 }
@@ -677,6 +676,9 @@ dark syntax highlighting theme
   border: none;
   margin-right:5px;
 }
+.cm-s-dark .CodeMirror-linenumber {
+  color: #9885a6;
+}
 
 .cm-s-dark div.CodeMirror-cursor {
   width: 1px;
@@ -692,11 +694,9 @@ dark syntax highlighting theme
 .cm-s-dark .cm-comment {
   color: var(--dark-comment);
 }
-.cm-s-dark .CodeMirror-linenumber {
-  color: var(--dark-bracket);
-}
 .cm-s-dark .cm-tag.cm-bracket {
   color: var(--dark-bracket);
+  color: var(--dark-gray);
 }
 .cm-s-dark .cm-property {
   color: var(--dark-gray);
@@ -716,52 +716,52 @@ dark syntax highlighting theme
 }
 
 /* all green */
-.cm-s-dark .cm-variable {
+.cm-s-dark .cm-attribute {
+  color: var(--dark-green);
+}
+.cm-s-dark .cm-qualifier {
+  color: var(--dark-green);
+}
+.cm-s-dark .cm-builtin {
+  color: var(--dark-green);
+}
+.cm-s-dark .cm-keyword {
   color: var(--dark-green);
 }
 
 /* all blue */
-.cm-s-dark .cm-operator {
+.cm-s-dark .cm-variable.cm-callee {
   color: var(--dark-blue);
 }
-.cm-s-dark .cm-tag {
+.cm-s-dark .cm-variable-2 {
   color: var(--dark-blue);
 }
-.cm-s-dark .cm-number {
-  color: var(--netizen-blue);
+.cm-s-dark .cm-string {
+  color: var(--dark-blue);
+}
+.cm-s-dark .cm-string-2 {
+  color: var(--dark-blue);
 }
 
 /* all yellow */
-.cm-s-dark .cm-variable.cm-callee {
-  color: var(--dark-yellow);
-}
-.cm-s-dark .cm-variable-2 {
-  color: var(--dark-yellow);
-}
-.cm-s-dark .cm-string {
-  color: var(--dark-yellow);
-}
-.cm-s-dark .cm-string-2 {
-  color: var(--dark-yellow);
+.cm-s-dark .cm-number {
+  color: var(--netizen-yellow);
 }
 
 /* all orange */
-.cm-s-dark .cm-attribute {
-  color: var(--dark-orange);
-}
-.cm-s-dark .cm-qualifier {
-  color: var(--dark-orange);
-}
-.cm-s-dark .cm-builtin {
-  color: var(--dark-orange);
-}
-.cm-s-dark .cm-keyword {
+.cm-s-dark .cm-variable {
   color: var(--dark-orange);
 }
 
 /* all purple */
 
 /* all red */
+.cm-s-dark .cm-operator {
+  color: var(--dark-red);
+}
+.cm-s-dark .cm-tag {
+  color: var(--dark-red);
+}
 
 /* THE LITTLE UNDERLINE THAT APPEARS WHEN A TAG OR BRACKET IS SELECTED */
 .cm-s-dark .CodeMirror-matchingbracket {
