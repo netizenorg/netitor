@@ -1,0 +1,494 @@
+{
+  "baseURI": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURI",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURI\">baseURI</a>",
+      "text": "baseURI"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a> representing the base URL of the document containing the <code>Node</code>.",
+      "text": "Returns a DOMString representing the base URL of the document containing the Node."
+    }
+  },
+  "baseURIObject": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURIObject",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/baseURIObject\">baseURIObject</a>",
+      "text": "baseURIObject"
+    },
+    "description": {
+      "html": "(Not available to web content.) The&#xA0;<code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIURI\" title>nsIURI</a></code> object representing the base URI for the element.",
+      "text": "(Not available to web content.) The nsIURI object representing the base URI for the element."
+    }
+  },
+  "childNodes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/childNodes\">childNodes</a>",
+      "text": "childNodes"
+    },
+    "description": {
+      "html": "Returns a live <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NodeList\"><code>NodeList</code></a> containing all the children of this node. <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NodeList\"><code>NodeList</code></a> being live means that if the children of the <code>Node</code> change, the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NodeList\"><code>NodeList</code></a> object is automatically updated.",
+      "text": "Returns a live NodeList containing all the children of this node. NodeList being live means that if the children of the Node change, the NodeList object is automatically updated."
+    }
+  },
+  "firstChild": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/firstChild\">firstChild</a>",
+      "text": "firstChild"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> representing the first direct child node of the node, or <code>null</code> if the node has no child.",
+      "text": "Returns a Node representing the first direct child node of the node, or null if the node has no child."
+    }
+  },
+  "isConnected": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isConnected",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/isConnected\">isConnected</a>",
+      "text": "isConnected"
+    },
+    "description": {
+      "html": "A boolean indicating whether or not the Node is connected (directly or indirectly) to the context object, e.g. the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\"><code>Document</code></a> object in the case of the normal DOM, or the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ShadowRoot\"><code>ShadowRoot</code></a> in the case of a shadow DOM.",
+      "text": "A boolean indicating whether or not the Node is connected (directly or indirectly) to the context object, e.g. the Document object in the case of the normal DOM, or the ShadowRoot in the case of a shadow DOM."
+    }
+  },
+  "lastChild": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/lastChild\">lastChild</a>",
+      "text": "lastChild"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> representing the last direct child node of the node, or <code>null</code> if the node has no child.",
+      "text": "Returns a Node representing the last direct child node of the node, or null if the node has no child."
+    }
+  },
+  "nextSibling": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/nextSibling\">nextSibling</a>",
+      "text": "nextSibling"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> representing the next node in the tree, or <code>null</code> if there isn&apos;t such node.",
+      "text": "Returns a Node representing the next node in the tree, or null if there isn't such node."
+    }
+  },
+  "nodeName": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeName\">nodeName</a>",
+      "text": "nodeName"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a> containing the name of the <code>Node</code>. The structure of the name will differ with the node type. E.g. An <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement\"><code>HTMLElement</code></a> will contain the name of the corresponding tag, like <code>&apos;audio&apos;</code> for an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement\"><code>HTMLAudioElement</code></a>, a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Text\"><code>Text</code></a> node will have the <code>&apos;#text&apos;</code> string, or a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\"><code>Document</code></a> node will have the <code>&apos;#document&apos;</code> string.",
+      "text": "Returns a DOMString containing the name of the Node. The structure of the name will differ with the node type. E.g. An HTMLElement will contain the name of the corresponding tag, like 'audio' for an HTMLAudioElement, a Text node will have the '#text' string, or a Document node will have the '#document' string."
+    }
+  },
+  "nodeType": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeType\">nodeType</a>",
+      "text": "nodeType"
+    },
+    "description": {
+      "html": "Returns an <code>unsigned short</code> representing the type of the node. Possible values are:\n <table class=\"standard-table\">\n  <thead>\n   <tr>\n    <th scope=\"col\">Name</th>\n    <th scope=\"col\">Value</th>\n   </tr>\n  </thead>\n  <tbody>\n   <tr>\n    <td><code>ELEMENT_NODE</code></td>\n    <td><code>1</code></td>\n   </tr>\n   <tr>\n    <td><code>ATTRIBUTE_NODE</code>&#xA0;<span class=\"icon-only-inline\" title=\"This deprecated API should no longer be used, but will probably still work.\"><i class=\"icon-thumbs-down-alt\"> </i></span></td>\n    <td><code>2</code></td>\n   </tr>\n   <tr>\n    <td><code>TEXT_NODE</code></td>\n    <td><code>3</code></td>\n   </tr>\n   <tr>\n    <td><code>CDATA_SECTION_NODE</code></td>\n    <td><code>4</code></td>\n   </tr>\n   <tr>\n    <td><code>ENTITY_REFERENCE_NODE</code>&#xA0;<span class=\"icon-only-inline\" title=\"This deprecated API should no longer be used, but will probably still work.\"><i class=\"icon-thumbs-down-alt\"> </i></span></td>\n    <td><code>5</code></td>\n   </tr>\n   <tr>\n    <td><code>ENTITY_NODE</code>&#xA0;<span class=\"icon-only-inline\" title=\"This deprecated API should no longer be used, but will probably still work.\"><i class=\"icon-thumbs-down-alt\"> </i></span></td>\n    <td><code>6</code></td>\n   </tr>\n   <tr>\n    <td><code>PROCESSING_INSTRUCTION_NODE</code></td>\n    <td><code>7</code></td>\n   </tr>\n   <tr>\n    <td><code>COMMENT_NODE</code></td>\n    <td><code>8</code></td>\n   </tr>\n   <tr>\n    <td><code>DOCUMENT_NODE</code></td>\n    <td><code>9</code></td>\n   </tr>\n   <tr>\n    <td><code>DOCUMENT_TYPE_NODE</code></td>\n    <td><code>10</code></td>\n   </tr>\n   <tr>\n    <td><code>DOCUMENT_FRAGMENT_NODE</code></td>\n    <td><code>11</code></td>\n   </tr>\n   <tr>\n    <td><code>NOTATION_NODE</code>&#xA0;<span class=\"icon-only-inline\" title=\"This deprecated API should no longer be used, but will probably still work.\"><i class=\"icon-thumbs-down-alt\"> </i></span></td>\n    <td><code>12</code></td>\n   </tr>\n  </tbody>\n </table>\n ",
+      "text": "Returns an unsigned short representing the type of the node. Possible values are:\n \n  \n   \n    Name\n    Value\n   \n  \n  \n   \n    ELEMENT_NODE\n    1\n   \n   \n    ATTRIBUTE_NODE  \n    2\n   \n   \n    TEXT_NODE\n    3\n   \n   \n    CDATA_SECTION_NODE\n    4\n   \n   \n    ENTITY_REFERENCE_NODE  \n    5\n   \n   \n    ENTITY_NODE  \n    6\n   \n   \n    PROCESSING_INSTRUCTION_NODE\n    7\n   \n   \n    COMMENT_NODE\n    8\n   \n   \n    DOCUMENT_NODE\n    9\n   \n   \n    DOCUMENT_TYPE_NODE\n    10\n   \n   \n    DOCUMENT_FRAGMENT_NODE\n    11\n   \n   \n    NOTATION_NODE  \n    12\n   \n  \n \n "
+    }
+  },
+  "nodeValue": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/nodeValue\">nodeValue</a>",
+      "text": "nodeValue"
+    },
+    "description": {
+      "html": "Returns / Sets the value of the current node.",
+      "text": "Returns / Sets the value of the current node."
+    }
+  },
+  "ownerDocument": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/ownerDocument\">ownerDocument</a>",
+      "text": "ownerDocument"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\"><code>Document</code></a> that this node belongs to. If the node is itself a document, returns <code>null</code>.",
+      "text": "Returns the Document that this node belongs to. If the node is itself a document, returns null."
+    }
+  },
+  "parentNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/parentNode\">parentNode</a>",
+      "text": "parentNode"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> that is the parent of this node. If there is no such node, like if this node is the top of the tree or if doesn&apos;t participate in a tree, this property returns <code>null</code>.",
+      "text": "Returns a Node that is the parent of this node. If there is no such node, like if this node is the top of the tree or if doesn't participate in a tree, this property returns null."
+    }
+  },
+  "parentElement": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement\">parentElement</a>",
+      "text": "parentElement"
+    },
+    "description": {
+      "html": "Returns an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> that is the parent of this node. If the node has no parent, or if that parent is not an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a>, this property returns <code>null</code>.",
+      "text": "Returns an Element that is the parent of this node. If the node has no parent, or if that parent is not an Element, this property returns null."
+    }
+  },
+  "previousSibling": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/previousSibling\">previousSibling</a>",
+      "text": "previousSibling"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> representing the previous node in the tree, or <code>null</code> if there isn&apos;t such node.",
+      "text": "Returns a Node representing the previous node in the tree, or null if there isn't such node."
+    }
+  },
+  "textContent": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent\">textContent</a>",
+      "text": "textContent"
+    },
+    "description": {
+      "html": "Returns / Sets the textual content of an element and all its descendants.",
+      "text": "Returns / Sets the textual content of an element and all its descendants."
+    }
+  },
+  "localName": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/localName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/localName\">localName</a>",
+      "text": "localName"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a> representing the local part of the qualified name of an element.\n <div class=\"blockIndicator note\">\n <p><strong>Note:</strong> In Firefox 3.5 and earlier, the property upper-cases the local name for HTML elements (but not XHTML elements). In later versions, this does not happen, so the property is in lower case for both HTML and XHTML.</p>\n </div>\n ",
+      "text": "Returns a DOMString representing the local part of the qualified name of an element.\n \n Note: In Firefox 3.5 and earlier, the property upper-cases the local name for HTML elements (but not XHTML elements). In later versions, this does not happen, so the property is in lower case for both HTML and XHTML.\n \n "
+    }
+  },
+  "namespaceURI": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/namespaceURI",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/namespaceURI\">namespaceURI</a>",
+      "text": "namespaceURI"
+    },
+    "description": {
+      "html": "The namespace URI of this node, or <code>null</code> if it is no namespace.\n <div class=\"blockIndicator note\">\n <p><strong>Note:</strong> In Firefox 3.5 and earlier, HTML elements are in no namespace. In later versions, HTML elements are in the <code><a class=\"external linkification-ext\" target=\"_blank\" href=\"https://www.w3.org/1999/xhtml/\" rel=\"noopener\">http://www.w3.org/1999/xhtml/</a></code> namespace in both HTML and XML trees.</p>\n </div>\n ",
+      "text": "The namespace URI of this node, or null if it is no namespace.\n \n Note: In Firefox 3.5 and earlier, HTML elements are in no namespace. In later versions, HTML elements are in the http://www.w3.org/1999/xhtml/ namespace in both HTML and XML trees.\n \n "
+    }
+  },
+  "nodePrincipal": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/nodePrincipal",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/nodePrincipal\">nodePrincipal</a>",
+      "text": "nodePrincipal"
+    },
+    "description": {
+      "html": "A <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIPrincipal\" title>nsIPrincipal</a></code> representing the node principal.",
+      "text": "A nsIPrincipal representing the node principal."
+    }
+  },
+  "prefix": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/prefix",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/prefix\">prefix</a>",
+      "text": "prefix"
+    },
+    "description": {
+      "html": "Is a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a> representing the namespace prefix of the node, or <code>null</code> if no prefix is specified.",
+      "text": "Is a DOMString representing the namespace prefix of the node, or null if no prefix is specified."
+    }
+  },
+  "rootNode": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/rootNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/rootNode\">rootNode</a>",
+      "text": "rootNode"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> object representing the topmost node in the tree, or the current node if it&apos;s the topmost node in the tree. This has been replaced by <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/getRootNode\"><code>Node.getRootNode()</code></a>.",
+      "text": "Returns a Node object representing the topmost node in the tree, or the current node if it's the topmost node in the tree. This has been replaced by Node.getRootNode()."
+    }
+  },
+  "appendChild": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild\">appendChild()</a>",
+      "text": "appendChild()"
+    },
+    "description": {
+      "html": "Adds the specified <code><var>childNode</var></code> argument as the last child to the current node.<br>\n If the argument referenced an existing node on the DOM tree, the node will be detached from its current position and attached at the new position.",
+      "text": "Adds the specified childNode argument as the last child to the current node.\n If the argument referenced an existing node on the DOM tree, the node will be detached from its current position and attached at the new position."
+    }
+  },
+  "cloneNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode\">cloneNode()</a>",
+      "text": "cloneNode()"
+    },
+    "description": {
+      "html": "Clone a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a>, and optionally, all of its contents. By default, it clones the content of the node.",
+      "text": "Clone a Node, and optionally, all of its contents. By default, it clones the content of the node."
+    }
+  },
+  "compareDocumentPosition": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/compareDocumentPosition",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/compareDocumentPosition\">compareDocumentPosition()</a>",
+      "text": "compareDocumentPosition()"
+    },
+    "description": {
+      "html": "Compares the position of the current node against another node in any other document.",
+      "text": "Compares the position of the current node against another node in any other document."
+    }
+  },
+  "contains": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/contains",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/contains\">contains()</a>",
+      "text": "contains()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\"><code>Boolean</code></a> value indicating whether or not a node is a descendant of the calling node.",
+      "text": "Returns a Boolean value indicating whether or not a node is a descendant of the calling node."
+    }
+  },
+  "getBoxQuads": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/getBoxQuads",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/getBoxQuads\">getBoxQuads()</a>",
+      "text": "getBoxQuads()"
+    },
+    "description": {
+      "html": "Returns a list of the node&apos;s CSS boxes relative to another node.",
+      "text": "Returns a list of the node's CSS boxes relative to another node."
+    }
+  },
+  "getRootNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/getRootNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/getRootNode\">getRootNode()</a>",
+      "text": "getRootNode()"
+    },
+    "description": {
+      "html": "Returns the context object&apos;s root which optionally includes the shadow root if it is available.&#xA0;",
+      "text": "Returns the context object's root which optionally includes the shadow root if it is available. "
+    }
+  },
+  "hasChildNodes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/hasChildNodes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/hasChildNodes\">hasChildNodes()</a>",
+      "text": "hasChildNodes()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\"><code>Boolean</code></a> indicating whether or not the element has any child nodes.",
+      "text": "Returns a Boolean indicating whether or not the element has any child nodes."
+    }
+  },
+  "insertBefore": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore\">insertBefore()</a>",
+      "text": "insertBefore()"
+    },
+    "description": {
+      "html": "Inserts a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a>&#xA0;before the reference node as a child of a specified parent node.",
+      "text": "Inserts a Node before the reference node as a child of a specified parent node."
+    }
+  },
+  "isDefaultNamespace": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isDefaultNamespace",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/isDefaultNamespace\">isDefaultNamespace()</a>",
+      "text": "isDefaultNamespace()"
+    },
+    "description": {
+      "html": "Accepts a namespace URI as an argument and returns a&#xA0;<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\"><code>Boolean</code></a>&#xA0;with a value of&#xA0;<code>true</code>&#xA0;if the namespace is the default namespace on the given node or&#xA0;<code>false</code>&#xA0;if not.",
+      "text": "Accepts a namespace URI as an argument and returns a Boolean with a value of true if the namespace is the default namespace on the given node or false if not."
+    }
+  },
+  "isEqualNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isEqualNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/isEqualNode\">isEqualNode()</a>",
+      "text": "isEqualNode()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\"><code>Boolean</code></a> which indicates whether or not two nodes are of the same type and all their defining data points match.",
+      "text": "Returns a Boolean which indicates whether or not two nodes are of the same type and all their defining data points match."
+    }
+  },
+  "isSameNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isSameNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/isSameNode\">isSameNode()</a>",
+      "text": "isSameNode()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\"><code>Boolean</code></a> value indicating whether or not the two nodes are the same (that is, they reference the same object).",
+      "text": "Returns a Boolean value indicating whether or not the two nodes are the same (that is, they reference the same object)."
+    }
+  },
+  "lookupPrefix": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lookupPrefix",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/lookupPrefix\">lookupPrefix()</a>",
+      "text": "lookupPrefix()"
+    },
+    "description": {
+      "html": "Returns a&#xA0;<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMString\"><code>DOMString</code></a> containing the prefix for a given namespace URI, if present, and&#xA0;<code>null</code>&#xA0;if not. When multiple prefixes are possible, the result is implementation-dependent.",
+      "text": "Returns a DOMString containing the prefix for a given namespace URI, if present, and null if not. When multiple prefixes are possible, the result is implementation-dependent."
+    }
+  },
+  "lookupNamespaceURI": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/lookupNamespaceURI",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/lookupNamespaceURI\">lookupNamespaceURI()</a>",
+      "text": "lookupNamespaceURI()"
+    },
+    "description": {
+      "html": "Accepts a prefix and returns the namespace URI associated with it on the given node if found (and&#xA0;<code>null</code>&#xA0;if not). Supplying&#xA0;<code>null</code>&#xA0;for the prefix will return the default namespace.",
+      "text": "Accepts a prefix and returns the namespace URI associated with it on the given node if found (and null if not). Supplying null for the prefix will return the default namespace."
+    }
+  },
+  "normalize": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/normalize",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/normalize\">normalize()</a>",
+      "text": "normalize()"
+    },
+    "description": {
+      "html": "Clean up all the text nodes under this element (merge adjacent, remove empty).",
+      "text": "Clean up all the text nodes under this element (merge adjacent, remove empty)."
+    }
+  },
+  "removeChild": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/removeChild\">removeChild()</a>",
+      "text": "removeChild()"
+    },
+    "description": {
+      "html": "Removes a child node from the current element, which must be a child of the current node.",
+      "text": "Removes a child node from the current element, which must be a child of the current node."
+    }
+  },
+  "replaceChild": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/replaceChild\">replaceChild()</a>",
+      "text": "replaceChild()"
+    },
+    "description": {
+      "html": "Replaces one child <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> of the current one with the second one given in parameter.",
+      "text": "Replaces one child Node of the current one with the second one given in parameter."
+    }
+  },
+  "getFeature": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/getFeature",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/getFeature\">getFeature()</a>",
+      "text": "getFeature()"
+    },
+    "description": {
+      "html": "",
+      "text": ""
+    }
+  },
+  "getUserData": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/getUserData",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/getUserData\">getUserData()</a>",
+      "text": "getUserData()"
+    },
+    "description": {
+      "html": "Allows a user to get some <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMUserData\"><code>DOMUserData</code></a> from the node.",
+      "text": "Allows a user to get some DOMUserData from the node."
+    }
+  },
+  "hasAttributes": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/hasAttributes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/hasAttributes\">hasAttributes()</a>",
+      "text": "hasAttributes()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\"><code>Boolean</code></a> indicating if the element has any attributes, or not.",
+      "text": "Returns a Boolean indicating if the element has any attributes, or not."
+    }
+  },
+  "isSupported": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/isSupported",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/isSupported\">isSupported()</a>",
+      "text": "isSupported()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\"><code>Boolean</code></a> flag containing the result of a test whether the DOM implementation implements a specific feature and this feature is supported by the specific node.",
+      "text": "Returns a Boolean flag containing the result of a test whether the DOM implementation implements a specific feature and this feature is supported by the specific node."
+    }
+  },
+  "setUserData": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/setUserData",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/setUserData\">setUserData()</a>",
+      "text": "setUserData()"
+    },
+    "description": {
+      "html": "Allows a user to attach, or remove, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMUserData\"><code>DOMUserData</code></a> to the node.",
+      "text": "Allows a user to attach, or remove, DOMUserData to the node."
+    }
+  }
+}

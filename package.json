@@ -4,27 +4,31 @@
   "description": "a pedagogical web based code editor for creative netizens in training",
   "main": "src/main.js",
   "scripts": {
-    "lint": "standard src/*.js src/linters/*",
+    "lint": "standard src/*.js src/*/*.js",
     "compile-css": "echo 'module.exports = `' > src/css/main.js && cat node_modules/codemirror/lib/codemirror.css node_modules/codemirror/addon/hint/show-hint.css src/css/main.css >> src/css/main.js && echo '`' >> src/css/main.js",
     "prebuild": "npm run lint; npm run compile-css",
     "build": "browserify src/main.js > build/netitor.js",
-    "eduscraper": "eduscraper all src/edu-data",
-    "watch": "nodemon --watch src --ignore src/css/*.js -x 'npm run build'"
+    "postbuild": "terser build/netitor.js -cm -o build/netitor.min.js",
+    "watch": "nodemon --watch src --ignore src/css/*.js -x 'npm run build'",
+    "eduscraper": "eduscraper all src/edu-data"
   },
   "author": "netizen.org <hi@netizen.org>",
   "license": "GPL-3.0",
   "dependencies": {
     "codemirror": "^5.52.2",
     "css-selector-parser": "^1.4.1",
-    "csslint": "^1.0.5",
     "htmlhint": "^0.14.1",
+    "js-beautify": "^1.11.0",
+    "jshint": "^2.11.1",
     "pako": "^1.0.11",
-    "string-similarity": "^4.0.1"
+    "string-similarity": "^4.0.1",
+    "stylelint-browser-bundle": "git+https://github.com/nbriz/stylelint-browser-bundle"
   },
   "devDependencies": {
     "browserify": "^16.5.1",
     "eduscraper": "git+https://github.com/netizenorg/eduscraper.git",
     "nodemon": "^2.0.2",
-    "standard": "^14.3.3"
+    "standard": "^14.3.3",
+    "terser": "^4.8.0"
   }
 }

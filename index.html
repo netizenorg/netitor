@@ -16,28 +16,53 @@
 
       /* NOTE: netizen colors CSS variables are made available via netitor.js */
       #nfo {
-        grid-column: 1 / 3;
         padding: 5px 20px;
-        background-color: var(--netizen-black);
-        border: 8px solid var(--netizen-red);
+        background-color: var(--netizen-white);
+        border: 20px solid var(--netizen-black);
         font-family: sans-serif;
-        color: var(--netizen-white);
+        color: var(--netizen-black);
       }
 
-      #nfo > p { max-width: 650px; line-height: 25px; }
-      #nfo a { color: var(--netizen-red); }
-      #nfo a:hover { color: var(--netizen-purple); }
+      #nfo > p { line-height: 25px; }
+      #nfo a { color: var(--netizen-purple); }
+      #nfo a:hover { color: var(--netizen-red); }
       #nfo > p code {
-        color: var(--netizen-black);
+        color: var(--netizen-white);
         padding: 4px 10px;
         border-radius: 5px;
         font-size: 14px;
-        background-color: var(--netizen-red);
+        background-color: var(--netizen-black);
+      }
+
+      #output {
+        grid-row: 1 / 3;
+        grid-column: 2 / 2;
       }
 
       .error {
         background-color: rgb(100, 0, 0) !important;
         padding: 20px !important;
+        color: var(--netizen-white) !important;
+      }
+
+      .error a { color: var(--netizen-yellow) !important; }
+
+      @keyframes blinking {
+        97% { content: '( ◕ ◞ ◕ )' }
+        100% { content: '( — ◞ — )' }
+      }
+
+      .face {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+      }
+      .face > div:before {
+        content: '( ◕ ◞ ◕ )';
+        animation: blinking 10s infinite;
       }
 
     </style>
@@ -46,8 +71,8 @@
 
     <section>
       <div id="editor"></div>
-      <div id="output"></div>
       <div id="nfo"></div>
+      <div id="output"></div>
     </section>
 
     <script src="build/netitor.js"></script>
@@ -78,13 +103,15 @@
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* handling Netitor's events
 
+      const netnetFace = '<div class="face"><div></div></div class="face">'
+
       ne.on('hint-select', (eve) => {
         // just one example for how u might make use of our built in edu info
       })
 
       ne.on('lint-error', (eve) => {
         // just one example for how u might make use of our built in error messages
-        // console.log(eve)
+        console.log(eve)
         if (eve.length > 0) {
           let err = eve[0]
           ne.highlight(err.line)
@@ -92,7 +119,7 @@
           document.querySelector('#nfo').innerHTML = err.friendly
             ? `<p>${err.friendly}</p>` : `<p>${err.message}</p>`
         } else {
-          document.querySelector('#nfo').innerHTML = ''
+          document.querySelector('#nfo').innerHTML = netnetFace
           document.querySelector('#nfo').className = ''
           ne.highlight(0) // remove any highlighted lines
         }
@@ -100,22 +127,26 @@
 
       ne.on('edu-info', (eve) => {
         // just one example for how u might make use of our built in edu info
-        console.log(eve.nfo)
+        // console.log(eve.nfo)
         if (eve.nfo) {
           document.querySelector('#nfo').className = ''
           if (eve.language === 'html') showHTMLNFO(eve)
           else if (eve.language === 'css') showCSSNFO(eve)
           else if (eve.language === 'javascript') showJSNFO(eve)
-        } else document.querySelector('#nfo').innerHTML = ''
+        } else document.querySelector('#nfo').innerHTML = netnetFace
       })
 
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* some example helper functions
 
       function showJSNFO (eve) {
-        document.querySelector('#nfo').innerHTML = `
-          <p>${eve.nfo.description}</p>
-        `
+        const status = (eve.nfo.status && eve.nfo.status !== 'standard')
+          ? `. (<b>NOTE</b>: this CSS feature is ${eve.nfo.status}). ` : ''
+
+          document.querySelector('#nfo').innerHTML = `
+            <h1>${eve.nfo.keyword.html}</h1>
+            <p>${eve.nfo.description.html} ${status}</p>
+          `
       }
 
       function showHTMLNFO (eve) {
@@ -134,7 +165,7 @@
 
       function showCSSNFO (eve) {
         const status = (eve.nfo.status && eve.nfo.status !== 'standard')
-          ? ` (<b>NOTE</b>: this CSS feature is ${eve.nfo.status}). ` : ''
+          ? `. (<b>NOTE</b>: this CSS feature is ${eve.nfo.status}). ` : ''
 
         let links = '' // css properties have multiple reference URLs
         if (eve.nfo.urls) {
@@ -147,7 +178,7 @@
 
         document.querySelector('#nfo').innerHTML = `
           <h1>${eve.nfo.keyword.html}</h1>
-          <p>${eve.nfo.description.html}. ${status} ${links}</p>
+          <p>${eve.nfo.description.html} ${status} ${links}</p>
         `
       }
 

@@ -1,0 +1,614 @@
+{
+  "String": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/String",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/String\">String()</a>",
+      "text": "String()"
+    },
+    "description": {
+      "html": "The <strong><code>String</code></strong> constructor is used to create a new <a target=\"_blank\" href=\"https://developer.mozilla.or/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\"><code>String</code></a> object. It performs type conversion when called as a function, rather than as a constructor, which is usually more useful.",
+      "text": "The String constructor is used to create a new String object. It performs type conversion when called as a function, rather than as a constructor, which is usually more useful."
+    }
+  },
+  "fromCharCode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode\">fromCharCode()</a>",
+      "text": "fromCharCode()"
+    },
+    "description": {
+      "html": "Returns a string created by using the specified sequence of Unicode values.",
+      "text": "Returns a string created by using the specified sequence of Unicode values."
+    }
+  },
+  "fromCodePoint": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint\">fromCodePoint()</a>",
+      "text": "fromCodePoint()"
+    },
+    "description": {
+      "html": "Returns a string created by using the specified sequence of code points.",
+      "text": "Returns a string created by using the specified sequence of code points."
+    }
+  },
+  "raw": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/raw\">raw()</a>",
+      "text": "raw()"
+    },
+    "description": {
+      "html": "Returns a string created from a raw template string.",
+      "text": "Returns a string created from a raw template string."
+    }
+  },
+  "length": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/length\">length</a>",
+      "text": "length"
+    },
+    "description": {
+      "html": "Reflects the <code>length</code> of the string. Read-only.",
+      "text": "Reflects the length of the string. Read-only."
+    }
+  },
+  "charAt": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charAt\">charAt()</a>",
+      "text": "charAt()"
+    },
+    "description": {
+      "html": "Returns the character (exactly one UTF-16 code unit) at the specified <code><var>index</var></code>.",
+      "text": "Returns the character (exactly one UTF-16 code unit) at the specified index."
+    }
+  },
+  "charCodeAt": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt\">charCodeAt()</a>",
+      "text": "charCodeAt()"
+    },
+    "description": {
+      "html": "Returns a number that is the UTF-16 code unit value at the given <code><var>index</var></code>.",
+      "text": "Returns a number that is the UTF-16 code unit value at the given index."
+    }
+  },
+  "codePointAt": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt\">codePointAt()</a>",
+      "text": "codePointAt()"
+    },
+    "description": {
+      "html": "Returns a nonnegative integer Number that is the code point value of the UTF-16 encoded code point starting at the specified <code><var>pos</var></code>.",
+      "text": "Returns a nonnegative integer Number that is the code point value of the UTF-16 encoded code point starting at the specified pos."
+    }
+  },
+  "concat": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat\">concat()</a>",
+      "text": "concat()"
+    },
+    "description": {
+      "html": "Combines the text of two (or more) strings and returns a new string.",
+      "text": "Combines the text of two (or more) strings and returns a new string."
+    }
+  },
+  "includes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes\">includes()</a>",
+      "text": "includes()"
+    },
+    "description": {
+      "html": "Determines whether the calling string contains <code><var>searchString</var></code>.",
+      "text": "Determines whether the calling string contains searchString."
+    }
+  },
+  "endsWith": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith\">endsWith()</a>",
+      "text": "endsWith()"
+    },
+    "description": {
+      "html": "Determines whether a string ends with the characters of the string <code><var>searchString</var></code>.",
+      "text": "Determines whether a string ends with the characters of the string searchString."
+    }
+  },
+  "indexOf": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf\">indexOf()</a>",
+      "text": "indexOf()"
+    },
+    "description": {
+      "html": "Returns the index within the calling <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\"><code>String</code></a> object of the first occurrence of <code><var>searchValue</var></code>, or <code>-1</code> if not found.",
+      "text": "Returns the index within the calling String object of the first occurrence of searchValue, or -1 if not found."
+    }
+  },
+  "lastIndexOf": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf\">lastIndexOf()</a>",
+      "text": "lastIndexOf()"
+    },
+    "description": {
+      "html": "Returns the index within the calling <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String\"><code>String</code></a> object of the last occurrence of <code><var>searchValue</var></code>, or <code>-1</code> if not found.",
+      "text": "Returns the index within the calling String object of the last occurrence of searchValue, or -1 if not found."
+    }
+  },
+  "localeCompare": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare\">localeCompare()</a>",
+      "text": "localeCompare()"
+    },
+    "description": {
+      "html": "Returns a number indicating whether the reference string <code><var>compareString</var></code> comes before, after, or is equivalent to the given string in sort order.",
+      "text": "Returns a number indicating whether the reference string compareString comes before, after, or is equivalent to the given string in sort order."
+    }
+  },
+  "match": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match\">match()</a>",
+      "text": "match()"
+    },
+    "description": {
+      "html": "Used to match regular expression <code><var>regexp</var></code> against a string.",
+      "text": "Used to match regular expression regexp against a string."
+    }
+  },
+  "matchAll": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll\">matchAll()</a>",
+      "text": "matchAll()"
+    },
+    "description": {
+      "html": "Returns an iterator of all <code><var>regexp</var></code>&apos;s matches.",
+      "text": "Returns an iterator of all regexp's matches."
+    }
+  },
+  "normalize": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize\">normalize()</a>",
+      "text": "normalize()"
+    },
+    "description": {
+      "html": "Returns the Unicode Normalization Form of the calling string value.",
+      "text": "Returns the Unicode Normalization Form of the calling string value."
+    }
+  },
+  "padEnd": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd\">padEnd()</a>",
+      "text": "padEnd()"
+    },
+    "description": {
+      "html": "Pads the current string from the end with a given string and returns a new string of the length <code><var>targetLength</var></code>.",
+      "text": "Pads the current string from the end with a given string and returns a new string of the length targetLength."
+    }
+  },
+  "padStart": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart\">padStart()</a>",
+      "text": "padStart()"
+    },
+    "description": {
+      "html": "Pads the current string from the start with a given string and returns a new string of the length <code><var>targetLength</var></code>.",
+      "text": "Pads the current string from the start with a given string and returns a new string of the length targetLength."
+    }
+  },
+  "repeat": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat\">repeat()</a>",
+      "text": "repeat()"
+    },
+    "description": {
+      "html": "Returns a string consisting of the elements of the object repeated <code><var>count</var></code> times.",
+      "text": "Returns a string consisting of the elements of the object repeated count times."
+    }
+  },
+  "replace": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace\">replace()</a>",
+      "text": "replace()"
+    },
+    "description": {
+      "html": "Used to replace occurrences of <code><var>searchFor</var></code> using <code><var>replaceWith</var></code>. <code><var>searchFor</var></code> may be a string or Regular Expression, and <code><var>replaceWith</var></code> may be a string or function.",
+      "text": "Used to replace occurrences of searchFor using replaceWith. searchFor may be a string or Regular Expression, and replaceWith may be a string or function."
+    }
+  },
+  "replaceAll": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll\">replaceAll()</a>",
+      "text": "replaceAll()"
+    },
+    "description": {
+      "html": "Used to replace all occurrences of <code><var>searchFor</var></code> using <code><var>replaceWith</var></code>. <code><var>searchFor</var></code> may be a string or Regular Expression, and <code><var>replaceWith</var></code> may be a string or function.",
+      "text": "Used to replace all occurrences of searchFor using replaceWith. searchFor may be a string or Regular Expression, and replaceWith may be a string or function."
+    }
+  },
+  "search": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search\">search()</a>",
+      "text": "search()"
+    },
+    "description": {
+      "html": "Search for a match between a regular expression <code><var>regexp</var></code> and the calling string.",
+      "text": "Search for a match between a regular expression regexp and the calling string."
+    }
+  },
+  "slice": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice\">slice()</a>",
+      "text": "slice()"
+    },
+    "description": {
+      "html": "Extracts a section of a string and returns a new string.",
+      "text": "Extracts a section of a string and returns a new string."
+    }
+  },
+  "split": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split\">split()</a>",
+      "text": "split()"
+    },
+    "description": {
+      "html": "Returns an array of strings populated by splitting the calling string at occurences of the substring <code><var>sep</var></code>.",
+      "text": "Returns an array of strings populated by splitting the calling string at occurences of the substring sep."
+    }
+  },
+  "startsWith": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith\">startsWith()</a>",
+      "text": "startsWith()"
+    },
+    "description": {
+      "html": "Determines whether the calling string begins with the characters of string <code><var>searchString</var></code>.",
+      "text": "Determines whether the calling string begins with the characters of string searchString."
+    }
+  },
+  "substr": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substr\">substr()</a>",
+      "text": "substr()"
+    },
+    "description": {
+      "html": "Returns the characters in a string beginning at the specified location through the specified number of characters.",
+      "text": "Returns the characters in a string beginning at the specified location through the specified number of characters."
+    }
+  },
+  "substring": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring\">substring()</a>",
+      "text": "substring()"
+    },
+    "description": {
+      "html": "Returns a new string containing characters of the calling string from (or between) the specified index (or indeces).",
+      "text": "Returns a new string containing characters of the calling string from (or between) the specified index (or indeces)."
+    }
+  },
+  "toLocaleLowerCase": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase\">toLocaleLowerCase()</a>",
+      "text": "toLocaleLowerCase()"
+    },
+    "description": {
+      "html": "\n <p>The characters within a string are converted to lowercase while respecting the current locale.</p>\n\n <p>For most languages, this will return the same as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase\"><code>toLowerCase()</code></a>.</p>\n ",
+      "text": "\n The characters within a string are converted to lowercase while respecting the current locale.\n\n For most languages, this will return the same as toLowerCase().\n "
+    }
+  },
+  "toLocaleUpperCase": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase\">toLocaleUpperCase()</a>",
+      "text": "toLocaleUpperCase()"
+    },
+    "description": {
+      "html": "\n <p>The characters within a string are converted to uppercase while respecting the current locale.</p>\n\n <p>For most languages, this will return the same as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase\"><code>toUpperCase()</code></a>.</p>\n ",
+      "text": "\n The characters within a string are converted to uppercase while respecting the current locale.\n\n For most languages, this will return the same as toUpperCase().\n "
+    }
+  },
+  "toLowerCase": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase\">toLowerCase()</a>",
+      "text": "toLowerCase()"
+    },
+    "description": {
+      "html": "Returns the calling string value converted to lowercase.",
+      "text": "Returns the calling string value converted to lowercase."
+    }
+  },
+  "toString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toString\">toString()</a>",
+      "text": "toString()"
+    },
+    "description": {
+      "html": "Returns a string representing the specified object. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString\"><code>Object.prototype.toString()</code></a> method.",
+      "text": "Returns a string representing the specified object. Overrides the Object.prototype.toString() method."
+    }
+  },
+  "toUpperCase": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase\">toUpperCase()</a>",
+      "text": "toUpperCase()"
+    },
+    "description": {
+      "html": "Returns the calling string value converted to uppercase.",
+      "text": "Returns the calling string value converted to uppercase."
+    }
+  },
+  "trim": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim\">trim()</a>",
+      "text": "trim()"
+    },
+    "description": {
+      "html": "Trims whitespace from the beginning and end of the string. Part of the ECMAScript 5 standard.",
+      "text": "Trims whitespace from the beginning and end of the string. Part of the ECMAScript 5 standard."
+    }
+  },
+  "trimStart": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart\">trimStart()</a>",
+      "text": "trimStart()"
+    },
+    "description": {
+      "html": "Trims whitespace from the beginning of the string.",
+      "text": "Trims whitespace from the beginning of the string."
+    }
+  },
+  "trimEnd": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd\">trimEnd()</a>",
+      "text": "trimEnd()"
+    },
+    "description": {
+      "html": "Trims whitespace from the end of the string.",
+      "text": "Trims whitespace from the end of the string."
+    }
+  },
+  "valueOf": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf\">valueOf()</a>",
+      "text": "valueOf()"
+    },
+    "description": {
+      "html": "Returns the primitive value of the specified object. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf\"><code>Object.prototype.valueOf()</code></a> method.",
+      "text": "Returns the primitive value of the specified object. Overrides the Object.prototype.valueOf() method."
+    }
+  },
+  "@@iterator": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator\">@@iterator()</a>",
+      "text": "@@iterator()"
+    },
+    "description": {
+      "html": "Returns a new <code>Iterator</code> object that iterates over the code points of a String value, returning each code point as a String value.",
+      "text": "Returns a new Iterator object that iterates over the code points of a String value, returning each code point as a String value."
+    }
+  },
+  "anchor": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/anchor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/anchor\">anchor()</a>",
+      "text": "anchor()"
+    },
+    "description": {
+      "html": "<code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-name\">&lt;a name=&quot;name&quot;&gt;</a></code> (hypertext target)",
+      "text": "<a name=\"name\"> (hypertext target)"
+    }
+  },
+  "big": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/big",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/big\">big()</a>",
+      "text": "big()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/big\" title=\"The obsolete HTML Big Element (&lt;big&gt;) renders the enclosed text at a font size one level larger than the surrounding text (medium becomes large, for example).\"><code>&lt;big&gt;</code></a>",
+      "text": "<big>"
+    }
+  },
+  "blink": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/blink",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/blink\">blink()</a>",
+      "text": "blink()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blink\" title=\"The HTML Blink Element (&lt;blink&gt;) is a non-standard element which causes the enclosed text to flash slowly.\"><code>&lt;blink&gt;</code></a>",
+      "text": "<blink>"
+    }
+  },
+  "bold": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/bold",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/bold\">bold()</a>",
+      "text": "bold()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b\" title=\"The HTML Bring Attention To element (&lt;b&gt;) is used to draw the reader&apos;s attention to the element&apos;s contents, which are not otherwise granted special importance.\"><code>&lt;b&gt;</code></a>",
+      "text": "<b>"
+    }
+  },
+  "fixed": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fixed",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fixed\">fixed()</a>",
+      "text": "fixed()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tt\" title=\"The obsolete HTML Teletype Text element (&lt;tt&gt;) creates inline text which is presented using the user agent&apos;s default monospace font face.\"><code>&lt;tt&gt;</code></a>",
+      "text": "<tt>"
+    }
+  },
+  "fontcolor": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fontcolor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fontcolor\">fontcolor()</a>",
+      "text": "fontcolor()"
+    },
+    "description": {
+      "html": "<code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font#attr-color\">&lt;font color=&quot;color&quot;&gt;</a></code>",
+      "text": "<font color=\"color\">"
+    }
+  },
+  "fontsize": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fontsize",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fontsize\">fontsize()</a>",
+      "text": "fontsize()"
+    },
+    "description": {
+      "html": "<code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font#attr-size\">&lt;font size=&quot;size&quot;&gt;</a></code>",
+      "text": "<font size=\"size\">"
+    }
+  },
+  "italics": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/italics",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/italics\">italics()</a>",
+      "text": "italics()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i\" title=\"The HTML Interesting Text element (&lt;i&gt;) represents a range of text that is set off from the normal text for some reason.\"><code>&lt;i&gt;</code></a>",
+      "text": "<i>"
+    }
+  },
+  "link": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/link",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/link\">link()</a>",
+      "text": "link()"
+    },
+    "description": {
+      "html": "<code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-href\">&lt;a href=&quot;url&quot;&gt;</a></code> (link to URL)",
+      "text": "<a href=\"url\"> (link to URL)"
+    }
+  },
+  "small": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/small",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/small\">small()</a>",
+      "text": "small()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/small\" title=\"The HTML &lt;small&gt; element represents side-comments and small print, like copyright and legal text, independent of its styled presentation. By default, it renders text within it one font-size smaller, such as from small to x-small.\"><code>&lt;small&gt;</code></a>",
+      "text": "<small>"
+    }
+  },
+  "strike": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/strike",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/strike\">strike()</a>",
+      "text": "strike()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strike\" title=\"The HTML &lt;strike&gt; element (or HTML Strikethrough Element) places&#xA0;a strikethrough (horizontal line) over text.\"><code>&lt;strike&gt;</code></a>",
+      "text": "<strike>"
+    }
+  },
+  "sub": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/sub",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/sub\">sub()</a>",
+      "text": "sub()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub\" title=\"The HTML Subscript element (&lt;sub&gt;) specifies inline text which should be displayed as subscript for solely typographical reasons.\"><code>&lt;sub&gt;</code></a>",
+      "text": "<sub>"
+    }
+  },
+  "sup": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/sup",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/sup\">sup()</a>",
+      "text": "sup()"
+    },
+    "description": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sup\" title=\"The HTML Superscript element (&lt;sup&gt;) specifies inline text which is to be displayed as superscript for solely typographical reasons.\"><code>&lt;sup&gt;</code></a>",
+      "text": "<sup>"
+    }
+  }
+}

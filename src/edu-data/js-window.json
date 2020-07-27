@@ -1,0 +1,1898 @@
+{
+  "closed": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/closed",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/closed\">closed</a>",
+      "text": "closed"
+    },
+    "description": {
+      "html": "This property indicates whether the current window is closed or not.",
+      "text": "This property indicates whether the current window is closed or not."
+    }
+  },
+  "console": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/console",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/console\">console</a>",
+      "text": "console"
+    },
+    "description": {
+      "html": "Returns a reference to the console object which provides access to the browser&apos;s debugging console.",
+      "text": "Returns a reference to the console object which provides access to the browser's debugging console."
+    }
+  },
+  "controllers": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/controllers",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/controllers\">controllers</a>",
+      "text": "controllers"
+    },
+    "description": {
+      "html": "Returns the XUL controller objects for the current chrome window.",
+      "text": "Returns the XUL controller objects for the current chrome window."
+    }
+  },
+  "customElements": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/customElements",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/customElements\">customElements</a>",
+      "text": "customElements"
+    },
+    "description": {
+      "html": "returns a reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry\"><code>CustomElementRegistry</code></a> object, which can be used to register new <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements\">custom elements</a> and get information about previously registered custom elements.",
+      "text": "returns a reference to the CustomElementRegistry object, which can be used to register new custom elements and get information about previously registered custom elements."
+    }
+  },
+  "crypto": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto\">crypto</a>",
+      "text": "crypto"
+    },
+    "description": {
+      "html": "Returns the browser crypto object.",
+      "text": "Returns the browser crypto object."
+    }
+  },
+  "devicePixelRatio": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio\">devicePixelRatio</a>",
+      "text": "devicePixelRatio"
+    },
+    "description": {
+      "html": "Returns the ratio between physical pixels and device independent pixels in the current display.",
+      "text": "Returns the ratio between physical pixels and device independent pixels in the current display."
+    }
+  },
+  "dialogArguments": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/dialogArguments",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/dialogArguments\">dialogArguments</a>",
+      "text": "dialogArguments"
+    },
+    "description": {
+      "html": "Gets the arguments passed to the window (if it&apos;s a dialog box) at the time <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog\"><code>window.showModalDialog()</code></a> was called. This is an <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIArray\" title>nsIArray</a></code>.",
+      "text": "Gets the arguments passed to the window (if it's a dialog box) at the time window.showModalDialog() was called. This is an nsIArray."
+    }
+  },
+  "document": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/document",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/document\">document</a>",
+      "text": "document"
+    },
+    "description": {
+      "html": "The <strong>Document</strong> interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Using_the_W3C_DOM_Level_1_Core\">DOM tree</a>. The DOM tree includes elements such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a> and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>, among <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element\">many others</a>. It provides functionality globally to the document, like how to obtain the page's URL and create new elements in the document.",
+      "text": "The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree. The DOM tree includes elements such as <body> and <table>, among many others. It provides functionality globally to the document, like how to obtain the page's URL and create new elements in the document."
+    }
+  },
+  "DOMMatrix": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMMatrix",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMMatrix\">DOMMatrix</a>",
+      "text": "DOMMatrix"
+    },
+    "description": {
+      "html": "Returns a reference to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix\"><code>DOMMatrix</code></a> object, which represents 4x4 matrices, suitable for 2D and 3D operations.",
+      "text": "Returns a reference to a DOMMatrix object, which represents 4x4 matrices, suitable for 2D and 3D operations."
+    }
+  },
+  "DOMMatrixReadOnly": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMMatrixReadOnly",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMMatrixReadOnly\">DOMMatrixReadOnly</a>",
+      "text": "DOMMatrixReadOnly"
+    },
+    "description": {
+      "html": "Returns a reference to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly\"><code>DOMMatrixReadOnly</code></a> object, which represents 4x4 matrices, suitable for 2D and 3D operations.",
+      "text": "Returns a reference to a DOMMatrixReadOnly object, which represents 4x4 matrices, suitable for 2D and 3D operations."
+    }
+  },
+  "DOMPoint": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMPoint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMPoint\">DOMPoint</a>",
+      "text": "DOMPoint"
+    },
+    "description": {
+      "html": "Returns a reference to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMPoint\"><code>DOMPoint</code></a> object, which represents a 2D or 3D point in a coordinate system.",
+      "text": "Returns a reference to a DOMPoint object, which represents a 2D or 3D point in a coordinate system."
+    }
+  },
+  "DOMPointReadOnly": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMPointReadOnly",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMPointReadOnly\">DOMPointReadOnly</a>",
+      "text": "DOMPointReadOnly"
+    },
+    "description": {
+      "html": "Returns a reference to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMPointReadOnly\"><code>DOMPointReadOnly</code></a> object, which represents a 2D or 3D point in a coordinate system.",
+      "text": "Returns a reference to a DOMPointReadOnly object, which represents a 2D or 3D point in a coordinate system."
+    }
+  },
+  "DOMQuad": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMQuad",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMQuad\">DOMQuad</a>",
+      "text": "DOMQuad"
+    },
+    "description": {
+      "html": "Returns a reference to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad\"><code>DOMQuad</code></a> object, which provides represents a quadrilaterial object, that is one having four corners and four sides.",
+      "text": "Returns a reference to a DOMQuad object, which provides represents a quadrilaterial object, that is one having four corners and four sides."
+    }
+  },
+  "DOMRect": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMRect",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMRect\">DOMRect</a>",
+      "text": "DOMRect"
+    },
+    "description": {
+      "html": "Returns a reference to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMRect\"><code>DOMRect</code></a> object, which represents a rectangle.",
+      "text": "Returns a reference to a DOMRect object, which represents a rectangle."
+    }
+  },
+  "DOMRectReadOnly": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMRectReadOnly",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/DOMRectReadOnly\">DOMRectReadOnly</a>",
+      "text": "DOMRectReadOnly"
+    },
+    "description": {
+      "html": "Returns a reference to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMRectReadOnly\"><code>DOMRectReadOnly</code></a> object, which represents a rectangle.",
+      "text": "Returns a reference to a DOMRectReadOnly object, which represents a rectangle."
+    }
+  },
+  "event": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/event\">event</a>",
+      "text": "event"
+    },
+    "description": {
+      "html": "Returns the <strong>current event</strong>, which is the event currently being handled by the JavaScript code&apos;s context, or <code>undefined</code> if no event is currently being handled. The <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Event\"><code>Event</code></a> object passed directly to event handlers should be used instead whenever possible.",
+      "text": "Returns the current event, which is the event currently being handled by the JavaScript code's context, or undefined if no event is currently being handled. The Event object passed directly to event handlers should be used instead whenever possible."
+    }
+  },
+  "frameElement": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/frameElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/frameElement\">frameElement</a>",
+      "text": "frameElement"
+    },
+    "description": {
+      "html": "Returns the element in which the window is embedded, or null if the window is not embedded.",
+      "text": "Returns the element in which the window is embedded, or null if the window is not embedded."
+    }
+  },
+  "frames": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/frames",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/frames\">frames</a>",
+      "text": "frames"
+    },
+    "description": {
+      "html": "Returns an array of the subframes in the current window.",
+      "text": "Returns an array of the subframes in the current window."
+    }
+  },
+  "fullScreen": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/fullScreen",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/fullScreen\">fullScreen</a>",
+      "text": "fullScreen"
+    },
+    "description": {
+      "html": "This property indicates whether the window is displayed in full screen or not.",
+      "text": "This property indicates whether the window is displayed in full screen or not."
+    }
+  },
+  "history": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/History_API",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/History_API\">history</a>",
+      "text": "history"
+    },
+    "description": {
+      "html": "The DOM <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> object provides access to the browser's session history (not to be confused for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/history\">WebExtensions history</a>) through the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/history\"><code>history</code></a> object. It exposes useful methods and properties that let you navigate back and forth through the user's history, and manipulate the contents of the history stack.",
+      "text": "The DOM Window object provides access to the browser's session history (not to be confused for WebExtensions history) through the history object. It exposes useful methods and properties that let you navigate back and forth through the user's history, and manipulate the contents of the history stack."
+    }
+  },
+  "innerHeight": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight\">innerHeight</a>",
+      "text": "innerHeight"
+    },
+    "description": {
+      "html": "Gets the height of the content area of the browser window including, if rendered, the horizontal scrollbar.",
+      "text": "Gets the height of the content area of the browser window including, if rendered, the horizontal scrollbar."
+    }
+  },
+  "innerWidth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth\">innerWidth</a>",
+      "text": "innerWidth"
+    },
+    "description": {
+      "html": "Gets the width of the content area of the browser window including, if rendered, the vertical scrollbar.",
+      "text": "Gets the width of the content area of the browser window including, if rendered, the vertical scrollbar."
+    }
+  },
+  "isSecureContext": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/isSecureContext",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/isSecureContext\">isSecureContext</a>",
+      "text": "isSecureContext"
+    },
+    "description": {
+      "html": "Returns a boolean indicating whether the current context is secure (<code>true</code>) or not (<code>false</code>).",
+      "text": "Returns a boolean indicating whether the current context is secure (true) or not (false)."
+    }
+  },
+  "length": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/length",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/length\">length</a>",
+      "text": "length"
+    },
+    "description": {
+      "html": "Returns the number of frames in the window. See also <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/frames\"><code>window.frames</code></a>.",
+      "text": "Returns the number of frames in the window. See also window.frames."
+    }
+  },
+  "location": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Location",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location\">location</a>",
+      "text": "location"
+    },
+    "description": {
+      "html": "The <strong><code>Location</code></strong> interface represents the location (URL) of the object it is linked to. Changes done on it are reflected on the object it relates to. Both the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\"><code>Document</code></a> and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface have such a linked <code>Location</code>, accessible via <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/location\"><code>Document.location</code></a> and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/location\"><code>Window.location</code></a> respectively.",
+      "text": "The Location interface represents the location (URL) of the object it is linked to. Changes done on it are reflected on the object it relates to. Both the Document and Window interface have such a linked Location, accessible via Document.location and Window.location respectively."
+    }
+  },
+  "locationbar": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/locationbar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/locationbar\">locationbar</a>",
+      "text": "locationbar"
+    },
+    "description": {
+      "html": "Returns the locationbar object, whose visibility can be toggled in the window.",
+      "text": "Returns the locationbar object, whose visibility can be toggled in the window."
+    }
+  },
+  "localStorage": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage\">localStorage</a>",
+      "text": "localStorage"
+    },
+    "description": {
+      "html": "Returns a reference to the local storage object used to store data that may only be accessed by the origin that created it.",
+      "text": "Returns a reference to the local storage object used to store data that may only be accessed by the origin that created it."
+    }
+  },
+  "menubar": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/menubar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/menubar\">menubar</a>",
+      "text": "menubar"
+    },
+    "description": {
+      "html": "Returns the menubar object, whose visibility can be toggled in the window.",
+      "text": "Returns the menubar object, whose visibility can be toggled in the window."
+    }
+  },
+  "messageManager": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/messageManager",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/messageManager\">messageManager</a>",
+      "text": "messageManager"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/The_message_manager\">message manager</a> object for this window.",
+      "text": "Returns the message manager object for this window."
+    }
+  },
+  "mozInnerScreenX": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenX\">mozInnerScreenX</a>",
+      "text": "mozInnerScreenX"
+    },
+    "description": {
+      "html": "Returns the horizontal (X) coordinate of the top-left corner of the window&apos;s viewport, in screen coordinates. This value is reported in CSS pixels. See <code>mozScreenPixelsPerCSSPixel</code> in <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIDOMWindowUtils\" title>nsIDOMWindowUtils</a></code> for a conversion factor to adapt to screen pixels if needed.",
+      "text": "Returns the horizontal (X) coordinate of the top-left corner of the window's viewport, in screen coordinates. This value is reported in CSS pixels. See mozScreenPixelsPerCSSPixel in nsIDOMWindowUtils for a conversion factor to adapt to screen pixels if needed."
+    }
+  },
+  "mozInnerScreenY": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenY\">mozInnerScreenY</a>",
+      "text": "mozInnerScreenY"
+    },
+    "description": {
+      "html": "Returns the vertical (Y) coordinate of the top-left corner of the window&apos;s viewport, in screen coordinates. This value is reported in CSS pixels. See <code>mozScreenPixelsPerCSSPixel</code> for a conversion factor to adapt to screen pixels if needed.",
+      "text": "Returns the vertical (Y) coordinate of the top-left corner of the window's viewport, in screen coordinates. This value is reported in CSS pixels. See mozScreenPixelsPerCSSPixel for a conversion factor to adapt to screen pixels if needed."
+    }
+  },
+  "name": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/name",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/name\">name</a>",
+      "text": "name"
+    },
+    "description": {
+      "html": "Gets/sets the name of the window.",
+      "text": "Gets/sets the name of the window."
+    }
+  },
+  "navigator": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Navigator",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator\">navigator</a>",
+      "text": "navigator"
+    },
+    "description": {
+      "html": "The <code><strong>Navigator</strong></code> interface represents the state and the identity of the user agent. It allows scripts to query it and to register themselves to carry on some activities.",
+      "text": "The Navigator interface represents the state and the identity of the user agent. It allows scripts to query it and to register themselves to carry on some activities."
+    }
+  },
+  "opener": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/opener",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/opener\">opener</a>",
+      "text": "opener"
+    },
+    "description": {
+      "html": "Returns a reference to the window that opened this current window.",
+      "text": "Returns a reference to the window that opened this current window."
+    }
+  },
+  "orientation": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/orientation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/orientation\">orientation</a>",
+      "text": "orientation"
+    },
+    "description": {
+      "html": "Returns the orientation in degrees (in 90 degree increments) of the viewport relative to the device&apos;s natural orientation.",
+      "text": "Returns the orientation in degrees (in 90 degree increments) of the viewport relative to the device's natural orientation."
+    }
+  },
+  "outerHeight": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/outerHeight",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/outerHeight\">outerHeight</a>",
+      "text": "outerHeight"
+    },
+    "description": {
+      "html": "Gets the height of the outside of the browser window.",
+      "text": "Gets the height of the outside of the browser window."
+    }
+  },
+  "outerWidth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/outerWidth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/outerWidth\">outerWidth</a>",
+      "text": "outerWidth"
+    },
+    "description": {
+      "html": "Gets the width of the outside of the browser window.",
+      "text": "Gets the width of the outside of the browser window."
+    }
+  },
+  "pageXOffset": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX\">pageXOffset</a>",
+      "text": "pageXOffset"
+    },
+    "description": {
+      "html": "An alias for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX\"><code>window.scrollX</code></a>.",
+      "text": "An alias for window.scrollX."
+    }
+  },
+  "pageYOffset": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY\">pageYOffset</a>",
+      "text": "pageYOffset"
+    },
+    "description": {
+      "html": "An alias for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY\"><code>window.scrollY</code></a>",
+      "text": "An alias for window.scrollY"
+    }
+  },
+  "parent": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/parent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/parent\">parent</a>",
+      "text": "parent"
+    },
+    "description": {
+      "html": "Returns a reference to the parent of the current window or subframe.",
+      "text": "Returns a reference to the parent of the current window or subframe."
+    }
+  },
+  "performance": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/performance",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/performance\">performance</a>",
+      "text": "performance"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Performance\"><code>Performance</code></a> object, which includes the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Performance/timing\"><code>timing</code></a> and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Performance/navigation\"><code>navigation</code></a> attributes, each of which is an object providing <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Navigation_timing\">performance-related</a> data. See also <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigation_timing_API/Using_Navigation_Timing\">Using Navigation Timing</a> for additional information and examples.",
+      "text": "Returns a Performance object, which includes the timing and navigation attributes, each of which is an object providing performance-related data. See also Using Navigation Timing for additional information and examples."
+    }
+  },
+  "personalbar": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/personalbar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/personalbar\">personalbar</a>",
+      "text": "personalbar"
+    },
+    "description": {
+      "html": "Returns the personalbar object, whose visibility can be toggled in the window.",
+      "text": "Returns the personalbar object, whose visibility can be toggled in the window."
+    }
+  },
+  "screen": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screen",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/screen\">screen</a>",
+      "text": "screen"
+    },
+    "description": {
+      "html": "Returns a reference to the screen object associated with the window.",
+      "text": "Returns a reference to the screen object associated with the window."
+    }
+  },
+  "screenXWindow": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screenX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/screenX\">screenXWindow</a>",
+      "text": "screenXWindow"
+    },
+    "description": {
+      "html": "Both properties return the horizontal distance from the left border of the user&apos;s browser viewport to the left side of the screen.",
+      "text": "Both properties return the horizontal distance from the left border of the user's browser viewport to the left side of the screen."
+    }
+  },
+  "screenYWindow": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screenY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/screenY\">screenYWindow</a>",
+      "text": "screenYWindow"
+    },
+    "description": {
+      "html": "Both properties return the vertical distance from the top border of the user&apos;s browser viewport to the top side of the screen.",
+      "text": "Both properties return the vertical distance from the top border of the user's browser viewport to the top side of the screen."
+    }
+  },
+  "scrollbars": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollbars",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollbars\">scrollbars</a>",
+      "text": "scrollbars"
+    },
+    "description": {
+      "html": "Returns the scrollbars object, whose visibility can be toggled in the window.",
+      "text": "Returns the scrollbars object, whose visibility can be toggled in the window."
+    }
+  },
+  "scrollMaxX": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxX\">scrollMaxX</a>",
+      "text": "scrollMaxX"
+    },
+    "description": {
+      "html": "The maximum offset that the window can be scrolled to horizontally, that is the document width minus the viewport width.",
+      "text": "The maximum offset that the window can be scrolled to horizontally, that is the document width minus the viewport width."
+    }
+  },
+  "scrollMaxY": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxY\">scrollMaxY</a>",
+      "text": "scrollMaxY"
+    },
+    "description": {
+      "html": "The maximum offset that the window can be scrolled to vertically (i.e., the document height minus the viewport height).",
+      "text": "The maximum offset that the window can be scrolled to vertically (i.e., the document height minus the viewport height)."
+    }
+  },
+  "scrollX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX\">scrollX</a>",
+      "text": "scrollX"
+    },
+    "description": {
+      "html": "Returns the number of pixels that the document has already been scrolled horizontally.",
+      "text": "Returns the number of pixels that the document has already been scrolled horizontally."
+    }
+  },
+  "scrollY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY\">scrollY</a>",
+      "text": "scrollY"
+    },
+    "description": {
+      "html": "Returns the number of pixels that the document has already been scrolled vertically.",
+      "text": "Returns the number of pixels that the document has already been scrolled vertically."
+    }
+  },
+  "self": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/self",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/self\">self</a>",
+      "text": "self"
+    },
+    "description": {
+      "html": "Returns an object reference to the window object itself.",
+      "text": "Returns an object reference to the window object itself."
+    }
+  },
+  "sessionStorage": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage\">sessionStorage</a>",
+      "text": "sessionStorage"
+    },
+    "description": {
+      "html": "Returns a reference to the session storage object used to store data that may only be accessed by the origin that created it.",
+      "text": "Returns a reference to the session storage object used to store data that may only be accessed by the origin that created it."
+    }
+  },
+  "sidebar": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sidebar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/sidebar\">sidebar</a>",
+      "text": "sidebar"
+    },
+    "description": {
+      "html": "Returns a reference to the window object of the sidebar.",
+      "text": "Returns a reference to the window object of the sidebar."
+    }
+  },
+  "speechSynthesis": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/speechSynthesis",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/speechSynthesis\">speechSynthesis</a>",
+      "text": "speechSynthesis"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis\"><code>SpeechSynthesis</code></a> object, which is the entry point into using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API\">Web Speech API</a> speech synthesis functionality.",
+      "text": "Returns a SpeechSynthesis object, which is the entry point into using Web Speech API speech synthesis functionality."
+    }
+  },
+  "status": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/status",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/status\">status</a>",
+      "text": "status"
+    },
+    "description": {
+      "html": "Gets/sets the text in the statusbar at the bottom of the browser.",
+      "text": "Gets/sets the text in the statusbar at the bottom of the browser."
+    }
+  },
+  "statusbar": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/statusbar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/statusbar\">statusbar</a>",
+      "text": "statusbar"
+    },
+    "description": {
+      "html": "Returns the statusbar object, whose visibility can be toggled in the window.",
+      "text": "Returns the statusbar object, whose visibility can be toggled in the window."
+    }
+  },
+  "toolbar": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/toolbar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/toolbar\">toolbar</a>",
+      "text": "toolbar"
+    },
+    "description": {
+      "html": "Returns the toolbar object, whose visibility can be toggled in the window.",
+      "text": "Returns the toolbar object, whose visibility can be toggled in the window."
+    }
+  },
+  "top": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/top",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/top\">top</a>",
+      "text": "top"
+    },
+    "description": {
+      "html": "Returns a reference to the topmost window in the window hierarchy. This property is read only.",
+      "text": "Returns a reference to the topmost window in the window hierarchy. This property is read only."
+    }
+  },
+  "visualViewport": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/visualViewport",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/visualViewport\">visualViewport</a>",
+      "text": "visualViewport"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/VisualViewport\"><code>VisualViewport</code></a> object which represents the visual viewport for a given window.",
+      "text": "Returns a VisualViewport object which represents the visual viewport for a given window."
+    }
+  },
+  "window": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\">window</a>",
+      "text": "window"
+    },
+    "description": {
+      "html": "The <strong><code>Window</code></strong> interface represents a window containing a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/DOM\">DOM</a> document; the <code>document</code> property points to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\">DOM document</a> loaded in that window.",
+      "text": "The Window interface represents a window containing a DOM document; the document property points to the DOM document loaded in that window. A window for a given document can be obtained using the document.defaultView property."
+    }
+  },
+  "caches": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/caches",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/caches\">caches</a>",
+      "text": "caches"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage\"><code>CacheStorage</code></a> object associated with the current context. This object enables functionality such as storing assets for offline use, and generating custom responses to requests.",
+      "text": "Returns the CacheStorage object associated with the current context. This object enables functionality such as storing assets for offline use, and generating custom responses to requests."
+    }
+  },
+  "indexedDB": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/indexedDB",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/indexedDB\">indexedDB</a>",
+      "text": "indexedDB"
+    },
+    "description": {
+      "html": "Provides a mechanism for applications to asynchronously access capabilities of indexed databases; returns an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/IDBFactory\"><code>IDBFactory</code></a> object.",
+      "text": "Provides a mechanism for applications to asynchronously access capabilities of indexed databases; returns an IDBFactory object."
+    }
+  },
+  "origin": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/origin",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/origin\">origin</a>",
+      "text": "origin"
+    },
+    "description": {
+      "html": "Returns the global object&apos;s origin, serialized as a string. (This does not yet appear to be implemented in any browser.)",
+      "text": "Returns the global object's origin, serialized as a string. (This does not yet appear to be implemented in any browser.)"
+    }
+  },
+  "content": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/content",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/content\">content</a>",
+      "text": "content"
+    },
+    "description": {
+      "html": "Returns a reference to the content element in the current window. Since Firefox 57 (initially Nightly-only), both versions are only available from chrome (privileged) code, and not available to the web anymore.",
+      "text": "Returns a reference to the content element in the current window. Since Firefox 57 (initially Nightly-only), both versions are only available from chrome (privileged) code, and not available to the web anymore."
+    }
+  },
+  "defaultStatus": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/defaultStatus",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/defaultStatus\">defaultStatus</a>",
+      "text": "defaultStatus"
+    },
+    "description": {
+      "html": "Gets/sets the status bar text for the given window.",
+      "text": "Gets/sets the status bar text for the given window."
+    }
+  },
+  "directories": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/directories",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/directories\">directories</a>",
+      "text": "directories"
+    },
+    "description": {
+      "html": "Synonym of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/personalbar\"><code>window.personalbar</code></a>",
+      "text": "Synonym of window.personalbar"
+    }
+  },
+  "globalStorage": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/globalStorage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/globalStorage\">globalStorage</a>",
+      "text": "globalStorage"
+    },
+    "description": {
+      "html": "Multiple storage objects that were used for storing data across multiple pages.",
+      "text": "Multiple storage objects that were used for storing data across multiple pages."
+    }
+  },
+  "mozAnimationStartTime": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozAnimationStartTime",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/mozAnimationStartTime\">mozAnimationStartTime</a>",
+      "text": "mozAnimationStartTime"
+    },
+    "description": {
+      "html": "The time in milliseconds since epoch at which the current animation cycle began. Use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Animation/startTime\"><code>Animation.startTime</code></a> instead.",
+      "text": "The time in milliseconds since epoch at which the current animation cycle began. Use Animation.startTime instead."
+    }
+  },
+  "mozPaintCount": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozPaintCount",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/mozPaintCount\">mozPaintCount</a>",
+      "text": "mozPaintCount"
+    },
+    "description": {
+      "html": "Returns the number of times the current document has been rendered to the screen in this window. This can be used to compute rendering performance.",
+      "text": "Returns the number of times the current document has been rendered to the screen in this window. This can be used to compute rendering performance."
+    }
+  },
+  "pkcs11": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/pkcs11",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/pkcs11\">pkcs11</a>",
+      "text": "pkcs11"
+    },
+    "description": {
+      "html": "Formerly provided access to install and remove PKCS11 modules.",
+      "text": "Formerly provided access to install and remove PKCS11 modules."
+    }
+  },
+  "returnValue": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/returnValue",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/returnValue\">returnValue</a>",
+      "text": "returnValue"
+    },
+    "description": {
+      "html": "The return value to be returned to the function that called <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog\"><code>window.showModalDialog()</code></a> to display the window as a modal dialog.",
+      "text": "The return value to be returned to the function that called window.showModalDialog() to display the window as a modal dialog."
+    }
+  },
+  "alert": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/alert",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/alert\">alert()</a>",
+      "text": "alert()"
+    },
+    "description": {
+      "html": "Displays an alert dialog.",
+      "text": "Displays an alert dialog."
+    }
+  },
+  "blur": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/blur",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/blur\">blur()</a>",
+      "text": "blur()"
+    },
+    "description": {
+      "html": "Sets focus away from the window.",
+      "text": "Sets focus away from the window."
+    }
+  },
+  "cancelAnimationFrame": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelAnimationFrame",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelAnimationFrame\">cancelAnimationFrame()</a>",
+      "text": "cancelAnimationFrame()"
+    },
+    "description": {
+      "html": "Enables you to cancel a callback previously scheduled with <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame\"><code>Window.requestAnimationFrame</code></a>.",
+      "text": "Enables you to cancel a callback previously scheduled with Window.requestAnimationFrame."
+    }
+  },
+  "cancelIdleCallback": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelIdleCallback",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelIdleCallback\">cancelIdleCallback()</a>",
+      "text": "cancelIdleCallback()"
+    },
+    "description": {
+      "html": "Enables you to cancel a callback previously scheduled with <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback\"><code>Window.requestIdleCallback</code></a>.",
+      "text": "Enables you to cancel a callback previously scheduled with Window.requestIdleCallback."
+    }
+  },
+  "clearImmediate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/clearImmediate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/clearImmediate\">clearImmediate()</a>",
+      "text": "clearImmediate()"
+    },
+    "description": {
+      "html": "Cancels the repeated execution set using <code>setImmediate</code>.",
+      "text": "Cancels the repeated execution set using setImmediate."
+    }
+  },
+  "close": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/close",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/close\">close()</a>",
+      "text": "close()"
+    },
+    "description": {
+      "html": "Closes the current window.",
+      "text": "Closes the current window."
+    }
+  },
+  "confirm": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm\">confirm()</a>",
+      "text": "confirm()"
+    },
+    "description": {
+      "html": "Displays a dialog with a message that the user needs to respond to.",
+      "text": "Displays a dialog with a message that the user needs to respond to."
+    }
+  },
+  "dump": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/dump",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/dump\">dump()</a>",
+      "text": "dump()"
+    },
+    "description": {
+      "html": "Writes a message to the console.",
+      "text": "Writes a message to the console."
+    }
+  },
+  "find": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/find",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/find\">find()</a>",
+      "text": "find()"
+    },
+    "description": {
+      "html": "Searches for a given string in a window.",
+      "text": "Searches for a given string in a window."
+    }
+  },
+  "focus": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/focus",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/focus\">focus()</a>",
+      "text": "focus()"
+    },
+    "description": {
+      "html": "Sets focus on the current window.",
+      "text": "Sets focus on the current window."
+    }
+  },
+  "getComputedStyle": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle\">getComputedStyle()</a>",
+      "text": "getComputedStyle()"
+    },
+    "description": {
+      "html": "Gets computed style for the specified element. Computed style indicates the computed values of all CSS properties of the element.",
+      "text": "Gets computed style for the specified element. Computed style indicates the computed values of all CSS properties of the element."
+    }
+  },
+  "getDefaultComputedStyle": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getDefaultComputedStyle",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/getDefaultComputedStyle\">getDefaultComputedStyle()</a>",
+      "text": "getDefaultComputedStyle()"
+    },
+    "description": {
+      "html": "Gets default computed style for the specified element, ignoring author stylesheets.",
+      "text": "Gets default computed style for the specified element, ignoring author stylesheets."
+    }
+  },
+  "getSelection": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection\">getSelection()</a>",
+      "text": "getSelection()"
+    },
+    "description": {
+      "html": "Returns the selection object representing the selected item(s).",
+      "text": "Returns the selection object representing the selected item(s)."
+    }
+  },
+  "matchMedia": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia\">matchMedia()</a>",
+      "text": "matchMedia()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList\"><code>MediaQueryList</code></a> object representing the specified media query string.",
+      "text": "Returns a MediaQueryList object representing the specified media query string."
+    }
+  },
+  "maximize": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/maximize",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/maximize\">maximize()</a>",
+      "text": "maximize()"
+    },
+    "description": {
+      "html": "<span class=\"inlineIndicator todo todoInline\"><strong>FIXME:</strong> <em>NeedsContents</em></span>",
+      "text": "FIXME: NeedsContents"
+    }
+  },
+  "minimize": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/minimize",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/minimize\">minimize()</a>",
+      "text": "minimize()"
+    },
+    "description": {
+      "html": "Minimizes the window.",
+      "text": "Minimizes the window."
+    }
+  },
+  "moveBy": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/moveBy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/moveBy\">moveBy()</a>",
+      "text": "moveBy()"
+    },
+    "description": {
+      "html": "Moves the current window by a specified amount.",
+      "text": "Moves the current window by a specified amount."
+    }
+  },
+  "moveTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/moveTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/moveTo\">moveTo()</a>",
+      "text": "moveTo()"
+    },
+    "description": {
+      "html": "Moves the window to the specified coordinates.",
+      "text": "Moves the window to the specified coordinates."
+    }
+  },
+  "open": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/open",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/open\">open()</a>",
+      "text": "open()"
+    },
+    "description": {
+      "html": "Opens a new window.",
+      "text": "Opens a new window."
+    }
+  },
+  "postMessage": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage\">postMessage()</a>",
+      "text": "postMessage()"
+    },
+    "description": {
+      "html": "Provides a secure means for one window to send a string of data to another window, which need not be within the same domain as the first.",
+      "text": "Provides a secure means for one window to send a string of data to another window, which need not be within the same domain as the first."
+    }
+  },
+  "print": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/print",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/print\">print()</a>",
+      "text": "print()"
+    },
+    "description": {
+      "html": "Opens the Print Dialog to print the current document.",
+      "text": "Opens the Print Dialog to print the current document."
+    }
+  },
+  "prompt": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt\">prompt()</a>",
+      "text": "prompt()"
+    },
+    "description": {
+      "html": "Returns the text entered by the user in a prompt dialog.",
+      "text": "Returns the text entered by the user in a prompt dialog."
+    }
+  },
+  "requestAnimationFrame": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame\">requestAnimationFrame()</a>",
+      "text": "requestAnimationFrame()"
+    },
+    "description": {
+      "html": "Tells the browser that an animation is in progress, requesting that the browser schedule a repaint of the window for the next animation frame.",
+      "text": "Tells the browser that an animation is in progress, requesting that the browser schedule a repaint of the window for the next animation frame."
+    }
+  },
+  "requestIdleCallback": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback\">requestIdleCallback()</a>",
+      "text": "requestIdleCallback()"
+    },
+    "description": {
+      "html": "Enables the scheduling of tasks during a browser&apos;s idle periods.",
+      "text": "Enables the scheduling of tasks during a browser's idle periods."
+    }
+  },
+  "resizeBy": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeBy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeBy\">resizeBy()</a>",
+      "text": "resizeBy()"
+    },
+    "description": {
+      "html": "Resizes the current window by a certain amount.",
+      "text": "Resizes the current window by a certain amount."
+    }
+  },
+  "resizeTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeTo\">resizeTo()</a>",
+      "text": "resizeTo()"
+    },
+    "description": {
+      "html": "Dynamically resizes window.",
+      "text": "Dynamically resizes window."
+    }
+  },
+  "scroll": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll\">scroll()</a>",
+      "text": "scroll()"
+    },
+    "description": {
+      "html": "Scrolls the window to a particular place in the document.",
+      "text": "Scrolls the window to a particular place in the document."
+    }
+  },
+  "scrollBy": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollBy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollBy\">scrollBy()</a>",
+      "text": "scrollBy()"
+    },
+    "description": {
+      "html": "Scrolls the document in the window by the given amount.",
+      "text": "Scrolls the document in the window by the given amount."
+    }
+  },
+  "scrollByLines": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByLines",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByLines\">scrollByLines()</a>",
+      "text": "scrollByLines()"
+    },
+    "description": {
+      "html": "Scrolls the document by the given number of lines.",
+      "text": "Scrolls the document by the given number of lines."
+    }
+  },
+  "scrollByPages": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByPages",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByPages\">scrollByPages()</a>",
+      "text": "scrollByPages()"
+    },
+    "description": {
+      "html": "Scrolls the current document by the specified number of pages.",
+      "text": "Scrolls the current document by the specified number of pages."
+    }
+  },
+  "scrollTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo\">scrollTo()</a>",
+      "text": "scrollTo()"
+    },
+    "description": {
+      "html": "Scrolls to a particular set of coordinates in the document.",
+      "text": "Scrolls to a particular set of coordinates in the document."
+    }
+  },
+  "setCursor": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setCursor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/setCursor\">setCursor()</a>",
+      "text": "setCursor()"
+    },
+    "description": {
+      "html": "Changes the cursor for the current window",
+      "text": "Changes the cursor for the current window"
+    }
+  },
+  "setImmediate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate\">setImmediate()</a>",
+      "text": "setImmediate()"
+    },
+    "description": {
+      "html": "Executes a function after the browser has finished other heavy tasks",
+      "text": "Executes a function after the browser has finished other heavy tasks"
+    }
+  },
+  "setResizable": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setResizable",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/setResizable\">setResizable()</a>",
+      "text": "setResizable()"
+    },
+    "description": {
+      "html": "Toggles a user&apos;s ability to resize a window.",
+      "text": "Toggles a user's ability to resize a window."
+    }
+  },
+  "sizeToContent": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sizeToContent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/sizeToContent\">sizeToContent()</a>",
+      "text": "sizeToContent()"
+    },
+    "description": {
+      "html": "Sizes the window according to its content.",
+      "text": "Sizes the window according to its content."
+    }
+  },
+  "stop": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/stop",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/stop\">stop()</a>",
+      "text": "stop()"
+    },
+    "description": {
+      "html": "This method stops window loading.",
+      "text": "This method stops window loading."
+    }
+  },
+  "updateCommands": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/updateCommands",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/updateCommands\">updateCommands()</a>",
+      "text": "updateCommands()"
+    },
+    "description": {
+      "html": "Updates the state of commands of the current chrome window (UI).",
+      "text": "Updates the state of commands of the current chrome window (UI)."
+    }
+  },
+  "atob": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/atob",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/atob\">atob()</a>",
+      "text": "atob()"
+    },
+    "description": {
+      "html": "Decodes a string of data which has been encoded using base-64 encoding.",
+      "text": "Decodes a string of data which has been encoded using base-64 encoding."
+    }
+  },
+  "btoa": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/btoa\">btoa()</a>",
+      "text": "btoa()"
+    },
+    "description": {
+      "html": "Creates a base-64 encoded ASCII string from a string of binary data.",
+      "text": "Creates a base-64 encoded ASCII string from a string of binary data."
+    }
+  },
+  "clearInterval": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearInterval\">clearInterval()</a>",
+      "text": "clearInterval()"
+    },
+    "description": {
+      "html": "Cancels the repeated execution set using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval\"><code>WindowOrWorkerGlobalScope.setInterval()</code></a>.",
+      "text": "Cancels the repeated execution set using WindowOrWorkerGlobalScope.setInterval()."
+    }
+  },
+  "clearTimeout": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/clearTimeout\">clearTimeout()</a>",
+      "text": "clearTimeout()"
+    },
+    "description": {
+      "html": "Cancels the delayed execution set using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout\"><code>WindowOrWorkerGlobalScope.setTimeout()</code></a>.",
+      "text": "Cancels the delayed execution set using WindowOrWorkerGlobalScope.setTimeout()."
+    }
+  },
+  "createImageBitmap": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/createImageBitmap",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/createImageBitmap\">createImageBitmap()</a>",
+      "text": "createImageBitmap()"
+    },
+    "description": {
+      "html": "Accepts a variety of different image sources, and returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Promise\"><code>Promise</code></a> which resolves to an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmap\"><code>ImageBitmap</code></a>. Optionally the source is cropped to the rectangle of pixels originating at <em>(sx, sy)</em> with width sw, and height sh.",
+      "text": "Accepts a variety of different image sources, and returns a Promise which resolves to an ImageBitmap. Optionally the source is cropped to the rectangle of pixels originating at (sx, sy) with width sw, and height sh."
+    }
+  },
+  "fetch": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch\">fetch()</a>",
+      "text": "fetch()"
+    },
+    "description": {
+      "html": "Starts the process of fetching a resource from the network.",
+      "text": "Starts the process of fetching a resource from the network."
+    }
+  },
+  "setInterval": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval\">setInterval()</a>",
+      "text": "setInterval()"
+    },
+    "description": {
+      "html": "Schedules a function to execute every time a given number of milliseconds elapses.",
+      "text": "Schedules a function to execute every time a given number of milliseconds elapses."
+    }
+  },
+  "setTimeout": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout\">setTimeout()</a>",
+      "text": "setTimeout()"
+    },
+    "description": {
+      "html": "Schedules a function to execute in a given amount of time.",
+      "text": "Schedules a function to execute in a given amount of time."
+    }
+  },
+  "back": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/back",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/back\">back()</a>",
+      "text": "back()"
+    },
+    "description": {
+      "html": "Moves back one in the window history. This method is obsolete; you should instead use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/History/back\"><code>window.history.back()</code></a>.",
+      "text": "Moves back one in the window history. This method is obsolete; you should instead use window.history.back()."
+    }
+  },
+  "captureEvents": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/captureEvents",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/captureEvents\">captureEvents()</a>",
+      "text": "captureEvents()"
+    },
+    "description": {
+      "html": "Registers the window to capture all events of the specified type.",
+      "text": "Registers the window to capture all events of the specified type."
+    }
+  },
+  "forward": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/forward",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/forward\">forward()</a>",
+      "text": "forward()"
+    },
+    "description": {
+      "html": "Moves the window one document forward in the history. This method is obsolete; you should instead use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/History/forward\"><code>window.history.forward()</code></a>.",
+      "text": "Moves the window one document forward in the history. This method is obsolete; you should instead use window.history.forward()."
+    }
+  },
+  "getAttention": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getAttention",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/getAttention\">getAttention()</a>",
+      "text": "getAttention()"
+    },
+    "description": {
+      "html": "Flashes the application icon.",
+      "text": "Flashes the application icon."
+    }
+  },
+  "home": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/home",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/home\">home()</a>",
+      "text": "home()"
+    },
+    "description": {
+      "html": "Returns the browser to the home page.",
+      "text": "Returns the browser to the home page."
+    }
+  },
+  "openDialog": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/openDialog",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/openDialog\">openDialog()</a>",
+      "text": "openDialog()"
+    },
+    "description": {
+      "html": "Opens a new dialog window.",
+      "text": "Opens a new dialog window."
+    }
+  },
+  "releaseEvents": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/releaseEvents",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/releaseEvents\">releaseEvents()</a>",
+      "text": "releaseEvents()"
+    },
+    "description": {
+      "html": "Releases the window from trapping events of a specific type.",
+      "text": "Releases the window from trapping events of a specific type."
+    }
+  },
+  "showModalDialog": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog\">showModalDialog()</a>",
+      "text": "showModalDialog()"
+    },
+    "description": {
+      "html": "Displays a modal dialog.",
+      "text": "Displays a modal dialog."
+    }
+  },
+  "onappinstalled": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onappinstalled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onappinstalled\">onappinstalled</a>",
+      "text": "onappinstalled"
+    },
+    "description": {
+      "html": "Called when the page is installed as a webapp. See <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/appinstalled_event\"><code>appinstalled</code></a> event.",
+      "text": "Called when the page is installed as a webapp. See appinstalled event."
+    }
+  },
+  "onbeforeinstallprompt": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onbeforeinstallprompt",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onbeforeinstallprompt\">onbeforeinstallprompt</a>",
+      "text": "onbeforeinstallprompt"
+    },
+    "description": {
+      "html": "An event handler property dispatched before a user is prompted to save a web site to a home screen on mobile.",
+      "text": "An event handler property dispatched before a user is prompted to save a web site to a home screen on mobile."
+    }
+  },
+  "ondevicelight": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondevicelight",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/ondevicelight\">ondevicelight</a>",
+      "text": "ondevicelight"
+    },
+    "description": {
+      "html": "An event handler property for any ambient light levels changes",
+      "text": "An event handler property for any ambient light levels changes"
+    }
+  },
+  "ondevicemotion": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondevicemotion",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/ondevicemotion\">ondevicemotion</a>",
+      "text": "ondevicemotion"
+    },
+    "description": {
+      "html": "Called if accelerometer detects a change (For mobile devices)",
+      "text": "Called if accelerometer detects a change (For mobile devices)"
+    }
+  },
+  "ondeviceorientation": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceorientation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceorientation\">ondeviceorientation</a>",
+      "text": "ondeviceorientation"
+    },
+    "description": {
+      "html": "Called when the orientation is changed (For mobile devices)",
+      "text": "Called when the orientation is changed (For mobile devices)"
+    }
+  },
+  "ondeviceorientationabsolute": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceorientationabsolute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceorientationabsolute\">ondeviceorientationabsolute</a>",
+      "text": "ondeviceorientationabsolute"
+    },
+    "description": {
+      "html": "An event handler property for any device orientation changes.",
+      "text": "An event handler property for any device orientation changes."
+    }
+  },
+  "ondeviceproximity": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceproximity",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/ondeviceproximity\">ondeviceproximity</a>",
+      "text": "ondeviceproximity"
+    },
+    "description": {
+      "html": "An event handler property for device proximity event",
+      "text": "An event handler property for device proximity event"
+    }
+  },
+  "ongamepadconnected": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ongamepadconnected",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/ongamepadconnected\">ongamepadconnected</a>",
+      "text": "ongamepadconnected"
+    },
+    "description": {
+      "html": "Represents an event handler that will run when a gamepad is connected (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/gamepadconnected\" title=\"/en-US/docs/Web/Events/gamepadconnected\">gamepadconnected</a></code> event fires).",
+      "text": "Represents an event handler that will run when a gamepad is connected (when the gamepadconnected event fires)."
+    }
+  },
+  "ongamepaddisconnected": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/ongamepaddisconnected",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/ongamepaddisconnected\">ongamepaddisconnected</a>",
+      "text": "ongamepaddisconnected"
+    },
+    "description": {
+      "html": "Represents an event handler that will run when a gamepad is disconnected (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/gamepaddisconnected\" title=\"/en-US/docs/Web/Events/gamepaddisconnected\">gamepaddisconnected</a></code> event fires).",
+      "text": "Represents an event handler that will run when a gamepad is disconnected (when the gamepaddisconnected event fires)."
+    }
+  },
+  "onmozbeforepaint": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onmozbeforepaint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onmozbeforepaint\">onmozbeforepaint</a>",
+      "text": "onmozbeforepaint"
+    },
+    "description": {
+      "html": "An event handler property for the <code>MozBeforePaint</code> event, which is sent before repainting the window if the event has been requested by a call to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/mozRequestAnimationFrame\"><code>Window.mozRequestAnimationFrame()</code></a> method.",
+      "text": "An event handler property for the MozBeforePaint event, which is sent before repainting the window if the event has been requested by a call to the Window.mozRequestAnimationFrame() method."
+    }
+  },
+  "onpaint": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onpaint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onpaint\">onpaint</a>",
+      "text": "onpaint"
+    },
+    "description": {
+      "html": "An event handler property for paint events on the window.",
+      "text": "An event handler property for paint events on the window."
+    }
+  },
+  "onrejectionhandled": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onrejectionhandled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onrejectionhandled\">onrejectionhandled</a>",
+      "text": "onrejectionhandled"
+    },
+    "description": {
+      "html": "An event handler for handled <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a> rejection events.",
+      "text": "An event handler for handled Promise rejection events."
+    }
+  },
+  "onuserproximity": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onuserproximity",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onuserproximity\">onuserproximity</a>",
+      "text": "onuserproximity"
+    },
+    "description": {
+      "html": "An event handler property for user proximity events.",
+      "text": "An event handler property for user proximity events."
+    }
+  },
+  "onvrdisplayconnect": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplayconnect",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplayconnect\">onvrdisplayconnect</a>",
+      "text": "onvrdisplayconnect"
+    },
+    "description": {
+      "html": "Represents an event handler that will run when a compatible VR device has been connected to the computer (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/vrdisplayconnected\" title=\"/en-US/docs/Web/Events/vrdisplayconnected\">vrdisplayconnected</a></code> event fires).",
+      "text": "Represents an event handler that will run when a compatible VR device has been connected to the computer (when the vrdisplayconnected event fires)."
+    }
+  },
+  "onvrdisplaydisconnect": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplaydisconnect",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplaydisconnect\">onvrdisplaydisconnect</a>",
+      "text": "onvrdisplaydisconnect"
+    },
+    "description": {
+      "html": "Represents an event handler that will run when a compatible VR device has been disconnected from the computer (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/vrdisplaydisconnected\" title=\"/en-US/docs/Web/Events/vrdisplaydisconnected\">vrdisplaydisconnected</a></code> event fires).",
+      "text": "Represents an event handler that will run when a compatible VR device has been disconnected from the computer (when the vrdisplaydisconnected event fires)."
+    }
+  },
+  "onvrdisplayactivate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplayactivate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplayactivate\">onvrdisplayactivate</a>",
+      "text": "onvrdisplayactivate"
+    },
+    "description": {
+      "html": "Represents an event handler that will run when a display is able to be presented to (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/vrdisplayactivate\" title=\"/en-US/docs/Web/Events/vrdisplayactivate\">vrdisplayactivate</a></code> event fires), for example if an HMD has been moved to bring it out of standby, or woken up by being put on.",
+      "text": "Represents an event handler that will run when a display is able to be presented to (when the vrdisplayactivate event fires), for example if an HMD has been moved to bring it out of standby, or woken up by being put on."
+    }
+  },
+  "onvrdisplaydeactivate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplaydeactivate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplaydeactivate\">onvrdisplaydeactivate</a>",
+      "text": "onvrdisplaydeactivate"
+    },
+    "description": {
+      "html": "Represents an event handler that will run when a display can no longer be presented to (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/vrdisplaydeactivate\" title=\"/en-US/docs/Web/Events/vrdisplaydeactivate\">vrdisplaydeactivate</a></code> event fires), for example if an HMD has gone into standby or sleep mode due to a period of inactivity.",
+      "text": "Represents an event handler that will run when a display can no longer be presented to (when the vrdisplaydeactivate event fires), for example if an HMD has gone into standby or sleep mode due to a period of inactivity."
+    }
+  },
+  "onvrdisplayblur": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplayblur",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplayblur\">onvrdisplayblur</a>",
+      "text": "onvrdisplayblur"
+    },
+    "description": {
+      "html": "Represents an event handler that will run when presentation to a display has been paused for some reason by the browser, OS, or VR hardware (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/vrdisplayblur\" title=\"/en-US/docs/Web/Events/vrdisplayblur\">vrdisplayblur</a></code> event fires) &#x2014; for example, while the user is interacting with a system menu or browser, to prevent tracking or loss of experience.",
+      "text": "Represents an event handler that will run when presentation to a display has been paused for some reason by the browser, OS, or VR hardware (when the vrdisplayblur event fires) — for example, while the user is interacting with a system menu or browser, to prevent tracking or loss of experience."
+    }
+  },
+  "onvrdisplayfocus": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplayfocus",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplayfocus\">onvrdisplayfocus</a>",
+      "text": "onvrdisplayfocus"
+    },
+    "description": {
+      "html": "Represents an event handler that will run when presentation to a display has resumed after being blurred (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/vrdisplayfocus\" title=\"/en-US/docs/Web/Events/vrdisplayfocus\">vrdisplayfocus</a></code> event fires).",
+      "text": "Represents an event handler that will run when presentation to a display has resumed after being blurred (when the vrdisplayfocus event fires)."
+    }
+  },
+  "onvrdisplaypresentchange": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplaypresentchange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/onvrdisplaypresentchange\">onvrdisplaypresentchange</a>",
+      "text": "onvrdisplaypresentchange"
+    },
+    "description": {
+      "html": "represents an event handler that will run when the presenting state of a VR device changes &#x2014; i.e. goes from presenting to not presenting, or vice versa (when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/vrdisplaypresentchange\" title=\"/en-US/docs/Web/Events/vrdisplaypresentchange\">vrdisplaypresentchange</a></code> event fires).",
+      "text": "represents an event handler that will run when the presenting state of a VR device changes — i.e. goes from presenting to not presenting, or vice versa (when the vrdisplaypresentchange event fires)."
+    }
+  },
+  "onafterprint": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onafterprint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onafterprint\">onafterprint</a>",
+      "text": "onafterprint"
+    },
+    "description": {
+      "html": "Called when the print dialog box is closed. See <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/afterprint\" title=\"/en-US/docs/Web/Events/afterprint\">afterprint</a></code> event.",
+      "text": "Called when the print dialog box is closed. See afterprint event."
+    }
+  },
+  "onbeforeprint": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onbeforeprint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onbeforeprint\">onbeforeprint</a>",
+      "text": "onbeforeprint"
+    },
+    "description": {
+      "html": "Called when the print dialog box is opened. See <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/beforeprint\" title=\"/en-US/docs/Web/Events/beforeprint\">beforeprint</a></code> event.",
+      "text": "Called when the print dialog box is opened. See beforeprint event."
+    }
+  },
+  "onbeforeunload": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onbeforeunload",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onbeforeunload\">onbeforeunload</a>",
+      "text": "onbeforeunload"
+    },
+    "description": {
+      "html": "An event handler property for before-unload events on the window.",
+      "text": "An event handler property for before-unload events on the window."
+    }
+  },
+  "onhashchange": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onhashchange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onhashchange\">onhashchange</a>",
+      "text": "onhashchange"
+    },
+    "description": {
+      "html": "An event handler property for <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/hashchange\" title=\"/en-US/docs/Web/Events/hashchange\">hashchange</a></code> events on the window; called when the part of the URL after the hash mark (&quot;#&quot;) changes.",
+      "text": "An event handler property for hashchange events on the window; called when the part of the URL after the hash mark (\"#\") changes."
+    }
+  },
+  "onlanguagechange": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onlanguagechange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onlanguagechange\">onlanguagechange</a>",
+      "text": "onlanguagechange"
+    },
+    "description": {
+      "html": "An event handler property for <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/languagechange\" title=\"/en-US/docs/Web/Events/languagechange\">languagechange</a></code> events on the window.",
+      "text": "An event handler property for languagechange events on the window."
+    }
+  },
+  "onmessage": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onmessage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onmessage\">onmessage</a>",
+      "text": "onmessage"
+    },
+    "description": {
+      "html": "Is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventHandler\"><code>EventHandler</code></a> representing the code to be called when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/message\" title=\"/en-US/docs/Web/Events/message\">message</a></code> event is raised.",
+      "text": "Is an EventHandler representing the code to be called when the message event is raised."
+    }
+  },
+  "onoffline": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onoffline",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onoffline\">onoffline</a>",
+      "text": "onoffline"
+    },
+    "description": {
+      "html": "Called when network connection is lost. See <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/offline\" title=\"/en-US/docs/Web/Events/offline\">offline</a></code> event.",
+      "text": "Called when network connection is lost. See offline event."
+    }
+  },
+  "ononline": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/ononline",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/ononline\">ononline</a>",
+      "text": "ononline"
+    },
+    "description": {
+      "html": "Called when network connection is established. See <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/online\" title=\"/en-US/docs/Web/Events/online\">online</a></code> event.",
+      "text": "Called when network connection is established. See online event."
+    }
+  },
+  "onpagehide": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpagehide",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpagehide\">onpagehide</a>",
+      "text": "onpagehide"
+    },
+    "description": {
+      "html": "Called when the user navigates away from the page, before the onunload event. See <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pagehide\" title=\"/en-US/docs/Web/Events/pagehide\">pagehide</a></code> event.",
+      "text": "Called when the user navigates away from the page, before the onunload event. See pagehide event."
+    }
+  },
+  "onpageshow": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpageshow",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpageshow\">onpageshow</a>",
+      "text": "onpageshow"
+    },
+    "description": {
+      "html": "Called after all resources and the DOM are fully loaded. See <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pageshow\" title=\"/en-US/docs/Web/Events/pageshow\">pageshow</a></code> event.",
+      "text": "Called after all resources and the DOM are fully loaded. See pageshow event."
+    }
+  },
+  "onpopstate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate\">onpopstate</a>",
+      "text": "onpopstate"
+    },
+    "description": {
+      "html": "Called when a back button is pressed.",
+      "text": "Called when a back button is pressed."
+    }
+  },
+  "onstorage": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onstorage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onstorage\">onstorage</a>",
+      "text": "onstorage"
+    },
+    "description": {
+      "html": "Called when there is a change in session storage or local storage. See <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/storage\" title=\"/en-US/docs/Web/Events/storage\">storage</a></code> event",
+      "text": "Called when there is a change in session storage or local storage. See storage event"
+    }
+  },
+  "onunhandledrejection": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onunhandledrejection",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onunhandledrejection\">onunhandledrejection</a>",
+      "text": "onunhandledrejection"
+    },
+    "description": {
+      "html": "An event handler for unhandled <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a> rejection events.",
+      "text": "An event handler for unhandled Promise rejection events."
+    }
+  },
+  "onunload": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onunload",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onunload\">onunload</a>",
+      "text": "onunload"
+    },
+    "description": {
+      "html": "Called when the user navigates away from the page.",
+      "text": "Called when the user navigates away from the page."
+    }
+  }
+}

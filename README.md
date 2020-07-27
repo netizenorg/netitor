@@ -60,8 +60,11 @@ ne.autoUpdate = false
 ne.updateDelay = 2000
 ne.friendlyErr = false
 ```
+### read-only properites
 
 Netitor is a fully static web-based editor, as such it allows you to save and load code sketches to the URL (no database or back-end needed to save/share/remix/etc), in order to check if the current URL has a hash with code/data in it you can use `ne.hasCodeInHash`, this read-only property returns either `true` or `false`
+
+You can check to see if the code in the editor is "tidy" (aka property formatted/indented) by calling `ne.isTidy`.
 
 ## Methods
 
@@ -74,6 +77,8 @@ Netitor is a fully static web-based editor, as such it allows you to save and lo
 **loadFromHash()**: if the current site's URL hash has encoded/compressed code in it (which you can check for using `ne.hasCodeInHash`) this will decode the URL and load the data into the editor.
 
 **loadFromURL(url)**: if you have some example code saved online somewhere (with CORS enabled) this method will send a fetch request for that code and load it up in the editor.
+
+**tidy()**: calling this method will clean-up (aka format) the code in the editor (fix spacing, indentation, etc).
 
 **on('event-name', callbackFunction)**: the netitor has a l(still working on it)ist of events you can listen for and pass a callback function to, for example:
 
@@ -90,12 +95,21 @@ ne.on('code-update', (event) => {
 **hint-select**: This fires every time the user tabs up or down in the autocomplete hinting menu with the up/down arrow keys. The data object passed into the callback function contains the language of and the autocomplete option currently selected, an example might look like this:
 ```js
 {
-  language: 'css',
-  data: 'color'
+  language: "css",
+  data: "color"
 }
 ```
 
-**lint-error**: Assuming you have `lint` set to `true`, if/when there are any errors in the netitor this callback will fire (**STILL IN DEVELOPMENT**)
+**lint-error**: Assuming you have `lint` set to `true`, if/when there are any errors in the netitor this callback will fire. The callback gets passed an array of error objects. These error objects vary a bit between languages but will all have at the very least the following properties:
+```js
+{
+  type: "error", // or "warning"
+  message: "traditional error message in programmer lingo",
+  friendly: "beginner friendly error message",
+  line: 6, // line where the error was found
+  col: 3 // column where the error was found
+}
+```
 
 **edu-info**: Anytime you double-click on a piece of code in the netitor this callback will fire. The data object passed into the callback function will at the very least look this:
 ```js

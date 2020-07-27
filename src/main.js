@@ -1,5 +1,8 @@
 /* global HTMLElement */
 const pako = require('pako')
+const beautifyJS = require('js-beautify')
+const beautifyCSS = require('js-beautify').css
+const beautifyHTML = require('js-beautify').html
 const CodeMirror = require('codemirror')
 require('codemirror/mode/htmlmixed/htmlmixed')
 require('codemirror/keymap/sublime')
@@ -15,10 +18,7 @@ require('codemirror/addon/hint/html-hint')
 require('codemirror/addon/hint/css-hint')
 require('codemirror/addon/hint/javascript-hint')
 
-const htmlLinter = require('./linters/htmlLinter.js')
-const cssLinter = require('./linters/cssLinter.js')
-const jsLinter = require('./linters/jsLinter.js')
-
+const linter = require('./linters/index.js')
 const hinter = require('./hinters/index.js')
 const eduData = require('./edu-data/index.js')
 
@@ -66,9 +66,6 @@ class Netitor {
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸  PROPERTIES
 
-  get hasCodeInHash () { return window.location.hash.indexOf('#code/') === 0 }
-  set hasCodeInHash (v) { this.err('hasCodeInHash is read only') }
-
   get code () { return this.cm.getValue() }
   set code (v) { this.cm.setValue(v) }
 
@@ -98,6 +95,14 @@ class Netitor {
     this.cm = null
     this._createEditor()
   }
+
+  // ................................................. read-only properties
+
+  get hasCodeInHash () { return window.location.hash.indexOf('#code/') === 0 }
+  set hasCodeInHash (v) { this.err('hasCodeInHash is read only') }
+
+  get isTidy () { return this._tidy(true) }
+  set isTidy (v) { this.err('isTidy is read only') }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  SETUP
@@ -190,19 +195,17 @@ class Netitor {
   _delayUpdate (cm) {
     // TODO: better debounce logic, so this doesn't run unless there's been an _adly worth of non typing in editor
     clearTimeout(this._autoCallback)
-    if (this._prevState !== this.cm.getValue()) {
-      this.emit('code-update', this.code)
-      this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
-    }
+    this.emit('code-update', this.code)
+    this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
     this._prevState = this.cm.getValue()
   }
 
-  _update (cm) {
+  async _update (cm) {
     if (this._hint && this._shouldHint(cm)) cm.showHint()
     const h = document.querySelector('.CodeMirror-hints')
-    const errz = (this._lint && !h) ? this._runLint(cm) : []
+    const errz = (this._lint && !h) ? await linter(cm) : []
     if (errz) this.emit('lint-error', errz)
-    if (this._auto && !h) this.update()
+    if (this._auto && !h && errz.length === 0) this.update()
   }
 
   _updateRenderIframe () {
@@ -224,7 +227,7 @@ class Netitor {
     const tok = cm.getTokenAt(pos)
     const line = cm.getLine(pos.line)
     // check to make sure user is actually typing something
-    const typing = tok.string.length > 0
+    const typing = tok.string.replace(/\s/g, '').length > 0
     const nextChar = line.slice(tok.end, tok.end + 1)
     // check to make sure the cursor is at the end of a lone word
     // otherwise we'll be creating hint menus all the time
@@ -233,19 +236,32 @@ class Netitor {
     const paren = nextChar === ')'
     // check to see if the cursor is inside of a tag (for attributes)
     const tagAttr = nextChar === '>'
+    // check for JS event args (rest of logic in jsHinter)
+    const jsArg = cm.getModeAt(pos).name === 'javascript' && nextChar === ','
 
-    return typing && ((alone || paren) || tagAttr)
+    return typing && (alone || paren || tagAttr || jsArg)
+  }
+
+  _placeHintCursor (cm, data) {
+    const cur = '<CURSOR_GOES_HERE>'
+    if (data.text.includes(cur) && this.code.includes(cur)) {
+      const arr = this.code.split('\n')
+      const str = arr.find(s => s.includes(cur))
+      const idx = arr.indexOf(str)
+      const col = str.indexOf(cur)
+      this.code = this.code.replace(cur, '')
+      cm.setCursor({ line: idx, ch: col })
+    }
   }
 
   _hinter (cm, options) {
-    // TODO consider how i might augment default lists (see my old hinters)
     const pos = cm.getCursor()
     const lan = cm.getModeAt(pos).name
-    const res = (lan === 'xml' || lan === 'css')
-      ? hinter(cm, options)
-      : cm.getHelpers(pos, 'hint')[0](cm, options)
+    const res = hinter(cm, options)
     if (!res) return null
     if (!res.list) res.list = []
+    CodeMirror.on(res, 'close', () => { this._delayUpdate(cm) })
+    CodeMirror.on(res, 'pick', (d) => { this._placeHintCursor(cm, d) })
     CodeMirror.on(res, 'select', (data) => {
       const language = lan === 'xml' ? 'html' : lan
       this.emit('hint-select', { language, data })
@@ -253,17 +269,19 @@ class Netitor {
     return res
   }
 
-  _runLint (cm) {
-    let errz = []
-    if (this._lang === 'css') {
-      errz = errz.concat(cssLinter(this.code))
-    } else if (this._lang === 'javascript') {
-      errz = errz.concat(jsLinter(this.code))
-    } else {
-      // TODO: parse out CSS && JS to lint separately
-      errz = errz.concat(htmlLinter(this.code))
+  _tidy (checkOnly) {
+    const o = {
+      indent_size: 2,
+      indent_inner_html: true,
+      extra_liners: []
     }
-    return errz
+
+    const clean = (this._lang === 'css')
+      ? beautifyCSS(this.code, o) : (this._lang === 'javascript')
+        ? beautifyJS(this.code, o) : beautifyHTML(this.code, o)
+
+    if (!checkOnly) this.code = clean
+    return this.code === clean
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
@@ -322,6 +340,8 @@ class Netitor {
       .then(text => { this.code = text })
       .catch(err => this.err(err))
   }
+
+  tidy () { this._tidy() }
 
   update () {
     if (this.iframe) this._updateRenderIframe()

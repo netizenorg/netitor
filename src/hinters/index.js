@@ -1,5 +1,6 @@
 const htmlHinter = require('./htmlHinter.js')
 const cssHinter = require('./cssHinter.js')
+const jsHinter = require('./jsHinter.js')
 
 function reOrder (list, str) {
   const newIdx = 0
@@ -31,6 +32,7 @@ function main (cm, options) {
   let list = []
   if (lan === 'xml') list = htmlHinter(tok)
   else if (lan === 'css') list = cssHinter(tok, cm)
+  else if (lan === 'javascript') list = jsHinter(tok, cm)
 
   // move most likely item to the top of the list
   if (list) list = reOrder(list, tok.string)

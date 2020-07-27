@@ -1,0 +1,602 @@
+{
+  "now": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/now\">now()</a>",
+      "text": "now()"
+    },
+    "description": {
+      "html": "Returns the numeric value corresponding to the current time&#x2014;the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC, with leap seconds ignored.",
+      "text": "Returns the numeric value corresponding to the current time—the number of milliseconds elapsed since January 1, 1970 00:00:00 UTC, with leap seconds ignored."
+    }
+  },
+  "parse": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/parse\">parse()</a>",
+      "text": "parse()"
+    },
+    "description": {
+      "html": "Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored.\n <div class=\"note\">\n <p><strong>Note:</strong> Parsing of strings with <code>Date.parse</code> is strongly discouraged due to browser differences and inconsistencies.</p>\n </div>\n ",
+      "text": "Parses a string representation of a date and returns the number of milliseconds since 1 January, 1970, 00:00:00 UTC, with leap seconds ignored.\n \n Note: Parsing of strings with Date.parse is strongly discouraged due to browser differences and inconsistencies.\n \n "
+    }
+  },
+  "UTC": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC\">UTC()</a>",
+      "text": "UTC()"
+    },
+    "description": {
+      "html": "Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC, with leap seconds ignored.",
+      "text": "Accepts the same parameters as the longest form of the constructor (i.e. 2 to 7) and returns the number of milliseconds since January 1, 1970, 00:00:00 UTC, with leap seconds ignored."
+    }
+  },
+  "getDate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate\">getDate()</a>",
+      "text": "getDate()"
+    },
+    "description": {
+      "html": "Returns the day of the month (<code>1</code>&#x2013;<code>31</code>) for the specified date according to local time.",
+      "text": "Returns the day of the month (1–31) for the specified date according to local time."
+    }
+  },
+  "getDay": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay\">getDay()</a>",
+      "text": "getDay()"
+    },
+    "description": {
+      "html": "Returns the day of the week (<code>0</code>&#x2013;<code>6</code>) for the specified date according to local time.",
+      "text": "Returns the day of the week (0–6) for the specified date according to local time."
+    }
+  },
+  "getFullYear": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear\">getFullYear()</a>",
+      "text": "getFullYear()"
+    },
+    "description": {
+      "html": "Returns the year (4 digits for 4-digit years) of the specified date according to local time.",
+      "text": "Returns the year (4 digits for 4-digit years) of the specified date according to local time."
+    }
+  },
+  "getHours": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours\">getHours()</a>",
+      "text": "getHours()"
+    },
+    "description": {
+      "html": "Returns the hour (<code>0</code>&#x2013;<code>23</code>) in the specified date according to local time.",
+      "text": "Returns the hour (0–23) in the specified date according to local time."
+    }
+  },
+  "getMilliseconds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds\">getMilliseconds()</a>",
+      "text": "getMilliseconds()"
+    },
+    "description": {
+      "html": "Returns the milliseconds (<code>0</code>&#x2013;<code>999</code>) in the specified date according to local time.",
+      "text": "Returns the milliseconds (0–999) in the specified date according to local time."
+    }
+  },
+  "getMinutes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes\">getMinutes()</a>",
+      "text": "getMinutes()"
+    },
+    "description": {
+      "html": "Returns the minutes (<code>0</code>&#x2013;<code>59</code>) in the specified date according to local time.",
+      "text": "Returns the minutes (0–59) in the specified date according to local time."
+    }
+  },
+  "getMonth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth\">getMonth()</a>",
+      "text": "getMonth()"
+    },
+    "description": {
+      "html": "Returns the month (<code>0</code>&#x2013;<code>11</code>) in the specified date according to local time.",
+      "text": "Returns the month (0–11) in the specified date according to local time."
+    }
+  },
+  "getSeconds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds\">getSeconds()</a>",
+      "text": "getSeconds()"
+    },
+    "description": {
+      "html": "Returns the seconds (<code>0</code>&#x2013;<code>59</code>) in the specified date according to local time.",
+      "text": "Returns the seconds (0–59) in the specified date according to local time."
+    }
+  },
+  "getTime": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime\">getTime()</a>",
+      "text": "getTime()"
+    },
+    "description": {
+      "html": "Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC. (Negative values are returned for prior times.)",
+      "text": "Returns the numeric value of the specified date as the number of milliseconds since January 1, 1970, 00:00:00 UTC. (Negative values are returned for prior times.)"
+    }
+  },
+  "getTimezoneOffset": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset\">getTimezoneOffset()</a>",
+      "text": "getTimezoneOffset()"
+    },
+    "description": {
+      "html": "Returns the time-zone offset in minutes for the current locale.",
+      "text": "Returns the time-zone offset in minutes for the current locale."
+    }
+  },
+  "getUTCDate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDate\">getUTCDate()</a>",
+      "text": "getUTCDate()"
+    },
+    "description": {
+      "html": "Returns the day (date) of the month (<code>1</code>&#x2013;<code>31</code>) in the specified date according to universal time.",
+      "text": "Returns the day (date) of the month (1–31) in the specified date according to universal time."
+    }
+  },
+  "getUTCDay": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDay",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDay\">getUTCDay()</a>",
+      "text": "getUTCDay()"
+    },
+    "description": {
+      "html": "Returns the day of the week (<code>0</code>&#x2013;<code>6</code>) in the specified date according to universal time.",
+      "text": "Returns the day of the week (0–6) in the specified date according to universal time."
+    }
+  },
+  "getUTCFullYear": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear\">getUTCFullYear()</a>",
+      "text": "getUTCFullYear()"
+    },
+    "description": {
+      "html": "Returns the year (4 digits for 4-digit years) in the specified date according to universal time.",
+      "text": "Returns the year (4 digits for 4-digit years) in the specified date according to universal time."
+    }
+  },
+  "getUTCHours": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCHours",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCHours\">getUTCHours()</a>",
+      "text": "getUTCHours()"
+    },
+    "description": {
+      "html": "Returns the hours (<code>0</code>&#x2013;<code>23</code>) in the specified date according to universal time.",
+      "text": "Returns the hours (0–23) in the specified date according to universal time."
+    }
+  },
+  "getUTCMilliseconds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMilliseconds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMilliseconds\">getUTCMilliseconds()</a>",
+      "text": "getUTCMilliseconds()"
+    },
+    "description": {
+      "html": "Returns the milliseconds (<code>0</code>&#x2013;<code>999</code>) in the specified date according to universal time.",
+      "text": "Returns the milliseconds (0–999) in the specified date according to universal time."
+    }
+  },
+  "getUTCMinutes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMinutes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMinutes\">getUTCMinutes()</a>",
+      "text": "getUTCMinutes()"
+    },
+    "description": {
+      "html": "Returns the minutes (<code>0</code>&#x2013;<code>59</code>) in the specified date according to universal time.",
+      "text": "Returns the minutes (0–59) in the specified date according to universal time."
+    }
+  },
+  "getUTCMonth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMonth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMonth\">getUTCMonth()</a>",
+      "text": "getUTCMonth()"
+    },
+    "description": {
+      "html": "Returns the month (<code>0</code>&#x2013;<code>11</code>) in the specified date according to universal time.",
+      "text": "Returns the month (0–11) in the specified date according to universal time."
+    }
+  },
+  "getUTCSeconds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCSeconds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCSeconds\">getUTCSeconds()</a>",
+      "text": "getUTCSeconds()"
+    },
+    "description": {
+      "html": "Returns the seconds (<code>0</code>&#x2013;<code>59</code>) in the specified date according to universal time.",
+      "text": "Returns the seconds (0–59) in the specified date according to universal time."
+    }
+  },
+  "getYear": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getYear",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getYear\">getYear()</a>",
+      "text": "getYear()"
+    },
+    "description": {
+      "html": "Returns the year (usually 2&#x2013;3 digits) in the specified date according to local time. Use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear\"><code>getFullYear()</code></a> instead.",
+      "text": "Returns the year (usually 2–3 digits) in the specified date according to local time. Use getFullYear() instead."
+    }
+  },
+  "setDate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate\">setDate()</a>",
+      "text": "setDate()"
+    },
+    "description": {
+      "html": "Sets the day of the month for a specified date according to local time.",
+      "text": "Sets the day of the month for a specified date according to local time."
+    }
+  },
+  "setFullYear": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear\">setFullYear()</a>",
+      "text": "setFullYear()"
+    },
+    "description": {
+      "html": "Sets the full year (e.g. 4 digits for 4-digit years) for a specified date according to local time.",
+      "text": "Sets the full year (e.g. 4 digits for 4-digit years) for a specified date according to local time."
+    }
+  },
+  "setHours": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setHours",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setHours\">setHours()</a>",
+      "text": "setHours()"
+    },
+    "description": {
+      "html": "Sets the hours for a specified date according to local time.",
+      "text": "Sets the hours for a specified date according to local time."
+    }
+  },
+  "setMilliseconds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMilliseconds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMilliseconds\">setMilliseconds()</a>",
+      "text": "setMilliseconds()"
+    },
+    "description": {
+      "html": "Sets the milliseconds for a specified date according to local time.",
+      "text": "Sets the milliseconds for a specified date according to local time."
+    }
+  },
+  "setMinutes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMinutes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMinutes\">setMinutes()</a>",
+      "text": "setMinutes()"
+    },
+    "description": {
+      "html": "Sets the minutes for a specified date according to local time.",
+      "text": "Sets the minutes for a specified date according to local time."
+    }
+  },
+  "setMonth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth\">setMonth()</a>",
+      "text": "setMonth()"
+    },
+    "description": {
+      "html": "Sets the month for a specified date according to local time.",
+      "text": "Sets the month for a specified date according to local time."
+    }
+  },
+  "setSeconds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setSeconds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setSeconds\">setSeconds()</a>",
+      "text": "setSeconds()"
+    },
+    "description": {
+      "html": "Sets the seconds for a specified date according to local time.",
+      "text": "Sets the seconds for a specified date according to local time."
+    }
+  },
+  "setTime": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setTime",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setTime\">setTime()</a>",
+      "text": "setTime()"
+    },
+    "description": {
+      "html": "Sets the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\"><code>Date</code></a> object to the time represented by a number of milliseconds since January 1, 1970, 00:00:00 UTC. Use negative numbers for times prior.",
+      "text": "Sets the Date object to the time represented by a number of milliseconds since January 1, 1970, 00:00:00 UTC. Use negative numbers for times prior."
+    }
+  },
+  "setUTCDate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCDate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCDate\">setUTCDate()</a>",
+      "text": "setUTCDate()"
+    },
+    "description": {
+      "html": "Sets the day of the month for a specified date according to universal time.",
+      "text": "Sets the day of the month for a specified date according to universal time."
+    }
+  },
+  "setUTCFullYear": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCFullYear",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCFullYear\">setUTCFullYear()</a>",
+      "text": "setUTCFullYear()"
+    },
+    "description": {
+      "html": "Sets the full year (e.g. 4 digits for 4-digit years) for a specified date according to universal time.",
+      "text": "Sets the full year (e.g. 4 digits for 4-digit years) for a specified date according to universal time."
+    }
+  },
+  "setUTCHours": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCHours",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCHours\">setUTCHours()</a>",
+      "text": "setUTCHours()"
+    },
+    "description": {
+      "html": "Sets the hour for a specified date according to universal time.",
+      "text": "Sets the hour for a specified date according to universal time."
+    }
+  },
+  "setUTCMilliseconds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMilliseconds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMilliseconds\">setUTCMilliseconds()</a>",
+      "text": "setUTCMilliseconds()"
+    },
+    "description": {
+      "html": "Sets the milliseconds for a specified date according to universal time.",
+      "text": "Sets the milliseconds for a specified date according to universal time."
+    }
+  },
+  "setUTCMinutes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMinutes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMinutes\">setUTCMinutes()</a>",
+      "text": "setUTCMinutes()"
+    },
+    "description": {
+      "html": "Sets the minutes for a specified date according to universal time.",
+      "text": "Sets the minutes for a specified date according to universal time."
+    }
+  },
+  "setUTCMonth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMonth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMonth\">setUTCMonth()</a>",
+      "text": "setUTCMonth()"
+    },
+    "description": {
+      "html": "Sets the month for a specified date according to universal time.",
+      "text": "Sets the month for a specified date according to universal time."
+    }
+  },
+  "setUTCSeconds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCSeconds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCSeconds\">setUTCSeconds()</a>",
+      "text": "setUTCSeconds()"
+    },
+    "description": {
+      "html": "Sets the seconds for a specified date according to universal time.",
+      "text": "Sets the seconds for a specified date according to universal time."
+    }
+  },
+  "setYear": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setYear",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setYear\">setYear()</a>",
+      "text": "setYear()"
+    },
+    "description": {
+      "html": "Sets the year (usually 2&#x2013;3 digits) for a specified date according to local time. Use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear\"><code>setFullYear()</code></a> instead.",
+      "text": "Sets the year (usually 2–3 digits) for a specified date according to local time. Use setFullYear() instead."
+    }
+  },
+  "toDateString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString\">toDateString()</a>",
+      "text": "toDateString()"
+    },
+    "description": {
+      "html": "Returns the &quot;date&quot; portion of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\"><code>Date</code></a> as a human-readable string like <code>&apos;Thu Apr 12 2018&apos;</code>.",
+      "text": "Returns the \"date\" portion of the Date as a human-readable string like 'Thu Apr 12 2018'."
+    }
+  },
+  "toISOString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString\">toISOString()</a>",
+      "text": "toISOString()"
+    },
+    "description": {
+      "html": "Converts a date to a string following the ISO 8601 Extended Format.",
+      "text": "Converts a date to a string following the ISO 8601 Extended Format."
+    }
+  },
+  "toJSON": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toJSON",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toJSON\">toJSON()</a>",
+      "text": "toJSON()"
+    },
+    "description": {
+      "html": "Returns a string representing the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\"><code>Date</code></a> using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString\"><code>toISOString()</code></a>. Intended for use by <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify\"><code>JSON.stringify()</code></a>.",
+      "text": "Returns a string representing the Date using toISOString(). Intended for use by JSON.stringify()."
+    }
+  },
+  "toGMTString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toGMTString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toGMTString\">toGMTString()</a>",
+      "text": "toGMTString()"
+    },
+    "description": {
+      "html": "Returns a string representing the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\"><code>Date</code></a> based on the GMT (UTC) time zone. Use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString\"><code>toUTCString()</code></a> instead.",
+      "text": "Returns a string representing the Date based on the GMT (UTC) time zone. Use toUTCString() instead."
+    }
+  },
+  "toLocaleDateString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString\">toLocaleDateString()</a>",
+      "text": "toLocaleDateString()"
+    },
+    "description": {
+      "html": "Returns a string with a locality sensitive representation of the date portion of this date based on system settings.",
+      "text": "Returns a string with a locality sensitive representation of the date portion of this date based on system settings."
+    }
+  },
+  "toLocaleFormat": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleFormat\">toLocaleFormat()</a>",
+      "text": "toLocaleFormat()"
+    },
+    "description": {
+      "html": "Converts a date to a string, using a format string.",
+      "text": "Converts a date to a string, using a format string."
+    }
+  },
+  "toLocaleString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString\">toLocaleString()</a>",
+      "text": "toLocaleString()"
+    },
+    "description": {
+      "html": "Returns a string with a locality-sensitive representation of this date. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString\"><code>Object.prototype.toLocaleString()</code></a> method.",
+      "text": "Returns a string with a locality-sensitive representation of this date. Overrides the Object.prototype.toLocaleString() method."
+    }
+  },
+  "toLocaleTimeString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString\">toLocaleTimeString()</a>",
+      "text": "toLocaleTimeString()"
+    },
+    "description": {
+      "html": "Returns a string with a locality-sensitive representation of the time portion of this date, based on system settings.",
+      "text": "Returns a string with a locality-sensitive representation of the time portion of this date, based on system settings."
+    }
+  },
+  "toString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toString\">toString()</a>",
+      "text": "toString()"
+    },
+    "description": {
+      "html": "Returns a string representing the specified <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\"><code>Date</code></a> object. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/toString\"><code>Object.prototype.toString()</code></a> method.",
+      "text": "Returns a string representing the specified Date object. Overrides the Object.prototype.toString() method."
+    }
+  },
+  "toTimeString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString\">toTimeString()</a>",
+      "text": "toTimeString()"
+    },
+    "description": {
+      "html": "Returns the &quot;time&quot; portion of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\"><code>Date</code></a> as a human-readable string.",
+      "text": "Returns the \"time\" portion of the Date as a human-readable string."
+    }
+  },
+  "toUTCString": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString\">toUTCString()</a>",
+      "text": "toUTCString()"
+    },
+    "description": {
+      "html": "Converts a date to a string using the UTC timezone.",
+      "text": "Converts a date to a string using the UTC timezone."
+    }
+  },
+  "valueOf": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/valueOf",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/valueOf\">valueOf()</a>",
+      "text": "valueOf()"
+    },
+    "description": {
+      "html": "Returns the primitive value of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date\"><code>Date</code></a> object. Overrides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf\"><code>Object.prototype.valueOf()</code></a> method.",
+      "text": "Returns the primitive value of a Date object. Overrides the Object.prototype.valueOf() method."
+    }
+  }
+}
