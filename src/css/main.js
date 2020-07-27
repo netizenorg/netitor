@@ -617,22 +617,26 @@ light syntax highlighting theme
 
 /* HINTING STYLES: AUTO-COMPLETE DROPDOWN LIST */
 .CodeMirror-hints.light {
-  color: var(--netizen-black);
-  background: var(--netizen-white);
-  padding: 11px;
+  color: var(--light-bracket);
+  background: #fff;
+  padding: 8px 11px;
+  font-size: 14px;
   border-radius: 8px;
-  border: 3px solid var(--netizen-red);
-  box-shadow: -9px 10px 25px -17px rgba(230,219,111,0.75);
+  border: 3px solid var(--light-bracket);
+  box-shadow: -9px 10px 25px -17px rgba(170,144,254,0.75);
 }
 
 .CodeMirror-hints.light > .CodeMirror-hint {
   /* individual items */
+  color: var(--light-bracket);
+  margin: 2px 0;
+  padding: 3px 4px 4px;
 }
 
 .CodeMirror-hints.light > .CodeMirror-hint.CodeMirror-hint-active {
   /* selected item */
-  color: var(--netizen-black);
-  background: var(--netizen-yellow);
+  color: #fff;
+  background: var(--light-red);
 }
 
 
@@ -648,7 +652,7 @@ dark syntax highlighting theme
   --dark-red: #c76ebc;
   --dark-orange: #d5805e;
 
-  --dark-bracket: #e7e5c9;
+  --dark-txt: #e7e5c9;
   --dark-comment: #515199;
   --dark-gray: #c3c3db;
 }
@@ -660,7 +664,7 @@ dark syntax highlighting theme
   letter-spacing: 0.3px;
   word-spacing: 1px;
   background: #1c1c36;
-  color: var(--dark-bracket);
+  color: var(--dark-txt);
   height: 100%;
 }
 
@@ -670,7 +674,7 @@ dark syntax highlighting theme
 
 .cm-s-dark .CodeMirror-gutters {
   background-color: #1c1c36;
-  color: var(--dark-bracket);
+  color: var(--dark-txt);
   padding-right: 10px;
   z-index: 3;
   border: none;
@@ -682,7 +686,7 @@ dark syntax highlighting theme
 
 .cm-s-dark div.CodeMirror-cursor {
   width: 1px;
-  border-left: 2px solid var(--dark-bracket);
+  border-left: 2px solid var(--dark-txt);
 }
 
 .cm-s-dark .CodeMirror-activeline-background { 
@@ -695,7 +699,6 @@ dark syntax highlighting theme
   color: var(--dark-comment);
 }
 .cm-s-dark .cm-tag.cm-bracket {
-  color: var(--dark-bracket);
   color: var(--dark-gray);
 }
 .cm-s-dark .cm-property {
@@ -753,8 +756,6 @@ dark syntax highlighting theme
   color: var(--dark-orange);
 }
 
-/* all purple */
-
 /* all red */
 .cm-s-dark .cm-operator {
   color: var(--dark-red);
@@ -765,11 +766,35 @@ dark syntax highlighting theme
 
 /* THE LITTLE UNDERLINE THAT APPEARS WHEN A TAG OR BRACKET IS SELECTED */
 .cm-s-dark .CodeMirror-matchingbracket {
-  color: var(--dark-bracket) !important;
+  color: var(--dark-txt) !important;
 }
 .cm-s-dark .CodeMirror-matchingbracket, .CodeMirror-matchingtag {
   padding-bottom: 3px;
-  color: var(--dark-bracket);
+  color: var(--dark-txt);
   border-bottom: 2px solid var(--dark-comment) !important;
+}
+
+/* HINTING STYLES: AUTO-COMPLETE DROPDOWN LIST */
+.CodeMirror-hints.dark {
+  color: var(--dark-txt);
+  background: #1c1c36;
+  padding: 8px 11px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 3px solid var(--dark-txt);
+  box-shadow: -9px 10px 25px -17px rgba(81,81,153,0.75);
+}
+
+.CodeMirror-hints.dark > .CodeMirror-hint {
+  /* individual items */
+  color: var(--dark-txt);
+  margin: 2px 0;
+  padding: 3px 4px 4px;
+}
+
+.CodeMirror-hints.dark > .CodeMirror-hint.CodeMirror-hint-active {
+  /* selected item */
+  color: #1c1c36;
+  background: var(--dark-yellow);
 }
 `
