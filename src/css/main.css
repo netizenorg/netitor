@@ -115,8 +115,9 @@ light syntax highlighting theme
   --light-green: #72d6ad;
   --light-blue: #26a6e9;
   --light-yellow: #dfd29b;
-  --light-purple: #8258feb5;
+  --light-purple: #aa90fe;
   --light-red: #E07E7E;
+  --light-orange: #ef9f9f;
 
   --light-bracket: #aa9595;
   --light-comment: #d3c8c8;
@@ -165,66 +166,69 @@ light syntax highlighting theme
 .cm-s-light .CodeMirror-linenumber {
   color: var(--light-bracket);
 }
-.cm-s-light .cm-string-2 {
-  /*color: #9B9DCF;*/
-}
-.cm-s-light .cm-variable {
-
-}
-.cm-s-light .cm-variable-2 {
-
-}
-.cm-s-light .cm-variable-3 {
-
-}
-.cm-s-light .cm-meta {
-  
-}
-.cm-s-light .cm-operator {
-  
-}
 .cm-s-light .cm-tag.cm-bracket {
   color: var(--light-bracket);
 }
-.cm-s-light .cm-string {
-  color: var(--light-bracket);
+.cm-s-light .cm-property {
+  color: var(--light-gray);
 }
-
-/* all red */
-
-/* all green */
+.cm-s-light .cm-atom {
+  color: var(--light-gray);
+}
 .cm-s-light .cm-def {
   font-style: normal; 
-  color:var(--light-green);
+  color: var(--light-gray);
 }
-.cm-s-light .cm-number {
+.cm-s-light .cm-variable-3 {
+  color: var(--light-gray);
+}
+.cm-s-light .cm-meta {
+  color: var(--light-gray);
+}
+
+/* all green */
+.cm-s-light .cm-variable {
   color: var(--light-green);
 }
 
 /* all blue */
-.cm-s-light .cm-builtin {
-  color: var(--light-blue);
+.cm-s-light .cm-variable.cm-callee {
+  color: var(--netizen-blue);
 }
-.cm-s-light .cm-qualifier {
-  color: var(--light-blue);
+.cm-s-light .cm-variable-2 {
+  color: var(--netizen-blue);
 }
-.cm-s-light .cm-attribute {
-  color: var(--light-blue);
+.cm-s-light .cm-string {
+  color: var(--netizen-blue);
 }
-.cm-s-light .cm-property {
-  color: var(--light-blue);
-}
-.cm-s-light .cm-atom {
-  color: var(--light-blue);
+.cm-s-light .cm-string-2 {
+  color: var(--netizen-blue);
 }
 
 /* all yellow */
-.cm-s-light .cm-keyword {
+.cm-s-light .cm-number {
   color: var(--light-yellow);
 }
 
-/* all purple */
+/* all orange */
+.cm-s-light .cm-operator {
+  color: var(--light-orange);
+}
 .cm-s-light .cm-tag {
+  color: var(--light-orange);
+}
+
+/* all purple */
+.cm-s-light .cm-attribute {
+  color: var(--light-purple);
+}
+.cm-s-light .cm-qualifier {
+  color: var(--light-purple);
+}
+.cm-s-light .cm-builtin {
+  color: var(--light-purple);
+}
+.cm-s-light .cm-keyword {
   color: var(--light-purple);
 }
 
