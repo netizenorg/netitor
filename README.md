@@ -54,7 +54,7 @@ all of these options can be changed at any point by reassigning the property of 
 
 ```js
 ne.code = '<h1> some other code </h1>'
-ne.theme = 'monokai'
+ne.theme = 'monokai' // or 'light' or 'dark'
 ne.background = false
 ne.language = 'css'
 ne.lint = false
