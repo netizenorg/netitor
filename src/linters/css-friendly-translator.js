@@ -9,8 +9,18 @@ function reformatObj (obj, warning) {
 }
 
 function parseVals (str) {
-  return str.match(/((?<![\\])['"])((?:.(?!(?<![\\])\1))*.?)\1/g)
-    .map(s => s.substr(1, s.length - 2))
+  const arr = []
+  let init = false
+  let idx = -1
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === '"') {
+      init = !init
+      if (init) arr[++idx] = ''
+    } else {
+      if (init) arr[idx] += str[i]
+    }
+  }
+  return arr
 }
 
 const dict = {
