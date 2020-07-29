@@ -24,7 +24,8 @@ const ne = new Netitor({
   ele: '#editor',
   render: '#output',
   code: '<h1> example code here </h1>',
-  theme: 'netizen',
+  theme: 'dark',
+  background: true,
   language: 'html',
   lint: true,
   hint: true,
@@ -38,7 +39,8 @@ const ne = new Netitor({
 |:---:|:---:|:---:|
 | render | none | query selector string of an element to display the realtime  code output in
 | code | none | initial code to include in the editor
-| theme | netizen | syntax highlight theme to use
+| theme | dark | syntax highlight theme to use
+| background | true | if false, background will be transparent
 | language | html | can be html, css or javascript
 | lint | true | whether or not to check for errors in realtime
 | hint | true | whether or not to display autocomplete menus
@@ -52,7 +54,8 @@ all of these options can be changed at any point by reassigning the property of 
 
 ```js
 ne.code = '<h1> some other code </h1>'
-ne.theme = 'default'
+ne.theme = 'monokai'
+ne.background = false
 ne.language = 'css'
 ne.lint = false
 ne.hint = false

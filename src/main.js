@@ -41,6 +41,7 @@ class Netitor {
     this._clrz = typeof opts.theme === 'string' ? opts.theme : 'dark'
     this._lint = typeof opts.lint === 'boolean' ? opts.lint : true
     this._hint = typeof opts.hint === 'boolean' ? opts.hint : true
+    this._bgcl = typeof opts.background === 'boolean' ? opts.background : true
     this._auto = typeof opts.autoUpdate === 'boolean' ? opts.autoUpdate : true
     this._adly = typeof opts.updateDelay === 'number' ? opts.updateDelay : 500
     this._ferr = typeof opts.friendlyErr === 'boolean' ? opts.friendlyErr : true
@@ -88,6 +89,9 @@ class Netitor {
   get theme () { return this._clrz }
   set theme (v) { this._updateTheme(v) }
 
+  get background () { return this._bgcl }
+  set background (v) { this._updateBG(v) }
+
   get language () { return this._lang }
   set language (v) {
     this._lang = v
@@ -114,6 +118,9 @@ class Netitor {
     style.type = 'text/css'
     style.innerHTML = CSS
     document.getElementsByTagName('head')[0].appendChild(style)
+    // update CSS variables to match chosen theme
+    this._updateTheme(this._clrz)
+    this._updateBG(this._bgcl)
   }
 
   _createEditor (ele) {
@@ -294,6 +301,14 @@ class Netitor {
       const val = THEMES[v][p]
       document.documentElement.style.setProperty(cssVar, val)
     }
+  }
+
+  _updateBG (v) {
+    if (typeof v !== 'boolean') return this.err('background must be a boolean')
+
+    this._bgcl = v
+    const val = (this._bgcl) ? THEMES[this.theme].background : '#00000000'
+    document.documentElement.style.setProperty('--netizen-background', val)
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
