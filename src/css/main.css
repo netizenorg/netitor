@@ -31,7 +31,7 @@
 }
 
 .cm-s-netizen .CodeMirror-gutters {
-  background-color: var(--netizen-black);
+  background-color: #2f2f59;
   padding-right: 10px;
   z-index: 3;
   border: none;
@@ -91,4 +91,323 @@
   /* selected item */
   color: var(--netizen-black);
   background: var(--netizen-yellow);
+}
+
+
+
+/*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
+light syntax highlighting theme
+•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*/
+
+:root {
+  --light-green: #72d6ad;
+  --light-blue: #26a6e9;
+  --light-yellow: #dfd29b;
+  --light-purple: #aa90fe;
+  --light-red: #E07E7E;
+  --light-orange: #ef9f9f;
+
+  --light-bracket: #aa9595;
+  --light-comment: #d3c8c8;
+  --light-gray: #7E7E7F;
+}
+
+.cm-s-light {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: inconsolata, monospace;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  background: #fff;
+  color: var(--light-bracket);
+  height: 100%;
+}
+
+.cm-s-light .CodeMirror-lines {
+  padding: 8px 0;
+}
+
+.cm-s-light .CodeMirror-gutters {
+  background-color: #fff;
+  color: var(--light-bracket);
+  padding-right: 10px;
+  z-index: 3;
+  border: none;
+  margin-right:5px;
+}
+.cm-s-light .CodeMirror-linenumber {
+  color: #cdb1ae;
+}
+
+.cm-s-light div.CodeMirror-cursor {
+  width: 1px;
+  border-left: 2px solid var(--light-bracket);
+}
+
+.cm-s-light .CodeMirror-activeline-background { 
+  background: var(--light-gray);
+}
+.cm-s-light .CodeMirror-selected {
+  background: rgba(49, 49, 50, 0.1);
+}
+.cm-s-light .cm-comment {
+  color: var(--light-comment);
+}
+.cm-s-light .cm-tag.cm-bracket {
+  color: var(--light-bracket);
+}
+.cm-s-light .cm-property {
+  color: var(--light-gray);
+}
+.cm-s-light .cm-atom {
+  color: var(--light-gray);
+}
+.cm-s-light .cm-def {
+  font-style: normal; 
+  color: var(--light-gray);
+}
+.cm-s-light .cm-variable-3 {
+  color: var(--light-gray);
+}
+.cm-s-light .cm-meta {
+  color: var(--light-gray);
+}
+
+/* all green */
+.cm-s-light .cm-variable {
+  color: var(--light-green);
+}
+
+/* all blue */
+.cm-s-light .cm-variable.cm-callee {
+  color: var(--netizen-blue);
+}
+.cm-s-light .cm-variable-2 {
+  color: var(--netizen-blue);
+}
+.cm-s-light .cm-string {
+  color: var(--netizen-blue);
+}
+.cm-s-light .cm-string-2 {
+  color: var(--netizen-blue);
+}
+
+/* all yellow */
+.cm-s-light .cm-number {
+  color: var(--light-yellow);
+}
+
+/* all orange */
+.cm-s-light .cm-operator {
+  color: var(--light-orange);
+}
+.cm-s-light .cm-tag {
+  color: var(--light-orange);
+}
+
+/* all purple */
+.cm-s-light .cm-attribute {
+  color: var(--light-purple);
+}
+.cm-s-light .cm-qualifier {
+  color: var(--light-purple);
+}
+.cm-s-light .cm-builtin {
+  color: var(--light-purple);
+}
+.cm-s-light .cm-keyword {
+  color: var(--light-purple);
+}
+
+/* THE LITTLE UNDERLINE THAT APPEARS WHEN A TAG OR BRACKET IS SELECTED */
+.cm-s-light .CodeMirror-matchingbracket {
+  color: var(--light-bracket) !important;
+}
+.cm-s-light .CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+  padding-bottom: 3px;
+  color: var(--light-bracket);
+  border-bottom: 2px solid var(--light-comment) !important;
+}
+
+/* HINTING STYLES: AUTO-COMPLETE DROPDOWN LIST */
+.CodeMirror-hints.light {
+  color: var(--light-bracket);
+  background: #fff;
+  padding: 8px 11px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 3px solid var(--light-bracket);
+  box-shadow: -9px 10px 25px -17px rgba(170,144,254,0.75);
+}
+
+.CodeMirror-hints.light > .CodeMirror-hint {
+  /* individual items */
+  color: var(--light-bracket);
+  margin: 2px 0;
+  padding: 3px 4px 4px;
+}
+
+.CodeMirror-hints.light > .CodeMirror-hint.CodeMirror-hint-active {
+  /* selected item */
+  color: #fff;
+  background: var(--light-red);
+}
+
+
+/*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
+dark syntax highlighting theme
+•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*/
+
+:root {
+  --dark-green: #81c994;
+  --dark-blue: #82ccd7;
+  --dark-yellow: #dacb8e;
+  --dark-purple: #9482d1;
+  --dark-red: #c76ebc;
+  --dark-orange: #d5805e;
+
+  --dark-txt: #e7e5c9;
+  --dark-comment: #515199;
+  --dark-gray: #c3c3db;
+}
+
+.cm-s-dark {
+  font-size: 1em;
+  line-height: 1.5em;
+  font-family: inconsolata, monospace;
+  letter-spacing: 0.3px;
+  word-spacing: 1px;
+  background: #1c1c36;
+  color: var(--dark-txt);
+  height: 100%;
+}
+
+.cm-s-dark .CodeMirror-lines {
+  padding: 8px 0;
+}
+
+.cm-s-dark .CodeMirror-gutters {
+  background-color: #1c1c36;
+  color: var(--dark-txt);
+  padding-right: 10px;
+  z-index: 3;
+  border: none;
+  margin-right:5px;
+}
+.cm-s-dark .CodeMirror-linenumber {
+  color: #9885a6;
+}
+
+.cm-s-dark div.CodeMirror-cursor {
+  width: 1px;
+  border-left: 2px solid var(--dark-txt);
+}
+
+.cm-s-dark .CodeMirror-activeline-background { 
+  background: var(--dark-gray);
+}
+.cm-s-dark .CodeMirror-selected {
+  background: rgba(200, 200, 250, 0.1);
+}
+.cm-s-dark .cm-comment {
+  color: var(--dark-comment);
+}
+.cm-s-dark .cm-tag.cm-bracket {
+  color: var(--dark-gray);
+}
+.cm-s-dark .cm-property {
+  color: var(--dark-gray);
+}
+.cm-s-dark .cm-atom {
+  color: var(--dark-gray);
+}
+.cm-s-dark .cm-def {
+  font-style: normal; 
+  color: var(--dark-gray);
+}
+.cm-s-dark .cm-variable-3 {
+  color: var(--dark-gray);
+}
+.cm-s-dark .cm-meta {
+  color: var(--dark-gray);
+}
+
+/* all green */
+.cm-s-dark .cm-attribute {
+  color: var(--dark-green);
+}
+.cm-s-dark .cm-qualifier {
+  color: var(--dark-green);
+}
+.cm-s-dark .cm-builtin {
+  color: var(--dark-green);
+}
+.cm-s-dark .cm-keyword {
+  color: var(--dark-green);
+}
+
+/* all blue */
+.cm-s-dark .cm-variable.cm-callee {
+  color: var(--dark-blue);
+}
+.cm-s-dark .cm-variable-2 {
+  color: var(--dark-blue);
+}
+.cm-s-dark .cm-string {
+  color: var(--dark-blue);
+}
+.cm-s-dark .cm-string-2 {
+  color: var(--dark-blue);
+}
+
+/* all yellow */
+.cm-s-dark .cm-number {
+  color: var(--netizen-yellow);
+}
+
+/* all orange */
+.cm-s-dark .cm-variable {
+  color: var(--dark-orange);
+}
+
+/* all red */
+.cm-s-dark .cm-operator {
+  color: var(--dark-red);
+}
+.cm-s-dark .cm-tag {
+  color: var(--dark-red);
+}
+
+/* THE LITTLE UNDERLINE THAT APPEARS WHEN A TAG OR BRACKET IS SELECTED */
+.cm-s-dark .CodeMirror-matchingbracket {
+  color: var(--dark-txt) !important;
+}
+.cm-s-dark .CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+  padding-bottom: 3px;
+  color: var(--dark-txt);
+  border-bottom: 2px solid var(--dark-comment) !important;
+}
+
+/* HINTING STYLES: AUTO-COMPLETE DROPDOWN LIST */
+.CodeMirror-hints.dark {
+  color: var(--dark-txt);
+  background: #1c1c36;
+  padding: 8px 11px;
+  font-size: 14px;
+  border-radius: 8px;
+  border: 3px solid var(--dark-txt);
+  box-shadow: -9px 10px 25px -17px rgba(81,81,153,0.75);
+}
+
+.CodeMirror-hints.dark > .CodeMirror-hint {
+  /* individual items */
+  color: var(--dark-txt);
+  margin: 2px 0;
+  padding: 3px 4px 4px;
+}
+
+.CodeMirror-hints.dark > .CodeMirror-hint.CodeMirror-hint-active {
+  /* selected item */
+  color: #1c1c36;
+  background: var(--dark-yellow);
 }
