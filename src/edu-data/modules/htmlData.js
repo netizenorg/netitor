@@ -10,7 +10,7 @@ const htmlC = {
 const htmlD = {
   name: 'HTML doctype',
   url: 'https://en.wikipedia.org/wiki/Document_type_declaration',
-  nfo: 'This tag is not an HTML element in the traditional sense. It is an "declaration" to the browser about what document type to expect. This helps the browser determine the best way to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode" target="_blank">render</a> the page. There are different doctypes for code written at different points in history of HTML, we\'re currently in the era of HTML5, so any pages created now should have the HTML5 doctype which looks like <code>&lt;!DOCTYPE html&gt;</code>.'
+  nfo: 'This tag is not an HTML element in the traditional sense. It is a "declaration" to the browser about what document type to expect. This helps the browser determine the best way to <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode" target="_blank">render</a> the page. There are different doctypes for code written at different points in history of HTML, we\'re currently in the era of HTML5, so any pages created now should have the HTML5 doctype which looks like <code>&lt;!DOCTYPE html&gt;</code>.'
 }
 
 const genObj = (o) => {
