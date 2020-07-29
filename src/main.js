@@ -22,7 +22,8 @@ const linter = require('./linters/index.js')
 const hinter = require('./hinters/index.js')
 const eduData = require('./edu-data/index.js')
 
-const CSS = require('./css/main.js')
+const CSS = require('./css/css.js')
+const THEMES = require('./css/themes/index.js')
 
 class Netitor {
   constructor (opts) {
@@ -37,7 +38,7 @@ class Netitor {
 
     this._code = typeof opts.code === 'string' ? opts.code : ''
     this._lang = typeof opts.language === 'string' ? opts.language : 'html'
-    this._clrz = typeof opts.theme === 'string' ? opts.theme : 'netizen'
+    this._clrz = typeof opts.theme === 'string' ? opts.theme : 'dark'
     this._lint = typeof opts.lint === 'boolean' ? opts.lint : true
     this._hint = typeof opts.hint === 'boolean' ? opts.hint : true
     this._auto = typeof opts.autoUpdate === 'boolean' ? opts.autoUpdate : true
@@ -85,7 +86,7 @@ class Netitor {
   set friendlyErr (v) { this._ferr = v }
 
   get theme () { return this._clrz }
-  set theme (v) { this._clrz = v; this.cm.setOption('theme', v) }
+  set theme (v) { this._updateTheme(v) }
 
   get language () { return this._lang }
   set language (v) {
@@ -130,7 +131,7 @@ class Netitor {
       matchTags: true,
       mode: (this._lang === 'html') ? 'htmlmixed' : this._lang,
       value: this._code,
-      theme: this._clrz,
+      theme: 'netizen',
       keyMap: 'sublime',
       autoCloseBrackets: true,
       autoCloseTags: true,
@@ -282,6 +283,17 @@ class Netitor {
 
     if (!checkOnly) this.code = clean
     return this.code === clean
+  }
+
+  _updateTheme (v) {
+    if (!THEMES[v]) return this.err(`${v} is not a valid theme`)
+
+    this._clrz = v
+    for (const p in THEMES[v]) {
+      const cssVar = `--netizen-${p.replace(/_/g, '-')}`
+      const val = THEMES[v][p]
+      document.documentElement.style.setProperty(cssVar, val)
+    }
   }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*

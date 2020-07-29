@@ -17,21 +17,21 @@
       /* NOTE: netizen colors CSS variables are made available via netitor.js */
       #nfo {
         padding: 5px 20px;
-        background-color: var(--netizen-white);
-        border: 20px solid var(--netizen-black);
+        background-color: var(--netizen-text);
+        border: 20px solid var(--netizen-background);
         font-family: sans-serif;
-        color: var(--netizen-black);
+        color: var(--netizen-background);
       }
 
       #nfo > p { line-height: 25px; }
-      #nfo a { color: var(--netizen-purple); }
-      #nfo a:hover { color: var(--netizen-red); }
+      #nfo a { color: var(--netizen-tag); }
+      #nfo a:hover { color: var(--netizen-string); }
       #nfo > p code {
-        color: var(--netizen-white);
+        color: var(--netizen-text);
         padding: 4px 10px;
         border-radius: 5px;
         font-size: 14px;
-        background-color: var(--netizen-black);
+        background-color: var(--netizen-background);
       }
 
       #output {
@@ -42,10 +42,10 @@
       .error {
         background-color: rgb(100, 0, 0) !important;
         padding: 20px !important;
-        color: var(--netizen-white) !important;
+        color: var(--netizen-text) !important;
       }
 
-      .error a { color: var(--netizen-yellow) !important; }
+      .error a { color: var(--netizen-number) !important; }
 
       @keyframes blinking {
         97% { content: '( ◕ ◞ ◕ )' }
@@ -81,7 +81,6 @@
       const ne = new Netitor({
         ele: '#editor',
         render: '#output',
-        theme: 'light',
         code: `<!DOCTYPE html>\n<h1>hello world!</h1>`
       })
 
