@@ -172,7 +172,7 @@ const dict = {
     const vals = parseVals(obj.message)
 
     const smatch = checkSpelling(vals[0], 'property')
-    const suggest = smatch ? ` Did you mean to write <strong>"${smatch}"</strong>?` : ''
+    const suggest = smatch ? `, did you mean to write <strong>"${smatch}"</strong>?` : ''
 
     obj.friendly = `There is no <code>${vals[0]}</code> property in CSS${suggest}`
     return obj
