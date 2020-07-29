@@ -1,3 +1,15 @@
+const htmlEles = require('../edu-data/html-elements.json')
+const cssProps = require('../edu-data/css-properties.json')
+const stringSimilarity = require('string-similarity')
+
+function checkSpelling (str, type) {
+  const list = type === 'elements'
+    ? Object.keys(htmlEles) : Object.keys(cssProps)
+  const matches = stringSimilarity.findBestMatch(str, list)
+  if (matches.bestMatch.rating >= 0.5) return matches.bestMatch.target
+  else return null
+}
+
 function reformatObj (obj, warning) {
   obj.col = obj.column
   obj.type = warning ? 'warning' : 'error'
@@ -30,7 +42,11 @@ const dict = {
   'selector-type-whitelist': (obj) => {
     obj = reformatObj(obj)
     const vals = parseVals(obj.message)
-    obj.friendly = `This is not a valid CSS "type" selector because there is no <code>${vals[0]}</code> element in HTML, did you mean to make this a "class" selector like <code>.${vals[0]}</code> or an "id" selector like <code>#${vals[0]}</code>`
+
+    const smatch = checkSpelling(vals[0], 'elements')
+    const suggest = smatch ? ` did you mean to write <strong>"${smatch}"</strong>? Or ` : ''
+
+    obj.friendly = `This is not a valid CSS "type" selector because there is no <code>${vals[0]}</code> element in HTML,${suggest} did you mean to make this a "class" selector like <code>.${vals[0]}</code> or an "id" selector like <code>#${vals[0]}</code>`
     return obj
   },
   //
@@ -154,7 +170,11 @@ const dict = {
   'property-whitelist': (obj) => {
     obj = reformatObj(obj)
     const vals = parseVals(obj.message)
-    obj.friendly = `There is no <code>${vals[0]}</code> property in CSS`
+
+    const smatch = checkSpelling(vals[0], 'property')
+    const suggest = smatch ? ` Did you mean to write <strong>"${smatch}"</strong>?` : ''
+
+    obj.friendly = `There is no <code>${vals[0]}</code> property in CSS${suggest}`
     return obj
   },
   'selector-type-case': (obj) => {
