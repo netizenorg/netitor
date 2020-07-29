@@ -53,6 +53,8 @@ class Netitor {
       'code-update': null
     }
 
+    this.themes = THEMES
+
     this._injectStyles()
     this._createEditor(opts.ele)
     this._createRenderIframe(opts)
@@ -293,12 +295,12 @@ class Netitor {
   }
 
   _updateTheme (v) {
-    if (!THEMES[v]) return this.err(`${v} is not a valid theme`)
+    if (!this.themes[v]) return this.err(`${v} is not a valid theme`)
 
     this._clrz = v
-    for (const p in THEMES[v]) {
+    for (const p in this.themes[v]) {
       const cssVar = `--netizen-${p.replace(/_/g, '-')}`
-      const val = THEMES[v][p]
+      const val = this.themes[v][p]
       document.documentElement.style.setProperty(cssVar, val)
     }
   }
@@ -307,7 +309,7 @@ class Netitor {
     if (typeof v !== 'boolean') return this.err('background must be a boolean')
 
     this._bgcl = v
-    const val = (this._bgcl) ? THEMES[this.theme].background : '#00000000'
+    const val = (this._bgcl) ? this.themes[this.theme].background : '#00000000'
     document.documentElement.style.setProperty('--netizen-background', val)
   }
 
