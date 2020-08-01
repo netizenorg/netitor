@@ -87,11 +87,11 @@
 
 /* THE LITTLE UNDERLINE THAT APPEARS WHEN A TAG OR BRACKET IS SELECTED */
 .cm-s-netizen .CodeMirror-matchingbracket {
-  color: var(--netizen-match-color) !important;
+  /* color: var(--netizen-match-color) !important; */
 }
 .cm-s-netizen .CodeMirror-matchingbracket, .CodeMirror-matchingtag {
   padding-bottom: 3px;
-  color: var(--netizen-match-color) !important;
+  /* color: var(--netizen-match-color) !important; */
   border-bottom: 2px solid var(--netizen-match-border);
   background: none;
 }
