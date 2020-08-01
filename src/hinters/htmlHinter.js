@@ -1,11 +1,11 @@
 const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
 const snippets = {
-  doctype: '!DOCTYPE html>',
+  doctype: '<!DOCTYPE html>',
   html: 'html lang="en-US"><CURSOR_GOES_HERE></html>',
   link: 'link rel="stylesheet" href="#">',
   a: 'a href="#"><CURSOR_GOES_HERE></a>',
-  img: 'img src="#">',
+  img: 'img src="#" alt="">',
   'html (template)': '<!DOCTYPE html>\n<html lang="en-US">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\t\t<CURSOR_GOES_HERE>\n\t</body>\n</html>\n'
 }
 
