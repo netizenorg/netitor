@@ -30,7 +30,7 @@ class Netitor {
     const langTypes = ['html', 'htmlmixed', 'css', 'javasscript']
     if (typeof opts !== 'object') {
       return this.err('expecing options object as an argument')
-    } else if (typeof opts.ele !== 'string') {
+    } else if (typeof opts.ele === 'undefined') {
       return this.err('expecting an "ele" property with a querySelector string')
     } else if (opts.language && !langTypes.includes(opts.language)) {
       return this.err(`langauge must be either ${langTypes.join(', ')}`)
@@ -129,6 +129,8 @@ class Netitor {
     if (typeof ele === 'string') {
       this.ele = document.querySelector(ele)
       if (!(this.ele instanceof HTMLElement)) return this.err(ele, 'ele')
+    } else if (ele instanceof HTMLElement) {
+      this.ele = ele
     } // else assumes this.ele was already defined
 
     this.cm = CodeMirror(this.ele, {
@@ -173,12 +175,15 @@ class Netitor {
   }
 
   _createRenderIframe (opts) {
-    if (typeof opts.render === 'string') {
+    if (typeof opts.render === 'string' || opts.render instanceof HTMLElement) {
       if (this._lang !== 'html') {
         const m = `langauge is set to ${this._lang}, render option is html only`
         return this.err(m)
       }
-      this.render = document.querySelector(opts.render)
+
+      if (opts.render instanceof HTMLElement) this.render = opts.render
+      else this.render = document.querySelector(opts.render)
+
       if (this.render) {
         this._updateRenderIframe()
       } else {
