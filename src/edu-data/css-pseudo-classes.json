@@ -151,7 +151,7 @@
       "text": ":first"
     },
     "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>:first</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the&#xA0; <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document. You can&apos;t change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents the first page of a printed document. </span>(See <a href=\"/en-US/docs/Web/CSS/:first-child\" title=\"The :first-child CSS pseudo-class represents the first element among a group of sibling elements.\"><code>:first-child</code></a> for general first element of a node.)",
+      "html": "<span class=\"seoSummary\">The <strong><code>:first</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the&#xA0; <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents the first page of a printed document. </span>(See <a href=\"/en-US/docs/Web/CSS/:first-child\" title=\"The :first-child CSS pseudo-class represents the first element among a group of sibling elements.\"><code>:first-child</code></a> for general first element of a node.)",
       "text": "The :first CSS pseudo-class, used with the  @page at-rule, represents the first page of a printed document. (See :first-child for general first element of a node.)"
     }
   },
@@ -391,7 +391,7 @@
       "text": ":left"
     },
     "description": {
-      "html": "The <strong><code>:left</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document. You can&apos;t change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents all left-hand pages of a printed document.",
+      "html": "The <strong><code>:left</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents all left-hand pages of a printed document.",
       "text": "The :left CSS pseudo-class, used with the @page at-rule, represents all left-hand pages of a printed document."
     }
   },
@@ -499,8 +499,8 @@
       "text": ":nth-of-type()"
     },
     "description": {
-      "html": "The <strong><code>:nth-of-type()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches elements of a given type, based on their position among a group of siblings.",
-      "text": "The :nth-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings."
+      "html": "The <strong><code>:nth-of-type()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> matches elements of a given type (tag name), based on their position among a group of siblings.",
+      "text": "The :nth-of-type() CSS pseudo-class matches elements of a given type (tag name), based on their position among a group of siblings."
     }
   },
   ":only-child": {
@@ -619,7 +619,7 @@
       "text": ":right"
     },
     "description": {
-      "html": "The <strong><code>:right</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document. You can&apos;t change all CSS properties with @page. You can only change the margins, orphans, widows, and page breaks of the document. Attempts to change any other CSS properties will be ignored.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents all right-hand pages of a printed document.",
+      "html": "The <strong><code>:right</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a>, used with the <a href=\"/en-US/docs/Web/CSS/@page\" title=\"The @page CSS at-rule is used to modify some CSS properties when printing a document.\"><code>@page</code></a> <a href=\"/en-US/docs/Web/CSS/At-rule\">at-rule</a>, represents all right-hand pages of a printed document.",
       "text": "The :right CSS pseudo-class, used with the @page at-rule, represents all right-hand pages of a printed document."
     }
   },
@@ -727,7 +727,7 @@
       "text": ":where()"
     },
     "description": {
-      "html": "The <strong><code>:where()</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list.",
+      "html": "The <strong><code>:where()</code></strong> <a href=\"/en-US/docs/Web/CSS\">CSS</a> <a href=\"/en-US/docs/Web/CSS/Pseudo-classes\">pseudo-class</a> function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list.",
       "text": "The :where() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list."
     }
   }

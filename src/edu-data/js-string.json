@@ -547,7 +547,7 @@
       "text": "italics()"
     },
     "description": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i\" title=\"The HTML Interesting Text element (&lt;i&gt;) represents a range of text that is set off from the normal text for some reason.\"><code>&lt;i&gt;</code></a>",
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i\" title=\"The HTML Idiomatic&#xA0;Text element (&lt;i&gt;) represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others.\"><code>&lt;i&gt;</code></a>",
       "text": "<i>"
     }
   },

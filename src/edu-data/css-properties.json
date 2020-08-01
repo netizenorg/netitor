@@ -9177,6 +9177,22 @@
       "text": "no information available"
     }
   },
+  "font-smooth": {
+    "urls": {
+      "mdn": "https://developer.mozilla.org/docs/Web/CSS/font-smooth"
+    },
+    "default": "auto",
+    "status": "nonstandard",
+    "url": "https://developer.mozilla.org/docs/Web/CSS/font-smooth",
+    "keyword": {
+      "html": "<a href=\"https://developer.mozilla.org/docs/Web/CSS/font-smooth\" target=\"_blank\">font-smooth</a>",
+      "text": "font-smooth"
+    },
+    "description": {
+      "html": "no information available",
+      "text": "no information available"
+    }
+  },
   "ime-mode": {
     "urls": {
       "mdn": "https://developer.mozilla.org/docs/Web/CSS/ime-mode"

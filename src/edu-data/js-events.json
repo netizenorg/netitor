@@ -25,10 +25,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/afterprint\">afterprint</a>",
       "text": "afterprint"
-    },
-    "description": {
-      "html": "The <strong><code>afterprint</code></strong> event is fired after the associated document has started printing or the print preview has been closed.",
-      "text": "The afterprint event is fired after the associated document has started printing or the print preview has been closed."
     }
   },
   "animationcancel": {
@@ -45,10 +41,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/animationcancel\">animationcancel</a>",
       "text": "animationcancel"
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "animationend": {
@@ -65,10 +57,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/animationend\">animationend</a>",
       "text": "animationend"
-    },
-    "description": {
-      "html": "The <strong><code>animationend</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations\">CSS Animation</a> has completed. If the animation aborts before reaching completion, such as if the element is removed from the DOM or the animation is removed from the element, the <code>animationend</code> event is not fired.",
-      "text": "The animationend event is fired when a CSS Animation has completed. If the animation aborts before reaching completion, such as if the element is removed from the DOM or the animation is removed from the element, the animationend event is not fired."
     }
   },
   "animationiteration": {
@@ -85,10 +73,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/animationiteration\">animationiteration</a>",
       "text": "animationiteration"
-    },
-    "description": {
-      "html": "The <strong><code>animationiteration</code></strong> event is fired when an iteration of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations\">CSS Animation</a> ends, and another one begins. This event does not occur at the same time as the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/animationend_event\"><code>animationend</code></a> event, and therefore does not occur for animations with an <code>animation-iteration-count</code> of one.",
-      "text": "The animationiteration event is fired when an iteration of a CSS Animation ends, and another one begins. This event does not occur at the same time as the animationend event, and therefore does not occur for animations with an animation-iteration-count of one."
     }
   },
   "animationstart": {
@@ -105,10 +89,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/animationstart\">animationstart</a>",
       "text": "animationstart"
-    },
-    "description": {
-      "html": "The <strong><code>animationstart</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations\">CSS Animation</a> has started. If there is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay\" title=\"The animation-delay CSS property specifies the amount of time to wait from applying the animation to an element before beginning to perform the animation.\"><code>animation-delay</code></a>, this event will fire once the delay period has expired. A negative delay will cause the event to fire with an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent/elapsedTime\"><code>elapsedTime</code></a> equal to the absolute value of the delay (and, correspondingly, the animation will begin playing at that time index into the sequence).",
-      "text": "The animationstart event is fired when a CSS Animation has started. If there is an animation-delay, this event will fire once the delay period has expired. A negative delay will cause the event to fire with an elapsedTime equal to the absolute value of the delay (and, correspondingly, the animation will begin playing at that time index into the sequence)."
     }
   },
   "appinstalled": {
@@ -125,10 +105,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/appinstalled\">appinstalled</a>",
       "text": "appinstalled"
-    },
-    "description": {
-      "html": "<strong>Obsolete</strong><br>This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.",
-      "text": "ObsoleteThis feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it."
     }
   },
   "audioprocess": {
@@ -145,10 +121,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/audioprocess\">audioprocess</a>",
       "text": "audioprocess"
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "audioend  ": {
@@ -165,10 +137,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/audioend\">audioend  </a>",
       "text": "audioend  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "audiostart  ": {
@@ -185,10 +153,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/audiostart\">audiostart  </a>",
       "text": "audiostart  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "beforeprint": {
@@ -205,10 +169,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/beforeprint\">beforeprint</a>",
       "text": "beforeprint"
-    },
-    "description": {
-      "html": "The <strong><code>beforeprint</code></strong> event is fired when the associated document is about to be printed or previewed for printing.",
-      "text": "The beforeprint event is fired when the associated document is about to be printed or previewed for printing."
     }
   },
   "beforeunload": {
@@ -225,10 +185,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/beforeunload\">beforeunload</a>",
       "text": "beforeunload"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>beforeunload</code></strong> event is fired when the window, the document and its resources are about to be unloaded.</span> The document is still visible and the event is still cancelable at this point.",
-      "text": "The beforeunload event is fired when the window, the document and its resources are about to be unloaded. The document is still visible and the event is still cancelable at this point."
     }
   },
   "beginEvent": {
@@ -245,10 +201,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/beginEvent\">beginEvent</a>",
       "text": "beginEvent"
-    },
-    "description": {
-      "html": "The <code>beginEvent</code> event&#xA0;of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimationElement\"><code>SVGAnimationElement</code></a> interface is fired when the element local timeline begins to play. It will be raised each time the element begins the active duration (i.e., when it restarts, but not when it repeats).",
-      "text": "The beginEvent event of the SVGAnimationElement interface is fired when the element local timeline begins to play. It will be raised each time the element begins the active duration (i.e., when it restarts, but not when it repeats)."
     }
   },
   "blocked": {
@@ -265,10 +217,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Reference/Events/blocked_indexedDB\">blocked</a>",
       "text": "blocked"
-    },
-    "description": {
-      "html": "The <code>blocked</code> handler is executed when an open connection to a database is blocking a <code>versionchange</code> transaction on the same database.",
-      "text": "The blocked handler is executed when an open connection to a database is blocking a versionchange transaction on the same database."
     }
   },
   "blur": {
@@ -285,10 +233,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/blur\">blur</a>",
       "text": "blur"
-    },
-    "description": {
-      "html": "The <strong><code>blur</code></strong> event fires when an element has lost focus. The main difference between this event and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/focusout_event\"><code>focusout</code></a> is that <code>focusout</code> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture\">bubbles</a> while <code>blur</code> does not.",
-      "text": "The blur event fires when an element has lost focus. The main difference between this event and focusout is that focusout bubbles while blur does not."
     }
   },
   "boundary  ": {
@@ -305,10 +249,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/boundary\">boundary  </a>",
       "text": "boundary  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "canplay": {
@@ -325,10 +265,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/canplay\">canplay</a>",
       "text": "canplay"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>canplay</code> event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content.</span>",
-      "text": "The canplay event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content."
     }
   },
   "canplaythrough": {
@@ -345,10 +281,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/canplaythrough\">canplaythrough</a>",
       "text": "canplaythrough"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>canplaythrough</code> event is fired when the user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content.</span>",
-      "text": "The canplaythrough event is fired when the user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content."
     }
   },
   "change": {
@@ -365,10 +297,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/change\">change</a>",
       "text": "change"
-    },
-    "description": {
-      "html": "The <code>change</code> event is fired for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a> elements when an alteration to the element&apos;s value is committed by the user. Unlike the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event\"><code>input</code></a> event, the <code>change</code> event is not necessarily fired for each alteration to an element&apos;s <code>value</code>.",
-      "text": "The change event is fired for <input>, <select>, and <textarea> elements when an alteration to the element's value is committed by the user. Unlike the input event, the change event is not necessarily fired for each alteration to an element's value."
     }
   },
   "chargingchange": {
@@ -385,10 +313,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/chargingchange\">chargingchange</a>",
       "text": "chargingchange"
-    },
-    "description": {
-      "html": "<strong><span class=\"icon-only-inline\" title=\"This is an obsolete API and is no longer guaranteed to work.\"><i class=\"icon-trash\"> </i></span> Obsolete</strong><br>This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.",
-      "text": "  ObsoleteThis feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it."
     }
   },
   "chargingtimechange": {
@@ -405,10 +329,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/chargingtimechange\">chargingtimechange</a>",
       "text": "chargingtimechange"
-    },
-    "description": {
-      "html": "<strong><span class=\"icon-only-inline\" title=\"This is an obsolete API and is no longer guaranteed to work.\"><i class=\"icon-trash\"> </i></span> Obsolete</strong><br>This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.",
-      "text": "  ObsoleteThis feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it."
     }
   },
   "click": {
@@ -425,10 +345,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/click\">click</a>",
       "text": "click"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">An element receives a <code><strong>click</strong></code> event when a pointing device button (such as a mouse&apos;s primary mouse button) is both pressed and released while the pointer is located inside the element.</span>",
-      "text": "An element receives a click event when a pointing device button (such as a mouse's primary mouse button) is both pressed and released while the pointer is located inside the element."
     }
   },
   "close": {
@@ -445,10 +361,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Reference/Events/close_websocket\">close</a>",
       "text": "close"
-    },
-    "description": {
-      "html": "The <code>close</code> event is fired when a connection with a <code>WebSocket</code> is closed.",
-      "text": "The close event is fired when a connection with a WebSocket is closed."
     }
   },
   "complete": {
@@ -465,10 +377,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/complete\">complete</a>",
       "text": "complete"
-    },
-    "description": {
-      "html": "The <code>complete</code> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/OfflineAudioContext\"><code>OfflineAudioContext</code></a> interface is fired when the rendering of an offline audio context is complete.",
-      "text": "The complete event of the OfflineAudioContext interface is fired when the rendering of an offline audio context is complete."
     }
   },
   "compositionend": {
@@ -485,10 +393,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/compositionend\">compositionend</a>",
       "text": "compositionend"
-    },
-    "description": {
-      "html": "The <strong><code>compositionend</code></strong> event is fired when a text composition system such as an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/input_method_editor\">input method editor</a> completes or cancels the current composition session.",
-      "text": "The compositionend event is fired when a text composition system such as an input method editor completes or cancels the current composition session."
     }
   },
   "compositionstart": {
@@ -505,10 +409,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/compositionstart\">compositionstart</a>",
       "text": "compositionstart"
-    },
-    "description": {
-      "html": "The <strong><code>compositionstart</code></strong> event is fired when a text composition system such as an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/input_method_editor\">input method editor</a> starts a new composition session.",
-      "text": "The compositionstart event is fired when a text composition system such as an input method editor starts a new composition session."
     }
   },
   "compositionupdate": {
@@ -525,10 +425,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/compositionupdate\">compositionupdate</a>",
       "text": "compositionupdate"
-    },
-    "description": {
-      "html": "The <strong><code>compositionupdate</code></strong> event is fired when a new character is received in the context of a text composition session controlled by a text composition system such as an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/input_method_editor\">input method editor</a>.",
-      "text": "The compositionupdate event is fired when a new character is received in the context of a text composition session controlled by a text composition system such as an input method editor."
     }
   },
   "contextmenu": {
@@ -545,10 +441,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/contextmenu\">contextmenu</a>",
       "text": "contextmenu"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>contextmenu</code></strong> event fires when the user attempts to open a context menu. This event is typically triggered by clicking the right mouse button, or by pressing the context menu key.</span> In the latter case, the context menu is displayed at the bottom left of the focused element, unless the element is a tree, in which case the context menu is displayed at the bottom left of the current row.",
-      "text": "The contextmenu event fires when the user attempts to open a context menu. This event is typically triggered by clicking the right mouse button, or by pressing the context menu key. In the latter case, the context menu is displayed at the bottom left of the focused element, unless the element is a tree, in which case the context menu is displayed at the bottom left of the current row."
     }
   },
   "copy": {
@@ -565,10 +457,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/copy\">copy</a>",
       "text": "copy"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>copy</code></strong> event fires when the user initiates a copy action through the browser&apos;s user interface.</span>",
-      "text": "The copy event fires when the user initiates a copy action through the browser's user interface."
     }
   },
   "cut": {
@@ -585,10 +473,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/cut\">cut</a>",
       "text": "cut"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>cut</code></strong> event is fired when the user has initiated a &quot;cut&quot; action through the browser&apos;s user interface.</span>",
-      "text": "The cut event is fired when the user has initiated a \"cut\" action through the browser's user interface."
     }
   },
   "dblclick": {
@@ -605,10 +489,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/dblclick\">dblclick</a>",
       "text": "dblclick"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>dblclick</code></strong> event fires when a pointing device button (such as a mouse&apos;s primary button) is double-clicked; that is, when it&apos;s rapidly clicked twice on a single element within a very short span of time.</span>",
-      "text": "The dblclick event fires when a pointing device button (such as a mouse's primary button) is double-clicked; that is, when it's rapidly clicked twice on a single element within a very short span of time."
     }
   },
   "devicechange": {
@@ -625,10 +505,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/devicechange\">devicechange</a>",
       "text": "devicechange"
-    },
-    "description": {
-      "html": "A <code>devicechange</code> event is sent to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices\"><code>MediaDevices</code></a> instance whenever a&#xA0;media device such as a camera, microphone, or speaker is connected to or removed from the system. It&apos;s a generic <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Event\"><code>Event</code></a> with no added properties.",
-      "text": "A devicechange event is sent to a MediaDevices instance whenever a media device such as a camera, microphone, or speaker is connected to or removed from the system. It's a generic Event with no added properties."
     }
   },
   "devicemotion": {
@@ -645,10 +521,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/devicemotion\">devicemotion</a>",
       "text": "devicemotion"
-    },
-    "description": {
-      "html": "The <code>devicemotion</code> event is fired at a regular interval and indicates the amount of physical force of acceleration the device is receiving at that time. It also provides information about the rate of rotation, if available.",
-      "text": "The devicemotion event is fired at a regular interval and indicates the amount of physical force of acceleration the device is receiving at that time. It also provides information about the rate of rotation, if available."
     }
   },
   "deviceorientation": {
@@ -665,10 +537,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/deviceorientation\">deviceorientation</a>",
       "text": "deviceorientation"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>deviceorientation</code> event is fired when fresh data is available from an orientation sensor about the current orientation of the device as compared to the Earth coordinate frame. This data is gathered from a magnetometer inside the device.</span> See <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Orientation_and_motion_data_explained\">Orientation and motion data explained</a> for details.",
-      "text": "The deviceorientation event is fired when fresh data is available from an orientation sensor about the current orientation of the device as compared to the Earth coordinate frame. This data is gathered from a magnetometer inside the device. See Orientation and motion data explained for details."
     }
   },
   "dischargingtimechange": {
@@ -685,10 +553,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/dischargingtimechange\">dischargingtimechange</a>",
       "text": "dischargingtimechange"
-    },
-    "description": {
-      "html": "<strong><span class=\"icon-only-inline\" title=\"This is an obsolete API and is no longer guaranteed to work.\"><i class=\"icon-trash\"> </i></span> Obsolete</strong><br>This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.",
-      "text": "  ObsoleteThis feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it."
     }
   },
   "DOMActivate  ": {
@@ -705,10 +569,6 @@
     "keyword": {
       "html": "DOMActivate  ",
       "text": "DOMActivate  "
-    },
-    "description": {
-      "html": null,
-      "text": null
     }
   },
   "DOMAttributeNameChanged  ": {
@@ -725,10 +585,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMAttributeNameChanged  </a>",
       "text": "DOMAttributeNameChanged  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "DOMAttrModified  ": {
@@ -745,10 +601,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMAttrModified  </a>",
       "text": "DOMAttrModified  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "DOMCharacterDataModified  ": {
@@ -765,10 +617,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMCharacterDataModified  </a>",
       "text": "DOMCharacterDataModified  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "DOMContentLoaded": {
@@ -785,10 +633,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded\">DOMContentLoaded</a>",
       "text": "DOMContentLoaded"
-    },
-    "description": {
-      "html": "The <strong><code>DOMContentLoaded</code></strong> event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.",
-      "text": "The DOMContentLoaded event fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading."
     }
   },
   "DOMElementNameChanged  ": {
@@ -805,10 +649,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMElementNameChanged  </a>",
       "text": "DOMElementNameChanged  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "DOMFocusIn  ": {
@@ -825,10 +665,6 @@
     "keyword": {
       "html": "DOMFocusIn  ",
       "text": "DOMFocusIn  "
-    },
-    "description": {
-      "html": null,
-      "text": null
     }
   },
   "DOMFocusOut  ": {
@@ -845,10 +681,6 @@
     "keyword": {
       "html": "DOMFocusOut  ",
       "text": "DOMFocusOut  "
-    },
-    "description": {
-      "html": null,
-      "text": null
     }
   },
   "DOMNodeInserted  ": {
@@ -865,10 +697,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMNodeInserted  </a>",
       "text": "DOMNodeInserted  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "DOMNodeInsertedIntoDocument  ": {
@@ -885,10 +713,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMNodeInsertedIntoDocument  </a>",
       "text": "DOMNodeInsertedIntoDocument  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "DOMNodeRemoved  ": {
@@ -905,10 +729,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMNodeRemoved  </a>",
       "text": "DOMNodeRemoved  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "DOMNodeRemovedFromDocument  ": {
@@ -925,10 +745,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMNodeRemovedFromDocument  </a>",
       "text": "DOMNodeRemovedFromDocument  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "DOMSubtreeModified  ": {
@@ -945,10 +761,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/DOM/Mutation_events\">DOMSubtreeModified  </a>",
       "text": "DOMSubtreeModified  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "drag": {
@@ -965,10 +777,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/drag\">drag</a>",
       "text": "drag"
-    },
-    "description": {
-      "html": "The <code>drag</code> event is fired every few hundred milliseconds as an element or text selection is being dragged by the user.",
-      "text": "The drag event is fired every few hundred milliseconds as an element or text selection is being dragged by the user."
     }
   },
   "dragend": {
@@ -985,10 +793,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/dragend\">dragend</a>",
       "text": "dragend"
-    },
-    "description": {
-      "html": "The <code>dragend</code> event is fired when a drag operation is being ended (by releasing a mouse button or hitting the escape key).",
-      "text": "The dragend event is fired when a drag operation is being ended (by releasing a mouse button or hitting the escape key)."
     }
   },
   "dragenter": {
@@ -1005,10 +809,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/dragenter\">dragenter</a>",
       "text": "dragenter"
-    },
-    "description": {
-      "html": "The <code>dragenter</code> event is fired when a dragged element or text selection enters a valid drop target.",
-      "text": "The dragenter event is fired when a dragged element or text selection enters a valid drop target."
     }
   },
   "dragleave": {
@@ -1025,10 +825,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/dragleave\">dragleave</a>",
       "text": "dragleave"
-    },
-    "description": {
-      "html": "The <code>dragleave</code> event is fired when a dragged element or text selection leaves a valid drop target.",
-      "text": "The dragleave event is fired when a dragged element or text selection leaves a valid drop target."
     }
   },
   "dragover": {
@@ -1045,10 +841,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/dragover\">dragover</a>",
       "text": "dragover"
-    },
-    "description": {
-      "html": "The <code>dragover</code> event is fired when an element or text selection is being dragged over a valid drop target (every few hundred milliseconds).",
-      "text": "The dragover event is fired when an element or text selection is being dragged over a valid drop target (every few hundred milliseconds)."
     }
   },
   "dragstart": {
@@ -1065,10 +857,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/dragstart\">dragstart</a>",
       "text": "dragstart"
-    },
-    "description": {
-      "html": "The <code>dragstart</code> event is fired when the user starts dragging an element or text selection.",
-      "text": "The dragstart event is fired when the user starts dragging an element or text selection."
     }
   },
   "drop": {
@@ -1085,10 +873,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/drop\">drop</a>",
       "text": "drop"
-    },
-    "description": {
-      "html": "The <strong><code>drop</code></strong> event is fired when an element or text selection is dropped on a valid drop target.",
-      "text": "The drop event is fired when an element or text selection is dropped on a valid drop target."
     }
   },
   "durationchange": {
@@ -1105,10 +889,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/durationchange\">durationchange</a>",
       "text": "durationchange"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>durationchange</code> event is fired when the <code>duration</code> attribute has been updated.</span>",
-      "text": "The durationchange event is fired when the duration attribute has been updated."
     }
   },
   "emptied": {
@@ -1125,10 +905,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/emptied\">emptied</a>",
       "text": "emptied"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>emptied</code> event is fired when the media has become empty; for example, this event is sent if the media has already been loaded (or partially loaded), and the <code>load()</code> method is called to reload it.</span>",
-      "text": "The emptied event is fired when the media has become empty; for example, this event is sent if the media has already been loaded (or partially loaded), and the load() method is called to reload it."
     }
   },
   "end  ": {
@@ -1145,10 +921,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/end_(SpeechSynthesis)\">end  </a>",
       "text": "end  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "ended": {
@@ -1177,10 +949,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/endEvent\">endEvent</a>",
       "text": "endEvent"
-    },
-    "description": {
-      "html": "The <code>endEvent</code> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimationElement\"><code>SVGAnimationElement</code></a> interface is fired when at the active end of the animation is reached.",
-      "text": "The endEvent event of the SVGAnimationElement interface is fired when at the active end of the animation is reached."
     }
   },
   "error": {
@@ -1209,10 +977,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/error_(SpeechRecognitionError)\">error  </a>",
       "text": "error  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "focus": {
@@ -1229,10 +993,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/focus\">focus</a>",
       "text": "focus"
-    },
-    "description": {
-      "html": "The <strong><code>focus</code></strong> event fires when an element has received focus. The main difference between this event and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/focusin_event\"><code>focusin</code></a> is that <code>focusin</code> bubbles while <code>focus</code> does not.",
-      "text": "The focus event fires when an element has received focus. The main difference between this event and focusin is that focusin bubbles while focus does not."
     }
   },
   "focusin": {
@@ -1249,10 +1009,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/focusin\">focusin</a>",
       "text": "focusin"
-    },
-    "description": {
-      "html": "The <strong><code>focusin</code></strong> event fires when an element is about to receive focus. The main difference between this event and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event\"><code>focus</code></a> is that <code>focusin</code> bubbles while <code>focus</code> does not.",
-      "text": "The focusin event fires when an element is about to receive focus. The main difference between this event and focus is that focusin bubbles while focus does not."
     }
   },
   "focusout": {
@@ -1269,10 +1025,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/focusout\">focusout</a>",
       "text": "focusout"
-    },
-    "description": {
-      "html": "The <strong><code>focusout</code></strong> event fires when an element is about to lose focus. The main difference between this event and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event\"><code>blur</code></a> is that <code>focusout</code> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events#Event_bubbling_and_capture\">bubbles</a> while <code>blur</code> does not.",
-      "text": "The focusout event fires when an element is about to lose focus. The main difference between this event and blur is that focusout bubbles while blur does not."
     }
   },
   "fullscreenchange": {
@@ -1289,10 +1041,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/fullscreenchange\">fullscreenchange</a>",
       "text": "fullscreenchange"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>fullscreenchange</code> event is fired immediately after the browser switches into or out of full-screen mode.</span>",
-      "text": "The fullscreenchange event is fired immediately after the browser switches into or out of full-screen mode."
     }
   },
   "fullscreenerror": {
@@ -1309,10 +1057,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/fullscreenerror\">fullscreenerror</a>",
       "text": "fullscreenerror"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>fullscreenerror</code> event is fired when the browser cannot switch to full-screen mode.</span>",
-      "text": "The fullscreenerror event is fired when the browser cannot switch to full-screen mode."
     }
   },
   "gamepadconnected": {
@@ -1329,10 +1073,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/gamepadconnected\">gamepadconnected</a>",
       "text": "gamepadconnected"
-    },
-    "description": {
-      "html": "The <code>gamepadconnected</code> event is fired when the browser detects that a gamepad has been connected or the first time a button/axis of the gamepad is used.",
-      "text": "The gamepadconnected event is fired when the browser detects that a gamepad has been connected or the first time a button/axis of the gamepad is used."
     }
   },
   "gamepaddisconnected": {
@@ -1349,10 +1089,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/gamepaddisconnected\">gamepaddisconnected</a>",
       "text": "gamepaddisconnected"
-    },
-    "description": {
-      "html": "The <code>gamepaddisconnected</code> event is fired when the browser detects that a gamepad has been disconnected.",
-      "text": "The gamepaddisconnected event is fired when the browser detects that a gamepad has been disconnected."
     }
   },
   "gotpointercapture": {
@@ -1369,10 +1105,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/gotpointercapture\">gotpointercapture</a>",
       "text": "gotpointercapture"
-    },
-    "description": {
-      "html": "The <strong><code>gotpointercapture</code></strong> event is fired when an element captures a pointer using <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture\">setPointerCapture()</a></code>.",
-      "text": "The gotpointercapture event is fired when an element captures a pointer using setPointerCapture()."
     }
   },
   "hashchange": {
@@ -1389,10 +1121,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/hashchange\">hashchange</a>",
       "text": "hashchange"
-    },
-    "description": {
-      "html": "The <strong><code>hashchange</code></strong> event is fired when the fragment identifier of the URL has changed (the part of the URL beginning with and following the <code>#</code> symbol).",
-      "text": "The hashchange event is fired when the fragment identifier of the URL has changed (the part of the URL beginning with and following the # symbol)."
     }
   },
   "lostpointercapture": {
@@ -1409,10 +1137,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/lostpointercapture\">lostpointercapture</a>",
       "text": "lostpointercapture"
-    },
-    "description": {
-      "html": "The <strong><code>lostpointercapture</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events#Pointer_capture\">captured pointer</a> is released.",
-      "text": "The lostpointercapture event is fired when a captured pointer is released."
     }
   },
   "input": {
@@ -1429,10 +1153,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/input\">input</a>",
       "text": "input"
-    },
-    "description": {
-      "html": "The <strong><code>input</code></strong> event fires when the <code>value</code> of an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\" title=\"The HTML &lt;input&gt; element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent. \"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\" title=\"The HTML &lt;select&gt; element represents a control that provides a menu of options\"><code>&lt;select&gt;</code></a>, or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\" title=\"The HTML &lt;textarea&gt; element represents a multi-line plain-text editing control, useful when you want to allow users to enter a sizeable amount of free-form text, for example a comment on a review or feedback form.\"><code>&lt;textarea&gt;</code></a> element has been changed.&#xA0;",
-      "text": "The input event fires when the value of an <input>, <select>, or <textarea> element has been changed. "
     }
   },
   "invalid": {
@@ -1449,10 +1169,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/invalid\">invalid</a>",
       "text": "invalid"
-    },
-    "description": {
-      "html": "The <strong><code>invalid</code></strong> event fires when a submittable element has been checked for validity and doesn&apos;t satisfy its constraints.",
-      "text": "The invalid event fires when a submittable element has been checked for validity and doesn't satisfy its constraints."
     }
   },
   "keydown": {
@@ -1469,10 +1185,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/keydown\">keydown</a>",
       "text": "keydown"
-    },
-    "description": {
-      "html": "The <strong><code>keydown</code></strong> event is fired when a key is pressed.",
-      "text": "The keydown event is fired when a key is pressed."
     }
   },
   "keypress  ": {
@@ -1489,10 +1201,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/keypress\">keypress  </a>",
       "text": "keypress  "
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "keyup": {
@@ -1509,10 +1217,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/keyup\">keyup</a>",
       "text": "keyup"
-    },
-    "description": {
-      "html": "The <strong><code>keyup</code></strong> event is fired when a key is released.",
-      "text": "The keyup event is fired when a key is released."
     }
   },
   "languagechange  ": {
@@ -1529,10 +1233,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/languagechange\">languagechange  </a>",
       "text": "languagechange  "
-    },
-    "description": {
-      "html": "The <strong><code>languagechange</code></strong> event is fired at the global scope object when the user&apos;s preferred language changes.",
-      "text": "The languagechange event is fired at the global scope object when the user's preferred language changes."
     }
   },
   "levelchange": {
@@ -1549,10 +1249,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/levelchange\">levelchange</a>",
       "text": "levelchange"
-    },
-    "description": {
-      "html": "<strong><span class=\"icon-only-inline\" title=\"This is an obsolete API and is no longer guaranteed to work.\"><i class=\"icon-trash\"> </i></span> Obsolete</strong><br>This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.",
-      "text": "  ObsoleteThis feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it."
     }
   },
   "load": {
@@ -1581,10 +1277,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/loadeddata\">loadeddata</a>",
       "text": "loadeddata"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>loadeddata</code></strong> event is fired when the frame at the current playback position of the media has finished loading; often the first frame. </span>",
-      "text": "The loadeddata event is fired when the frame at the current playback position of the media has finished loading; often the first frame. "
     }
   },
   "loadedmetadata": {
@@ -1601,10 +1293,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/loadedmetadata\">loadedmetadata</a>",
       "text": "loadedmetadata"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>loadedmetadata</code> event is fired when the metadata has been loaded.</span>",
-      "text": "The loadedmetadata event is fired when the metadata has been loaded."
     }
   },
   "loadend": {
@@ -1621,10 +1309,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/loadend\">loadend</a>",
       "text": "loadend"
-    },
-    "description": {
-      "html": "The <strong><code>loadend</code></strong> event is fired when a request has completed, whether successfully (after <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/load_event\"><code>load</code></a>) or unsuccessfully (after <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/abort_event\"><code>abort</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/error_event\"><code>error</code></a>).",
-      "text": "The loadend event is fired when a request has completed, whether successfully (after load) or unsuccessfully (after abort or error)."
     }
   },
   "loadstart": {
@@ -1641,10 +1325,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/loadstart\">loadstart</a>",
       "text": "loadstart"
-    },
-    "description": {
-      "html": "The <strong><code>loadstart</code></strong> event is fired when a request has started to load data.",
-      "text": "The loadstart event is fired when a request has started to load data."
     }
   },
   "mark  ": {
@@ -1661,10 +1341,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/mark\">mark  </a>",
       "text": "mark  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "message": {
@@ -1693,10 +1369,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/messageerror\">messageerror</a>",
       "text": "messageerror"
-    },
-    "description": {
-      "html": "The <code>messageerror</code> event is fired on a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> object when it receives a message that can&apos;t be deserialized.",
-      "text": "The messageerror event is fired on a Window object when it receives a message that can't be deserialized."
     }
   },
   "message  ": {
@@ -1713,10 +1385,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/message_(ServiceWorker)\">message  </a>",
       "text": "message  "
-    },
-    "description": {
-      "html": "The <code><strong>message</strong></code> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope\"><code>ServiceWorkerGlobalScope</code></a> interface occurs when incoming messages are received. Controlled pages can use the <a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker/postMessage\" rel=\"nofollow\"><code>ServiceWorker.postMessage()</code></a> method to send messages to service workers.<br>\n The service worker can optionally send a response back via the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Client/postMessage\"><code>Client.postMessage()</code></a>, corresponding to the controlled page.",
-      "text": "The message event of the ServiceWorkerGlobalScope interface occurs when incoming messages are received. Controlled pages can use the ServiceWorker.postMessage() method to send messages to service workers.\n The service worker can optionally send a response back via the Client.postMessage(), corresponding to the controlled page."
     }
   },
   "mousedown": {
@@ -1733,10 +1401,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/mousedown\">mousedown</a>",
       "text": "mousedown"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>mousedown</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device button is pressed while the pointer is inside the element.</span>",
-      "text": "The mousedown event is fired at an Element when a pointing device button is pressed while the pointer is inside the element."
     }
   },
   "mouseenter": {
@@ -1753,10 +1417,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/mouseenter\">mouseenter</a>",
       "text": "mouseenter"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>mouseenter</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (usually a mouse) is initially moved so that its hotspot is within the element at which the event was fired.</span>",
-      "text": "The mouseenter event is fired at an Element when a pointing device (usually a mouse) is initially moved so that its hotspot is within the element at which the event was fired."
     }
   },
   "mouseleave": {
@@ -1773,10 +1433,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/mouseleave\">mouseleave</a>",
       "text": "mouseleave"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>mouseleave</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when the cursor of a pointing device (usually a mouse) is moved out of it.</span>",
-      "text": "The mouseleave event is fired at an Element when the cursor of a pointing device (usually a mouse) is moved out of it."
     }
   },
   "mousemove": {
@@ -1793,10 +1449,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/mousemove\">mousemove</a>",
       "text": "mousemove"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>mousemove</code> event is fired at an element when a pointing device (usually a mouse) is moved while the cursor&apos;s hotspot is inside it.</span>",
-      "text": "The mousemove event is fired at an element when a pointing device (usually a mouse) is moved while the cursor's hotspot is inside it."
     }
   },
   "mouseout": {
@@ -1813,10 +1465,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/mouseout\">mouseout</a>",
       "text": "mouseout"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>mouseout</code></strong> event is fired&#xA0; at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (usually a mouse) is used to move the cursor so that it is no longer contained within the element or one of its children.</span> <code>mouseout</code> is also delivered to an element if the cursor enters a child element, because the child element obscures the visible area of the element.",
-      "text": "The mouseout event is fired  at an Element when a pointing device (usually a mouse) is used to move the cursor so that it is no longer contained within the element or one of its children. mouseout is also delivered to an element if the cursor enters a child element, because the child element obscures the visible area of the element."
     }
   },
   "mouseover": {
@@ -1833,10 +1481,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/mouseover\">mouseover</a>",
       "text": "mouseover"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>mouseover</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (such as a mouse or trackpad) is used to move the cursor onto the element or one of its child elements.</span>",
-      "text": "The mouseover event is fired at an Element when a pointing device (such as a mouse or trackpad) is used to move the cursor onto the element or one of its child elements."
     }
   },
   "mouseup": {
@@ -1853,10 +1497,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/mouseup\">mouseup</a>",
       "text": "mouseup"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>mouseup</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a button on a pointing device (such as a mouse or trackpad) is released while the pointer is located inside it.</span> mouseup events are the counterpoint to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event\"><code>mousedown</code></a> events.",
-      "text": "The mouseup event is fired at an Element when a button on a pointing device (such as a mouse or trackpad) is released while the pointer is located inside it. mouseup events are the counterpoint to mousedown events."
     }
   },
   "nomatch  ": {
@@ -1873,10 +1513,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/nomatch\">nomatch  </a>",
       "text": "nomatch  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "notificationclick": {
@@ -1893,10 +1529,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/notificationclick\">notificationclick</a>",
       "text": "notificationclick"
-    },
-    "description": {
-      "html": "The <strong><code>notificationclick</code></strong> event is fired to indicate that a system notification spawned by <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerRegistration/showNotification\"><code>ServiceWorkerRegistration.showNotification()</code></a> has been clicked.",
-      "text": "The notificationclick event is fired to indicate that a system notification spawned by ServiceWorkerRegistration.showNotification() has been clicked."
     }
   },
   "offline": {
@@ -1913,10 +1545,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/offline\">offline</a>",
       "text": "offline"
-    },
-    "description": {
-      "html": "The <strong><code>offline</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface is fired when the browser has lost access to the network and the value of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine\"><code>Navigator.onLine</code></a> switches to <code>false</code>.",
-      "text": "The offline event of the Window interface is fired when the browser has lost access to the network and the value of Navigator.onLine switches to false."
     }
   },
   "online": {
@@ -1933,10 +1561,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/online\">online</a>",
       "text": "online"
-    },
-    "description": {
-      "html": "The <strong><code>online</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface is fired when the browser has gained access to the network and the value of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine\"><code>Navigator.onLine</code></a> switches to <code>true</code>.",
-      "text": "The online event of the Window interface is fired when the browser has gained access to the network and the value of Navigator.onLine switches to true."
     }
   },
   "open": {
@@ -1965,10 +1589,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/orientationchange\">orientationchange</a>",
       "text": "orientationchange"
-    },
-    "description": {
-      "html": "The <code>orientationchange</code> event is fired when the orientation of the device has changed.",
-      "text": "The orientationchange event is fired when the orientation of the device has changed."
     }
   },
   "pagehide": {
@@ -1985,10 +1605,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pagehide\">pagehide</a>",
       "text": "pagehide"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>pagehide</code></strong> event is sent to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> when the browser hides the current page in the process of presenting a different page from the session&apos;s history.</span> For example, when the user clicks the browser&apos;s Back button, the current page receives a <code>pagehide</code> event before the previous page is shown.",
-      "text": "The pagehide event is sent to a Window when the browser hides the current page in the process of presenting a different page from the session's history. For example, when the user clicks the browser's Back button, the current page receives a pagehide event before the previous page is shown."
     }
   },
   "pageshow": {
@@ -2005,10 +1621,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pageshow\">pageshow</a>",
       "text": "pageshow"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>pageshow</code></strong> event is sent to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> when the browser displays the window&apos;s document due to navigation.</span> This includes:",
-      "text": "The pageshow event is sent to a Window when the browser displays the window's document due to navigation. This includes:"
     }
   },
   "paste": {
@@ -2025,10 +1637,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/paste\">paste</a>",
       "text": "paste"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>paste</code></strong> event is fired when the user has initiated a &quot;paste&quot; action through the browser&apos;s user interface.</span>",
-      "text": "The paste event is fired when the user has initiated a \"paste\" action through the browser's user interface."
     }
   },
   "pause": {
@@ -2057,10 +1665,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pause_(SpeechSynthesis)\">pause  </a>",
       "text": "pause  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "pointercancel": {
@@ -2077,10 +1681,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointercancel\">pointercancel</a>",
       "text": "pointercancel"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>pointercancel</code></strong> event is fired when the browser determines that there are unlikely to be any more pointer events, or if after the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerdown\" title=\"/en-US/docs/Web/Events/pointerdown\">pointerdown</a></code> event is fired, the pointer is then used to manipulate the viewport by panning, zooming, or scrolling.</span>",
-      "text": "The pointercancel event is fired when the browser determines that there are unlikely to be any more pointer events, or if after the pointerdown event is fired, the pointer is then used to manipulate the viewport by panning, zooming, or scrolling."
     }
   },
   "pointerdown": {
@@ -2097,10 +1697,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerdown\">pointerdown</a>",
       "text": "pointerdown"
-    },
-    "description": {
-      "html": "The <code>pointerdown</code> event is fired when a pointer becomes active. For mouse, it is fired when the device transitions from no buttons depressed to at least one button depressed. For touch, it is fired when physical contact is made with the digitizer. For pen, it is fired when the stylus makes physical contact with the digitizer.",
-      "text": "The pointerdown event is fired when a pointer becomes active. For mouse, it is fired when the device transitions from no buttons depressed to at least one button depressed. For touch, it is fired when physical contact is made with the digitizer. For pen, it is fired when the stylus makes physical contact with the digitizer."
     }
   },
   "pointerenter": {
@@ -2117,10 +1713,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerenter\">pointerenter</a>",
       "text": "pointerenter"
-    },
-    "description": {
-      "html": "The <code>pointerenter</code> event fires when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerdown\" title=\"/en-US/docs/Web/Events/pointerdown\">pointerdown</a></code> event from a device that does not support hover (see <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerdown\" title=\"/en-US/docs/Web/Events/pointerdown\">pointerdown</a></code>).",
-      "text": "The pointerenter event fires when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a pointerdown event from a device that does not support hover (see pointerdown)."
     }
   },
   "pointerleave": {
@@ -2137,10 +1729,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerleave\">pointerleave</a>",
       "text": "pointerleave"
-    },
-    "description": {
-      "html": "The <code>pointerleave</code> event is fired when a pointing device is moved out of the hit test boundaries of an element. For pen devices, this event is fired when the stylus leaves the hover range detectable by the digitizer.",
-      "text": "The pointerleave event is fired when a pointing device is moved out of the hit test boundaries of an element. For pen devices, this event is fired when the stylus leaves the hover range detectable by the digitizer."
     }
   },
   "pointerlockchange": {
@@ -2157,10 +1745,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerlockchange\">pointerlockchange</a>",
       "text": "pointerlockchange"
-    },
-    "description": {
-      "html": "The <code>pointerlockchange</code> event is fired when the pointer is locked/unlocked.",
-      "text": "The pointerlockchange event is fired when the pointer is locked/unlocked."
     }
   },
   "pointerlockerror": {
@@ -2177,10 +1761,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerlockerror\">pointerlockerror</a>",
       "text": "pointerlockerror"
-    },
-    "description": {
-      "html": "The <code>pointerlockerror</code> event is fired when locking the pointer failed (for technical reasons or because the permission was denied).",
-      "text": "The pointerlockerror event is fired when locking the pointer failed (for technical reasons or because the permission was denied)."
     }
   },
   "pointermove": {
@@ -2197,10 +1777,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointermove\">pointermove</a>",
       "text": "pointermove"
-    },
-    "description": {
-      "html": "The <code>pointermove</code> event is fired when a pointer changes coordinates, and the pointer has not been <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointercancel\">canceled</a> by a browser <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action\">touch-action</a>.",
-      "text": "The pointermove event is fired when a pointer changes coordinates, and the pointer has not been canceled by a browser touch-action."
     }
   },
   "pointerout": {
@@ -2217,10 +1793,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerout\">pointerout</a>",
       "text": "pointerout"
-    },
-    "description": {
-      "html": "The <code>pointerout</code> event is fired for several reasons including: pointing device is moved out of the <em>hit test</em> boundaries of an element; firing the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerup\" title=\"/en-US/docs/Web/Events/pointerup\">pointerup</a></code> event for a device that does not support hover (see <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerup\" title=\"/en-US/docs/Web/Events/pointerup\">pointerup</a></code>); after firing the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointercancel\" title=\"/en-US/docs/Web/Events/pointercancel\">pointercancel</a></code> event (see <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointercancel\" title=\"/en-US/docs/Web/Events/pointercancel\">pointercancel</a></code>); when a pen stylus leaves the hover range detectable by the digitizer.",
-      "text": "The pointerout event is fired for several reasons including: pointing device is moved out of the hit test boundaries of an element; firing the pointerup event for a device that does not support hover (see pointerup); after firing the pointercancel event (see pointercancel); when a pen stylus leaves the hover range detectable by the digitizer."
     }
   },
   "pointerover": {
@@ -2237,10 +1809,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerover\">pointerover</a>",
       "text": "pointerover"
-    },
-    "description": {
-      "html": "The <code>pointerover</code> event is fired when a pointing device is moved into an element&apos;s hit test boundaries.",
-      "text": "The pointerover event is fired when a pointing device is moved into an element's hit test boundaries."
     }
   },
   "pointerup": {
@@ -2257,10 +1825,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pointerup\">pointerup</a>",
       "text": "pointerup"
-    },
-    "description": {
-      "html": "The <code>pointerup</code> event is fired when a pointer is no longer active.",
-      "text": "The pointerup event is fired when a pointer is no longer active."
     }
   },
   "play": {
@@ -2277,10 +1841,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/play\">play</a>",
       "text": "play"
-    },
-    "description": {
-      "html": "The <code>play</code> event is fired when the <code>paused</code> property is changed from <code>true</code> to <code>false</code>, as a result of the <code>play</code> method, or the <code>autoplay</code> attribute.",
-      "text": "The play event is fired when the paused property is changed from true to false, as a result of the play method, or the autoplay attribute."
     }
   },
   "playing": {
@@ -2297,10 +1857,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/playing\">playing</a>",
       "text": "playing"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>playing</code> event is fired when playback is ready to start after having been paused or delayed due to lack of data.</span>",
-      "text": "The playing event is fired when playback is ready to start after having been paused or delayed due to lack of data."
     }
   },
   "popstate": {
@@ -2317,10 +1873,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/popstate\">popstate</a>",
       "text": "popstate"
-    },
-    "description": {
-      "html": "The <strong><code>popstate</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface is fired when the active history entry changes while the user navigates the session history. It changes the current history entry to that of the last page the user visited or, if <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/History/pushState\"><code>history.pushState()</code></a> has been used to add a history entry to the history stack, that history entry&#xA0;is used instead.",
-      "text": "The popstate event of the Window interface is fired when the active history entry changes while the user navigates the session history. It changes the current history entry to that of the last page the user visited or, if history.pushState() has been used to add a history entry to the history stack, that history entry is used instead."
     }
   },
   "progress": {
@@ -2337,10 +1889,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/progress\">progress</a>",
       "text": "progress"
-    },
-    "description": {
-      "html": "The <strong><code>progress</code></strong> event is fired periodically when a request receives more data.",
-      "text": "The progress event is fired periodically when a request receives more data."
     }
   },
   "push": {
@@ -2357,10 +1905,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/push\">push</a>",
       "text": "push"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>push</code> event is sent to a service worker&apos;s global scope (represented by the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope\"><code>ServiceWorkerGlobalScope</code></a> interface) when the service worker has received a push message.</span>",
-      "text": "The push event is sent to a service worker's global scope (represented by the ServiceWorkerGlobalScope interface) when the service worker has received a push message."
     }
   },
   "pushsubscriptionchange": {
@@ -2377,10 +1921,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/pushsubscriptionchange\">pushsubscriptionchange</a>",
       "text": "pushsubscriptionchange"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>pushsubscriptionchange</code></strong> event is sent to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope\">global scope</a> of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorker\"><code>ServiceWorker</code></a> to indicate a change in push subscription that was triggered outside the application&apos;s control.</span> This may occur if the subscription was refreshed by the browser, but it may also happen if the subscription has been revoked or lost.",
-      "text": "The pushsubscriptionchange event is sent to the global scope of a ServiceWorker to indicate a change in push subscription that was triggered outside the application's control. This may occur if the subscription was refreshed by the browser, but it may also happen if the subscription has been revoked or lost."
     }
   },
   "ratechange": {
@@ -2397,10 +1937,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/ratechange\">ratechange</a>",
       "text": "ratechange"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>ratechange</code> event is fired when the playback rate has changed.</span>",
-      "text": "The ratechange event is fired when the playback rate has changed."
     }
   },
   "readystatechange": {
@@ -2417,10 +1953,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/readystatechange\">readystatechange</a>",
       "text": "readystatechange"
-    },
-    "description": {
-      "html": "The <strong><code>readystatechange</code></strong> event is fired when the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState\"><code>readyState</code></a> attribute of a document has changed.",
-      "text": "The readystatechange event is fired when the readyState attribute of a document has changed."
     }
   },
   "repeatEvent": {
@@ -2437,10 +1969,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/repeatEvent\">repeatEvent</a>",
       "text": "repeatEvent"
-    },
-    "description": {
-      "html": "The <code>repeatEvent</code> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGAnimationElement\"><code>SVGAnimationElement</code></a> interface is fired when the element&apos;s local timeline repeats. It will be fired each time the element repeats, after the first iteration.",
-      "text": "The repeatEvent event of the SVGAnimationElement interface is fired when the element's local timeline repeats. It will be fired each time the element repeats, after the first iteration."
     }
   },
   "reset": {
@@ -2457,10 +1985,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/reset\">reset</a>",
       "text": "reset"
-    },
-    "description": {
-      "html": "The <strong><code>reset</code></strong> event fires when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a> is reset.",
-      "text": "The reset event fires when a <form> is reset."
     }
   },
   "resize": {
@@ -2477,10 +2001,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/resize\">resize</a>",
       "text": "resize"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>resize</code></strong> event fires when the document view (window) has been resized.</span>",
-      "text": "The resize event fires when the document view (window) has been resized."
     }
   },
   "resourcetimingbufferfull": {
@@ -2497,10 +2017,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/resourcetimingbufferfull\">resourcetimingbufferfull</a>",
       "text": "resourcetimingbufferfull"
-    },
-    "description": {
-      "html": "The <code>resourcetimingbufferfull</code> event is fired when the browser&apos;s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Performance/setResourceTimingBufferSize\">resource timing buffer</a> is full.",
-      "text": "The resourcetimingbufferfull event is fired when the browser's resource timing buffer is full."
     }
   },
   "result  ": {
@@ -2517,10 +2033,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/result\">result  </a>",
       "text": "result  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "resume  ": {
@@ -2537,10 +2049,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/resume\">resume  </a>",
       "text": "resume  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "scroll": {
@@ -2557,10 +2065,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/scroll\">scroll</a>",
       "text": "scroll"
-    },
-    "description": {
-      "html": "The <strong><code>scroll</code></strong> event fires when the document view or an element has been scrolled.",
-      "text": "The scroll event fires when the document view or an element has been scrolled."
     }
   },
   "seeked": {
@@ -2577,10 +2081,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/seeked\">seeked</a>",
       "text": "seeked"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>seeked</code> event is fired when a seek operation completed, the current playback position has changed, and the Boolean <code>seeking</code> attribute is changed to <code>false</code>.</span>",
-      "text": "The seeked event is fired when a seek operation completed, the current playback position has changed, and the Boolean seeking attribute is changed to false."
     }
   },
   "seeking": {
@@ -2597,10 +2097,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/seeking\">seeking</a>",
       "text": "seeking"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>seeking</code> event is fired when a seek operation starts, meaning the Boolean <code>seeking</code> attribute has changed to <code>true</code> and the media is seeking a new position.</span>",
-      "text": "The seeking event is fired when a seek operation starts, meaning the Boolean seeking attribute has changed to true and the media is seeking a new position."
     }
   },
   "select": {
@@ -2617,10 +2113,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/select\">select</a>",
       "text": "select"
-    },
-    "description": {
-      "html": "The <strong><code>select</code></strong> event fires when some text has been selected.",
-      "text": "The select event fires when some text has been selected."
     }
   },
   "selectstart  ": {
@@ -2637,10 +2129,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/selectstart\">selectstart  </a>",
       "text": "selectstart  "
-    },
-    "description": {
-      "html": "The <code><strong>selectstart</strong></code> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Selection\">Selection API</a> is fired when a user starts a new selection.",
-      "text": "The selectstart event of the Selection API is fired when a user starts a new selection."
     }
   },
   "selectionchange  ": {
@@ -2657,10 +2145,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/selectionchange\">selectionchange  </a>",
       "text": "selectionchange  "
-    },
-    "description": {
-      "html": "The <code><strong>selectionchange</strong></code> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Selection_API\">Selection API</a> is fired when the current text selection on a document is changed.",
-      "text": "The selectionchange event of the Selection API is fired when the current text selection on a document is changed."
     }
   },
   "show": {
@@ -2677,10 +2161,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/show\">show</a>",
       "text": "show"
-    },
-    "description": {
-      "html": "<strong>Deprecated</strong><br>This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#Browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
-      "text": "DeprecatedThis feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
     }
   },
   "slotchange": {
@@ -2697,10 +2177,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/slotchange\">slotchange</a>",
       "text": "slotchange"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code><strong>slotchange</strong></code> event is fired on an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement\"><code>HTMLSlotElement</code></a> instance (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot\" title=\"The HTML &lt;slot&gt; element&#x2014;part of the Web Components technology suite&#x2014;is a placeholder inside a web component that you can fill with your own markup, which lets you create separate DOM trees and present them together.\"><code>&lt;slot&gt;</code></a> element) when the node(s) contained in that slot change.</span>",
-      "text": "The slotchange event is fired on an HTMLSlotElement instance (<slot> element) when the node(s) contained in that slot change."
     }
   },
   "soundend  ": {
@@ -2717,10 +2193,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/soundend\">soundend  </a>",
       "text": "soundend  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "soundstart  ": {
@@ -2737,10 +2209,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/soundstart\">soundstart  </a>",
       "text": "soundstart  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "speechend  ": {
@@ -2757,10 +2225,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/speechend\">speechend  </a>",
       "text": "speechend  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "speechstart  ": {
@@ -2777,10 +2241,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/speechstart\">speechstart  </a>",
       "text": "speechstart  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "stalled": {
@@ -2797,10 +2257,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/stalled\">stalled</a>",
       "text": "stalled"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>stalled</code> event is fired when the user agent is trying to fetch media data, but data is unexpectedly not forthcoming.</span>",
-      "text": "The stalled event is fired when the user agent is trying to fetch media data, but data is unexpectedly not forthcoming."
     }
   },
   "start  ": {
@@ -2817,10 +2273,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/start_(SpeechRecognition)\">start  </a>",
       "text": "start  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "start": {
@@ -2837,10 +2289,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/start_(SpeechSynthesis)\">start</a>",
       "text": "start"
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "storage": {
@@ -2857,10 +2305,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/storage\">storage</a>",
       "text": "storage"
-    },
-    "description": {
-      "html": "The <strong><code>storage</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface fires when a storage area (<code>localStorage</code>) has been modified in the context of another document.",
-      "text": "The storage event of the Window interface fires when a storage area (localStorage) has been modified in the context of another document."
     }
   },
   "submit": {
@@ -2877,10 +2321,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/submit\">submit</a>",
       "text": "submit"
-    },
-    "description": {
-      "html": "The <strong><code>submit</code></strong> event fires when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a> is submitted.",
-      "text": "The submit event fires when a <form> is submitted."
     }
   },
   "success": {
@@ -2897,10 +2337,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Reference/Events/success_indexedDB\">success</a>",
       "text": "success"
-    },
-    "description": {
-      "html": "The <code>success</code> event is fired when an <code>IDBRequest</code> succeeds.",
-      "text": "The success event is fired when an IDBRequest succeeds."
     }
   },
   "suspend": {
@@ -2917,10 +2353,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/suspend\">suspend</a>",
       "text": "suspend"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>suspend</code> event is fired when media data loading has been suspended.</span>",
-      "text": "The suspend event is fired when media data loading has been suspended."
     }
   },
   "SVGAbort": {
@@ -2937,10 +2369,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/SVGAbort\">SVGAbort</a>",
       "text": "SVGAbort"
-    },
-    "description": {
-      "html": "The <code>abort</code> event is fired when page loading is stopped before an SVG element has been allowed to load completely. This basically implements the standard <code>abort</code> DOM event.",
-      "text": "The abort event is fired when page loading is stopped before an SVG element has been allowed to load completely. This basically implements the standard abort DOM event."
     }
   },
   "SVGError": {
@@ -2957,10 +2385,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/SVGError\">SVGError</a>",
       "text": "SVGError"
-    },
-    "description": {
-      "html": "The <code>error</code> event is fired when an SVG element does not load properly or when an error occurs during script execution.",
-      "text": "The error event is fired when an SVG element does not load properly or when an error occurs during script execution."
     }
   },
   "SVGLoad": {
@@ -2977,10 +2401,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/SVGLoad\">SVGLoad</a>",
       "text": "SVGLoad"
-    },
-    "description": {
-      "html": "The <code>load</code> event fires on an <code>SVGElement</code> when it is loaded in the browser, e.g. in the DOM in the case of an embedded <code>&lt;svg&gt;</code>. It is basically the same as the standard <code>load</code> DOM event.",
-      "text": "The load event fires on an SVGElement when it is loaded in the browser, e.g. in the DOM in the case of an embedded <svg>. It is basically the same as the standard load DOM event."
     }
   },
   "SVGResize": {
@@ -2997,10 +2417,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/SVGResize\">SVGResize</a>",
       "text": "SVGResize"
-    },
-    "description": {
-      "html": "The <code>resize</code> event is fired when an SVG document is being resized. This event is only applicable to outermost SVG elements and is dispatched after the resize operation has taken place.",
-      "text": "The resize event is fired when an SVG document is being resized. This event is only applicable to outermost SVG elements and is dispatched after the resize operation has taken place."
     }
   },
   "SVGScroll": {
@@ -3017,10 +2433,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/SVGScroll\">SVGScroll</a>",
       "text": "SVGScroll"
-    },
-    "description": {
-      "html": "The <code>scroll</code> event is fired when an SVG document view is being shifted along the X and/or Y axes. This basically implements the standard <code>scroll</code> DOM event.",
-      "text": "The scroll event is fired when an SVG document view is being shifted along the X and/or Y axes. This basically implements the standard scroll DOM event."
     }
   },
   "SVGUnload": {
@@ -3037,10 +2449,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/SVGUnload\">SVGUnload</a>",
       "text": "SVGUnload"
-    },
-    "description": {
-      "html": "The <code>unload</code> event is fired when the DOM implementation removes an SVG document from a window or frame.",
-      "text": "The unload event is fired when the DOM implementation removes an SVG document from a window or frame."
     }
   },
   "SVGZoom": {
@@ -3057,10 +2465,6 @@
     "keyword": {
       "html": "SVGZoom",
       "text": "SVGZoom"
-    },
-    "description": {
-      "html": null,
-      "text": null
     }
   },
   "timeout": {
@@ -3077,10 +2481,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/timeout\">timeout</a>",
       "text": "timeout"
-    },
-    "description": {
-      "html": "The <strong><code>timeout</code></strong> event is fired when progression is terminated due to preset time expiring.",
-      "text": "The timeout event is fired when progression is terminated due to preset time expiring."
     }
   },
   "timeupdate": {
@@ -3097,10 +2497,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/timeupdate\">timeupdate</a>",
       "text": "timeupdate"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>timeupdate</code> event is fired when the time indicated by the <code>currentTime</code> attribute has been updated.</span>",
-      "text": "The timeupdate event is fired when the time indicated by the currentTime attribute has been updated."
     }
   },
   "touchcancel": {
@@ -3117,10 +2513,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/touchcancel\">touchcancel</a>",
       "text": "touchcancel"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>touchcancel</code>&#xA0;event is fired when one or more touch points have been disrupted in an implementation-specific manner (for example, too many touch points are created).</span>",
-      "text": "The touchcancel event is fired when one or more touch points have been disrupted in an implementation-specific manner (for example, too many touch points are created)."
     }
   },
   "touchend": {
@@ -3137,10 +2529,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/touchend\">touchend</a>",
       "text": "touchend"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>touchend</code> event fires when one or more touch points are removed from the touch surface.</span>",
-      "text": "The touchend event fires when one or more touch points are removed from the touch surface."
     }
   },
   "touchmove": {
@@ -3157,10 +2545,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/touchmove\">touchmove</a>",
       "text": "touchmove"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>touchmove</code> event is fired when one or more touch points are moved along the touch surface.</span>",
-      "text": "The touchmove event is fired when one or more touch points are moved along the touch surface."
     }
   },
   "touchstart": {
@@ -3177,10 +2561,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/touchstart\">touchstart</a>",
       "text": "touchstart"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>touchstart</code> event is fired when one or more touch points are placed on the touch surface.</span>",
-      "text": "The touchstart event is fired when one or more touch points are placed on the touch surface."
     }
   },
   "transitionend": {
@@ -3197,10 +2577,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/transitionend\">transitionend</a>",
       "text": "transitionend"
-    },
-    "description": {
-      "html": "The <strong><code>transitionend</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/CSS/Using_CSS_transitions\">CSS transition</a> has completed. In the case where a transition is removed before completion, such as if the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property\" title=\"The transition-property CSS property sets the CSS properties to which a transition effect should be applied.\"><code>transition-property</code></a> is removed or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/display\" title=\"The display CSS property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout,&#xA0;grid or flex.\"><code>display</code></a> is set to <code>none</code>, then the event will not be generated.",
-      "text": "The transitionend event is fired when a CSS transition has completed. In the case where a transition is removed before completion, such as if the transition-property is removed or display is set to none, then the event will not be generated."
     }
   },
   "unload": {
@@ -3217,10 +2593,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/unload\">unload</a>",
       "text": "unload"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <strong><code>unload</code></strong> event is fired when the document or a child resource is being unloaded.</span>",
-      "text": "The unload event is fired when the document or a child resource is being unloaded."
     }
   },
   "upgradeneeded": {
@@ -3237,10 +2609,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Reference/Events/upgradeneeded_indexedDB\">upgradeneeded</a>",
       "text": "upgradeneeded"
-    },
-    "description": {
-      "html": "The <code>upgradeneeded</code> event is fired when an attempt was made to open a database with a version number higher than its current version.",
-      "text": "The upgradeneeded event is fired when an attempt was made to open a database with a version number higher than its current version."
     }
   },
   "userproximity": {
@@ -3257,10 +2625,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/userproximity\">userproximity</a>",
       "text": "userproximity"
-    },
-    "description": {
-      "html": "<strong>Obsolete</strong><br>This feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it.",
-      "text": "ObsoleteThis feature is obsolete. Although it may still work in some browsers, its use is discouraged since it could be removed at any time. Try to avoid using it."
     }
   },
   "voiceschanged  ": {
@@ -3277,10 +2641,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/voiceschanged\">voiceschanged  </a>",
       "text": "voiceschanged  "
-    },
-    "description": {
-      "html": "<strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Conventions_definitions#Experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#Browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
-      "text": "This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
     }
   },
   "versionchange": {
@@ -3297,10 +2657,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Reference/Events/versionchange_indexedDB\">versionchange</a>",
       "text": "versionchange"
-    },
-    "description": {
-      "html": "The <code>versionchange</code> event is fired when a database structure change (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/IDBOpenDBRequest/onupgradeneeded\" title=\"In the following example you can see the onupgradeneeded handler being used to update the database structure if a database with a higher version number is loaded. For a full working example, see our To-do Notifications app (view example live.)\"><code>IDBOpenDBRequest.onupgradeneeded</code></a> event or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/IDBFactory/deleteDatabase\" title=\"The deleteDatabase() method of the IDBFactory interface requests the deletion of a database. The method returns an IDBOpenDBRequest object immediately, and performs the deletion operation asynchronously.\"><code>IDBFactory.deleteDatabase</code></a>) was requested.",
-      "text": "The versionchange event is fired when a database structure change (IDBOpenDBRequest.onupgradeneeded event or IDBFactory.deleteDatabase) was requested."
     }
   },
   "visibilitychange": {
@@ -3317,10 +2673,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/visibilitychange\">visibilitychange</a>",
       "text": "visibilitychange"
-    },
-    "description": {
-      "html": "The <code>visibilitychange</code> event is fired at the document when the content of its tab have become visible or have been hidden.",
-      "text": "The visibilitychange event is fired at the document when the content of its tab have become visible or have been hidden."
     }
   },
   "volumechange": {
@@ -3337,10 +2689,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/volumechange\">volumechange</a>",
       "text": "volumechange"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>volumechange</code> event is fired when the volume has changed.</span>",
-      "text": "The volumechange event is fired when the volume has changed."
     }
   },
   "waiting": {
@@ -3357,10 +2705,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/waiting\">waiting</a>",
       "text": "waiting"
-    },
-    "description": {
-      "html": "<span class=\"seoSummary\">The <code>waiting</code> event is fired when playback has stopped because of a temporary lack of data.</span>",
-      "text": "The waiting event is fired when playback has stopped because of a temporary lack of data."
     }
   },
   "wheel": {
@@ -3377,10 +2721,6 @@
     "keyword": {
       "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/wheel\">wheel</a>",
       "text": "wheel"
-    },
-    "description": {
-      "html": "The <strong><code>wheel</code></strong> event fires when the user rotates a wheel button on a pointing device (typically a mouse).",
-      "text": "The wheel event fires when the user rotates a wheel button on a pointing device (typically a mouse)."
     }
   }
 }

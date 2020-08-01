@@ -44,7 +44,7 @@
     },
     "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/base",
     "description": {
-      "html": "The <strong>HTML <code>&lt;base&gt;</code> element</strong> specifies the base URL to use for all relative URLs in a document.",
+      "html": "The <strong>HTML <code>&lt;base&gt;</code> element</strong> specifies the base URL to use for all <em>relative</em> URLs in a document.",
       "text": "The HTML <base> element specifies the base URL to use for all relative URLs in a document."
     },
     "singleton": true,
@@ -160,7 +160,7 @@
     },
     "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/meta",
     "description": {
-      "html": "The <strong>HTML <code>&lt;meta&gt;</code> element</strong> represents <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Metadata\">metadata</a> that cannot be represented by other HTML meta-related elements, like <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" title=\"The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs in a document.\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&amp;lt;link&amp;gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed or reference executable code; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title\" title=\"The HTML Title element (&lt;title&gt;) defines the document&apos;s title that is shown in a browser&apos;s title bar or a page&apos;s tab.\"><code>&lt;title&gt;</code></a>.",
+      "html": "The <strong>HTML <code>&lt;meta&gt;</code> element</strong> represents <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Metadata\">metadata</a> that cannot be represented by other HTML meta-related elements, like <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\" title=\"The HTML &lt;base&gt; element specifies the base URL to use for all relative URLs in a document.\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\" title=\"The HTML External Resource Link element (&amp;lt;link&amp;gt;) specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" title=\"The HTML &lt;style&gt; element contains style information for a document, or part of a document.\"><code>&lt;style&gt;</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/title\" title=\"The HTML Title element (&lt;title&gt;) defines the document&apos;s title that is shown in a browser&apos;s title bar or a page&apos;s tab.\"><code>&lt;title&gt;</code></a>.",
       "text": "The HTML <meta> element represents metadata that cannot be represented by other HTML meta-related elements, like <base>, <link>, <script>, <style> or <title>."
     },
     "singleton": true,
@@ -1684,14 +1684,14 @@
   "i": {
     "status": "standard",
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i\" title=\"The HTML Interesting Text element (&lt;i&gt;) represents a range of text that is set off from the normal text for some reason.\"><code>&lt;i&gt;</code></a>",
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i\" title=\"The HTML Idiomatic&#xA0;Text element (&lt;i&gt;) represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others.\"><code>&lt;i&gt;</code></a>",
       "text": "<i>",
       "name": "i"
     },
     "url": "https://developer.mozilla.org//en-US/docs/Web/HTML/Element/i",
     "description": {
-      "html": "The <strong>HTML Interesting Text element (<code>&lt;i&gt;</code>)</strong> represents a range of text that is set off from the normal text for some reason.",
-      "text": "The HTML Interesting Text element (<i>) represents a range of text that is set off from the normal text for some reason."
+      "html": "The <strong>HTML Idiomatic&#xA0;Text element (<code>&lt;i&gt;</code>)</strong> represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others.",
+      "text": "The HTML Idiomatic Text element (<i>) represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others."
     },
     "singleton": false,
     "attributes": [
