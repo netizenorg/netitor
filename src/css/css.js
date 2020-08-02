@@ -485,7 +485,7 @@ li.CodeMirror-hint-active {
 /* HINTING STYLES: AUTO-COMPLETE DROPDOWN LIST */
 .CodeMirror-hints.netizen {
   color: var(--netizen-text);
-  background: var(--netizen-background);
+  background: var(--netizen-hint-color);
   padding: 8px 11px;
   font-size: 14px;
   border-radius: 8px;
