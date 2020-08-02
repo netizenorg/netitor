@@ -50,7 +50,8 @@ class Netitor {
       'lint-error': null,
       'edu-info': null,
       'hint-select': null,
-      'code-update': null
+      'code-update': null,
+      'render-update': null
     }
 
     this.themes = THEMES
@@ -235,6 +236,7 @@ class Netitor {
     content.open()
     content.write(this.code)
     content.close()
+    this.emit('render-update')
   }
 
   _shouldHint (cm) {

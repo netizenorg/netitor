@@ -95,6 +95,8 @@ ne.on('code-update', (event) => {
 
 **code-update**: This fires every time the code in the netitor changes. The `data` passed into the callback function is a string containing all the code currently in the editor (essentially the same as `ne.code`)
 
+**render-update**: This fires every time the render output iframe is updated.
+
 **hint-select**: This fires every time the user tabs up or down in the autocomplete hinting menu with the up/down arrow keys. The data object passed into the callback function contains the language of and the autocomplete option currently selected, an example might look like this:
 ```js
 {
