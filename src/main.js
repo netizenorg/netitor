@@ -198,7 +198,7 @@ class Netitor {
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
   _cursorActivity (cm) {
-    // TBD: this fires everytime the cursor moves
+    if (cm.getSelection() === '') this.emit('edu-info', null)
   }
 
   _mouseAction (cm, clickType, e) {
