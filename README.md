@@ -75,6 +75,8 @@ You can check to see if the code in the editor is "tidy" (aka property formatted
 
 **highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red). To remove a highlight simply call the method with 0 as the first argument (ex: `ne.highlight(0)`).
 
+**marker(lineNumber, color)**: this method will add a marker (a circle) in the gutter (where the line numbers are) in the specified line (default color is red). To remove all the markers run `ne.marker()` with no arguments.
+
 **saveToHash()**: this method will take all the code currently in the editor and save an encoded/compressed version of it to the current site's URL hash.
 
 **loadFromHash()**: if the current site's URL hash has encoded/compressed code in it (which you can check for using `ne.hasCodeInHash`) this will decode the URL and load the data into the editor.

@@ -147,6 +147,7 @@ class Netitor {
       keyMap: 'sublime',
       autoCloseBrackets: true,
       autoCloseTags: true,
+      gutters: ['gutter-marker', 'CodeMirror-linenumbers'],
       hintOptions: {
         hint: (cm, options) => this._hinter(cm, options),
         closeOnUnfocus: true,
@@ -348,6 +349,17 @@ class Netitor {
     const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
     if (this._marked) this._marked.clear()
     this._marked = this.cm.markText(start, end, { css })
+  }
+
+  marker (line, color) {
+    if (!line) return this.cm.clearGutter('gutter-marker')
+    const c = document.createElement('div')
+    c.style.width = '12px'
+    c.style.height = '12px'
+    c.style.borderRadius = '50%'
+    c.style.transform = 'translate(29px, 6px)'
+    c.style.backgroundColor = color || 'red'
+    this.cm.setGutterMarker(line, 'gutter-marker', c)
   }
 
   saveToHash () {
