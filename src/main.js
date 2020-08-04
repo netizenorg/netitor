@@ -359,7 +359,7 @@ class Netitor {
     c.style.borderRadius = '50%'
     c.style.transform = 'translate(29px, 6px)'
     c.style.backgroundColor = color || 'red'
-    this.cm.setGutterMarker(line, 'gutter-marker', c)
+    this.cm.setGutterMarker(line - 1, 'gutter-marker', c)
   }
 
   saveToHash () {
