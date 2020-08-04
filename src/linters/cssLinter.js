@@ -47,7 +47,7 @@ function catchTypeSelectorErrz (code) {
   const lines = code.split('\n')
   let strs = code.match(/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/g)
   if (!strs) return errz // probably there's another err taking precedence
-  else strs = strs.filter(s => !s.includes('@'))
+  else strs = strs.filter(s => !s.includes('@')).filter(s => !s.includes('%'))
   for (let i = 0; i < strs.length; i++) {
     const s = strs[i].substr(0, strs[i].length - 1)
     const o = cssSelector.parse(s)
