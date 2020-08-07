@@ -317,7 +317,8 @@ class Netitor {
     if (typeof v !== 'boolean') return this.err('background must be a boolean')
 
     this._bgcl = v
-    const val = (this._bgcl) ? this.themes[this.theme].background : '#00000000'
+    const bg = this.themes[this.theme].background
+    const val = (this._bgcl) ? bg : bg + '00'
     document.documentElement.style.setProperty('--netizen-background', val)
   }
 
