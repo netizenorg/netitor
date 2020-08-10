@@ -218,8 +218,8 @@ class Netitor {
   }
 
   async _update (cm) {
-    if (this._hint && this._shouldHint(cm)) cm.showHint()
     const h = document.querySelector('.CodeMirror-hints')
+    if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
     const errz = (this._lint && !h) ? await linter(cm) : []
     if (errz) this.emit('lint-error', errz)
     if (this._auto && !h && errz.length === 0) this.update()
