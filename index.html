@@ -115,6 +115,7 @@
       ne.on('lint-error', (eve) => {
         // just one example for how u might make use of our built in error messages
         console.log(eve)
+        ne.highlight(null) // remove previous highlights
         if (eve.length > 0) {
           let err = eve[0]
           ne.highlight(err.line)
@@ -124,7 +125,6 @@
         } else {
           document.querySelector('#nfo').innerHTML = netnetFace
           document.querySelector('#nfo').className = ''
-          ne.highlight(0) // remove any highlighted lines
         }
       })
 

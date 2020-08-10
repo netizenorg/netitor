@@ -73,9 +73,9 @@ You can check to see if the code in the editor is "tidy" (aka property formatted
 
 **update()**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`
 
-**highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red). To remove a highlight simply call the method with 0 as the first argument (ex: `ne.highlight(0)`).
+**highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red). To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with no arguments.
 
-**marker(lineNumber, color)**: this method will add a marker (a circle) in the gutter (where the line numbers are) in the specified line (default color is red). To remove all the markers run `ne.marker()` with no arguments.
+**marker(lineNumber, color)**: this method will add a marker (a circle) in the gutter (where the line numbers are) in the specified line (default color is red). To remove all the markers run `ne.marker(null)` or `ne.marker()` with no arguments.
 
 **saveToHash()**: this method will take all the code currently in the editor and save an encoded/compressed version of it to the current site's URL hash.
 

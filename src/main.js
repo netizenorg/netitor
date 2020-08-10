@@ -55,6 +55,7 @@ class Netitor {
     }
 
     this.themes = THEMES
+    this._highlights = [] // highlighted lines
 
     this._injectStyles()
     this._createEditor(opts.ele)
@@ -339,7 +340,11 @@ class Netitor {
   }
 
   highlight (line, color) {
-    if (this._marked && line === 0) this._marked.clear()
+    if (!line) {
+      this._highlights.forEach((m) => m.clear())
+      this._highlights = []
+      return
+    }
     if (typeof line !== 'number') {
       return this.err('highlight expects a number as it\'s first arg')
     } else if (color && typeof color !== 'string') {
@@ -348,8 +353,7 @@ class Netitor {
     const start = { line: line - 1, ch: 0 }
     const end = { line: line - 1, ch: null }
     const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
-    if (this._marked) this._marked.clear()
-    this._marked = this.cm.markText(start, end, { css })
+    this._highlights.push(this.cm.markText(start, end, { css }))
   }
 
   marker (line, color) {
