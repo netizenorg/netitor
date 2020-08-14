@@ -99,22 +99,33 @@ ne.on('code-update', (event) => {
 
 **render-update**: This fires every time the render output iframe is updated.
 
-**hint-select**: This fires every time the user tabs up or down in the autocomplete hinting menu with the up/down arrow keys. The data object passed into the callback function contains the language of and the autocomplete option currently selected, an example might look like this:
+**cursor-activity**: This fires every time the users's cursor changes positions. It returns an event object which looks like this:
 ```js
 {
-  language: "css",
-  data: "color"
+  langauge: "html",
+  line: 1,
+  col: 2,
+  data: {
+    type: "tag",
+    token: "h1",
+    tokenColStart: 1,
+    tokenColEnd: 3,
+    line: "<h1>hello world!</h1>"
+  }
 }
 ```
+In the example above the user would have clicked (and thus placed their cursor) right in between the "h" and "1" on a line of code that looked like `<h1>hello world!</h1>`.
 
 **lint-error**: Assuming you have `lint` set to `true`, if/when there are any errors in the netitor this callback will fire. The callback gets passed an array of error objects. These error objects vary a bit between languages but will all have at the very least the following properties:
 ```js
 {
   type: "error", // or "warning"
+  language: "html",
   message: "traditional error message in programmer lingo",
   friendly: "beginner friendly error message",
   line: 6, // line where the error was found
   col: 3 // column where the error was found
+  // may contain other properties depending on the language
 }
 ```
 
@@ -128,3 +139,11 @@ ne.on('code-update', (event) => {
 }
 ```
 The `nfo` property will contain an object with educational/reference information as well as links to further resources on that particular piece of code. This may not always be available, it depends on whether the particular piece of code selected has additional info. This info is generated from our [eduscraper](https://github.com/netizenorg/eduscraper) you can take a look at that repo to get a sense of the structure of the data.
+
+**hint-select**: This fires every time the user tabs up or down in the autocomplete hinting menu with the up/down arrow keys. The data object passed into the callback function contains the language of and the autocomplete option currently selected, an example might look like this:
+```js
+{
+  language: "css",
+  data: "color"
+}
+```

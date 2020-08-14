@@ -51,7 +51,8 @@ class Netitor {
       'edu-info': null,
       'hint-select': null,
       'code-update': null,
-      'render-update': null
+      'render-update': null,
+      'cursor-activity': null
     }
 
     this.themes = THEMES
@@ -200,7 +201,23 @@ class Netitor {
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
   _cursorActivity (cm) {
-    if (cm.getSelection() === '') this.emit('edu-info', null)
+    if (cm.getSelection() === '') {
+      const p = cm.getCursor()
+      const t = cm.getTokenAt(p)
+      const m = cm.getModeAt(p)
+      this.emit('cursor-activity', {
+        line: p.line,
+        col: p.ch,
+        langauge: (m.name === 'xml') ? 'html' : m.name,
+        data: {
+          line: cm.getLine(p.line),
+          type: t.type,
+          token: t.string,
+          tokenColStart: t.start,
+          tokenColEnd: t.end
+        }
+      })
+    }
   }
 
   _mouseAction (cm, clickType, e) {

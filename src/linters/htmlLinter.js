@@ -56,6 +56,7 @@ function linter (code) {
   for (let i = 0; i < err.length; i++) {
     const rule = err[i].rule.id
     err[i] = HTMLTranslateError[rule](err[i])
+    err[i].language = 'html'
   }
 
   return frdlyErr.concat(err)

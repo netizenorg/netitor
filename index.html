@@ -108,13 +108,9 @@
 
       const netnetFace = '<div class="face"><div></div></div class="face">'
 
-      ne.on('hint-select', (eve) => {
-        // just one example for how u might make use of our built in edu info
-      })
-
       ne.on('lint-error', (eve) => {
+        console.log('lint-error', eve)
         // just one example for how u might make use of our built in error messages
-        console.log(eve)
         ne.highlight(null) // remove previous highlights
         if (eve.length > 0) {
           let err = eve[0]
@@ -129,14 +125,26 @@
       })
 
       ne.on('edu-info', (eve) => {
+        console.log('edu-info', eve)
         // just one example for how u might make use of our built in edu info
-        // console.log(eve.nfo)
-        if (eve && eve.nfo) {
+        if (eve.nfo) {
           document.querySelector('#nfo').className = ''
           if (eve.language === 'html') showHTMLNFO(eve)
           else if (eve.language === 'css') showCSSNFO(eve)
           else if (eve.language === 'javascript') showJSNFO(eve)
-        } else document.querySelector('#nfo').innerHTML = netnetFace
+        }
+      })
+
+      ne.on('cursor-activity', (eve) => {
+        console.log('cursor-activity', eve)
+        // in this example we're not using the cursor info returned by this
+        // event, instead we're just using the notice of such an event to
+        // clear the #nfo element of any prior info
+        document.querySelector('#nfo').innerHTML = netnetFace
+      })
+
+      ne.on('hint-select', (eve) => {
+        console.log('hint-select', eve)
       })
 
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•

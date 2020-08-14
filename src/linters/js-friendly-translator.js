@@ -5,6 +5,7 @@ function reformatObj (obj, warning) {
   err.type = warning ? 'warning' : 'error'
   err.message = obj.reason
   err.friendly = obj.reason
+  err.language = 'javascript'
   return err
 }
 

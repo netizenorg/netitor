@@ -101,6 +101,7 @@ async function linter (code) {
 
   for (let i = 0; i < err.length; i++) {
     err[i] = CSSTranslateError(err[i])
+    err[i].language = 'css'
   }
 
   return err
