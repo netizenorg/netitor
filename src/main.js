@@ -356,18 +356,31 @@ class Netitor {
     } else this.err(`${event} is not a valid event`)
   }
 
-  highlight (line, color) {
+  highlight (line, col, color) {
     if (!line) {
       this._highlights.forEach((m) => m.clear())
       this._highlights = []
       return
-    }
-    if (typeof line !== 'number') {
+    } else if (typeof line !== 'number') {
       return this.err('highlight expects a number as it\'s first arg')
-    } else if (color && typeof color !== 'string') {
-      return this.err('highlight expects a color string as it\'s second arg')
     }
-    const start = { line: line - 1, ch: 0 }
+    if (col && (typeof col !== 'number' && typeof col !== 'string')) {
+      const m = 'either a column number or a css color value'
+      return this.err('highlight expects second arg to be ' + m)
+    }
+    if (color && typeof color !== 'string') {
+      return this.err('highlight expects third arg to be a css color value')
+    }
+    // ~ ~ ~ [end of error checking]
+
+    if (typeof col === 'string') {
+      color = col
+      col = 0
+    } else if (typeof col !== 'number') {
+      col = 0
+    }
+
+    const start = { line: line - 1, ch: col }
     const end = { line: line - 1, ch: null }
     const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
     this._highlights.push(this.cm.markText(start, end, { css }))
