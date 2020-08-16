@@ -356,32 +356,37 @@ class Netitor {
     } else this.err(`${event} is not a valid event`)
   }
 
-  highlight (line, col, color) {
+  highlight (line, color) {
     if (!line) {
       this._highlights.forEach((m) => m.clear())
       this._highlights = []
       return
+    }
+
+    // ~ ~ ~ [start of error checking]
+    if (typeof line === 'object') {
+      if (typeof line.startLine !== 'number') {
+        const m = 'to include a startLine propery set to a number'
+        return this.err('highlight expects it\'s options argument ' + m)
+      }
     } else if (typeof line !== 'number') {
       return this.err('highlight expects a number as it\'s first arg')
-    }
-    if (col && (typeof col !== 'number' && typeof col !== 'string')) {
-      const m = 'either a column number or a css color value'
-      return this.err('highlight expects second arg to be ' + m)
     }
     if (color && typeof color !== 'string') {
       return this.err('highlight expects third arg to be a css color value')
     }
     // ~ ~ ~ [end of error checking]
 
-    if (typeof col === 'string') {
-      color = col
-      col = 0
-    } else if (typeof col !== 'number') {
-      col = 0
+    if (typeof line === 'object' && line.color) color = line.color
+    const start = {
+      line: (typeof line === 'object') ? line.startLine - 1 : line - 1,
+      ch: (typeof line === 'object' && line.startCol) ? line.startCol : 0
     }
-
-    const start = { line: line - 1, ch: col }
-    const end = { line: line - 1, ch: null }
+    const end = {
+      line: (typeof line === 'object' && line.endLine)
+        ? line.endLine - 1 : start.line,
+      ch: (typeof line === 'object' && line.endCol) ? line.endCol : null
+    }
     const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
     this._highlights.push(this.cm.markText(start, end, { css }))
   }

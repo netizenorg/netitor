@@ -73,7 +73,17 @@ You can check to see if the code in the editor is "tidy" (aka property formatted
 
 **update()**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`
 
-**highlight(lineNumber, [columnNumber|color], color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red), for example `ne.highlight(3, 'green')` will highlight the third line in the netitor with the color green. Alternatively, you can pass a column number as the second value and pass the color as the third value, for example `ne.highlight(3, 5, 'green')` will highlight the third line in the netitor starting from the fifth column (ie. 5 spaces in).  To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with no arguments.
+**highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red), for example `ne.highlight(3, 'green')` will highlight the third line in the netitor with the color green. Alternatively, you can pass an options argument like this:
+```js
+  ne.highlight({
+    startLine: 2, // the line to start highlighting
+    startCol: 4, // the column on that line to start at
+    endLine: 4, // the line to end highlighting
+    endCol: 4, // the column on that line to end at
+    color: 'green' // the highlight color
+  })
+```  
+To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with no arguments.
 
 **marker(lineNumber, color)**: this method will add a marker (a circle) in the gutter (where the line numbers are) in the specified line (default color is red). To remove all the markers run `ne.marker(null)` or `ne.marker()` with no arguments.
 
