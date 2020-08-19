@@ -1,5 +1,6 @@
 /* global HTMLElement */
 const pako = require('pako')
+const stringSimilarity = require('string-similarity')
 const beautifyJS = require('js-beautify')
 const beautifyCSS = require('js-beautify').css
 const beautifyHTML = require('js-beautify').html
@@ -339,6 +340,9 @@ class Netitor {
     const val = (this._bgcl) ? bg : bg + '00'
     document.documentElement.style.setProperty('--netizen-background', val)
   }
+
+  _compareTwoStrings (a, b) { return stringSimilarity.compareTwoStrings(a, b) }
+  _findBestMatch (a, b) { return stringSimilarity.findBestMatch(a, b) }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  PUBLIC
