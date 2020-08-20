@@ -59,6 +59,39 @@ class Netitor {
     this.themes = THEMES
     this._highlights = [] // highlighted lines
 
+    this.edu = {
+      html: {
+        attributes: require('./edu-data/html-attributes.json'),
+        elements: require('./edu-data/html-elements.json')
+      },
+      css: {
+        'at-rules': require('./edu-data/css-at-rules.json'),
+        colors: require('./edu-data/css-colors.json'),
+        'data-types': require('./edu-data/css-data-types.json'),
+        functions: require('./edu-data/css-functions.json'),
+        properties: require('./edu-data/css-properties.json'),
+        'pseudo-classes': require('./edu-data/css-pseudo-classes.json'),
+        'pseudo-elements': require('./edu-data/css-pseudo-elements.json'),
+        units: require('./edu-data/css-units.json')
+      },
+      js: {
+        arrays: require('./edu-data/js-arrays.json'),
+        canvas: require('./edu-data/js-canvas.json'),
+        date: require('./edu-data/js-date.json'),
+        document: require('./edu-data/js-document.json'),
+        'dom-node': require('./edu-data/js-dom-node.json'),
+        events: require('./edu-data/js-events.json'),
+        // history: require('./edu-data/js-history.json'),
+        location: require('./edu-data/js-location.json'),
+        math: require('./edu-data/js-math.json'),
+        navigator: require('./edu-data/js-navigator.json'),
+        number: require('./edu-data/js-number.json'),
+        refs: require('./edu-data/js-refs.json'),
+        string: require('./edu-data/js-string.json'),
+        window: require('./edu-data/js-window.json')
+      }
+    }
+
     this._injectStyles()
     this._createEditor(opts.ele)
     this._createRenderIframe(opts)
