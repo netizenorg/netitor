@@ -61,6 +61,10 @@ class Netitor {
     this.themes = THEMES
     this._highlights = [] // highlighted lines
 
+    // exception to standard errors
+    this._customElements = {}
+    this._errExceptions = []
+
     this.edu = {
       html: {
         attributes: require('./edu-data/html-attributes.json'),
@@ -210,7 +214,8 @@ class Netitor {
       // HACK: 'dblclick' doesn't always fire for some reason
       // had to create a custom 'dblclick' event that would
       if (Date.now() < this._lastMouseDown + 400) {
-        const obj = eduData(cm)
+        let obj = eduData(cm)
+        obj = this._customElementsNfo(obj)
         this.emit('edu-info', obj)
       }
       this._lastMouseDown = Date.now()
@@ -266,27 +271,6 @@ class Netitor {
     return {}
   }
 
-  _delayUpdate (cm) {
-    // TODO: better debounce logic, so this doesn't run unless there's been an _adly worth of non typing in editor
-    clearTimeout(this._autoCallback)
-    this.emit('code-update', this.code)
-    this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
-    this._prevState = this.cm.getValue()
-  }
-
-  _passThroughErrz (errz) {
-    if (this._rerr) return true
-    else return errz.length === 0
-  }
-
-  async _update (cm) {
-    const h = document.querySelector('.CodeMirror-hints')
-    if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
-    const errz = (this._lint && !h) ? await linter(cm) : []
-    if (errz) this.emit('lint-error', errz)
-    if (this._auto && !h && this._passThroughErrz(errz)) this.update()
-  }
-
   _updateRenderIframe () {
     // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
     if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
@@ -301,6 +285,66 @@ class Netitor {
     content.close()
     this.emit('render-update')
   }
+
+  _delayUpdate (cm) {
+    // TODO: i feel like this could have better debounce logic,
+    // maybe doesn't run unless there's been an _adly worth of stillness
+    // (ie. nothing has been typed) in the editor?
+    clearTimeout(this._autoCallback)
+    this.emit('code-update', this.code)
+    this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
+    this._prevState = this.cm.getValue()
+  }
+
+  async _update (cm) {
+    const h = document.querySelector('.CodeMirror-hints')
+    if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
+    let errz = (this._lint && !h) ? await linter(cm) : []
+    errz = errz.length > 0 ? this._rmvExceptions(errz) : errz
+    if (errz) this.emit('lint-error', errz)
+    if (this._auto && !h && this._passThroughErrz(errz)) this.update()
+  }
+
+  // ~ ~ ~ errz ~ ~ ~
+
+  _passThroughErrz (errz) {
+    if (this._rerr) return true
+    else return errz.length === 0
+  }
+
+  _err2str (err) {
+    const obj = {}
+    if (err.jshint) {
+      obj.code = err.jshint.code
+      obj.evidence = err.jshint.evidence.trim()
+    } else {
+      obj.rule = err.rule
+      obj.message = err.message
+    }
+    return JSON.stringify(obj)
+  }
+
+  _rmvExceptions (errz) {
+    // check for specific error exceptions
+    if (this._errExceptions.length > 0) {
+      for (let i = errz.length - 1; i >= 0; i--) {
+        const str = this._err2str(errz[i])
+        if (this._errExceptions.includes(str)) errz.splice(i, 1)
+      }
+    }
+    // then check for custom elements
+    const eles = Object.keys(this._customElements)
+    if (eles.length > 0) {
+      for (let i = errz.length - 1; i >= 0; i--) {
+        if (errz[i].rule && errz[i].rule.id === 'standard-elements') {
+          if (eles.includes(errz[i].evidence)) errz.splice(i, 1)
+        }
+      }
+    }
+    return errz
+  }
+
+  // ~ ~ ~ hinting ~ ~ ~
 
   _shouldHint (cm) {
     const pos = cm.getCursor()
@@ -347,6 +391,17 @@ class Netitor {
       this.emit('hint-select', { language, data })
     })
     return res
+  }
+
+  // ~ ~ ~ misc ~ ~ ~
+
+  _customElementsNfo (obj) { // ...for edu-info
+    if (obj.language === 'html' && obj.type === 'element' && !obj.nfo) {
+      if (this._customElements[obj.data]) {
+        obj.nfo = this._customElements[obj.data]
+      }
+    }
+    return obj
   }
 
   _tidy (checkOnly) {
@@ -477,6 +532,28 @@ class Netitor {
   }
 
   tidy () { this._tidy() }
+
+  addCustomElements (obj) {
+    let m = 'addCustomElements() expects an object as it\'s argument '
+    m += 'with a structure that looks like this: '
+    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-elements.json'
+
+    if (typeof obj === 'object') {
+      for (const ele in obj) this._customElements[ele] = obj[ele]
+    } else return this.err(m)
+
+    this._delayUpdate(this.cm)
+  }
+
+  addErrorException (err) {
+    this._errExceptions.push(this._err2str(err))
+    this._delayUpdate(this.cm)
+  }
+
+  clearErrorExceptions () {
+    this._errExceptions = []
+    this._delayUpdate(this.cm)
+  }
 
   update () {
     if (this.iframe) this._updateRenderIframe()
