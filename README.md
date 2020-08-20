@@ -31,7 +31,8 @@ const ne = new Netitor({
   hint: true,
   autoUpdate: true,
   updateDelay: 500,
-  friendlyErr: true
+  friendlyErr: true,
+  renderWithErrors: false
 })
 ```
 
@@ -47,6 +48,7 @@ const ne = new Netitor({
 | autoUpdate | true | whether or not to update the render preview when code changes
 | updateDelay | 500 | how many milliseconds to wait after code changes before preview updates
 | friendlyErr | true | whether or not to translate default error messages into beginner friendly vernacular (when available)
+| renderWithErrors | false | whether or not the output should render if there is an error in the editor
 
 ## Properties
 
@@ -62,7 +64,11 @@ ne.hint = false
 ne.autoUpdate = false
 ne.updateDelay = 2000
 ne.friendlyErr = false
+ne.renderWithErrors = true
 ```
+
+There is also
+
 ### read-only properites
 
 Netitor is a fully static web-based editor, as such it allows you to save and load code sketches to the URL (no database or back-end needed to save/share/remix/etc), in order to check if the current URL has a hash with code/data in it you can use `ne.hasCodeInHash`, this read-only property returns either `true` or `false`

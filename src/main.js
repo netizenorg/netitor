@@ -46,6 +46,8 @@ class Netitor {
     this._auto = typeof opts.autoUpdate === 'boolean' ? opts.autoUpdate : true
     this._adly = typeof opts.updateDelay === 'number' ? opts.updateDelay : 500
     this._ferr = typeof opts.friendlyErr === 'boolean' ? opts.friendlyErr : true
+    this._rerr = typeof opts.renderWithErrors === 'boolean'
+      ? opts.renderWithErrors : false
 
     this.events = {
       'lint-error': null,
@@ -139,6 +141,9 @@ class Netitor {
     this.cm = null
     this._createEditor()
   }
+
+  get renderWithErrors () { return this._rerr }
+  set renderWithErrors (v) { this._rerr = v }
 
   // ................................................. read-only properties
 
@@ -269,12 +274,17 @@ class Netitor {
     this._prevState = this.cm.getValue()
   }
 
+  _passThroughErrz (errz) {
+    if (this._rerr) return true
+    else return errz.length === 0
+  }
+
   async _update (cm) {
     const h = document.querySelector('.CodeMirror-hints')
     if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
     const errz = (this._lint && !h) ? await linter(cm) : []
     if (errz) this.emit('lint-error', errz)
-    if (this._auto && !h && errz.length === 0) this.update()
+    if (this._auto && !h && this._passThroughErrz(errz)) this.update()
   }
 
   _updateRenderIframe () {
