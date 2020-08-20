@@ -10,7 +10,8 @@
     "build": "browserify src/main.js > build/netitor.js",
     "postbuild": "terser build/netitor.js -cm -o build/netitor.min.js",
     "watch": "nodemon --watch src --ignore src/css/*.js -x 'npm run build'",
-    "eduscraper": "eduscraper all src/edu-data"
+    "eduscraper": "eduscraper all src/edu-data",
+    "update-eduscraper": "rm -rf node_modules/eduscraper/; npm install"
   },
   "author": "netizen.org <hi@netizen.org>",
   "license": "GPL-3.0",
