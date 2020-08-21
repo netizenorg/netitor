@@ -101,11 +101,13 @@ To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with n
 
 **tidy()**: calling this method will clean-up (aka format) the code in the editor (fix spacing, indentation, etc).
 
-**addCustomElements(obj)**: when linting (ie. spotting errors) is set to `true` it will include errors for non-standard elements. This means if you're using any [custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components) it will return errors when it spots them. This method is used to add exceptions for any custom elements you'd like to use in the editor. Additionally, when a user double-clicks on an custom element which has been added, the editor will fire an edu-info event for that element. The `obj` passed into this method should be a "dictionary" object with all the custom elements you'd like to add, it should look similar to [this](https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-elements.json).
-
 **addErrorException(obj)**: error objects returned in the event array passed into the `lint-error` callback function have a `type` property which returns either 'error' or 'warning' which can be used to filter out less consequential errors, but if there is a specific error you want to suppress rather than doing that filtering yourself you can add it to the list of exceptions by passing the error object into this method.
 
 **clearErrorExceptions()**: calling this method clears all the exceptions added using the `.addErrorException(obj)` method.
+
+**addCustomElements(obj)**: the linting process (ie. generating error objects) includes flagging non-standard elements. This means if you're using any [custom elements](https://developer.mozilla.org/en-US/docs/Web/Web_Components) it will return errors when it spots them. This method is used to add exceptions for any custom elements you'd like to use in the editor. Additionally, when a user double-clicks on an custom element which has been added, the editor will fire an edu-info event for that element. The `obj` passed into this method should be a "dictionary" object with all the custom elements you'd like to add, it should look similar to [this](https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-elements.json).
+
+**addCustomAttributes(obj)**: assuming the custom element objects passed into `addCustomElements()` include 'attributes' arrays, it will use them to create very generic edu-info data for those attributes, but you could alternatively pass this method your own attribute "dictionary" object, similar to [this](https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-attributes.json).
 
 **on('event-name', callbackFunction)**: the netitor has a l(still working on it)ist of events you can listen for and pass a callback function to, for example:
 

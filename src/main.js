@@ -63,6 +63,7 @@ class Netitor {
 
     // exception to standard errors
     this._customElements = {}
+    this._customAttributes = {}
     this._errExceptions = []
 
     this.edu = {
@@ -216,6 +217,7 @@ class Netitor {
       if (Date.now() < this._lastMouseDown + 400) {
         let obj = eduData(cm)
         obj = this._customElementsNfo(obj)
+        obj = this._customAttributesNfo(obj)
         this.emit('edu-info', obj)
       }
       this._lastMouseDown = Date.now()
@@ -404,6 +406,17 @@ class Netitor {
     return obj
   }
 
+  _customAttributesNfo (obj) {
+    if (obj.language === 'html' && obj.type === 'attribute') {
+      const pos = this.cm.getCursor()
+      const tok = this.cm.getTokenAt(pos)
+      const tag = tok.state.htmlState.tagName
+      const ele = this._customElements[tag]
+      if (ele) obj.nfo = this._customAttributes[obj.data]
+    }
+    return obj
+  }
+
   _tidy (checkOnly) {
     const o = {
       indent_size: 2,
@@ -539,7 +552,39 @@ class Netitor {
     m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-elements.json'
 
     if (typeof obj === 'object') {
-      for (const ele in obj) this._customElements[ele] = obj[ele]
+      for (const ele in obj) {
+        this._customElements[ele] = obj[ele]
+        // create very generic attribute info for this element's attributes
+        this._customElements[ele].attributes.forEach(a => {
+          const o = this._customAttributes[a] || {}
+          const et = o.elements ? o.elements.text + ',' : ''
+          const eh = o.elements ? o.elements.html + ',' : ''
+          const dt = o.description ? o.description.text + ','
+            : 'This is a custom attribute used by'
+          const dh = o.description ? o.description.html + ','
+            : 'This is a custom attribute used by'
+          o.keyword = { html: a, text: a }
+          o.elements = {
+            html: `${eh} <code>&lt;${ele}&gt;</code>`, text: `${et} <${ele}>`
+          }
+          o.description = {
+            html: `${dh} <code>&lt;${ele}&gt;</code>`, text: `${dt} <${ele}>`
+          }
+          this._customAttributes[a] = o
+        })
+      }
+    } else return this.err(m)
+
+    this._delayUpdate(this.cm)
+  }
+
+  addCustomAttributes (obj) {
+    let m = 'addCustomAttributes() expects an object as it\'s argument '
+    m += 'with a structure that looks like this: '
+    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-attributes.json'
+
+    if (typeof obj === 'object') {
+      for (const attr in obj) this._customAttributes[attr] = obj[attr]
     } else return this.err(m)
 
     this._delayUpdate(this.cm)
