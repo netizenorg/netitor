@@ -455,6 +455,9 @@ class Netitor {
   _compareTwoStrings (a, b) { return stringSimilarity.compareTwoStrings(a, b) }
   _findBestMatch (a, b) { return stringSimilarity.findBestMatch(a, b) }
 
+  _decode (code) { return pako.inflate(window.atob(code), { to: 'string' }) }
+  _encode (code) { return pako.deflate(code, { to: 'string' }) }
+
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  PUBLIC
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
@@ -518,7 +521,7 @@ class Netitor {
   }
 
   saveToHash () {
-    const data = pako.deflate(this.code, { to: 'string' })
+    const data = this._encode(this.code)
     window.location.hash = '#code/' + window.btoa(data)
     return window.btoa(data)
   }
@@ -526,7 +529,7 @@ class Netitor {
   loadFromHash () {
     if (this.hasCodeInHash) {
       const code = window.location.hash.substr(6)
-      const decoded = pako.inflate(window.atob(code), { to: 'string' })
+      const decoded = this._decode(code)
       this.code = decoded
       return decoded
     } else {
