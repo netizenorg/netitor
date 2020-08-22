@@ -456,7 +456,7 @@ class Netitor {
   _findBestMatch (a, b) { return stringSimilarity.findBestMatch(a, b) }
 
   _decode (code) { return pako.inflate(window.atob(code), { to: 'string' }) }
-  _encode (code) { return pako.deflate(window.btoa(code), { to: 'string' }) }
+  _encode (code) { return window.btoa(pako.deflate(code, { to: 'string' })) }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  PUBLIC
