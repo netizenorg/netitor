@@ -456,7 +456,7 @@ class Netitor {
   _findBestMatch (a, b) { return stringSimilarity.findBestMatch(a, b) }
 
   _decode (code) { return pako.inflate(window.atob(code), { to: 'string' }) }
-  _encode (code) { return pako.deflate(code, { to: 'string' }) }
+  _encode (code) { return pako.deflate(window.btoa(code), { to: 'string' }) }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  PUBLIC
@@ -522,7 +522,7 @@ class Netitor {
 
   saveToHash () {
     const data = this._encode(this.code)
-    window.location.hash = '#code/' + window.btoa(data)
+    window.location.hash = '#code/' + data
     return window.btoa(data)
   }
 
