@@ -591,7 +591,8 @@ class Netitor {
   }
 
   addErrorException (err) {
-    this._errExceptions.push(this._err2str(err))
+    if (typeof err === 'string') this._errExceptions.push(err)
+    else this._errExceptions.push(this._err2str(err))
     this._delayUpdate(this.cm)
   }
 
