@@ -60,6 +60,7 @@ class Netitor {
 
     this.themes = THEMES
     this._highlights = [] // highlighted lines
+    this._root = null // path to prepend to all src/href attr
 
     // exception to standard errors
     this._customElements = {}
@@ -273,6 +274,23 @@ class Netitor {
     return {}
   }
 
+  _applyCustomRoot (code) {
+    function inject (str, attr, r) {
+      let a = str.split(attr)
+      if (a.length < 2) return a.join(attr)
+      a = a.map((s, i) => {
+        if (i > 0 && s.indexOf('http') !== 0) s = r + s
+        return s
+      })
+      return a.join(attr)
+    }
+    let arr = code.split('\n')
+    arr = arr.map(line => inject(line, 'href="', this._root))
+    arr = arr.map(line => inject(line, 'src="', this._root))
+    arr = arr.map(line => inject(line, 'url(', this._root))
+    return arr.join('\n')
+  }
+
   _updateRenderIframe () {
     // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
     if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
@@ -283,7 +301,8 @@ class Netitor {
     this.render.appendChild(this.iframe)
     const content = this.iframe.contentDocument || this.iframe.contentWindow.document
     content.open()
-    content.write(this.code)
+    const code = this._root ? this._applyCustomRoot(this.code) : this.code
+    content.write(code)
     content.close()
     this.emit('render-update')
   }
@@ -548,6 +567,18 @@ class Netitor {
   }
 
   tidy () { this._tidy() }
+
+  addCustomRoot (path) {
+    if (path === null) {
+      this._root = null
+      this._delayUpdate(this.cm)
+    } else if (typeof path !== 'string' || path.indexOf('http') !== 0) {
+      return this.err('addCustomRoot() expects a http URL string')
+    } else {
+      this._root = path
+      this._delayUpdate(this.cm)
+    }
+  }
 
   addCustomElements (obj) {
     let m = 'addCustomElements() expects an object as it\'s argument '

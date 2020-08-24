@@ -101,6 +101,8 @@ To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with n
 
 **tidy()**: calling this method will clean-up (aka format) the code in the editor (fix spacing, indentation, etc).
 
+**addCustomRoot(root)**: netitor is a single page editor for simple HTML sketches, which means sketches with code linking to other files/assets (via the `src` and `href` HTML attributes as well as the `url()` CSS function) will need to be absolute paths (as there is no 'relative' context). To get around this you can use this method to set a custom 'root' path. This should be a public URL to a directory with any of the files you want to reference in the editor as though they were relative paths. You can also pass this method `null` to reset it.
+
 **addErrorException(obj)**: error objects returned in the event array passed into the `lint-error` callback function have a `type` property which returns either 'error' or 'warning' which can be used to filter out less consequential errors, but if there is a specific error you want to suppress rather than doing that filtering yourself you can add it to the list of exceptions by passing the error object into this method.
 
 **clearErrorExceptions()**: calling this method clears all the exceptions added using the `.addErrorException(obj)` method.
