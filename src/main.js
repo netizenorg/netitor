@@ -284,6 +284,7 @@ class Netitor {
     }
     const add2css = (str) => {
       const matches = str.match(/\burl\(\b([^()]*)\)/g) // match all url(...)
+      if (!matches) return str
       matches.forEach(m => {
         const s = m.substring(4, m.length - 1)
         if (s.indexOf('http') !== 0) str = str.replace(s, this._root + s)
@@ -292,6 +293,7 @@ class Netitor {
     }
     const add2js = (str) => {
       const matches = str.match(/(['"])((\\\1|.)*?)\1/gm) // match all strings
+      if (!matches) return str
       matches.forEach(m => {
         const s = m.substring(1, m.length - 1)
         if (s.indexOf('http') !== 0) {
