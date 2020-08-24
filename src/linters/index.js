@@ -42,7 +42,7 @@ async function linter (cm) {
   const lang = cm.getMode().name
 
   let errz = (lang === 'css')
-    ? cssLinter(code) : (lang === 'javasscript')
+    ? cssLinter(code) : (lang === 'javascript')
       ? jsLinter(code) : htmlLinter(code)
 
   if (lang === 'htmlmixed') {
@@ -50,13 +50,6 @@ async function linter (cm) {
     errz = await concatErrz(errz, parsed, 'css')
     errz = await concatErrz(errz, parsed, 'js')
   }
-
-  // // clean err objs
-  // for (let i = 0; i < errz.length; i++) {
-  //   // col, evidence, friendly, line, message, rule { id, description, link }
-  //   delete errz[i].evidence
-  //   if (typeof errz[i].rule === 'object') errz[i].rule = errz[i].rule.id
-  // }
 
   return await errz
 }

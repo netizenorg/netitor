@@ -142,10 +142,13 @@ class Netitor {
   get language () { return this._lang }
   set language (v) {
     this._lang = v
+    this._temp_code_str = this.code
     const curEditor = document.querySelector('.CodeMirror.cm-s-netizen')
     if (curEditor instanceof HTMLElement) this.ele.removeChild(curEditor)
     this.cm = null
     this._createEditor()
+    this.code = this._temp_code_str
+    delete this._temp_code_str
   }
 
   get renderWithErrors () { return this._rerr }
@@ -274,21 +277,45 @@ class Netitor {
     return {}
   }
 
-  _applyCustomRoot (code) {
-    function inject (str, attr, r) {
-      let a = str.split(attr)
-      if (a.length < 2) return a.join(attr)
-      a = a.map((s, i) => {
-        if (i > 0 && s.indexOf('http') !== 0) s = r + s
-        return s
-      })
-      return a.join(attr)
+  _applyCustomRoot (doc, code) {
+    const add2attr = (e, a) => {
+      const attr = e.getAttribute(a)
+      if (attr.indexOf('http') !== 0) e.setAttribute(a, this._root + attr)
     }
-    let arr = code.split('\n')
-    arr = arr.map(line => inject(line, 'href="', this._root))
-    arr = arr.map(line => inject(line, 'src="', this._root))
-    arr = arr.map(line => inject(line, 'url(', this._root))
-    return arr.join('\n')
+    const add2css = (str) => {
+      const matches = str.match(/\burl\(\b([^()]*)\)/g) // match all url(...)
+      matches.forEach(m => {
+        const s = m.substring(4, m.length - 1)
+        if (s.indexOf('http') !== 0) str = str.replace(s, this._root + s)
+      })
+      return str
+    }
+    const add2js = (str) => {
+      const matches = str.match(/(['"])((\\\1|.)*?)\1/gm) // match all strings
+      matches.forEach(m => {
+        const s = m.substring(1, m.length - 1)
+        if (s.indexOf('http') !== 0) {
+          const split = s.split('.')
+          const ex = split[split.length - 1]
+          // NOTE: making a HUGE assumptions here (>_<) trying to see if the
+          // matched string ends with a short extention: .jpg|.json|.webm|etc
+          if (split.length > 1 && (ex.length > 2 && ex.length < 5)) {
+            str = str.replace(s, this._root + s)
+          }
+        }
+      })
+      return str
+    }
+    if (this.language === 'html') {
+      doc.write(code)
+      doc.querySelectorAll('[src]').forEach(e => add2attr(e, 'src'))
+      doc.querySelectorAll('[href]').forEach(e => add2attr(e, 'href'))
+      doc.querySelectorAll('style')
+        .forEach(style => { style.innerHTML = add2css(style.innerHTML) })
+      doc.querySelectorAll('script')
+        .forEach(js => { js.innerHTML = add2js(js.innerHTML) })
+    } else if (this.language === 'css') doc.write(add2css(code))
+    else if (this.language === 'javascript') doc.write(add2js(code))
   }
 
   _updateRenderIframe () {
@@ -301,8 +328,8 @@ class Netitor {
     this.render.appendChild(this.iframe)
     const content = this.iframe.contentDocument || this.iframe.contentWindow.document
     content.open()
-    const code = this._root ? this._applyCustomRoot(this.code) : this.code
-    content.write(code)
+    if (!this._root) content.write(this.code)
+    else this._applyCustomRoot(content, this.code)
     content.close()
     this.emit('render-update')
   }
