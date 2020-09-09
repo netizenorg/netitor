@@ -278,10 +278,6 @@ class Netitor {
   }
 
   _applyCustomRoot (doc, code) {
-    const add2attr = (e, a) => {
-      const attr = e.getAttribute(a)
-      if (attr.indexOf('http') !== 0) e.setAttribute(a, this._root + attr)
-    }
     const add2css = (str) => {
       const matches = str.match(/\burl\(\b([^()]*)\)/g) // match all url(...)
       if (!matches) return str
@@ -308,14 +304,34 @@ class Netitor {
       })
       return str
     }
+    function add2attr (code, root) {
+      const regex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|\s*\/?[>"']))+.)["']?/g
+      return code.replace(regex, (attr) => {
+        const a = attr.split('=')
+        if (a[0] === 'src' || a[0] === 'href') {
+          a[1] = `"${root}${a[1].substring(1, a[1].length - 1)}"`
+        } else if (a[0] === 'material' && a[1].includes('src')) {
+          // for a-frame library
+          if (a[1].includes(';')) {
+            const arr = a[1].split(';')
+            for (let i = 0; i < arr.length; i++) {
+              if (arr[i].includes('src')) {
+                arr[i] = `src: ${root}${arr[i].split(':')[1].trim()}`
+              }
+            }
+            a[1] = `"${arr.join(';')}`
+          } else {
+            a[1] = `"src: ${root}${a[1].split(':')[1].trim()}`
+          }
+        }
+        return `${a[0]}=${a[1]}`
+      })
+    }
     if (this.language === 'html') {
+      code = add2attr(code, this._root)
+      code = code.replace(/<style[^>]*>([^>]*?)<\/style>/g, (s) => add2css(s))
+      code = code.replace(/<script[^>]*>([^>]*?)<\/script>/g, (s) => add2js(s))
       doc.write(code)
-      doc.querySelectorAll('[src]').forEach(e => add2attr(e, 'src'))
-      doc.querySelectorAll('[href]').forEach(e => add2attr(e, 'href'))
-      doc.querySelectorAll('style')
-        .forEach(style => { style.innerHTML = add2css(style.innerHTML) })
-      doc.querySelectorAll('script')
-        .forEach(js => { js.innerHTML = add2js(js.innerHTML) })
     } else if (this.language === 'css') doc.write(add2css(code))
     else if (this.language === 'javascript') doc.write(add2js(code))
   }
