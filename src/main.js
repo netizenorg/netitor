@@ -601,8 +601,8 @@ class Netitor {
     if (path === null) {
       this._root = null
       this._delayUpdate(this.cm)
-    } else if (typeof path !== 'string' || path.indexOf('http') !== 0) {
-      return this.err('addCustomRoot() expects a http URL string')
+    } else if (typeof path !== 'string') {
+      return this.err('addCustomRoot() expects a URL string')
     } else {
       this._root = path
       this._delayUpdate(this.cm)
