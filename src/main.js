@@ -308,7 +308,7 @@ class Netitor {
       const regex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|\s*\/?[>"']))+.)["']?/g
       return code.replace(regex, (attr) => {
         const a = attr.split('=')
-        if (a[0] === 'src' || a[0] === 'href') {
+        if ((a[0] === 'src' || a[0] === 'href') && a[1].indexOf('http') !== 1) {
           a[1] = `"${root}${a[1].substring(1, a[1].length - 1)}"`
         } else if (a[0] === 'material' && a[1].includes('src')) {
           // for a-frame library
