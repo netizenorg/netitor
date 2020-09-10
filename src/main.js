@@ -163,6 +163,170 @@ class Netitor {
   set isTidy (v) { this.err('isTidy is read only') }
 
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
+  // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  PUBLIC
+  // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
+
+  getLine (num) { return this.cm.getLine(num - 1) }
+
+  on (event, callback) {
+    if (Object.prototype.hasOwnProperty.call(this.events, event)) {
+      this.events[event] = callback
+    } else this.err(`${event} is not a valid event`)
+  }
+
+  emit (event, data) {
+    if (Object.prototype.hasOwnProperty.call(this.events, event)) {
+      if (typeof this.events[event] === 'function') this.events[event](data)
+    } else this.err(`${event} is not a valid event`)
+  }
+
+  highlight (line, color) {
+    if (!line) {
+      this._highlights.forEach((m) => m.clear())
+      this._highlights = []
+      return
+    }
+
+    // ~ ~ ~ [start of error checking]
+    if (typeof line === 'object') {
+      if (typeof line.startLine !== 'number') {
+        const m = 'to include a startLine propery set to a number'
+        return this.err('highlight expects it\'s options argument ' + m)
+      }
+    } else if (typeof line !== 'number') {
+      return this.err('highlight expects a number as it\'s first arg')
+    }
+    if (color && typeof color !== 'string') {
+      return this.err('highlight expects third arg to be a css color value')
+    }
+    // ~ ~ ~ [end of error checking]
+
+    if (typeof line === 'object' && line.color) color = line.color
+    const start = {
+      line: (typeof line === 'object') ? line.startLine - 1 : line - 1,
+      ch: (typeof line === 'object' && line.startCol) ? line.startCol : 0
+    }
+    const end = {
+      line: (typeof line === 'object' && line.endLine)
+        ? line.endLine - 1 : start.line,
+      ch: (typeof line === 'object' && line.endCol) ? line.endCol : null
+    }
+    const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
+    this._highlights.push(this.cm.markText(start, end, { css }))
+  }
+
+  marker (line, color) {
+    if (!line) return this.cm.clearGutter('gutter-marker')
+    const c = document.createElement('div')
+    c.style.width = '12px'
+    c.style.height = '12px'
+    c.style.borderRadius = '50%'
+    c.style.transform = 'translate(29px, 6px)'
+    c.style.backgroundColor = color || 'red'
+    this.cm.setGutterMarker(line - 1, 'gutter-marker', c)
+  }
+
+  saveToHash () {
+    const data = this._encode(this.code)
+    window.location.hash = '#code/' + data
+    return window.btoa(data)
+  }
+
+  loadFromHash () {
+    if (this.hasCodeInHash) {
+      const code = window.location.hash.substr(6)
+      const decoded = this._decode(code)
+      this.code = decoded
+      return decoded
+    } else {
+      this.err('.decodeFromURL() did not find any #code in the current URL')
+    }
+  }
+
+  loadFromURL (url) {
+    if (!url) {
+      return this.err('loadFromURL() expects a url to a raw text/html file')
+    }
+    window.fetch(url, { method: 'GET' })
+      .then(res => res.text())
+      .then(text => { this.code = text })
+      .catch(err => this.err(err))
+  }
+
+  tidy () { this._tidy() }
+
+  addCustomRoot (path) {
+    if (path === null) {
+      this._root = null
+      this._delayUpdate(this.cm)
+    } else if (typeof path !== 'string') {
+      return this.err('addCustomRoot() expects a URL string')
+    } else {
+      this._root = path
+      this._delayUpdate(this.cm)
+    }
+  }
+
+  addCustomElements (obj) {
+    let m = 'addCustomElements() expects an object as it\'s argument '
+    m += 'with a structure that looks like this: '
+    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-elements.json'
+
+    if (typeof obj === 'object') {
+      for (const ele in obj) {
+        this._customElements[ele] = obj[ele]
+        // create very generic attribute info for this element's attributes
+        this._customElements[ele].attributes.forEach(a => {
+          const o = this._customAttributes[a] || {}
+          const et = o.elements ? o.elements.text + ',' : ''
+          const eh = o.elements ? o.elements.html + ',' : ''
+          const dt = o.description ? o.description.text + ','
+            : 'This is a custom attribute used by'
+          const dh = o.description ? o.description.html + ','
+            : 'This is a custom attribute used by'
+          o.keyword = { html: a, text: a }
+          o.elements = {
+            html: `${eh} <code>&lt;${ele}&gt;</code>`, text: `${et} <${ele}>`
+          }
+          o.description = {
+            html: `${dh} <code>&lt;${ele}&gt;</code>`, text: `${dt} <${ele}>`
+          }
+          this._customAttributes[a] = o
+        })
+      }
+    } else return this.err(m)
+
+    this._delayUpdate(this.cm)
+  }
+
+  addCustomAttributes (obj) {
+    let m = 'addCustomAttributes() expects an object as it\'s argument '
+    m += 'with a structure that looks like this: '
+    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-attributes.json'
+
+    if (typeof obj === 'object') {
+      for (const attr in obj) this._customAttributes[attr] = obj[attr]
+    } else return this.err(m)
+
+    this._delayUpdate(this.cm)
+  }
+
+  addErrorException (err) {
+    if (typeof err === 'string') this._errExceptions.push(err)
+    else this._errExceptions.push(this._err2str(err))
+    this._delayUpdate(this.cm)
+  }
+
+  clearErrorExceptions () {
+    this._errExceptions = []
+    this._delayUpdate(this.cm)
+  }
+
+  update () {
+    if (this.iframe) this._updateRenderIframe()
+  }
+
+  // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  SETUP
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
@@ -521,168 +685,6 @@ class Netitor {
 
   _decode (code) { return pako.inflate(window.atob(code), { to: 'string' }) }
   _encode (code) { return window.btoa(pako.deflate(code, { to: 'string' })) }
-
-  // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
-  // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*  PUBLIC
-  // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
-
-  on (event, callback) {
-    if (Object.prototype.hasOwnProperty.call(this.events, event)) {
-      this.events[event] = callback
-    } else this.err(`${event} is not a valid event`)
-  }
-
-  emit (event, data) {
-    if (Object.prototype.hasOwnProperty.call(this.events, event)) {
-      if (typeof this.events[event] === 'function') this.events[event](data)
-    } else this.err(`${event} is not a valid event`)
-  }
-
-  highlight (line, color) {
-    if (!line) {
-      this._highlights.forEach((m) => m.clear())
-      this._highlights = []
-      return
-    }
-
-    // ~ ~ ~ [start of error checking]
-    if (typeof line === 'object') {
-      if (typeof line.startLine !== 'number') {
-        const m = 'to include a startLine propery set to a number'
-        return this.err('highlight expects it\'s options argument ' + m)
-      }
-    } else if (typeof line !== 'number') {
-      return this.err('highlight expects a number as it\'s first arg')
-    }
-    if (color && typeof color !== 'string') {
-      return this.err('highlight expects third arg to be a css color value')
-    }
-    // ~ ~ ~ [end of error checking]
-
-    if (typeof line === 'object' && line.color) color = line.color
-    const start = {
-      line: (typeof line === 'object') ? line.startLine - 1 : line - 1,
-      ch: (typeof line === 'object' && line.startCol) ? line.startCol : 0
-    }
-    const end = {
-      line: (typeof line === 'object' && line.endLine)
-        ? line.endLine - 1 : start.line,
-      ch: (typeof line === 'object' && line.endCol) ? line.endCol : null
-    }
-    const css = color ? `background: ${color}` : 'background: rgba(255,0,0,0.3)'
-    this._highlights.push(this.cm.markText(start, end, { css }))
-  }
-
-  marker (line, color) {
-    if (!line) return this.cm.clearGutter('gutter-marker')
-    const c = document.createElement('div')
-    c.style.width = '12px'
-    c.style.height = '12px'
-    c.style.borderRadius = '50%'
-    c.style.transform = 'translate(29px, 6px)'
-    c.style.backgroundColor = color || 'red'
-    this.cm.setGutterMarker(line - 1, 'gutter-marker', c)
-  }
-
-  saveToHash () {
-    const data = this._encode(this.code)
-    window.location.hash = '#code/' + data
-    return window.btoa(data)
-  }
-
-  loadFromHash () {
-    if (this.hasCodeInHash) {
-      const code = window.location.hash.substr(6)
-      const decoded = this._decode(code)
-      this.code = decoded
-      return decoded
-    } else {
-      this.err('.decodeFromURL() did not find any #code in the current URL')
-    }
-  }
-
-  loadFromURL (url) {
-    if (!url) {
-      return this.err('loadFromURL() expects a url to a raw text/html file')
-    }
-    window.fetch(url, { method: 'GET' })
-      .then(res => res.text())
-      .then(text => { this.code = text })
-      .catch(err => this.err(err))
-  }
-
-  tidy () { this._tidy() }
-
-  addCustomRoot (path) {
-    if (path === null) {
-      this._root = null
-      this._delayUpdate(this.cm)
-    } else if (typeof path !== 'string') {
-      return this.err('addCustomRoot() expects a URL string')
-    } else {
-      this._root = path
-      this._delayUpdate(this.cm)
-    }
-  }
-
-  addCustomElements (obj) {
-    let m = 'addCustomElements() expects an object as it\'s argument '
-    m += 'with a structure that looks like this: '
-    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-elements.json'
-
-    if (typeof obj === 'object') {
-      for (const ele in obj) {
-        this._customElements[ele] = obj[ele]
-        // create very generic attribute info for this element's attributes
-        this._customElements[ele].attributes.forEach(a => {
-          const o = this._customAttributes[a] || {}
-          const et = o.elements ? o.elements.text + ',' : ''
-          const eh = o.elements ? o.elements.html + ',' : ''
-          const dt = o.description ? o.description.text + ','
-            : 'This is a custom attribute used by'
-          const dh = o.description ? o.description.html + ','
-            : 'This is a custom attribute used by'
-          o.keyword = { html: a, text: a }
-          o.elements = {
-            html: `${eh} <code>&lt;${ele}&gt;</code>`, text: `${et} <${ele}>`
-          }
-          o.description = {
-            html: `${dh} <code>&lt;${ele}&gt;</code>`, text: `${dt} <${ele}>`
-          }
-          this._customAttributes[a] = o
-        })
-      }
-    } else return this.err(m)
-
-    this._delayUpdate(this.cm)
-  }
-
-  addCustomAttributes (obj) {
-    let m = 'addCustomAttributes() expects an object as it\'s argument '
-    m += 'with a structure that looks like this: '
-    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-attributes.json'
-
-    if (typeof obj === 'object') {
-      for (const attr in obj) this._customAttributes[attr] = obj[attr]
-    } else return this.err(m)
-
-    this._delayUpdate(this.cm)
-  }
-
-  addErrorException (err) {
-    if (typeof err === 'string') this._errExceptions.push(err)
-    else this._errExceptions.push(this._err2str(err))
-    this._delayUpdate(this.cm)
-  }
-
-  clearErrorExceptions () {
-    this._errExceptions = []
-    this._delayUpdate(this.cm)
-  }
-
-  update () {
-    if (this.iframe) this._updateRenderIframe()
-  }
 }
 
 window.Netitor = Netitor

@@ -13,7 +13,8 @@ function eduData (cm) {
   const o = {
     language: lan === 'xml' ? 'html' : lan,
     data: tok.string,
-    type: tok.type === 'tag' ? 'element' : tok.type
+    type: tok.type === 'tag' ? 'element' : tok.type,
+    line: pos.line + 1
   }
 
   if (o.language === 'html') o.nfo = htmlData(o)

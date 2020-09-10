@@ -77,6 +77,8 @@ You can check to see if the code in the editor is "tidy" (aka property formatted
 
 ## Methods
 
+**getLine(num)**: takes a number and returns the code on that particular line.
+
 **update()**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`
 
 **highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red), for example `ne.highlight(3, 'green')` will highlight the third line in the netitor with the color green. Alternatively, you can pass an options argument like this:
@@ -161,6 +163,7 @@ In the example above the user would have clicked (and thus placed their cursor) 
   language: "html",
   data: "class",
   type: "attribute",
+  line: 20,
   nfo: {…}
 }
 ```
