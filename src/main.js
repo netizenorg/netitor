@@ -640,7 +640,8 @@ class Netitor {
       const tok = this.cm.getTokenAt(pos)
       const tag = tok.state.htmlState.tagName
       const ele = this._customElements[tag]
-      if (ele) obj.nfo = this._customAttributes[obj.data]
+      const nfo = this._customAttributes[obj.data]
+      if (ele && nfo) obj.nfo = nfo
     }
     return obj
   }
