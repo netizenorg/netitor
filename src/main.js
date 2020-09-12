@@ -50,12 +50,12 @@ class Netitor {
       ? opts.renderWithErrors : false
 
     this.events = {
-      'lint-error': null,
-      'edu-info': null,
-      'hint-select': null,
-      'code-update': null,
-      'render-update': null,
-      'cursor-activity': null
+      'lint-error': [],
+      'edu-info': [],
+      'hint-select': [],
+      'code-update': [],
+      'render-update': [],
+      'cursor-activity': []
     }
 
     this.themes = THEMES
@@ -170,13 +170,14 @@ class Netitor {
 
   on (event, callback) {
     if (Object.prototype.hasOwnProperty.call(this.events, event)) {
-      this.events[event] = callback
+      this.events[event].push(callback)
     } else this.err(`${event} is not a valid event`)
   }
 
   emit (event, data) {
     if (Object.prototype.hasOwnProperty.call(this.events, event)) {
-      if (typeof this.events[event] === 'function') this.events[event](data)
+      // if (typeof this.events[event] === 'function') this.events[event](data)
+      this.events[event].forEach(f => f(data))
     } else this.err(`${event} is not a valid event`)
   }
 
