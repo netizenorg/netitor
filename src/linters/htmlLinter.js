@@ -44,7 +44,7 @@ const HTMLHintRules = {
   'id-unique': true,
   // inline
   'inline-script-disabled': true,
-  'inline-style-disabled': true,
+  // 'inline-style-disabled': true, // too annoying i think
   // formatting
   'space-tab-mixed-disabled': true,
   'spec-char-escape': true
