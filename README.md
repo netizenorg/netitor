@@ -121,6 +121,8 @@ ne.on('code-update', (event) => {
 })
 ```
 
+**remove('event-name', callbackFunction)**: can be used to remove an event listener
+
 ### events
 
 **code-update**: This fires every time the code in the netitor changes. The `data` passed into the callback function is a string containing all the code currently in the editor (essentially the same as `ne.code`)
