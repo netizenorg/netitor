@@ -174,6 +174,10 @@ class Netitor {
     } else this.err(`${event} is not a valid event`)
   }
 
+  remove (event, callback) {
+    this.events[event] = this.events[event].filter(f => f !== callback)
+  }
+
   emit (event, data) {
     if (Object.prototype.hasOwnProperty.call(this.events, event)) {
       // if (typeof this.events[event] === 'function') this.events[event](data)
