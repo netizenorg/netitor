@@ -316,9 +316,9 @@ class Netitor {
     this._delayUpdate(this.cm)
   }
 
-  addErrorException (err) {
+  addErrorException (err, specific) {
     if (typeof err === 'string') this._errExceptions.push(err)
-    else this._errExceptions.push(this._err2str(err))
+    else this._errExceptions.push(this._err2str(err, specific))
     this._delayUpdate(this.cm)
   }
 
@@ -547,14 +547,17 @@ class Netitor {
     else return errz.length === 0
   }
 
-  _err2str (err) {
+  _err2str (err, specific) {
     const obj = {}
-    if (err.jshint) {
-      obj.code = err.jshint.code
-      obj.evidence = err.jshint.evidence.trim()
-    } else {
+    if (err.language === 'javascript') {
+      obj.rule = err.jshint.code
+      if (specific) obj.message = err.message
+    } else if (err.language === 'css') {
       obj.rule = err.rule
-      obj.message = err.message
+      if (specific) obj.message = err.message
+    } else { // html
+      obj.rule = err.rule.id
+      if (specific) obj.message = err.message
     }
     return JSON.stringify(obj)
   }
@@ -563,8 +566,9 @@ class Netitor {
     // check for specific error exceptions
     if (this._errExceptions.length > 0) {
       for (let i = errz.length - 1; i >= 0; i--) {
-        const str = this._err2str(errz[i])
-        if (this._errExceptions.includes(str)) errz.splice(i, 1)
+        const s1 = this._errExceptions.includes(this._err2str(errz[i]))
+        const s2 = this._errExceptions.includes(this._err2str(errz[i], true))
+        if (s1 || s2) errz.splice(i, 1)
       }
     }
     // then check for custom elements
