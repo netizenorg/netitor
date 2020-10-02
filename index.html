@@ -65,7 +65,12 @@
         align-items: center;
         font-size: 32px;
       }
-      .face > div:before {
+      .face > a {
+        color: #000 !important;
+        text-decoration: none;
+      }
+      .face > a:hover { color: var(--netizen-tag) !important; }
+      .face div:before {
         content: '( ◕ ◞ ◕ )';
         animation: blinking 10s infinite;
       }
@@ -107,7 +112,8 @@
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* handling Netitor's events
 
-      const netnetFace = '<div class="face"><div></div></div class="face">'
+      const netnetFace = '<div class="face"><a href="https://netnet.studio"><div></div></a></div class="face">'
+      document.querySelector('#nfo').innerHTML = netnetFace
 
       ne.on('lint-error', (eve) => {
         console.log('lint-error', eve)
