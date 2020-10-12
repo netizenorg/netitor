@@ -322,6 +322,13 @@ class Netitor {
     this._delayUpdate(this.cm)
   }
 
+  removeErrorException (err, specific) {
+    err = typeof err === 'string' ? err : this._err2str(err, specific)
+    const idx = this._errExceptions.indexOf(err)
+    if (idx >= 0) this._errExceptions.splice(idx, 1)
+    this._delayUpdate(this.cm)
+  }
+
   clearErrorExceptions () {
     this._errExceptions = []
     this._delayUpdate(this.cm)
