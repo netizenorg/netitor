@@ -116,7 +116,7 @@
       document.querySelector('#nfo').innerHTML = netnetFace
 
       ne.on('lint-error', (eve) => {
-        console.log('lint-error', eve)
+        // console.log('lint-error', eve)
         // just one example for how u might make use of our built in error messages
         ne.highlight(null) // remove previous highlights
         if (eve.length > 0) {
@@ -132,7 +132,7 @@
       })
 
       ne.on('edu-info', (eve) => {
-        console.log('edu-info', eve)
+        // console.log('edu-info', eve)
         // just one example for how u might make use of our built in edu info
         if (eve.nfo) {
           document.querySelector('#nfo').className = ''
@@ -143,7 +143,7 @@
       })
 
       ne.on('cursor-activity', (eve) => {
-        console.log('cursor-activity', eve)
+        // console.log('cursor-activity', eve)
         // in this example we're not using the cursor info returned by this
         // event, instead we're just using the notice of such an event to
         // clear the #nfo element of any prior info
