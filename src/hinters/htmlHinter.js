@@ -5,7 +5,8 @@ const snippets = {
   html: 'html lang="en-US"><CURSOR_GOES_HERE></html>',
   link: 'link rel="stylesheet" href="#">',
   a: 'a href="#"><CURSOR_GOES_HERE></a>',
-  img: 'img src="#" alt="">',
+  'a (new tab)': '<a href="#" target="_blank"><CURSOR_GOES_HERE></a>',
+  img: 'img src="<CURSOR_STARTS_HERE>filename.jpg<CURSOR_ENDS_HERE>" alt="description of image">',
   'html (template)': '<!DOCTYPE html>\n<html lang="en-US">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\t\t<CURSOR_GOES_HERE>\n\t</body>\n</html>\n'
 }
 
@@ -23,7 +24,9 @@ function elementHintList (tok, tag) {
   for (const snip in snippets) {
     if (!Object.prototype.hasOwnProperty.call(htmlEles, snip)) {
       if (snip.includes(str)) {
-        list.push({ text: snippets[snip], displayText: snip })
+        const text = (tok.type === 'tag')
+          ? snippets[snip].substr(1) : snippets[snip]
+        list.push({ text, displayText: snip })
       }
     }
   }

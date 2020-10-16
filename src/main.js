@@ -613,14 +613,30 @@ class Netitor {
   }
 
   _placeHintCursor (cm, data) {
-    const cur = '<CURSOR_GOES_HERE>'
-    if (data.text.includes(cur) && this.code.includes(cur)) {
+    const swap = (marker) => {
       const arr = this.code.split('\n')
-      const str = arr.find(s => s.includes(cur))
+      const str = arr.find(s => s.includes(marker))
       const idx = arr.indexOf(str)
-      const col = str.indexOf(cur)
-      this.code = this.code.replace(cur, '')
-      cm.setCursor({ line: idx, ch: col })
+      const col = str.indexOf(marker)
+      this.code = this.code.replace(marker, '')
+      return { line: idx, ch: col }
+    }
+
+    const cur = '<CURSOR_GOES_HERE>'
+    const curStart = '<CURSOR_STARTS_HERE>'
+    const curEnd = '<CURSOR_ENDS_HERE>'
+    if (data.text.includes(cur) && this.code.includes(cur)) {
+      const pos = swap(cur)
+      cm.setCursor(pos)
+    } else if (data.text.includes(curStart) && this.code.includes(curStart)) {
+      const start = swap(curStart)
+      const end = swap(curEnd)
+      cm.setSelection(start, end)
+    } else if (data.text.includes('></')) {
+      const pos = cm.getCursor()
+      const arr = data.text.split('></')
+      const col = pos.ch - (arr[1].length + 2)
+      cm.setCursor({ line: pos.line, ch: col })
     }
   }
 
