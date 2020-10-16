@@ -480,9 +480,20 @@ class Netitor {
       })
       return str
     }
-    function add2attr (code, root) {
+    function add2attr (code, root, cm) {
+      const codeArr = code.split('\n')
       const regex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|\s*\/?[>"']))+.)["']?/g
+      // equals (=) found in script tags also turn up in rege match
+      // this array removes any non HTML results from the matches
+      // to avoid mutating JavaScript codes as though it were HTML attr
+      const matches = code.match(regex).filter(str => {
+        const line = codeArr
+          .map((s, i) => { if (s.includes(str)) return i })
+          .filter(i => i !== undefined)[0]
+        return cm.getModeAt({ line }).name === 'xml'
+      })
       return code.replace(regex, (attr) => {
+        if (!matches.includes(attr)) return attr // return JS as is
         const a = attr.split('=')
         if ((a[0] === 'src' || a[0] === 'href') && a[1].indexOf('http') !== 1) {
           a[1] = `"${root}${a[1].substring(1, a[1].length - 1)}"`
@@ -504,7 +515,7 @@ class Netitor {
       })
     }
     if (this.language === 'html') {
-      code = add2attr(code, this._root)
+      code = add2attr(code, this._root, this.cm)
       code = code.replace(/<style[^>]*>([^>]*?)<\/style>/g, (s) => add2css(s))
       code = code.replace(/<script[^>]*>([^>]*?)<\/script>/g, (s) => add2js(s))
       doc.write(code)
