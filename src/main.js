@@ -486,7 +486,8 @@ class Netitor {
       // equals (=) found in script tags also turn up in rege match
       // this array removes any non HTML results from the matches
       // to avoid mutating JavaScript codes as though it were HTML attr
-      const matches = code.match(regex).filter(str => {
+      const hasMatches = code.match(regex)
+      const matches = !hasMatches ? [] : hasMatches.filter(str => {
         const line = codeArr
           .map((s, i) => { if (s.includes(str)) return i })
           .filter(i => i !== undefined)[0]
