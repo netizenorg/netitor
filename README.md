@@ -171,7 +171,7 @@ In the example above the user would have clicked (and thus placed their cursor) 
   nfo: {…}
 }
 ```
-The `nfo` property will contain an object with educational/reference information as well as links to further resources on that particular piece of code. This may not always be available, it depends on whether the particular piece of code selected has additional info. This info is generated from our [eduscraper](https://github.com/netizenorg/eduscraper) you can take a look at that repo to get a sense of the structure of the data.
+The `nfo` property will contain an object with educational/reference information as well as links to further resources on that particular piece of code. This may not always be available, it depends on whether the particular piece of code selected has additional info. This info is initially generated from our [eduscraper](https://github.com/netizenorg/eduscraper) (you can take a look at that repo to get a sense of the structure of the data) and later augmented by our "educustom" sript.
 
 **hint-select**: This fires every time the user tabs up or down in the autocomplete hinting menu with the up/down arrow keys. The data object passed into the callback function contains the language of and the autocomplete option currently selected, an example might look like this:
 ```js
