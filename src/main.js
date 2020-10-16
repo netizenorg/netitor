@@ -458,7 +458,7 @@ class Netitor {
       const matches = str.match(/\burl\(\b([^()]*)\)/g) // match all url(...)
       if (!matches) return str
       matches.forEach(m => {
-        const s = m.substring(4, m.length - 1)
+        const s = m.substring(4, m.length)
         if (s.indexOf('http') !== 0) str = str.replace(s, this._root + s)
       })
       return str
