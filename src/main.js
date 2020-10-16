@@ -517,8 +517,13 @@ class Netitor {
     }
     if (this.language === 'html') {
       code = add2attr(code, this._root, this.cm)
-      code = code.replace(/<style[^>]*>([^>]*?)<\/style>/g, (s) => add2css(s))
-      code = code.replace(/<script[^>]*>([^>]*?)<\/script>/g, (s) => add2js(s))
+      // code = code.replace(/<style[^>]*>([\S\s]*?)<\/style>/g, (s) => add2css(s))
+      // code = code.replace(/<script[^>]*>([^>]*?)<\/script>/g, (s) => add2js(s))
+      // "safer" regex than above: https://stackoverflow.com/a/64396746/1104148
+      const cssRegex = /(?:<(style)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)([\S\s]*?)<\/\1\s*>/g
+      const jsRegex = /(?:<(script)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)([\S\s]*?)<\/\1\s*>/g
+      code = code.replace(cssRegex, (s) => add2css(s))
+      code = code.replace(jsRegex, (s) => add2js(s))
       doc.write(code)
     } else if (this.language === 'css') doc.write(add2css(code))
     else if (this.language === 'javascript') doc.write(add2js(code))
