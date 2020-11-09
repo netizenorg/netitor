@@ -92,7 +92,7 @@ function parseRules (rule, frags) {
   if (rule.tagName === 'body') m = `the <s>${rule.tagName}<e> `
   else if (rule.tagName === '*') m += ''
   else if (rule.tagName) m += `<s>${rule.tagName}<e> `
-  m += (rule.id || rule.tagName === 'body') ? 'tag ' : 'tags '
+  m += (rule.id || rule.tagName === 'body') ? 'element ' : 'elements '
   if (rule.id) m += `with <s>id="${rule.id}"<e> `
   if (rule.id && rule.classNames) m += 'and also '
   else if (rule.classNames) m += 'with '
@@ -112,10 +112,10 @@ function parseRules (rule, frags) {
 
 function parseNestedRules (rule) {
   const ops = {
-    ' ': 'which is/are a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator" target="_blank">descendant</a> of ',
-    '>': 'which is/are a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator" target="_blank">direct child</a> of ',
-    '~': 'which is/are <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator target="_blank">any sibling</a> of ',
-    '+': 'which is/are a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator" target="_blank">sibling directly following</a> any '
+    ' ': 'which is a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator" target="_blank">descendant</a> of ',
+    '>': 'which is a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator" target="_blank">direct child</a> of ',
+    '~': 'which is <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator target="_blank">any sibling</a> of ',
+    '+': 'which is a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator" target="_blank">sibling directly following</a> '
   }
   const frags = parseRules(rule, []).reverse()
   let m = ''
