@@ -220,14 +220,18 @@ class Netitor {
     this._highlights.push(this.cm.markText(start, end, { css }))
   }
 
-  marker (line, color) {
+  marker (line, color, callback) {
     if (!line) return this.cm.clearGutter('gutter-marker')
     const c = document.createElement('div')
-    c.style.width = '12px'
-    c.style.height = '12px'
+    c.style.width = '8px'
+    c.style.height = '8px'
     c.style.borderRadius = '50%'
-    c.style.transform = 'translate(29px, 6px)'
+    c.style.transform = 'translate(30px, 9px)'
     c.style.backgroundColor = color || 'red'
+    if (typeof callback === 'function') {
+      c.style.cursor = 'pointer'
+      c.addEventListener('click', () => callback())
+    }
     this.cm.setGutterMarker(line - 1, 'gutter-marker', c)
   }
 

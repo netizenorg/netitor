@@ -93,7 +93,7 @@ You can check to see if the code in the editor is "tidy" (aka property formatted
 ```  
 To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with no arguments.
 
-**marker(lineNumber, color)**: this method will add a marker (a circle) in the gutter (where the line numbers are) in the specified line (default color is red). To remove all the markers run `ne.marker(null)` or `ne.marker()` with no arguments.
+**marker(lineNumber, color, callback)**: this method will add a marker (a circle) in the gutter (where the line numbers are) in the specified line (default color is red). The optional callback function will fire when the marker is clicked. To remove all the markers run `ne.marker(null)` or `ne.marker()` with no arguments.
 
 **saveToHash()**: this method will take all the code currently in the editor and save an encoded/compressed version of it to the current site's URL hash.
 
