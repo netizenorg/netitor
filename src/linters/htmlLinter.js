@@ -7,13 +7,14 @@ const HTMLStandardsRules = {
   'standard-attributes': true,
   'avoid-trailing-slashes': true,
   'declare-document-language': true,
-  'declare-document-charset': true
+  'declare-document-charset': true,
+  'declare-document-doctype': true
 }
 
 // reles: https://github.com/htmlhint/HTMLHint/tree/master/src/core/rules
 const HTMLHintRules = {
   // head
-  'doctype-first': true,
+  'doctype-first': false,
   'doctype-html5': true,
   'head-script-disabled': true,
   'style-disabled': false, // nope

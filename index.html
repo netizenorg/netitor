@@ -91,7 +91,7 @@
       const ne = new Netitor({
         ele: '#editor',
         render: '#output',
-        code: `<!DOCTYPE html>\n<h1>hello world!</h1>`
+        code: `<!DOCTYPE html>\n<h1>hello world wide web!</h1>`
       })
 
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
@@ -116,7 +116,7 @@
       document.querySelector('#nfo').innerHTML = netnetFace
 
       ne.on('lint-error', (eve) => {
-        // console.log('lint-error', eve)
+        console.log('lint-error', eve)
         // just one example for how u might make use of our built in error messages
         ne.highlight(null) // remove previous highlights
         if (eve.length > 0) {

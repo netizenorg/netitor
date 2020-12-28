@@ -198,6 +198,28 @@ class HTMLStandards {
     return errz
   }
 
+  static verifyDoctype (doc, code) {
+    const errz = []
+    const type = 'warning'
+    const language = 'html'
+    const message = 'Doctype must be declared first.'
+    const friendly = 'You forgot to specify a doctype (aka <a href="https://en.wikipedia.org/wiki/Document_type_declaration" target="_blank">document type declaration</a>). You should let the browser know this code was written in the era of HTML5 (our present web era) by including <code>&lt;!DOCTYPE html&gt;</code> at the top of your file. Using the proper doctype not only avoids having the browser misrender your code (see <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Quirks_Mode_and_Standards_Mode" target="_blank">quirks mode</a>) but also helps to future proof your work.'
+    const rule = {
+      id: 'declare-document-doctype',
+      description: 'Set document doctype',
+      link: 'https://en.wikipedia.org/wiki/Document_type_declaration'
+    }
+
+    if (code.indexOf('<html') > -1 && code.indexOf('<!DOCTYPE html>') === -1) {
+      const evidence = ''
+      const line = 1
+      const col = 1
+      errz.push({ language, type, message, friendly, evidence, col, line, rule })
+    }
+
+    return errz
+  }
+
   static checkRule (rules, rule) {
     return Object.prototype.hasOwnProperty.call(rules, rule)
   }
@@ -225,6 +247,10 @@ class HTMLStandards {
 
     if (this.checkRule(rules, 'declare-document-charset')) {
       errz = errz.concat(this.verifyCharset(doc, code))
+    }
+
+    if (this.checkRule(rules, 'declare-document-doctype')) {
+      errz = errz.concat(this.verifyDoctype(doc, code))
     }
 
     return errz
