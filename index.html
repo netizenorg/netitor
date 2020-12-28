@@ -91,7 +91,8 @@
       const ne = new Netitor({
         ele: '#editor',
         render: '#output',
-        code: `<!DOCTYPE html>\n<h1>hello world wide web!</h1>`
+        renderWithErrors: true,
+        code: '<h1>hello world wide web!</h1>'
       })
 
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
@@ -112,29 +113,18 @@
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* handling Netitor's events
 
-      const netnetFace = '<div class="face"><a href="https://netnet.studio"><div></div></a></div class="face">'
-      document.querySelector('#nfo').innerHTML = netnetFace
+      reset()
 
       ne.on('lint-error', (eve) => {
-        console.log('lint-error', eve)
-        // just one example for how u might make use of our built in error messages
-        ne.highlight(null) // remove previous highlights
-        if (eve.length > 0) {
-          let err = eve[0]
-          ne.highlight(err.line)
-          document.querySelector('#nfo').className = 'error'
-          document.querySelector('#nfo').innerHTML = err.friendly
-            ? `<p>${err.friendly}</p>` : `<p>${err.message}</p>`
-        } else {
-          document.querySelector('#nfo').innerHTML = netnetFace
-          document.querySelector('#nfo').className = ''
-        }
+        // console.log('lint-error', eve)
+        markErrors(eve)
       })
 
       ne.on('edu-info', (eve) => {
         // console.log('edu-info', eve)
         // just one example for how u might make use of our built in edu info
         if (eve.nfo) {
+          spotLightCode(eve.line)
           document.querySelector('#nfo').className = ''
           if (eve.language === 'html') showHTMLNFO(eve)
           else if (eve.language === 'css') showCSSNFO(eve)
@@ -146,8 +136,8 @@
         // console.log('cursor-activity', eve)
         // in this example we're not using the cursor info returned by this
         // event, instead we're just using the notice of such an event to
-        // clear the #nfo element of any prior info
-        document.querySelector('#nfo').innerHTML = netnetFace
+        // reset the #nfo element of any prior info or error messages
+        reset()
       })
 
       ne.on('hint-select', (eve) => {
@@ -156,6 +146,24 @@
 
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* some example helper functions
+
+      function reset () {
+        const netnetFace = '<div class="face"><a href="https://netnet.studio"><div></div></a></div class="face">'
+        document.querySelector('#nfo').innerHTML = netnetFace
+        document.querySelector('#nfo').className = ''
+        spotLightCode('clear')
+      }
+
+      function spotLightCode (line) {
+        const editorLines = document.querySelectorAll('.CodeMirror-code > div')
+        if (typeof line === 'number') line = line - 1
+        editorLines.forEach((d, i) => {
+          d.style.transition = 'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'
+          if (typeof line !== 'number') setTimeout(() => { d.style.opacity = 1 })
+          else if (line === i) setTimeout(() => { d.style.opacity = 1 })
+          else setTimeout(() => { d.style.opacity = 0.25 })
+        })
+      }
 
       function showJSNFO (eve) {
         const status = (eve.nfo.status && eve.nfo.status !== 'standard')
@@ -198,6 +206,26 @@
           <h1>${eve.nfo.keyword.html}</h1>
           <p>${eve.nfo.description.html} ${status} ${links}</p>
         `
+      }
+
+      function markErrors (eve) {
+        const explainError = (err) => {
+          spotLightCode(err.line)
+          document.querySelector('#nfo').className = 'error'
+          document.querySelector('#nfo').innerHTML = err.friendly
+            ? `<p>${err.friendly}</p>` : `<p>${err.message}</p>`
+        }
+
+        ne.marker(null)
+        const lines = []
+        if (eve.length === 0) reset()
+        eve.forEach(e => {
+          if (lines.includes(e.line)) return
+          lines.push(e.line)
+          const clk = () => explainError(e)
+          if (e.type === 'warning') ne.marker(e.line, 'yellow', clk)
+          else ne.marker(e.line, 'red', clk)
+        })
       }
 
     </script>
