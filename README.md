@@ -77,6 +77,37 @@ You can check to see if the code in the editor is "tidy" (aka property formatted
 
 ## Methods
 
+```js
+ne.tidy()
+ne.getLine(num)
+ne.update()
+
+// highlighting/marking lines
+ne.highlight(lines, color)
+ne.spotlight(lines, transition)
+ne.marker(line, color, cb)
+
+// saving/loading sketches to/from URL
+ne.saveToHash()
+ne.loadFromHash()
+
+// adding custom root URL for any relative paths
+ne.addCustomRoot(root)
+
+// adding exceptions to internal linting system
+ne.addErrorException(obj, specific)
+ne.removeErrorException(obj, specific)
+ne.clearErrorExceptions()
+
+// adding custom elements data to edu info
+ne.addCustomElements(obj)
+ne.addCustomAttributes(obj)
+
+// event listening
+ne.on('event-name', callbackFunction)
+ne.remove('event-name', callbackFunction)
+```
+
 **getLine(num)**: takes a number and returns the code on that particular line.
 
 **update()**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`
@@ -92,6 +123,8 @@ You can check to see if the code in the editor is "tidy" (aka property formatted
   })
 ```  
 To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with no arguments.
+
+**spotlight(lines, transition)**: this method will spotlight a line (or lines if passed an array of line numbers) of code in the editor. This means all other lines will fade their opacity while the spotlighted lines remain visible. You can change the transition of the spotlighting speed and ease by passing an optional transition string, the default is `'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'`. To remove a spotlight run `ne.spotlight(null)` or `ne.spotlight()`.
 
 **marker(lineNumber, color, callback)**: this method will add a marker (a circle) in the gutter (where the line numbers are) in the specified line (default color is red). The optional callback function will fire when the marker is clicked. To remove all the markers run `ne.marker(null)` or `ne.marker()` with no arguments.
 

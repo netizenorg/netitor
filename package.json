@@ -5,7 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "lint": "standard src/*.js src/*/*.js",
-    "compile-css": "echo 'module.exports = `' > src/css/css.js && cat src/css/FiraCode-Regular.css  node_modules/codemirror/lib/codemirror.css node_modules/codemirror/addon/hint/show-hint.css src/css/main.css >> src/css/css.js && echo '`' >> src/css/css.js",
+    "compile-css": "echo 'module.exports = `' > src/css/css.js && cat src/css/FiraMono.css node_modules/codemirror/lib/codemirror.css node_modules/codemirror/addon/hint/show-hint.css src/css/main.css >> src/css/css.js && echo '`' >> src/css/css.js",
     "prebuild": "npm run lint; npm run compile-css",
     "build": "browserify src/main.js > build/netitor.js",
     "postbuild": "terser build/netitor.js -cm -o build/netitor.min.js",

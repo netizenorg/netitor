@@ -220,9 +220,35 @@ class Netitor {
     this._highlights.push(this.cm.markText(start, end, { css }))
   }
 
+  spotlight (lines, transition) {
+    if (typeof lines === 'number') lines = [lines]
+    const codeLines = [...this.ele.querySelectorAll('.CodeMirror-code > div')]
+    const nums = [...this.ele.querySelectorAll('.CodeMirror-linenumber')]
+      .filter(g => g.innerText.length > 0)
+    const dict = {}
+    nums.forEach((g, i) => { dict[g.innerText] = codeLines[i] })
+
+    const t = transition || 'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'
+
+    for (const num in dict) {
+      const d = dict[num] // code line element
+      const n = Number(num) // gutter number
+      d.style.transition = t
+      if (lines instanceof Array) { // line numbers to spotlight...
+        if (lines.includes(n)) setTimeout(() => { d.style.opacity = 1 })
+        else setTimeout(() => { d.style.opacity = 0.25 })
+      } else setTimeout(() => { d.style.opacity = 1 }) // nothing to spotlight
+    }
+
+    if (lines instanceof Array && lines.length > 0) {
+      this._spotlighting = true
+    } else this._spotlighting = false
+  }
+
   marker (line, color, callback) {
     if (!line) return this.cm.clearGutter('gutter-marker')
     const c = document.createElement('div')
+    c.className = 'netitor-gutter-marker'
     c.style.width = '8px'
     c.style.height = '8px'
     c.style.borderRadius = '50%'
@@ -233,6 +259,7 @@ class Netitor {
       c.addEventListener('click', () => callback())
     }
     this.cm.setGutterMarker(line - 1, 'gutter-marker', c)
+    this._repositionGutterMarkers()
   }
 
   saveToHash () {
@@ -406,6 +433,10 @@ class Netitor {
       }
       this._lastMouseDown = Date.now()
     })
+    this.cm.on('scroll', (e) => {
+      if (this._spotlighting) this.spotlight(null)
+      this._repositionGutterMarkers()
+    })
   }
 
   _createRenderIframe (opts) {
@@ -455,6 +486,13 @@ class Netitor {
     // let's u moidfy behavior of mouse selection and dragging.
     // see "configureMouse" in code mirror manual
     return {}
+  }
+
+  _repositionGutterMarkers () {
+    const x = document.querySelector('.CodeMirror-gutter-elt').offsetWidth
+    this.ele.querySelectorAll('.netitor-gutter-marker').forEach(m => {
+      m.style.transform = `translate(${x}px, 9px)`
+    })
   }
 
   _applyCustomRoot (doc, code) {

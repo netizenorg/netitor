@@ -37,7 +37,7 @@
 .cm-s-netizen {
   font-size: 1em;
   line-height: 1.5em;
-  font-family: 'FiraCode-Regular', inconsolata, monospace;
+  font-family: 'FiraMono', inconsolata, monospace;
   letter-spacing: 0.3px;
   word-spacing: 1px;
   background: var(--netizen-background);
