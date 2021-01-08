@@ -262,6 +262,11 @@ class Netitor {
     this._repositionGutterMarkers()
   }
 
+  generateHash () {
+    const data = this._encode(this.code)
+    return '#code/' + data
+  }
+
   saveToHash () {
     const data = this._encode(this.code)
     window.location.hash = '#code/' + data

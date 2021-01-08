@@ -88,6 +88,7 @@ ne.spotlight(lines, transition)
 ne.marker(line, color, cb)
 
 // saving/loading sketches to/from URL
+ne.generateHash()
 ne.saveToHash()
 ne.loadFromHash()
 
@@ -127,6 +128,8 @@ To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with n
 **spotlight(lines, transition)**: this method will spotlight a line (or lines if passed an array of line numbers) of code in the editor. This means all other lines will fade their opacity while the spotlighted lines remain visible. You can change the transition of the spotlighting speed and ease by passing an optional transition string, the default is `'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'`. To remove a spotlight run `ne.spotlight(null)` or `ne.spotlight()`.
 
 **marker(lineNumber, color, callback)**: this method will add a marker (a circle) in the gutter (where the line numbers are) in the specified line (default color is red). The optional callback function will fire when the marker is clicked. To remove all the markers run `ne.marker(null)` or `ne.marker()` with no arguments.
+
+**generateHash()**: this method will take the code currently in the editor and generate an encoded/compressed version of it that can be added to URL as a hash (similar to `saveToHash` except it returns the hash rather than updating the URL).
 
 **saveToHash()**: this method will take all the code currently in the editor and save an encoded/compressed version of it to the current site's URL hash.
 
