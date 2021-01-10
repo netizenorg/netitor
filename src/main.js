@@ -34,7 +34,7 @@ class Netitor {
     } else if (typeof opts.ele === 'undefined') {
       return this.err('expecting an "ele" property with a querySelector string')
     } else if (opts.language && !langTypes.includes(opts.language)) {
-      return this.err(`langauge must be either ${langTypes.join(', ')}`)
+      return this.err(`language must be either ${langTypes.join(', ')}`)
     }
 
     this._code = typeof opts.code === 'string' ? opts.code : ''
@@ -450,7 +450,7 @@ class Netitor {
   _createRenderIframe (opts) {
     if (typeof opts.render === 'string' || opts.render instanceof HTMLElement) {
       if (this._lang !== 'html') {
-        const m = `langauge is set to ${this._lang}, render option is html only`
+        const m = `language is set to ${this._lang}, render option is html only`
         return this.err(m)
       }
 
@@ -478,7 +478,7 @@ class Netitor {
       const o = {
         line: p.line,
         col: p.ch,
-        langauge: (m.name === 'xml') ? 'html' : m.name,
+        language: (m.name === 'xml') ? 'html' : m.name,
         data: {
           line: cm.getLine(p.line),
           type: t.type,

@@ -170,7 +170,7 @@ ne.on('code-update', (event) => {
 **cursor-activity**: This fires every time the users's cursor changes positions. It returns an event object which looks like this:
 ```js
 {
-  langauge: "html",
+  language: "html",
   line: 1,
   col: 2,
   selection: '<h1>hello'
