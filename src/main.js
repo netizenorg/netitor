@@ -442,6 +442,9 @@ class Netitor {
       if (this._spotlighting) this.spotlight(null)
       this._repositionGutterMarkers()
     })
+    this.ele.addEventListener('mouseup', () => {
+      this._cursorActivity(this.cm, true)
+    })
   }
 
   _createRenderIframe (opts) {
@@ -466,12 +469,13 @@ class Netitor {
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.• PRIVATE
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
-  _cursorActivity (cm) {
-    if (cm.getSelection() === '') {
+  _cursorActivity (cm, allowSelection) {
+    const sel = allowSelection ? true : cm.getSelection() === ''
+    if (sel) {
       const p = cm.getCursor()
       const t = cm.getTokenAt(p)
       const m = cm.getModeAt(p)
-      this.emit('cursor-activity', {
+      const o = {
         line: p.line,
         col: p.ch,
         langauge: (m.name === 'xml') ? 'html' : m.name,
@@ -482,7 +486,9 @@ class Netitor {
           tokenColStart: t.start,
           tokenColEnd: t.end
         }
-      })
+      }
+      if (allowSelection) o.selection = cm.getSelection()
+      this.emit('cursor-activity', o)
     }
   }
 

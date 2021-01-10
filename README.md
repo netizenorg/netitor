@@ -173,6 +173,7 @@ ne.on('code-update', (event) => {
   langauge: "html",
   line: 1,
   col: 2,
+  selection: '<h1>hello'
   data: {
     type: "tag",
     token: "h1",
