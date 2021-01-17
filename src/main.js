@@ -470,6 +470,7 @@ class Netitor {
   // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*
 
   _cursorActivity (cm, allowSelection) {
+    const debounce = 250 // HOW LONG TO WAIT BEFORE REGISTERING NEXT EVENT
     const sel = allowSelection ? true : cm.getSelection() === ''
     if (sel) {
       const p = cm.getCursor()
@@ -488,7 +489,10 @@ class Netitor {
         }
       }
       if (allowSelection) o.selection = cm.getSelection()
-      this.emit('cursor-activity', o)
+      if (this._caDebounce) clearTimeout(this._caDebounce)
+      this._caDebounce = setTimeout(() => { this._caHold = false }, debounce)
+      if (!this._caHold) this.emit('cursor-activity', o)
+      this._caHold = true
     }
   }
 
