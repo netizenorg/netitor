@@ -163,7 +163,7 @@ function cssData (o, state, cm) {
     o.nfo = cssNumber(o.data)
   } else if (o.type === 'variable callee') {
     o.nfo = cssFunc(o.data)
-  } else if (state === 'prop') {
+  } else if (state === 'prop' || state === 'parens') {
     // handle colors values
     const c = o.data.toLowerCase()
     if (o.data === '!important') {
