@@ -568,6 +568,8 @@ class Netitor {
           } else {
             a[1] = `"src: ${root}${a[1].split(':')[1].trim()}`
           }
+        } else if (a[0] === 'style') {
+          a[1] = add2css(a[1])
         }
         return `${a[0]}=${a[1]}`
       })
