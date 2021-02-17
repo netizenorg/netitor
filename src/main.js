@@ -178,10 +178,10 @@ class Netitor {
     this.events[event] = this.events[event].filter(f => f !== callback)
   }
 
-  emit (event, data) {
+  emit (event, data, eventObj) {
     if (Object.prototype.hasOwnProperty.call(this.events, event)) {
       // if (typeof this.events[event] === 'function') this.events[event](data)
-      this.events[event].forEach(f => f(data))
+      this.events[event].forEach(f => f(data, eventObj))
     } else this.err(`${event} is not a valid event`)
   }
 
@@ -434,7 +434,7 @@ class Netitor {
         let obj = eduData(cm)
         obj = this._customElementsNfo(obj)
         obj = this._customAttributesNfo(obj)
-        this.emit('edu-info', obj)
+        this.emit('edu-info', obj, e)
       }
       this._lastMouseDown = Date.now()
     })
