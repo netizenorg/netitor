@@ -51,9 +51,45 @@ const HTMLHintRules = {
   'spec-char-escape': true
 }
 
+// exceptions to empty attribute values
+const emptyAttrVals = [
+  'allowfullscreen',
+  'allowpaymentrequest',
+  'async',
+  'autofocus',
+  'autoplay',
+  'checked',
+  'controls',
+  'default',
+  'disabled',
+  'formnovalidate',
+  'hidden',
+  'ismap',
+  'itemscope',
+  'loop',
+  'multiple',
+  'muted',
+  'nomodule',
+  'novalidate',
+  'open',
+  'playsinline',
+  'readonly',
+  'required',
+  'reversed',
+  'selected',
+  'truespeed '
+]
+
 function linter (code) {
   const frdlyErr = HTMLStandards.verify(code, HTMLStandardsRules)
   const err = HTMLHint.verify(code, HTMLHintRules)
+    .filter((e) => {
+      if (e.rule.id === 'attr-value-not-empty') {
+        if (emptyAttrVals.includes(e.raw.trim())) return false
+        else return true
+      } else return true
+    })
+
   for (let i = 0; i < err.length; i++) {
     const rule = err[i].rule.id
     err[i] = HTMLTranslateError[rule](err[i])
