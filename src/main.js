@@ -526,11 +526,12 @@ class Netitor {
       matches.forEach(m => {
         const s = m.substring(1, m.length - 1)
         if (s.indexOf('http') !== 0) {
+          const cs = s.indexOf('.') === 0 // check for class selector
           const split = s.split('.')
           const ex = split[split.length - 1]
           // NOTE: making a HUGE assumptions here (>_<) trying to see if the
           // matched string ends with a short extention: .jpg|.json|.webm|etc
-          if (split.length > 1 && (ex.length > 2 && ex.length < 5)) {
+          if (!cs && split.length > 1 && (ex.length > 2 && ex.length < 5)) {
             str = str.replace(s, this._root + s)
           }
         }
