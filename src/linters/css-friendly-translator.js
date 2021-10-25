@@ -187,6 +187,16 @@ const dict = {
     obj = reformatObj(obj, true)
     obj.friendly = 'In CSS it\'s common practice to write strings in double quotes rather than single quotes'
     return obj
+  },
+  'unclosed-quote': (obj) => {
+    obj = reformatObj(obj)
+    obj.friendly = 'It appears you have an opening quote mark missing it\'s closing quote mark. Make sure you have quotes on both ends.'
+    return obj
+  },
+  'unknown-error': (obj) => {
+    obj = reformatObj(obj, true)
+    obj.friendly = 'There seems to be an issue with this CSS code.'
+    return obj
   }
 }
 
@@ -207,6 +217,10 @@ function translate (err) {
       return dict['at-rule-no-name'](err)
     } else if (err.text.includes('Missed semicolon')) {
       return dict['missed-semicolon'](err)
+    } else if (err.text.includes('Unclosed quote')) {
+      return dict['unclosed-quote'](err)
+    } else {
+      return dict['unknown-error'](err)
     }
   }
 }
