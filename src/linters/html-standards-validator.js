@@ -123,7 +123,6 @@ class HTMLStandards {
     }
     const lines = code.split('\n')
     lines.filter(str => str.indexOf('/>') >= 0).forEach(match => {
-      console.log(match)
       const evidence = match
       const line = lines.indexOf(match) + 1
       const col = match.indexOf('/>')
