@@ -45,7 +45,7 @@ const ne = new Netitor({
 | language | html | can be html, css or javascript
 | lint | true | whether or not to check for errors in realtime
 | hint | true | whether or not to display autocomplete menus
-| displayTitle | false | whether or not to apply content of title element to the page
+| displayTitle | false | whether or not to apply content of title element to the browser tab
 | autoUpdate | true | whether or not to update the render preview when code changes
 | updateDelay | 500 | how many milliseconds to wait after code changes before preview updates
 | friendlyErr | true | whether or not to translate default error messages into beginner friendly vernacular (when available)
