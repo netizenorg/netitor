@@ -39,6 +39,7 @@ class Netitor {
 
     this._code = typeof opts.code === 'string' ? opts.code : ''
     this._lang = typeof opts.language === 'string' ? opts.language : 'html'
+    this._titl = typeof opts.displayTitle === 'boolean' ? opts.displayTitle : false
     this._clrz = typeof opts.theme === 'string' ? opts.theme : 'dark'
     this._lint = typeof opts.lint === 'boolean' ? opts.lint : true
     this._hint = typeof opts.hint === 'boolean' ? opts.hint : true
@@ -153,6 +154,9 @@ class Netitor {
 
   get renderWithErrors () { return this._rerr }
   set renderWithErrors (v) { this._rerr = v }
+
+  get displayTitle () { return this._titl }
+  set displayTitle (v) { this._titl = v }
 
   // ................................................. read-only properties
 
@@ -602,6 +606,7 @@ class Netitor {
     content.open()
     if (!this._root) content.write(this.code)
     else this._applyCustomRoot(content, this.code)
+    if (this._titl) document.title = content.title
     content.close()
     this.emit('render-update')
   }
