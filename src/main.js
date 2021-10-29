@@ -44,6 +44,7 @@ class Netitor {
     this._lint = typeof opts.lint === 'boolean' ? opts.lint : true
     this._hint = typeof opts.hint === 'boolean' ? opts.hint : true
     this._bgcl = typeof opts.background === 'boolean' ? opts.background : true
+    this._wrap = typeof opts.wrap === 'boolean' ? opts.wrap : false
     this._auto = typeof opts.autoUpdate === 'boolean' ? opts.autoUpdate : true
     this._adly = typeof opts.updateDelay === 'number' ? opts.updateDelay : 500
     this._ferr = typeof opts.friendlyErr === 'boolean' ? opts.friendlyErr : true
@@ -139,6 +140,9 @@ class Netitor {
 
   get background () { return this._bgcl }
   set background (v) { this._updateBG(v) }
+
+  get wrap () { return this._wrap }
+  set wrap (v) { this.cm.setOption('lineWrapping', v) }
 
   get language () { return this._lang }
   set language (v) {
@@ -405,6 +409,7 @@ class Netitor {
       indentUnit: 2,
       indentWithTabs: false,
       lineNumbers: true,
+      lineWrapping: this._wrap,
       matchBrackets: true,
       matchTags: true,
       mode: (this._lang === 'html') ? 'htmlmixed' : this._lang,
@@ -430,6 +435,16 @@ class Netitor {
     // })
 
     this.cm.on('change', (cm) => this._delayUpdate(cm))
+    this.cm.on('renderLine', (cm, line, elt) => {
+      const wrap = cm.getOption('lineWrapping')
+      if (wrap) { // handles "soft warpping"
+        const cw = cm.defaultCharWidth()
+        const ts = cm.getOption('tabSize')
+        const off = CodeMirror.countColumn(line.text, null, ts) * cw
+        elt.style.textIndent = '-' + off + 'px'
+        elt.style.paddingLeft = (4 + off) + 'px'
+      }
+    })
     this.cm.on('cursorActivity', (cm) => this._cursorActivity(cm))
     this.cm.on('mousedown', (cm, e) => {
       // HACK: 'dblclick' doesn't always fire for some reason

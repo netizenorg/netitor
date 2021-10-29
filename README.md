@@ -26,6 +26,7 @@ const ne = new Netitor({
   code: '<h1> example code here </h1>',
   theme: 'dark',
   background: true,
+  wrap: false,
   language: 'html',
   lint: true,
   hint: true,
@@ -42,6 +43,7 @@ const ne = new Netitor({
 | code | none | initial code to include in the editor
 | theme | dark | syntax highlight theme to use
 | background | true | if false, background will be transparent
+| wrap | false | whether long lines should wrap or scroll
 | language | html | can be html, css or javascript
 | lint | true | whether or not to check for errors in realtime
 | hint | true | whether or not to display autocomplete menus
@@ -59,6 +61,7 @@ all of these options can be changed at any point by reassigning the property of 
 ne.code = '<h1> some other code </h1>'
 ne.theme = 'monokai' // or 'light' or 'dark'
 ne.background = false
+ne.wrap = true
 ne.language = 'css'
 ne.lint = false
 ne.hint = false
