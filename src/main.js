@@ -23,6 +23,8 @@ const linter = require('./linters/index.js')
 const hinter = require('./hinters/index.js')
 const eduData = require('./edu-data/index.js')
 
+const applyCustomRootURL = require('./applyCustomRootURL.js')
+
 const CSS = require('./css/css.js')
 const THEMES = require('./css/themes/index.js')
 
@@ -530,83 +532,13 @@ class Netitor {
   }
 
   _applyCustomRoot (doc, code) {
-    const add2css = (str) => {
-      const matches = str.match(/\burl\(([^()]*)\)/g) // match all url(...)
-      if (!matches) return str
-      matches.forEach(m => {
-        const n = (m.includes('"') || m.includes("'")) ? 5 : 4
-        const s = m.substring(n, m.length)
-        if (s.indexOf('http') !== 0) str = str.replace(s, this._root + s)
-      })
-      return str
-    }
-    const add2js = (str) => {
-      const matches = str.match(/(['"])((\\\1|.)*?)\1/gm) // match all strings
-      if (!matches) return str
-      matches.forEach(m => {
-        const s = m.substring(1, m.length - 1)
-        if (s.indexOf('http') !== 0) {
-          const cs = s.indexOf('.') === 0 // check for class selector
-          const split = s.split('.')
-          const ex = split[split.length - 1]
-          // NOTE: making a HUGE assumptions here (>_<) trying to see if the
-          // matched string ends with a short extention: .jpg|.json|.webm|etc
-          if (!cs && split.length > 1 && (ex.length > 2 && ex.length < 5)) {
-            str = str.replace(s, this._root + s)
-          }
-        }
-      })
-      return str
-    }
-    function add2attr (code, root, cm) {
-      const codeArr = code.split('\n')
-      const regex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|\s*\/?[>"']))+.)["']?/g
-      // equals (=) found in script tags also turn up in rege match
-      // this array removes any non HTML results from the matches
-      // to avoid mutating JavaScript codes as though it were HTML attr
-      const hasMatches = code.match(regex)
-      const matches = !hasMatches ? [] : hasMatches.filter(str => {
-        const line = codeArr
-          .map((s, i) => { if (s.includes(str)) return i })
-          .filter(i => i !== undefined)[0]
-        return cm.getModeAt({ line }).name === 'xml'
-      })
-      return code.replace(regex, (attr) => {
-        if (!matches.includes(attr)) return attr // return JS as is
-        const a = attr.split('=')
-        if ((a[0] === 'src' || a[0] === 'href') && a[1].indexOf('http') !== 1) {
-          a[1] = `"${root}${a[1].substring(1, a[1].length - 1)}"`
-        } else if (a[0] === 'material' && a[1].includes('src')) {
-          // for a-frame library
-          if (a[1].includes(';')) {
-            const arr = a[1].split(';')
-            for (let i = 0; i < arr.length; i++) {
-              if (arr[i].includes('src')) {
-                arr[i] = `src: ${root}${arr[i].split(':')[1].trim()}`
-              }
-            }
-            a[1] = `"${arr.join(';')}`
-          } else {
-            a[1] = `"src: ${root}${a[1].split(':')[1].trim()}`
-          }
-        } else if (a[0] === 'style') {
-          a[1] = add2css(a[1])
-        }
-        return `${a[0]}=${a[1]}`
-      })
-    }
-    if (this.language === 'html') {
-      code = add2attr(code, this._root, this.cm)
-      // code = code.replace(/<style[^>]*>([\S\s]*?)<\/style>/g, (s) => add2css(s))
-      // code = code.replace(/<script[^>]*>([^>]*?)<\/script>/g, (s) => add2js(s))
-      // "safer" regex than above: https://stackoverflow.com/a/64396746/1104148
-      const cssRegex = /(?:<(style)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)([\S\s]*?)<\/\1\s*>/g
-      const jsRegex = /(?:<(script)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)([\S\s]*?)<\/\1\s*>/g
-      code = code.replace(cssRegex, (s) => add2css(s))
-      code = code.replace(jsRegex, (s) => add2js(s))
-      doc.write(code)
-    } else if (this.language === 'css') doc.write(add2css(code))
-    else if (this.language === 'javascript') doc.write(add2js(code))
+    applyCustomRootURL({
+      root: this._root,
+      lang: this.language,
+      doc: doc,
+      code: code,
+      cm: this.cm
+    })
   }
 
   _updateRenderIframe () {
