@@ -7,7 +7,8 @@ const attrRegex = /(\S+)=["']?((?:.(?!["']?\s+(?:\S+)=|\s*\/?[>"']))+.)["']?/g
 
 function add2css (str, root) {
   const urlMatches = str.match(/\burl\(([^()]*)\)/g) || [] // match all url(...)
-  const srcMatches = str.match(attrRegex).filter(m => m.includes('src=')) || []
+  const attrMatches = str.match(attrRegex)
+  const srcMatches = attrMatches ? attrMatches.filter(m => m.includes('src=')) : []
 
   urlMatches.forEach(m => {
     const n = (m.includes('"') || m.includes("'")) ? 5 : 4
