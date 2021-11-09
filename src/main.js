@@ -52,6 +52,8 @@ class Netitor {
     this._ferr = typeof opts.friendlyErr === 'boolean' ? opts.friendlyErr : true
     this._rerr = typeof opts.renderWithErrors === 'boolean'
       ? opts.renderWithErrors : false
+    this._ercb = typeof opts.errorCallback === 'function'
+      ? opts.errorCallback : null // NOTE: undocumented
 
     this.events = {
       'lint-error': [],
@@ -551,6 +553,10 @@ class Netitor {
     this.render.appendChild(this.iframe)
     const content = this.iframe.contentDocument || this.iframe.contentWindow.document
     content.open()
+    this.iframe.contentWindow.addEventListener('error', (err) => {
+      if (this._ercb) this._ercb(err)
+      return true
+    })
     if (!this._root) content.write(this.code)
     else this._applyCustomRoot(content, this.code)
     if (this._titl) document.title = content.title
