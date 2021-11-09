@@ -10,6 +10,16 @@ const snippets = {
   'html (template)': '<!DOCTYPE html>\n<html lang="en-US">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\t\t<CURSOR_GOES_HERE>\n\t</body>\n</html>\n'
 }
 
+const ciSnips = ['div', 'section', 'span', 'p']
+ciSnips.forEach(snip => {
+  let key = `${snip} (class)`
+  let val = `<${snip} class="<CURSOR_GOES_HERE>"></${snip}>`
+  snippets[key] = val
+  key = `${snip} (id)`
+  val = `<${snip} id="<CURSOR_GOES_HERE>"></${snip}>`
+  snippets[key] = val
+})
+
 function elementHintList (tok, tag) {
   const str = tok.string
   const list = []
