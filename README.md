@@ -147,7 +147,20 @@ To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with n
 
 **tidy()**: calling this method will clean-up (aka format) the code in the editor (fix spacing, indentation, etc).
 
-**addCustomRoot(root)**: netitor is a single page editor for simple HTML sketches, which means sketches with code linking to other files/assets (via the `src` and `href` HTML attributes as well as the `url()` CSS function) will need to be absolute paths (as there is no 'relative' context). To get around this you can use this method to set a custom 'root' path. This should be a public URL to a directory with any of the files you want to reference in the editor as though they were relative paths. You can also pass this method `null` to reset it.
+**addCustomRoot(root)**: netitor is a single page editor for simple HTML sketches, which means sketches with code linking to other files/assets (via the `src` and `href` HTML attributes as well as the `url()` CSS function) will need to be absolute paths (as there is no 'relative' context). To get around this you can use this method to set a custom 'root' path. This should be a public URL to a directory with any of the files you want to reference in the editor as though they were relative paths. You can also pass this method `null` to reset it. In some cases you may notice these errors in your console `The resource from “YOUR_CUSTOM_ROOT” was blocked due to MIME type mismatch (X-Content-Type-Options: nosniff).`, this is due to the server's [response HTTP headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Content-Type-Options). This is most likely to happen when importing JS and CSS assets via `<script>` and `<link>`. If you don't have access to the server's code/config (and thus can't change the response headers to avoid this error) you can alternatively use a proxy URL ([as explained here](https://stackoverflow.com/a/41309463/1104148)) to get around the error. In order to add a custom proxy URL for these cases, you can alternatively pass an object with both a `base` URL and `proxy` URL property to this method.
+
+```js
+  // simple way
+  ne.addCustomRoot('https://mysite.com/project/')
+  // adding both a custom base URL and a proxy URL
+  // for reasons explained above
+  ne.addCustomRoot({
+    base: 'https://mysite.com/project/',
+    proxy: 'https://proxy-server.com/mysite.com/project/'
+  })
+  // to remove the custom root URL (reset back to default)
+  ne.addCustomRoot(null)
+```
 
 **addErrorException(obj, specific)**: error objects returned in the event array passed into the `lint-error` callback function have a `type` property which returns either 'error' or 'warning' which can be used to filter out less consequential errors, but if there is a specific errors you want to suppress rather than doing that filtering yourself you can add it to the list of exceptions by passing the error object into this method. The second argument is an optional boolean which determines whether or not you want to ignore this specific error (the default is false, which ignores every instance of that general error). For example, using an made-up HTML tag like `<fart>` will throw an "standard-elements" error, adding an ErrorException for this error **specifically** will avoid erroring on that particular tag, adding a general exception will prevent all future "standard-elements" errors.
 
