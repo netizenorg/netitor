@@ -23,7 +23,8 @@ const linter = require('./linters/index.js')
 const hinter = require('./hinters/index.js')
 const eduData = require('./edu-data/index.js')
 
-const applyCustomRootURL = require('./applyCustomRootURL.js')
+// NOTE: see file for comment
+// const applyCustomRootURL = require('./applyCustomRootURL.js')
 
 const CSS = require('./css/css.js')
 const THEMES = require('./css/themes/index.js')
@@ -47,6 +48,7 @@ class Netitor {
     this._hint = typeof opts.hint === 'boolean' ? opts.hint : true
     this._bgcl = typeof opts.background === 'boolean' ? opts.background : true
     this._wrap = typeof opts.wrap === 'boolean' ? opts.wrap : false
+    this._read = typeof opts.readOnly === 'boolean' ? opts.readOnly : false
     this._auto = typeof opts.autoUpdate === 'boolean' ? opts.autoUpdate : true
     this._adly = typeof opts.updateDelay === 'number' ? opts.updateDelay : 500
     this._ferr = typeof opts.friendlyErr === 'boolean' ? opts.friendlyErr : true
@@ -145,8 +147,11 @@ class Netitor {
   get background () { return this._bgcl }
   set background (v) { this._updateBG(v) }
 
-  get wrap () { return this._wrap }
+  get wrap () { return this.cm.getOption('lineWrapping') }
   set wrap (v) { this.cm.setOption('lineWrapping', v) }
+
+  get readOnly () { return this.cm.getOption('readOnly') }
+  set readOnly (v) { this.cm.setOption('readOnly', v) }
 
   get language () { return this._lang }
   set language (v) {
@@ -420,6 +425,7 @@ class Netitor {
       value: this._code,
       theme: 'netizen',
       keyMap: 'sublime',
+      readOnly: this._read,
       autoCloseBrackets: true,
       autoCloseTags: true,
       gutters: ['gutter-marker', 'CodeMirror-linenumbers'],
@@ -533,15 +539,16 @@ class Netitor {
     })
   }
 
-  _applyCustomRoot (doc, code) {
-    applyCustomRootURL({
-      root: this._root,
-      lang: this.language,
-      doc: doc,
-      code: code,
-      cm: this.cm
-    })
-  }
+  // NOTE: see applyCustomRoot.js
+  // _applyCustomRoot (doc, code) {
+  //   applyCustomRootURL({
+  //     root: this._root,
+  //     lang: this.language,
+  //     doc: doc,
+  //     code: code,
+  //     cm: this.cm
+  //   })
+  // }
 
   _updateRenderIframe () {
     // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
@@ -558,7 +565,12 @@ class Netitor {
       return true
     })
     if (!this._root) content.write(this.code)
-    else this._applyCustomRoot(content, this.code)
+    // else this._applyCustomRoot(content, this.code) // see applyCustomRoot.js
+    else { // NOTE: these 3 lines of code replaced EVERYTHING in file above
+      const base = `<base href="${this._root}">`
+      const code = base + this.code
+      content.write(code)
+    }
     if (this._titl) document.title = content.title
     content.close()
     this.emit('render-update')

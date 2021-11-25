@@ -1,3 +1,24 @@
+/*
+  NOTE: !!! THIS FILE IS NO LONGER BEING USED !!!
+
+  well... after lots of work/refactoring/etc on this file, it turns out that
+  HTML5 introduced an element called <base> whose sole purpose is to define
+  an alternative base URL for all relative URLs in the document. so rather
+  than having to parse the code in the editor && account for every possible
+  variation of a URL which may appear in HTML/CSS/JavaScript && then prepending
+  the new root URL to it... all we have to do is add <base href="root_url">
+  to the top of the document... lots of work for nothing, *BUT* there was
+  still lots of work to be done... && this <base> element solved all our
+  problems in only 3 lines of code (^__^), that said, i'm gonna keep this file
+  here juuuuuust in case we need to return to it or some reason.
+
+  more info on <base> here:
+  https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  https://stackoverflow.com/questions/32532676/iframes-change-the-root-url-hit-by-relative-url-srcs
+  https://stackoverflow.com/questions/11907773/setting-base-url-path-of-iframe
+
+*/
+
 // opts.code = opts.code.replace(/<style[^>]*>([\S\s]*?)<\/style>/g, (s) => add2css(s))
 // opts.code = opts.code.replace(/<script[^>]*>([^>]*?)<\/script>/g, (s) => add2js(s))
 // "safer" regex than above: https://stackoverflow.com/a/64396746/1104148
