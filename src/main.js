@@ -317,10 +317,12 @@ class Netitor {
     if (path === null) {
       this._root = null
       this._delayUpdate(this.cm)
-    } else if (typeof path !== 'string') {
-      return this.err('addCustomRoot() expects a URL string')
-    } else {
+    } else if (typeof path === 'string') {
       this._root = path
+      this._delayUpdate(this.cm)
+    } else if (typeof path === 'object') {
+      this._root = path.base
+      this._proxy = path.proxy
       this._delayUpdate(this.cm)
     }
   }
@@ -550,6 +552,35 @@ class Netitor {
   //   })
   // }
 
+  _addProxyURL (code) {
+    const jsRegex = /(?:<(script)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)/g
+    const cssRegex = /(?:<(link)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)/g
+    const jsMatches = code.match(jsRegex) || []
+    const cssMatches = code.match(cssRegex) || []
+
+    jsMatches.forEach((match, i) => {
+      if (match.includes('src="')) {
+        const swap = match.replace('src="', `src="${this._proxy}`)
+        code = code.replace(match, swap)
+      } else if (match.includes("src='")) {
+        const swap = match.replace("src='", `src="${this._proxy}`)
+        code = code.replace(match, swap)
+      }
+    })
+
+    cssMatches.forEach((match, i) => {
+      if (match.includes('href="')) {
+        const swap = match.replace('href="', `href="${this._proxy}`)
+        code = code.replace(match, swap)
+      } else if (match.includes("href='")) {
+        const swap = match.replace("href='", `href="${this._proxy}`)
+        code = code.replace(match, swap)
+      }
+    })
+
+    return code
+  }
+
   _updateRenderIframe () {
     // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
     if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
@@ -566,9 +597,10 @@ class Netitor {
     })
     if (!this._root) content.write(this.code)
     // else this._applyCustomRoot(content, this.code) // see applyCustomRoot.js
-    else { // NOTE: these 3 lines of code replaced EVERYTHING in file above
+    else {
       const base = `<base href="${this._root}">`
-      const code = base + this.code
+      let code = base + this.code
+      if (this._proxy) { code = this._addProxyURL(code) }
       content.write(code)
     }
     if (this._titl) document.title = content.title
