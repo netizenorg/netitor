@@ -553,28 +553,30 @@ class Netitor {
   // }
 
   _addProxyURL (code) {
+    // prepend proxy URL to any relative paths in
+    // <script src="..."> && <link href="...">
     const jsRegex = /(?:<(script)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)/g
     const cssRegex = /(?:<(link)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)/g
     const jsMatches = code.match(jsRegex) || []
     const cssMatches = code.match(cssRegex) || []
 
-    jsMatches.forEach((match, i) => {
-      if (match.includes('src="')) {
-        const swap = match.replace('src="', `src="${this._proxy}`)
-        code = code.replace(match, swap)
-      } else if (match.includes("src='")) {
-        const swap = match.replace("src='", `src="${this._proxy}`)
-        code = code.replace(match, swap)
+    jsMatches.forEach((m, i) => {
+      if (m.includes('src="') && !m.includes('src="http')) {
+        const swap = m.replace('src="', `src="${this._proxy}`)
+        code = code.replace(m, swap)
+      } else if (m.includes("src='") && !m.includes("src='http")) {
+        const swap = m.replace("src='", `src="${this._proxy}`)
+        code = code.replace(m, swap)
       }
     })
 
-    cssMatches.forEach((match, i) => {
-      if (match.includes('href="')) {
-        const swap = match.replace('href="', `href="${this._proxy}`)
-        code = code.replace(match, swap)
-      } else if (match.includes("href='")) {
-        const swap = match.replace("href='", `href="${this._proxy}`)
-        code = code.replace(match, swap)
+    cssMatches.forEach((m, i) => {
+      if (m.includes('href="') && !m.includes('href="http')) {
+        const swap = m.replace('href="', `href="${this._proxy}`)
+        code = code.replace(m, swap)
+      } else if (m.includes("href='") && !m.includes("href='http")) {
+        const swap = m.replace("href='", `href="${this._proxy}`)
+        code = code.replace(m, swap)
       }
     })
 
