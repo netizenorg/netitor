@@ -28,12 +28,13 @@ module.exports = (code, proxy) => {
   })
 
   // prepend proxy URL to any realtive paths in <a href="...">
-  code = code.replace(attrRegex, (attr) => {
-    const a = attr.split('=')
-    if (a[0] === 'href' && a[1].indexOf('http') !== 1) {
-      a[1] = `"${proxy}${a[1].substring(1, a[1].length - 1)}"`
-    }
-    return `${a[0]}=${a[1]}`
+  const attrMatches = code.match(attrRegex) || []
+  const aHrefs = attrMatches
+    .filter(m => m.includes('href=') && !m.includes('http'))
+  aHrefs.forEach((m, i) => {
+    const a = m.split('=')
+    a[1] = `"${proxy}${a[1].substring(1, a[1].length - 1)}"`
+    code = code.replace(m, `${a[0]}=${a[1]}`)
   })
 
   return code
