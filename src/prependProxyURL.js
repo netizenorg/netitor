@@ -33,7 +33,9 @@ module.exports = (code, proxy) => {
     .filter(m => m.includes('href=') && !m.includes('http'))
   aHrefs.forEach((m, i) => {
     const a = m.split('=')
-    a[1] = `"${proxy}${a[1].substring(1, a[1].length - 1)}"`
+    a[1] = a[1].includes('.html')
+      ? `"${proxy}${a[1].substring(1, a[1].length - 1)}"`
+      : `"${proxy}${a[1].substring(1, a[1].length - 1)}/index.html"`
     code = code.replace(m, `${a[0]}=${a[1]}`)
   })
 
