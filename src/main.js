@@ -25,6 +25,7 @@ const eduData = require('./edu-data/index.js')
 
 // NOTE: see file for comment
 // const applyCustomRootURL = require('./applyCustomRootURL.js')
+const prependProxyURL = require('./prependProxyURL.js')
 
 const CSS = require('./css/css.js')
 const THEMES = require('./css/themes/index.js')
@@ -552,37 +553,6 @@ class Netitor {
   //   })
   // }
 
-  _addProxyURL (code) {
-    // prepend proxy URL to any relative paths in
-    // <script src="..."> && <link href="...">
-    const jsRegex = /(?:<(script)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)/g
-    const cssRegex = /(?:<(link)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)/g
-    const jsMatches = code.match(jsRegex) || []
-    const cssMatches = code.match(cssRegex) || []
-
-    jsMatches.forEach((m, i) => {
-      if (m.includes('src="') && !m.includes('src="http')) {
-        const swap = m.replace('src="', `src="${this._proxy}`)
-        code = code.replace(m, swap)
-      } else if (m.includes("src='") && !m.includes("src='http")) {
-        const swap = m.replace("src='", `src="${this._proxy}`)
-        code = code.replace(m, swap)
-      }
-    })
-
-    cssMatches.forEach((m, i) => {
-      if (m.includes('href="') && !m.includes('href="http')) {
-        const swap = m.replace('href="', `href="${this._proxy}`)
-        code = code.replace(m, swap)
-      } else if (m.includes("href='") && !m.includes("href='http")) {
-        const swap = m.replace("href='", `href="${this._proxy}`)
-        code = code.replace(m, swap)
-      }
-    })
-
-    return code
-  }
-
   _updateRenderIframe () {
     // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
     if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
@@ -602,7 +572,7 @@ class Netitor {
     else {
       const base = `<base href="${this._root}">`
       let code = base + this.code
-      if (this._proxy) { code = this._addProxyURL(code) }
+      if (this._proxy) { code = prependProxyURL(code, this._proxy) }
       content.write(code)
     }
     if (this._titl) document.title = content.title
