@@ -31,8 +31,6 @@
     "eduscraper": "git+https://github.com/netizenorg/eduscraper.git",
     "nodemon": "^2.0.2",
     "standard": "^14.3.3",
-    "terser": "^4.8.0",
-    "Color": "git+https://github.com/nbriz/Color.git",
-    "FileUploader": "git+https://github.com/nbriz/FileUploader.git"
+    "terser": "^4.8.0"
   }
 }
