@@ -114,6 +114,34 @@ function parseRules (rule, frags) {
   else return frags
 }
 
+function animationKeyframeSelector (str) {
+  const url = 'https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes'
+  let time
+  str = str.trim()
+  if (str === '0%') {
+    time = 'at the start of'
+  } else if (str === '25%') {
+    time = 'a quarter of the way into'
+  } else if (str === '50%') {
+    time = 'half way into'
+  } else if (str === '75%') {
+    time = 'three quarters of the way into'
+  } else if (str === '100%') {
+    time = 'at the end of'
+  } else {
+    time = `at the designated time (${str} of the animation duration) of`
+  }
+  const nfo = `This CSS rule specifies new values for CSS properties that should be set on any elements with this animation applied to it. This specific set of rules will get applied ${time} the animation's timeline.`
+  return {
+    url: url,
+    keyword: {
+      html: `<a href="${url}" target="_blank">CSS animation keyframe</a>`,
+      text: 'CSS animation keyframe'
+    },
+    description: { html: nfo, text: nfo }
+  }
+}
+
 function parseNestedRules (rule) {
   const ops = {
     ' ': 'which is a <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator" target="_blank">descendant</a> of ',
@@ -133,6 +161,11 @@ function checkSelector (o, cm) {
   const end = line[line.length - 1]
   const str = (end === ',')
     ? gatherGroup(cm, pos.line) : line.substr(0, line.indexOf('{'))
+
+  if (!isNaN(parseInt(str)) && str.includes('%')) {
+    return animationKeyframeSelector(str)
+  }
+
   const obj = cssSelector.parse(str)
   if (obj === null) return null
 
