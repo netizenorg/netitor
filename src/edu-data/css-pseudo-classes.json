@@ -83,7 +83,7 @@
       "text": "The :defined CSS pseudo-class represents any element that has been defined. This includes any standard element built in to the browser, and custom elements that have been successfully defined (i.e. with the CustomElementRegistry.define() method)."
     }
   },
-  ":dir()": {
+  ":dir": {
     "status": "experimental",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:dir",
     "keyword": {
@@ -239,7 +239,7 @@
       "text": "The :focus-within CSS pseudo-class represents an element that has received focus or contains an element that has received focus. In other words, it represents an element that is itself matched by the :focus pseudo-class or has a descendant that is matched by :focus. (This includes descendants in shadow trees.)"
     }
   },
-  ":has()": {
+  ":has": {
     "status": "experimental",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:has",
     "keyword": {
@@ -263,7 +263,7 @@
       "text": "The :host CSS pseudo-class selects the shadow host of the shadow DOM containing the CSS it is used inside — in other words, this allows you to select a custom element from inside its shadow DOM."
     }
   },
-  ":host()": {
+  ":host": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:host()",
     "keyword": {
@@ -275,7 +275,7 @@
       "text": "The :host() CSS pseudo-class function selects the shadow host of the shadow DOM containing the CSS it is used inside (so you can select a custom element from inside its shadow DOM) — but only if the selector given as the function's parameter matches the shadow host."
     }
   },
-  ":host-context()": {
+  ":host-context": {
     "status": "experimental",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:host-context()",
     "keyword": {
@@ -335,7 +335,7 @@
       "text": "The :invalid CSS pseudo-class represents any <input> or other <form> element whose contents fail to validate."
     }
   },
-  ":is()": {
+  ":is": {
     "status": "experimental",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:is",
     "keyword": {
@@ -347,7 +347,7 @@
       "text": "The :is() CSS pseudo-class function takes a selector list as its argument, and selects any element that can be selected by one of the selectors in that list. This is useful for writing large selectors in a more compact form."
     }
   },
-  ":lang()": {
+  ":lang": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:lang",
     "keyword": {
@@ -419,7 +419,7 @@
       "text": null
     }
   },
-  ":not()": {
+  ":not": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:not",
     "keyword": {
@@ -431,7 +431,7 @@
       "text": "The :not() CSS pseudo-class represents elements that do not match a list of selectors. Since it prevents specific items from being selected, it is known as the negation pseudo-class."
     }
   },
-  ":nth-child()": {
+  ":nth-child": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child",
     "keyword": {
@@ -443,7 +443,7 @@
       "text": "The :nth-child() CSS pseudo-class matches elements based on their position in a group of siblings."
     }
   },
-  ":nth-col()": {
+  ":nth-col": {
     "status": "experimental",
     "url": null,
     "keyword": {
@@ -455,7 +455,7 @@
       "text": null
     }
   },
-  ":nth-last-child()": {
+  ":nth-last-child": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-child",
     "keyword": {
@@ -467,7 +467,7 @@
       "text": "The :nth-last-child() CSS pseudo-class matches elements based on their position among a group of siblings, counting from the end."
     }
   },
-  ":nth-last-col()": {
+  ":nth-last-col": {
     "status": "experimental",
     "url": null,
     "keyword": {
@@ -479,7 +479,7 @@
       "text": null
     }
   },
-  ":nth-last-of-type()": {
+  ":nth-last-of-type": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-last-of-type",
     "keyword": {
@@ -491,7 +491,7 @@
       "text": "The :nth-last-of-type() CSS pseudo-class matches elements of a given type, based on their position among a group of siblings, counting from the end."
     }
   },
-  ":nth-of-type()": {
+  ":nth-of-type": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type",
     "keyword": {
@@ -647,7 +647,7 @@
       "text": "The :scope CSS pseudo-class represents elements that are a reference point for selectors to match against."
     }
   },
-  ":state()": {
+  ":state": {
     "status": "experimental",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:state",
     "keyword": {
@@ -719,7 +719,7 @@
       "text": "The :visited CSS pseudo-class represents links that the user has already visited. For privacy reasons, the styles that can be modified using this selector are very limited."
     }
   },
-  ":where()": {
+  ":where": {
     "status": "experimental",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/:where",
     "keyword": {

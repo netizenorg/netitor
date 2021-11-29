@@ -46,8 +46,12 @@ function parsePseudos (pseudos) {
     } else if (pseudoClasses[':' + key]) {
       link = pseudoClasses[':' + key].keyword.html
     }
-    if (pseudoEles['::' + key] || pseudoClasses[':' + key]) {
+    if (pseudoEles['::' + key]) {
       m += (i === 0) ? `if/when it is ${link}` : ` and if/when it is ${link}`
+    } else if (pseudoClasses[':' + key]) {
+      m += (i === 0)
+        ? `if/when it is the specified ${link}`
+        : ` and if/when it is the specified ${link}`
     }
   }
   if (m === '(') return ''

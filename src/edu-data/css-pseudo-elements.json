@@ -107,7 +107,7 @@
       "text": "The ::marker CSS pseudo-element selects the marker box of a list item, which typically contains a bullet or number. It works on any element or pseudo-element set to display: list-item, such as the <li> and <summary> elements."
     }
   },
-  "::part()": {
+  "::part": {
     "status": "experimental",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::part",
     "keyword": {
@@ -143,7 +143,7 @@
       "text": "The ::selection CSS pseudo-element applies styles to the part of a document that has been highlighted by the user (such as clicking and dragging the mouse across text)."
     }
   },
-  "::slotted()": {
+  "::slotted": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/::slotted",
     "keyword": {
