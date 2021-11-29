@@ -2,11 +2,27 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-A pedagogical web based code editor for creative netizens in training. You can play with a [live demo here](https://netizenorg.github.io/netitor/) (or for the example below [click here](https://netizenorg.github.io/netitor/#code/eJy9WF1v6yYYvs+vYKkqtVVcf2AnkZtFOmmb2+1imrRLYpMEHcdkNumaM+2/DxvsGIxj5xxtqvwRwM/78PDwAl389PbL629//PoO9uyQLEeLnJ0TvBwBYD+B1Rn8TiJGM4LACme7P08kZ+DJFrWAf8KOeWjbEY3xEafPhNofJNqoLZ/A3/wOwIZ+Wjn5RtJdyN+zGGcWL3rhdf+MRkV1fJ6MQElDfrHHZLdnIXAd5/6lLPmLxGzfLNig6Osuo6c0DsHdzH19X81rxOcIpR8ol2BHmhNGaBqCDCeIkQ8sEBg9csBA4h1QtiO8DTox+qKQgIFz/FRYNEqu0sj3OEkm9ZsV0eO5RQptcpqcmJGUgr5ev65njqwQMmYoJqc8BIFzX14uPhSXXcgExE2U6HAWOaAd5opwAJRYu+KJU/Zw97ZaeVMHBPcTwDKU5keU8XLgPE5uaNuKxkefB4NctfLWqr+o4QBnAtwZb1jcNCmldgnelt64V8fJ17wyq35/s0ga408OruE1BySTjvNuRg0uqAeMGL+TNMI941ybS4OHZn8H/goGXUOvlEtxuIA8HInBXeAXf0qbDWWMHpqtGuOn9WaAXT1fUpCx/ftBfWxJFqZsb0V7ksQP7mOdOwRVpxnBcvsRPB2h9ovAcPoAoA4AbwTwdQA/UHVqdiJHCYrBc4LR9jud4xmThrdarWfrq0mDTzl7yp9T8a5zGpKvNAPAnjk07ei5yQBlAF+VvpqjpWu3NOPaZpQhhh+sqRPj3WMfuqega86os68B3h8EDxV4Sx12CH8UvmWsmrFMYhbs7sKwEEGnd6sQ3mxwCA6AGMV59TbQ4LprzAZ/mwYwgNdSo0bilvV3oJ9nxkDy7VpWU+P4w1BU83pQwZgPw1AdqiRXKbOAwOfi86JicvlZWmCIjtDVhJurus1NA2pYr1prnWntFdx43AZToXMPVSX6drvt99JFFWVH4sNWm6ZUcuZAr9WKk76Wj/o2On6bm9Lxym2eo85hb64Bu9r4uPM2VYyyQVNI64QF9V4EWi8C484HfnmD71+MQzIv16sgKFcxu3g6ZVkNZEiwUEtNB3pi+z5/VClQnWl+S71AU6/OV4K3WMmubswkcte27CKBNEJ/Q6lVtb674uqYRaUkG8KGZcnaPpLN9EY92jtY81nKPN1LmmG4wXyA8aRRgrYMVxbtRBxywLySAJTgMlZEU8blD8F4LABikh8TdOZn3oRGX1/6BbVm2pxxDTGb3fuhkJWtrakatd6dL2z5H4HRIiYfIEpQnv88Fkfr8bLg1CwvD1Tj5cLmZUutrtgfj5dlDKW42DA3Pvnvao2syp2PgVaxFepE/n8qjXyr5dxAWVR1ot9abZarPjF3jHKxQBjl3FaDr4XlS4nCSWd1vFIr3Kt2ydy7MjuZCXx3BLPLi7WkQ5ty8tZ14vEvbE1oAg==).)
+A pedagogical web based code editor for creative netizens in training. You can play with a [live demo here](https://netizenorg.github.io/netitor/)
 
-![netitor screenshot](screenshot.png)
+[![netitor screenshot](screenshot.png)](https://netizenorg.github.io/netitor/#code/eJy9WF1v6yYYvs+vYKkqtVVcf2AnkZtFOmmb2+1imrRLYpMEHcdkNumaM+2/DxvsGIxj5xxtqvwRwM/78PDwAl389PbL629//PoO9uyQLEeLnJ0TvBwBYD+B1Rn8TiJGM4LACme7P08kZ+DJFrWAf8KOeWjbEY3xEafPhNofJNqoLZ/A3/wOwIZ+Wjn5RtJdyN+zGGcWL3rhdf+MRkV1fJ6MQElDfrHHZLdnIXAd5/6lLPmLxGzfLNig6Osuo6c0DsHdzH19X81rxOcIpR8ol2BHmhNGaBqCDCeIkQ8sEBg9csBA4h1QtiO8DTox+qKQgIFz/FRYNEqu0sj3OEkm9ZsV0eO5RQptcpqcmJGUgr5ev65njqwQMmYoJqc8BIFzX14uPhSXXcgExE2U6HAWOaAd5opwAJRYu+KJU/Zw97ZaeVMHBPcTwDKU5keU8XLgPE5uaNuKxkefB4NctfLWqr+o4QBnAtwZb1jcNCmldgnelt64V8fJ17wyq35/s0ga408OruE1BySTjvNuRg0uqAeMGL+TNMI941ybS4OHZn8H/goGXUOvlEtxuIA8HInBXeAXf0qbDWWMHpqtGuOn9WaAXT1fUpCx/ftBfWxJFqZsb0V7ksQP7mOdOwRVpxnBcvsRPB2h9ovAcPoAoA4AbwTwdQA/UHVqdiJHCYrBc4LR9jud4xmThrdarWfrq0mDTzl7yp9T8a5zGpKvNAPAnjk07ei5yQBlAF+VvpqjpWu3NOPaZpQhhh+sqRPj3WMfuqega86os68B3h8EDxV4Sx12CH8UvmWsmrFMYhbs7sKwEEGnd6sQ3mxwCA6AGMV59TbQ4LprzAZ/mwYwgNdSo0bilvV3oJ9nxkDy7VpWU+P4w1BU83pQwZgPw1AdqiRXKbOAwOfi86JicvlZWmCIjtDVhJurus1NA2pYr1prnWntFdx43AZToXMPVSX6drvt99JFFWVH4sNWm6ZUcuZAr9WKk76Wj/o2On6bm9Lxym2eo85hb64Bu9r4uPM2VYyyQVNI64QF9V4EWi8C484HfnmD71+MQzIv16sgKFcxu3g6ZVkNZEiwUEtNB3pi+z5/VClQnWl+S71AU6/OV4K3WMmubswkcte27CKBNEJ/Q6lVtb674uqYRaUkG8KGZcnaPpLN9EY92jtY81nKPN1LmmG4wXyA8aRRgrYMVxbtRBxywLySAJTgMlZEU8blD8F4LABikh8TdOZn3oRGX1/6BbVm2pxxDTGb3fuhkJWtrakatd6dL2z5H4HRIiYfIEpQnv88Fkfr8bLg1CwvD1Tj5cLmZUutrtgfj5dlDKW42DA3Pvnvao2syp2PgVaxFepE/n8qjXyr5dxAWVR1ot9abZarPjF3jHKxQBjl3FaDr4XlS4nCSWd1vFIr3Kt2ydy7MjuZCXx3BLPLi7WkQ5ty8tZ14vEvbE1oAg==)
 
-# How To
+# How To...
+- [...use it](https://github.com/netizenorg/netitor#use-it)
+- [...incorporate it](https://github.com/netizenorg/netitor#include-it)
+  - [netitor: properties](https://github.com/netizenorg/netitor#properties)
+  - [netitor: methods](https://github.com/netizenorg/netitor#methods)
+  - [netitor: events](https://github.com/netizenorg/netitor#events)
+- [...contribute](https://github.com/netizenorg/netitor#contribute)
+
+# Use It
+
+The netitor is the core editor used in our online hypermedia creative coding educational platform [netnet.studio](https://netnet.studio), but you can use a much simpler version of the editor in the [online demo](https://netizenorg.github.io/netitor/) hosted on this repo. What makes the netitor unique to other code editors is that it's made specifically for beginners learning/experimenting with web code (HTML, CSS and JavaScript). For this reason (in addition to the usual code editor features like syntax highlighting and code hinting) it has some extra features designed to help beginners like friendly error messages (not only for JavaScript, but for HTML and CSS as well) and built-in edu info (you can double click on any piece of code in the editor to learn more about it). As an online + realtime editor it's purpose is not so much to replace professional code editors used to create larger projects, but rather quickly experiment, demonstrate concepts and share ideas (we're not trying to recreate the wheel, but create "training wheels" instead).
+
+You can double click any pieces of code in the [online demo](https://netizenorg.github.io/netitor/) to view it's edu-info. Anytime there are errors or potential issues in your code, the editor will add a little dot on the line the issue appears, you can click on that dot to view the issue written in beginner friendly language. You can press `Ctrl+S` (or `Cmd+S` on Mac) to "save" anything you make in the online editor. This will encode everything you currently have in the editor into your browser's address bar. You can then copy+paste the updated URL from the address bar to share your code sketch with anyone else. 
+
+# Include It
+
+If you'd like to include it into your own online project (maybe to share interactive beginner friendly examples on your own personal website?) you can download minified and unminified versions of the library from the [build folder](https://github.com/netizenorg/netitor/tree/master/build) of this repo and import it in your own HTML file as one does, for example: `<script src="netitor.min.js"></scrip>`
 
 The [index.html](https://github.com/netizenorg/netitor/blob/master/index.html) in the root of the directory is a working example of how to implement the netitor. The first thing you need to do is instantiate a new instance of `Netitor`. The constructor requires an options object with query selector string of an element in your HTML page, like:
 
@@ -238,3 +254,55 @@ The `nfo` property will contain an object with educational/reference information
   data: "color"
 }
 ```
+
+# Contribute
+
+There are a few ways you can contribute to this project and support our development:
+- [netizen.org](https://netizen.org) is a 501(c)3 tax deductible organization, so you might consider making a [donation](https://donorbox.org/netizen)! Your support helps ensure our tools and workshops remain accessible to folks from all backgrounds.
+- did you find a potential bug in our code? please let us know by creating an [issue](https://github.com/netizenorg/netitor/issues) (or sending us an email hi@netizen.org)
+- would you like to fix that bug yourself? Please feel free to "Fork" this project and submit a [PR](https://github.com/netizenorg/netitor/pulls) (Pull Request). See "Contributing Code" below for more details.
+- want to create your own netitor theme? check out our [custom theme creator](https://netizenorg.github.io/netitor/theme/)
+
+## Custom Theme Creator
+
+[![theme-creator](theme-creator.gif)](https://netizenorg.github.io/netitor/theme/)
+
+After creating and downloading a custom theme you've made with the [theme creator](https://netizenorg.github.io/netitor/theme/) add it to the `src/css/themes/` folder of your forked version of this repo, push your updates and submit a [PR](https://github.com/netizenorg/netitor/pulls)!
+
+## Contributing Code
+
+If you'd like to contribute some code, bug fixes, IMPROVEMENTS etc, fork/clone the repo and make sure to download the dependencies: `npm install`
+
+The general workflow we use looks like this:
+  - make some changes
+  - run the build script `npm run build`
+  - test your changes using the example/demo page [`index.html`](https://github.com/netizenorg/netitor/blob/master/index.html)
+  - (optionally u can also run the watch script `npm run watch` just before you start dev'n, to avoid having to run the build script manually every time you make change)
+
+The vast majority of the code is in [`src/main.js`](https://github.com/netizenorg/netitor/blob/master/src/main.js) you'll notice that netitor makes heavy use of a library called [CodeMirror](https://codemirror.net/) (which is used by the vast majority of web based code editors we've inspected), you can check out their [documentation here](https://codemirror.net/doc/manual.html). Other files/folders to be aware of are:
+  - [`src/css/`](https://github.com/netizenorg/netitor/tree/master/src/css): this directory contains all of the editor's styles (including it's various syntax highlight themes)
+  - [`src/edu-data/`](https://github.com/netizenorg/netitor/tree/master/src/edu-data): this directory contains all the logic and data used to explain code in the editor (the info contained in the 'edu-info' event object returned by the event listener every time you double clicking on a piece of code). The `.json` files in this folder are automatically generated by running the `npm run eduscraper` (see [eduscraper](https://github.com/netizenorg/eduscraper) for more info), with the exception of the `.json` files inside `edu-data/custom/` (which are written by hand)
+  - [`src/hinters/`](https://github.com/netizenorg/netitor/tree/master/src/hinters): this directory contains all the logic used to create the auto-complete code-hinting lists
+  - [`src/linters/`](https://github.com/netizenorg/netitor/tree/master/src/linters): this directory contains all the logic used to create the friendly error messages the 'lint-error' event object returned by the event listener every time the netitor spots an issue in the code.
+  - [`src/prependProxyURL.js`](https://github.com/netizenorg/netitor/blob/master/src/prependProxyURL.js) this handles applying the proxy URLs to necessary paths when the `addCustomRoot()` [method](https://github.com/netizenorg/netitor#methods) is used.
+  - [`index.html`](https://github.com/netizenorg/netitor/blob/master/index.html): this is the live demo page
+  - [`theme/`](https://github.com/netizenorg/netitor/tree/master/theme) this is the live theme creator app
+
+
+There are a few different npm scripts used in the development process:
+  - `npm run build`: this is the script that creates (compiles) the library files itself (and places them in the `build/` directory).
+  - `npm run watch`: runs a watch script which automatically runs the build script anytime changes to JavaScript files are made.
+  - `npm run lint`: we're using [Standard.js](https://standardjs.com/) as our code style, so it's best to run the linter to check and make sure everything is up to par before submitting any PRs (NOTE: this runs automatically when you run the build script).
+  - `npm run compile-css`: this script compiles any chagnes made to the `.js` files used to create the `.css` files (NOTE: this runs automatically when you run the build script).
+  - `npm run eduscraper`: runs the eduscraper and updates all the edu data in `src/edu-data` (see note below)
+  - `npm run update-eduscraper`: updates the eduscraper (see note below)
+  - `npm run educustom`: adds custom (hand written) edu data to the `.json` files generated by the eduscraper (see note below)
+
+
+**a note on the eduscraper**
+
+Anything having to do with `edu-data` is arguably the most precarious part of the process. That said, it's not very often that this data will need to be updated and so it's not super liekly we need to rerun the eduscraper all that much. That said, here some important things to know for the next time we do end up needing to run this.
+
+Most of the educational info/data stored in the `src/edu-data/*.json` files are automatically generated by the [eduscraper](https://github.com/netizenorg/eduscraper). The npm script `npm run eduscraper` is set to update *ALL* of the data by default (it's an alias for `eduscraper all src/edu-data`), but there will be times we only want to update part of the data, as documented in the eduscraper's [README](https://github.com/netizenorg/eduscraper) this can be edited to update only specific parts of the edu-data like `eduscraper attributes src/edu-data` or `eduscraper colors src/edu-data` for example.
+
+Because of the nature of the Web (it's always changing) scrapers constantly have to be updated, the eduscraper is no exception. For this reason there's a script `npm run update-eduscraper` which will update this dependency and should be run anytime the [eduscraper](https://github.com/netizenorg/eduscraper) repo has been udpated.
