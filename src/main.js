@@ -577,6 +577,7 @@ class Netitor {
     }
     if (this._titl) document.title = content.title
     content.close()
+    this._checkForCORSerr()
     this.emit('render-update')
   }
 
@@ -595,7 +596,6 @@ class Netitor {
     if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
     this.errz = (this._lint && !h) ? await linter(cm) : []
     this.errz = this.errz.length > 0 ? this._rmvExceptions(this.errz) : this.errz
-    this._checkForCORSerr()
     if (this.errz) this.emit('lint-error', this.errz)
     if (this._auto && !h && this._passThroughErrz(this.errz)) this.update()
   }
@@ -614,6 +614,7 @@ class Netitor {
       filtered.forEach(str => {
         const arr = str.split('/')
         const img = arr[arr.length - 1].replace(/"/g, '').replace(/>/g, '')
+        if (!this.errz) this.errz = []
         this.errz.push({
           type: 'error',
           language: 'html',
