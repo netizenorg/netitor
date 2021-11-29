@@ -24,26 +24,10 @@ You can double click any pieces of code in the [online demo](https://netizenorg.
 
 There are a few ways you can contribute to this project and support our development:
 - [netizen.org](https://netizen.org) is a 501(c)3 tax deductible organization, so you might consider making a [donation](https://donorbox.org/netizen)! Your support helps ensure our tools and workshops remain accessible to folks from all backgrounds.
+- want to create your own netitor theme? check out our [custom theme creator](https://github.com/netizenorg/netitor/wiki/Creating-Custom-Themes
 - did you find a potential bug in our code? please let us know by creating an [issue](https://github.com/netizenorg/netitor/issues) (or sending us an email hi@netizen.org)
-- would you like to fix that bug yourself? Please feel free to "Fork" this project and submit a [PR](https://github.com/netizenorg/netitor/pulls) (Pull Request). See "Contributing Code" below for more details.
-- want to create your own netitor theme? check out our [custom theme creator](https://netizenorg.github.io/netitor/theme/)
+- would you like to fix that bug yourself? Please feel free to "Fork" this project and submit a [PR](https://github.com/netizenorg/netitor/pulls) (Pull Request). Check out [Development Notes](https://github.com/netizenorg/netitor/wiki/Development-Notes) in the Wiki section of this repo for more info.
 
-### Custom Theme Creator
-
-[![theme-creator](theme-creator.gif)](https://netizenorg.github.io/netitor/theme/)
-
-After creating and downloading a custom theme you've made with the [theme creator](https://netizenorg.github.io/netitor/theme/) add it to the `src/css/themes/` folder of your forked version of this repo, push your updates and submit a [PR](https://github.com/netizenorg/netitor/pulls)!
-
-### Contributing Code
-
-If you'd like to contribute some code, bug fixes, new themes, general improvements, etc, fork/clone the repo and make sure to download the dependencies: `npm install`
-
-The general workflow we use looks like this:
-  - make some changes
-  - run the build script `npm run build`
-  - test your changes by viewing the example/demo page [`index.html`](https://github.com/netizenorg/netitor/blob/master/index.html) locally or use any number of [examples](https://github.com/netizenorg/netitor/wiki/Examples) we've setup for testing.
-
-Check out our [Development Notes](https://github.com/netizenorg/netitor/wiki/Development-Notes) in the Wiki section of this repo for more info.
 
 # Include It
 
