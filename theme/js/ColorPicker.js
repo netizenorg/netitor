@@ -3,6 +3,7 @@ class ColorPicker extends HTMLElement {
   constructor () {
     super()
     this.onupdate = () => { /* setup after insantiating */ }
+    this.theme = null /* updated in ColorManager after callong onupdate */
     this.swatch = null /* updated when .open() is called */
     this.colors = { /* assuming these are defined in :root */
       background: 'var(--c-background)',
@@ -120,6 +121,26 @@ class ColorPicker extends HTMLElement {
           background: rgba(0, 0, 0, 0) linear-gradient(to left, white, black) repeat scroll 0% 0%;
         }
 
+        .clrPkr__used {
+          position: fixed;
+          bottom: 10px;
+          left: 10px;
+          width: calc(50vw - 20px);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .clrPkr__used__swatch {
+          display: inline-block;
+          border: 2px solid ${this.colors.meta};
+          border-radius: 50%;
+          width: 2vw;
+          height: 2vw;
+          cursor: pointer;
+          margin: 0 4px 4px 0;
+        }
+
       </style>
 
       <div class="clrPkr" style="display: none;">
@@ -151,6 +172,9 @@ class ColorPicker extends HTMLElement {
             <input type="range" name="a" min="0" max="1" step="0.01" value="1">
           </div>
         </div>
+        <div class="clrPkr__used">
+          <div class="clrPkr__used-inner"></div>
+        </div>
       </div>
     `
 
@@ -165,7 +189,8 @@ class ColorPicker extends HTMLElement {
     this.$('.clrPkr').addEventListener('click', (e) => {
       const isRange = e.target.getAttribute('type') === 'range'
       const isHex = e.target.getAttribute('name') === 'hex'
-      if (this.isOpen() && !isRange && !isHex) {
+      const isUsed = e.target.className === 'clrPkr__used__swatch'
+      if (this.isOpen() && !isRange && !isHex && !isUsed) {
         this.$('.clrPkr').style.display = 'none'
       }
     })
@@ -199,6 +224,23 @@ class ColorPicker extends HTMLElement {
     this.$('.clrPkr').style.display = 'flex'
     this.$('.clrPkr__main').style.background = color
     this.updateControls(color)
+    this.generateUsedColors()
+  }
+
+  generateUsedColors () {
+    this._usedColors = []
+    this.$('.clrPkr__used-inner').innerHTML = ''
+    for (const key in this.theme) {
+      const color = this.theme[key]
+      if (this._usedColors.indexOf(color) < 0) {
+        const div = document.createElement('div')
+        div.className = 'clrPkr__used__swatch'
+        div.style.background = color
+        div.addEventListener('click', () => this.update(color))
+        this.$('.clrPkr__used-inner').appendChild(div)
+        this._usedColors.push(color)
+      }
+    }
   }
 
   updateControls (color) {

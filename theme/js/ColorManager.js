@@ -12,11 +12,13 @@ class ColorManager {
       this._loadSwatch(theme)
       this._setupFilterMenu()
       this.ne.themes.custom = this.themes.custom
+      this.colorPicker.theme = this.themes.custom
     }
 
     this.colorPicker = document.querySelector('color-picker')
     this.colorPicker.onupdate = (color, prop) => {
       this.themes.custom[prop] = color
+      this.colorPicker.theme = this.themes.custom
       this.ne.themes.custom = this.themes.custom
       this._updateStyles('custom')
     }
@@ -106,6 +108,16 @@ class ColorManager {
     this.$('#swatches').style.display = 'none'
   }
 
+  _preSaveMetaCheck () {
+    const name = this.$('#widget .title').textContent
+    const author = this.$('#widget .author').textContent
+    const description = this.$('#widget .description').textContent
+    // TODO: check to make sure metadata has been updated from original
+    this.metadata.custom.name = name
+    this.metadata.custom.author = author
+    this.metadata.custom.description = description
+  }
+
   _createHTML () {
     this._loading(false)
     this.themeSwatches.load(this.themes)
@@ -120,9 +132,7 @@ class ColorManager {
     })
 
     this.$('#d-btn').addEventListener('click', () => {
-      this.metadata.custom.name = this.$('#widget .title').textContent
-      this.metadata.custom.author = this.$('#widget .author').textContent
-      this.metadata.custom.description = this.$('#widget .description').textContent
+      this._preSaveMetaCheck()
       ThemeCreator.download(this.metadata.custom, this.themes.custom)
     })
 
