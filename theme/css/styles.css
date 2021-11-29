@@ -220,7 +220,7 @@ body {
   grid-template-areas:
     'meta background background selected'
     'line_numbers active_line_bg match_color match_border'
-    'hint_bg hint_color hint_color hint_shadow'
+    'text hint_bg hint_color hint_shadow'
 }
 
 .swatch-filter-all {

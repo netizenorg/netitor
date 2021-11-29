@@ -143,7 +143,7 @@ class ColorManager {
       html: ['meta', 'text', 'background', 'tag', 'tag_bracket', 'attribute', 'comment', 'string'],
       css: ['meta', 'text', 'background', 'comment', 'variable_3', 'variable_2', 'atom', 'tag', 'property', 'number', 'keyword', 'variable_callee', 'variable', 'def', 'qualifier', 'builtin', 'string'],
       js: ['meta', 'background', 'text', 'comment', 'keyword', 'def', 'operator', 'variable', 'property', 'string', 'variable_2', 'atom', 'string_2', 'number'],
-      meta: ['meta', 'background', 'selected', 'line_numbers', 'active_line_bg', 'match_color', 'match_border', 'hint_bg', 'hint_color', 'hint_shadow'],
+      meta: ['text', 'meta', 'background', 'selected', 'line_numbers', 'active_line_bg', 'match_color', 'match_border', 'hint_bg', 'hint_color', 'hint_shadow'],
       all: []
     }
 
