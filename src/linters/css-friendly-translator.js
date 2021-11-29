@@ -85,6 +85,11 @@ const dict = {
   //
   // OTHER STYLELINT RULES
   //
+  'at-rule-no-name': (obj) => {
+    obj = reformatObj(obj)
+    obj.friendly = 'The @ symbol is used to declare <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/At-rule" target="_blank">at-rules</a>, but you didn\'t specify which you wanted to use. Did you mean <code>@keyframes</code> or <code>@media</code> or <code>@font-face</code> or another at-rule?'
+    return obj
+  },
   'color-no-invalid-hex': (obj) => {
     obj = reformatObj(obj)
     obj.friendly = 'It looks like you\'re trying to write a color in <a href="https://en.wikipedia.org/wiki/Web_colors#Hex_triplet">Hexadecimal notation</a>, but the value you wrote isn\'t valid Hex code. Hex values must be digits 0-1 and letters A-F (no other letters are valid hex values). make sure you\'ve got a <code>#</code> followed by a valid number of hex values, either 3 (for rgb) 4 (for rgba) 6 (for rrggbb) or 8 (for rrggbbaa)'
