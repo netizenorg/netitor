@@ -677,6 +677,7 @@ class Netitor {
     const cur = '<CURSOR_GOES_HERE>'
     const curStart = '<CURSOR_STARTS_HERE>'
     const curEnd = '<CURSOR_ENDS_HERE>'
+    if (typeof data === 'string') data = { text: data }
     if (data.text.includes(cur) && this.code.includes(cur)) {
       const pos = swap(cur)
       cm.setCursor(pos)
