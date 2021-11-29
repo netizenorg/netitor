@@ -48,6 +48,9 @@ function catchTypeSelectorErrz (code) {
   let strs = code.match(/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/g)
   if (!strs) return errz // probably there's another err taking precedence
   else strs = strs.filter(s => !s.includes('@')).filter(s => !s.includes('%'))
+  // remove comments that get misclassified as selectors
+  // this causes bugs otherwise when left in the array
+  strs = strs.filter(s => s.trim().indexOf('/*') !== 0)
   for (let i = 0; i < strs.length; i++) {
     const s = strs[i].substr(0, strs[i].length - 1)
     const o = cssSelector.parse(s)
