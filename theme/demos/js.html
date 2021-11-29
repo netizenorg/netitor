@@ -1,0 +1,40 @@
+<script>
+  // this syntax highlighting theme is looking spectacular!
+  const canvas = document.querySelector('canvas')
+  canvas.width = window.innerWidth
+  canvas.height = window.innerHeight
+  const ctx = canvas.getContext('2d')
+
+  function linearDistribution() {
+    let r1, r2, sqrt
+    let found = false
+    while (!found) {
+      r1 = Math.random()
+      r2 = Math.random()
+      sqrt = r1 * r1;
+      if (r2 < sqrt) {
+        found = true;
+        return r1;
+      }
+    }
+  }
+
+  function animate() {
+    requestAnimationFrame(animate)
+    const hue = Date.now() * 0.05 % 360
+    ctx.fillStyle = `hsl(${hue}, 100%, 70%)`
+    ctx.strokStyle = '#222'
+    ctx.lineWidth = 2
+    const s = 16
+    const w = window.innerWidth
+    const h = window.innerHeight
+    let x = linearDistribution() * w / 2 + w / 4
+    let y = linearDistribution() * w / 2 + h / 4
+    x = Math.round(x / s) * s
+    y = Math.round(y / s) * s
+    ctx.fillRect(x, y, s, s)
+    ctx.strokeRect(x, y, s, s)
+  }
+
+  window.addEventListener('load', animate)
+</script>

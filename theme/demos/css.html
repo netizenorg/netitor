@@ -1,0 +1,29 @@
+<style>
+	/* these colors are spectacular! */
+  :root {
+    --bg: #ff00ff;
+  }
+
+  body {
+    margin: 0;
+    color: red;
+    background: var(--bg);
+  }
+
+  @keyframes fade {
+    0% { opacity: 1 }
+    100% { opacity: 0 }
+  }
+
+  .disappear { animation: fade 1s; }
+
+  #logo:hover { display: none; }
+
+  div:nth-child(5) {
+    color: rgb(255, 10, 55);
+  }
+
+  input[name="hidden"] {
+    display: none;
+  }
+</style>

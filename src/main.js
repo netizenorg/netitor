@@ -750,9 +750,11 @@ class Netitor {
 
     this._clrz = v
     for (const p in this.themes[v]) {
-      const cssVar = `--netizen-${p.replace(/_/g, '-')}`
-      const val = this.themes[v][p]
-      document.documentElement.style.setProperty(cssVar, val)
+      if (p !== 'metadata') {
+        const cssVar = `--netizen-${p.replace(/_/g, '-')}`
+        const val = this.themes[v][p]
+        document.documentElement.style.setProperty(cssVar, val)
+      }
     }
   }
 

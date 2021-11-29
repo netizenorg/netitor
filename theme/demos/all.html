@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<style>
+  /* wow these colors look great */
+
+  body { margin: 0; }
+
+  img[alt="an hour glass"] { display: block; }
+
+  .highlight:hover { color: rgb(255, 0, 0); }
+
+</style>
+
+<!-- such a beutiful syntax highlighting theme -->
+<h1>Example Sketch</h1>
+<img src="images/gifs/hour-glass.gif" alt="an hour glass">
+
+<script>
+  // who knew code could look this good :)
+  const cd = document.querySelector('[alt="an hour glass"]')
+  cd.style.position = 'absolute'
+
+  function animate() {
+    requestAnimationFrame(animate)
+    const time = Date.now()
+    const radius = window.innerWidth * 0.25
+    const off = window.innerWidth * 0.5
+    const x = Math.sin(time * -0.001) * radius + off
+    cd.style.left = `${x}px`
+  }
+
+  window.addEventListener('load', animate)
+</script>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>netitor theme creator</title>
+      <meta name="author" content="netizen.org">
+      <meta name="description" content="a simple way to create new color schemes (syntax highlighting themes) for the netitor, the web based editor used in https://netnet.studio">
+
+      <!-- social media stuff -->
+      <meta property="og:title" content="netitor theme creator">
+      <meta property="og:url" content="https://netizenorg.github.io/netitor/theme-creator">
+      <meta property="og:image" content="https://raw.githubusercontent.com/netizenorg/netitor/master/screenshot.png">
+      <meta property="og:description" content="a simple way to create new color schemes (syntax highlighting themes) for the netitor, the web based editor used in https://netnet.studio">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta property="og:site_name" content="netizen.org">
+      <meta name="twitter:site" content="@netizenorg">
+
+      <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+      <section id="loader">
+        <div class="swatch">
+          <label>loading...</label>
+        </div>
+      </section>
+
+      <section id="main">
+        <div id="color-selection">
+
+          <p id="intro">hover over the netitor themes below to preview them, click on one you want to remix, or <span id="u-btn">upload</span> your own theme file.</p>
+
+          <theme-swatches></theme-swatches>
+
+          <div id="filters">
+            <div id="html-filt">html</div>
+            <div id="css-filt">css</div>
+            <div id="js-filt">js</div>
+            <div id="meta-filt">meta</div>
+            <div id="all-filt">all</div>
+          </div>
+
+          <div id="widget">
+            <div class="title" contenteditable>dark</div>
+            <p>
+              This theme by
+              <span class="author" contenteditable>Sarah Rooney</span> is
+              <span class="description" contenteditable>a stroll on the dark side of a jazzy moon.</span>
+            </p>
+            <div class="buttons">
+              <!-- <div id="u-btn" class="button">upload</div> -->
+              <div id="d-btn" class="button">download</div>
+              <div id="b-btn" class="button">back</div>
+            </div>
+          </div>
+
+          <div id="swatches">
+            <!-- template swatches go here -->
+          </div>
+
+          <color-picker></color-picker>
+
+        </div>
+        <div id="netitor">
+          <!-- demo editor goes here -->
+        </div>
+      </section>
+
+      <script src="../build/netitor.js"></script>
+      <script src="../node_modules/Color/Color.js"></script>
+      <script src="../node_modules/FileUploader/FileUploader.js"></script>
+      <script src="js/ThemeCreator.js"></script>
+      <script src="js/ThemeSwatches.js"></script>
+      <script src="js/ColorPicker.js"></script>
+      <script src="js/ColorManager.js"></script>
+      <script>
+
+        const ne = new Netitor({
+          ele: '#netitor',
+          renderWithErrors: true,
+          readOnly: true
+        })
+
+        const cz = new ColorManager({
+          netitor: ne,
+          example: 'demos/all.html',
+          templates: [
+            '../src/css/themes/dark.js',
+            '../src/css/themes/light.js',
+            '../src/css/themes/monokai.js'
+          ]
+        })
+
+      </script>
+    </body>
+</html>
