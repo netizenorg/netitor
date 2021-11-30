@@ -60,6 +60,7 @@ const emptyAttrVals = [
   'autoplay',
   'checked',
   'controls',
+  'crossorigin',
   'default',
   'disabled',
   'formnovalidate',

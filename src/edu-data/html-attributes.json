@@ -1148,25 +1148,18 @@
   },
   "height": {
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_height.asp\">height</a>",
+      "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-height\" target=\"_blank\">height</a>",
       "text": "height"
     },
-    "url": "https://www.w3schools.com/tags/att_height.asp",
-    "urls": [
-      "https://www.w3schools.com/tags/att_height.asp"
-    ],
-    "status": "legacy",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-height",
+    "status": "standard",
     "elements": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\"><code>&lt;canvas&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
-      "text": "<canvas>, <embed>, <iframe>, <img>, <input>, <object>, <video>"
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
     },
     "description": {
-      "html": "<p>Specifies the height of elements listed here. For all other elements, use the CSS <a href=\"/en-US/docs/Web/CSS/height\"><code>height</code></a> property.</p> ",
-      "text": "Specifies the height of elements listed here. For all other elements, use the CSS height property. "
-    },
-    "note": {
-      "html": "<p><strong>Note:</strong> In some instances, such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a>, this is a legacy attribute, in which case the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\"><code>height</code></a> property should be used instead.</p>",
-      "text": "Note: In some instances, such as <div>, this is a legacy attribute, in which case the CSS height property should be used instead."
+      "html": "<code>height</code> is an attribute specifically for <code>iframe</code> elements (default is 150). Although it's generally better practice to set the height of an <code>iframe</code> the same way you would any other element, using the CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\" target=\"_blank\">height</a> property.",
+      "text": "height is an attribute specifically for iframe elements (default is 150). Although it's generally better practice to set the height of an iframe the same way you would any other element, using the CSS height property."
     }
   },
   "hidden": {
@@ -2680,26 +2673,18 @@
   },
   "width": {
     "keyword": {
-      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_width.asp\">width</a>",
+      "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-width\" target=\"_blank\">width</a>",
       "text": "width"
     },
-    "url": "https://www.w3schools.com/tags/att_width.asp",
-    "urls": [
-      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/width",
-      "https://www.w3schools.com/tags/att_width.asp"
-    ],
-    "status": "legacy",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-width",
+    "status": "standard",
     "elements": {
-      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas\"><code>&lt;canvas&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
-      "text": "<canvas>, <embed>, <iframe>, <img>, <input>, <object>, <video>"
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
     },
     "description": {
-      "html": "<p>For the elements listed here, this establishes the element&apos;s width.</p> ",
-      "text": "For the elements listed here, this establishes the element's width. "
-    },
-    "note": {
-      "html": "<p><strong>Note:</strong> For all other instances, such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div\"><code>&lt;div&gt;</code></a>, this is a legacy attribute, in which case the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\"><code>width</code></a> property should be used instead.</p>",
-      "text": "Note: For all other instances, such as <div>, this is a legacy attribute, in which case the CSS width property should be used instead."
+      "html": "<code>width</code> is an attribute specifically for <code>iframe</code> elements (default is 300). Although it's generally better practice to set the width of an <code>iframe</code> the same way you would any other element, using the CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\" target=\"_blank\">width</a> property.",
+      "text": "width is an attribute specifically for iframe elements (default is 300). Although it's generally better practice to set the width of an iframe the same way you would any other element, using the CSS width property."
     }
   },
   "wrap": {
@@ -2737,6 +2722,22 @@
     "description": {
       "html": "<code>allowfullscreen</code> is an attribute specifically for <code>iframe</code> elements. Though <code>iframes</code> can be used to embed any other website into a page, it is often used to embed sites that stream videos (like YouTube or Vimeo), this attribute allows that these iframes to be displayed in fullscreen mode.",
       "text": "allowfullscreen is an attribute specifically for iframe elements. Though iframes can be used to embed any other website into a page, it is often used to embed sites that stream videos (like YouTube or Vimeo), this attribute allows that these iframes to be displayed in fullscreen mode."
+    }
+  },
+  "frameborder": {
+    "keyword": {
+      "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-frameborder\" target=\"_blank\">frameborder</a>",
+      "text": "frameborder"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-frameborder",
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "<code>frameborder</code> is an attribute specifically for <code>iframe</code> elements. The value 1 (the default) draws a border around this frame. The value 0 removes the border around this frame, but you instead use the CSS property border to control <code>iframe</code> borders instead.",
+      "text": "frameborder is an attribute specifically for iframe elements. The value 1 (the default) draws a border around this frame. The value 0 removes the border around this frame, but you should use the CSS property border to control iframe borders instead."
     }
   }
 }
