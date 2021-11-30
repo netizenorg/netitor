@@ -1,24 +1,6 @@
 const htmlAttr = require('../edu-data/html-attributes.json')
 const htmlEles = require('../edu-data/html-elements.json')
-const snippets = {
-  doctype: '<!DOCTYPE html>',
-  html: 'html lang="en-US"><CURSOR_GOES_HERE></html>',
-  link: 'link rel="stylesheet" href="#">',
-  a: 'a href="#"><CURSOR_GOES_HERE></a>',
-  'a (new tab)': '<a href="#" target="_blank"><CURSOR_GOES_HERE></a>',
-  img: 'img src="<CURSOR_STARTS_HERE>filename.jpg<CURSOR_ENDS_HERE>" alt="description of image">',
-  'html (template)': '<!DOCTYPE html>\n<html lang="en-US">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\t\t<CURSOR_GOES_HERE>\n\t</body>\n</html>\n'
-}
-
-const ciSnips = ['div', 'section', 'span', 'p']
-ciSnips.forEach(snip => {
-  let key = `${snip} (class)`
-  let val = `<${snip} class="<CURSOR_GOES_HERE>"></${snip}>`
-  snippets[key] = val
-  key = `${snip} (id)`
-  val = `<${snip} id="<CURSOR_GOES_HERE>"></${snip}>`
-  snippets[key] = val
-})
+const snippets = require('./customSnippets.js').snippets.html
 
 function elementHintList (tok, tag) {
   const str = tok.string

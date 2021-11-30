@@ -5,6 +5,7 @@ const pseudoClasses = require('../edu-data/css-pseudo-classes.json')
 const atRules = require('../edu-data/css-at-rules.json')
 const cssColors = require('../edu-data/css-colors.json')
 const htmlEles = require('../edu-data/html-elements.json')
+const snippets = require('./customSnippets.js')
 
 const spec = CodeMirror.resolveMode('text/css')
 const keywords = Object.keys(spec.valueKeywords)
@@ -41,7 +42,7 @@ function pseudoHintList (str, cm) {
 function atRulesHintList (str, cm) {
   const list = []
   for (const ar in atRules) if (ar.includes(str)) list.push(ar)
-  return list
+  return [...list, ...snippets.list('css.atRules', str)]
 }
 
 function valHintList (str, cm) {
@@ -69,7 +70,7 @@ function cssHinter (token, cm) {
   } else if (state === 'pseudo' || token.type === 'variable-3') {
     return pseudoHintList(token.string, cm)
   } else if (state === 'at') {
-    return atRulesHintList(token.string)
+    return atRulesHintList(token.string, cm)
   } else if (state === 'prop' && token.type === 'variable') {
     return valHintList(token.string, cm)
   } else if (state.includes('parens')) {

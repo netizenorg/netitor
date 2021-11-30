@@ -1,5 +1,6 @@
 const jsRefs = require('../edu-data/js-refs.json')
 const jsEvents = require('../edu-data/js-events.json')
+const snippets = require('./customSnippets.js')
 // TODO: figure out a way to keep track if vars ar instances of the blow,
 // so that we can add props/methods from json files below to autocompete
 // const jsNums = require('../edu-data/js-number.json')
@@ -17,37 +18,13 @@ const roots = {
   navigator: require('../edu-data/js-navigator.json')
 }
 
-const snippets = {
-  for: 'for (let i = 0; i < 100; i++) {\n<S><I><C>\n<S>}\n',
-  function: 'function nameMe<C> () {\n<S><I>\n<S>}\n'
-}
-
-function cntSps (str) {
-  let c = ''
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] === ' ') c += ' '
-    else break
-  }
-  return c
-}
+const jsSnips = Object.keys(snippets.snippets.js)
 
 function propHintList (str, cm) {
-  const list = []
-  const pos = cm.getCursor()
-  const line = cm.getLine(pos.line)
-  const s = cntSps(line)
+  const list = snippets.list('js', str)
 
-  for (const prop in snippets) {
-    if (prop.includes(str)) {
-      let v = snippets[prop]
-      v = v.replace(/<S>/g, s)
-      v = v.replace(/<I>/g, '  ')
-      v = v.replace(/<C>/g, '<CURSOR_GOES_HERE>')
-      list.push({ text: v, displayText: prop })
-    }
-  }
   for (const prop in jsRefs) {
-    if (prop.includes(str) && !snippets[prop] && str !== prop) {
+    if (prop.includes(str) && !jsSnips.includes(prop) && str !== prop) {
       list.push({ text: jsRefs[prop].keyword.text, displayText: prop })
     }
   }
