@@ -805,6 +805,8 @@ class Netitor {
 
   _decode (code) { return pako.inflate(window.atob(code), { to: 'string' }) }
   _encode (code) { return window.btoa(pako.deflate(code, { to: 'string' })) }
+
+  prependProxyURL (code, proxy) { return prependProxyURL(code, proxy) }
 }
 
 window.Netitor = Netitor
