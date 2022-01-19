@@ -10,7 +10,7 @@ const hint = (cm, self, data) => {
   const t = { line: to.line + lines }
   cm.setSelection(from, t)
   cm.indentSelection('smart')
-  cm.setSelection(t)
+  // cm.setSelection(t)
 }
 
 const list = (type, str) => {

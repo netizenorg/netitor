@@ -278,6 +278,7 @@ class Netitor {
     }
     this.cm.setGutterMarker(line - 1, 'gutter-marker', c)
     this._repositionGutterMarkers()
+    return c
   }
 
   generateHash () {
