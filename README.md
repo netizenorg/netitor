@@ -31,7 +31,7 @@ There are a few ways you can contribute to this project and support our developm
 
 # Include It
 
-If you'd like to include it into your own online project (maybe to share interactive beginner friendly examples on your own personal website?) you can download minified and unminified versions of the library from the [build folder](https://github.com/netizenorg/netitor/tree/master/build) of this repo and import it in your own HTML file as one does, for example: `<script src="netitor.min.js"></scrip>`
+If you'd like to include it into your own online project (maybe to share interactive beginner friendly examples on your own personal website?) you can download minified and unminified versions of the library from the [build folder](https://github.com/netizenorg/netitor/tree/master/build) of this repo and import it in your own HTML file as one does, for example: `<script src="netitor.min.js"></script>`
 
 The [index.html](https://github.com/netizenorg/netitor/blob/master/index.html) in the root of the directory is a working example of how to implement the netitor. The first thing you need to do is instantiate a new instance of `Netitor`. The constructor requires an options object with query selector string of an element in your HTML page, like:
 
