@@ -3,7 +3,7 @@ const globals = require('./js-globals.json')
 const JSTranslateError = require('./js-friendly-translator.js')
 
 const options = {
-  esversion: 6,
+  esversion: 8,
   undef: true, // catch undefined variables
   latedef: true, // make sure they're defined before used
   unused: true, // catch unused vars  // TODO: make 'warning'
