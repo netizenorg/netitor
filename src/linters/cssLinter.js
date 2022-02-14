@@ -86,7 +86,7 @@ const stylelintRules = {
   'no-descending-specificity': [true, { ignore: ['selectors-within-list'] }],
   'no-duplicate-selectors': true,
   'no-invalid-double-slash-comments': true,
-  'no-unknown-animations': true,
+  'no-unknown-animations': false, /* b/c it errors w/multiple animation names separated by commas */
   'property-case': 'lower',
   'property-whitelist': Object.keys(cssProps),
   'selector-type-case': 'lower',
