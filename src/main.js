@@ -32,7 +32,7 @@ const THEMES = require('./css/themes/index.js')
 
 class Netitor {
   constructor (opts) {
-    const langTypes = ['html', 'htmlmixed', 'css', 'javasscript']
+    const langTypes = ['html', 'htmlmixed', 'css', 'javascript']
     if (typeof opts !== 'object') {
       return this.err('expecing options object as an argument')
     } else if (typeof opts.ele === 'undefined') {
