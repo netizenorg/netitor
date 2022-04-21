@@ -44,7 +44,7 @@ const HTMLHintRules = {
   'id-class-value': false, // nope
   'id-unique': true,
   // inline
-  'inline-script-disabled': true,
+  // 'inline-script-disabled': true,
   // 'inline-style-disabled': true, // too annoying i think
   // formatting
   'space-tab-mixed-disabled': true,
