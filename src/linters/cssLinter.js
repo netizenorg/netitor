@@ -94,6 +94,8 @@ const stylelintRules = {
 }
 
 async function linter (code) {
+  if (!code) return []
+
   const lint = await stylelint({
     code: code,
     config: { rules: stylelintRules }
