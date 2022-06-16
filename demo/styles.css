@@ -1,0 +1,74 @@
+* { box-sizing: border-box; }
+body { margin: 0 }
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  height: 100vh;
+}
+
+/* NOTE:
+  netizen colors CSS variables are made available via netitor.js
+  change theme by opening the Web Console and run: ne.theme = "monokai"
+  check out full list of colors using ur browser's web inspector
+*/
+#nfo {
+  padding: 5px 20px;
+  background-color: var(--netizen-text);
+  border: 20px solid var(--netizen-background);
+  font-family: sans-serif;
+  color: var(--netizen-background);
+}
+
+#nfo > p { line-height: 25px; }
+#nfo a { color: var(--netizen-tag); }
+#nfo a:hover { color: var(--netizen-string); }
+#nfo > p code {
+  color: var(--netizen-text);
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  background-color: var(--netizen-background);
+}
+
+#editor {
+  overflow-y: scroll;
+  background: var(--netizen-background);
+}
+
+#output {
+  grid-row: 1 / 3;
+  grid-column: 2 / 2;
+}
+
+.error {
+  background-color: rgb(100, 0, 0) !important;
+  padding: 20px !important;
+  color: var(--netizen-text) !important;
+}
+
+.error a { color: var(--netizen-number) !important; }
+
+@keyframes blinking {
+  97% { content: '( ◕ ◞ ◕ )' }
+  100% { content: '( — ◞ — )' }
+}
+
+.face {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+.face > a {
+  color: #000 !important;
+  text-decoration: none;
+}
+.face > a:hover { color: var(--netizen-tag) !important; }
+.face div:before {
+  content: '( ◕ ◞ ◕ )';
+  animation: blinking 10s infinite;
+}
