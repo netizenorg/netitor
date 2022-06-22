@@ -43,6 +43,7 @@ class Netitor {
 
     this._code = typeof opts.code === 'string' ? opts.code : ''
     this._lang = typeof opts.language === 'string' ? opts.language : 'html'
+    this._libr = typeof opts.library === 'string' ? opts.library : false
     this._titl = typeof opts.displayTitle === 'boolean' ? opts.displayTitle : false
     this._clrz = typeof opts.theme === 'string' ? opts.theme : 'dark'
     this._lint = typeof opts.lint === 'boolean' ? opts.lint : true
@@ -482,8 +483,8 @@ class Netitor {
 
   _createRenderIframe (opts) {
     if (typeof opts.render === 'string' || opts.render instanceof HTMLElement) {
-      if (this._lang !== 'html') {
-        const m = `language is set to ${this._lang}, render option is html only`
+      if (this._lang !== 'html' && this._lang !== 'javascript') {
+        const m = `language is set to ${this._lang}, render option is html or javascript only`
         return this.err(m)
       }
 
@@ -568,12 +569,26 @@ class Netitor {
       if (this._ercb) this._ercb(err)
       return true
     })
-    if (!this._root) content.write(this.code)
+    if (!this._root && !this._libr && this._lang !== 'javascript') content.write(this.code)
     // else this._applyCustomRoot(content, this.code) // see applyCustomRoot.js
     else {
       const base = `<base href="${this._root}">`
-      let code = base + this.code
+      let jsopen = ''
+      let jsclose = ''
+
+      if (this._lang === 'javascript') {
+        if (this._libr) {
+          jsopen = '<script src="' + this._libr + '"></script><script>'
+        } else {
+          jsopen = '<script>'
+        }
+        jsclose = '</script>'
+      }
+
+      let code = base + jsopen + this.code + jsclose
+
       if (this._proxy) { code = prependProxyURL(code, this._proxy) }
+
       content.write(code)
     }
     if (this._titl) document.title = content.title
