@@ -144,7 +144,7 @@ ne.remove('event-name', callbackFunction)
 
 **getLine(num)**: takes a number and returns the code on that particular line.
 
-**update(code)**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`. This method can also be used to pass alternative code to render, for example:
+**update(code)**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`. This method can also be used to pass alternative code to render, for example (where `{{code}}` is the code currently in the editor):
 
 ```js
 const ne = new Netitor({
@@ -165,7 +165,7 @@ const ne = new Netitor({
 
 ne.update(`
   <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"><\/script>
-  <script>${ne.code}<\/script>
+  <script>{{code}}<\/script>
 `)
 ```
 

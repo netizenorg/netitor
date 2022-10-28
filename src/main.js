@@ -576,6 +576,10 @@ class Netitor {
     })
 
     let code = this._altSrcCode || this.code
+    if (this._altSrcCode && code.includes('{{code}}')) {
+      code = code.replace('{{code}}', this.code)
+    }
+
     if (this._lang === 'markdown') code = markdown.makeHtml(code)
 
     if (!this._root) content.write(code)
