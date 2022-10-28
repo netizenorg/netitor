@@ -23,6 +23,7 @@
     "js-beautify": "^1.11.0",
     "jshint": "^2.11.1",
     "pako": "^1.0.11",
+    "showdown": "^2.1.0",
     "string-similarity": "^4.0.1",
     "stylelint-browser-bundle": "git+https://github.com/nbriz/stylelint-browser-bundle"
   },

@@ -473,8 +473,8 @@ li.CodeMirror-hint-active {
 .cm-s-netizen .cm-string-2 { color: var(--netizen-string-2); }
 .cm-s-netizen .cm-number { color: var(--netizen-number); }
 .cm-s-netizen .cm-operator { color: var(--netizen-operator); }
-.cm-s-netizen .cm-tag { color: var(--netizen-tag); }
-.cm-s-netizen .cm-attribute { color: var(--netizen-attribute); }
+.cm-s-netizen .cm-tag, .cm-s-netizen .cm-header { color: var(--netizen-tag); }
+.cm-s-netizen .cm-attribute, .cm-s-netizen .cm-link { color: var(--netizen-attribute); }
 .cm-s-netizen .cm-qualifier { color: var(--netizen-qualifier); }
 .cm-s-netizen .cm-builtin { color: var(--netizen-builtin); }
 .cm-s-netizen .cm-keyword { color: var(--netizen-keyword); }

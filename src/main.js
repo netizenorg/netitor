@@ -1,10 +1,13 @@
 /* global HTMLElement */
 const pako = require('pako')
 const stringSimilarity = require('string-similarity')
+const showdown = require('showdown')
+const markdown = new showdown.Converter()
 const beautifyJS = require('js-beautify')
 const beautifyCSS = require('js-beautify').css
 const beautifyHTML = require('js-beautify').html
 const CodeMirror = require('codemirror')
+require('codemirror/mode/markdown/markdown')
 require('codemirror/mode/htmlmixed/htmlmixed')
 require('codemirror/keymap/sublime')
 require('codemirror/addon/search/searchcursor')
@@ -32,7 +35,7 @@ const THEMES = require('./css/themes/index.js')
 
 class Netitor {
   constructor (opts) {
-    const langTypes = ['html', 'htmlmixed', 'css', 'javascript']
+    const langTypes = ['html', 'htmlmixed', 'css', 'javascript', 'markdown']
     if (typeof opts !== 'object') {
       return this.err('expecing options object as an argument')
     } else if (typeof opts.ele === 'undefined') {
@@ -391,7 +394,10 @@ class Netitor {
     this._delayUpdate(this.cm)
   }
 
-  update () {
+  update (srcCode) {
+    if (srcCode === this.code) this._altSrcCode = null
+    else if (srcCode) this._altSrcCode = srcCode
+
     if (this.iframe) this._updateRenderIframe()
   }
 
@@ -568,11 +574,15 @@ class Netitor {
       if (this._ercb) this._ercb(err)
       return true
     })
-    if (!this._root) content.write(this.code)
+
+    let code = this._altSrcCode || this.code
+    if (this._lang === 'markdown') code = markdown.makeHtml(code)
+
+    if (!this._root) content.write(code)
     // else this._applyCustomRoot(content, this.code) // see applyCustomRoot.js
     else {
       const base = `<base href="${this._root}">`
-      let code = base + this.code
+      code = base + code
       if (this._proxy) { code = prependProxyURL(code, this._proxy) }
       content.write(code)
     }
