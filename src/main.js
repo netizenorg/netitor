@@ -488,10 +488,10 @@ class Netitor {
 
   _createRenderIframe (opts) {
     if (typeof opts.render === 'string' || opts.render instanceof HTMLElement) {
-      if (this._lang !== 'html') {
-        const m = `language is set to ${this._lang}, render option is html only`
-        return this.err(m)
-      }
+      // if (this._lang !== 'html') {
+      //   const m = `language is set to ${this._lang}, render option is html only`
+      //   return this.err(m)
+      // }
 
       if (opts.render instanceof HTMLElement) this.render = opts.render
       else this.render = document.querySelector(opts.render)

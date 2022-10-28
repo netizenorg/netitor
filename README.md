@@ -71,7 +71,7 @@ const ne = new Netitor({
 | theme | dark | syntax highlight theme to use
 | background | true | if false, background will be transparent
 | wrap | false | whether long lines should wrap or scroll
-| language | html | can be html, css or javascript
+| language | html | can be html, css, javascript or markdown
 | lint | true | whether or not to check for errors in realtime
 | hint | true | whether or not to display autocomplete menus
 | readOnly | false | whether the code is editable or read-only
@@ -144,7 +144,30 @@ ne.remove('event-name', callbackFunction)
 
 **getLine(num)**: takes a number and returns the code on that particular line.
 
-**update()**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`
+**update(code)**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`. This method can also be used to pass alternative code to render, for example:
+
+```js
+const ne = new Netitor({
+  ele: '#editor',
+  render: '#output',
+  language: 'javascript',
+  code: `
+  function setup() {
+    createCanvas(400, 400);
+  }
+
+  function draw() {
+    background(220);
+    ellipse(50,50,80,80);
+  }
+  `
+})
+
+ne.update(`
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js"><\/script>
+  <script>${ne.code}<\/script>
+`)
+```
 
 **highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red), for example `ne.highlight(3, 'green')` will highlight the third line in the netitor with the color green. Alternatively, you can pass an options argument like this:
 ```js
