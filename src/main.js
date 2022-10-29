@@ -587,12 +587,12 @@ class Netitor {
     else {
       const base = `<base href="${this._root}">`
       code = base + code
-      if (this._proxy) { code = prependProxyURL(code, this._proxy) }
+      if (this._proxy) code = prependProxyURL(code, this._proxy)
       content.write(code)
     }
     if (this._titl) document.title = content.title
     content.close()
-    this._checkForCORSerr()
+    if (!this._root) this._checkForCORSerr()
     this.emit('render-update')
   }
 
