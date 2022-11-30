@@ -294,9 +294,9 @@ const dict = {
   // W058: "Missing '()' invoking a constructor.",
   // W059: "Avoid arguments.{a}.",
   W060: (obj) => {
-    obj.friendly = `These days it's considered bad practice to use ${lnk('document.write', 'https://developer.mozilla.org/en-US/docs/Web/API/Document/write')} (because it can be a security risk depending on where the data getting passed into is is coming from). Why don't you use ${lnk('innerHTML', 'https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML')} instead? like ${cde('document.body.innerHTML = "test"')}`
-    obj.type = 'warning'
-    return obj
+    // obj.friendly = `These days it's considered bad practice to use ${lnk('document.write', 'https://developer.mozilla.org/en-US/docs/Web/API/Document/write')} (because it can be a security risk depending on where the data getting passed into is is coming from). Why don't you use ${lnk('innerHTML', 'https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML')} instead? like ${cde('document.body.innerHTML = "test"')}`
+    // obj.type = 'warning'
+    return null
   },
   W061: (obj) => {
     obj.friendly = `These days it's considered bad practice to use ${lnk('eval', 'https://developer.mozilla.org/en-US/docs/Web/API/Document/write')} (because it can be a security risk depending on where the data getting passed into is is coming from).`

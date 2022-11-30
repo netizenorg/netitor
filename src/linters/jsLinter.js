@@ -17,11 +17,14 @@ const options = {
 
 function linter (code) {
   JSHINT(code, options, globals)
-  const errz = JSHINT.data().errors
+  let errz = JSHINT.data().errors
 
   if (errz) {
     for (let i = 0; i < errz.length; i++) errz[i] = JSTranslateError(errz[i])
+    errz = errz.filter(e => e !== null)
   }
+
+  // filter out "nulls", ie. errors to be ignored, ex W060
   return errz || []
 }
 
