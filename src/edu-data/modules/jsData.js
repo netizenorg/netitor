@@ -166,8 +166,28 @@ function isEvent (o, cm) {
   const line = cm.getLine(pos.line).replace(/\s/g, '')
   const idx = line.indexOf(o.data)
   const key = o.data.replace(/'/g, '')
-  if (line[idx - 1] === '(' && jsEvents[key]) return jsEvents[key]
-  else return null
+  if (line[idx - 1] === '(' && jsEvents[key]) {
+    if (jsEvents[key].length === 1) return jsEvents[key][0]
+    else {
+      let text = `The ${key} event can be used on a few different interfaces, including`
+      let html = `The ${key} event can be used on a few different interfaces, including`
+      jsEvents[key].forEach((obj, i) => {
+        if (i === jsEvents[key].length - 1) {
+          text += ` and ${obj.type}.`
+          html += ` and <a href="${obj.url}" target="_blank">${obj.type}</a>.`
+        } else {
+          text += ` ${obj.type},`
+          html += ` <a href="${obj.url}" target="_blank">${obj.type}</a>,`
+        }
+      })
+      return {
+        status: 'standard',
+        url: 'https://developer.mozilla.org/en-US/docs/Web/Events#event_listing',
+        keyword: { html: key, text: key },
+        description: { html, text }
+      }
+    }
+  } else return null
 }
 
 function isChildOf (str, data, cm) {
