@@ -32,7 +32,7 @@ function main (cm, options) {
   let list = []
   if (lan === 'xml') list = htmlHinter(tok)
   else if (lan === 'css') list = cssHinter(tok, cm)
-  else if (lan === 'javascript') list = jsHinter(tok, cm)
+  else if (lan === 'javascript') list = jsHinter(tok, cm, pos)
 
   if (list && list.length > 0) {
     // alphabetical

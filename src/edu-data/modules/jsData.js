@@ -9,8 +9,12 @@ const jsEvents = require('../js-events.json')
 const jsNums = require('../js-number.json')
 const jsStrs = require('../js-string.json')
 const jsDate = require('../js-date.json')
-const jsCanv = require('../js-canvas.json')
+const jsCanv = require('../js-dom-canvas.json')
+const jsCtx = require('../js-canvas2d.json')
 const jsDOM = require('../js-dom-node.json')
+const jsEle = require('../js-dom-element.json')
+const jsMedia = require('../js-dom-media.json')
+const jsTarg = require('../js-dom-event-target.json')
 const jsArr = require('../js-arrays.json')
 
 const commentNfo = {
@@ -95,8 +99,12 @@ const stdLib = {
   'Number()': jsNums,
   'String()': jsStrs,
   'Date()': jsDate,
-  'Canvas 2d Context': jsCanv,
+  'Canvas 2d Context': jsCtx,
+  'DOM Canvas': jsCanv,
   'DOM Node': jsDOM,
+  'DOM Element': jsEle,
+  'DOM EventTarget': jsTarg,
+  'DOM MediaElement': jsMedia,
   'Array()': jsArr
 }
 

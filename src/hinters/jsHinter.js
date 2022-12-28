@@ -1,14 +1,8 @@
+/* eslint-disable no-new-func */
 const jsRefs = require('../edu-data/js-refs.json')
 const jsEvents = require('../edu-data/js-events.json')
 const snippets = require('./customSnippets.js')
-// TODO: figure out a way to keep track if vars ar instances of the blow,
-// so that we can add props/methods from json files below to autocompete
-// const jsNums = require('../edu-data/js-number.json')
-// const jsStrs = require('../edu-data/js-string.json')
-// const jsDate = require('../edu-data/js-date.json')
-// const jsCanv = require('../edu-data/js-canvas.json')
-// const jsDOM = require('../edu-data/js-dom-node.json')
-// const jsArr = require('../edu-data/js-arrays.json')
+
 const roots = {
   document: require('../edu-data/js-document.json'),
   Math: require('../edu-data/js-math.json'),
@@ -18,7 +12,95 @@ const roots = {
   navigator: require('../edu-data/js-navigator.json')
 }
 
+const instances = {
+  jsNums: require('../edu-data/js-number.json'),
+  jsStrs: require('../edu-data/js-string.json'),
+  jsDate: require('../edu-data/js-date.json'),
+  jsArr: require('../edu-data/js-arrays.json'),
+  jsDOM: require('../edu-data/js-dom-node.json'),
+  jsEle: require('../edu-data/js-dom-element.json'),
+  jsTarg: require('../edu-data/js-dom-event-target.json'),
+  jsMedia: require('../edu-data/js-dom-media.json'),
+  jsCanv: require('../edu-data/js-dom-canvas.json'),
+  jsCtx: require('../edu-data/js-canvas2d.json')
+}
+
 const jsSnips = Object.keys(snippets.snippets.js)
+
+function evaluate (lines, root) {
+  const l = lines[lines.length - 1]
+  if (l.includes('document.querySelector') ||
+    l.includes('document.getElement') ||
+    l.includes('document.createElement')) {
+    return 'jsDOM'
+  } else if (l.includes('.getContext(')) {
+    return 'jsCtx'
+  }
+
+  try {
+    if (new Function(`${l}\n return typeof ${root} === 'string'`)()) {
+      return 'jsStrs'
+    } else if (new Function(`${l}\n return typeof ${root} === 'number'`)()) {
+      return 'jsNums'
+    } else if (new Function(`${l}\n return ${root} instanceof Array`)()) {
+      return 'jsArr'
+    } else if (new Function(`${l}\n return ${root} instanceof Date`)()) {
+      return 'jsDate'
+    }
+  } catch (err) {
+    return null
+  }
+}
+
+function genList (str, obj, key) {
+  const list = []
+  let o
+  if (key === 'jsDOM') {
+    o = { ...obj.jsDOM, ...obj.jsEle, ...obj.jsTarg, ...obj.jsMedia, ...obj.jsCanv }
+  } else {
+    o = obj[key]
+  }
+  // ...
+  for (const prop in o) {
+    if (prop.includes(str)) {
+      list.push({ text: o[prop].keyword.text, displayText: prop })
+    }
+  }
+  return list
+}
+
+function getPropList (str, cm) {
+  let list = []
+  const pos = cm.getCursor()
+  const line = cm.getLine(pos.line)
+  const array = line.split(' ')
+  const arr = array.find(s => s.includes(`.${str}`)).split('.')
+
+  let rootIdx
+  if (str === '') {
+    rootIdx = arr.indexOf('') - 1
+  } else {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i].includes(str)) { rootIdx = i - 1; break }
+    }
+  }
+  const root = arr[rootIdx]
+
+  if (roots[root]) { // is global JS object
+    list = genList(str, roots, root)
+  } else if (root) { // user created variable
+    const lines = cm.getDoc().children[0].lines
+      .filter((o, i) => cm.getModeAt({ line: i }).helperType === 'javascript')
+      .map(o => o.text)
+      .filter(txt => txt.includes(`${root}=`) || txt.includes(`${root} =`))
+
+    const type = evaluate(lines, root)
+    if (type) {
+      list = genList(str, instances, type)
+    }
+  }
+  return list
+}
 
 function propHintList (str, cm) {
   const list = snippets.list('js', str)
@@ -31,27 +113,6 @@ function propHintList (str, cm) {
   for (const prop in roots.window) {
     if (prop.includes(str) && str !== prop) {
       list.push({ text: roots.window[prop].keyword.text, displayText: prop })
-    }
-  }
-  return list
-}
-
-function getPropList (str, cm) {
-  const pos = cm.getCursor()
-  const line = cm.getLine(pos.line)
-  const array = line.split(' ')
-  const arr = array.find(s => s.includes(`.${str}`)).split('.')
-  let rootIdx
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i].includes(str)) { rootIdx = i - 1; break }
-  }
-  const list = []
-  const root = arr[rootIdx]
-  if (roots[root]) {
-    for (const prop in roots[root]) {
-      if (prop.includes(str) && str !== prop) {
-        list.push({ text: roots[root][prop].keyword.text, displayText: prop })
-      }
     }
   }
   return list
@@ -72,10 +133,11 @@ function checkForEvents (str, cm) {
   return list
 }
 
-function jsHinter (token, cm) {
+function jsHinter (token, cm, pos) {
   let list = []
-  if (token.type === 'property') {
-    list = getPropList(token.string, cm)
+  if (token.type === 'property' || token.string === '.') {
+    const s = token.string === '.' ? '' : token.string
+    list = getPropList(s, cm)
   } else if (token.type === 'def') {
     // NOTE: no autocomplete when defining variables
   } else if (token.type === 'string') {

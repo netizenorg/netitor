@@ -96,10 +96,14 @@ class Netitor {
       },
       js: {
         arrays: require('./edu-data/js-arrays.json'),
-        canvas: require('./edu-data/js-canvas.json'),
         date: require('./edu-data/js-date.json'),
         document: require('./edu-data/js-document.json'),
         'dom-node': require('./edu-data/js-dom-node.json'),
+        'dom-element': require('./edu-data/js-dom-element.json'),
+        'dom-event-target': require('./edu-data/js-dom-event-target.json'),
+        'dom-media': require('./edu-data/js-dom-media.json'),
+        'canvas-dom': require('./edu-data/js-dom-canvas.json'),
+        canvas2d: require('./edu-data/js-canvas2d.json'),
         events: require('./edu-data/js-events.json'),
         // history: require('./edu-data/js-history.json'),
         location: require('./edu-data/js-location.json'),
@@ -561,6 +565,9 @@ class Netitor {
   // }
 
   _updateRenderIframe () {
+    const showingHint = document.querySelector('.CodeMirror-hints.netizen')
+    if (showingHint) return
+
     // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
     if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
     this.iframe = document.createElement('iframe')
