@@ -29,6 +29,7 @@ const jsSnips = Object.keys(snippets.snippets.js)
 
 function evaluate (lines, root) {
   const l = lines[lines.length - 1]
+  if (!l) return
   if (l.includes('document.querySelector') ||
     l.includes('document.getElement') ||
     l.includes('document.createElement')) {
