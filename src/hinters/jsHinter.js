@@ -171,7 +171,7 @@ function jsHinter (token, cm, pos) {
     // NOTE: no autocomplete when defining variables
   } else if (token.type === 'string') {
     list = checkForEvents(token.string, cm)
-  } else if (token.type !== 'number' && token.string !== '(') {
+  } else if (token.type !== 'number' && token.string !== '(' && token.string !== ')') {
     list = propHintList(token.string, cm)
   }
   return list
