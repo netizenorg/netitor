@@ -13,9 +13,20 @@ const jsCanv = require('../js-dom-canvas.json')
 const jsCtx = require('../js-canvas2d.json')
 const jsDOM = require('../js-dom-node.json')
 const jsEle = require('../js-dom-element.json')
+const jsHTML = require('../js-html-element.json')
 const jsMedia = require('../js-dom-media.json')
 const jsTarg = require('../js-dom-event-target.json')
 const jsArr = require('../js-arrays.json')
+const cssProps = require('../css-properties.json')
+
+const camelCase = (input) => {
+  return input.toLowerCase().replace(/-(.)/g, function (match, group1) {
+    return group1.toUpperCase()
+  })
+}
+
+const jsStyle = {}
+for (const prop in cssProps) { jsStyle[camelCase(prop)] = cssProps[prop] }
 
 const commentNfo = {
   status: 'standard',
@@ -103,6 +114,7 @@ const stdLib = {
   'DOM Canvas': jsCanv,
   'DOM Node': jsDOM,
   'DOM Element': jsEle,
+  'DOM HTMLElement': jsHTML,
   'DOM EventTarget': jsTarg,
   'DOM MediaElement': jsMedia,
   'Array()': jsArr
@@ -302,6 +314,8 @@ function jsData (o, cm) {
       o.nfo = jsLocation[o.data]
     } else if (isChildOf('navigator', o.data, cm) && jsNavigator[o.data]) {
       o.nfo = jsNavigator[o.data]
+    } else if (isChildOf('style', o.data, cm) && jsStyle[o.data]) {
+      o.nfo = jsStyle[o.data]
     } else {
       o.nfo = checkOtherJSObjs(o.data)
     }

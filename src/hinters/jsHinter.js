@@ -19,10 +19,26 @@ const instances = {
   jsArr: require('../edu-data/js-arrays.json'),
   jsDOM: require('../edu-data/js-dom-node.json'),
   jsEle: require('../edu-data/js-dom-element.json'),
+  jsHTML: require('../edu-data/js-html-element.json'),
   jsTarg: require('../edu-data/js-dom-event-target.json'),
   jsMedia: require('../edu-data/js-dom-media.json'),
   jsCanv: require('../edu-data/js-dom-canvas.json'),
   jsCtx: require('../edu-data/js-canvas2d.json')
+}
+
+// CSS properties for HTMLElement.style object
+const CSS = require('../edu-data/css-properties.json')
+const cssPropsList = []
+const camelCase = (input) => {
+  return input.toLowerCase().replace(/-(.)/g, function (match, group1) {
+    return group1.toUpperCase()
+  })
+}
+for (const prop in CSS) {
+  const p = camelCase(prop)
+  if (p.indexOf('Moz') !== 0 && p.indexOf('Ms') !== 0 && p.indexOf('Webkit') !== 0) {
+    cssPropsList.push({ text: p, displayText: p })
+  }
 }
 
 const jsSnips = Object.keys(snippets.snippets.js)
@@ -57,7 +73,7 @@ function genList (str, obj, key) {
   const list = []
   let o
   if (key === 'jsDOM') {
-    o = { ...obj.jsDOM, ...obj.jsEle, ...obj.jsTarg, ...obj.jsMedia, ...obj.jsCanv }
+    o = { ...obj.jsDOM, ...obj.jsEle, ...obj.jsHTML, ...obj.jsTarg, ...obj.jsMedia, ...obj.jsCanv }
   } else {
     o = obj[key]
   }
@@ -134,11 +150,23 @@ function checkForEvents (str, cm) {
   return list
 }
 
+function checkForStyle (str, cm) {
+  const pos = cm.getCursor()
+  const line = cm.getLine(pos.line)
+  const s = line.substr(line.length - 7 - str.length, 7)
+  if (s === '.style.') return true
+  else return false
+}
+
+function genStyleList (str) {
+  return cssPropsList.filter(o => o.text.includes(str))
+}
+
 function jsHinter (token, cm, pos) {
   let list = []
   if (token.type === 'property' || token.string === '.') {
     const s = token.string === '.' ? '' : token.string
-    list = getPropList(s, cm)
+    list = checkForStyle(s, cm) ? genStyleList(s) : getPropList(s, cm)
   } else if (token.type === 'def') {
     // NOTE: no autocomplete when defining variables
   } else if (token.type === 'string') {

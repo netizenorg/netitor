@@ -12,7 +12,7 @@
     "watch": "nodemon --watch src --ignore src/css/*.js -x 'npm run build'",
     "pull-modules": "git submodule update --init --recursive",
     "update-modules": "git submodule update --remote --merge",
-    "eduscraper": "node eduscraper/index.js js-canvas2d src/edu-data",
+    "eduscraper": "node eduscraper/index.js js-html-element src/edu-data",
     "educustom": "node src/edu-data/custom/index.js"
   },
   "author": "netizen.org <hi@netizen.org>",
