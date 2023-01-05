@@ -1,6 +1,7 @@
 /* eslint-disable no-new-func */
 const jsRefs = require('../edu-data/js-refs.json')
 const jsEvents = require('../edu-data/js-events.json')
+const nnProps = require('../edu-data/custom/custom-nn.min.js')
 const snippets = require('./customSnippets.js')
 
 const roots = {
@@ -150,11 +151,11 @@ function checkForEvents (str, cm) {
   return list
 }
 
-function checkForStyle (str, cm) {
+function checkForObj (o, str, cm) {
   const pos = cm.getCursor()
   const line = cm.getLine(pos.line)
-  const s = line.substr(line.length - 7 - str.length, 7)
-  if (s === '.style.') return true
+  const s = line.substr(line.length - o.length - str.length, o.length)
+  if (s === o) return true
   else return false
 }
 
@@ -162,11 +163,21 @@ function genStyleList (str) {
   return cssPropsList.filter(o => o.text.includes(str))
 }
 
+function genNNList (str) {
+  const list = []
+  for (const p in nnProps) {
+    if (p.includes(str)) list.push({ text: p, displayText: p })
+  }
+  return list
+}
+
 function jsHinter (token, cm, pos) {
   let list = []
   if (token.type === 'property' || token.string === '.') {
     const s = token.string === '.' ? '' : token.string
-    list = checkForStyle(s, cm) ? genStyleList(s) : getPropList(s, cm)
+    list = checkForObj('.style.', s, cm)
+      ? genStyleList(s) : checkForObj('nn.', s, cm)
+        ? genNNList(s) : getPropList(s, cm)
   } else if (token.type === 'def') {
     // NOTE: no autocomplete when defining variables
   } else if (token.type === 'string') {

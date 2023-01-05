@@ -17,6 +17,7 @@ const jsHTML = require('../js-html-element.json')
 const jsMedia = require('../js-dom-media.json')
 const jsTarg = require('../js-dom-event-target.json')
 const jsArr = require('../js-arrays.json')
+const nnProps = require('../custom/custom-nn.min.js')
 const cssProps = require('../css-properties.json')
 
 const camelCase = (input) => {
@@ -38,6 +39,19 @@ const commentNfo = {
   description: {
     html: 'Comments are used to add hints, notes, suggestions, or warnings to JavaScript code. This can make it easier to read and understand. They can also be used to disable code to prevent it from being executed; this can be a valuable debugging tool',
     text: 'Comments are used to add hints, notes, suggestions, or warnings to JavaScript code. This can make it easier to read and understand. They can also be used to disable code to prevent it from being executed; this can be a valuable debugging tool'
+  }
+}
+
+const jsNNnfo = {
+  status: 'standard',
+  url: 'https://github.com/netizenorg/netnet-standard-library/#netnet-standard-library',
+  keyword: {
+    html: '<a href="https://github.com/netizenorg/netnet-standard-library/#netnet-standard-library" target="_blank">nn</a>',
+    text: 'nn'
+  },
+  description: {
+    html: '<code>nn</code> may be an instance of the "netnet-standard-library.js" or "nn.min.js" for short (assuming you\'ve included it in your project using a <code>&lt;script src="nn.min.js"&gt;&lt;/script&gt;</code>). "nn.min.js" is a browser based JavaScript utility library designed to aid artists and designers in common creative coding tasks. It\'s impossible to know what sort of features are hidden away inside this global <code>nn</code> object just by looking at it. Anytime you\'re using an external library like this you should refer to the library\'s <a href="https://github.com/netizenorg/netnet-standard-library/#netnet-standard-library" target="_blank">website or GitHub page</a> to find documentation for its API (application programming interface) and learn how to use the classes, methods and/or properties built into it',
+    text: 'nn may be an instance of the "netnet-standard-library.js" or "nn.min.js" for short (assuming you\'ve included it in your project using a <script src="nn.min.js"></script>). "nn.min.js" is a browser based JavaScript utility library designed to aid artists and designers in common creative coding tasks. It\'s impossible to know what sort of features are hidden away inside this global nn object just by looking at it. Anytime you\'re using an external library like this you should refer to the library\'s website or GitHub page to find documentation for its API (application programming interface) and learn how to use the classes, methods and/or properties built into it'
   }
 }
 
@@ -283,6 +297,18 @@ function strNfo (obj) {
   }
 }
 
+function nnNfo (str, obj) {
+  return {
+    status: 'standard',
+    url: obj.url,
+    keyword: {
+      html: `<a href="${obj.url}" target="_blank">${str}</a>`,
+      text: str
+    },
+    description: { text: obj.text, html: obj.html }
+  }
+}
+
 function jsData (o, cm) {
   if (!o.type) return null
 
@@ -291,6 +317,7 @@ function jsData (o, cm) {
   } else if (o.type === 'variable') {
     if (jsWindow[o.data]) o.nfo = jsWindow[o.data]
     else if (jsRefs[o.data]) o.nfo = jsRefs[o.data]
+    else if (o.data === 'nn') o.nfo = jsNNnfo
     else o.nfo = checkDefNfo(o.data, cm)
   } else if (o.data === 'function') {
     o.nfo = funcNfo
@@ -316,6 +343,8 @@ function jsData (o, cm) {
       o.nfo = jsNavigator[o.data]
     } else if (isChildOf('style', o.data, cm) && jsStyle[o.data]) {
       o.nfo = jsStyle[o.data]
+    } else if (isChildOf('nn', o.data, cm) && nnProps[o.data]) {
+      o.nfo = nnNfo(o.data, nnProps[o.data])
     } else {
       o.nfo = checkOtherJSObjs(o.data)
     }
