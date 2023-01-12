@@ -727,6 +727,7 @@ class Netitor {
       return { line: idx, ch: col }
     }
 
+    const scroll = cm.getScrollInfo()
     const cur = '<CURSOR_GOES_HERE>'
     const curStart = '<CURSOR_STARTS_HERE>'
     const curEnd = '<CURSOR_ENDS_HERE>'
@@ -737,13 +738,14 @@ class Netitor {
     } else if (data.text.includes(curStart) && this.code.includes(curStart)) {
       const start = swap(curStart)
       const end = swap(curEnd)
-      cm.setSelection(start, end)
+      cm.setSelection(start, end, { scroll: false })
     } else if (data.text.includes('></')) {
       const pos = cm.getCursor()
       const arr = data.text.split('></')
       const col = pos.ch - (arr[1].length + 2)
       cm.setCursor({ line: pos.line, ch: col })
     }
+    cm.scrollTo(scroll.left, scroll.top)
   }
 
   _hinter (cm, options) {
