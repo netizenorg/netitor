@@ -144,6 +144,8 @@ ne.remove('event-name', callbackFunction)
 
 **getLine(num)**: takes a number and returns the code on that particular line.
 
+**getVisibleRange()**: returns an object with the visible line numbers, for ex: ` { top: 254, bottom: 280 }`
+
 **update(code)**: if the `autoUpdate` is set to `false` you can control when you want the preview window to update yourself by calling: `ne.update()`. This method can also be used to pass alternative code to render, for example (where `{{code}}` is the code currently in the editor):
 
 ```js
@@ -168,6 +170,8 @@ ne.update(`
   <script>{{code}}<\/script>
 `)
 ```
+
+**scrollTo(lineNumber, callback)**: will smoothly scroll to a given line in the editor, the optional callback function will fire after the editor is finished scolling. 
 
 **highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red), for example `ne.highlight(3, 'green')` will highlight the third line in the netitor with the color green. Alternatively, you can pass an options argument like this:
 ```js

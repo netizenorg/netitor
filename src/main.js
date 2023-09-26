@@ -74,6 +74,10 @@ class Netitor {
     this._highlights = [] // highlighted lines
     this._root = null // path to prepend to all src/href attr
 
+    // for scrollTo debounce logic
+    this._scrollTimer = null
+    this._scrollCompleteCallback = null
+
     // exception to standard errors
     this._customElements = {}
     this._customAttributes = {}
@@ -193,6 +197,15 @@ class Netitor {
 
   getLine (num) { return this.cm.getLine(num - 1) }
 
+  getVisibleRange () {
+    const scrollInfo = this.cm.getScrollInfo()
+    const editorHeight = scrollInfo.clientHeight
+    const lineHeight = this.cm.defaultTextHeight()
+    const top = Math.floor(scrollInfo.top / lineHeight) + 1
+    const bottom = Math.floor((scrollInfo.top + editorHeight) / lineHeight)
+    return { top, bottom }
+  }
+
   on (event, callback) {
     if (Object.prototype.hasOwnProperty.call(this.events, event)) {
       this.events[event].push(callback)
@@ -208,6 +221,24 @@ class Netitor {
       // if (typeof this.events[event] === 'function') this.events[event](data)
       this.events[event].forEach(f => f(data, eventObj))
     } else this.err(`${event} is not a valid event`)
+  }
+
+  scrollTo (lineNumber, callback) {
+    clearTimeout(this._scrollTimer)
+    this._scrollCompleteCallback = callback
+    this.cm.setCursor({ line: lineNumber, ch: 0 })
+    const coords = this.cm.cursorCoords(true, 'local')
+    this.cm.getScrollerElement().scrollTo({
+      top: coords.top,
+      behavior: 'smooth'
+    })
+    // debounce logic
+    this._scrollTimer = setTimeout(() => {
+      if (this._scrollCompleteCallback) {
+        this._scrollCompleteCallback()
+        this._scrollCompleteCallback = null
+      }
+    }, 100)
   }
 
   highlight (line, color) {
@@ -247,27 +278,40 @@ class Netitor {
 
   spotlight (lines, transition) {
     if (typeof lines === 'number') lines = [lines]
-    const codeLines = [...this.ele.querySelectorAll('.CodeMirror-code > div')]
-    const nums = [...this.ele.querySelectorAll('.CodeMirror-linenumber')]
-      .filter(g => g.innerText.length > 0)
-    const dict = {}
-    nums.forEach((g, i) => { dict[g.innerText] = codeLines[i] })
-
     const t = transition || 'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'
 
-    for (const num in dict) {
-      const d = dict[num] // code line element
-      const n = Number(num) // gutter number
-      d.style.transition = t
-      if (lines instanceof Array) { // line numbers to spotlight...
-        if (lines.includes(n)) setTimeout(() => { d.style.opacity = 1 })
-        else setTimeout(() => { d.style.opacity = 0.25 })
-      } else setTimeout(() => { d.style.opacity = 1 }) // nothing to spotlight
+    const execSpotlight = () => {
+      const codeLines = [...this.ele.querySelectorAll('.CodeMirror-code > div')]
+      const nums = [...this.ele.querySelectorAll('.CodeMirror-linenumber')]
+        .filter(g => g.innerText.length > 0)
+      const dict = {}
+      nums.forEach((g, i) => { dict[g.innerText] = codeLines[i] })
+
+      for (const num in dict) {
+        const d = dict[num] // code line element
+        const n = Number(num) // gutter number
+        d.style.transition = t
+        if (lines instanceof Array) { // line numbers to spotlight...
+          if (lines.includes(n)) setTimeout(() => { d.style.opacity = 1 })
+          else setTimeout(() => { d.style.opacity = 0.25 })
+        } else setTimeout(() => { d.style.opacity = 1 }) // nothing to spotlight
+      }
+
+      if (lines instanceof Array && lines.length > 0) {
+        this._spotlighting = true
+      } else this._spotlighting = false
     }
 
-    if (lines instanceof Array && lines.length > 0) {
-      this._spotlighting = true
-    } else this._spotlighting = false
+    if (lines) {
+      const t = Math.min(...lines)
+      const b = Math.min(...lines)
+      const range = this.getVisibleRange()
+      if (t >= range.bottom || b >= range.bottom || t <= range.top) {
+        this.scrollTo(t - 2, () => {
+          setTimeout(() => execSpotlight(), 600)
+        })
+      } else execSpotlight()
+    } else execSpotlight()
   }
 
   marker (line, color, callback) {
@@ -482,8 +526,16 @@ class Netitor {
       this._lastMouseDown = Date.now()
     })
     this.cm.on('scroll', (e) => {
+      clearTimeout(this._scrollTimer)
       if (this._spotlighting) this.spotlight(null)
       this._repositionGutterMarkers()
+      // scrollTO debound logic
+      this.timer = setTimeout(() => {
+        if (this._scrollCompleteCallback) {
+          this._scrollCompleteCallback()
+          this._scrollCompleteCallback = null
+        }
+      }, 100)
     })
     this.ele.addEventListener('mouseup', () => {
       this._cursorActivity(this.cm, true)
