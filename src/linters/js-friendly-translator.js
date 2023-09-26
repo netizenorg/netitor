@@ -190,19 +190,23 @@ const dict = {
   // ..
   // W001: "'hasOwnProperty' is a really bad name.",
   // W002: "Value of '{a}' may be overwritten in IE 8 and earlier.",
-  // W003: "'{a}' was used before it was defined.",
+  W003: (obj) => {
+    obj.friendly = `'${cde(obj.jshint.a)}' was used before it was defined. This will work fine because JavaScript will ${lnk('hoist', 'https://developer.mozilla.org/en-US/docs/Glossary/Hoisting')} it for you, but it may lead to some confusing code.`
+    obj.type = 'warning'
+    return obj
+  },
   // W004: "'{a}' is already defined.",
   // W005: "A dot following a number can be confused with a decimal point.",
   // W006: "Confusing minuses.",
   // W007: "Confusing plusses.",
   // W008: "A leading decimal point can be confused with a dot: '{a}'.",
   W009: (obj) => {
-    obj.friendly = `While it's technically ok to use the ${cde('new Array()')} consructor, it's much more common pracice to use ${cde('[]')}`
+    obj.friendly = `While it's technically ok to use the ${cde('new Array()')} constructor, it's much more common pracice to use ${cde('[]')}`
     obj.type = 'warning'
     return obj
   },
   W010: (obj) => {
-    obj.friendly = `While it's technically ok to use the ${cde('new Object()')} consructor, it's much more common pracice to use ${cde('{}')}`
+    obj.friendly = `While it's technically ok to use the ${cde('new Object()')} constructor, it's much more common pracice to use ${cde('{}')}`
     obj.type = 'warning'
     return obj
   },
@@ -367,6 +371,7 @@ const dict = {
   // W097: "Use the function form of \"use strict\".",
   W098: (obj) => {
     obj.friendly = `You defined ${cde(obj.jshint.a)} but it doesn't seem like you're using it anywhere. Maybe you should either comment it out or remove it if you don't plan to use it.`
+    obj.type = 'warning'
     return obj
   },
   // W099: null,
