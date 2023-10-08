@@ -492,6 +492,9 @@ class Netitor {
         closeOnUnfocus: true,
         completeSingle: false
       },
+      extraKeys: { // Inserts two spaces when Tab is pressed
+        Tab: (cm) => cm.replaceSelection('  ')
+      },
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)
     })
 
