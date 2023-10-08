@@ -304,7 +304,7 @@ class Netitor {
 
     if (lines) {
       const t = Math.min(...lines)
-      const b = Math.min(...lines)
+      const b = Math.max(...lines)
       const range = this.getVisibleRange()
       if (t >= range.bottom || b >= range.bottom || t <= range.top) {
         this.scrollTo(t - 2, () => {
