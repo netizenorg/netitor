@@ -493,22 +493,7 @@ class Netitor {
         completeSingle: false
       },
       extraKeys: {
-        Tab: (cm) => { // when Tab is pressed...
-          // && mulitple lines are selected, indent entire selection
-          if (cm.somethingSelected()) {
-            const ranges = cm.listSelections()
-            cm.operation(function () {
-              ranges.forEach(function (range) {
-                for (let i = range.from().line; i <= range.to().line; i++) {
-                  cm.indentLine(i, 'add')
-                }
-              })
-            })
-          } else {
-            // otherwise insert two spaces
-            cm.replaceSelection('  ')
-          }
-        }
+        Tab: (cm) => this._betterTabLogic(cm)
       },
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)
     })
@@ -614,6 +599,23 @@ class Netitor {
     // let's u moidfy behavior of mouse selection and dragging.
     // see "configureMouse" in code mirror manual
     return {}
+  }
+
+  _betterTabLogic (cm) { // when Tab is pressed...
+    // && mulitple lines are selected, indent entire selection
+    if (cm.somethingSelected()) {
+      const ranges = cm.listSelections()
+      cm.operation(function () {
+        ranges.forEach(function (range) {
+          for (let i = range.from().line; i <= range.to().line; i++) {
+            cm.indentLine(i, 'add')
+          }
+        })
+      })
+    } else {
+      // otherwise insert two spaces
+      cm.replaceSelection('  ')
+    }
   }
 
   _repositionGutterMarkers () {
