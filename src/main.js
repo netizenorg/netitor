@@ -492,8 +492,23 @@ class Netitor {
         closeOnUnfocus: true,
         completeSingle: false
       },
-      extraKeys: { // Inserts two spaces when Tab is pressed
-        Tab: (cm) => cm.replaceSelection('  ')
+      extraKeys: {
+        Tab: (cm) => { // when Tab is pressed...
+          // && mulitple lines are selected, indent entire selection
+          if (cm.somethingSelected()) {
+            const ranges = cm.listSelections()
+            cm.operation(function () {
+              ranges.forEach(function (range) {
+                for (let i = range.from().line; i <= range.to().line; i++) {
+                  cm.indentLine(i, 'add')
+                }
+              })
+            })
+          } else {
+            // otherwise insert two spaces
+            cm.replaceSelection('  ')
+          }
+        }
       },
       configureMouse: (cm, ct, e) => this._mouseAction(cm, ct, e)
     })
