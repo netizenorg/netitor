@@ -49,15 +49,28 @@ function findIndexOfMatch (str, lines) {
   return -1
 }
 
+function filterCSSComments (lines) {
+  let inCommentBlock = false
+  return lines.filter(line => {
+    if (line.trim().startsWith('/*')) {
+      inCommentBlock = true
+      return false
+    }
+    if (line.trim().endsWith('*/')) {
+      inCommentBlock = false
+      return false
+    }
+    return !inCommentBlock
+  })
+}
+
 function catchTypeSelectorErrz (code) {
   const errz = []
   const lines = code.split('\n')
-  let strs = code.match(/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/g)
+  const filtLines = filterCSSComments(lines)
+  let strs = filtLines.join('\n').match(/([^\r\n,{}]+)(,(?=[^}]*{)|\s*{)/g)
   if (!strs) return errz // probably there's another err taking precedence
   else strs = strs.filter(s => !s.includes('@')).filter(s => !s.includes('%'))
-  // remove comments that get misclassified as selectors
-  // this causes bugs otherwise when left in the array
-  strs = strs.filter(s => s.trim().indexOf('/*') !== 0)
   for (let i = 0; i < strs.length; i++) {
     const s = strs[i].substr(0, strs[i].length - 1).trim()
     if (s === '') {
