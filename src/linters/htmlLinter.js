@@ -47,7 +47,7 @@ const HTMLHintRules = {
   // 'inline-script-disabled': true,
   // 'inline-style-disabled': true, // too annoying i think
   // formatting
-  'space-tab-mixed-disabled': true,
+  'space-tab-mixed-disabled': false,
   'spec-char-escape': true
 }
 
