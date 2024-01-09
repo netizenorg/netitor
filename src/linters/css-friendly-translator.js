@@ -49,6 +49,11 @@ const dict = {
     obj.friendly = `This is not a valid CSS "type" selector because there is no <code>${vals[0]}</code> element in HTML,${suggest} did you mean to make this a "class" selector like <code>.${vals[0]}</code> or an "id" selector like <code>#${vals[0]}</code>`
     return obj
   },
+  'selector-type-blank': (obj) => {
+    obj = reformatObj(obj)
+    obj.friendly = 'A CSS rule must begin with a <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors" target="_blank">selector</a>, defined before the CSS code block\'s <code>{</code> open bracket'
+    return obj
+  },
   //
   // SYNTAX ERRORS
   //
@@ -111,7 +116,7 @@ const dict = {
     return obj
   },
   'declaration-block-no-duplicate-properties': (obj) => {
-    obj = reformatObj(obj)
+    obj = reformatObj(obj, true)
     const vals = parseVals(obj.message)
     obj.friendly = `It looks like you've declared <code>${vals[0]}</code> twice, it should only be declared once per CSS rule block.`
     return obj
@@ -144,7 +149,7 @@ const dict = {
     return obj
   },
   'no-descending-specificity': (obj) => {
-    obj = reformatObj(obj)
+    obj = reformatObj(obj, true)
     const vals = parseVals(obj.message)
     obj.friendly = `The <code>${vals[0]}</code> CSS selector is more specific than the <code>${vals[1]}</code> selector and thus should be declared after it, not before.`
     return obj

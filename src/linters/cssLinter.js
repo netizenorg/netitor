@@ -42,6 +42,13 @@ function parseTypeSelectors (rule, frags) {
   else return frags
 }
 
+function findIndexOfMatch (str, lines) {
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].includes(str)) return i
+  }
+  return -1
+}
+
 function catchTypeSelectorErrz (code) {
   const errz = []
   const lines = code.split('\n')
@@ -52,21 +59,32 @@ function catchTypeSelectorErrz (code) {
   // this causes bugs otherwise when left in the array
   strs = strs.filter(s => s.trim().indexOf('/*') !== 0)
   for (let i = 0; i < strs.length; i++) {
-    const s = strs[i].substr(0, strs[i].length - 1)
-    const o = cssSelector.parse(s)
-    const t = parseTypeSelectors(o)
-    if (t.length > 0) {
-      for (let j = 0; j < t.length; j++) {
-        if (!Object.keys(htmlEles).includes(t[j]) && t[j] !== '*') {
+    const s = strs[i].substr(0, strs[i].length - 1).trim()
+    if (s === '') {
+      errz.push({
+        column: 0,
+        language: 'css',
+        line: lines.map(l => l.trim()).indexOf(strs[i].trim()) + 1,
+        type: 'error',
+        rule: 'selector-type-blank', // custom rule
+        text: 'CSS blocks must begin with a selector'
+      })
+    } else {
+      const o = cssSelector.parse(s)
+      const types = parseTypeSelectors(o)
+      types.forEach(t => {
+        if (!Object.keys(htmlEles).includes(t) && t !== '*') {
           errz.push({
             column: 0,
-            line: lines.indexOf(strs[i]) + 1,
-            severity: 'error',
-            rule: 'selector-type-whitelist',
-            text: `"${t[j]}" is not a valid type selector`
+            language: 'css',
+            // line: lines.indexOf(strs[i]) + 1,
+            line: findIndexOfMatch(strs[i], lines) + 1,
+            type: 'error',
+            rule: 'selector-type-whitelist', // custom rule
+            text: `"${t}" is not a valid type selector`
           })
         }
-      }
+      })
     }
   }
   return errz
@@ -89,8 +107,8 @@ const stylelintRules = {
   'no-unknown-animations': false, /* b/c it errors w/multiple animation names separated by commas */
   'property-case': 'lower',
   'property-whitelist': Object.keys(cssProps),
-  'selector-type-case': 'lower',
-  'string-quotes': 'double'
+  'selector-type-case': 'lower'
+  // 'string-quotes': 'double'
 }
 
 async function linter (code) {
