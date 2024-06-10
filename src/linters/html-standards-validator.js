@@ -159,43 +159,43 @@ class HTMLStandards {
     return errz
   }
 
-  static verifyCharset (doc, code) {
-    const errz = []
-    const type = 'warning'
-    const language = 'html'
-    const message = '<meata charset=""> must be present in <head> tag.'
-    const friendly = 'You are missing a <a href="https://developer.mozilla.org/en-US/docs/Glossary/character_encoding" target="_blank"><code>&lt;meta charset="utf-8"&gt;</code></a> element in your <code>&lt;head&gt;</code>. While it is not technically required, it\'s highly recommended. Use UTF-8 unless you have a very good reason not to; it will cover your character needs pretty much regardless of what language you are using in your document. In addition, you should always specify the characterset as early as possible within your HTML\'s <code>&lt;head&gt;</code>, as it protects against a rather nasty <a href="https://support.microsoft.com/en-us/help/928847/internet-explorer-uses-the-wrong-character-set-when-it-renders-an-html" target="_blank">Internet Explorer security vulnerability</a>.'
-    const rule = {
-      id: 'declare-document-charset',
-      description: 'Set document language',
-      link: 'https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML#Document_characterset'
-    }
-
-    if (code.indexOf('<head') > -1 && code.indexOf('</head>') > -1) {
-      let hasCharset = false
-      for (let i = 0; i < doc.head.children.length; i++) {
-        const child = doc.head.children[i]
-        if (child.localName.toLowerCase() === 'meta') {
-          if (child.attributes.charset) {
-            hasCharset = true
-            break
-          }
-        }
-      }
-
-      if (!hasCharset) {
-        const lines = code.split('\n')
-        const match = lines
-          .filter(str => str.toLowerCase().indexOf('<head') >= 0)[0]
-        const evidence = ''
-        const line = lines.indexOf(match) + 1
-        const col = match.indexOf('<head')
-        errz.push({ language, type, message, friendly, evidence, col, line, rule })
-      }
-    }
-
-    return errz
-  }
+  // static verifyCharset (doc, code) {
+  //   const errz = []
+  //   const type = 'warning'
+  //   const language = 'html'
+  //   const message = '<meata charset=""> must be present in <head> tag.'
+  //   const friendly = 'You are missing a <a href="https://developer.mozilla.org/en-US/docs/Glossary/character_encoding" target="_blank"><code>&lt;meta charset="utf-8"&gt;</code></a> element in your <code>&lt;head&gt;</code>. While it is not technically required, it\'s highly recommended. Use UTF-8 unless you have a very good reason not to; it will cover your character needs pretty much regardless of what language you are using in your document. In addition, you should always specify the characterset as early as possible within your HTML\'s <code>&lt;head&gt;</code>, as it protects against a rather nasty <a href="https://support.microsoft.com/en-us/help/928847/internet-explorer-uses-the-wrong-character-set-when-it-renders-an-html" target="_blank">Internet Explorer security vulnerability</a>.'
+  //   const rule = {
+  //     id: 'declare-document-charset',
+  //     description: 'Set document language',
+  //     link: 'https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/HTML#Document_characterset'
+  //   }
+  //
+  //   if (code.indexOf('<head') > -1 && code.indexOf('</head>') > -1) {
+  //     let hasCharset = false
+  //     for (let i = 0; i < doc.head.children.length; i++) {
+  //       const child = doc.head.children[i]
+  //       if (child.localName.toLowerCase() === 'meta') {
+  //         if (child.attributes.charset) {
+  //           hasCharset = true
+  //           break
+  //         }
+  //       }
+  //     }
+  //
+  //     if (!hasCharset) {
+  //       const lines = code.split('\n')
+  //       const match = lines
+  //         .filter(str => str.toLowerCase().indexOf('<head') >= 0)[0]
+  //       const evidence = ''
+  //       const line = lines.indexOf(match) + 1
+  //       const col = match.indexOf('<head')
+  //       errz.push({ language, type, message, friendly, evidence, col, line, rule })
+  //     }
+  //   }
+  // \
+  //   return errz
+  // }
 
   static verifyDoctype (doc, code) {
     const errz = []
@@ -244,9 +244,9 @@ class HTMLStandards {
       errz = errz.concat(this.verifyLanAttr(doc, code))
     }
 
-    if (this.checkRule(rules, 'declare-document-charset')) {
-      errz = errz.concat(this.verifyCharset(doc, code))
-    }
+    // if (this.checkRule(rules, 'declare-document-charset')) {
+    //   errz = errz.concat(this.verifyCharset(doc, code))
+    // }
 
     if (this.checkRule(rules, 'declare-document-doctype')) {
       errz = errz.concat(this.verifyDoctype(doc, code))

@@ -7,7 +7,7 @@ const HTMLStandardsRules = {
   'standard-attributes': true,
   'avoid-trailing-slashes': true,
   'declare-document-language': true,
-  'declare-document-charset': true,
+  'declare-document-charset': false, // not necesssary these days
   'declare-document-doctype': true
 }
 
