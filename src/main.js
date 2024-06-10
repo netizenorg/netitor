@@ -46,7 +46,7 @@ class Netitor {
 
     this._code = typeof opts.code === 'string' ? opts.code : ''
     this._lang = typeof opts.language === 'string' ? opts.language : 'html'
-    this._titl = typeof opts.displayTitle === 'boolean' ? opts.displayTitle : false
+    // this._titl = typeof opts.displayTitle === 'boolean' ? opts.displayTitle : false
     this._clrz = typeof opts.theme === 'string' ? opts.theme : 'dark'
     this._lint = typeof opts.lint === 'boolean' ? opts.lint : true
     this._hint = typeof opts.hint === 'boolean' ? opts.hint : true
@@ -180,8 +180,8 @@ class Netitor {
   get renderWithErrors () { return this._rerr }
   set renderWithErrors (v) { this._rerr = v }
 
-  get displayTitle () { return this._titl }
-  set displayTitle (v) { this._titl = v }
+  // get displayTitle () { return this._titl }
+  // set displayTitle (v) { this._titl = v }
 
   // ................................................. read-only properties
 
@@ -442,6 +442,8 @@ class Netitor {
     this._delayUpdate(this.cm)
   }
 
+  prependProxyURL (code, proxy) { return prependProxyURL(code, proxy) }
+
   update (srcCode) {
     if (srcCode === this.code) this._altSrcCode = null
     else if (srcCode) this._altSrcCode = srcCode
@@ -640,20 +642,39 @@ class Netitor {
     const showingHint = document.querySelector('.CodeMirror-hints.netizen')
     if (showingHint) return
 
-    // TODO https://stackoverflow.com/questions/62546174/clear-iframe-content-including-its-js-global-scope
-    if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
-    this.iframe = document.createElement('iframe')
-    this.iframe.style.width = '100%'
-    this.iframe.style.height = '100%'
-    this.iframe.style.border = '0'
-    this.render.appendChild(this.iframe)
-    const content = this.iframe.contentDocument || this.iframe.contentWindow.document
-    content.open()
-    this.iframe.contentWindow.addEventListener('error', (err) => {
-      if (this._ercb) this._ercb(err)
-      return true
-    })
+    // if browser doesn't support "srcdoc" update will need to recrate iframe
+    const update = (c) => {
+      // https://stackoverflow.com/a/76767465/1104148
+      if (typeof this.iframe.srcdoc !== 'undefined') this.iframe.srcdoc = c
+      else { // https://stackoverflow.com/q/62546174/1104148
+        if (this.iframe) this.iframe.parentElement.removeChild(this.iframe)
+        this.iframe = document.createElement('iframe')
+        this.iframe.style.width = '100%'
+        this.iframe.style.height = '100%'
+        this.iframe.style.border = '0'
+        this.render.appendChild(this.iframe)
+        const content = this.iframe.contentDocument || this.iframe.contentWindow.document
+        content.open()
+        content.write(c)
+        content.close()
+      }
+    }
 
+    if (!this.iframe) { // setup <iframe> ...
+      this.iframe = document.createElement('iframe')
+      this.iframe.style.width = '100%'
+      this.iframe.style.height = '100%'
+      this.iframe.style.border = '0'
+      this.render.appendChild(this.iframe)
+      this.iframe.contentWindow.addEventListener('error', (err) => {
+        if (this._ercb) this._ercb(err)
+        return true
+      })
+    } else if (this.iframe.hasAttribute('srcdoc')) {
+      this.iframe.removeAttribute('srcdoc')
+    }
+
+    // code mutations....
     let code = this._altSrcCode || this.code
     if (this._altSrcCode && code.includes('{{code}}')) {
       code = code.replace('{{code}}', this.code)
@@ -661,18 +682,23 @@ class Netitor {
 
     if (this._lang === 'markdown') code = markdown.makeHtml(code)
 
-    if (!this._root) content.write(code)
-    // else this._applyCustomRoot(content, this.code) // see applyCustomRoot.js
-    else {
-      const base = `<base href="${this._root}">`
-      code = base + code
-      if (this._proxy) code = prependProxyURL(code, this._proxy)
-      content.write(code)
+    // run either the customRender or the default render process...
+    if (typeof this.customRender === 'function') {
+      this.customRender({ iframe: this.iframe, code, update })
+    } else {
+      // update code (use custom root && proxy if necessary)
+
+      if (!this._root) update(code)
+      // else this._applyCustomRoot(content, this.code) // see applyCustomRoot.js
+      else {
+        const base = `<base href="${this._root}">`
+        code = base + code
+        if (this._proxy) code = prependProxyURL(code, this._proxy)
+        update(code)
+      }
+      if (!this._root) this._checkForCORSerr()
+      this.emit('render-update')
     }
-    if (this._titl) document.title = content.title
-    content.close()
-    if (!this._root) this._checkForCORSerr()
-    this.emit('render-update')
   }
 
   _delayUpdate (cm) {
@@ -900,8 +926,6 @@ class Netitor {
 
   _decode (code) { return pako.inflate(window.atob(code), { to: 'string' }) }
   _encode (code) { return window.btoa(pako.deflate(code, { to: 'string' })) }
-
-  prependProxyURL (code, proxy) { return prependProxyURL(code, proxy) }
 }
 
 window.Netitor = Netitor
