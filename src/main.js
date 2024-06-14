@@ -507,7 +507,7 @@ class Netitor {
     //   }
     // })
 
-    this.cm.on('change', (cm) => this._delayUpdate(cm))
+    this.cm.on('change', (cm, co) => this._delayUpdate(cm, co))
     this.cm.on('renderLine', (cm, line, elt) => {
       const wrap = cm.getOption('lineWrapping')
       if (wrap) { // handles "soft warpping"
@@ -701,12 +701,12 @@ class Netitor {
     }
   }
 
-  _delayUpdate (cm) {
+  _delayUpdate (cm, co) {
     // TODO: i feel like this could have better debounce logic,
     // maybe doesn't run unless there's been an _adly worth of stillness
     // (ie. nothing has been typed) in the editor?
     clearTimeout(this._autoCallback)
-    this.emit('code-update', this.code)
+    this.emit('code-update', this.code, co)
     this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
     this._prevState = this.cm.getValue()
   }

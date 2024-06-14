@@ -347,7 +347,7 @@ You can attach (and remove) functions which you'd like to fire on any of the net
 
 
 
-**code-update**: This fires every time the code in the netitor changes. The `data` passed into the callback function is a string containing all the code currently in the editor (essentially the same as `ne.code`)
+**code-update**: This fires every time the code in the netitor changes. The callback function is passed two arguments, the first is a string containing all the code currently in the editor (essentially the same as `ne.code`) the second is an object containing information about what whas just updated `{ from, to, text, removed, origin }`
 
 
 **render-update**: This fires every time the render output iframe is updated.
