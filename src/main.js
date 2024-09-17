@@ -59,7 +59,7 @@ class Netitor {
     this._rerr = typeof opts.renderWithErrors === 'boolean'
       ? opts.renderWithErrors : false
     this._ercb = typeof opts.errorCallback === 'function'
-      ? opts.errorCallback : null // NOTE: undocumented
+      ? opts.errorCallback : null // NOTE: undocumented (not working as expected)
 
     this.events = {
       'lint-error': [],
@@ -638,9 +638,66 @@ class Netitor {
   //   })
   // }
 
+  _delayUpdate (cm, co) {
+    // TODO: i feel like this could have better debounce logic,
+    // maybe doesn't run unless there's been an _adly worth of stillness
+    // (ie. nothing has been typed) in the editor?
+    clearTimeout(this._autoCallback)
+    this.emit('code-update', this.code, co)
+    this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
+    this._prevState = this.cm.getValue()
+  }
+
+  async _update (cm) {
+    const h = document.querySelector('.CodeMirror-hints')
+    if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
+    this.errz = (this._lint && !h) ? await linter(cm) : []
+    this.errz = this.errz.length > 0 ? this._rmvExceptions(this.errz) : this.errz
+    if (this.errz) this.emit('lint-error', this.errz)
+    if (this._auto && !h && this._passThroughErrz(this.errz)) this.update()
+  }
+
+  // NOTE: this.update() >> calls >>  this._updateRenderIframe()
+
   _updateRenderIframe () {
     const showingHint = document.querySelector('.CodeMirror-hints.netizen')
     if (showingHint) return
+
+    // this ensures that <a href="#some-id"> elements work as expected
+    const fixAnchorLinks = (c) => {
+      if (this.language !== 'html') return c
+
+      const parser = new window.DOMParser()
+      const doc = parser.parseFromString(c, 'text/html')
+      const anchorTags = doc.querySelectorAll('a[href^="#"]')
+      if (anchorTags.length <= 0) return c
+
+      c += `
+      <script>
+        document.addEventListener('click', function(e) {
+          let target = e.target
+          while (target && target !== document) {
+            if (target.tagName === 'A') {
+              const href = target.getAttribute('href')
+              if (href && href.startsWith('#') && href.length > 1) {
+                e.preventDefault()
+                const id = decodeURIComponent(href.substring(1))
+                const element = document.getElementById(id)
+                if (element) {
+                  element.scrollIntoView()
+                } else {
+                  console.error("( ◕ ◞ ◕ ): you're trying to link to a location on this page that doesn't exist, there is no element with an id of '"+id+"'")
+                }
+              }
+              break
+            }
+            target = target.parentNode
+          }
+        })
+      </script>
+      `
+      return c
+    }
 
     // if browser doesn't support "srcdoc" update will need to recrate iframe
     const update = (c) => {
@@ -667,7 +724,7 @@ class Netitor {
       this.iframe.style.border = '0'
       this.render.appendChild(this.iframe)
       this.iframe.contentWindow.addEventListener('error', (err) => {
-        if (this._ercb) this._ercb(err)
+        if (this._ercb) this._ercb(err) // NOTE: not working right
         return true
       })
     } else if (this.iframe.hasAttribute('srcdoc')) {
@@ -679,6 +736,8 @@ class Netitor {
     if (this._altSrcCode && code.includes('{{code}}')) {
       code = code.replace('{{code}}', this.code)
     }
+
+    code = fixAnchorLinks(code)
 
     if (this._lang === 'markdown') code = markdown.makeHtml(code)
 
@@ -699,25 +758,6 @@ class Netitor {
       if (!this._root) this._checkForCORSerr()
       this.emit('render-update')
     }
-  }
-
-  _delayUpdate (cm, co) {
-    // TODO: i feel like this could have better debounce logic,
-    // maybe doesn't run unless there's been an _adly worth of stillness
-    // (ie. nothing has been typed) in the editor?
-    clearTimeout(this._autoCallback)
-    this.emit('code-update', this.code, co)
-    this._autoCallback = setTimeout(() => { this._update(cm) }, this._adly)
-    this._prevState = this.cm.getValue()
-  }
-
-  async _update (cm) {
-    const h = document.querySelector('.CodeMirror-hints')
-    if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
-    this.errz = (this._lint && !h) ? await linter(cm) : []
-    this.errz = this.errz.length > 0 ? this._rmvExceptions(this.errz) : this.errz
-    if (this.errz) this.emit('lint-error', this.errz)
-    if (this._auto && !h && this._passThroughErrz(this.errz)) this.update()
   }
 
   // ~ ~ ~ errz ~ ~ ~
