@@ -21,12 +21,12 @@ const dict = {
     if (obj.jshint.evidence.includes('for')) {
       obj.friendly = `The variable ${cde(obj.jshint.a)} is going to get reassigned as your for loop integrates over and over, and ${lnk('cont', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const')} can not be reassigned, you should write ${cde(`let ${obj.jshint.a}`)} instead.`
     } else {
-      obj.friendly = `The variable ${cde(obj.jshint.a)} was already declared with the ${lnk('cont', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const')} keyword, which means it can't be redclared or reassigned. Try changing the name of your variable to something you haven't used yet, or change the value of your prior ${cde(obj.jshint.a)} declaraion.`
+      obj.friendly = `The variable ${cde(obj.jshint.a)} was already declared with the ${lnk('const', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const')} keyword, which means it can't be redclared or reassigned. Try changing the name of your variable to something you haven't used yet, or change the value of your prior ${cde(obj.jshint.a)} declaraion.`
     }
     return obj
   },
   E012: (obj) => {
-    obj.friendly = `The variable ${cde(obj.jshint.a)} was declared with the ${lnk('cont', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const')} keyword, which means it can't be redclared or reassigned later on. Are you sure you meant to leave it undefined? If you want to change it's value later you should be using ${lnk('let', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let')}`
+    obj.friendly = `The variable ${cde(obj.jshint.a)} was declared with the ${lnk('const', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const')} keyword, which means it can't be redclared or reassigned later on. Are you sure you meant to leave it undefined? If you want to change it's value later you should be using ${lnk('let', 'https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let')}`
     obj.type = 'warning'
     return obj
   },
