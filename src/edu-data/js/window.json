@@ -1,0 +1,2499 @@
+{
+  "print": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/print",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/print\">print</a>",
+      "text": "print"
+    },
+    "description": {
+      "html": "Opens the print dialog to print the current document.",
+      "text": "Opens the print dialog to print the current document."
+    }
+  },
+  "alert": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/alert",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/alert\">alert</a>",
+      "text": "alert"
+    },
+    "description": {
+      "html": "<code>window.alert()</code> instructs the browser to display a dialog with an optional message, and to wait until the user dismisses the dialog.",
+      "text": "window.alert() instructs the browser to display a dialog with an optional message, and to wait until the user dismisses the dialog."
+    }
+  },
+  "blur": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/blur",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/blur\">blur</a>",
+      "text": "blur"
+    },
+    "description": {
+      "html": "Shifts focus away from the window.",
+      "text": "Shifts focus away from the window."
+    }
+  },
+  "releaseEvents": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/releaseEvents",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/releaseEvents\">releaseEvents</a>",
+      "text": "releaseEvents"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "open": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/open",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/open\">open</a>",
+      "text": "open"
+    },
+    "description": {
+      "html": "The <strong><code>open()</code></strong> method of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface loads a specified resource into a new or existing browsing context (that is, a tab, a window, or an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\">iframe</a>) under a specified name.",
+      "text": "The open() method of the Window interface loads a specified resource into a new or existing browsing context (that is, a tab, a window, or an iframe) under a specified name."
+    }
+  },
+  "onresize": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event\">onresize</a>",
+      "text": "onresize"
+    },
+    "description": {
+      "html": "The <strong><code>resize</code></strong> event fires when the document view (window) has been resized.",
+      "text": "The resize event fires when the document view (window) has been resized."
+    }
+  },
+  "scrollByPages": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByPages",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByPages\">scrollByPages</a>",
+      "text": "scrollByPages"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "external": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/external",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/external\">external</a>",
+      "text": "external"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "ongamepaddisconnected": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/gamepaddisconnected_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/gamepaddisconnected_event\">ongamepaddisconnected</a>",
+      "text": "ongamepaddisconnected"
+    },
+    "description": {
+      "html": "The <code>gamepaddisconnected</code> event is fired when the browser detects that a gamepad has been disconnected.",
+      "text": "The gamepaddisconnected event is fired when the browser detects that a gamepad has been disconnected."
+    }
+  },
+  "captureEvents": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/captureEvents",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/captureEvents\">captureEvents</a>",
+      "text": "captureEvents"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "queryLocalFonts": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/queryLocalFonts",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/queryLocalFonts\">queryLocalFonts</a>",
+      "text": "queryLocalFonts"
+    },
+    "description": {
+      "html": "<strong>Experimental:</strong> <strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete#experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
+      "text": "Experimental: This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
+    }
+  },
+  "clearImmediate": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/clearImmediate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/clearImmediate\">clearImmediate</a>",
+      "text": "clearImmediate"
+    },
+    "description": {
+      "html": "This method clears the action specified by <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate\"><code>window.setImmediate</code></a>.",
+      "text": "This method clears the action specified by window.setImmediate."
+    }
+  },
+  "scrollMaxX": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxX\">scrollMaxX</a>",
+      "text": "scrollMaxX"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "cancelIdleCallback": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelIdleCallback",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelIdleCallback\">cancelIdleCallback</a>",
+      "text": "cancelIdleCallback"
+    },
+    "description": {
+      "html": "\n  The <strong><code>window.cancelIdleCallback()</code></strong> method cancels a callback\n  previously scheduled with <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback\"><code>window.requestIdleCallback()</code></a>.\n",
+      "text": "\n  The window.cancelIdleCallback() method cancels a callback\n  previously scheduled with window.requestIdleCallback().\n"
+    }
+  },
+  "outerHeight": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/outerHeight",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/outerHeight\">outerHeight</a>",
+      "text": "outerHeight"
+    },
+    "description": {
+      "html": "The <strong><code>Window.outerHeight</code></strong> read-only property returns the height in pixels of the whole browser window, including any sidebar, window chrome, and window-resizing borders/handles.",
+      "text": "The Window.outerHeight read-only property returns the height in pixels of the whole browser window, including any sidebar, window chrome, and window-resizing borders/handles."
+    }
+  },
+  "stop": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/stop",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/stop\">stop</a>",
+      "text": "stop"
+    },
+    "description": {
+      "html": "\n  The <strong><code>window.stop()</code></strong> stops further resource loading in the current\n  browsing context, equivalent to the stop button in the browser.\n",
+      "text": "\n  The window.stop() stops further resource loading in the current\n  browsing context, equivalent to the stop button in the browser.\n"
+    }
+  },
+  "onlanguagechange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/languagechange_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/languagechange_event\">onlanguagechange</a>",
+      "text": "onlanguagechange"
+    },
+    "description": {
+      "html": "The <strong><code>languagechange</code></strong> event is fired at the global scope object when the user&apos;s preferred language changes.",
+      "text": "The languagechange event is fired at the global scope object when the user's preferred language changes."
+    }
+  },
+  "clearInterval": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval\">clearInterval</a>",
+      "text": "clearInterval"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>clearInterval()</code></strong> method cancels a timed, repeating action which\n  was previously established by a call to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/setInterval\" title=\"setInterval()\"><code>setInterval()</code></a>.\n  If the parameter provided does not identify a previously established action,\n  this method does nothing.\n",
+      "text": "\n  The global clearInterval() method cancels a timed, repeating action which\n  was previously established by a call to setInterval().\n  If the parameter provided does not identify a previously established action,\n  this method does nothing.\n"
+    }
+  },
+  "scrollMaxY": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollMaxY\">scrollMaxY</a>",
+      "text": "scrollMaxY"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "onrejectionhandled": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/rejectionhandled_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/rejectionhandled_event\">onrejectionhandled</a>",
+      "text": "onrejectionhandled"
+    },
+    "description": {
+      "html": "The <strong><code>rejectionhandled</code></strong> event is sent to the script&apos;s global scope (usually <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>window</code></a> but also <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Worker\"><code>Worker</code></a>) whenever a rejected JavaScript <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a> is handled late, i.e. when a handler is attached to the promise after its rejection had caused an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/unhandledrejection_event\" title=\"unhandledrejection\"><code>unhandledrejection</code></a> event.",
+      "text": "The rejectionhandled event is sent to the script's global scope (usually window but also Worker) whenever a rejected JavaScript Promise is handled late, i.e. when a handler is attached to the promise after its rejection had caused an unhandledrejection event."
+    }
+  },
+  "onerror": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/error_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/error_event\">onerror</a>",
+      "text": "onerror"
+    },
+    "description": {
+      "html": "The <code>error</code> event is fired on a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> object when a resource failed to load or couldn&apos;t be used &#x2014; for example if a script has an execution error.",
+      "text": "The error event is fired on a Window object when a resource failed to load or couldn't be used — for example if a script has an execution error."
+    }
+  },
+  "cancelAnimationFrame": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelAnimationFrame",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/cancelAnimationFrame\">cancelAnimationFrame</a>",
+      "text": "cancelAnimationFrame"
+    },
+    "description": {
+      "html": "\n  The <strong><code>window.cancelAnimationFrame()</code></strong> method cancels an\n  animation frame request previously scheduled through a call to\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame\"><code>window.requestAnimationFrame()</code></a>.\n",
+      "text": "\n  The window.cancelAnimationFrame() method cancels an\n  animation frame request previously scheduled through a call to\n  window.requestAnimationFrame().\n"
+    }
+  },
+  "top": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/top",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/top\">top</a>",
+      "text": "top"
+    },
+    "description": {
+      "html": "Returns a reference to the topmost window in the window hierarchy.",
+      "text": "Returns a reference to the topmost window in the window hierarchy."
+    }
+  },
+  "back": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/back",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/back\">back</a>",
+      "text": "back"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "onmessage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/message_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/message_event\">onmessage</a>",
+      "text": "onmessage"
+    },
+    "description": {
+      "html": "The <code>message</code> event is fired on a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> object when the window receives a message, for example from a call to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage\"><code>Window.postMessage()</code></a> from another browsing context.",
+      "text": "The message event is fired on a Window object when the window receives a message, for example from a call to Window.postMessage() from another browsing context."
+    }
+  },
+  "onanimationend": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/animationend_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/animationend_event\">onanimationend</a>",
+      "text": "onanimationend"
+    },
+    "description": {
+      "html": "The <strong><code>animationend</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations\">CSS Animation</a> has completed. If the animation aborts before reaching completion, such as if the element is removed from the DOM or the animation is removed from the element, the <code>animationend</code> event is not fired.",
+      "text": "The animationend event is fired when a CSS Animation has completed. If the animation aborts before reaching completion, such as if the element is removed from the DOM or the animation is removed from the element, the animationend event is not fired."
+    }
+  },
+  "onload": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event\">onload</a>",
+      "text": "onload"
+    },
+    "description": {
+      "html": "\n  The <strong><code>load</code></strong> event is fired when the whole page has loaded, including all dependent resources such as stylesheets, scripts, iframes, and images.\n  This is in contrast to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/DOMContentLoaded_event\" title=\"DOMContentLoaded\"><code>DOMContentLoaded</code></a>, which is fired as soon as the page DOM has been loaded, without waiting for resources to finish loading.\n",
+      "text": "\n  The load event is fired when the whole page has loaded, including all dependent resources such as stylesheets, scripts, iframes, and images.\n  This is in contrast to DOMContentLoaded, which is fired as soon as the page DOM has been loaded, without waiting for resources to finish loading.\n"
+    }
+  },
+  "getComputedStyle": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/getComputedStyle\">getComputedStyle</a>",
+      "text": "getComputedStyle"
+    },
+    "description": {
+      "html": "\n  The\n  <strong><code>Window.getComputedStyle()</code></strong> method returns an object\n  containing the values of all CSS properties of an element, after applying active\n  stylesheets and resolving any basic computation those values may contain.\n",
+      "text": "\n  The\n  Window.getComputedStyle() method returns an object\n  containing the values of all CSS properties of an element, after applying active\n  stylesheets and resolving any basic computation those values may contain.\n"
+    }
+  },
+  "focus": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/focus",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/focus\">focus</a>",
+      "text": "focus"
+    },
+    "description": {
+      "html": "Makes a request to bring the window to the front. It may fail due to user settings and the window isn&apos;t guaranteed to be frontmost before this method returns.",
+      "text": "Makes a request to bring the window to the front. It may fail due to user settings and the window isn't guaranteed to be frontmost before this method returns."
+    }
+  },
+  "devicePixelRatio": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/devicePixelRatio\">devicePixelRatio</a>",
+      "text": "devicePixelRatio"
+    },
+    "description": {
+      "html": "\n  The <strong><code>devicePixelRatio</code></strong> of\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface returns the ratio of the resolution in <em>physical\npixels</em> to the resolution in <em>CSS pixels</em> for the current display\n  device.\n",
+      "text": "\n  The devicePixelRatio of\n  Window interface returns the ratio of the resolution in physical\npixels to the resolution in CSS pixels for the current display\n  device.\n"
+    }
+  },
+  "screen": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screen",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/screen\">screen</a>",
+      "text": "screen"
+    },
+    "description": {
+      "html": "\n  The <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> property <strong><code>screen</code></strong> returns a\n  reference to the screen object associated with the window. The <code>screen</code>\n  object, implementing the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Screen\"><code>Screen</code></a> interface, is a special object for\n  inspecting properties of the screen on which the current window is being rendered.\n",
+      "text": "\n  The Window property screen returns a\n  reference to the screen object associated with the window. The screen\n  object, implementing the Screen interface, is a special object for\n  inspecting properties of the screen on which the current window is being rendered.\n"
+    }
+  },
+  "fullScreen": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/fullScreen",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/fullScreen\">fullScreen</a>",
+      "text": "fullScreen"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "postMessage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage\">postMessage</a>",
+      "text": "postMessage"
+    },
+    "description": {
+      "html": "\n  The <strong><code>window.postMessage()</code></strong> method safely enables\n  cross-origin communication between <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> objects; <em>e.g.,</em> between\n  a page and a pop-up that it spawned, or between a page and an iframe embedded within it.\n",
+      "text": "\n  The window.postMessage() method safely enables\n  cross-origin communication between Window objects; e.g., between\n  a page and a pop-up that it spawned, or between a page and an iframe embedded within it.\n"
+    }
+  },
+  "onunhandledrejection": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/unhandledrejection_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/unhandledrejection_event\">onunhandledrejection</a>",
+      "text": "onunhandledrejection"
+    },
+    "description": {
+      "html": "The <strong><code>unhandledrejection</code></strong> event is sent to the global scope of a script when a JavaScript <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a> that has no rejection handler is rejected; typically, this is the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>window</code></a>, but may also be a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Worker\"><code>Worker</code></a>.",
+      "text": "The unhandledrejection event is sent to the global scope of a script when a JavaScript Promise that has no rejection handler is rejected; typically, this is the window, but may also be a Worker."
+    }
+  },
+  "navigation": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/navigation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/navigation\">navigation</a>",
+      "text": "navigation"
+    },
+    "description": {
+      "html": "<strong>Experimental:</strong> <strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete#experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
+      "text": "Experimental: This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
+    }
+  },
+  "StaticRange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/StaticRange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/StaticRange\">StaticRange</a>",
+      "text": "StaticRange"
+    },
+    "description": {
+      "html": "The <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model\">DOM</a> <strong><code>StaticRange</code></strong> interface extends <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/AbstractRange\"><code>AbstractRange</code></a> to provide a method to specify a range of content in the DOM whose contents don&apos;t update to reflect changes which occur within the DOM tree.",
+      "text": "The DOM StaticRange interface extends AbstractRange to provide a method to specify a range of content in the DOM whose contents don't update to reflect changes which occur within the DOM tree."
+    }
+  },
+  "getSelection": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection\">getSelection</a>",
+      "text": "getSelection"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.getSelection()</code></strong> method returns a\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Selection\"><code>Selection</code></a> object representing the range of text selected by the user or\n  the current position of the caret.\n",
+      "text": "\n  The Window.getSelection() method returns a\n  Selection object representing the range of text selected by the user or\n  the current position of the caret.\n"
+    }
+  },
+  "onpagehide": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/pagehide_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/pagehide_event\">onpagehide</a>",
+      "text": "onpagehide"
+    },
+    "description": {
+      "html": "The <strong><code>pagehide</code></strong> event is sent to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> when the browser hides the current page in the process of presenting a different page from the session&apos;s history.",
+      "text": "The pagehide event is sent to a Window when the browser hides the current page in the process of presenting a different page from the session's history."
+    }
+  },
+  "frames": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/frames",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/frames\">frames</a>",
+      "text": "frames"
+    },
+    "description": {
+      "html": "\n  Returns the window itself, which is an array-like object, listing the direct sub-frames\n  of the current window.\n",
+      "text": "\n  Returns the window itself, which is an array-like object, listing the direct sub-frames\n  of the current window.\n"
+    }
+  },
+  "onmessageerror": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/messageerror_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/messageerror_event\">onmessageerror</a>",
+      "text": "onmessageerror"
+    },
+    "description": {
+      "html": "The <code>messageerror</code> event is fired on a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> object when it receives a message that can&apos;t be deserialized.",
+      "text": "The messageerror event is fired on a Window object when it receives a message that can't be deserialized."
+    }
+  },
+  "pageXOffset": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/pageXOffset",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/pageXOffset\">pageXOffset</a>",
+      "text": "pageXOffset"
+    },
+    "description": {
+      "html": "The read-only <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> property <strong><code>pageXOffset</code></strong> is an alias for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX\"><code>scrollX</code></a>.",
+      "text": "The read-only Window property pageXOffset is an alias for scrollX."
+    }
+  },
+  "updateCommands": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/updateCommands",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/updateCommands\">updateCommands</a>",
+      "text": "updateCommands"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "onfocus": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/focus_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/focus_event\">onfocus</a>",
+      "text": "onfocus"
+    },
+    "description": {
+      "html": "The <strong><code>focus</code></strong> event fires when an element has received focus.",
+      "text": "The focus event fires when an element has received focus."
+    }
+  },
+  "moveBy": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/moveBy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/moveBy\">moveBy</a>",
+      "text": "moveBy"
+    },
+    "description": {
+      "html": "\n  The <strong><code>moveBy()</code></strong> method of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a>\n  interface moves the current window by a specified amount.\n",
+      "text": "\n  The moveBy() method of the Window\n  interface moves the current window by a specified amount.\n"
+    }
+  },
+  "onpopstate": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/popstate_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/popstate_event\">onpopstate</a>",
+      "text": "onpopstate"
+    },
+    "description": {
+      "html": "The <strong><code>popstate</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface is fired when the active history entry changes while the user navigates the session history. It changes the current history entry to that of the last page the user visited or, if <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/History/pushState\"><code>history.pushState()</code></a> has been used to add a history entry to the history stack, that history entry is used instead.",
+      "text": "The popstate event of the Window interface is fired when the active history entry changes while the user navigates the session history. It changes the current history entry to that of the last page the user visited or, if history.pushState() has been used to add a history entry to the history stack, that history entry is used instead."
+    }
+  },
+  "scrollTo": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo\">scrollTo</a>",
+      "text": "scrollTo"
+    },
+    "description": {
+      "html": "\n  <strong><code>Window.scrollTo()</code></strong> scrolls to a particular set of\n  coordinates in the document.\n",
+      "text": "\n  Window.scrollTo() scrolls to a particular set of\n  coordinates in the document.\n"
+    }
+  },
+  "scrollBy": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollBy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollBy\">scrollBy</a>",
+      "text": "scrollBy"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.scrollBy()</code></strong> method scrolls the document in the\n  window by the given amount.\n",
+      "text": "\n  The Window.scrollBy() method scrolls the document in the\n  window by the given amount.\n"
+    }
+  },
+  "resizeBy": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeBy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeBy\">resizeBy</a>",
+      "text": "resizeBy"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.resizeBy()</code></strong> method resizes the current window\n  by a specified amount.\n",
+      "text": "\n  The Window.resizeBy() method resizes the current window\n  by a specified amount.\n"
+    }
+  },
+  "dump": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/dump",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/dump\">dump</a>",
+      "text": "dump"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "resizeTo": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/resizeTo\">resizeTo</a>",
+      "text": "resizeTo"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.resizeTo()</code></strong> method dynamically resizes the\n  window.\n",
+      "text": "\n  The Window.resizeTo() method dynamically resizes the\n  window.\n"
+    }
+  },
+  "matchMedia": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/matchMedia\">matchMedia</a>",
+      "text": "matchMedia"
+    },
+    "description": {
+      "html": "\n  The <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface&apos;s <strong><code>matchMedia()</code></strong> method\n  returns a new <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaQueryList\"><code>MediaQueryList</code></a> object that can then be used to determine if\n  the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\"><code>document</code></a> matches the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries\">media query</a> string,\n  as well as to monitor the document to detect when it matches (or stops matching) that\n  media query.\n",
+      "text": "\n  The Window interface's matchMedia() method\n  returns a new MediaQueryList object that can then be used to determine if\n  the document matches the media query string,\n  as well as to monitor the document to detect when it matches (or stops matching) that\n  media query.\n"
+    }
+  },
+  "atob": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/atob",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/atob\">atob</a>",
+      "text": "atob"
+    },
+    "description": {
+      "html": "\n  The <strong><code>atob()</code></strong> function decodes a\n  string of data which has been encoded using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Base64\">Base64</a> encoding. You can use\n  the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/btoa\" title=\"btoa()\"><code>btoa()</code></a> method to encode and transmit\n  data which may otherwise cause communication problems, then transmit it and use the\n  <code>atob()</code> method to decode the data again. For example, you can encode,\n  transmit, and decode control characters such as ASCII values 0 through 31.\n",
+      "text": "\n  The atob() function decodes a\n  string of data which has been encoded using Base64 encoding. You can use\n  the btoa() method to encode and transmit\n  data which may otherwise cause communication problems, then transmit it and use the\n  atob() method to decode the data again. For example, you can encode,\n  transmit, and decode control characters such as ASCII values 0 through 31.\n"
+    }
+  },
+  "ontransitionend": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/transitionend_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/transitionend_event\">ontransitionend</a>",
+      "text": "ontransitionend"
+    },
+    "description": {
+      "html": "The <strong><code>transitionend</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions\">CSS transition</a> has completed. In the case where a transition is removed before completion, such as if the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transition-property\"><code>transition-property</code></a> is removed or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/display\"><code>display</code></a> is set to <code>none</code>, then the event will not be generated.",
+      "text": "The transitionend event is fired when a CSS transition has completed. In the case where a transition is removed before completion, such as if the transition-property is removed or display is set to none, then the event will not be generated."
+    }
+  },
+  "document": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/document",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/document\">document</a>",
+      "text": "document"
+    },
+    "description": {
+      "html": "<strong><code>window.document</code></strong> returns a reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\">document</a> contained in the window.",
+      "text": "window.document returns a reference to the document contained in the window."
+    }
+  },
+  "onunload": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/unload_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/unload_event\">onunload</a>",
+      "text": "onunload"
+    },
+    "description": {
+      "html": "<strong>Warning:</strong> Developers should avoid using this event. See &quot;Usage notes&quot; below.",
+      "text": "Warning: Developers should avoid using this event. See \"Usage notes\" below."
+    }
+  },
+  "frameElement": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/frameElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/frameElement\">frameElement</a>",
+      "text": "frameElement"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.frameElement</code></strong> property\n  returns the element (such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>)\n  in which the window is embedded.\n",
+      "text": "\n  The Window.frameElement property\n  returns the element (such as <iframe> or <object>)\n  in which the window is embedded.\n"
+    }
+  },
+  "applicationCache": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/applicationCache",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/applicationCache\">applicationCache</a>",
+      "text": "applicationCache"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "onpointerdown": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerdown_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerdown_event\">onpointerdown</a>",
+      "text": "onpointerdown"
+    },
+    "description": {
+      "html": "The <code>pointerdown</code> event is fired when a pointer becomes active. For mouse, it is fired when the device transitions from no buttons pressed to at least one button pressed. For touch, it is fired when physical contact is made with the digitizer. For pen, it is fired when the stylus makes physical contact with the digitizer.",
+      "text": "The pointerdown event is fired when a pointer becomes active. For mouse, it is fired when the device transitions from no buttons pressed to at least one button pressed. For touch, it is fired when physical contact is made with the digitizer. For pen, it is fired when the stylus makes physical contact with the digitizer."
+    }
+  },
+  "scrollByLines": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByLines",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollByLines\">scrollByLines</a>",
+      "text": "scrollByLines"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "clearTimeout": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/clearTimeout",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/clearTimeout\">clearTimeout</a>",
+      "text": "clearTimeout"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>clearTimeout()</code></strong> method cancels a timeout previously established\n  by calling <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/setTimeout\"><code>setTimeout()</code></a>.\n",
+      "text": "\n  The global clearTimeout() method cancels a timeout previously established\n  by calling setTimeout().\n"
+    }
+  },
+  "navigator": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/navigator",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/navigator\">navigator</a>",
+      "text": "navigator"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.navigator</code></strong> read-only property returns a\n  reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator\"><code>Navigator</code></a> object, which has methods and properties about\n  the application running the script.\n",
+      "text": "\n  The Window.navigator read-only property returns a\n  reference to the Navigator object, which has methods and properties about\n  the application running the script.\n"
+    }
+  },
+  "fetch": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/fetch\">fetch</a>",
+      "text": "fetch"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>fetch()</code></strong> method starts the process of fetching a\n  resource from the network, returning a promise which is fulfilled once the response is\n  available.\n",
+      "text": "\n  The global fetch() method starts the process of fetching a\n  resource from the network, returning a promise which is fulfilled once the response is\n  available.\n"
+    }
+  },
+  "structuredClone": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/structuredClone",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/structuredClone\">structuredClone</a>",
+      "text": "structuredClone"
+    },
+    "description": {
+      "html": "The global <strong><code>structuredClone()</code></strong> method creates a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Deep_copy\">deep clone</a> of a given value using the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm\">structured clone algorithm</a>.",
+      "text": "The global structuredClone() method creates a deep clone of a given value using the structured clone algorithm."
+    }
+  },
+  "moveTo": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/moveTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/moveTo\">moveTo</a>",
+      "text": "moveTo"
+    },
+    "description": {
+      "html": "\n  The <strong><code>moveTo()</code></strong> method of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a>\n  interface moves the current window to the specified coordinates.\n",
+      "text": "\n  The moveTo() method of the Window\n  interface moves the current window to the specified coordinates.\n"
+    }
+  },
+  "setTimeout": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/setTimeout\">setTimeout</a>",
+      "text": "setTimeout"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>setTimeout()</code></strong> method sets a timer which executes a function or specified\n  piece of code once the timer expires.\n",
+      "text": "\n  The global setTimeout() method sets a timer which executes a function or specified\n  piece of code once the timer expires.\n"
+    }
+  },
+  "crossOriginIsolated": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/crossOriginIsolated",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/crossOriginIsolated\">crossOriginIsolated</a>",
+      "text": "crossOriginIsolated"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>crossOriginIsolated</code></strong> read-only property returns a boolean value that\n  indicates whether a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer\"><code>SharedArrayBuffer</code></a> can be sent via a\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage\"><code>Window.postMessage()</code></a> call.\n",
+      "text": "\n  The global crossOriginIsolated read-only property returns a boolean value that\n  indicates whether a SharedArrayBuffer can be sent via a\n  Window.postMessage() call.\n"
+    }
+  },
+  "close": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/close",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/close\">close</a>",
+      "text": "close"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.close()</code></strong> method closes the current window, or\n  the window on which it was called.\n",
+      "text": "\n  The Window.close() method closes the current window, or\n  the window on which it was called.\n"
+    }
+  },
+  "mozInnerScreenY": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenY\">mozInnerScreenY</a>",
+      "text": "mozInnerScreenY"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "history": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/history",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/history\">history</a>",
+      "text": "history"
+    },
+    "description": {
+      "html": "The <code>Window.history</code> read-only property returns a reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/History\"><code>History</code></a> object, which provides an interface for manipulating the browser <em>session history</em> (pages visited in the tab or frame that the current page is loaded in).",
+      "text": "The Window.history read-only property returns a reference to the History object, which provides an interface for manipulating the browser session history (pages visited in the tab or frame that the current page is loaded in)."
+    }
+  },
+  "confirm": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm\">confirm</a>",
+      "text": "confirm"
+    },
+    "description": {
+      "html": "<code>window.confirm()</code> instructs the browser to display a dialog with an optional message, and to wait until the user either confirms or cancels the dialog.",
+      "text": "window.confirm() instructs the browser to display a dialog with an optional message, and to wait until the user either confirms or cancels the dialog."
+    }
+  },
+  "pageYOffset": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/pageYOffset",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/pageYOffset\">pageYOffset</a>",
+      "text": "pageYOffset"
+    },
+    "description": {
+      "html": "\n  The read-only <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> property <strong><code>pageYOffset</code></strong>\n  is an alias for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY\" title=\"scrollY\"><code>scrollY</code></a>; as such, it returns the number\n  of pixels the document is currently scrolled along the vertical axis (that is, up or\n  down) with a value of 0.0, indicating that the top edge of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\"><code>Document</code></a>\n  is currently aligned with the top edge of the window&apos;s content area.\n",
+      "text": "\n  The read-only Window property pageYOffset\n  is an alias for scrollY; as such, it returns the number\n  of pixels the document is currently scrolled along the vertical axis (that is, up or\n  down) with a value of 0.0, indicating that the top edge of the Document\n  is currently aligned with the top edge of the window's content area.\n"
+    }
+  },
+  "prompt": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt\">prompt</a>",
+      "text": "prompt"
+    },
+    "description": {
+      "html": "<code>window.prompt()</code> instructs the browser to display a dialog with an optional message prompting the user to input some text, and to wait until the user either submits the text or cancels the dialog.",
+      "text": "window.prompt() instructs the browser to display a dialog with an optional message prompting the user to input some text, and to wait until the user either submits the text or cancels the dialog."
+    }
+  },
+  "showDirectoryPicker": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/showDirectoryPicker",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/showDirectoryPicker\">showDirectoryPicker</a>",
+      "text": "showDirectoryPicker"
+    },
+    "description": {
+      "html": "<strong>Secure context:</strong> This feature is available only in <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts\">secure contexts</a> (HTTPS), in some or all <a target=\"_blank\" href=\"#browser_compatibility\">supporting browsers</a>.",
+      "text": "Secure context: This feature is available only in secure contexts (HTTPS), in some or all supporting browsers."
+    }
+  },
+  "ondevicemotion": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/devicemotion_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/devicemotion_event\">ondevicemotion</a>",
+      "text": "ondevicemotion"
+    },
+    "description": {
+      "html": "The <code>devicemotion</code> event is fired at a regular interval and indicates the amount of physical force of acceleration the device is receiving at that time. It also provides information about the rate of rotation, if available.",
+      "text": "The devicemotion event is fired at a regular interval and indicates the amount of physical force of acceleration the device is receiving at that time. It also provides information about the rate of rotation, if available."
+    }
+  },
+  "length": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/length",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/length\">length</a>",
+      "text": "length"
+    },
+    "description": {
+      "html": "\n  Returns the number of frames (either <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frame\"><code>&lt;frame&gt;</code></a> or\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a> elements) in the window.\n",
+      "text": "\n  Returns the number of frames (either <frame> or\n  <iframe> elements) in the window.\n"
+    }
+  },
+  "forward": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/forward",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/forward\">forward</a>",
+      "text": "forward"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "screenX": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screenX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/screenX\">screenX</a>",
+      "text": "screenX"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.screenX</code></strong> read-only property returns the\n  horizontal distance, in CSS pixels, of the left border of the user&apos;s browser viewport to\n  the left side of the screen.\n",
+      "text": "\n  The Window.screenX read-only property returns the\n  horizontal distance, in CSS pixels, of the left border of the user's browser viewport to\n  the left side of the screen.\n"
+    }
+  },
+  "sidebar": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sidebar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/sidebar\">sidebar</a>",
+      "text": "sidebar"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "onsecuritypolicyviolation": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/securitypolicyviolation_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/securitypolicyviolation_event\">onsecuritypolicyviolation</a>",
+      "text": "onsecuritypolicyviolation"
+    },
+    "description": {
+      "html": "The <strong><code>securitypolicyviolation</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP\">Content Security Policy</a> is violated.",
+      "text": "The securitypolicyviolation event is fired when a Content Security Policy is violated."
+    }
+  },
+  "btoa": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/btoa",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/btoa\">btoa</a>",
+      "text": "btoa"
+    },
+    "description": {
+      "html": "\n  The <strong><code>btoa()</code></strong> method creates a\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Base64\">Base64</a>-encoded ASCII string from a <em>binary string</em> (i.e., a\n  string in which each character in the string is treated as a byte\n  of binary data).\n",
+      "text": "\n  The btoa() method creates a\n  Base64-encoded ASCII string from a binary string (i.e., a\n  string in which each character in the string is treated as a byte\n  of binary data).\n"
+    }
+  },
+  "caches": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/caches",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/caches\">caches</a>",
+      "text": "caches"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>caches</code></strong> read-only property returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CacheStorage\"><code>CacheStorage</code></a> object associated with the current context.\n  This object enables functionality such as storing assets for offline use, and generating custom responses to requests.\n",
+      "text": "\n  The global caches read-only property returns the CacheStorage object associated with the current context.\n  This object enables functionality such as storing assets for offline use, and generating custom responses to requests.\n"
+    }
+  },
+  "customElements": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/customElements",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/customElements\">customElements</a>",
+      "text": "customElements"
+    },
+    "description": {
+      "html": "The <strong><code>customElements</code></strong> read-only property of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface returns a reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry\"><code>CustomElementRegistry</code></a> object, which can be used to register new <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements\">custom elements</a> and get information about previously registered custom elements.",
+      "text": "The customElements read-only property of the Window interface returns a reference to the CustomElementRegistry object, which can be used to register new custom elements and get information about previously registered custom elements."
+    }
+  },
+  "name": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/name",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/name\">name</a>",
+      "text": "name"
+    },
+    "description": {
+      "html": "\n  The <code>Window.name</code> property\n  gets/sets the name of the window&apos;s browsing context.\n",
+      "text": "\n  The Window.name property\n  gets/sets the name of the window's browsing context.\n"
+    }
+  },
+  "ondblclick": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/dblclick_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/dblclick_event\">ondblclick</a>",
+      "text": "ondblclick"
+    },
+    "description": {
+      "html": "The <strong><code>dblclick</code></strong> event fires when a pointing device button (such as a mouse&apos;s primary button) is double-clicked; that is, when it&apos;s rapidly clicked twice on a single element within a very short span of time.",
+      "text": "The dblclick event fires when a pointing device button (such as a mouse's primary button) is double-clicked; that is, when it's rapidly clicked twice on a single element within a very short span of time."
+    }
+  },
+  "toolbar": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/toolbar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/toolbar\">toolbar</a>",
+      "text": "toolbar"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.toolbar</code></strong> property returns the toolbar object,\n  which can be used to check the browser toolbar visibility.\n",
+      "text": "\n  The Window.toolbar property returns the toolbar object,\n  which can be used to check the browser toolbar visibility.\n"
+    }
+  },
+  "scroll": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scroll\">scroll</a>",
+      "text": "scroll"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.scroll()</code></strong> method scrolls the window to a\n  particular place in the document.\n",
+      "text": "\n  The Window.scroll() method scrolls the window to a\n  particular place in the document.\n"
+    }
+  },
+  "sessionStorage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage\">sessionStorage</a>",
+      "text": "sessionStorage"
+    },
+    "description": {
+      "html": "\n  The read-only <strong><code>sessionStorage</code></strong>\n  property accesses a session <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Storage\"><code>Storage</code></a> object for the current\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Origin\">origin</a>. <code>sessionStorage</code> is similar to\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage\" title=\"localStorage\"><code>localStorage</code></a>; the difference is that while data\n  in <code>localStorage</code> doesn&apos;t expire, data in <code>sessionStorage</code> is\n  cleared when the <em>page session</em> ends.\n",
+      "text": "\n  The read-only sessionStorage\n  property accesses a session Storage object for the current\n  origin. sessionStorage is similar to\n  localStorage; the difference is that while data\n  in localStorage doesn't expire, data in sessionStorage is\n  cleared when the page session ends.\n"
+    }
+  },
+  "createImageBitmap": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/createImageBitmap",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/createImageBitmap\">createImageBitmap</a>",
+      "text": "createImageBitmap"
+    },
+    "description": {
+      "html": "\n  The <strong><code>createImageBitmap()</code></strong> method creates a bitmap from a\n  given source, optionally cropped to contain only a portion of that source. The method\n  exists on the global scope in both windows and workers. It accepts a variety of\n  different image sources, and returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a> which resolves to an\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ImageBitmap\"><code>ImageBitmap</code></a>.\n",
+      "text": "\n  The createImageBitmap() method creates a bitmap from a\n  given source, optionally cropped to contain only a portion of that source. The method\n  exists on the global scope in both windows and workers. It accepts a variety of\n  different image sources, and returns a Promise which resolves to an\n  ImageBitmap.\n"
+    }
+  },
+  "screenLeft": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screenLeft",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/screenLeft\">screenLeft</a>",
+      "text": "screenLeft"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.screenLeft</code></strong> read-only property returns the\n  horizontal distance, in CSS pixels, from the left border of the user&apos;s browser viewport\n  to the left side of the screen.\n",
+      "text": "\n  The Window.screenLeft read-only property returns the\n  horizontal distance, in CSS pixels, from the left border of the user's browser viewport\n  to the left side of the screen.\n"
+    }
+  },
+  "getDefaultComputedStyle": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/getDefaultComputedStyle",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/getDefaultComputedStyle\">getDefaultComputedStyle</a>",
+      "text": "getDefaultComputedStyle"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "scrollY": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY\">scrollY</a>",
+      "text": "scrollY"
+    },
+    "description": {
+      "html": "\n  The read-only <strong><code>scrollY</code></strong> property\n  of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface returns the number of pixels that the document\n  is currently scrolled vertically.\n",
+      "text": "\n  The read-only scrollY property\n  of the Window interface returns the number of pixels that the document\n  is currently scrolled vertically.\n"
+    }
+  },
+  "opener": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/opener",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/opener\">opener</a>",
+      "text": "opener"
+    },
+    "description": {
+      "html": "\n  The <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface&apos;s\n  <strong><code>opener</code></strong> property returns a reference to the window that\n  opened the window, either with <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/open\" title=\"open()\"><code>open()</code></a>, or by navigating\n  a link with a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-target\"><code>target</code></a> attribute.\n",
+      "text": "\n  The Window interface's\n  opener property returns a reference to the window that\n  opened the window, either with open(), or by navigating\n  a link with a target attribute.\n"
+    }
+  },
+  "locationbar": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/locationbar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/locationbar\">locationbar</a>",
+      "text": "locationbar"
+    },
+    "description": {
+      "html": "Returns the <code>locationbar</code> object, whose visibility can be checked.",
+      "text": "Returns the locationbar object, whose visibility can be checked."
+    }
+  },
+  "menubar": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/menubar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/menubar\">menubar</a>",
+      "text": "menubar"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.menubar</code></strong> property returns the\n  <code>menubar</code> object, whose visibility can be checked.\n",
+      "text": "\n  The Window.menubar property returns the\n  menubar object, whose visibility can be checked.\n"
+    }
+  },
+  "onmouseleave": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseleave_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseleave_event\">onmouseleave</a>",
+      "text": "onmouseleave"
+    },
+    "description": {
+      "html": "The <strong><code>mouseleave</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when the cursor of a pointing device (usually a mouse) is moved out of it.",
+      "text": "The mouseleave event is fired at an Element when the cursor of a pointing device (usually a mouse) is moved out of it."
+    }
+  },
+  "ontransitioncancel": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/transitioncancel_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/transitioncancel_event\">ontransitioncancel</a>",
+      "text": "ontransitioncancel"
+    },
+    "description": {
+      "html": "The <strong><code>transitioncancel</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions\">CSS transition</a> is canceled.",
+      "text": "The transitioncancel event is fired when a CSS transition is canceled."
+    }
+  },
+  "onblur": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/blur_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/blur_event\">onblur</a>",
+      "text": "onblur"
+    },
+    "description": {
+      "html": "The <strong><code>blur</code></strong> event fires when an element has lost focus.",
+      "text": "The blur event fires when an element has lost focus."
+    }
+  },
+  "ontransitionrun": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/transitionrun_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/transitionrun_event\">ontransitionrun</a>",
+      "text": "ontransitionrun"
+    },
+    "description": {
+      "html": "The <strong><code>transitionrun</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions\">CSS transition</a> is first created, i.e. before any <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay\"><code>transition-delay</code></a> has begun.",
+      "text": "The transitionrun event is fired when a CSS transition is first created, i.e. before any transition-delay has begun."
+    }
+  },
+  "innerWidth": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/innerWidth\">innerWidth</a>",
+      "text": "innerWidth"
+    },
+    "description": {
+      "html": "\n  The read-only <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> property\n  <strong><code>innerWidth</code></strong> returns the interior width of the window in\n  pixels. This includes the width of the vertical scroll bar, if one is present.\n",
+      "text": "\n  The read-only Window property\n  innerWidth returns the interior width of the window in\n  pixels. This includes the width of the vertical scroll bar, if one is present.\n"
+    }
+  },
+  "screenY": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screenY",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/screenY\">screenY</a>",
+      "text": "screenY"
+    },
+    "description": {
+      "html": "The <strong><code>Window.screenY</code></strong> read-only property returns the vertical distance, in CSS pixels, of the top border of the user&apos;s browser viewport to the top edge of the screen.",
+      "text": "The Window.screenY read-only property returns the vertical distance, in CSS pixels, of the top border of the user's browser viewport to the top edge of the screen."
+    }
+  },
+  "visualViewport": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/visualViewport",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/visualViewport\">visualViewport</a>",
+      "text": "visualViewport"
+    },
+    "description": {
+      "html": "\n  The <strong><code>visualViewport</code></strong> read-only property of the\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/VisualViewport\"><code>VisualViewport</code></a> object\n  representing the visual viewport for a given window.\n",
+      "text": "\n  The visualViewport read-only property of the\n  Window interface returns a VisualViewport object\n  representing the visual viewport for a given window.\n"
+    }
+  },
+  "crypto": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/crypto\">crypto</a>",
+      "text": "crypto"
+    },
+    "description": {
+      "html": "The global read-only <strong><code>crypto</code></strong> property returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Crypto\"><code>Crypto</code></a> object associated to the global object. This object allows web pages access to certain cryptographic related services.",
+      "text": "The global read-only crypto property returns the Crypto object associated to the global object. This object allows web pages access to certain cryptographic related services."
+    }
+  },
+  "removeEventListener": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/removeEventListener",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/removeEventListener\">removeEventListener</a>",
+      "text": "removeEventListener"
+    },
+    "description": {
+      "html": "\n  The <strong><code>removeEventListener()</code></strong> method of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget\"><code>EventTarget</code></a> interface\n  removes an event listener previously registered with <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener\"><code>EventTarget.addEventListener()</code></a> from the target.\n  The event listener to be removed is identified using a combination of the event type,\n  the event listener function itself, and various optional options that may affect the matching process;\n  see <a target=\"_blank\" href=\"#matching_event_listeners_for_removal\">Matching event listeners for removal</a>.\n",
+      "text": "\n  The removeEventListener() method of the EventTarget interface\n  removes an event listener previously registered with EventTarget.addEventListener() from the target.\n  The event listener to be removed is identified using a combination of the event type,\n  the event listener function itself, and various optional options that may affect the matching process;\n  see Matching event listeners for removal.\n"
+    }
+  },
+  "queueMicrotask": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/queueMicrotask",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/queueMicrotask\">queueMicrotask</a>",
+      "text": "queueMicrotask"
+    },
+    "description": {
+      "html": "\n  The <strong><code>queueMicrotask()</code></strong> method,\n  which is exposed on the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Worker\"><code>Worker</code></a> interface,\n  queues a microtask to be executed at a safe time prior to control returning to the\n  browser&apos;s event loop.\n",
+      "text": "\n  The queueMicrotask() method,\n  which is exposed on the Window or Worker interface,\n  queues a microtask to be executed at a safe time prior to control returning to the\n  browser's event loop.\n"
+    }
+  },
+  "self": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/self",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/self\">self</a>",
+      "text": "self"
+    },
+    "description": {
+      "html": "The <strong><code>Window.self</code></strong> read-only property returns the window itself, as a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/WindowProxy\">WindowProxy</a>. It can be used with dot notation on a <code>window</code> object (that is, <code>window.self</code>) or standalone (<code>self</code>). The advantage of the standalone notation is that a similar notation exists for non-window contexts, such as in <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Worker\" title=\"Web Workers\">Web Workers</a>. By using <code>self</code>, you can refer to the global scope in a way that will work not only in a window context (<code>self</code> will resolve to <code>window.self</code>) but also in a worker context (<code>self</code> will then resolve to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/WorkerGlobalScope/self\"><code>WorkerGlobalScope.self</code></a>).",
+      "text": "The Window.self read-only property returns the window itself, as a WindowProxy. It can be used with dot notation on a window object (that is, window.self) or standalone (self). The advantage of the standalone notation is that a similar notation exists for non-window contexts, such as in Web Workers. By using self, you can refer to the global scope in a way that will work not only in a window context (self will resolve to window.self) but also in a worker context (self will then resolve to WorkerGlobalScope.self)."
+    }
+  },
+  "personalbar": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/personalbar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/personalbar\">personalbar</a>",
+      "text": "personalbar"
+    },
+    "description": {
+      "html": "\n  Returns the <code>personalbar</code> object, whose visibility can be toggled in the\n  window.\n",
+      "text": "\n  Returns the personalbar object, whose visibility can be toggled in the\n  window.\n"
+    }
+  },
+  "onclick": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/click_event\">onclick</a>",
+      "text": "onclick"
+    },
+    "description": {
+      "html": "An element receives a <strong><code>click</code></strong> event when a pointing device button (such as a mouse&apos;s primary mouse button) is both pressed and released while the pointer is located inside the element.",
+      "text": "An element receives a click event when a pointing device button (such as a mouse's primary mouse button) is both pressed and released while the pointer is located inside the element."
+    }
+  },
+  "scrollX": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollX\">scrollX</a>",
+      "text": "scrollX"
+    },
+    "description": {
+      "html": "\n  The read-only <strong><code>scrollX</code></strong> property of the\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface returns the number of pixels that the document is\n  currently scrolled horizontally. This value is subpixel precise in modern browsers,\n  meaning that it isn&apos;t necessarily a whole number. You can get the number of pixels the\n  document is scrolled vertically from the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollY\" title=\"scrollY\"><code>scrollY</code></a>\n  property.\n",
+      "text": "\n  The read-only scrollX property of the\n  Window interface returns the number of pixels that the document is\n  currently scrolled horizontally. This value is subpixel precise in modern browsers,\n  meaning that it isn't necessarily a whole number. You can get the number of pixels the\n  document is scrolled vertically from the scrollY\n  property.\n"
+    }
+  },
+  "onafterprint": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/afterprint_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/afterprint_event\">onafterprint</a>",
+      "text": "onafterprint"
+    },
+    "description": {
+      "html": "The <strong><code>afterprint</code></strong> event is fired after the associated document has started printing or the print preview has been closed.",
+      "text": "The afterprint event is fired after the associated document has started printing or the print preview has been closed."
+    }
+  },
+  "closed": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/closed",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/closed\">closed</a>",
+      "text": "closed"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.closed</code></strong> read-only property indicates whether\n  the referenced window is closed or not.\n",
+      "text": "\n  The Window.closed read-only property indicates whether\n  the referenced window is closed or not.\n"
+    }
+  },
+  "statusbar": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/statusbar",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/statusbar\">statusbar</a>",
+      "text": "statusbar"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.statusbar</code></strong> property returns the statusbar\n  object, whose visibility can be toggled in the window.\n",
+      "text": "\n  The Window.statusbar property returns the statusbar\n  object, whose visibility can be toggled in the window.\n"
+    }
+  },
+  "isSecureContext": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/isSecureContext",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/isSecureContext\">isSecureContext</a>",
+      "text": "isSecureContext"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>isSecureContext</code></strong> read-only property returns a boolean indicating whether\n  the current <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts\">context is secure</a>\n  (<code>true</code>) or not (<code>false</code>).\n",
+      "text": "\n  The global isSecureContext read-only property returns a boolean indicating whether\n  the current context is secure\n  (true) or not (false).\n"
+    }
+  },
+  "parent": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/parent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/parent\">parent</a>",
+      "text": "parent"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.parent</code></strong> property is a reference to the parent\n  of the current window or subframe.\n",
+      "text": "\n  The Window.parent property is a reference to the parent\n  of the current window or subframe.\n"
+    }
+  },
+  "onauxclick": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/auxclick_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/auxclick_event\">onauxclick</a>",
+      "text": "onauxclick"
+    },
+    "description": {
+      "html": "The <strong><code>auxclick</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a non-primary pointing device button (any mouse button other than the primary&#x2014;usually leftmost&#x2014;button) has been pressed and released both within the same element.",
+      "text": "The auxclick event is fired at an Element when a non-primary pointing device button (any mouse button other than the primary—usually leftmost—button) has been pressed and released both within the same element."
+    }
+  },
+  "innerHeight": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/innerHeight\">innerHeight</a>",
+      "text": "innerHeight"
+    },
+    "description": {
+      "html": "\n  The read-only <strong><code>innerHeight</code></strong> property of the\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface returns the interior height of the window in pixels,\n  including the height of the horizontal scroll bar, if present.\n",
+      "text": "\n  The read-only innerHeight property of the\n  Window interface returns the interior height of the window in pixels,\n  including the height of the horizontal scroll bar, if present.\n"
+    }
+  },
+  "showSaveFilePicker": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/showSaveFilePicker",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/showSaveFilePicker\">showSaveFilePicker</a>",
+      "text": "showSaveFilePicker"
+    },
+    "description": {
+      "html": "<strong>Secure context:</strong> This feature is available only in <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts\">secure contexts</a> (HTTPS), in some or all <a target=\"_blank\" href=\"#browser_compatibility\">supporting browsers</a>.",
+      "text": "Secure context: This feature is available only in secure contexts (HTTPS), in some or all supporting browsers."
+    }
+  },
+  "onhashchange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/hashchange_event\">onhashchange</a>",
+      "text": "onhashchange"
+    },
+    "description": {
+      "html": "The <strong><code>hashchange</code></strong> event is fired when the fragment identifier of the URL has changed (the part of the URL beginning with and following the <code>#</code> symbol).",
+      "text": "The hashchange event is fired when the fragment identifier of the URL has changed (the part of the URL beginning with and following the # symbol)."
+    }
+  },
+  "console": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/console",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/console\">console</a>",
+      "text": "console"
+    },
+    "description": {
+      "html": "The <strong><code>Window.console</code></strong> property returns a reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/console\"><code>console</code></a> object, which provides methods for logging information to the browser&apos;s console. These methods are intended for debugging purposes only and should not be relied on for presenting information to end users.",
+      "text": "The Window.console property returns a reference to the console object, which provides methods for logging information to the browser's console. These methods are intended for debugging purposes only and should not be relied on for presenting information to end users."
+    }
+  },
+  "scrollbars": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollbars",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollbars\">scrollbars</a>",
+      "text": "scrollbars"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.scrollbars</code></strong> property returns the\n  <code>scrollbars</code> object, whose visibility can be checked.\n",
+      "text": "\n  The Window.scrollbars property returns the\n  scrollbars object, whose visibility can be checked.\n"
+    }
+  },
+  "credentialless": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/credentialless",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/credentialless\">credentialless</a>",
+      "text": "credentialless"
+    },
+    "description": {
+      "html": "<strong>Experimental:</strong> <strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete#experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
+      "text": "Experimental: This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
+    }
+  },
+  "window": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/window",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/window\">window</a>",
+      "text": "window"
+    },
+    "description": {
+      "html": "The <strong><code>window</code></strong> property of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> object points to the window object itself.",
+      "text": "The window property of a Window object points to the window object itself."
+    }
+  },
+  "reportError": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/reportError",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/reportError\">reportError</a>",
+      "text": "reportError"
+    },
+    "description": {
+      "html": "<strong>Note:</strong> This feature is available in <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API\">Web Workers</a>",
+      "text": "Note: This feature is available in Web Workers"
+    }
+  },
+  "defaultStatus": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/defaultStatus",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/defaultStatus\">defaultStatus</a>",
+      "text": "defaultStatus"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "onmouseup": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseup_event\">onmouseup</a>",
+      "text": "onmouseup"
+    },
+    "description": {
+      "html": "The <strong><code>mouseup</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a button on a pointing device (such as a mouse or trackpad) is released while the pointer is located inside it.",
+      "text": "The mouseup event is fired at an Element when a button on a pointing device (such as a mouse or trackpad) is released while the pointer is located inside it."
+    }
+  },
+  "onbeforeunload": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeunload_event\">onbeforeunload</a>",
+      "text": "onbeforeunload"
+    },
+    "description": {
+      "html": "The <strong><code>beforeunload</code></strong> event is fired when the window, the document and its resources are about to be unloaded. The document is still visible and the event is still cancelable at this point.",
+      "text": "The beforeunload event is fired when the window, the document and its resources are about to be unloaded. The document is still visible and the event is still cancelable at this point."
+    }
+  },
+  "onplay": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play_event\">onplay</a>",
+      "text": "onplay"
+    },
+    "description": {
+      "html": "The <code>play</code> event is fired when the <code>paused</code> property is changed from <code>true</code> to <code>false</code>, as a result of the <code>play</code> method, or the <code>autoplay</code> attribute.",
+      "text": "The play event is fired when the paused property is changed from true to false, as a result of the play method, or the autoplay attribute."
+    }
+  },
+  "onkeydown": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event\">onkeydown</a>",
+      "text": "onkeydown"
+    },
+    "description": {
+      "html": "The <strong><code>keydown</code></strong> event is fired when a key is pressed.",
+      "text": "The keydown event is fired when a key is pressed."
+    }
+  },
+  "DOMParser": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/DOMParser",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMParser\">DOMParser</a>",
+      "text": "DOMParser"
+    },
+    "description": {
+      "html": "\n  The <strong><code>DOMParser</code></strong> interface provides\n  the ability to parse <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/XML\">XML</a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/HTML\">HTML</a> source code from a\n  string into a DOM <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\"><code>Document</code></a>.\n",
+      "text": "\n  The DOMParser interface provides\n  the ability to parse XML or HTML source code from a\n  string into a DOM Document.\n"
+    }
+  },
+  "onoffline": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/offline_event\">onoffline</a>",
+      "text": "onoffline"
+    },
+    "description": {
+      "html": "The <strong><code>offline</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface is fired when the browser has lost access to the network and the value of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine\"><code>Navigator.onLine</code></a> switches to <code>false</code>.",
+      "text": "The offline event of the Window interface is fired when the browser has lost access to the network and the value of Navigator.onLine switches to false."
+    }
+  },
+  "showModalDialog": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/showModalDialog\">showModalDialog</a>",
+      "text": "showModalDialog"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "ongamepadconnected": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/gamepadconnected_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/gamepadconnected_event\">ongamepadconnected</a>",
+      "text": "ongamepadconnected"
+    },
+    "description": {
+      "html": "The <code>gamepadconnected</code> event is fired when the browser detects that a gamepad has been connected or the first time a button/axis of the gamepad is used.",
+      "text": "The gamepadconnected event is fired when the browser detects that a gamepad has been connected or the first time a button/axis of the gamepad is used."
+    }
+  },
+  "status": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/status",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/status\">status</a>",
+      "text": "status"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "onanimationiteration": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/animationiteration_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/animationiteration_event\">onanimationiteration</a>",
+      "text": "onanimationiteration"
+    },
+    "description": {
+      "html": "The <strong><code>animationiteration</code></strong> event is fired when an iteration of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations\">CSS Animation</a> ends, and another one begins. This event does not occur at the same time as the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationend_event\" title=\"animationend\"><code>animationend</code></a> event, and therefore does not occur for animations with an <code>animation-iteration-count</code> of one.",
+      "text": "The animationiteration event is fired when an iteration of a CSS Animation ends, and another one begins. This event does not occur at the same time as the animationend event, and therefore does not occur for animations with an animation-iteration-count of one."
+    }
+  },
+  "onlostpointercapture": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/lostpointercapture_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/lostpointercapture_event\">onlostpointercapture</a>",
+      "text": "onlostpointercapture"
+    },
+    "description": {
+      "html": "The <strong><code>lostpointercapture</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events#pointer_capture\">captured pointer</a> is released.",
+      "text": "The lostpointercapture event is fired when a captured pointer is released."
+    }
+  },
+  "origin": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/origin",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/origin\">origin</a>",
+      "text": "origin"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>origin</code></strong> read-only property returns the origin of the global\n  scope, serialized as a string.\n",
+      "text": "\n  The global origin read-only property returns the origin of the global\n  scope, serialized as a string.\n"
+    }
+  },
+  "onkeyup": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event\">onkeyup</a>",
+      "text": "onkeyup"
+    },
+    "description": {
+      "html": "The <strong><code>keyup</code></strong> event is fired when a key is released.",
+      "text": "The keyup event is fired when a key is released."
+    }
+  },
+  "requestIdleCallback": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/requestIdleCallback\">requestIdleCallback</a>",
+      "text": "requestIdleCallback"
+    },
+    "description": {
+      "html": "\n  The <strong><code>window.requestIdleCallback()</code></strong> method queues a function\n  to be called during a browser&apos;s idle periods. This enables developers to perform\n  background and low priority work on the main event loop, without impacting\n  latency-critical events such as animation and input response. Functions are generally\n  called in first-in-first-out order; however, callbacks which have a <code>timeout</code>\n  specified may be called out-of-order if necessary in order to run them before the\n  timeout elapses.\n",
+      "text": "\n  The window.requestIdleCallback() method queues a function\n  to be called during a browser's idle periods. This enables developers to perform\n  background and low priority work on the main event loop, without impacting\n  latency-critical events such as animation and input response. Functions are generally\n  called in first-in-first-out order; however, callbacks which have a timeout\n  specified may be called out-of-order if necessary in order to run them before the\n  timeout elapses.\n"
+    }
+  },
+  "onmousedown": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/mousedown_event\">onmousedown</a>",
+      "text": "onmousedown"
+    },
+    "description": {
+      "html": "The <strong><code>mousedown</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device button is pressed while the pointer is inside the element.",
+      "text": "The mousedown event is fired at an Element when a pointing device button is pressed while the pointer is inside the element."
+    }
+  },
+  "onanimationstart": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/animationstart_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/animationstart_event\">onanimationstart</a>",
+      "text": "onanimationstart"
+    },
+    "description": {
+      "html": "The <strong><code>animationstart</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations\">CSS Animation</a> has started. If there is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/animation-delay\"><code>animation-delay</code></a>, this event will fire once the delay period has expired. A negative delay will cause the event to fire with an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/AnimationEvent/elapsedTime\" title=\"elapsedTime\"><code>elapsedTime</code></a> equal to the absolute value of the delay (and, correspondingly, the animation will begin playing at that time index into the sequence).",
+      "text": "The animationstart event is fired when a CSS Animation has started. If there is an animation-delay, this event will fire once the delay period has expired. A negative delay will cause the event to fire with an elapsedTime equal to the absolute value of the delay (and, correspondingly, the animation will begin playing at that time index into the sequence)."
+    }
+  },
+  "screenTop": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/screenTop",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/screenTop\">screenTop</a>",
+      "text": "screenTop"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.screenTop</code></strong> read-only property returns the\n  vertical distance, in CSS pixels, from the top border of the user&apos;s browser viewport to\n  the top side of the screen.\n",
+      "text": "\n  The Window.screenTop read-only property returns the\n  vertical distance, in CSS pixels, from the top border of the user's browser viewport to\n  the top side of the screen.\n"
+    }
+  },
+  "XMLSerializer": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer\">XMLSerializer</a>",
+      "text": "XMLSerializer"
+    },
+    "description": {
+      "html": "The <code>XMLSerializer</code> interface provides the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer/serializeToString\" title=\"serializeToString()\"><code>serializeToString()</code></a> method to construct an XML string representing a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/DOM\">DOM</a> tree.",
+      "text": "The XMLSerializer interface provides the serializeToString() method to construct an XML string representing a DOM tree."
+    }
+  },
+  "onmousemove": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/mousemove_event\">onmousemove</a>",
+      "text": "onmousemove"
+    },
+    "description": {
+      "html": "The <code>mousemove</code> event is fired at an element when a pointing device (usually a mouse) is moved while the cursor&apos;s hotspot is inside it.",
+      "text": "The mousemove event is fired at an element when a pointing device (usually a mouse) is moved while the cursor's hotspot is inside it."
+    }
+  },
+  "onmouseover": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event\">onmouseover</a>",
+      "text": "onmouseover"
+    },
+    "description": {
+      "html": "The <strong><code>mouseover</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (such as a mouse or trackpad) is used to move the cursor onto the element or one of its child elements.",
+      "text": "The mouseover event is fired at an Element when a pointing device (such as a mouse or trackpad) is used to move the cursor onto the element or one of its child elements."
+    }
+  },
+  "oncanplaythrough": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canplaythrough_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canplaythrough_event\">oncanplaythrough</a>",
+      "text": "oncanplaythrough"
+    },
+    "description": {
+      "html": "The <code>canplaythrough</code> event is fired when the user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content.",
+      "text": "The canplaythrough event is fired when the user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content."
+    }
+  },
+  "onanimationcancel": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/animationcancel_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/animationcancel_event\">onanimationcancel</a>",
+      "text": "onanimationcancel"
+    },
+    "description": {
+      "html": "The <strong><code>animationcancel</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations\">CSS Animation</a> unexpectedly aborts. In other words, any time it stops running without sending an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationend_event\" title=\"animationend\"><code>animationend</code></a> event. This might happen when the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/animation-name\"><code>animation-name</code></a> is changed such that the animation is removed, or when the animating node is hidden using CSS. Therefore, either directly or because any of its containing nodes are hidden.",
+      "text": "The animationcancel event is fired when a CSS Animation unexpectedly aborts. In other words, any time it stops running without sending an animationend event. This might happen when the animation-name is changed such that the animation is removed, or when the animating node is hidden using CSS. Therefore, either directly or because any of its containing nodes are hidden."
+    }
+  },
+  "onkeypress": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event\">onkeypress</a>",
+      "text": "onkeypress"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "ontransitionstart": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/transitionstart_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/transitionstart_event\">ontransitionstart</a>",
+      "text": "ontransitionstart"
+    },
+    "description": {
+      "html": "The <strong><code>transitionstart</code></strong> event is fired when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions\">CSS transition</a> has actually started, i.e., after any <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay\"><code>transition-delay</code></a> has ended.",
+      "text": "The transitionstart event is fired when a CSS transition has actually started, i.e., after any transition-delay has ended."
+    }
+  },
+  "addEventListener": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/addEventListener",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/addEventListener\">addEventListener</a>",
+      "text": "addEventListener"
+    },
+    "description": {
+      "html": "\n  The <strong><code>addEventListener()</code></strong> method of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget\"><code>EventTarget</code></a> interface\n  sets up a function that will be called whenever the specified event is delivered to the target.\n",
+      "text": "\n  The addEventListener() method of the EventTarget interface\n  sets up a function that will be called whenever the specified event is delivered to the target.\n"
+    }
+  },
+  "setInterval": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval\">setInterval</a>",
+      "text": "setInterval"
+    },
+    "description": {
+      "html": "\n  The <strong><code>setInterval()</code></strong> method,\n  offered on the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Worker\"><code>Worker</code></a> interfaces, repeatedly\n  calls a function or executes a code snippet, with a fixed time delay between each\n  call.\n",
+      "text": "\n  The setInterval() method,\n  offered on the Window and Worker interfaces, repeatedly\n  calls a function or executes a code snippet, with a fixed time delay between each\n  call.\n"
+    }
+  },
+  "storage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/storage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/storage\">storage</a>",
+      "text": "storage"
+    },
+    "description": {
+      "html": "The <strong><code>Storage</code></strong> interface of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API\">Web Storage API</a> provides access to a particular domain&apos;s session or local storage. It allows, for example, the addition, modification, or deletion of stored data items.",
+      "text": "The Storage interface of the Web Storage API provides access to a particular domain's session or local storage. It allows, for example, the addition, modification, or deletion of stored data items."
+    }
+  },
+  "ondurationchange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/durationchange_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/durationchange_event\">ondurationchange</a>",
+      "text": "ondurationchange"
+    },
+    "description": {
+      "html": "The <code>durationchange</code> event is fired when the <code>duration</code> attribute has been updated.",
+      "text": "The durationchange event is fired when the duration attribute has been updated."
+    }
+  },
+  "location": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/location",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/location\">location</a>",
+      "text": "location"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Window.location</code></strong> read-only property returns a\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Location\"><code>Location</code></a> object with information about the current location of the\n  document.\n",
+      "text": "\n  The Window.location read-only property returns a\n  Location object with information about the current location of the\n  document.\n"
+    }
+  },
+  "Image": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Image",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Image\">Image</a>",
+      "text": "Image"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Image()</code></strong>\n  constructor creates a new <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement\"><code>HTMLImageElement</code></a> instance. It is functionally\n  equivalent to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement\" title=\"document.createElement(&apos;img&apos;)\"><code>document.createElement(&apos;img&apos;)</code></a>.\n",
+      "text": "\n  The Image()\n  constructor creates a new HTMLImageElement instance. It is functionally\n  equivalent to document.createElement('img').\n"
+    }
+  },
+  "oncontextmenu": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/contextmenu_event\">oncontextmenu</a>",
+      "text": "oncontextmenu"
+    },
+    "description": {
+      "html": "The <strong><code>contextmenu</code></strong> event fires when the user attempts to open a context menu. This event is typically triggered by clicking the right mouse button, or by pressing the context menu key.",
+      "text": "The contextmenu event fires when the user attempts to open a context menu. This event is typically triggered by clicking the right mouse button, or by pressing the context menu key."
+    }
+  },
+  "requestAnimationFrame": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/requestAnimationFrame\">requestAnimationFrame</a>",
+      "text": "requestAnimationFrame"
+    },
+    "description": {
+      "html": "\n  The <strong><code>window.requestAnimationFrame()</code></strong> method tells the\n  browser that you wish to perform an animation and requests that the browser calls a\n  specified function to update an animation before the next repaint. The method takes a\n  callback as an argument to be invoked before the repaint.\n",
+      "text": "\n  The window.requestAnimationFrame() method tells the\n  browser that you wish to perform an animation and requests that the browser calls a\n  specified function to update an animation before the next repaint. The method takes a\n  callback as an argument to be invoked before the repaint.\n"
+    }
+  },
+  "ongotpointercapture": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/gotpointercapture_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/gotpointercapture_event\">ongotpointercapture</a>",
+      "text": "ongotpointercapture"
+    },
+    "description": {
+      "html": "The <strong><code>gotpointercapture</code></strong> event is fired when an element captures a pointer using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture\"><code>setPointerCapture()</code></a>.",
+      "text": "The gotpointercapture event is fired when an element captures a pointer using setPointerCapture()."
+    }
+  },
+  "onmouseenter": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseenter_event\">onmouseenter</a>",
+      "text": "onmouseenter"
+    },
+    "description": {
+      "html": "The <strong><code>mouseenter</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (usually a mouse) is initially moved so that its hotspot is within the element at which the event was fired.",
+      "text": "The mouseenter event is fired at an Element when a pointing device (usually a mouse) is initially moved so that its hotspot is within the element at which the event was fired."
+    }
+  },
+  "onpointerover": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerover_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerover_event\">onpointerover</a>",
+      "text": "onpointerover"
+    },
+    "description": {
+      "html": "The <code>pointerover</code> event is fired when a pointing device is moved into an element&apos;s hit test boundaries.",
+      "text": "The pointerover event is fired when a pointing device is moved into an element's hit test boundaries."
+    }
+  },
+  "performance": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/performance",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/performance\">performance</a>",
+      "text": "performance"
+    },
+    "description": {
+      "html": "The global <strong><code>performance</code></strong> property returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Performance\"><code>Performance</code></a> object, which can be used to gather performance information about the context it is called in (window or worker).",
+      "text": "The global performance property returns a Performance object, which can be used to gather performance information about the context it is called in (window or worker)."
+    }
+  },
+  "onstorage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/storage_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/storage_event\">onstorage</a>",
+      "text": "onstorage"
+    },
+    "description": {
+      "html": "The <strong><code>storage</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface fires when a storage area (<code>localStorage</code>) has been modified in the context of another document.",
+      "text": "The storage event of the Window interface fires when a storage area (localStorage) has been modified in the context of another document."
+    }
+  },
+  "onpointerleave": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerleave_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerleave_event\">onpointerleave</a>",
+      "text": "onpointerleave"
+    },
+    "description": {
+      "html": "The <code>pointerleave</code> event is fired when a pointing device is moved out of the hit test boundaries of an element. For pen devices, this event is fired when the stylus leaves the hover range detectable by the digitizer.",
+      "text": "The pointerleave event is fired when a pointing device is moved out of the hit test boundaries of an element. For pen devices, this event is fired when the stylus leaves the hover range detectable by the digitizer."
+    }
+  },
+  "onpointerout": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerout_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerout_event\">onpointerout</a>",
+      "text": "onpointerout"
+    },
+    "description": {
+      "html": "The <code>pointerout</code> event is fired for several reasons including: pointing device is moved out of the <em>hit test</em> boundaries of an element; firing the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerup_event\" title=\"pointerup\"><code>pointerup</code></a> event for a device that does not support hover (see <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerup_event\" title=\"pointerup\"><code>pointerup</code></a>); after firing the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointercancel_event\" title=\"pointercancel\"><code>pointercancel</code></a> event (see <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointercancel_event\" title=\"pointercancel\"><code>pointercancel</code></a>); when a pen stylus leaves the hover range detectable by the digitizer.",
+      "text": "The pointerout event is fired for several reasons including: pointing device is moved out of the hit test boundaries of an element; firing the pointerup event for a device that does not support hover (see pointerup); after firing the pointercancel event (see pointercancel); when a pen stylus leaves the hover range detectable by the digitizer."
+    }
+  },
+  "find": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/find",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/find\">find</a>",
+      "text": "find"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "onemptied": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/emptied_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/emptied_event\">onemptied</a>",
+      "text": "onemptied"
+    },
+    "description": {
+      "html": "The <code>emptied</code> event is fired when the media has become empty; for example, this event is sent if the media has already been loaded (or partially loaded), and the <code>load()</code> method is called to reload it.",
+      "text": "The emptied event is fired when the media has become empty; for example, this event is sent if the media has already been loaded (or partially loaded), and the load() method is called to reload it."
+    }
+  },
+  "onpause": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause_event\">onpause</a>",
+      "text": "onpause"
+    },
+    "description": {
+      "html": "The <code>pause</code> event is sent when a request to pause an activity is handled and the activity has entered its paused state, most commonly after the media has been paused through a call to the element&apos;s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause\" title=\"pause()\"><code>pause()</code></a> method.",
+      "text": "The pause event is sent when a request to pause an activity is handled and the activity has entered its paused state, most commonly after the media has been paused through a call to the element's pause() method."
+    }
+  },
+  "event": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/event\">event</a>",
+      "text": "event"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "onselect": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/select_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/select_event\">onselect</a>",
+      "text": "onselect"
+    },
+    "description": {
+      "html": "The <strong><code>select</code></strong> event fires when some text has been selected.",
+      "text": "The select event fires when some text has been selected."
+    }
+  },
+  "indexedDB": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/indexedDB",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/indexedDB\">indexedDB</a>",
+      "text": "indexedDB"
+    },
+    "description": {
+      "html": "\n  The global <strong><code>indexedDB</code></strong> read-only property provides a mechanism for applications to\n  asynchronously access the capabilities of indexed databases.\n",
+      "text": "\n  The global indexedDB read-only property provides a mechanism for applications to\n  asynchronously access the capabilities of indexed databases.\n"
+    }
+  },
+  "onpointerenter": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerenter_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerenter_event\">onpointerenter</a>",
+      "text": "onpointerenter"
+    },
+    "description": {
+      "html": "The <code>pointerenter</code> event fires when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerdown_event\" title=\"pointerdown\"><code>pointerdown</code></a> event from a device that does not support hover (see <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerdown_event\" title=\"pointerdown\"><code>pointerdown</code></a>).",
+      "text": "The pointerenter event fires when a pointing device is moved into the hit test boundaries of an element or one of its descendants, including as a result of a pointerdown event from a device that does not support hover (see pointerdown)."
+    }
+  },
+  "ontimeupdate": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/timeupdate_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/timeupdate_event\">ontimeupdate</a>",
+      "text": "ontimeupdate"
+    },
+    "description": {
+      "html": "The <code>timeupdate</code> event is fired when the time indicated by the <code>currentTime</code> attribute has been updated.",
+      "text": "The timeupdate event is fired when the time indicated by the currentTime attribute has been updated."
+    }
+  },
+  "onloadeddata": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadeddata_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadeddata_event\">onloadeddata</a>",
+      "text": "onloadeddata"
+    },
+    "description": {
+      "html": "The <strong><code>loadeddata</code></strong> event is fired when the frame at the current playback position of the media has finished loading; often the first frame.",
+      "text": "The loadeddata event is fired when the frame at the current playback position of the media has finished loading; often the first frame."
+    }
+  },
+  "onsuspend": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/suspend_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/suspend_event\">onsuspend</a>",
+      "text": "onsuspend"
+    },
+    "description": {
+      "html": "The <code>suspend</code> event is fired when media data loading has been suspended.",
+      "text": "The suspend event is fired when media data loading has been suspended."
+    }
+  },
+  "onseeked": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seeked_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seeked_event\">onseeked</a>",
+      "text": "onseeked"
+    },
+    "description": {
+      "html": "The <code>seeked</code> event is fired when a seek operation completed, the current playback position has changed, and the Boolean <code>seeking</code> attribute is changed to <code>false</code>.",
+      "text": "The seeked event is fired when a seek operation completed, the current playback position has changed, and the Boolean seeking attribute is changed to false."
+    }
+  },
+  "onprogress": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/progress_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/progress_event\">onprogress</a>",
+      "text": "onprogress"
+    },
+    "description": {
+      "html": "The <strong><code>progress</code></strong> event is fired periodically as the browser loads a resource.",
+      "text": "The progress event is fired periodically as the browser loads a resource."
+    }
+  },
+  "onwheel": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/wheel_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/wheel_event\">onwheel</a>",
+      "text": "onwheel"
+    },
+    "description": {
+      "html": "The <strong><code>wheel</code></strong> event fires when the user rotates a wheel button on a pointing device (typically a mouse).",
+      "text": "The wheel event fires when the user rotates a wheel button on a pointing device (typically a mouse)."
+    }
+  },
+  "onended": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended_event\">onended</a>",
+      "text": "onended"
+    },
+    "description": {
+      "html": "The <code>ended</code> event is fired when playback or streaming has stopped because the end of the media was reached or because no further data is available.",
+      "text": "The ended event is fired when playback or streaming has stopped because the end of the media was reached or because no further data is available."
+    }
+  },
+  "sizeToContent": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/sizeToContent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/sizeToContent\">sizeToContent</a>",
+      "text": "sizeToContent"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "showOpenFilePicker": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/showOpenFilePicker",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/showOpenFilePicker\">showOpenFilePicker</a>",
+      "text": "showOpenFilePicker"
+    },
+    "description": {
+      "html": "<strong>Secure context:</strong> This feature is available only in <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Security/Secure_Contexts\">secure contexts</a> (HTTPS), in some or all <a target=\"_blank\" href=\"#browser_compatibility\">supporting browsers</a>.",
+      "text": "Secure context: This feature is available only in secure contexts (HTTPS), in some or all supporting browsers."
+    }
+  },
+  "oninvalid": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/invalid_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/invalid_event\">oninvalid</a>",
+      "text": "oninvalid"
+    },
+    "description": {
+      "html": "The <strong><code>invalid</code></strong> event fires when a submittable element has been checked for validity and doesn&apos;t satisfy its constraints.",
+      "text": "The invalid event fires when a submittable element has been checked for validity and doesn't satisfy its constraints."
+    }
+  },
+  "outerWidth": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/outerWidth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/outerWidth\">outerWidth</a>",
+      "text": "outerWidth"
+    },
+    "description": {
+      "html": "<strong><code>Window.outerWidth</code></strong> read-only property returns the width of the outside of the browser window. It represents the width of the whole browser window including sidebar (if expanded), window chrome and window resizing borders/handles.",
+      "text": "Window.outerWidth read-only property returns the width of the outside of the browser window. It represents the width of the whole browser window including sidebar (if expanded), window chrome and window resizing borders/handles."
+    }
+  },
+  "mozInnerScreenX": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenX",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/mozInnerScreenX\">mozInnerScreenX</a>",
+      "text": "mozInnerScreenX"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "Option": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Option",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Option\">Option</a>",
+      "text": "Option"
+    },
+    "description": {
+      "html": "\n  The <strong><code>Option()</code></strong> constructor creates a new\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionElement\"><code>HTMLOptionElement</code></a>.\n",
+      "text": "\n  The Option() constructor creates a new\n  HTMLOptionElement.\n"
+    }
+  },
+  "onselectionchange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/selectionchange_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/selectionchange_event\">onselectionchange</a>",
+      "text": "onselectionchange"
+    },
+    "description": {
+      "html": "<strong>Experimental:</strong> <strong>This is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete#experimental\">experimental technology</a></strong><br>Check the <a target=\"_blank\" href=\"#browser_compatibility\">Browser compatibility table</a> carefully before using this in production.",
+      "text": "Experimental: This is an experimental technologyCheck the Browser compatibility table carefully before using this in production."
+    }
+  },
+  "ondeviceorientation": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/deviceorientation_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/deviceorientation_event\">ondeviceorientation</a>",
+      "text": "ondeviceorientation"
+    },
+    "description": {
+      "html": "The <strong><code>deviceorientation</code></strong> event is fired when fresh data is available from an orientation sensor about the current orientation of the device as compared to the Earth coordinate frame. This data is gathered from a magnetometer inside the device.",
+      "text": "The deviceorientation event is fired when fresh data is available from an orientation sensor about the current orientation of the device as compared to the Earth coordinate frame. This data is gathered from a magnetometer inside the device."
+    }
+  },
+  "onplaying": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playing_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playing_event\">onplaying</a>",
+      "text": "onplaying"
+    },
+    "description": {
+      "html": "The <code>playing</code> event is fired after playback is first started, and whenever it is restarted. For example it is fired when playback resumes after having been paused or delayed due to lack of data.",
+      "text": "The playing event is fired after playback is first started, and whenever it is restarted. For example it is fired when playback resumes after having been paused or delayed due to lack of data."
+    }
+  },
+  "onabort": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/abort_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/abort_event\">onabort</a>",
+      "text": "onabort"
+    },
+    "description": {
+      "html": "The <strong><code>abort</code></strong> event is fired when the resource was not fully loaded, but not as the result of an error.",
+      "text": "The abort event is fired when the resource was not fully loaded, but not as the result of an error."
+    }
+  },
+  "onloadstart": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event\">onloadstart</a>",
+      "text": "onloadstart"
+    },
+    "description": {
+      "html": "The <strong><code>loadstart</code></strong> event is fired when the browser has started to load a resource.",
+      "text": "The loadstart event is fired when the browser has started to load a resource."
+    }
+  },
+  "onpointerup": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerup_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerup_event\">onpointerup</a>",
+      "text": "onpointerup"
+    },
+    "description": {
+      "html": "The <code>pointerup</code> event is fired when a pointer is no longer active.",
+      "text": "The pointerup event is fired when a pointer is no longer active."
+    }
+  },
+  "onratechange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ratechange_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ratechange_event\">onratechange</a>",
+      "text": "onratechange"
+    },
+    "description": {
+      "html": "The <code>ratechange</code> event is fired when the playback rate has changed.",
+      "text": "The ratechange event is fired when the playback rate has changed."
+    }
+  },
+  "ondragleave": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragleave_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragleave_event\">ondragleave</a>",
+      "text": "ondragleave"
+    },
+    "description": {
+      "html": "The <code>dragleave</code> event is fired when a dragged element or text selection leaves a valid drop target.",
+      "text": "The dragleave event is fired when a dragged element or text selection leaves a valid drop target."
+    }
+  },
+  "oncanplay": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canplay_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canplay_event\">oncanplay</a>",
+      "text": "oncanplay"
+    },
+    "description": {
+      "html": "The <code>canplay</code> event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content.",
+      "text": "The canplay event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content."
+    }
+  },
+  "dispatchEvent": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent\">dispatchEvent</a>",
+      "text": "dispatchEvent"
+    },
+    "description": {
+      "html": "\n  The <strong><code>dispatchEvent()</code></strong> method of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget\"><code>EventTarget</code></a> sends an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Event\"><code>Event</code></a> to the object, (synchronously) invoking the affected\n  <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener\"><code>EventListener</code></a>s in the appropriate order. The normal event processing\n  rules (including the capturing and optional bubbling phase) also apply to events\n  dispatched manually with <code>dispatchEvent()</code>.\n",
+      "text": "\n  The dispatchEvent() method of the EventTarget sends an Event to the object, (synchronously) invoking the affected\n  EventListeners in the appropriate order. The normal event processing\n  rules (including the capturing and optional bubbling phase) also apply to events\n  dispatched manually with dispatchEvent().\n"
+    }
+  },
+  "onseeking": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seeking_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seeking_event\">onseeking</a>",
+      "text": "onseeking"
+    },
+    "description": {
+      "html": "The <code>seeking</code> event is fired when a seek operation starts, meaning the Boolean <code>seeking</code> attribute has changed to <code>true</code> and the media is seeking a new position.",
+      "text": "The seeking event is fired when a seek operation starts, meaning the Boolean seeking attribute has changed to true and the media is seeking a new position."
+    }
+  },
+  "onvolumechange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volumechange_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volumechange_event\">onvolumechange</a>",
+      "text": "onvolumechange"
+    },
+    "description": {
+      "html": "The <code>volumechange</code> event is fired when the volume has changed.",
+      "text": "The volumechange event is fired when the volume has changed."
+    }
+  },
+  "ondragstart": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragstart_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragstart_event\">ondragstart</a>",
+      "text": "ondragstart"
+    },
+    "description": {
+      "html": "The <code>dragstart</code> event is fired when the user starts dragging an element or text selection.",
+      "text": "The dragstart event is fired when the user starts dragging an element or text selection."
+    }
+  },
+  "onpageshow": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/pageshow_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/pageshow_event\">onpageshow</a>",
+      "text": "onpageshow"
+    },
+    "description": {
+      "html": "The <strong><code>pageshow</code></strong> event is sent to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> when the browser displays the window&apos;s document due to navigation.",
+      "text": "The pageshow event is sent to a Window when the browser displays the window's document due to navigation."
+    }
+  },
+  "oninput": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event\">oninput</a>",
+      "text": "oninput"
+    },
+    "description": {
+      "html": "The <strong><code>input</code></strong> event fires when the <code>value</code> of an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a> element has been changed.",
+      "text": "The input event fires when the value of an <input>, <select>, or <textarea> element has been changed."
+    }
+  },
+  "onmouseout": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseout_event\">onmouseout</a>",
+      "text": "onmouseout"
+    },
+    "description": {
+      "html": "The <strong><code>mouseout</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (usually a mouse) is used to move the cursor so that it is no longer contained within the element or one of its children.",
+      "text": "The mouseout event is fired at an Element when a pointing device (usually a mouse) is used to move the cursor so that it is no longer contained within the element or one of its children."
+    }
+  },
+  "ononline": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/online_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/online_event\">ononline</a>",
+      "text": "ononline"
+    },
+    "description": {
+      "html": "The <strong><code>online</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface is fired when the browser has gained access to the network and the value of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine\"><code>Navigator.onLine</code></a> switches to <code>true</code>.",
+      "text": "The online event of the Window interface is fired when the browser has gained access to the network and the value of Navigator.onLine switches to true."
+    }
+  },
+  "ondragenter": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragenter_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragenter_event\">ondragenter</a>",
+      "text": "ondragenter"
+    },
+    "description": {
+      "html": "The <code>dragenter</code> event is fired when a dragged element or text selection enters a valid drop target.",
+      "text": "The dragenter event is fired when a dragged element or text selection enters a valid drop target."
+    }
+  },
+  "onpointermove": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointermove_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointermove_event\">onpointermove</a>",
+      "text": "onpointermove"
+    },
+    "description": {
+      "html": "The <code>pointermove</code> event is fired when a pointer changes coordinates, and the pointer has not been <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointercancel_event\">canceled</a> by a browser <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action\">touch-action</a>.",
+      "text": "The pointermove event is fired when a pointer changes coordinates, and the pointer has not been canceled by a browser touch-action."
+    }
+  },
+  "onscroll": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event\">onscroll</a>",
+      "text": "onscroll"
+    },
+    "description": {
+      "html": "\n  The <strong><code>scroll</code></strong> event fires when an element has been scrolled.\n  To detect when scrolling has completed, see the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollend_event\" title=\"Element: scrollend event\"><code>Element: scrollend event</code></a>.\n",
+      "text": "\n  The scroll event fires when an element has been scrolled.\n  To detect when scrolling has completed, see the Element: scrollend event.\n"
+    }
+  },
+  "orientation": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/orientation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/orientation\">orientation</a>",
+      "text": "orientation"
+    },
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time."
+    }
+  },
+  "ondragend": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragend_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragend_event\">ondragend</a>",
+      "text": "ondragend"
+    },
+    "description": {
+      "html": "The <code>dragend</code> event is fired when a drag operation is being ended (by releasing a mouse button or hitting the escape key).",
+      "text": "The dragend event is fired when a drag operation is being ended (by releasing a mouse button or hitting the escape key)."
+    }
+  },
+  "Worker": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Worker",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Worker\">Worker</a>",
+      "text": "Worker"
+    },
+    "description": {
+      "html": "The <strong><code>Worker</code></strong> interface of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API\">Web Workers API</a> represents a background task that can be created via script, which can send messages back to its creator.",
+      "text": "The Worker interface of the Web Workers API represents a background task that can be created via script, which can send messages back to its creator."
+    }
+  },
+  "onloadedmetadata": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadedmetadata_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadedmetadata_event\">onloadedmetadata</a>",
+      "text": "onloadedmetadata"
+    },
+    "description": {
+      "html": "The <code>loadedmetadata</code> event is fired when the metadata has been loaded.",
+      "text": "The loadedmetadata event is fired when the metadata has been loaded."
+    }
+  },
+  "content": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/content",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/content\">content</a>",
+      "text": "content"
+    },
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future."
+    }
+  },
+  "onsubmit": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/submit_event\">onsubmit</a>",
+      "text": "onsubmit"
+    },
+    "description": {
+      "html": "The <strong><code>submit</code></strong> event fires when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a> is submitted.",
+      "text": "The submit event fires when a <form> is submitted."
+    }
+  },
+  "onformdata": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/formdata_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/formdata_event\">onformdata</a>",
+      "text": "onformdata"
+    },
+    "description": {
+      "html": "The <strong><code>formdata</code></strong> event fires after the entry list representing the form&apos;s data is constructed. This happens when the form is submitted, but can also be triggered by the invocation of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData\" title=\"FormData()\"><code>FormData()</code></a> constructor.",
+      "text": "The formdata event fires after the entry list representing the form's data is constructed. This happens when the form is submitted, but can also be triggered by the invocation of a FormData() constructor."
+    }
+  },
+  "localStorage": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage\">localStorage</a>",
+      "text": "localStorage"
+    },
+    "description": {
+      "html": "The <strong><code>localStorage</code></strong> read-only property of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>window</code></a> interface allows you to access a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Storage\"><code>Storage</code></a> object for the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document\"><code>Document</code></a>&apos;s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Glossary/Origin\">origin</a>; the stored data is saved across browser sessions.",
+      "text": "The localStorage read-only property of the window interface allows you to access a Storage object for the Document's origin; the stored data is saved across browser sessions."
+    }
+  },
+  "onwaiting": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/waiting_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/waiting_event\">onwaiting</a>",
+      "text": "onwaiting"
+    },
+    "description": {
+      "html": "The <code>waiting</code> event is fired when playback has stopped because of a temporary lack of data.",
+      "text": "The waiting event is fired when playback has stopped because of a temporary lack of data."
+    }
+  },
+  "onchange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/change_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/change_event\">onchange</a>",
+      "text": "onchange"
+    },
+    "description": {
+      "html": "The <code>change</code> event is fired for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a> elements when the user modifies the element&apos;s value. Unlike the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/input_event\" title=\"input\"><code>input</code></a> event, the <code>change</code> event is not necessarily fired for each alteration to an element&apos;s <code>value</code>.",
+      "text": "The change event is fired for <input>, <select>, and <textarea> elements when the user modifies the element's value. Unlike the input event, the change event is not necessarily fired for each alteration to an element's value."
+    }
+  },
+  "onbeforeprint": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeprint_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/beforeprint_event\">onbeforeprint</a>",
+      "text": "onbeforeprint"
+    },
+    "description": {
+      "html": "The <strong><code>beforeprint</code></strong> event is fired when the associated document is about to be printed or previewed for printing.",
+      "text": "The beforeprint event is fired when the associated document is about to be printed or previewed for printing."
+    }
+  },
+  "ondrag": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/drag_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/drag_event\">ondrag</a>",
+      "text": "ondrag"
+    },
+    "description": {
+      "html": "The <code>drag</code> event is fired every few hundred milliseconds as an element or text selection is being dragged by the user.",
+      "text": "The drag event is fired every few hundred milliseconds as an element or text selection is being dragged by the user."
+    }
+  },
+  "onselectstart": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Node/selectstart_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node/selectstart_event\">onselectstart</a>",
+      "text": "onselectstart"
+    },
+    "description": {
+      "html": "The <strong><code>selectstart</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Selection\">Selection API</a> is fired when a user starts a new selection.",
+      "text": "The selectstart event of the Selection API is fired when a user starts a new selection."
+    }
+  },
+  "setImmediate": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/setImmediate\">setImmediate</a>",
+      "text": "setImmediate"
+    },
+    "description": {
+      "html": "\n  This method is used to break up long running operations and run a callback function\n  immediately after the browser has completed other operations such as events and display\n  updates.\n",
+      "text": "\n  This method is used to break up long running operations and run a callback function\n  immediately after the browser has completed other operations such as events and display\n  updates.\n"
+    }
+  },
+  "scheduler": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/scheduler",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/scheduler\">scheduler</a>",
+      "text": "scheduler"
+    },
+    "description": {
+      "html": "The global read-only <strong><code>scheduler</code></strong> property is the entry point for using the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Prioritized_Task_Scheduling_API\">Prioritized Task Scheduling API</a>.",
+      "text": "The global read-only scheduler property is the entry point for using the Prioritized Task Scheduling API."
+    }
+  },
+  "onreset": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset_event\">onreset</a>",
+      "text": "onreset"
+    },
+    "description": {
+      "html": "The <strong><code>reset</code></strong> event fires when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a> is reset.",
+      "text": "The reset event fires when a <form> is reset."
+    }
+  },
+  "ondragover": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragover_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dragover_event\">ondragover</a>",
+      "text": "ondragover"
+    },
+    "description": {
+      "html": "The <code>dragover</code> event is fired when an element or text selection is being dragged over a valid drop target (every few hundred milliseconds).",
+      "text": "The dragover event is fired when an element or text selection is being dragged over a valid drop target (every few hundred milliseconds)."
+    }
+  },
+  "onstalled": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/stalled_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/stalled_event\">onstalled</a>",
+      "text": "onstalled"
+    },
+    "description": {
+      "html": "The <code>stalled</code> event is fired when the user agent is trying to fetch media data, but data is unexpectedly not forthcoming.",
+      "text": "The stalled event is fired when the user agent is trying to fetch media data, but data is unexpectedly not forthcoming."
+    }
+  },
+  "onslotchange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/slotchange_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement/slotchange_event\">onslotchange</a>",
+      "text": "onslotchange"
+    },
+    "description": {
+      "html": "The <strong><code>slotchange</code></strong> event is fired on an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement\"><code>HTMLSlotElement</code></a> instance (<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot\"><code>&lt;slot&gt;</code></a> element) when the node(s) contained in that slot change.",
+      "text": "The slotchange event is fired on an HTMLSlotElement instance (<slot> element) when the node(s) contained in that slot change."
+    }
+  },
+  "speechSynthesis": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/speechSynthesis",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/speechSynthesis\">speechSynthesis</a>",
+      "text": "speechSynthesis"
+    },
+    "description": {
+      "html": "The <code>speechSynthesis</code> read-only property of the Window object returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis\"><code>SpeechSynthesis</code></a> object, which is the entry point into using <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API\">Web Speech API</a> speech synthesis functionality.",
+      "text": "The speechSynthesis read-only property of the Window object returns a SpeechSynthesis object, which is the entry point into using Web Speech API speech synthesis functionality."
+    }
+  },
+  "onpointercancel": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointercancel_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointercancel_event\">onpointercancel</a>",
+      "text": "onpointercancel"
+    },
+    "description": {
+      "html": "The <strong><code>pointercancel</code></strong> event is fired when the browser determines that there are unlikely to be any more pointer events, or if after the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/pointerdown_event\" title=\"pointerdown\"><code>pointerdown</code></a> event is fired, the pointer is then used to manipulate the viewport by panning, zooming, or scrolling.",
+      "text": "The pointercancel event is fired when the browser determines that there are unlikely to be any more pointer events, or if after the pointerdown event is fired, the pointer is then used to manipulate the viewport by panning, zooming, or scrolling."
+    }
+  },
+  "oncuechange": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement/cuechange_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement/cuechange_event\">oncuechange</a>",
+      "text": "oncuechange"
+    },
+    "description": {
+      "html": "The <strong><code>cuechange</code></strong> event fires when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TextTrack\"><code>TextTrack</code></a> has changed the currently displaying cues. The event is fired on both the <code>TextTrack</code> and the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement\"><code>HTMLTrackElement</code></a> in which it&apos;s being presented, if any.",
+      "text": "The cuechange event fires when a TextTrack has changed the currently displaying cues. The event is fired on both the TextTrack and the HTMLTrackElement in which it's being presented, if any."
+    }
+  },
+  "ondrop": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/drop_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/drop_event\">ondrop</a>",
+      "text": "ondrop"
+    },
+    "description": {
+      "html": "The <strong><code>drop</code></strong> event is fired when an element or text selection is dropped on a valid drop target.",
+      "text": "The drop event is fired when an element or text selection is dropped on a valid drop target."
+    }
+  },
+  "onbeforeinput": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/beforeinput_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/beforeinput_event\">onbeforeinput</a>",
+      "text": "onbeforeinput"
+    },
+    "description": {
+      "html": "The DOM <strong><code>beforeinput</code></strong> event fires when the value of an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a> element is about to be modified. The event also applies to elements with <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/contentEditable\" title=\"contenteditable\"><code>contenteditable</code></a> enabled, and to any element when <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode\" title=\"designMode\"><code>designMode</code></a> is turned on.",
+      "text": "The DOM beforeinput event fires when the value of an <input>, or <textarea> element is about to be modified. The event also applies to elements with contenteditable enabled, and to any element when designMode is turned on."
+    }
+  },
+  "onclose": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/close_event",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/close_event\">onclose</a>",
+      "text": "onclose"
+    },
+    "description": {
+      "html": "The <code>close</code> event is fired on an <code>HTMLDialogElement</code> object when the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog\"><code>&lt;dialog&gt;</code></a> it represents has been closed.",
+      "text": "The close event is fired on an HTMLDialogElement object when the <dialog> it represents has been closed."
+    }
+  }
+}

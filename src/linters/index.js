@@ -43,13 +43,19 @@ async function linter (cm) {
 
   let errz = (lang === 'css')
     ? cssLinter(code) : (lang === 'javascript')
-      ? jsLinter(code) : htmlLinter(code)
+      ? jsLinter(code) : htmlLinter(code, cm)
 
   if (lang === 'htmlmixed') {
     const parsed = parseMixed(code)
     errz = await concatErrz(errz, parsed, 'css')
     errz = await concatErrz(errz, parsed, 'js')
   }
+
+  // HACK: not sure why, but some errors return e.line: 0 ???
+  errz = errz.map(o => {
+    if (o.line === 0) o.line = 1
+    return o
+  })
 
   return await errz
 }

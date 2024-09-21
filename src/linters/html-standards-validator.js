@@ -1,17 +1,35 @@
-const htmlEles = require('../edu-data/html-elements.json')
-const htmlAttr = require('../edu-data/html-attributes.json')
+const htmlEles = require('../edu-data/html/elements.json')
+const svgEles = require('../edu-data/html/svg-elements.json')
+const htmlAttr = require('../edu-data/html/attributes.json')
+const svgAttr = require('../edu-data/html/svg-attributes.json')
 const stringSimilarity = require('string-similarity')
+const allEles = { ...svgEles, ...htmlEles }
+const allAttr = { ...svgAttr, ...htmlAttr }
 
 class HTMLStandards {
+  static checkSVGcontext (editor, lineNumber, colNumber = 0, name) {
+    const pos = { line: lineNumber, ch: colNumber }
+    const token = editor.getTokenAt(pos)
+    const state = token.state
+    let context = state.context || state.htmlState.context
+    while (context) {
+      if (context.tagName && context.tagName.toLowerCase() === 'svg') {
+        return true
+      }
+      context = context.prev
+    }
+    return false
+  }
+
   static checkSpelling (str, type) {
     const list = type === 'elements'
-      ? Object.keys(htmlEles) : Object.keys(htmlAttr)
+      ? Object.keys(allEles) : Object.keys(allAttr)
     const matches = stringSimilarity.findBestMatch(str, list)
     if (matches.bestMatch.rating >= 0.5) return matches.bestMatch.target
     else return null
   }
 
-  static verifyStandardElements (doc, code) {
+  static verifyStandardElements (doc, code, cm) {
     const language = 'html'
     const errz = []
     let line = 0
@@ -25,9 +43,11 @@ class HTMLStandards {
 
     for (let i = 0; i < doc.all.length; i++) {
       const name = doc.all[i].localName
-      const valid = Object.prototype.hasOwnProperty.call(htmlEles, name)
-      const message = `<${name}> is not a standard HTML element`
-      const htmlMsg = `<code>&lt;${name}&gt;</code> is not a standard HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">element</a>`
+      const isSVG = Object.prototype.hasOwnProperty.call(svgEles, name)
+      const isHTML = Object.prototype.hasOwnProperty.call(htmlEles, name)
+      const valid = Object.prototype.hasOwnProperty.call(allEles, name)
+      const message = `<${name}> is not a standard HTML or SVG element`
+      const htmlMsg = `<code>&lt;${name}&gt;</code> is not a standard <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element" target="_blank">SVG</a> element`
       if (!valid) {
         const customElement = (
           name.includes('-') &&
@@ -50,6 +70,20 @@ class HTMLStandards {
         const friendly = `${htmlMsg}. ${suggest}${fmsg}`
         const evidence = name
         errz.push({ language, type, message, friendly, evidence, col, line, rule })
+      } else if (isSVG && !isHTML) {
+        // of this is an SVG element, make sure it's inside of <svg> parent
+        const lines = code.split('\n')
+        const mch = lines.filter(str => str.toLowerCase().indexOf(`<${name}`) >= 0)[0]
+        line = lines.indexOf(mch) + 1
+        if (mch) col = mch.indexOf(name)
+
+        const inContext = this.checkSVGcontext(cm, line, col, name)
+        const evidence = name
+
+        if (!inContext) {
+          const friendly = `<code>&lt;${name}&gt;</code> is an <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element" target="_blank">SVG element</a>, which means it must be defined within an <code>&lt;svg&gt;</code> element to render properly.`
+          errz.push({ language, type, message, friendly, evidence, col, line, rule })
+        }
       }
     }
     return errz
@@ -69,19 +103,23 @@ class HTMLStandards {
     for (let i = 0; i < doc.all.length; i++) {
       const element = doc.all[i].localName
       const language = 'html'
-      if (Object.prototype.hasOwnProperty.call(htmlEles, element)) {
+      if (Object.prototype.hasOwnProperty.call(allEles, element)) {
         const attrs = doc.all[i].attributes
         for (let i = 0; i < attrs.length; i++) {
-          const attr = attrs[i].localName
+          let attr = attrs[i].localName
+          const isSVG = Object.prototype.hasOwnProperty.call(svgAttr, attr.toLowerCase())
+          const isHTML = Object.prototype.hasOwnProperty.call(htmlAttr, attr.toLowerCase())
+          if (isSVG && !isHTML) attr = attr.toLowerCase()
+
           const evidence = attr
-          const message = `${attr} is not a standard HTML attribute`
-          const htmlMsg = `<code>${attr}</code> is not a standard HTML <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">attribute</a>`
+          const message = `${attr} is not a standard HTML or SVG attribute`
+          const htmlMsg = `<code>${attr}</code> is not a standard <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">HTML</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute" target="_blank">SVG</a> attribute`
           const lines = code.split('\n')
           const match = lines.filter(str => str.toLowerCase().indexOf(attr) >= 0)[0]
           line = lines.indexOf(match) + 1
           if (match) col = match.indexOf(attr)
 
-          if (!Object.keys(htmlAttr).includes(attr)) {
+          if (!Object.keys(allAttr).includes(attr)) {
             const smatch = this.checkSpelling(attr, 'attributes')
             const suggest = smatch
               ? `Check your spelling, did you mean to write <strong>"${smatch}"</strong>? ` : ''
@@ -93,12 +131,12 @@ class HTMLStandards {
 
               errz.push({ language, type, message, friendly, evidence, col, line, rule })
             }
-          } else if (htmlAttr[attr].status !== 'standard') {
+          } else if (allAttr[attr].status !== 'standard') {
             let fmsg = 'It may be depreciated or obsolete.'
-            if (htmlAttr[attr].status === 'experimental') {
+            if (allAttr[attr].status === 'experimental') {
               fmsg = `<code>${attr}</code> is an experimental attribute, it may not work on all browsers. If browser compatability is important to you make sure you test your work on different browsers to be safe (or maybe avoid using it).`
-            } else if (htmlAttr[attr].status === 'obsolete') {
-              if (htmlAttr[attr].note) fmsg += htmlAttr[attr].note.html
+            } else if (allAttr[attr].status === 'obsolete') {
+              if (allAttr[attr].note) fmsg += allAttr[attr].note.html
             }
             const friendly = `${htmlMsg}. ${fmsg}`
 
@@ -223,13 +261,13 @@ class HTMLStandards {
     return Object.prototype.hasOwnProperty.call(rules, rule)
   }
 
-  static verify (code, rules) {
+  static verify (code, rules, cm) {
     const parser = new window.DOMParser()
     const doc = parser.parseFromString(code, 'text/html')
     let errz = []
 
     if (this.checkRule(rules, 'standard-elements')) {
-      errz = errz.concat(this.verifyStandardElements(doc, code))
+      errz = errz.concat(this.verifyStandardElements(doc, code, cm))
     }
 
     if (this.checkRule(rules, 'standard-attributes')) {

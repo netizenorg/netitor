@@ -1,0 +1,1514 @@
+{
+  "assignedSlot": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/assignedSlot",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/assignedSlot\">assignedSlot</a>",
+      "text": "assignedSlot"
+    },
+    "description": {
+      "html": "<p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement\"><code>HTMLSlotElement</code></a> representing the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/slot\"><code>&lt;slot&gt;</code></a> the node is inserted in.</p>\n  ",
+      "text": "Returns a HTMLSlotElement representing the <slot> the node is inserted in.\n  "
+    }
+  },
+  "attributes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/attributes\">attributes</a>",
+      "text": "attributes"
+    },
+    "description": {
+      "html": "<p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap\"><code>NamedNodeMap</code></a> object containing the assigned attributes of the corresponding HTML element.</p>\n  ",
+      "text": "Returns a NamedNodeMap object containing the assigned attributes of the corresponding HTML element.\n  "
+    }
+  },
+  "childElementCount": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/childElementCount",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/childElementCount\">childElementCount</a>",
+      "text": "childElementCount"
+    },
+    "description": {
+      "html": "<p>Returns the number of child elements of this element.</p>\n  ",
+      "text": "Returns the number of child elements of this element.\n  "
+    }
+  },
+  "children": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/children",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/children\">children</a>",
+      "text": "children"
+    },
+    "description": {
+      "html": "<p>Returns the child elements of this element.</p>\n  ",
+      "text": "Returns the child elements of this element.\n  "
+    }
+  },
+  "classList": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/classList",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/classList\">classList</a>",
+      "text": "classList"
+    },
+    "description": {
+      "html": "<p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList\"><code>DOMTokenList</code></a> containing the list of class attributes.</p>\n  ",
+      "text": "Returns a DOMTokenList containing the list of class attributes.\n  "
+    }
+  },
+  "className": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/className",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/className\">className</a>",
+      "text": "className"
+    },
+    "description": {
+      "html": "<p>A string representing the class of the element.</p>\n  ",
+      "text": "A string representing the class of the element.\n  "
+    }
+  },
+  "clientHeight": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/clientHeight\">clientHeight</a>",
+      "text": "clientHeight"
+    },
+    "description": {
+      "html": "<p>Returns a number representing the inner height of the element.</p>\n  ",
+      "text": "Returns a number representing the inner height of the element.\n  "
+    }
+  },
+  "clientLeft": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientLeft",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/clientLeft\">clientLeft</a>",
+      "text": "clientLeft"
+    },
+    "description": {
+      "html": "<p>Returns a number representing the width of the left border of the element.</p>\n  ",
+      "text": "Returns a number representing the width of the left border of the element.\n  "
+    }
+  },
+  "clientTop": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientTop",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/clientTop\">clientTop</a>",
+      "text": "clientTop"
+    },
+    "description": {
+      "html": "<p>Returns a number representing the width of the top border of the element.</p>\n  ",
+      "text": "Returns a number representing the width of the top border of the element.\n  "
+    }
+  },
+  "clientWidth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/clientWidth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/clientWidth\">clientWidth</a>",
+      "text": "clientWidth"
+    },
+    "description": {
+      "html": "<p>Returns a number representing the inner width of the element.</p>\n  ",
+      "text": "Returns a number representing the inner width of the element.\n  "
+    }
+  },
+  "firstElementChild": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/firstElementChild",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/firstElementChild\">firstElementChild</a>",
+      "text": "firstElementChild"
+    },
+    "description": {
+      "html": "<p>Returns the first child element of this element.</p>\n  ",
+      "text": "Returns the first child element of this element.\n  "
+    }
+  },
+  "id": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/id",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/id\">id</a>",
+      "text": "id"
+    },
+    "description": {
+      "html": "<p>A string representing the id of the element.</p>\n  ",
+      "text": "A string representing the id of the element.\n  "
+    }
+  },
+  "innerHTML": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML\">innerHTML</a>",
+      "text": "innerHTML"
+    },
+    "description": {
+      "html": "<p>A string representing the markup of the element&apos;s content.</p>\n  ",
+      "text": "A string representing the markup of the element's content.\n  "
+    }
+  },
+  "lastElementChild": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/lastElementChild",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/lastElementChild\">lastElementChild</a>",
+      "text": "lastElementChild"
+    },
+    "description": {
+      "html": "<p>Returns the last child element of this element.</p>\n  ",
+      "text": "Returns the last child element of this element.\n  "
+    }
+  },
+  "localName": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/localName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/localName\">localName</a>",
+      "text": "localName"
+    },
+    "description": {
+      "html": "<p>A string representing the local part of the qualified name of the element.</p>\n  ",
+      "text": "A string representing the local part of the qualified name of the element.\n  "
+    }
+  },
+  "namespaceURI": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/namespaceURI",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/namespaceURI\">namespaceURI</a>",
+      "text": "namespaceURI"
+    },
+    "description": {
+      "html": "<p>The namespace URI of the element, or <code>null</code> if it is no namespace.</p><div class=\"notecard note\" id=\"sect1\">  <p><strong>Note:</strong> In Firefox 3.5 and earlier, HTML elements are in no namespace. In later versions, HTML elements are in the <a target=\"_blank\" href=\"https://www.w3.org/1999/xhtml/\" class=\"external\" target=\"_blank\"><code>http://www.w3.org/1999/xhtml</code></a> namespace in both HTML and XML trees.</p></div>\n  ",
+      "text": "The namespace URI of the element, or null if it is no namespace.  Note: In Firefox 3.5 and earlier, HTML elements are in no namespace. In later versions, HTML elements are in the http://www.w3.org/1999/xhtml namespace in both HTML and XML trees.\n  "
+    }
+  },
+  "nextElementSibling": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/nextElementSibling\">nextElementSibling</a>",
+      "text": "nextElementSibling"
+    },
+    "description": {
+      "html": "<p>An <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\" aria-current=\"page\"><code>Element</code></a>, the element immediately following the given one in the tree, or <code>null</code> if there&apos;s no sibling node.</p>\n  ",
+      "text": "An Element, the element immediately following the given one in the tree, or null if there's no sibling node.\n  "
+    }
+  },
+  "outerHTML": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/outerHTML",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/outerHTML\">outerHTML</a>",
+      "text": "outerHTML"
+    },
+    "description": {
+      "html": "<p>A string representing the markup of the element including its content. When used as a setter, replaces the element with nodes parsed from the given string.</p>\n  ",
+      "text": "A string representing the markup of the element including its content. When used as a setter, replaces the element with nodes parsed from the given string.\n  "
+    }
+  },
+  "openOrClosedShadowRoot": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/openOrClosedShadowRoot",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/openOrClosedShadowRoot\">openOrClosedShadowRoot</a>",
+      "text": "openOrClosedShadowRoot"
+    },
+    "description": {
+      "html": "<p>Returns the shadow root that is hosted by the element, regardless if its open or closed. <strong>Only available to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions\">WebExtensions</a>.</strong></p>\n  ",
+      "text": "Returns the shadow root that is hosted by the element, regardless if its open or closed. Only available to WebExtensions.\n  "
+    }
+  },
+  "part": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/part",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/part\">part</a>",
+      "text": "part"
+    },
+    "description": {
+      "html": "<p>Represents the part identifier(s) of the element (i.e. set using the <code>part</code> attribute), returned as a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList\"><code>DOMTokenList</code></a>.</p>\n  ",
+      "text": "Represents the part identifier(s) of the element (i.e. set using the part attribute), returned as a DOMTokenList.\n  "
+    }
+  },
+  "prefix": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/prefix",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/prefix\">prefix</a>",
+      "text": "prefix"
+    },
+    "description": {
+      "html": "<p>A string representing the namespace prefix of the element, or <code>null</code> if no prefix is specified.</p>\n  ",
+      "text": "A string representing the namespace prefix of the element, or null if no prefix is specified.\n  "
+    }
+  },
+  "previousElementSibling": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/previousElementSibling",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/previousElementSibling\">previousElementSibling</a>",
+      "text": "previousElementSibling"
+    },
+    "description": {
+      "html": "<p>An <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\" aria-current=\"page\"><code>Element</code></a>, the element immediately preceding the given one in the tree, or <code>null</code> if there is no sibling element.</p>\n  ",
+      "text": "An Element, the element immediately preceding the given one in the tree, or null if there is no sibling element.\n  "
+    }
+  },
+  "scrollHeight": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollHeight\">scrollHeight</a>",
+      "text": "scrollHeight"
+    },
+    "description": {
+      "html": "<p>Returns a number representing the scroll view height of an element.</p>\n  ",
+      "text": "Returns a number representing the scroll view height of an element.\n  "
+    }
+  },
+  "scrollLeft": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeft\">scrollLeft</a>",
+      "text": "scrollLeft"
+    },
+    "description": {
+      "html": "<p>A number representing the left scroll offset of the element.</p>\n  ",
+      "text": "A number representing the left scroll offset of the element.\n  "
+    }
+  },
+  "scrollLeftMax": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeftMax",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollLeftMax\">scrollLeftMax</a>",
+      "text": "scrollLeftMax"
+    },
+    "description": {
+      "html": "<p>Returns a number representing the maximum left scroll offset possible for the element.</p>\n  ",
+      "text": "Returns a number representing the maximum left scroll offset possible for the element.\n  "
+    }
+  },
+  "scrollTop": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTop\">scrollTop</a>",
+      "text": "scrollTop"
+    },
+    "description": {
+      "html": "<p>A number representing number of pixels the top of the element is scrolled vertically.</p>\n  ",
+      "text": "A number representing number of pixels the top of the element is scrolled vertically.\n  "
+    }
+  },
+  "scrollTopMax": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTopMax",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTopMax\">scrollTopMax</a>",
+      "text": "scrollTopMax"
+    },
+    "description": {
+      "html": "<p>Returns a number representing the maximum top scroll offset possible for the element.</p>\n  ",
+      "text": "Returns a number representing the maximum top scroll offset possible for the element.\n  "
+    }
+  },
+  "scrollWidth": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollWidth",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollWidth\">scrollWidth</a>",
+      "text": "scrollWidth"
+    },
+    "description": {
+      "html": "<p>Returns a number representing the scroll view width of the element.</p>\n  ",
+      "text": "Returns a number representing the scroll view width of the element.\n  "
+    }
+  },
+  "shadowRoot": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/shadowRoot",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/shadowRoot\">shadowRoot</a>",
+      "text": "shadowRoot"
+    },
+    "description": {
+      "html": "<p>Returns the open shadow root that is hosted by the element, or null if no open shadow root is present.</p>\n  ",
+      "text": "Returns the open shadow root that is hosted by the element, or null if no open shadow root is present.\n  "
+    }
+  },
+  "slot": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/slot",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/slot\">slot</a>",
+      "text": "slot"
+    },
+    "description": {
+      "html": "<p>Returns the name of the shadow DOM slot the element is inserted in.</p>\n  ",
+      "text": "Returns the name of the shadow DOM slot the element is inserted in.\n  "
+    }
+  },
+  "tagName": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName\">tagName</a>",
+      "text": "tagName"
+    },
+    "description": {
+      "html": "<p>Returns a string with the name of the tag for the given element.</p>\n  ",
+      "text": "Returns a string with the name of the tag for the given element.\n  "
+    }
+  },
+  "ariaAtomic": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaAtomic",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaAtomic\">ariaAtomic</a>",
+      "text": "ariaAtomic"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-atomic\"><code>aria-atomic</code></a> attribute, which indicates whether assistive technologies will present all, or only parts of, the changed region based on the change notifications defined by the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-relevant\"><code>aria-relevant</code></a> attribute.</p>\n  ",
+      "text": "A string reflecting the aria-atomic attribute, which indicates whether assistive technologies will present all, or only parts of, the changed region based on the change notifications defined by the aria-relevant attribute.\n  "
+    }
+  },
+  "ariaAutoComplete": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaAutoComplete",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaAutoComplete\">ariaAutoComplete</a>",
+      "text": "ariaAutoComplete"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-autocomplete\"><code>aria-autocomplete</code></a> attribute, which indicates whether inputting text could trigger display of one or more predictions of the user&apos;s intended value for a combobox, searchbox, or textbox and specifies how predictions would be presented if they were made.</p>\n  ",
+      "text": "A string reflecting the aria-autocomplete attribute, which indicates whether inputting text could trigger display of one or more predictions of the user's intended value for a combobox, searchbox, or textbox and specifies how predictions would be presented if they were made.\n  "
+    }
+  },
+  "ariaBusy": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaBusy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaBusy\">ariaBusy</a>",
+      "text": "ariaBusy"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-busy\"><code>aria-busy</code></a> attribute, which indicates whether an element is being modified, as assistive technologies may want to wait until the modifications are complete before exposing them to the user.</p>\n  ",
+      "text": "A string reflecting the aria-busy attribute, which indicates whether an element is being modified, as assistive technologies may want to wait until the modifications are complete before exposing them to the user.\n  "
+    }
+  },
+  "ariaChecked": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaChecked",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaChecked\">ariaChecked</a>",
+      "text": "ariaChecked"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-checked\"><code>aria-checked</code></a> attribute, which indicates the current &quot;checked&quot; state of checkboxes, radio buttons, and other widgets that have a checked state.</p>\n  ",
+      "text": "A string reflecting the aria-checked attribute, which indicates the current \"checked\" state of checkboxes, radio buttons, and other widgets that have a checked state.\n  "
+    }
+  },
+  "ariaColCount": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaColCount",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaColCount\">ariaColCount</a>",
+      "text": "ariaColCount"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-colcount\"><code>aria-colcount</code></a> attribute, which defines the number of columns in a table, grid, or treegrid.</p>\n  ",
+      "text": "A string reflecting the aria-colcount attribute, which defines the number of columns in a table, grid, or treegrid.\n  "
+    }
+  },
+  "ariaColIndex": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaColIndex",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaColIndex\">ariaColIndex</a>",
+      "text": "ariaColIndex"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-colindex\"><code>aria-colindex</code></a> attribute, which defines an element&apos;s column index or position with respect to the total number of columns within a table, grid, or treegrid.</p>\n  ",
+      "text": "A string reflecting the aria-colindex attribute, which defines an element's column index or position with respect to the total number of columns within a table, grid, or treegrid.\n  "
+    }
+  },
+  "ariaColIndexText": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaColIndexText",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaColIndexText\">ariaColIndexText</a>",
+      "text": "ariaColIndexText"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-colindextext\"><code>aria-colindextext</code></a> attribute, which defines a human readable text alternative of aria-colindex.</p>\n  ",
+      "text": "A string reflecting the aria-colindextext attribute, which defines a human readable text alternative of aria-colindex.\n  "
+    }
+  },
+  "ariaColSpan": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaColSpan",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaColSpan\">ariaColSpan</a>",
+      "text": "ariaColSpan"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-colspan\"><code>aria-colspan</code></a> attribute, which defines the number of columns spanned by a cell or gridcell within a table, grid, or treegrid.</p>\n  ",
+      "text": "A string reflecting the aria-colspan attribute, which defines the number of columns spanned by a cell or gridcell within a table, grid, or treegrid.\n  "
+    }
+  },
+  "ariaCurrent": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaCurrent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaCurrent\">ariaCurrent</a>",
+      "text": "ariaCurrent"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-current\"><code>aria-current</code></a> attribute, which indicates the element that represents the current item within a container or set of related elements.</p>\n  ",
+      "text": "A string reflecting the aria-current attribute, which indicates the element that represents the current item within a container or set of related elements.\n  "
+    }
+  },
+  "ariaDescription": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaDescription",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaDescription\">ariaDescription</a>",
+      "text": "ariaDescription"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-description\"><code>aria-description</code></a> attribute, which defines a string value that describes or annotates the current element.</p>\n  ",
+      "text": "A string reflecting the aria-description attribute, which defines a string value that describes or annotates the current element.\n  "
+    }
+  },
+  "ariaDisabled": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaDisabled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaDisabled\">ariaDisabled</a>",
+      "text": "ariaDisabled"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-disabled\"><code>aria-disabled</code></a> attribute, which indicates that the element is perceivable but disabled, so it is not editable or otherwise operable.</p>\n  ",
+      "text": "A string reflecting the aria-disabled attribute, which indicates that the element is perceivable but disabled, so it is not editable or otherwise operable.\n  "
+    }
+  },
+  "ariaExpanded": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaExpanded",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaExpanded\">ariaExpanded</a>",
+      "text": "ariaExpanded"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-expanded\"><code>aria-expanded</code></a> attribute, which indicates whether a grouping element owned or controlled by this element is expanded or collapsed.</p>\n  ",
+      "text": "A string reflecting the aria-expanded attribute, which indicates whether a grouping element owned or controlled by this element is expanded or collapsed.\n  "
+    }
+  },
+  "ariaHasPopup": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaHasPopup",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaHasPopup\">ariaHasPopup</a>",
+      "text": "ariaHasPopup"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-haspopup\"><code>aria-haspopup</code></a> attribute, which indicates the availability and type of interactive popup element, such as menu or dialog, that can be triggered by an element.</p>\n  ",
+      "text": "A string reflecting the aria-haspopup attribute, which indicates the availability and type of interactive popup element, such as menu or dialog, that can be triggered by an element.\n  "
+    }
+  },
+  "ariaHidden": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaHidden",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaHidden\">ariaHidden</a>",
+      "text": "ariaHidden"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-hidden\"><code>aria-hidden</code></a> attribute, which indicates whether the element is exposed to an accessibility API.</p>\n  ",
+      "text": "A string reflecting the aria-hidden attribute, which indicates whether the element is exposed to an accessibility API.\n  "
+    }
+  },
+  "ariaKeyShortcuts": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaKeyShortcuts",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaKeyShortcuts\">ariaKeyShortcuts</a>",
+      "text": "ariaKeyShortcuts"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-keyshortcuts\"><code>aria-keyshortcuts</code></a> attribute, which indicates keyboard shortcuts that an author has implemented to activate or give focus to an element.</p>\n  ",
+      "text": "A string reflecting the aria-keyshortcuts attribute, which indicates keyboard shortcuts that an author has implemented to activate or give focus to an element.\n  "
+    }
+  },
+  "ariaLabel": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaLabel",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaLabel\">ariaLabel</a>",
+      "text": "ariaLabel"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label\"><code>aria-label</code></a> attribute, which defines a string value that labels the current element.</p>\n  ",
+      "text": "A string reflecting the aria-label attribute, which defines a string value that labels the current element.\n  "
+    }
+  },
+  "ariaLevel": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaLevel",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaLevel\">ariaLevel</a>",
+      "text": "ariaLevel"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-level\"><code>aria-level</code></a> attribute, which defines the hierarchical level of an element within a structure.</p>\n  ",
+      "text": "A string reflecting the aria-level attribute, which defines the hierarchical level of an element within a structure.\n  "
+    }
+  },
+  "ariaLive": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaLive",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaLive\">ariaLive</a>",
+      "text": "ariaLive"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live\"><code>aria-live</code></a> attribute, which indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region.</p>\n  ",
+      "text": "A string reflecting the aria-live attribute, which indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region.\n  "
+    }
+  },
+  "ariaModal": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaModal",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaModal\">ariaModal</a>",
+      "text": "ariaModal"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-modal\"><code>aria-modal</code></a> attribute, which indicates whether an element is modal when displayed.</p>\n  ",
+      "text": "A string reflecting the aria-modal attribute, which indicates whether an element is modal when displayed.\n  "
+    }
+  },
+  "ariaMultiline": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaMultiLine",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaMultiLine\">ariaMultiline</a>",
+      "text": "ariaMultiline"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-multiline\"><code>aria-multiline</code></a> attribute, which indicates whether a text box accepts multiple lines of input or only a single line.</p>\n  ",
+      "text": "A string reflecting the aria-multiline attribute, which indicates whether a text box accepts multiple lines of input or only a single line.\n  "
+    }
+  },
+  "ariaMultiSelectable": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaMultiSelectable",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaMultiSelectable\">ariaMultiSelectable</a>",
+      "text": "ariaMultiSelectable"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-multiselectable\"><code>aria-multiselectable</code></a> attribute, which indicates that the user may select more than one item from the current selectable descendants.</p>\n  ",
+      "text": "A string reflecting the aria-multiselectable attribute, which indicates that the user may select more than one item from the current selectable descendants.\n  "
+    }
+  },
+  "ariaOrientation": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaOrientation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaOrientation\">ariaOrientation</a>",
+      "text": "ariaOrientation"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-orientation\"><code>aria-orientation</code></a> attribute, which indicates whether the element&apos;s orientation is horizontal, vertical, or unknown/ambiguous.</p>\n  ",
+      "text": "A string reflecting the aria-orientation attribute, which indicates whether the element's orientation is horizontal, vertical, or unknown/ambiguous.\n  "
+    }
+  },
+  "ariaPlaceholder": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaPlaceholder",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaPlaceholder\">ariaPlaceholder</a>",
+      "text": "ariaPlaceholder"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-placeholder\"><code>aria-placeholder</code></a> attribute, which defines a short hint intended to aid the user with data entry when the control has no value.</p>\n  ",
+      "text": "A string reflecting the aria-placeholder attribute, which defines a short hint intended to aid the user with data entry when the control has no value.\n  "
+    }
+  },
+  "ariaPosInSet": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaPosInSet",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaPosInSet\">ariaPosInSet</a>",
+      "text": "ariaPosInSet"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-posinset\"><code>aria-posinset</code></a> attribute, which defines an element&apos;s number or position in the current set of listitems or treeitems.</p>\n  ",
+      "text": "A string reflecting the aria-posinset attribute, which defines an element's number or position in the current set of listitems or treeitems.\n  "
+    }
+  },
+  "ariaPressed": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaPressed",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaPressed\">ariaPressed</a>",
+      "text": "ariaPressed"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-pressed\"><code>aria-pressed</code></a> attribute, which indicates the current &quot;pressed&quot; state of toggle buttons.</p>\n  ",
+      "text": "A string reflecting the aria-pressed attribute, which indicates the current \"pressed\" state of toggle buttons.\n  "
+    }
+  },
+  "ariaReadOnly": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaReadOnly",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaReadOnly\">ariaReadOnly</a>",
+      "text": "ariaReadOnly"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-readonly\"><code>aria-readonly</code></a> attribute, which indicates that the element is not editable, but is otherwise operable.</p>\n  ",
+      "text": "A string reflecting the aria-readonly attribute, which indicates that the element is not editable, but is otherwise operable.\n  "
+    }
+  },
+  "ariaRelevant": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRelevant",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRelevant\">ariaRelevant</a>",
+      "text": "ariaRelevant"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-relevant\"><code>aria-relevant</code></a> attribute, which indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified. This is used to describe what changes in an <code>aria-live</code> region are relevant and should be announced.</p>\n  ",
+      "text": "A string reflecting the aria-relevant attribute, which indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified. This is used to describe what changes in an aria-live region are relevant and should be announced.\n  "
+    }
+  },
+  "ariaRequired": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRequired",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRequired\">ariaRequired</a>",
+      "text": "ariaRequired"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-required\"><code>aria-required</code></a> attribute, which indicates that user input is required on the element before a form may be submitted.</p>\n  ",
+      "text": "A string reflecting the aria-required attribute, which indicates that user input is required on the element before a form may be submitted.\n  "
+    }
+  },
+  "ariaRoleDescription": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRoleDescription",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRoleDescription\">ariaRoleDescription</a>",
+      "text": "ariaRoleDescription"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-roledescription\"><code>aria-roledescription</code></a> attribute, which defines a human-readable, author-localized description for the role of an element.</p>\n  ",
+      "text": "A string reflecting the aria-roledescription attribute, which defines a human-readable, author-localized description for the role of an element.\n  "
+    }
+  },
+  "ariaRowCount": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRowCount",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRowCount\">ariaRowCount</a>",
+      "text": "ariaRowCount"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-rowcount\"><code>aria-rowcount</code></a> attribute, which defines the total number of rows in a table, grid, or treegrid.</p>\n  ",
+      "text": "A string reflecting the aria-rowcount attribute, which defines the total number of rows in a table, grid, or treegrid.\n  "
+    }
+  },
+  "ariaRowIndex": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRowIndex",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRowIndex\">ariaRowIndex</a>",
+      "text": "ariaRowIndex"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-rowindex\"><code>aria-rowindex</code></a> attribute, which defines an element&apos;s row index or position with respect to the total number of rows within a table, grid, or treegrid.</p>\n  ",
+      "text": "A string reflecting the aria-rowindex attribute, which defines an element's row index or position with respect to the total number of rows within a table, grid, or treegrid.\n  "
+    }
+  },
+  "ariaRowIndexText": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRowIndexText",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRowIndexText\">ariaRowIndexText</a>",
+      "text": "ariaRowIndexText"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-rowindextext\"><code>aria-rowindextext</code></a> attribute, which defines a human readable text alternative of aria-rowindex.</p>\n  ",
+      "text": "A string reflecting the aria-rowindextext attribute, which defines a human readable text alternative of aria-rowindex.\n  "
+    }
+  },
+  "ariaRowSpan": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRowSpan",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaRowSpan\">ariaRowSpan</a>",
+      "text": "ariaRowSpan"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-rowspan\"><code>aria-rowspan</code></a> attribute, which defines the number of rows spanned by a cell or gridcell within a table, grid, or treegrid.</p>\n  ",
+      "text": "A string reflecting the aria-rowspan attribute, which defines the number of rows spanned by a cell or gridcell within a table, grid, or treegrid.\n  "
+    }
+  },
+  "ariaSelected": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaSelected",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaSelected\">ariaSelected</a>",
+      "text": "ariaSelected"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-selected\"><code>aria-selected</code></a> attribute, which indicates the current &quot;selected&quot; state of elements that have a selected state.</p>\n  ",
+      "text": "A string reflecting the aria-selected attribute, which indicates the current \"selected\" state of elements that have a selected state.\n  "
+    }
+  },
+  "ariaSetSize": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaSetSize",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaSetSize\">ariaSetSize</a>",
+      "text": "ariaSetSize"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-setsize\"><code>aria-setsize</code></a> attribute, which defines the number of items in the current set of listitems or treeitems.</p>\n  ",
+      "text": "A string reflecting the aria-setsize attribute, which defines the number of items in the current set of listitems or treeitems.\n  "
+    }
+  },
+  "ariaSort": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaSort",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaSort\">ariaSort</a>",
+      "text": "ariaSort"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-sort\"><code>aria-sort</code></a> attribute, which indicates if items in a table or grid are sorted in ascending or descending order.</p>\n  ",
+      "text": "A string reflecting the aria-sort attribute, which indicates if items in a table or grid are sorted in ascending or descending order.\n  "
+    }
+  },
+  "ariaValueMax": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaValueMax",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaValueMax\">ariaValueMax</a>",
+      "text": "ariaValueMax"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuemax\"><code>aria-valueMax</code></a> attribute, which defines the maximum allowed value for a range widget.</p>\n  ",
+      "text": "A string reflecting the aria-valueMax attribute, which defines the maximum allowed value for a range widget.\n  "
+    }
+  },
+  "ariaValueMin": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaValueMin",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaValueMin\">ariaValueMin</a>",
+      "text": "ariaValueMin"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuemin\"><code>aria-valueMin</code></a> attribute, which defines the minimum allowed value for a range widget.</p>\n  ",
+      "text": "A string reflecting the aria-valueMin attribute, which defines the minimum allowed value for a range widget.\n  "
+    }
+  },
+  "ariaValueNow": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaValueNow",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaValueNow\">ariaValueNow</a>",
+      "text": "ariaValueNow"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuenow\"><code>aria-valueNow</code></a> attribute, which defines the current value for a range widget.</p>\n  ",
+      "text": "A string reflecting the aria-valueNow attribute, which defines the current value for a range widget.\n  "
+    }
+  },
+  "ariaValueText": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaValueText",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/ariaValueText\">ariaValueText</a>",
+      "text": "ariaValueText"
+    },
+    "description": {
+      "html": "<p>A string reflecting the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-valuetext\"><code>aria-valuetext</code></a> attribute, which defines the human readable text alternative of aria-valuenow for a range widget.</p>\n  ",
+      "text": "A string reflecting the aria-valuetext attribute, which defines the human readable text alternative of aria-valuenow for a range widget.\n  "
+    }
+  },
+  "addEventListener": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener\">addEventListener()</a>",
+      "text": "addEventListener()"
+    },
+    "description": {
+      "html": "<p>Registers an event handler to a specific event type on the element.</p>\n  ",
+      "text": "Registers an event handler to a specific event type on the element.\n  "
+    }
+  },
+  "after": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/after",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/after\">after()</a>",
+      "text": "after()"
+    },
+    "description": {
+      "html": "<p>Inserts a set of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> objects or strings in the children list of the <code>Element</code>&apos;s parent, just after the <code>Element</code>.</p>\n  ",
+      "text": "Inserts a set of Node objects or strings in the children list of the Element's parent, just after the Element.\n  "
+    }
+  },
+  "attachShadow": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/attachShadow",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/attachShadow\">attachShadow()</a>",
+      "text": "attachShadow()"
+    },
+    "description": {
+      "html": "<p>Attaches a shadow DOM tree to the specified element and returns a reference to its <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ShadowRoot\"><code>ShadowRoot</code></a>.</p>\n  ",
+      "text": "Attaches a shadow DOM tree to the specified element and returns a reference to its ShadowRoot.\n  "
+    }
+  },
+  "animate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/animate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animate\">animate()</a>",
+      "text": "animate()"
+    },
+    "description": {
+      "html": "<p>A shortcut method to create and run an animation on an element. Returns the created Animation object instance.</p>\n  ",
+      "text": "A shortcut method to create and run an animation on an element. Returns the created Animation object instance.\n  "
+    }
+  },
+  "append": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/append",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/append\">append()</a>",
+      "text": "append()"
+    },
+    "description": {
+      "html": "<p>Inserts a set of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> objects or strings after the last child of the element.</p>\n  ",
+      "text": "Inserts a set of Node objects or strings after the last child of the element.\n  "
+    }
+  },
+  "before": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/before",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/before\">before()</a>",
+      "text": "before()"
+    },
+    "description": {
+      "html": "<p>Inserts a set of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> objects or strings in the children list of the <code>Element</code>&apos;s parent, just before the <code>Element</code>.</p>\n  ",
+      "text": "Inserts a set of Node objects or strings in the children list of the Element's parent, just before the Element.\n  "
+    }
+  },
+  "closest": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/closest",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/closest\">closest()</a>",
+      "text": "closest()"
+    },
+    "description": {
+      "html": "<p>Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\" aria-current=\"page\"><code>Element</code></a> which is the closest ancestor of the current element (or the current element itself) which matches the selectors given in parameter.</p>\n  ",
+      "text": "Returns the Element which is the closest ancestor of the current element (or the current element itself) which matches the selectors given in parameter.\n  "
+    }
+  },
+  "computedStyleMap": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/computedStyleMap",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/computedStyleMap\">computedStyleMap()</a>",
+      "text": "computedStyleMap()"
+    },
+    "description": {
+      "html": "<p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/StylePropertyMapReadOnly\"><code>StylePropertyMapReadOnly</code></a> interface which provides a read-only representation of a CSS declaration block that is an alternative to <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration\"><code>CSSStyleDeclaration</code></a>.</p>\n  ",
+      "text": "Returns a StylePropertyMapReadOnly interface which provides a read-only representation of a CSS declaration block that is an alternative to CSSStyleDeclaration.\n  "
+    }
+  },
+  "dispatchEvent": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent\">dispatchEvent()</a>",
+      "text": "dispatchEvent()"
+    },
+    "description": {
+      "html": "<p>Dispatches an event to this node in the DOM and returns a boolean value that indicates whether no handler canceled the event.</p>\n  ",
+      "text": "Dispatches an event to this node in the DOM and returns a boolean value that indicates whether no handler canceled the event.\n  "
+    }
+  },
+  "getAnimations": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAnimations",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getAnimations\">getAnimations()</a>",
+      "text": "getAnimations()"
+    },
+    "description": {
+      "html": "<p>Returns an array of Animation objects currently active on the element.</p>\n  ",
+      "text": "Returns an array of Animation objects currently active on the element.\n  "
+    }
+  },
+  "getAttribute": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute\">getAttribute()</a>",
+      "text": "getAttribute()"
+    },
+    "description": {
+      "html": "<p>Retrieves the value of the named attribute from the current node and returns it as a string.</p>\n  ",
+      "text": "Retrieves the value of the named attribute from the current node and returns it as a string.\n  "
+    }
+  },
+  "getAttributeNames": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNames",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNames\">getAttributeNames()</a>",
+      "text": "getAttributeNames()"
+    },
+    "description": {
+      "html": "<p>Returns an array of attribute names from the current element.</p>\n  ",
+      "text": "Returns an array of attribute names from the current element.\n  "
+    }
+  },
+  "getAttributeNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNode\">getAttributeNode()</a>",
+      "text": "getAttributeNode()"
+    },
+    "description": {
+      "html": "<p>Retrieves the node representation of the named attribute from the current node and returns it as an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Attr\"><code>Attr</code></a>.</p>\n  ",
+      "text": "Retrieves the node representation of the named attribute from the current node and returns it as an Attr.\n  "
+    }
+  },
+  "getAttributeNodeNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNodeNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNodeNS\">getAttributeNodeNS()</a>",
+      "text": "getAttributeNodeNS()"
+    },
+    "description": {
+      "html": "<p>Retrieves the node representation of the attribute with the specified name and namespace, from the current node and returns it as an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Attr\"><code>Attr</code></a>.</p>\n  ",
+      "text": "Retrieves the node representation of the attribute with the specified name and namespace, from the current node and returns it as an Attr.\n  "
+    }
+  },
+  "getAttributeNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttributeNS\">getAttributeNS()</a>",
+      "text": "getAttributeNS()"
+    },
+    "description": {
+      "html": "<p>Retrieves the value of the attribute with the specified namespace and name from the current node and returns it as a string.</p>\n  ",
+      "text": "Retrieves the value of the attribute with the specified namespace and name from the current node and returns it as a string.\n  "
+    }
+  },
+  "getBoundingClientRect": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect\">getBoundingClientRect()</a>",
+      "text": "getBoundingClientRect()"
+    },
+    "description": {
+      "html": "<p>Returns the size of an element and its position relative to the viewport.</p>\n  ",
+      "text": "Returns the size of an element and its position relative to the viewport.\n  "
+    }
+  },
+  "getBoxQuads": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">getBoxQuads()</a>",
+      "text": "getBoxQuads()"
+    },
+    "description": {
+      "html": "<p>Returns a list of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMQuad\"><code>DOMQuad</code></a> objects representing the CSS fragments of the node.</p>\n  ",
+      "text": "Returns a list of DOMQuad objects representing the CSS fragments of the node.\n  "
+    }
+  },
+  "getClientRects": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getClientRects",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getClientRects\">getClientRects()</a>",
+      "text": "getClientRects()"
+    },
+    "description": {
+      "html": "<p>Returns a collection of rectangles that indicate the bounding rectangles for each line of text in a client.</p>\n  ",
+      "text": "Returns a collection of rectangles that indicate the bounding rectangles for each line of text in a client.\n  "
+    }
+  },
+  "getElementsByClassName": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByClassName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByClassName\">getElementsByClassName()</a>",
+      "text": "getElementsByClassName()"
+    },
+    "description": {
+      "html": "<p>Returns a live <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection\"><code>HTMLCollection</code></a> that contains all descendants of the current element that possess the list of classes given in the parameter.</p>\n  ",
+      "text": "Returns a live HTMLCollection that contains all descendants of the current element that possess the list of classes given in the parameter.\n  "
+    }
+  },
+  "getElementsByTagName": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName\">getElementsByTagName()</a>",
+      "text": "getElementsByTagName()"
+    },
+    "description": {
+      "html": "<p>Returns a live <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection\"><code>HTMLCollection</code></a> containing all descendant elements, of a particular tag name, from the current element.</p>\n  ",
+      "text": "Returns a live HTMLCollection containing all descendant elements, of a particular tag name, from the current element.\n  "
+    }
+  },
+  "getElementsByTagNameNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagNameNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagNameNS\">getElementsByTagNameNS()</a>",
+      "text": "getElementsByTagNameNS()"
+    },
+    "description": {
+      "html": "<p>Returns a live <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLCollection\"><code>HTMLCollection</code></a> containing all descendant elements, of a particular tag name and namespace, from the current element.</p>\n  ",
+      "text": "Returns a live HTMLCollection containing all descendant elements, of a particular tag name and namespace, from the current element.\n  "
+    }
+  },
+  "hasAttribute": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttribute\">hasAttribute()</a>",
+      "text": "hasAttribute()"
+    },
+    "description": {
+      "html": "<p>Returns a boolean value indicating if the element has the specified attribute or not.</p>\n  ",
+      "text": "Returns a boolean value indicating if the element has the specified attribute or not.\n  "
+    }
+  },
+  "hasAttributeNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributeNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributeNS\">hasAttributeNS()</a>",
+      "text": "hasAttributeNS()"
+    },
+    "description": {
+      "html": "<p>Returns a boolean value indicating if the element has the specified attribute, in the specified namespace, or not.</p>\n  ",
+      "text": "Returns a boolean value indicating if the element has the specified attribute, in the specified namespace, or not.\n  "
+    }
+  },
+  "hasAttributes": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributes",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/hasAttributes\">hasAttributes()</a>",
+      "text": "hasAttributes()"
+    },
+    "description": {
+      "html": "<p>Returns a boolean value indicating if the element has one or more HTML attributes present.</p>\n  ",
+      "text": "Returns a boolean value indicating if the element has one or more HTML attributes present.\n  "
+    }
+  },
+  "hasPointerCapture": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/hasPointerCapture",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/hasPointerCapture\">hasPointerCapture()</a>",
+      "text": "hasPointerCapture()"
+    },
+    "description": {
+      "html": "<p>Indicates whether the element on which it is invoked has pointer capture for the pointer identified by the given pointer ID.</p>\n  ",
+      "text": "Indicates whether the element on which it is invoked has pointer capture for the pointer identified by the given pointer ID.\n  "
+    }
+  },
+  "insertAdjacentElement": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement\">insertAdjacentElement()</a>",
+      "text": "insertAdjacentElement()"
+    },
+    "description": {
+      "html": "<p>Inserts a given element node at a given position relative to the element it is invoked upon.</p>\n  ",
+      "text": "Inserts a given element node at a given position relative to the element it is invoked upon.\n  "
+    }
+  },
+  "insertAdjacentHTML": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML\">insertAdjacentHTML()</a>",
+      "text": "insertAdjacentHTML()"
+    },
+    "description": {
+      "html": "<p>Parses the text as HTML or XML and inserts the resulting nodes into the tree in the position given.</p>\n  ",
+      "text": "Parses the text as HTML or XML and inserts the resulting nodes into the tree in the position given.\n  "
+    }
+  },
+  "insertAdjacentText": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentText",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentText\">insertAdjacentText()</a>",
+      "text": "insertAdjacentText()"
+    },
+    "description": {
+      "html": "<p>Inserts a given text node at a given position relative to the element it is invoked upon.</p>\n  ",
+      "text": "Inserts a given text node at a given position relative to the element it is invoked upon.\n  "
+    }
+  },
+  "matches": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/matches",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/matches\">matches()</a>",
+      "text": "matches()"
+    },
+    "description": {
+      "html": "<p>Returns a boolean value indicating whether or not the element would be selected by the specified selector string.</p>\n  ",
+      "text": "Returns a boolean value indicating whether or not the element would be selected by the specified selector string.\n  "
+    }
+  },
+  "prepend": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/prepend\">prepend()</a>",
+      "text": "prepend()"
+    },
+    "description": {
+      "html": "<p>Inserts a set of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> objects or strings before the first child of the element.</p>\n  ",
+      "text": "Inserts a set of Node objects or strings before the first child of the element.\n  "
+    }
+  },
+  "querySelector": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector\">querySelector()</a>",
+      "text": "querySelector()"
+    },
+    "description": {
+      "html": "<p>Returns the first <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\">element node</a> which matches the specified <a href=\"https://css-tricks.com/css-selectors/\" target=\"_blank\">CSS selector string</a> relative to the element.</p>\n  ",
+      "text": "Returns the first Node which matches the specified selector string relative to the element.\n  "
+    }
+  },
+  "querySelectorAll": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll\">querySelectorAll()</a>",
+      "text": "querySelectorAll()"
+    },
+    "description": {
+      "html": "<p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NodeList\">element NodeList</a> of nodes which match the specified <a href=\"https://css-tricks.com/css-selectors/\" target=\"_blank\">CSS selector string</a> relative to the element.</p>\n  ",
+      "text": "Returns a NodeList of nodes which match the specified selector string relative to the element.\n  "
+    }
+  },
+  "releasePointerCapture": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/releasePointerCapture",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/releasePointerCapture\">releasePointerCapture()</a>",
+      "text": "releasePointerCapture()"
+    },
+    "description": {
+      "html": "<p>Releases (stops) pointer capture that was previously set for a specific <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/PointerEvent\" title=\"pointer event\"><code>pointer event</code></a>.</p>\n  ",
+      "text": "Releases (stops) pointer capture that was previously set for a specific pointer event.\n  "
+    }
+  },
+  "remove": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/remove",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/remove\">remove()</a>",
+      "text": "remove()"
+    },
+    "description": {
+      "html": "<p>Removes the element from the children list of its parent.</p>\n  ",
+      "text": "Removes the element from the children list of its parent.\n  "
+    }
+  },
+  "removeAttribute": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute\">removeAttribute()</a>",
+      "text": "removeAttribute()"
+    },
+    "description": {
+      "html": "<p>Removes the named attribute from the current node.</p>\n  ",
+      "text": "Removes the named attribute from the current node.\n  "
+    }
+  },
+  "removeAttributeNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttributeNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttributeNode\">removeAttributeNode()</a>",
+      "text": "removeAttributeNode()"
+    },
+    "description": {
+      "html": "<p>Removes the node representation of the named attribute from the current node.</p>\n  ",
+      "text": "Removes the node representation of the named attribute from the current node.\n  "
+    }
+  },
+  "removeAttributeNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttributeNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttributeNS\">removeAttributeNS()</a>",
+      "text": "removeAttributeNS()"
+    },
+    "description": {
+      "html": "<p>Removes the attribute with the specified name and namespace, from the current node.</p>\n  ",
+      "text": "Removes the attribute with the specified name and namespace, from the current node.\n  "
+    }
+  },
+  "removeEventListener": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener\">removeEventListener()</a>",
+      "text": "removeEventListener()"
+    },
+    "description": {
+      "html": "<p>Removes an event listener from the element.</p>\n  ",
+      "text": "Removes an event listener from the element.\n  "
+    }
+  },
+  "replaceChildren": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceChildren\">replaceChildren()</a>",
+      "text": "replaceChildren()"
+    },
+    "description": {
+      "html": "<p>Replaces the existing children of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> with a specified new set of children.</p>\n  ",
+      "text": "Replaces the existing children of a Node with a specified new set of children.\n  "
+    }
+  },
+  "replaceWith": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceWith",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/replaceWith\">replaceWith()</a>",
+      "text": "replaceWith()"
+    },
+    "description": {
+      "html": "<p>Replaces the element in the children list of its parent with a set of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\"><code>Node</code></a> objects or strings.</p>\n  ",
+      "text": "Replaces the element in the children list of its parent with a set of Node objects or strings.\n  "
+    }
+  },
+  "requestFullscreen": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/requestFullscreen\">requestFullscreen()</a>",
+      "text": "requestFullscreen()"
+    },
+    "description": {
+      "html": "<p>Asynchronously asks the browser to make the element fullscreen.</p>\n  ",
+      "text": "Asynchronously asks the browser to make the element fullscreen.\n  "
+    }
+  },
+  "requestPointerLock": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/requestPointerLock",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/requestPointerLock\">requestPointerLock()</a>",
+      "text": "requestPointerLock()"
+    },
+    "description": {
+      "html": "<p>Allows to asynchronously ask for the pointer to be locked on the given element.</p>\n  ",
+      "text": "Allows to asynchronously ask for the pointer to be locked on the given element.\n  "
+    }
+  },
+  "scroll": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll\">scroll()</a>",
+      "text": "scroll()"
+    },
+    "description": {
+      "html": "<p>Scrolls to a particular set of coordinates inside a given element.</p>\n  ",
+      "text": "Scrolls to a particular set of coordinates inside a given element.\n  "
+    }
+  },
+  "scrollBy": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollBy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollBy\">scrollBy()</a>",
+      "text": "scrollBy()"
+    },
+    "description": {
+      "html": "<p>Scrolls an element by the given amount.</p>\n  ",
+      "text": "Scrolls an element by the given amount.\n  "
+    }
+  },
+  "scrollIntoView": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView\">scrollIntoView()</a>",
+      "text": "scrollIntoView()"
+    },
+    "description": {
+      "html": "<p>Scrolls the page until the element gets into the view.</p>\n  ",
+      "text": "Scrolls the page until the element gets into the view.\n  "
+    }
+  },
+  "scrollIntoViewIfNeeded": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoViewIfNeeded",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoViewIfNeeded\">scrollIntoViewIfNeeded()</a>",
+      "text": "scrollIntoViewIfNeeded()"
+    },
+    "description": {
+      "html": "<p>Scrolls the current element into the visible area of the browser window if it&apos;s not already within the visible area of the browser window. <strong>Use the standard <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView\"><code>Element.scrollIntoView()</code></a> instead.</strong></p>\n  ",
+      "text": "Scrolls the current element into the visible area of the browser window if it's not already within the visible area of the browser window. Use the standard Element.scrollIntoView() instead.\n  "
+    }
+  },
+  "scrollTo": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollTo\">scrollTo()</a>",
+      "text": "scrollTo()"
+    },
+    "description": {
+      "html": "<p>Scrolls to a particular set of coordinates inside a given element.</p>\n  ",
+      "text": "Scrolls to a particular set of coordinates inside a given element.\n  "
+    }
+  },
+  "setAttribute": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute\">setAttribute()</a>",
+      "text": "setAttribute()"
+    },
+    "description": {
+      "html": "<p>Sets the value of a named attribute of the current node.</p>\n  ",
+      "text": "Sets the value of a named attribute of the current node.\n  "
+    }
+  },
+  "setAttributeNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNode\">setAttributeNode()</a>",
+      "text": "setAttributeNode()"
+    },
+    "description": {
+      "html": "<p>Sets the node representation of the named attribute from the current node.</p>\n  ",
+      "text": "Sets the node representation of the named attribute from the current node.\n  "
+    }
+  },
+  "setAttributeNodeNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNodeNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNodeNS\">setAttributeNodeNS()</a>",
+      "text": "setAttributeNodeNS()"
+    },
+    "description": {
+      "html": "<p>Sets the node representation of the attribute with the specified name and namespace, from the current node.</p>\n  ",
+      "text": "Sets the node representation of the attribute with the specified name and namespace, from the current node.\n  "
+    }
+  },
+  "setAttributeNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttributeNS\">setAttributeNS()</a>",
+      "text": "setAttributeNS()"
+    },
+    "description": {
+      "html": "<p>Sets the value of the attribute with the specified name and namespace, from the current node.</p>\n  ",
+      "text": "Sets the value of the attribute with the specified name and namespace, from the current node.\n  "
+    }
+  },
+  "setCapture": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setCapture",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setCapture\">setCapture()</a>",
+      "text": "setCapture()"
+    },
+    "description": {
+      "html": "<p>Sets up mouse event capture, redirecting all mouse events to this element.</p>\n  ",
+      "text": "Sets up mouse event capture, redirecting all mouse events to this element.\n  "
+    }
+  },
+  "setHTML": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setHTML",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setHTML\">setHTML()</a>",
+      "text": "setHTML()"
+    },
+    "description": {
+      "html": "<p>Parses and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTML_Sanitizer_API\">sanitizes</a> a string of HTML and inserts into the DOM as a subtree of the element.</p>\n  ",
+      "text": "Parses and sanitizes a string of HTML and inserts into the DOM as a subtree of the element.\n  "
+    }
+  },
+  "setPointerCapture": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture\">setPointerCapture()</a>",
+      "text": "setPointerCapture()"
+    },
+    "description": {
+      "html": "<p>Designates a specific element as the capture target of future <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events\">pointer events</a>.</p>\n  ",
+      "text": "Designates a specific element as the capture target of future pointer events.\n  "
+    }
+  },
+  "toggleAttribute": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/toggleAttribute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/toggleAttribute\">toggleAttribute()</a>",
+      "text": "toggleAttribute()"
+    },
+    "description": {
+      "html": "<p>Toggles a boolean attribute, removing it if it is present and adding it if it is not present, on the specified element.</p>\n  ",
+      "text": "Toggles a boolean attribute, removing it if it is present and adding it if it is not present, on the specified element.\n  "
+    }
+  }
+}

@@ -1,6 +1,8 @@
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
+const svgEles = require('../edu-data/html/svg-elements.json')
+const svgAttr = require('../edu-data/html/svg-attributes.json')
 
 const HTMLStandardsRules = {
   'standard-elements': true,
@@ -27,7 +29,7 @@ const HTMLHintRules = {
   'attr-unsafe-chars': true,
   'attr-value-double-quotes': true,
   'attr-value-not-empty': true,
-  'attr-whitespace': true,
+  'attr-whitespace': false, // nope
   'alt-require': true,
   // tags
   'tags-check': false, // nope
@@ -81,11 +83,21 @@ const emptyAttrVals = [
   'truespeed '
 ]
 
-function linter (code) {
-  const frdlyErr = HTMLStandards.verify(code, HTMLStandardsRules)
+function linter (code, cm) {
+  const frdlyErr = HTMLStandards.verify(code, HTMLStandardsRules, cm)
   const err = HTMLHint.verify(code, HTMLHintRules)
     .filter((e) => {
-      if (e.rule.id === 'attr-value-not-empty') {
+      if (e.rule.id === 'tagname-lowercase') { // exception for SVG elements
+        const match = e.message.match(/\[([^\]]+)\]/)
+        if (!match) return true
+        const ele = match[1].trim()
+        if (Object.keys(svgEles).includes(ele)) return false
+        else return true
+      } else if (e.rule.id === 'attr-lowercase') { // exception for SVG attributes
+        const attr = e.raw.trim().split('=')[0].toLowerCase()
+        if (Object.keys(svgAttr).includes(attr)) return false
+        else return true
+      } else if (e.rule.id === 'attr-value-not-empty') { // exception for boolean attributes
         if (emptyAttrVals.includes(e.raw.trim())) return false
         else return true
       } else return true

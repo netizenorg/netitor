@@ -1,0 +1,1634 @@
+{
+  "anchors": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/anchors",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/anchors\">anchors</a>",
+      "text": "anchors"
+    },
+    "description": {
+      "html": "Returns a list of all of the anchors in the document.",
+      "text": "Returns a list of all of the anchors in the document."
+    }
+  },
+  "body": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/body",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/body\">body</a>",
+      "text": "body"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\" title=\"The HTML &lt;body&gt; Element represents the content of an HTML&#xA0;document. There can be only one &lt;body&gt; element in a document.\"><code>&lt;body&gt;</code></a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/frameset\" title=\"The HTML &lt;frameset&gt; element is used to contain &lt;frame&gt; elements.\"><code>&lt;frameset&gt;</code></a> node of the current document.",
+      "text": "Returns the <body> or <frameset> node of the current document."
+    }
+  },
+  "characterSet": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/characterSet",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/characterSet\">characterSet</a>",
+      "text": "characterSet"
+    },
+    "description": {
+      "html": "Returns the character set being used by the document.",
+      "text": "Returns the character set being used by the document."
+    }
+  },
+  "compatMode": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/compatMode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/compatMode\">compatMode</a>",
+      "text": "compatMode"
+    },
+    "description": {
+      "html": "Indicates whether the document is rendered in <em>quirks</em> or <em>strict</em> mode.",
+      "text": "Indicates whether the document is rendered in quirks or strict mode."
+    }
+  },
+  "contentType": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/contentType",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/contentType\">contentType</a>",
+      "text": "contentType"
+    },
+    "description": {
+      "html": "Returns the Content-Type from the MIME Header of the current document.",
+      "text": "Returns the Content-Type from the MIME Header of the current document."
+    }
+  },
+  "doctype": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/doctype",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/doctype\">doctype</a>",
+      "text": "doctype"
+    },
+    "description": {
+      "html": "Returns the Document Type Definition (DTD) of the current document.",
+      "text": "Returns the Document Type Definition (DTD) of the current document."
+    }
+  },
+  "documentElement": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement\">documentElement</a>",
+      "text": "documentElement"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> that is a direct child of the document. For HTML documents, this is normally the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLHtmlElement\"><code>HTMLHtmlElement</code></a> object representing the document&apos;s <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML &lt;html&gt; element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a> element.",
+      "text": "Returns the Element that is a direct child of the document. For HTML documents, this is normally the HTMLHtmlElement object representing the document's <html> element."
+    }
+  },
+  "documentURI": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/documentURI",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/documentURI\">documentURI</a>",
+      "text": "documentURI"
+    },
+    "description": {
+      "html": "Returns the document location as a string.",
+      "text": "Returns the document location as a string."
+    }
+  },
+  "embeds": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/embeds",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/embeds\">embeds</a>",
+      "text": "embeds"
+    },
+    "description": {
+      "html": "Returns a list of the embedded <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\" title=\"The HTML &lt;embed&gt; element embeds external content at the specified point in the document. This content is provided by an external application or other source of interactive content such as a browser plug-in.\"><code>&lt;embed&gt;</code></a> elements within the current document.",
+      "text": "Returns a list of the embedded <embed> elements within the current document."
+    }
+  },
+  "fonts": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fonts",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/fonts\">fonts</a>",
+      "text": "fonts"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/FontFaceSet\"><code>FontFaceSet</code></a> interface of the current document.",
+      "text": "Returns the FontFaceSet interface of the current document."
+    }
+  },
+  "forms": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/forms",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/forms\">forms</a>",
+      "text": "forms"
+    },
+    "description": {
+      "html": "Returns a list of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\" title=\"The HTML &lt;form&gt; element represents a document section containing interactive controls for submitting information.\"><code>&lt;form&gt;</code></a> elements within the current document.",
+      "text": "Returns a list of the <form> elements within the current document."
+    }
+  },
+  "head": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/head",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/head\">head</a>",
+      "text": "head"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head\" title=\"The HTML &lt;head&gt; element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.\"><code>&lt;head&gt;</code></a> element of the current document.",
+      "text": "Returns the <head> element of the current document."
+    }
+  },
+  "hidden": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/hidden",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/hidden\">hidden</a>",
+      "text": "hidden"
+    },
+    "description": {
+      "html": "Returns a Boolean value indicating if the page is considered hidden or not.",
+      "text": "Returns a Boolean value indicating if the page is considered hidden or not."
+    }
+  },
+  "images": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/images",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/images\">images</a>",
+      "text": "images"
+    },
+    "description": {
+      "html": "Returns a list of the images in the current document.",
+      "text": "Returns a list of the images in the current document."
+    }
+  },
+  "implementation": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/implementation",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/implementation\">implementation</a>",
+      "text": "implementation"
+    },
+    "description": {
+      "html": "Returns the DOM implementation associated with the current document.",
+      "text": "Returns the DOM implementation associated with the current document."
+    }
+  },
+  "lastStyleSheetSet": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/lastStyleSheetSet",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/lastStyleSheetSet\">lastStyleSheetSet</a>",
+      "text": "lastStyleSheetSet"
+    },
+    "description": {
+      "html": "Returns the name of the style sheet set that was last enabled. Has the value <code>null</code> until the style sheet is changed by setting the value of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/selectedStyleSheetSet\"><code>selectedStyleSheetSet</code></a>.",
+      "text": "Returns the name of the style sheet set that was last enabled. Has the value null until the style sheet is changed by setting the value of selectedStyleSheetSet."
+    }
+  },
+  "links": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/links",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/links\">links</a>",
+      "text": "links"
+    },
+    "description": {
+      "html": "Returns a list of all the hyperlinks in the document.",
+      "text": "Returns a list of all the hyperlinks in the document."
+    }
+  },
+  "mozSyntheticDocument": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/mozSyntheticDocument",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/mozSyntheticDocument\">mozSyntheticDocument</a>",
+      "text": "mozSyntheticDocument"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean\"><code>Boolean</code></a> that is <code>true</code> only if this document is synthetic, such as a standalone image, video, audio file, or the like.",
+      "text": "Returns a Boolean that is true only if this document is synthetic, such as a standalone image, video, audio file, or the like."
+    }
+  },
+  "plugins": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/plugins",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/plugins\">plugins</a>",
+      "text": "plugins"
+    },
+    "description": {
+      "html": "Returns a list of the available plugins.",
+      "text": "Returns a list of the available plugins."
+    }
+  },
+  "featurePolicy": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/featurePolicy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/featurePolicy\">featurePolicy</a>",
+      "text": "featurePolicy"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/FeaturePolicy\"><code>FeaturePolicy</code></a> interface which provides a simple API for introspecting the feature policies applied to a specific document.",
+      "text": "Returns the FeaturePolicy interface which provides a simple API for introspecting the feature policies applied to a specific document."
+    }
+  },
+  "preferredStyleSheetSet": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/preferredStyleSheetSet",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/preferredStyleSheetSet\">preferredStyleSheetSet</a>",
+      "text": "preferredStyleSheetSet"
+    },
+    "description": {
+      "html": "Returns the preferred style sheet set as specified by the page author.",
+      "text": "Returns the preferred style sheet set as specified by the page author."
+    }
+  },
+  "scripts": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/scripts",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/scripts\">scripts</a>",
+      "text": "scripts"
+    },
+    "description": {
+      "html": "Returns all the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a> elements on the document.",
+      "text": "Returns all the <script> elements on the document."
+    }
+  },
+  "scrollingElement": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/scrollingElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/scrollingElement\">scrollingElement</a>",
+      "text": "scrollingElement"
+    },
+    "description": {
+      "html": "Returns a reference to the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> that scrolls the document.",
+      "text": "Returns a reference to the Element that scrolls the document."
+    }
+  },
+  "selectedStyleSheetSet": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/selectedStyleSheetSet",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/selectedStyleSheetSet\">selectedStyleSheetSet</a>",
+      "text": "selectedStyleSheetSet"
+    },
+    "description": {
+      "html": "Returns which style sheet set is currently in use.",
+      "text": "Returns which style sheet set is currently in use."
+    }
+  },
+  "styleSheetSets": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheetSets",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/styleSheetSets\">styleSheetSets</a>",
+      "text": "styleSheetSets"
+    },
+    "description": {
+      "html": "Returns a list of the style sheet sets available on the document.",
+      "text": "Returns a list of the style sheet sets available on the document."
+    }
+  },
+  "timeline": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/timeline",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/timeline\">timeline</a>",
+      "text": "timeline"
+    },
+    "description": {
+      "html": "Returns timeline as a special instance of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DocumentTimeline\"><code>DocumentTimeline</code></a> that is automatically created on page load.",
+      "text": "Returns timeline as a special instance of DocumentTimeline that is automatically created on page load."
+    }
+  },
+  "undoManager": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/undoManager",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/undoManager\">undoManager</a>",
+      "text": "undoManager"
+    },
+    "description": {
+      "html": "&#x2026;",
+      "text": "…"
+    }
+  },
+  "visibilityState": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState\">visibilityState</a>",
+      "text": "visibilityState"
+    },
+    "description": {
+      "html": "Returns a <code>string</code> denoting the visibility state of the document. Possible values are <code>visible</code>, <code>hidden</code>, <code>prerender</code>, and <code>unloaded</code>.",
+      "text": "Returns a string denoting the visibility state of the document. Possible values are visible, hidden, prerender, and unloaded."
+    }
+  },
+  "cookie": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie\">cookie</a>",
+      "text": "cookie"
+    },
+    "description": {
+      "html": "Returns a semicolon-separated list of the cookies for that document or sets a single cookie.",
+      "text": "Returns a semicolon-separated list of the cookies for that document or sets a single cookie."
+    }
+  },
+  "defaultView": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/defaultView",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/defaultView\">defaultView</a>",
+      "text": "defaultView"
+    },
+    "description": {
+      "html": "Returns a reference to the window object.",
+      "text": "Returns a reference to the window object."
+    }
+  },
+  "designMode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/designMode\">designMode</a>",
+      "text": "designMode"
+    },
+    "description": {
+      "html": "Gets/sets the ability to edit the whole document.",
+      "text": "Gets/sets the ability to edit the whole document."
+    }
+  },
+  "dir": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/dir",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/dir\">dir</a>",
+      "text": "dir"
+    },
+    "description": {
+      "html": "Gets/sets directionality (rtl/ltr) of the document.",
+      "text": "Gets/sets directionality (rtl/ltr) of the document."
+    }
+  },
+  "domain": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/domain",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/domain\">domain</a>",
+      "text": "domain"
+    },
+    "description": {
+      "html": "Gets/sets the domain of the current document.",
+      "text": "Gets/sets the domain of the current document."
+    }
+  },
+  "lastModified": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/lastModified",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/lastModified\">lastModified</a>",
+      "text": "lastModified"
+    },
+    "description": {
+      "html": "Returns the date on which the document was last modified.",
+      "text": "Returns the date on which the document was last modified."
+    }
+  },
+  "location": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/location",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/location\">location</a>",
+      "text": "location"
+    },
+    "description": {
+      "html": "Returns the URI of the current document.",
+      "text": "Returns the URI of the current document."
+    }
+  },
+  "readyState": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/readyState\">readyState</a>",
+      "text": "readyState"
+    },
+    "description": {
+      "html": "Returns loading status of the document.",
+      "text": "Returns loading status of the document."
+    }
+  },
+  "referrer": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/referrer",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/referrer\">referrer</a>",
+      "text": "referrer"
+    },
+    "description": {
+      "html": "Returns the URI of the page that linked to this page.",
+      "text": "Returns the URI of the page that linked to this page."
+    }
+  },
+  "title": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/title",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/title\">title</a>",
+      "text": "title"
+    },
+    "description": {
+      "html": "Sets or gets the title of the current document.",
+      "text": "Sets or gets the title of the current document."
+    }
+  },
+  "URL": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/URL",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/URL\">URL</a>",
+      "text": "URL"
+    },
+    "description": {
+      "html": "Returns the document location as a string.",
+      "text": "Returns the document location as a string."
+    }
+  },
+  "activeElement": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/activeElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/activeElement\">activeElement</a>",
+      "text": "activeElement"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> within the shadow tree that has focus.",
+      "text": "Returns the Element within the shadow tree that has focus."
+    }
+  },
+  "fullscreenElement": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreenElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreenElement\">fullscreenElement</a>",
+      "text": "fullscreenElement"
+    },
+    "description": {
+      "html": "The element that&apos;s currently in full screen mode for this document.",
+      "text": "The element that's currently in full screen mode for this document."
+    }
+  },
+  "pointerLockElement": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/pointerLockElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/pointerLockElement\">pointerLockElement</a>",
+      "text": "pointerLockElement"
+    },
+    "description": {
+      "html": "Returns the element set as the target for mouse events while the pointer is locked. <code>null</code> if lock is pending, pointer is unlocked, or if the target is in another document.",
+      "text": "Returns the element set as the target for mouse events while the pointer is locked. null if lock is pending, pointer is unlocked, or if the target is in another document."
+    }
+  },
+  "styleSheets": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/styleSheets",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/styleSheets\">styleSheets</a>",
+      "text": "styleSheets"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/StyleSheetList\"><code>StyleSheetList</code></a> of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleSheet\"><code>CSSStyleSheet</code></a> objects for stylesheets explicitly linked into, or embedded in a document.",
+      "text": "Returns a StyleSheetList of CSSStyleSheet objects for stylesheets explicitly linked into, or embedded in a document."
+    }
+  },
+  "onafterscriptexecute": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onafterscriptexecute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/onafterscriptexecute\">onafterscriptexecute</a>",
+      "text": "onafterscriptexecute"
+    },
+    "description": {
+      "html": "Represents the event handling code for the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/afterscriptexecute\" title=\"/en-US/docs/Web/Events/afterscriptexecute\">afterscriptexecute</a></code> event.",
+      "text": "Represents the event handling code for the afterscriptexecute event."
+    }
+  },
+  "onbeforescriptexecute": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onbeforescriptexecute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/onbeforescriptexecute\">onbeforescriptexecute</a>",
+      "text": "onbeforescriptexecute"
+    },
+    "description": {
+      "html": "Represents the event handling code for the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/beforescriptexecute\" title=\"/en-US/docs/Web/Events/beforescriptexecute\">beforescriptexecute</a></code> event.",
+      "text": "Represents the event handling code for the beforescriptexecute event."
+    }
+  },
+  "oncopy": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/oncopy",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/oncopy\">oncopy</a>",
+      "text": "oncopy"
+    },
+    "description": {
+      "html": "Represents the event handling code for the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/copy\" title=\"/en-US/docs/Web/Events/copy\">copy</a></code> event.",
+      "text": "Represents the event handling code for the copy event."
+    }
+  },
+  "oncut": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/oncut",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/oncut\">oncut</a>",
+      "text": "oncut"
+    },
+    "description": {
+      "html": "Represents the event handling code for the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/cut\" title=\"/en-US/docs/Web/Events/cut\">cut</a></code> event.",
+      "text": "Represents the event handling code for the cut event."
+    }
+  },
+  "onfullscreenchange": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onfullscreenchange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/onfullscreenchange\">onfullscreenchange</a>",
+      "text": "onfullscreenchange"
+    },
+    "description": {
+      "html": "Is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventHandler\"><code>EventHandler</code></a> representing the code to be called when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/fullscreenchange\" title=\"/en-US/docs/Web/Events/fullscreenchange\">fullscreenchange</a></code> event is raised.",
+      "text": "Is an EventHandler representing the code to be called when the fullscreenchange event is raised."
+    }
+  },
+  "onfullscreenerror": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onfullscreenerror",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/onfullscreenerror\">onfullscreenerror</a>",
+      "text": "onfullscreenerror"
+    },
+    "description": {
+      "html": "Is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventHandler\"><code>EventHandler</code></a> representing the code to be called when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/fullscreenerror\" title=\"/en-US/docs/Web/Events/fullscreenerror\">fullscreenerror</a></code> event is raised.",
+      "text": "Is an EventHandler representing the code to be called when the fullscreenerror event is raised."
+    }
+  },
+  "onpaste": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onpaste",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/onpaste\">onpaste</a>",
+      "text": "onpaste"
+    },
+    "description": {
+      "html": "Represents the event handling code for the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/paste\" title=\"/en-US/docs/Web/Events/paste\">paste</a></code> event.",
+      "text": "Represents the event handling code for the paste event."
+    }
+  },
+  "onreadystatechange": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onreadystatechange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/onreadystatechange\">onreadystatechange</a>",
+      "text": "onreadystatechange"
+    },
+    "description": {
+      "html": "Represents the event handling code for the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/readystatechange\" title=\"/en-US/docs/Web/Events/readystatechange\">readystatechange</a></code> event.",
+      "text": "Represents the event handling code for the readystatechange event."
+    }
+  },
+  "onselectionchange": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onselectionchange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/onselectionchange\">onselectionchange</a>",
+      "text": "onselectionchange"
+    },
+    "description": {
+      "html": "Is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventHandler\"><code>EventHandler</code></a> representing the code to be called when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/selectionchange\" title=\"/en-US/docs/Web/Events/selectionchange\">selectionchange</a></code> event is raised.",
+      "text": "Is an EventHandler representing the code to be called when the selectionchange event is raised."
+    }
+  },
+  "onvisibilitychange": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/onvisibilitychange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/onvisibilitychange\">onvisibilitychange</a>",
+      "text": "onvisibilitychange"
+    },
+    "description": {
+      "html": "Is an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventHandler\"><code>EventHandler</code></a> representing the code to be called when the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Events/visibilitychange\" title=\"/en-US/docs/Web/Events/visibilitychange\">visibilitychange</a></code> event is raised.",
+      "text": "Is an EventHandler representing the code to be called when the visibilitychange event is raised."
+    }
+  },
+  "alinkColor": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/alinkColor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/alinkColor\">alinkColor</a>",
+      "text": "alinkColor"
+    },
+    "description": {
+      "html": "Returns or sets the color of active links in the document body.",
+      "text": "Returns or sets the color of active links in the document body."
+    }
+  },
+  "all": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/all",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/all\">all</a>",
+      "text": "all"
+    },
+    "description": {
+      "html": "Provides access to all elements in the document &#x2014; it returns&#xA0;an <a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLAllCollection\" rel=\"nofollow\"><code>HTMLAllCollection</code></a> rooted at the document node. This is a legacy, non-standard property and should not be used.",
+      "text": "Provides access to all elements in the document — it returns an HTMLAllCollection rooted at the document node. This is a legacy, non-standard property and should not be used."
+    }
+  },
+  "applets": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/applets",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/applets\">applets</a>",
+      "text": "applets"
+    },
+    "description": {
+      "html": "Returns an ordered list of the applets within a document.",
+      "text": "Returns an ordered list of the applets within a document."
+    }
+  },
+  "bgColor": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/bgColor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/bgColor\">bgColor</a>",
+      "text": "bgColor"
+    },
+    "description": {
+      "html": "Gets/sets the background color of the current document.",
+      "text": "Gets/sets the background color of the current document."
+    }
+  },
+  "charset": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/charset",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/charset\">charset</a>",
+      "text": "charset"
+    },
+    "description": {
+      "html": "Alias of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/characterSet\"><code>Document.characterSet</code></a>. Use this property instead.",
+      "text": "Alias of Document.characterSet. Use this property instead."
+    }
+  },
+  "domConfig": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/domConfig",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/domConfig\">domConfig</a>",
+      "text": "domConfig"
+    },
+    "description": {
+      "html": "Should return a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMConfiguration\"><code>DOMConfiguration</code></a> object.",
+      "text": "Should return a DOMConfiguration object."
+    }
+  },
+  "fgColor": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fgColor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/fgColor\">fgColor</a>",
+      "text": "fgColor"
+    },
+    "description": {
+      "html": "Gets/sets the foreground color, or text color, of the current document.",
+      "text": "Gets/sets the foreground color, or text color, of the current document."
+    }
+  },
+  "fullscreen": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreen",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreen\">fullscreen</a>",
+      "text": "fullscreen"
+    },
+    "description": {
+      "html": "<code>true</code> when the document is in <a class=\"new\" target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Using_full-screen_mode\" rel=\"nofollow\"><code>full-screen mode</code></a>.",
+      "text": "true when the document is in full-screen mode."
+    }
+  },
+  "height": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/height",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/height\">height</a>",
+      "text": "height"
+    },
+    "description": {
+      "html": "Gets/sets the height of the current document.",
+      "text": "Gets/sets the height of the current document."
+    }
+  },
+  "inputEncoding": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/inputEncoding",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/inputEncoding\">inputEncoding</a>",
+      "text": "inputEncoding"
+    },
+    "description": {
+      "html": "Alias of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/characterSet\"><code>Document.characterSet</code></a>. Use this property instead.",
+      "text": "Alias of Document.characterSet. Use this property instead."
+    }
+  },
+  "linkColor": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/linkColor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/linkColor\">linkColor</a>",
+      "text": "linkColor"
+    },
+    "description": {
+      "html": "Gets/sets the color of hyperlinks in the document.",
+      "text": "Gets/sets the color of hyperlinks in the document."
+    }
+  },
+  "rootElement": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/rootElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/rootElement\">rootElement</a>",
+      "text": "rootElement"
+    },
+    "description": {
+      "html": "Like <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/documentElement\"><code>Document.documentElement</code></a>, but only for <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg\" title=\"The svg element is a container that defines a new coordinate system and viewport. It is used as the outermost element of SVG documents, but it can also be used to embed a SVG fragment inside an SVG or HTML document.\"><code>&lt;svg&gt;</code></a> root elements. Use this property instead.",
+      "text": "Like Document.documentElement, but only for <svg> root elements. Use this property instead."
+    }
+  },
+  "vlinkColor": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/vlinkColor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/vlinkColor\">vlinkColor</a>",
+      "text": "vlinkColor"
+    },
+    "description": {
+      "html": "Gets/sets the color of visited hyperlinks.",
+      "text": "Gets/sets the color of visited hyperlinks."
+    }
+  },
+  "width": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/width",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/width\">width</a>",
+      "text": "width"
+    },
+    "description": {
+      "html": "Returns the width of the current document.",
+      "text": "Returns the width of the current document."
+    }
+  },
+  "xmlEncoding": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/xmlEncoding",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/xmlEncoding\">xmlEncoding</a>",
+      "text": "xmlEncoding"
+    },
+    "description": {
+      "html": "Returns the encoding as determined by the XML declaration.",
+      "text": "Returns the encoding as determined by the XML declaration."
+    }
+  },
+  "xmlStandalone": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/xmlStandalone",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/xmlStandalone\">xmlStandalone</a>",
+      "text": "xmlStandalone"
+    },
+    "description": {
+      "html": "Returns <code>true</code> if the XML declaration specifies the document to be standalone (<em>e.g.,</em> An external part of the DTD affects the document&apos;s content), else <code>false</code>.",
+      "text": "Returns true if the XML declaration specifies the document to be standalone (e.g., An external part of the DTD affects the document's content), else false."
+    }
+  },
+  "xmlVersion": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/xmlVersion",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/xmlVersion\">xmlVersion</a>",
+      "text": "xmlVersion"
+    },
+    "description": {
+      "html": "Returns the version number as specified in the XML declaration or <code>&quot;1.0&quot;</code> if the declaration is absent.",
+      "text": "Returns the version number as specified in the XML declaration or \"1.0\" if the declaration is absent."
+    }
+  },
+  "adoptNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/adoptNode\">adoptNode()</a>",
+      "text": "adoptNode()"
+    },
+    "description": {
+      "html": "Adopt node from an external document.",
+      "text": "Adopt node from an external document."
+    }
+  },
+  "captureEvents": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/captureEvents",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/captureEvents\">captureEvents()</a>",
+      "text": "captureEvents()"
+    },
+    "description": {
+      "html": "See <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/captureEvents\"><code>Window.captureEvents</code></a>.",
+      "text": "See Window.captureEvents."
+    }
+  },
+  "caretRangeFromPoint": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/caretRangeFromPoint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/caretRangeFromPoint\">caretRangeFromPoint()</a>",
+      "text": "caretRangeFromPoint()"
+    },
+    "description": {
+      "html": "Gets a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Range\"><code>Range</code></a> object for the document fragment under the specified coordinates.",
+      "text": "Gets a Range object for the document fragment under the specified coordinates."
+    }
+  },
+  "createAttribute": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createAttribute",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createAttribute\">createAttribute()</a>",
+      "text": "createAttribute()"
+    },
+    "description": {
+      "html": "Creates a new <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Attr\"><code>Attr</code></a> object and returns it.",
+      "text": "Creates a new Attr object and returns it."
+    }
+  },
+  "createAttributeNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createAttributeNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createAttributeNS\">createAttributeNS()</a>",
+      "text": "createAttributeNS()"
+    },
+    "description": {
+      "html": "Creates a new attribute node in a given namespace and returns it.",
+      "text": "Creates a new attribute node in a given namespace and returns it."
+    }
+  },
+  "createCDATASection": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createCDATASection",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createCDATASection\">createCDATASection()</a>",
+      "text": "createCDATASection()"
+    },
+    "description": {
+      "html": "Creates a new CDATA node and returns it.",
+      "text": "Creates a new CDATA node and returns it."
+    }
+  },
+  "createComment": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createComment",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createComment\">createComment()</a>",
+      "text": "createComment()"
+    },
+    "description": {
+      "html": "Creates a new comment node and returns it.",
+      "text": "Creates a new comment node and returns it."
+    }
+  },
+  "createDocumentFragment": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment\">createDocumentFragment()</a>",
+      "text": "createDocumentFragment()"
+    },
+    "description": {
+      "html": "Creates a new document fragment.",
+      "text": "Creates a new document fragment."
+    }
+  },
+  "createElement": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement\">createElement()</a>",
+      "text": "createElement()"
+    },
+    "description": {
+      "html": "Creates a new element with the given tag name.",
+      "text": "Creates a new element with the given tag name."
+    }
+  },
+  "createElementNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createElementNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createElementNS\">createElementNS()</a>",
+      "text": "createElementNS()"
+    },
+    "description": {
+      "html": "Creates a new element with the given tag name and namespace URI.",
+      "text": "Creates a new element with the given tag name and namespace URI."
+    }
+  },
+  "createEntityReference": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createEntityReference",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createEntityReference\">createEntityReference()</a>",
+      "text": "createEntityReference()"
+    },
+    "description": {
+      "html": "Creates a new entity reference object and returns it.",
+      "text": "Creates a new entity reference object and returns it."
+    }
+  },
+  "createEvent": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createEvent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createEvent\">createEvent()</a>",
+      "text": "createEvent()"
+    },
+    "description": {
+      "html": "Creates an event object.",
+      "text": "Creates an event object."
+    }
+  },
+  "createNodeIterator": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createNodeIterator",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createNodeIterator\">createNodeIterator()</a>",
+      "text": "createNodeIterator()"
+    },
+    "description": {
+      "html": "Creates a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NodeIterator\"><code>NodeIterator</code></a> object.",
+      "text": "Creates a NodeIterator object."
+    }
+  },
+  "createProcessingInstruction": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createProcessingInstruction",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createProcessingInstruction\">createProcessingInstruction()</a>",
+      "text": "createProcessingInstruction()"
+    },
+    "description": {
+      "html": "Creates a new <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/ProcessingInstruction\"><code>ProcessingInstruction</code></a> object.",
+      "text": "Creates a new ProcessingInstruction object."
+    }
+  },
+  "createRange": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createRange",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createRange\">createRange()</a>",
+      "text": "createRange()"
+    },
+    "description": {
+      "html": "Creates a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Range\"><code>Range</code></a> object.",
+      "text": "Creates a Range object."
+    }
+  },
+  "createTextNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createTextNode\">createTextNode()</a>",
+      "text": "createTextNode()"
+    },
+    "description": {
+      "html": "Creates a text node.",
+      "text": "Creates a text node."
+    }
+  },
+  "createTouch": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTouch",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createTouch\">createTouch()</a>",
+      "text": "createTouch()"
+    },
+    "description": {
+      "html": "Creates a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Touch\"><code>Touch</code></a> object.",
+      "text": "Creates a Touch object."
+    }
+  },
+  "createTouchList": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTouchList",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createTouchList\">createTouchList()</a>",
+      "text": "createTouchList()"
+    },
+    "description": {
+      "html": "Creates a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TouchList\"><code>TouchList</code></a> object.",
+      "text": "Creates a TouchList object."
+    }
+  },
+  "createTreeWalker": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createTreeWalker",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createTreeWalker\">createTreeWalker()</a>",
+      "text": "createTreeWalker()"
+    },
+    "description": {
+      "html": "Creates a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TreeWalker\"><code>TreeWalker</code></a> object.",
+      "text": "Creates a TreeWalker object."
+    }
+  },
+  "enableStyleSheetsForSet": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/enableStyleSheetsForSet",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/enableStyleSheetsForSet\">enableStyleSheetsForSet()</a>",
+      "text": "enableStyleSheetsForSet()"
+    },
+    "description": {
+      "html": "Enables the style sheets for the specified style sheet set.",
+      "text": "Enables the style sheets for the specified style sheet set."
+    }
+  },
+  "exitPointerLock": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/exitPointerLock",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/exitPointerLock\">exitPointerLock()</a>",
+      "text": "exitPointerLock()"
+    },
+    "description": {
+      "html": "Release the pointer lock.",
+      "text": "Release the pointer lock."
+    }
+  },
+  "getAnimations": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getAnimations",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getAnimations\">getAnimations()</a>",
+      "text": "getAnimations()"
+    },
+    "description": {
+      "html": "Returns an array of all <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Animation\"><code>Animation</code></a> objects currently in effect, whose target elements are descendants of the <code>document</code>.",
+      "text": "Returns an array of all Animation objects currently in effect, whose target elements are descendants of the document."
+    }
+  },
+  "getElementsByClassName": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName\">getElementsByClassName()</a>",
+      "text": "getElementsByClassName()"
+    },
+    "description": {
+      "html": "Returns a list of elements with the given class name.",
+      "text": "Returns a list of elements with the given class name."
+    }
+  },
+  "getElementsByTagName": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagName\">getElementsByTagName()</a>",
+      "text": "getElementsByTagName()"
+    },
+    "description": {
+      "html": "Returns a list of elements with the given tag name.",
+      "text": "Returns a list of elements with the given tag name."
+    }
+  },
+  "getElementsByTagNameNS": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagNameNS",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByTagNameNS\">getElementsByTagNameNS()</a>",
+      "text": "getElementsByTagNameNS()"
+    },
+    "description": {
+      "html": "Returns a list of elements with the given tag name and namespace.",
+      "text": "Returns a list of elements with the given tag name and namespace."
+    }
+  },
+  "hasStorageAccess": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/hasStorageAccess",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/hasStorageAccess\">hasStorageAccess()</a>",
+      "text": "hasStorageAccess()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a> that resolves with a boolean value indicating whether the document has access to its first-party storage.",
+      "text": "Returns a Promise that resolves with a boolean value indicating whether the document has access to its first-party storage."
+    }
+  },
+  "importNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/importNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/importNode\">importNode()</a>",
+      "text": "importNode()"
+    },
+    "description": {
+      "html": "Returns a clone of a node from an external document.",
+      "text": "Returns a clone of a node from an external document."
+    }
+  },
+  "normalizeDocument": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/normalizeDocument",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/normalizeDocument\">normalizeDocument()</a>",
+      "text": "normalizeDocument()"
+    },
+    "description": {
+      "html": "Replaces entities, normalizes text nodes, etc.",
+      "text": "Replaces entities, normalizes text nodes, etc."
+    }
+  },
+  "releaseCapture": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/releaseCapture",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/releaseCapture\">releaseCapture()</a>",
+      "text": "releaseCapture()"
+    },
+    "description": {
+      "html": "Releases the current mouse capture if it&apos;s on an element in this document.",
+      "text": "Releases the current mouse capture if it's on an element in this document."
+    }
+  },
+  "releaseEvents": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/releaseEvents",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/releaseEvents\">releaseEvents()</a>",
+      "text": "releaseEvents()"
+    },
+    "description": {
+      "html": "See <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/releaseEvents\"><code>Window.releaseEvents()</code></a>.",
+      "text": "See Window.releaseEvents()."
+    }
+  },
+  "requestStorageAccess": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/requestStorageAccess",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/requestStorageAccess\">requestStorageAccess()</a>",
+      "text": "requestStorageAccess()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a> that resolves if the access to first-party storage was granted, and rejects if access was denied.",
+      "text": "Returns a Promise that resolves if the access to first-party storage was granted, and rejects if access was denied."
+    }
+  },
+  "routeEvent": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/routeEvent",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/routeEvent\">routeEvent()</a>",
+      "text": "routeEvent()"
+    },
+    "description": {
+      "html": "See <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/routeEvent\"><code>Window.routeEvent()</code></a>.",
+      "text": "See Window.routeEvent()."
+    }
+  },
+  "mozSetImageElement": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/mozSetImageElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/mozSetImageElement\">mozSetImageElement()</a>",
+      "text": "mozSetImageElement()"
+    },
+    "description": {
+      "html": "Allows you to change the element being used as the background image for a specified element ID.",
+      "text": "Allows you to change the element being used as the background image for a specified element ID."
+    }
+  },
+  "getElementById": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById\">getElementById()</a>",
+      "text": "getElementById()"
+    },
+    "description": {
+      "html": "<p>Returns the first <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\">element</a> that matches the specified <code>id</code> in the document. This method is case-sensitive and will return <code>null</code> if no matching element is found.</p>",
+      "text": "Returns the first element that matches the specified id in the document. This method is case-sensitive and returns null if no matching element is found."
+    }
+  },
+  "querySelector": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelector\">querySelector()</a>",
+      "text": "querySelector()"
+    },
+    "description": {
+      "html": "<p>Returns the first <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Node\">element node</a> which matches the specified <a href=\"https://css-tricks.com/css-selectors/\" target=\"_blank\">CSS selector string</a> relative to the element.</p>\n  ",
+      "text": "Returns the first Node which matches the specified selector string relative to the element.\n  "
+    }
+  },
+  "querySelectorAll": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/querySelectorAll\">querySelectorAll()</a>",
+      "text": "querySelectorAll()"
+    },
+    "description": {
+      "html": "<p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/NodeList\">element NodeList</a> of nodes which match the specified <a href=\"https://css-tricks.com/css-selectors/\" target=\"_blank\">CSS selector string</a> relative to the element.</p>\n  ",
+      "text": "Returns a NodeList of nodes which match the specified selector string relative to the element.\n  "
+    }
+  },
+  "createExpression": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createExpression",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createExpression\">createExpression()</a>",
+      "text": "createExpression()"
+    },
+    "description": {
+      "html": "Compiles an <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/XPathExpression\" title=\"XPathExpression\">XPathExpression</a></code> which can then be used for (repeated) evaluations.",
+      "text": "Compiles an XPathExpression which can then be used for (repeated) evaluations."
+    }
+  },
+  "createNSResolver": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/createNSResolver",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/createNSResolver\">createNSResolver()</a>",
+      "text": "createNSResolver()"
+    },
+    "description": {
+      "html": "Creates an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/XPathNSResolver\"><code>XPathNSResolver</code></a> object.",
+      "text": "Creates an XPathNSResolver object."
+    }
+  },
+  "evaluate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/evaluate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/evaluate\">evaluate()</a>",
+      "text": "evaluate()"
+    },
+    "description": {
+      "html": "Evaluates an XPath expression.",
+      "text": "Evaluates an XPath expression."
+    }
+  },
+  "clear": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/clear",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/clear\">clear()</a>",
+      "text": "clear()"
+    },
+    "description": {
+      "html": "In majority of modern browsers, including recent versions of Firefox and Internet Explorer, this method does nothing.",
+      "text": "In majority of modern browsers, including recent versions of Firefox and Internet Explorer, this method does nothing."
+    }
+  },
+  "close": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/close",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/close\">close()</a>",
+      "text": "close()"
+    },
+    "description": {
+      "html": "Closes a document stream for writing.",
+      "text": "Closes a document stream for writing."
+    }
+  },
+  "execCommand": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand\">execCommand()</a>",
+      "text": "execCommand()"
+    },
+    "description": {
+      "html": "On an editable document, executes a formating command.",
+      "text": "On an editable document, executes a formating command."
+    }
+  },
+  "getElementsByName": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName\">getElementsByName()</a>",
+      "text": "getElementsByName()"
+    },
+    "description": {
+      "html": "Returns a list of elements with the given name.",
+      "text": "Returns a list of elements with the given name."
+    }
+  },
+  "hasFocus": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/hasFocus",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/hasFocus\">hasFocus()</a>",
+      "text": "hasFocus()"
+    },
+    "description": {
+      "html": "Returns <code>true</code> if the focus is currently located anywhere inside the specified document.",
+      "text": "Returns true if the focus is currently located anywhere inside the specified document."
+    }
+  },
+  "open": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/open",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/open\">open()</a>",
+      "text": "open()"
+    },
+    "description": {
+      "html": "Opens a document stream for writing.",
+      "text": "Opens a document stream for writing."
+    }
+  },
+  "queryCommandEnabled": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandEnabled",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandEnabled\">queryCommandEnabled()</a>",
+      "text": "queryCommandEnabled()"
+    },
+    "description": {
+      "html": "Returns true if the formating command can be executed on the current range.",
+      "text": "Returns true if the formating command can be executed on the current range."
+    }
+  },
+  "queryCommandIndeterm": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandIndeterm",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandIndeterm\">queryCommandIndeterm()</a>",
+      "text": "queryCommandIndeterm()"
+    },
+    "description": {
+      "html": "Returns true if the formating command is in an indeterminate state on the current range.",
+      "text": "Returns true if the formating command is in an indeterminate state on the current range."
+    }
+  },
+  "queryCommandState": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandState",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandState\">queryCommandState()</a>",
+      "text": "queryCommandState()"
+    },
+    "description": {
+      "html": "Returns true if the formating command has been executed on the current range.",
+      "text": "Returns true if the formating command has been executed on the current range."
+    }
+  },
+  "queryCommandSupported": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandSupported",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandSupported\">queryCommandSupported()</a>",
+      "text": "queryCommandSupported()"
+    },
+    "description": {
+      "html": "Returns true if the formating command is supported on the current range.",
+      "text": "Returns true if the formating command is supported on the current range."
+    }
+  },
+  "queryCommandValue": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandValue",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandValue\">queryCommandValue()</a>",
+      "text": "queryCommandValue()"
+    },
+    "description": {
+      "html": "Returns the current value of the current range for a formating command.",
+      "text": "Returns the current value of the current range for a formating command."
+    }
+  },
+  "write": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/write",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/write\">write()</a>",
+      "text": "write()"
+    },
+    "description": {
+      "html": "Writes text in a document.",
+      "text": "Writes text in a document."
+    }
+  },
+  "writeln": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/writeln",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/writeln\">writeln()</a>",
+      "text": "writeln()"
+    },
+    "description": {
+      "html": "Writes a line of text in a document.",
+      "text": "Writes a line of text in a document."
+    }
+  },
+  "getSelection": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/getSelection",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/getSelection\">getSelection()</a>",
+      "text": "getSelection()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Selection\"><code>Selection</code></a> object representing the range of text selected by the user, or the current position of the caret.",
+      "text": "Returns a Selection object representing the range of text selected by the user, or the current position of the caret."
+    }
+  },
+  "elementFromPoint": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/elementFromPoint\">elementFromPoint()</a>",
+      "text": "elementFromPoint()"
+    },
+    "description": {
+      "html": "Returns the topmost element at the specified coordinates.",
+      "text": "Returns the topmost element at the specified coordinates."
+    }
+  },
+  "elementsFromPoint": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/elementsFromPoint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/elementsFromPoint\">elementsFromPoint()</a>",
+      "text": "elementsFromPoint()"
+    },
+    "description": {
+      "html": "Returns an array of all elements at the specified coordinates.",
+      "text": "Returns an array of all elements at the specified coordinates."
+    }
+  },
+  "caretPositionFromPoint": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/caretPositionFromPoint",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DocumentOrShadowRoot/caretPositionFromPoint\">caretPositionFromPoint()</a>",
+      "text": "caretPositionFromPoint()"
+    },
+    "description": {
+      "html": "Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/CaretPosition\"><code>CaretPosition</code></a> object containing the DOM node containing the caret, and caret&apos;s character offset within that node.",
+      "text": "Returns a CaretPosition object containing the DOM node containing the caret, and caret's character offset within that node."
+    }
+  },
+  "currentScript": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/currentScript\">currentScript</a>",
+      "text": "currentScript"
+    },
+    "description": {
+      "html": "Returns the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\" title=\"The HTML &lt;script&gt; element is used to embed executable code or data; this is typically used to embed or refer to JavaScript code.\"><code>&lt;script&gt;</code></a> element that is currently executing.",
+      "text": "Returns the <script> element that is currently executing."
+    }
+  },
+  "documentURIObject": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/documentURIObject",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/documentURIObject\">documentURIObject</a>",
+      "text": "documentURIObject"
+    },
+    "description": {
+      "html": "(<strong>Mozilla add-ons only!</strong>) Returns the <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XPCOM/Reference/Interface/nsIURI\" title>nsIURI</a></code> object representing the URI of the document. This property only has special meaning in privileged JavaScript code (with UniversalXPConnect privileges).",
+      "text": "(Mozilla add-ons only!) Returns the nsIURI object representing the URI of the document. This property only has special meaning in privileged JavaScript code (with UniversalXPConnect privileges)."
+    }
+  },
+  "popupNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/popupNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/popupNode\">popupNode</a>",
+      "text": "popupNode"
+    },
+    "description": {
+      "html": "Returns the node upon which a popup was invoked.",
+      "text": "Returns the node upon which a popup was invoked."
+    }
+  },
+  "tooltipNode": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/tooltipNode",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/tooltipNode\">tooltipNode</a>",
+      "text": "tooltipNode"
+    },
+    "description": {
+      "html": "Returns the node which is the target of the current tooltip.",
+      "text": "Returns the node which is the target of the current tooltip."
+    }
+  },
+  "execCommandShowHelp": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommandShowHelp",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommandShowHelp\">execCommandShowHelp()</a>",
+      "text": "execCommandShowHelp()"
+    },
+    "description": {
+      "html": "This method never did anything and always threw an exception, so it was removed in Gecko 14.0 (Firefox 14.0 / Thunderbird 14.0 / SeaMonkey 2.11).",
+      "text": "This method never did anything and always threw an exception, so it was removed in Gecko 14.0 (Firefox 14.0 / Thunderbird 14.0 / SeaMonkey 2.11)."
+    }
+  },
+  "getBoxObjectFor": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/getBoxObjectFor",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/getBoxObjectFor\">getBoxObjectFor()</a>",
+      "text": "getBoxObjectFor()"
+    },
+    "description": {
+      "html": "Use the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect\"><code>Element.getBoundingClientRect()</code></a> method instead.",
+      "text": "Use the Element.getBoundingClientRect() method instead."
+    }
+  },
+  "loadOverlay": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/loadOverlay",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/loadOverlay\">loadOverlay()</a>",
+      "text": "loadOverlay()"
+    },
+    "description": {
+      "html": "Loads a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/XUL_Overlays\" title=\"XUL_Overlays\">XUL overlay</a> dynamically. This only works in XUL documents.",
+      "text": "Loads a XUL overlay dynamically. This only works in XUL documents."
+    }
+  },
+  "queryCommandText": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandText",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/queryCommandText\">queryCommandText()</a>",
+      "text": "queryCommandText()"
+    },
+    "description": {
+      "html": "This method never did anything but throw an exception, and was removed in Gecko 14 (Firefox 14 / Thunderbird 14 / SeaMonkey 2.11).",
+      "text": "This method never did anything but throw an exception, and was removed in Gecko 14 (Firefox 14 / Thunderbird 14 / SeaMonkey 2.11)."
+    }
+  },
+  "fileSize": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/fileSize",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/fileSize\">fileSize</a>",
+      "text": "fileSize"
+    },
+    "description": {
+      "html": "Returns size in bytes of the document. Starting with Internet Explorer 11, that property is no longer supported. See <a class=\"external\" target=\"_blank\" href=\"http://msdn.microsoft.com/en-us/library/ms533752%28v=VS.85%29.aspx\" rel=\"noopener\">MSDN</a>.",
+      "text": "Returns size in bytes of the document. Starting with Internet Explorer 11, that property is no longer supported. See MSDN."
+    }
+  },
+  "contains": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document/contains",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/contains\">contains</a>",
+      "text": "contains"
+    },
+    "description": {
+      "html": "As a work-around, <code>document.body.contains()</code> can be used.",
+      "text": "As a work-around, document.body.contains() can be used."
+    }
+  }
+}

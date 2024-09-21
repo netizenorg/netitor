@@ -1,0 +1,2759 @@
+{
+  "role": {
+    "keyword": {
+      "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles\" target=\"_blank\">role</a>",
+      "text": "role"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles",
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "The <code>role</code> attribute is used to define the purpose or role of an element on a web page, improving accessibility for assistive technologies like screen readers. It is part of the <a href=\"https://www.w3.org/WAI/ARIA/\" target=\"_blank\">WAI-ARIA</a> specification and helps clarify the function of interactive and visual elements for users with disabilities.",
+      "text": "The role attribute defines the purpose or role of an element to improve accessibility, particularly for assistive technologies like screen readers. It's part of the WAI-ARIA specification."
+    }
+  },
+  "property": {
+    "keyword": {
+      "html": "<a href=\"https://ogp.me/\" target=\"_blank\">property</a>",
+      "text": "property"
+    },
+    "url": "https://ogp.me/",
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\" title=\"The HTML &lt;meta&gt; element represents metadata that cannot be represented by other HTML meta-related elements, like &lt;base&gt;, &lt;link&gt;, &lt;script&gt;, &lt;style&gt; or &lt;title&gt;.\"><code>&lt;meta&gt;</code></a>",
+      "text": "<meta>"
+    },
+    "description": {
+      "html": "This property is part of the (non-standard, but widely used) \"<a href=\"https://ogp.me/\" target=\"_blank\">open graph protocol</a>\". It's used to specify the data social media sites should use when creating \"cards\" and other dynamically generated elements when users share a link to a web page.",
+      "text": "This property is part of the (non-standard, but widely used) \"open graph protocol\". It's used to specify the data social media sites should use when creating \"cards\" and other dynamically generated elements when users share a link to a web page."
+    }
+  },
+  "accept": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept\">accept</a>",
+      "text": "accept"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept",
+      "https://www.w3schools.com/tags/att_accept.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<form>, <input>"
+    },
+    "description": {
+      "html": "List of types the server accepts, typically a file type.",
+      "text": "List of types the server accepts, typically a file type."
+    },
+    "note": null
+  },
+  "accept-charset": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_accept-charset.asp\">accept-charset</a>",
+      "text": "accept-charset"
+    },
+    "url": "https://www.w3schools.com/tags/att_accept-charset.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/accept-charset",
+      "https://www.w3schools.com/tags/att_accept-charset.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>",
+      "text": "<form>"
+    },
+    "description": {
+      "html": "List of supported charsets.",
+      "text": "List of supported charsets."
+    },
+    "note": null
+  },
+  "accesskey": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey\">accesskey</a>",
+      "text": "accesskey"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/accesskey",
+      "https://www.w3schools.com/tags/att_accesskey.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Keyboard shortcut to activate or add focus to the element.",
+      "text": "Keyboard shortcut to activate or add focus to the element."
+    },
+    "note": null
+  },
+  "action": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_action.asp\">action</a>",
+      "text": "action"
+    },
+    "url": "https://www.w3schools.com/tags/att_action.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/action",
+      "https://www.w3schools.com/tags/att_action.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>",
+      "text": "<form>"
+    },
+    "description": {
+      "html": "The URI of a program that processes the information submitted via the form.",
+      "text": "The URI of a program that processes the information submitted via the form."
+    },
+    "note": null
+  },
+  "align": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/align\">align</a>",
+      "text": "align"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/align",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/align"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\"><code>&lt;applet&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/caption\"><code>&lt;caption&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\"><code>&lt;colgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr\"><code>&lt;hr&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody\"><code>&lt;tbody&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot\"><code>&lt;tfoot&gt;</code></a> , <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/thead\"><code>&lt;thead&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\"><code>&lt;tr&gt;</code></a>",
+      "text": "<applet>, <caption>, <col>, <colgroup>, <hr>, <iframe>, <img>, <table>, <tbody>, <td>, <tfoot> , <th>, <thead>, <tr>"
+    },
+    "description": {
+      "html": "Specifies the horizontal alignment of the element.",
+      "text": "Specifies the horizontal alignment of the element."
+    },
+    "note": null
+  },
+  "allow": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/allow\">allow</a>",
+      "text": "allow"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/allow",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/allow"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "Specifies a feature-policy for the iframe.",
+      "text": "Specifies a feature-policy for the iframe."
+    },
+    "note": null
+  },
+  "alt": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_alt.asp\">alt</a>",
+      "text": "alt"
+    },
+    "url": "https://www.w3schools.com/tags/att_alt.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/alt",
+      "https://www.w3schools.com/tags/att_alt.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\"><code>&lt;applet&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<applet>, <area>, <img>, <input>"
+    },
+    "description": {
+      "html": "Alternative text in case an image can&apos;t be displayed.",
+      "text": "Alternative text in case an image can't be displayed."
+    },
+    "note": null
+  },
+  "async": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_async.asp\">async</a>",
+      "text": "async"
+    },
+    "url": "https://www.w3schools.com/tags/att_async.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/async",
+      "https://www.w3schools.com/tags/att_async.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>",
+      "text": "<script>"
+    },
+    "description": {
+      "html": "Executes the script asynchronously.",
+      "text": "Executes the script asynchronously."
+    },
+    "note": null
+  },
+  "autocapitalize": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocapitalize\">autocapitalize</a>",
+      "text": "autocapitalize"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocapitalize",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/autocapitalize"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Sets whether input is automatically capitalized when entered by user",
+      "text": "Sets whether input is automatically capitalized when entered by user"
+    },
+    "note": null
+  },
+  "autocomplete": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete\">autocomplete</a>",
+      "text": "autocomplete"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
+      "https://www.w3schools.com/tags/att_autocomplete.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<form>, <input>, <select>, <textarea>"
+    },
+    "description": {
+      "html": "Indicates whether controls in this form can by default have their values automatically completed by the browser.",
+      "text": "Indicates whether controls in this form can by default have their values automatically completed by the browser."
+    },
+    "note": null
+  },
+  "autofocus": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_autofocus.asp\">autofocus</a>",
+      "text": "autofocus"
+    },
+    "url": "https://www.w3schools.com/tags/att_autofocus.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autofocus",
+      "https://www.w3schools.com/tags/att_autofocus.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<button>, <input>, <keygen>, <select>, <textarea>"
+    },
+    "description": {
+      "html": "The element should be automatically focused after the page loaded.",
+      "text": "The element should be automatically focused after the page loaded."
+    },
+    "note": null
+  },
+  "autoplay": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_autoplay.asp\">autoplay</a>",
+      "text": "autoplay"
+    },
+    "url": "https://www.w3schools.com/tags/att_autoplay.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autoplay",
+      "https://www.w3schools.com/tags/att_autoplay.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<audio>, <video>"
+    },
+    "description": {
+      "html": "The audio or video should play as soon as possible.",
+      "text": "The audio or video should play as soon as possible."
+    },
+    "note": null
+  },
+  "background": {
+    "keyword": {
+      "html": "background",
+      "text": "background"
+    },
+    "urls": [],
+    "status": "obsolete",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a>",
+      "text": "<body>, <table>, <td>, <th>"
+    },
+    "description": {
+      "html": "Specifies the URL of an image file.",
+      "text": "Specifies the URL of an image file."
+    },
+    "note": {
+      "html": "<strong>Note:</strong> Although browsers and email clients may still support this attribute, it is obsolete. Use CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/background-image\"><code>background-image</code></a> instead.",
+      "text": "Note: Although browsers and email clients may still support this attribute, it is obsolete. Use CSS background-image instead."
+    }
+  },
+  "bgcolor": {
+    "keyword": {
+      "html": "bgcolor",
+      "text": "bgcolor"
+    },
+    "urls": [],
+    "status": "legacy",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/body\"><code>&lt;body&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\"><code>&lt;colgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee\"><code>&lt;marquee&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tbody\"><code>&lt;tbody&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tfoot\"><code>&lt;tfoot&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/tr\"><code>&lt;tr&gt;</code></a>",
+      "text": "<body>, <col>, <colgroup>, <marquee>, <table>, <tbody>, <tfoot>, <td>, <th>, <tr>"
+    },
+    "description": {
+      "html": "<p>Background color of the element.</p> ",
+      "text": "Background color of the element. "
+    },
+    "note": {
+      "html": "<p><strong>Note:</strong> This is a legacy attribute. Please use the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/background-color\"><code>background-color</code></a> property instead.</p>",
+      "text": "Note: This is a legacy attribute. Please use the CSS background-color property instead."
+    }
+  },
+  "border": {
+    "keyword": {
+      "html": "border",
+      "text": "border"
+    },
+    "urls": [],
+    "status": "legacy",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>",
+      "text": "<img>, <object>, <table>"
+    },
+    "description": {
+      "html": "<p>The border width.</p> ",
+      "text": "The border width. "
+    },
+    "note": {
+      "html": "<p><strong>Note:</strong> This is a legacy attribute. Please use the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/border\"><code>border</code></a> property instead.</p>",
+      "text": "Note: This is a legacy attribute. Please use the CSS border property instead."
+    }
+  },
+  "buffered": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/buffered\">buffered</a>",
+      "text": "buffered"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/buffered",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/buffered"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<audio>, <video>"
+    },
+    "description": {
+      "html": "Contains the time range of already buffered media.",
+      "text": "Contains the time range of already buffered media."
+    },
+    "note": null
+  },
+  "capture": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture\">capture</a>",
+      "text": "capture"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<input>"
+    },
+    "description": {
+      "html": "From the <a href=\"https://w3c.github.io/html-media-capture/#the-capture-attribute\" hreflang=\"en\" lang=\"en\" class=\"external\">HTML Media Capture<br><small lang=\"en-US\">The definition of &apos;media capture&apos; in that specification.</small></a>spec, specifies a new file can be captured.",
+      "text": "From the HTML Media CaptureThe definition of 'media capture' in that specification.spec, specifies a new file can be captured."
+    },
+    "note": null
+  },
+  "challenge": {
+    "keyword": {
+      "html": "challenge",
+      "text": "challenge"
+    },
+    "urls": [],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\"><code>&lt;keygen&gt;</code></a>",
+      "text": "<keygen>"
+    },
+    "description": {
+      "html": "A challenge string that is submitted along with the public key.",
+      "text": "A challenge string that is submitted along with the public key."
+    },
+    "note": null
+  },
+  "charset": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_charset.asp\">charset</a>",
+      "text": "charset"
+    },
+    "url": "https://www.w3schools.com/tags/att_charset.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/charset",
+      "https://www.w3schools.com/tags/att_charset.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\"><code>&lt;meta&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>",
+      "text": "<meta>, <script>"
+    },
+    "description": {
+      "html": "Declares the character encoding of the page or script.",
+      "text": "Declares the character encoding of the page or script."
+    },
+    "note": null
+  },
+  "checked": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_checked.asp\">checked</a>",
+      "text": "checked"
+    },
+    "url": "https://www.w3schools.com/tags/att_checked.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/checked",
+      "https://www.w3schools.com/tags/att_checked.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<command>, <input>"
+    },
+    "description": {
+      "html": "Indicates whether the element should be checked on page load.",
+      "text": "Indicates whether the element should be checked on page load."
+    },
+    "note": null
+  },
+  "cite": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_cite.asp\">cite</a>",
+      "text": "cite"
+    },
+    "url": "https://www.w3schools.com/tags/att_cite.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/cite",
+      "https://www.w3schools.com/tags/att_cite.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote\"><code>&lt;blockquote&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del\"><code>&lt;del&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins\"><code>&lt;ins&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q\"><code>&lt;q&gt;</code></a>",
+      "text": "<blockquote>, <del>, <ins>, <q>"
+    },
+    "description": {
+      "html": "Contains a URI which points to the source of the quote or change.",
+      "text": "Contains a URI which points to the source of the quote or change."
+    },
+    "note": null
+  },
+  "class": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class\">class</a>",
+      "text": "class"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/class",
+      "https://www.w3schools.com/tags/att_class.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Often used with CSS to style elements with common properties.",
+      "text": "Often used with CSS to style elements with common properties."
+    },
+    "note": null
+  },
+  "code": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/code\">code</a>",
+      "text": "code"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/code",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/code"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\"><code>&lt;applet&gt;</code></a>",
+      "text": "<applet>"
+    },
+    "description": {
+      "html": "Specifies the URL of the applet&apos;s class file to be loaded and executed.",
+      "text": "Specifies the URL of the applet's class file to be loaded and executed."
+    },
+    "note": null
+  },
+  "codebase": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/codebase\">codebase</a>",
+      "text": "codebase"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/codebase",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/codebase"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/applet\"><code>&lt;applet&gt;</code></a>",
+      "text": "<applet>"
+    },
+    "description": {
+      "html": "This attribute gives the absolute or relative URL of the directory where applets&apos; .class files referenced by the code attribute are stored.",
+      "text": "This attribute gives the absolute or relative URL of the directory where applets' .class files referenced by the code attribute are stored."
+    },
+    "note": null
+  },
+  "color": {
+    "keyword": {
+      "html": "color",
+      "text": "color"
+    },
+    "urls": [],
+    "status": "legacy",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/basefont\"><code>&lt;basefont&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/font\"><code>&lt;font&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr\"><code>&lt;hr&gt;</code></a>",
+      "text": "<basefont>, <font>, <hr>"
+    },
+    "description": {
+      "html": "<p>This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format.</p> ",
+      "text": "This attribute sets the text color using either a named color or a color specified in the hexadecimal #RRGGBB format. "
+    },
+    "note": {
+      "html": "<p><strong>Note:</strong> This is a legacy attribute. Please use the CSS <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/color\"><code>color</code></a> property instead.</p>",
+      "text": "Note: This is a legacy attribute. Please use the CSS color property instead."
+    }
+  },
+  "cols": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_cols.asp\">cols</a>",
+      "text": "cols"
+    },
+    "url": "https://www.w3schools.com/tags/att_cols.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/cols",
+      "https://www.w3schools.com/tags/att_cols.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<textarea>"
+    },
+    "description": {
+      "html": "Defines the number of columns in a textarea.",
+      "text": "Defines the number of columns in a textarea."
+    },
+    "note": null
+  },
+  "colspan": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_colspan.asp\">colspan</a>",
+      "text": "colspan"
+    },
+    "url": "https://www.w3schools.com/tags/att_colspan.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/colspan",
+      "https://www.w3schools.com/tags/att_colspan.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a>",
+      "text": "<td>, <th>"
+    },
+    "description": {
+      "html": "The colspan attribute defines the number of columns a cell should span.",
+      "text": "The colspan attribute defines the number of columns a cell should span."
+    },
+    "note": null
+  },
+  "content": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_content.asp\">content</a>",
+      "text": "content"
+    },
+    "url": "https://www.w3schools.com/tags/att_content.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/content",
+      "https://www.w3schools.com/tags/att_content.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\"><code>&lt;meta&gt;</code></a>",
+      "text": "<meta>"
+    },
+    "description": {
+      "html": "A value associated with <code>http-equiv</code> or <code>name</code> depending on the context.",
+      "text": "A value associated with http-equiv or name depending on the context."
+    },
+    "note": null
+  },
+  "contenteditable": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\">contenteditable</a>",
+      "text": "contenteditable"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable",
+      "https://www.w3schools.com/tags/att_contenteditable.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Indicates whether the element&apos;s content is editable.",
+      "text": "Indicates whether the element's content is editable."
+    },
+    "note": null
+  },
+  "contextmenu": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/contextmenu\">contextmenu</a>",
+      "text": "contextmenu"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/contextmenu",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/contextmenu"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Defines the ID of a <a href=\"/en-US/docs/Web/HTML/Element/menu\"><code>&lt;menu&gt;</code></a> element which will serve as the element&apos;s context menu.",
+      "text": "Defines the ID of a <menu> element which will serve as the element's context menu."
+    },
+    "note": null
+  },
+  "controls": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_controls.asp\">controls</a>",
+      "text": "controls"
+    },
+    "url": "https://www.w3schools.com/tags/att_controls.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/controls",
+      "https://www.w3schools.com/tags/att_controls.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<audio>, <video>"
+    },
+    "description": {
+      "html": "Indicates whether the browser should show playback controls to the user.",
+      "text": "Indicates whether the browser should show playback controls to the user."
+    },
+    "note": null
+  },
+  "coords": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_coords.asp\">coords</a>",
+      "text": "coords"
+    },
+    "url": "https://www.w3schools.com/tags/att_coords.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/coords",
+      "https://www.w3schools.com/tags/att_coords.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>",
+      "text": "<area>"
+    },
+    "description": {
+      "html": "A set of values specifying the coordinates of the hot-spot region.",
+      "text": "A set of values specifying the coordinates of the hot-spot region."
+    },
+    "note": null
+  },
+  "crossorigin": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/docs/Web/HTML/CORS_settings_attributes\">crossorigin</a>",
+      "text": "crossorigin"
+    },
+    "url": "https://developer.mozilla.org/docs/Web/HTML/CORS_settings_attributes",
+    "urls": [
+      "https://developer.mozilla.org/docs/Web/HTML/CORS_settings_attributes"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<audio>, <img>, <link>, <script>, <video>"
+    },
+    "description": {
+      "html": "How the element handles cross-origin requests",
+      "text": "How the element handles cross-origin requests"
+    },
+    "note": null
+  },
+  "csp": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/docs/Web/API/HTMLiframeElement/csp\">csp</a>",
+      "text": "csp"
+    },
+    "url": "https://developer.mozilla.org/docs/Web/API/HTMLiframeElement/csp",
+    "urls": [
+      "https://developer.mozilla.org/docs/Web/API/HTMLiframeElement/csp"
+    ],
+    "status": "experimental",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "Specifies the Content Security Policy that an embedded document must agree to enforce upon itself.",
+      "text": "Specifies the Content Security Policy that an embedded document must agree to enforce upon itself."
+    },
+    "note": null
+  },
+  "data": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_data.asp\">data</a>",
+      "text": "data"
+    },
+    "url": "https://www.w3schools.com/tags/att_data.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/data",
+      "https://www.w3schools.com/tags/att_data.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>",
+      "text": "<object>"
+    },
+    "description": {
+      "html": "Specifies the URL of the resource.",
+      "text": "Specifies the URL of the resource."
+    },
+    "note": null
+  },
+  "data-*": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*\">data-*</a>",
+      "text": "data-*"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/data-*",
+      "https://www.w3schools.com/tags/att_data-.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Lets you attach custom attributes to an HTML element.",
+      "text": "Lets you attach custom attributes to an HTML element."
+    },
+    "note": null
+  },
+  "datetime": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_datetime.asp\">datetime</a>",
+      "text": "datetime"
+    },
+    "url": "https://www.w3schools.com/tags/att_datetime.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/datetime",
+      "https://www.w3schools.com/tags/att_datetime.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/del\"><code>&lt;del&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ins\"><code>&lt;ins&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/time\"><code>&lt;time&gt;</code></a>",
+      "text": "<del>, <ins>, <time>"
+    },
+    "description": {
+      "html": "Indicates the date and time associated with the element.",
+      "text": "Indicates the date and time associated with the element."
+    },
+    "note": null
+  },
+  "decoding": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/decoding\">decoding</a>",
+      "text": "decoding"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/decoding",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/decoding"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>",
+      "text": "<img>"
+    },
+    "description": {
+      "html": "Indicates the preferred method to decode the image.",
+      "text": "Indicates the preferred method to decode the image."
+    },
+    "note": null
+  },
+  "default": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_default.asp\">default</a>",
+      "text": "default"
+    },
+    "url": "https://www.w3schools.com/tags/att_default.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/default",
+      "https://www.w3schools.com/tags/att_default.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\"><code>&lt;track&gt;</code></a>",
+      "text": "<track>"
+    },
+    "description": {
+      "html": "Indicates that the track should be enabled unless the user&apos;s preferences indicate something different.",
+      "text": "Indicates that the track should be enabled unless the user's preferences indicate something different."
+    },
+    "note": null
+  },
+  "defer": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_defer.asp\">defer</a>",
+      "text": "defer"
+    },
+    "url": "https://www.w3schools.com/tags/att_defer.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/defer",
+      "https://www.w3schools.com/tags/att_defer.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>",
+      "text": "<script>"
+    },
+    "description": {
+      "html": "Indicates that the script should be executed after the page has been parsed.",
+      "text": "Indicates that the script should be executed after the page has been parsed."
+    },
+    "note": null
+  },
+  "dir": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir\">dir</a>",
+      "text": "dir"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/dir",
+      "https://www.w3schools.com/tags/att_dir.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Defines the text direction. Allowed values are ltr (Left-To-Right) or rtl (Right-To-Left)",
+      "text": "Defines the text direction. Allowed values are ltr (Left-To-Right) or rtl (Right-To-Left)"
+    },
+    "note": null
+  },
+  "dirname": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_dirname.asp\">dirname</a>",
+      "text": "dirname"
+    },
+    "url": "https://www.w3schools.com/tags/att_dirname.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/dirname",
+      "https://www.w3schools.com/tags/att_dirname.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<input>, <textarea>"
+    },
+    "description": {
+      "html": "Specifies that the text direction will be submitted",
+      "text": "Specifies that the text direction will be submitted"
+    },
+    "note": null
+  },
+  "disabled": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled\">disabled</a>",
+      "text": "disabled"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/disabled",
+      "https://www.w3schools.com/tags/att_disabled.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup\"><code>&lt;optgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<button>, <command>, <fieldset>, <input>, <keygen>, <optgroup>, <option>, <select>, <textarea>"
+    },
+    "description": {
+      "html": "Indicates whether the user can interact with the element.",
+      "text": "Indicates whether the user can interact with the element."
+    },
+    "note": null
+  },
+  "download": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_download.asp\">download</a>",
+      "text": "download"
+    },
+    "url": "https://www.w3schools.com/tags/att_download.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/download",
+      "https://www.w3schools.com/tags/att_download.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>",
+      "text": "<a>, <area>"
+    },
+    "description": {
+      "html": "Indicates that the hyperlink is to be used for downloading a resource.",
+      "text": "Indicates that the hyperlink is to be used for downloading a resource."
+    },
+    "note": null
+  },
+  "draggable": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable\">draggable</a>",
+      "text": "draggable"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/draggable",
+      "https://www.w3schools.com/tags/att_draggable.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Defines whether the element can be dragged.",
+      "text": "Defines whether the element can be dragged."
+    },
+    "note": null
+  },
+  "enctype": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_enctype.asp\">enctype</a>",
+      "text": "enctype"
+    },
+    "url": "https://www.w3schools.com/tags/att_enctype.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enctype",
+      "https://www.w3schools.com/tags/att_enctype.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>",
+      "text": "<form>"
+    },
+    "description": {
+      "html": "Defines the content type of the form data when the <code>method</code> is POST.",
+      "text": "Defines the content type of the form data when the method is POST."
+    },
+    "note": null
+  },
+  "enterkeyhint": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enterkeyhint\">enterkeyhint</a>",
+      "text": "enterkeyhint"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enterkeyhint",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/enterkeyhint"
+    ],
+    "status": "experimental",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\"><code>contenteditable</code></a>",
+      "text": "<textarea>, contenteditable"
+    },
+    "description": {
+      "html": "The <a href=\"https://html.spec.whatwg.org/dev/interaction.html#input-modalities:-the-enterkeyhint-attribute\"><code>enterkeyhint</code></a> specifies what action label (or icon) to present for the enter key on virtual keyboards. The attribute can be used with form controls (such as the value of <code>textarea</code> elements), or in elements in an editing host (e.g., using <code>contenteditable</code> attribute).",
+      "text": "The enterkeyhint specifies what action label (or icon) to present for the enter key on virtual keyboards. The attribute can be used with form controls (such as the value of textarea elements), or in elements in an editing host (e.g., using contenteditable attribute)."
+    },
+    "note": null
+  },
+  "for": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_for.asp\">for</a>",
+      "text": "for"
+    },
+    "url": "https://www.w3schools.com/tags/att_for.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/for",
+      "https://www.w3schools.com/tags/att_for.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label\"><code>&lt;label&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\"><code>&lt;output&gt;</code></a>",
+      "text": "<label>, <output>"
+    },
+    "description": {
+      "html": "Describes elements which belongs to this one.",
+      "text": "Describes elements which belongs to this one."
+    },
+    "note": null
+  },
+  "form": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_form.asp\">form</a>",
+      "text": "form"
+    },
+    "url": "https://www.w3schools.com/tags/att_form.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/form",
+      "https://www.w3schools.com/tags/att_form.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label\"><code>&lt;label&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\"><code>&lt;output&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\"><code>&lt;progress&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<button>, <fieldset>, <input>, <keygen>, <label>, <meter>, <object>, <output>, <progress>, <select>, <textarea>"
+    },
+    "description": {
+      "html": "Indicates the form that is the owner of the element.",
+      "text": "Indicates the form that is the owner of the element."
+    },
+    "note": null
+  },
+  "formaction": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_formaction.asp\">formaction</a>",
+      "text": "formaction"
+    },
+    "url": "https://www.w3schools.com/tags/att_formaction.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formaction",
+      "https://www.w3schools.com/tags/att_formaction.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>",
+      "text": "<input>, <button>"
+    },
+    "description": {
+      "html": "Indicates the action of the element, overriding the action defined in the <a href=\"/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>.",
+      "text": "Indicates the action of the element, overriding the action defined in the <form>."
+    },
+    "note": null
+  },
+  "formenctype": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formenctype\">formenctype</a>",
+      "text": "formenctype"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formenctype",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formenctype"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<button>, <input>"
+    },
+    "description": {
+      "html": "If the button/input is a submit button (<code>type=&quot;submit&quot;</code>), this attribute sets the encoding type to use during form submission. If this attribute is specified, it overrides the <code>enctype</code> attribute of the button&apos;s <a href=\"/en-US/docs/Web/HTML/Element/form\">form</a> owner.",
+      "text": "If the button/input is a submit button (type=\"submit\"), this attribute sets the encoding type to use during form submission. If this attribute is specified, it overrides the enctype attribute of the button's form owner."
+    },
+    "note": null
+  },
+  "formmethod": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formmethod\">formmethod</a>",
+      "text": "formmethod"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formmethod",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formmethod"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<button>, <input>"
+    },
+    "description": {
+      "html": "If the button/input is a submit button (<code>type=&quot;submit&quot;</code>), this attribute sets the submission method to use during form submission (<code>GET</code>, <code>POST</code>, etc.). If this attribute is specified, it overrides the <code>method</code> attribute of the button&apos;s <a href=\"/en-US/docs/Web/HTML/Element/form\">form</a> owner.",
+      "text": "If the button/input is a submit button (type=\"submit\"), this attribute sets the submission method to use during form submission (GET, POST, etc.). If this attribute is specified, it overrides the method attribute of the button's form owner."
+    },
+    "note": null
+  },
+  "formnovalidate": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formnovalidate\">formnovalidate</a>",
+      "text": "formnovalidate"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formnovalidate",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formnovalidate"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<button>, <input>"
+    },
+    "description": {
+      "html": "If the button/input is a submit button (<code>type=&quot;submit&quot;</code>), this boolean attribute specifies that the form is not to be validated when it is submitted. If this attribute is specified, it overrides the <code>novalidate</code> attribute of the button&apos;s <a href=\"/en-US/docs/Web/HTML/Element/form\">form</a> owner.",
+      "text": "If the button/input is a submit button (type=\"submit\"), this boolean attribute specifies that the form is not to be validated when it is submitted. If this attribute is specified, it overrides the novalidate attribute of the button's form owner."
+    },
+    "note": null
+  },
+  "formtarget": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formtarget\">formtarget</a>",
+      "text": "formtarget"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formtarget",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/formtarget"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<button>, <input>"
+    },
+    "description": {
+      "html": "If the button/input is a submit button (<code>type=&quot;submit&quot;</code>), this attribute specifies the browsing context (for example, tab, window, or inline frame) in which to display the response that is received after submitting the form. If this attribute is specified, it overrides the <code>target</code> attribute of the button&apos;s <a href=\"/en-US/docs/Web/HTML/Element/form\">form</a> owner.",
+      "text": "If the button/input is a submit button (type=\"submit\"), this attribute specifies the browsing context (for example, tab, window, or inline frame) in which to display the response that is received after submitting the form. If this attribute is specified, it overrides the target attribute of the button's form owner."
+    },
+    "note": null
+  },
+  "headers": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_headers.asp\">headers</a>",
+      "text": "headers"
+    },
+    "url": "https://www.w3schools.com/tags/att_headers.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/headers",
+      "https://www.w3schools.com/tags/att_headers.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a>",
+      "text": "<td>, <th>"
+    },
+    "description": {
+      "html": "IDs of the <code>&lt;th&gt;</code> elements which applies to this element.",
+      "text": "IDs of the <th> elements which applies to this element."
+    },
+    "note": null
+  },
+  "height": {
+    "keyword": {
+      "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-height\" target=\"_blank\">height</a>",
+      "text": "height"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-height",
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "<code>height</code> is an attribute specifically for <code>svg</code> or <code>iframe</code> elements (default is 150). Although in the case of an <code>iframe</code>, it's generally better practice to set the height the same way you would any other element, using the CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\" target=\"_blank\">height</a> property.",
+      "text": "height is an attribute specifically for svg or iframe elements (default is 150). Although in the case of an iframe it's generally better practice to set the height the same way you would any other element, using the CSS height property."
+    }
+  },
+  "hidden": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden\">hidden</a>",
+      "text": "hidden"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden",
+      "https://www.w3schools.com/tags/att_hidden.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Prevents rendering of given element, while keeping child elements, e.g. script elements, active.",
+      "text": "Prevents rendering of given element, while keeping child elements, e.g. script elements, active."
+    },
+    "note": null
+  },
+  "high": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_high.asp\">high</a>",
+      "text": "high"
+    },
+    "url": "https://www.w3schools.com/tags/att_high.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/high",
+      "https://www.w3schools.com/tags/att_high.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\"><code>&lt;meter&gt;</code></a>",
+      "text": "<meter>"
+    },
+    "description": {
+      "html": "Indicates the lower bound of the upper range.",
+      "text": "Indicates the lower bound of the upper range."
+    },
+    "note": null
+  },
+  "href": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_href.asp\">href</a>",
+      "text": "href"
+    },
+    "url": "https://www.w3schools.com/tags/att_href.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/href",
+      "https://www.w3schools.com/tags/att_href.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>",
+      "text": "<a>, <area>, <base>, <link>"
+    },
+    "description": {
+      "html": "The URL of a linked resource.",
+      "text": "The URL of a linked resource."
+    },
+    "note": null
+  },
+  "hreflang": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_hreflang.asp\">hreflang</a>",
+      "text": "hreflang"
+    },
+    "url": "https://www.w3schools.com/tags/att_hreflang.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/hreflang",
+      "https://www.w3schools.com/tags/att_hreflang.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>",
+      "text": "<a>, <area>, <link>"
+    },
+    "description": {
+      "html": "Specifies the language of the linked resource.",
+      "text": "Specifies the language of the linked resource."
+    },
+    "note": null
+  },
+  "http-equiv": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_http-equiv.asp\">http-equiv</a>",
+      "text": "http-equiv"
+    },
+    "url": "https://www.w3schools.com/tags/att_http-equiv.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/http-equiv",
+      "https://www.w3schools.com/tags/att_http-equiv.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\"><code>&lt;meta&gt;</code></a>",
+      "text": "<meta>"
+    },
+    "description": {
+      "html": "Defines a pragma directive.",
+      "text": "Defines a pragma directive."
+    },
+    "note": null
+  },
+  "icon": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/icon\">icon</a>",
+      "text": "icon"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/icon",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/icon"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\"><code>&lt;command&gt;</code></a>",
+      "text": "<command>"
+    },
+    "description": {
+      "html": "Specifies a picture which represents the command.",
+      "text": "Specifies a picture which represents the command."
+    },
+    "note": null
+  },
+  "id": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id\">id</a>",
+      "text": "id"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/id",
+      "https://www.w3schools.com/tags/att_id.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Often used with CSS to style a specific element. The value of this attribute must be unique.",
+      "text": "Often used with CSS to style a specific element. The value of this attribute must be unique."
+    },
+    "note": null
+  },
+  "importance": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/importance\">importance</a>",
+      "text": "importance"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/importance",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/importance"
+    ],
+    "status": "experimental",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>",
+      "text": "<iframe>, <img>, <link>, <script>"
+    },
+    "description": {
+      "html": "Indicates the relative fetch priority for the resource.",
+      "text": "Indicates the relative fetch priority for the resource."
+    },
+    "note": null
+  },
+  "integrity": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity\">integrity</a>",
+      "text": "integrity"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>",
+      "text": "<link>, <script>"
+    },
+    "description": {
+      "html": "<p>Specifies a <a href=\"/en-US/docs/Web/Security/Subresource_Integrity\">Subresource Integrity</a> value that allows browsers to verify what they fetch.</p>",
+      "text": "Specifies a Subresource Integrity value that allows browsers to verify what they fetch."
+    },
+    "note": null
+  },
+  "intrinsicsize": {
+    "keyword": {
+      "html": "<code>intrinsicsize</code>",
+      "text": "intrinsicsize"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-intrinsicsize",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-intrinsicsize"
+    ],
+    "status": "deprecated",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>",
+      "text": "<img>"
+    },
+    "description": {
+      "html": "This attribute tells the browser to ignore the actual intrinsic size of the image and pretend it&#x2019;s the size specified in the attribute.",
+      "text": "This attribute tells the browser to ignore the actual intrinsic size of the image and pretend it’s the size specified in the attribute."
+    },
+    "note": null
+  },
+  "inputmode": {
+    "keyword": {
+      "html": "<code>inputmode</code>",
+      "text": "inputmode"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/inputmode"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable\"><code>contenteditable</code></a>",
+      "text": "<textarea>, contenteditable"
+    },
+    "description": {
+      "html": "Provides a hint as to the type of data that might be entered by the user while editing the element or its contents. The attribute can be used with form controls (such as the value of <code>textarea</code> elements), or in elements in an editing host (e.g., using <code>contenteditable</code> attribute).",
+      "text": "Provides a hint as to the type of data that might be entered by the user while editing the element or its contents. The attribute can be used with form controls (such as the value of textarea elements), or in elements in an editing host (e.g., using contenteditable attribute)."
+    },
+    "note": null
+  },
+  "ismap": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_ismap.asp\">ismap</a>",
+      "text": "ismap"
+    },
+    "url": "https://www.w3schools.com/tags/att_ismap.asp",
+    "urls": [
+      "https://www.w3schools.com/tags/att_ismap.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>",
+      "text": "<img>"
+    },
+    "description": {
+      "html": "Indicates that the image is part of a server-side image map.",
+      "text": "Indicates that the image is part of a server-side image map."
+    },
+    "note": null
+  },
+  "itemprop": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop\">itemprop</a>",
+      "text": "itemprop"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/itemprop"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "",
+      "text": ""
+    },
+    "note": null
+  },
+  "keytype": {
+    "keyword": {
+      "html": "keytype",
+      "text": "keytype"
+    },
+    "urls": [],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\"><code>&lt;keygen&gt;</code></a>",
+      "text": "<keygen>"
+    },
+    "description": {
+      "html": "Specifies the type of key generated.",
+      "text": "Specifies the type of key generated."
+    },
+    "note": null
+  },
+  "kind": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_kind.asp\">kind</a>",
+      "text": "kind"
+    },
+    "url": "https://www.w3schools.com/tags/att_kind.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/kind",
+      "https://www.w3schools.com/tags/att_kind.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\"><code>&lt;track&gt;</code></a>",
+      "text": "<track>"
+    },
+    "description": {
+      "html": "Specifies the kind of text track.",
+      "text": "Specifies the kind of text track."
+    },
+    "note": null
+  },
+  "label": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_label.asp\">label</a>",
+      "text": "label"
+    },
+    "url": "https://www.w3schools.com/tags/att_label.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/label",
+      "https://www.w3schools.com/tags/att_label.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/optgroup\"><code>&lt;optgroup&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\"><code>&lt;track&gt;</code></a>",
+      "text": "<optgroup>, <option>, <track>"
+    },
+    "description": {
+      "html": "Specifies a user-readable title of the element.",
+      "text": "Specifies a user-readable title of the element."
+    },
+    "note": null
+  },
+  "lang": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang\">lang</a>",
+      "text": "lang"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang",
+      "https://www.w3schools.com/tags/att_lang.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Defines the language used in the element.",
+      "text": "Defines the language used in the element."
+    },
+    "note": null
+  },
+  "language": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/language\">language</a>",
+      "text": "language"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/language",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/language"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>",
+      "text": "<script>"
+    },
+    "description": {
+      "html": "Defines the script language used in the element.",
+      "text": "Defines the script language used in the element."
+    },
+    "note": null
+  },
+  "loading": {
+    "keyword": {
+      "html": "loading",
+      "text": "loading"
+    },
+    "urls": [],
+    "status": "experimental",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<img>, <iframe>"
+    },
+    "description": {
+      "html": "Indicates if the element should be loaded lazily (<code>loading=&quot;lazy&quot;</code>) or loaded immediately (<code>loading=&quot;eager&quot;</code>).",
+      "text": "Indicates if the element should be loaded lazily (loading=\"lazy\") or loaded immediately (loading=\"eager\")."
+    },
+    "note": {
+      "html": "<strong>WIP:</strong> <a target=\"_blank\" href=\"https://github.com/whatwg/html/pull/3752\">WHATWG PR #3752</a>",
+      "text": "WIP: WHATWG PR #3752"
+    }
+  },
+  "list": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_list.asp\">list</a>",
+      "text": "list"
+    },
+    "url": "https://www.w3schools.com/tags/att_list.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/list",
+      "https://www.w3schools.com/tags/att_list.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<input>"
+    },
+    "description": {
+      "html": "Identifies a list of pre-defined options to suggest to the user.",
+      "text": "Identifies a list of pre-defined options to suggest to the user."
+    },
+    "note": null
+  },
+  "loop": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_loop.asp\">loop</a>",
+      "text": "loop"
+    },
+    "url": "https://www.w3schools.com/tags/att_loop.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/loop",
+      "https://www.w3schools.com/tags/att_loop.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/bgsound\"><code>&lt;bgsound&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee\"><code>&lt;marquee&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<audio>, <bgsound>, <marquee>, <video>"
+    },
+    "description": {
+      "html": "Indicates whether the media should start playing from the start when it&apos;s finished.",
+      "text": "Indicates whether the media should start playing from the start when it's finished."
+    },
+    "note": null
+  },
+  "low": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_low.asp\">low</a>",
+      "text": "low"
+    },
+    "url": "https://www.w3schools.com/tags/att_low.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/low",
+      "https://www.w3schools.com/tags/att_low.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\"><code>&lt;meter&gt;</code></a>",
+      "text": "<meter>"
+    },
+    "description": {
+      "html": "Indicates the upper bound of the lower range.",
+      "text": "Indicates the upper bound of the lower range."
+    },
+    "note": null
+  },
+  "manifest": {
+    "keyword": {
+      "html": "manifest",
+      "text": "manifest"
+    },
+    "urls": [],
+    "status": "obsolete",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\"><code>&lt;html&gt;</code></a>",
+      "text": "<html>"
+    },
+    "description": {
+      "html": "Specifies the URL of the document&apos;s cache manifest.",
+      "text": "Specifies the URL of the document's cache manifest."
+    },
+    "note": {
+      "html": "<strong>Note:</strong> This attribute is obsolete, use <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Manifest\"><code>&lt;link rel=&quot;manifest&quot;&gt;</code></a> instead.",
+      "text": "Note: This attribute is obsolete, use <link rel=\"manifest\"> instead."
+    }
+  },
+  "max": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max\">max</a>",
+      "text": "max"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/max",
+      "https://www.w3schools.com/tags/att_max.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\"><code>&lt;progress&gt;</code></a>",
+      "text": "<input>, <meter>, <progress>"
+    },
+    "description": {
+      "html": "Indicates the maximum value allowed.",
+      "text": "Indicates the maximum value allowed."
+    },
+    "note": null
+  },
+  "maxlength": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength\">maxlength</a>",
+      "text": "maxlength"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/maxlength",
+      "https://www.w3schools.com/tags/att_maxlength.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<input>, <textarea>"
+    },
+    "description": {
+      "html": "Defines the maximum number of characters allowed in the element.",
+      "text": "Defines the maximum number of characters allowed in the element."
+    },
+    "note": null
+  },
+  "minlength": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength\">minlength</a>",
+      "text": "minlength"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/minlength"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<input>, <textarea>"
+    },
+    "description": {
+      "html": "Defines the minimum number of characters allowed in the element.",
+      "text": "Defines the minimum number of characters allowed in the element."
+    },
+    "note": null
+  },
+  "media": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_media.asp\">media</a>",
+      "text": "media"
+    },
+    "url": "https://www.w3schools.com/tags/att_media.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/media",
+      "https://www.w3schools.com/tags/att_media.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\"><code>&lt;style&gt;</code></a>",
+      "text": "<a>, <area>, <link>, <source>, <style>"
+    },
+    "description": {
+      "html": "Specifies a hint of the media for which the linked resource was designed.",
+      "text": "Specifies a hint of the media for which the linked resource was designed."
+    },
+    "note": null
+  },
+  "method": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_method.asp\">method</a>",
+      "text": "method"
+    },
+    "url": "https://www.w3schools.com/tags/att_method.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/method",
+      "https://www.w3schools.com/tags/att_method.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>",
+      "text": "<form>"
+    },
+    "description": {
+      "html": "Defines which <a href=\"/en-US/docs/Web/HTTP\">HTTP</a> method to use when submitting the form. Can be <code>GET</code> (default) or <code>POST</code>.",
+      "text": "Defines which HTTP method to use when submitting the form. Can be GET (default) or POST."
+    },
+    "note": null
+  },
+  "min": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min\">min</a>",
+      "text": "min"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/min",
+      "https://www.w3schools.com/tags/att_min.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\"><code>&lt;meter&gt;</code></a>",
+      "text": "<input>, <meter>"
+    },
+    "description": {
+      "html": "Indicates the minimum value allowed.",
+      "text": "Indicates the minimum value allowed."
+    },
+    "note": null
+  },
+  "multiple": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple\">multiple</a>",
+      "text": "multiple"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/multiple",
+      "https://www.w3schools.com/tags/att_multiple.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>",
+      "text": "<input>, <select>"
+    },
+    "description": {
+      "html": "Indicates whether multiple values can be entered in an input of the type <code>email</code> or <code>file</code>.",
+      "text": "Indicates whether multiple values can be entered in an input of the type email or file."
+    },
+    "note": null
+  },
+  "muted": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_muted.asp\">muted</a>",
+      "text": "muted"
+    },
+    "url": "https://www.w3schools.com/tags/att_muted.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/muted",
+      "https://www.w3schools.com/tags/att_muted.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<audio>, <video>"
+    },
+    "description": {
+      "html": "Indicates whether the audio will be initially silenced on page load.",
+      "text": "Indicates whether the audio will be initially silenced on page load."
+    },
+    "note": null
+  },
+  "name": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_name.asp\">name</a>",
+      "text": "name"
+    },
+    "url": "https://www.w3schools.com/tags/att_name.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/name",
+      "https://www.w3schools.com/tags/att_name.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/fieldset\"><code>&lt;fieldset&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/keygen\"><code>&lt;keygen&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/output\"><code>&lt;output&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map\"><code>&lt;map&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta\"><code>&lt;meta&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\"><code>&lt;param&gt;</code></a>",
+      "text": "<button>, <form>, <fieldset>, <iframe>, <input>, <keygen>, <object>, <output>, <select>, <textarea>, <map>, <meta>, <param>"
+    },
+    "description": {
+      "html": "Name of the element. For example used by the server to identify the fields in form submits.",
+      "text": "Name of the element. For example used by the server to identify the fields in form submits."
+    },
+    "note": null
+  },
+  "novalidate": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_novalidate.asp\">novalidate</a>",
+      "text": "novalidate"
+    },
+    "url": "https://www.w3schools.com/tags/att_novalidate.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/novalidate",
+      "https://www.w3schools.com/tags/att_novalidate.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>",
+      "text": "<form>"
+    },
+    "description": {
+      "html": "This attribute indicates that the form shouldn&apos;t be validated when submitted.",
+      "text": "This attribute indicates that the form shouldn't be validated when submitted."
+    },
+    "note": null
+  },
+  "open": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_open.asp\">open</a>",
+      "text": "open"
+    },
+    "url": "https://www.w3schools.com/tags/att_open.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/open",
+      "https://www.w3schools.com/tags/att_open.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details\"><code>&lt;details&gt;</code></a>",
+      "text": "<details>"
+    },
+    "description": {
+      "html": "Indicates whether the details will be shown on page load.",
+      "text": "Indicates whether the details will be shown on page load."
+    },
+    "note": null
+  },
+  "optimum": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_optimum.asp\">optimum</a>",
+      "text": "optimum"
+    },
+    "url": "https://www.w3schools.com/tags/att_optimum.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/optimum",
+      "https://www.w3schools.com/tags/att_optimum.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\"><code>&lt;meter&gt;</code></a>",
+      "text": "<meter>"
+    },
+    "description": {
+      "html": "Indicates the optimal numeric value.",
+      "text": "Indicates the optimal numeric value."
+    },
+    "note": null
+  },
+  "pattern": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern\">pattern</a>",
+      "text": "pattern"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/pattern",
+      "https://www.w3schools.com/tags/att_pattern.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<input>"
+    },
+    "description": {
+      "html": "Defines a regular expression which the element&apos;s value will be validated against.",
+      "text": "Defines a regular expression which the element's value will be validated against."
+    },
+    "note": null
+  },
+  "ping": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping\">ping</a>",
+      "text": "ping"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-ping"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>",
+      "text": "<a>, <area>"
+    },
+    "description": {
+      "html": "The <code>ping</code> attribute specifies a space-separated list of URLs to be notified if a user follows the hyperlink.",
+      "text": "The ping attribute specifies a space-separated list of URLs to be notified if a user follows the hyperlink."
+    },
+    "note": null
+  },
+  "placeholder": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_placeholder.asp\">placeholder</a>",
+      "text": "placeholder"
+    },
+    "url": "https://www.w3schools.com/tags/att_placeholder.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/placeholder",
+      "https://www.w3schools.com/tags/att_placeholder.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<input>, <textarea>"
+    },
+    "description": {
+      "html": "Provides a hint to the user of what can be entered in the field.",
+      "text": "Provides a hint to the user of what can be entered in the field."
+    },
+    "note": null
+  },
+  "poster": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_poster.asp\">poster</a>",
+      "text": "poster"
+    },
+    "url": "https://www.w3schools.com/tags/att_poster.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/poster",
+      "https://www.w3schools.com/tags/att_poster.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<video>"
+    },
+    "description": {
+      "html": "A URL indicating a poster frame to show until the user plays or seeks.",
+      "text": "A URL indicating a poster frame to show until the user plays or seeks."
+    },
+    "note": null
+  },
+  "preload": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_preload.asp\">preload</a>",
+      "text": "preload"
+    },
+    "url": "https://www.w3schools.com/tags/att_preload.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/preload",
+      "https://www.w3schools.com/tags/att_preload.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<audio>, <video>"
+    },
+    "description": {
+      "html": "Indicates whether the whole resource, parts of it or nothing should be preloaded.",
+      "text": "Indicates whether the whole resource, parts of it or nothing should be preloaded."
+    },
+    "note": null
+  },
+  "radiogroup": {
+    "keyword": {
+      "html": "radiogroup",
+      "text": "radiogroup"
+    },
+    "urls": [],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\"><code>&lt;command&gt;</code></a>",
+      "text": "<command>"
+    },
+    "description": {
+      "html": "",
+      "text": ""
+    },
+    "note": null
+  },
+  "readonly": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly\">readonly</a>",
+      "text": "readonly"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/readonly",
+      "https://www.w3schools.com/tags/att_readonly.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<input>, <textarea>"
+    },
+    "description": {
+      "html": "Indicates whether the element can be edited.",
+      "text": "Indicates whether the element can be edited."
+    },
+    "note": null
+  },
+  "referrerpolicy": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/referralpolicy\">referrerpolicy</a>",
+      "text": "referrerpolicy"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/referralpolicy",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/referralpolicy"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>",
+      "text": "<a>, <area>, <iframe>, <img>, <link>, <script>"
+    },
+    "description": {
+      "html": "Specifies which referrer is sent when fetching the resource.",
+      "text": "Specifies which referrer is sent when fetching the resource."
+    },
+    "note": null
+  },
+  "rel": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel\">rel</a>",
+      "text": "rel"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel",
+      "https://www.w3schools.com/tags/att_rel.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>",
+      "text": "<a>, <area>, <link>"
+    },
+    "description": {
+      "html": "Specifies the relationship of the target object to the link object.",
+      "text": "Specifies the relationship of the target object to the link object."
+    },
+    "note": null
+  },
+  "required": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required\">required</a>",
+      "text": "required"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/required",
+      "https://www.w3schools.com/tags/att_required.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<input>, <select>, <textarea>"
+    },
+    "description": {
+      "html": "Indicates whether this element is required to fill out or not.",
+      "text": "Indicates whether this element is required to fill out or not."
+    },
+    "note": null
+  },
+  "reversed": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_reversed.asp\">reversed</a>",
+      "text": "reversed"
+    },
+    "url": "https://www.w3schools.com/tags/att_reversed.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/reversed",
+      "https://www.w3schools.com/tags/att_reversed.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol\"><code>&lt;ol&gt;</code></a>",
+      "text": "<ol>"
+    },
+    "description": {
+      "html": "Indicates whether the list should be displayed in a descending order instead of a ascending.",
+      "text": "Indicates whether the list should be displayed in a descending order instead of a ascending."
+    },
+    "note": null
+  },
+  "rows": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_rows.asp\">rows</a>",
+      "text": "rows"
+    },
+    "url": "https://www.w3schools.com/tags/att_rows.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rows",
+      "https://www.w3schools.com/tags/att_rows.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<textarea>"
+    },
+    "description": {
+      "html": "Defines the number of rows in a text area.",
+      "text": "Defines the number of rows in a text area."
+    },
+    "note": null
+  },
+  "rowspan": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_rowspan.asp\">rowspan</a>",
+      "text": "rowspan"
+    },
+    "url": "https://www.w3schools.com/tags/att_rowspan.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rowspan",
+      "https://www.w3schools.com/tags/att_rowspan.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td\"><code>&lt;td&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a>",
+      "text": "<td>, <th>"
+    },
+    "description": {
+      "html": "Defines the number of rows a table cell should span over.",
+      "text": "Defines the number of rows a table cell should span over."
+    },
+    "note": null
+  },
+  "sandbox": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox\">sandbox</a>",
+      "text": "sandbox"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-sandbox",
+      "https://www.w3schools.com/tags/att_sandbox.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "Stops a document loaded in an iframe from using certain features (such as submitting forms or opening new windows).",
+      "text": "Stops a document loaded in an iframe from using certain features (such as submitting forms or opening new windows)."
+    },
+    "note": null
+  },
+  "scope": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_scope.asp\">scope</a>",
+      "text": "scope"
+    },
+    "url": "https://www.w3schools.com/tags/att_scope.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/scope",
+      "https://www.w3schools.com/tags/att_scope.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/th\"><code>&lt;th&gt;</code></a>",
+      "text": "<th>"
+    },
+    "description": {
+      "html": "Defines the cells that the header test (defined in the <code>th</code> element) relates to.",
+      "text": "Defines the cells that the header test (defined in the th element) relates to."
+    },
+    "note": null
+  },
+  "scoped": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/scoped\">scoped</a>",
+      "text": "scoped"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/scoped",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/scoped"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\"><code>&lt;style&gt;</code></a>",
+      "text": "<style>"
+    },
+    "description": {
+      "html": "",
+      "text": ""
+    },
+    "note": null
+  },
+  "selected": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_selected.asp\">selected</a>",
+      "text": "selected"
+    },
+    "url": "https://www.w3schools.com/tags/att_selected.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/selected",
+      "https://www.w3schools.com/tags/att_selected.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a>",
+      "text": "<option>"
+    },
+    "description": {
+      "html": "Defines a value which will be selected on page load.",
+      "text": "Defines a value which will be selected on page load."
+    },
+    "note": null
+  },
+  "shape": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_shape.asp\">shape</a>",
+      "text": "shape"
+    },
+    "url": "https://www.w3schools.com/tags/att_shape.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/shape",
+      "https://www.w3schools.com/tags/att_shape.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>",
+      "text": "<a>, <area>"
+    },
+    "description": {
+      "html": "Specifies the shape of the area",
+      "text": "Specifies the shape of the area"
+    },
+    "note": null
+  },
+  "size": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size\">size</a>",
+      "text": "size"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/size",
+      "https://www.w3schools.com/tags/att_size.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>",
+      "text": "<input>, <select>"
+    },
+    "description": {
+      "html": "Defines the width of the element (in pixels). If the element&apos;s <code>type</code> attribute is <code>text</code> or <code>password</code> then it&apos;s the number of characters.",
+      "text": "Defines the width of the element (in pixels). If the element's type attribute is text or password then it's the number of characters."
+    },
+    "note": null
+  },
+  "sizes": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_sizes.asp\">sizes</a>",
+      "text": "sizes"
+    },
+    "url": "https://www.w3schools.com/tags/att_sizes.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/sizes",
+      "https://www.w3schools.com/tags/att_sizes.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link\"><code>&lt;link&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a>",
+      "text": "<link>, <img>, <source>"
+    },
+    "description": {
+      "html": "Specifies the size of the linked resource",
+      "text": "Specifies the size of the linked resource"
+    },
+    "note": null
+  },
+  "slot": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/slot\">slot</a>",
+      "text": "slot"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/slot",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/slot"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Assigns a slot in a shadow DOM shadow tree to an element.",
+      "text": "Assigns a slot in a shadow DOM shadow tree to an element."
+    },
+    "note": null
+  },
+  "span": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_span.asp\">span</a>",
+      "text": "span"
+    },
+    "url": "https://www.w3schools.com/tags/att_span.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/span",
+      "https://www.w3schools.com/tags/att_span.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/col\"><code>&lt;col&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/colgroup\"><code>&lt;colgroup&gt;</code></a>",
+      "text": "<col>, <colgroup>"
+    },
+    "description": {
+      "html": "Specifies the number of columns to span",
+      "text": "Specifies the number of columns to span"
+    },
+    "note": null
+  },
+  "spellcheck": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck\">spellcheck</a>",
+      "text": "spellcheck"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/spellcheck",
+      "https://www.w3schools.com/tags/att_spellcheck.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Indicates whether spell checking is allowed for the element.",
+      "text": "Indicates whether spell checking is allowed for the element."
+    },
+    "note": null
+  },
+  "src": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_src.asp\">src</a>",
+      "text": "src"
+    },
+    "url": "https://www.w3schools.com/tags/att_src.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/src",
+      "https://www.w3schools.com/tags/att_src.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio\"><code>&lt;audio&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\"><code>&lt;track&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video\"><code>&lt;video&gt;</code></a>",
+      "text": "<audio>, <embed>, <iframe>, <img>, <input>, <script>, <source>, <track>, <video>"
+    },
+    "description": {
+      "html": "The URL of the embeddable content.",
+      "text": "The URL of the embeddable content."
+    },
+    "note": null
+  },
+  "srcdoc": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_srcdoc.asp\">srcdoc</a>",
+      "text": "srcdoc"
+    },
+    "url": "https://www.w3schools.com/tags/att_srcdoc.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srcdoc",
+      "https://www.w3schools.com/tags/att_srcdoc.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "Specifies the HTML content of the page to show in the <iframe>",
+      "text": "Specifies the HTML content of the page to show in the <iframe>"
+    },
+    "note": null
+  },
+  "srclang": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_srclang.asp\">srclang</a>",
+      "text": "srclang"
+    },
+    "url": "https://www.w3schools.com/tags/att_srclang.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srclang",
+      "https://www.w3schools.com/tags/att_srclang.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track\"><code>&lt;track&gt;</code></a>",
+      "text": "<track>"
+    },
+    "description": {
+      "html": "Specifies the language of the track text data (required if kind=\"subtitles\")",
+      "text": "Specifies the language of the track text data (required if kind=\"subtitles\")"
+    },
+    "note": null
+  },
+  "srcset": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_source_srcset.asp\">srcset</a>",
+      "text": "srcset"
+    },
+    "url": "https://www.w3schools.com/tags/att_source_srcset.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/srcset",
+      "https://www.w3schools.com/tags/att_source_srcset.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a>",
+      "text": "<img>, <source>"
+    },
+    "description": {
+      "html": "One or more responsive image candidates.",
+      "text": "One or more responsive image candidates."
+    },
+    "note": null
+  },
+  "start": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_start.asp\">start</a>",
+      "text": "start"
+    },
+    "url": "https://www.w3schools.com/tags/att_start.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/start",
+      "https://www.w3schools.com/tags/att_start.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ol\"><code>&lt;ol&gt;</code></a>",
+      "text": "<ol>"
+    },
+    "description": {
+      "html": "Defines the first number if other than 1.",
+      "text": "Defines the first number if other than 1."
+    },
+    "note": null
+  },
+  "step": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step\">step</a>",
+      "text": "step"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/step",
+      "https://www.w3schools.com/tags/att_step.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>",
+      "text": "<input>"
+    },
+    "description": {
+      "html": "Specifies the legal number intervals for an input field",
+      "text": "Specifies the legal number intervals for an input field"
+    },
+    "note": null
+  },
+  "style": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style\">style</a>",
+      "text": "style"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style",
+      "https://www.w3schools.com/tags/att_style.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Defines CSS styles which will override styles previously set.",
+      "text": "Defines CSS styles which will override styles previously set."
+    },
+    "note": null
+  },
+  "summary": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/summary\">summary</a>",
+      "text": "summary"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/summary",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/summary"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table\"><code>&lt;table&gt;</code></a>",
+      "text": "<table>"
+    },
+    "description": {
+      "html": "",
+      "text": ""
+    },
+    "note": null
+  },
+  "tabindex": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex\">tabindex</a>",
+      "text": "tabindex"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/tabindex",
+      "https://www.w3schools.com/tags/att_tabindex.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Overrides the browser&apos;s default tab order and follows the one specified instead.",
+      "text": "Overrides the browser's default tab order and follows the one specified instead."
+    },
+    "note": null
+  },
+  "target": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_target.asp\">target</a>",
+      "text": "target"
+    },
+    "url": "https://www.w3schools.com/tags/att_target.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/target",
+      "https://www.w3schools.com/tags/att_target.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a\"><code>&lt;a&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/area\"><code>&lt;area&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base\"><code>&lt;base&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a>",
+      "text": "<a>, <area>, <base>, <form>"
+    },
+    "description": {
+      "html": "Specifies where to open the linked document (in the case of an <code>&lt;a&gt;</code> element) or where to display the response recieved (in the case of a <code>&lt;form&gt;</code> element)",
+      "text": "Specifies where to open the linked document (in the case of an <a> element) or where to display the response recieved (in the case of a <form> element)"
+    },
+    "note": null
+  },
+  "title": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title\">title</a>",
+      "text": "title"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/title",
+      "https://www.w3schools.com/tags/att_title.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Text to be displayed in a tooltip when hovering over the element.",
+      "text": "Text to be displayed in a tooltip when hovering over the element."
+    },
+    "note": null
+  },
+  "translate": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_translate.asp\">translate</a>",
+      "text": "translate"
+    },
+    "url": "https://www.w3schools.com/tags/att_translate.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/translate",
+      "https://www.w3schools.com/tags/att_translate.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    },
+    "description": {
+      "html": "Specify whether an element&#x2019;s attribute values and the values of its <code><a href=\"https://dom.spec.whatwg.org/#text\" id=\"ref-for-text&#x2460;&#x2466;\">Text</a></code> node children are to be translated when the page is localized, or whether to leave them unchanged.",
+      "text": "Specify whether an element’s attribute values and the values of its Text node children are to be translated when the page is localized, or whether to leave them unchanged."
+    },
+    "note": null
+  },
+  "type": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_type.asp\">type</a>",
+      "text": "type"
+    },
+    "url": "https://www.w3schools.com/tags/att_type.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/type",
+      "https://www.w3schools.com/tags/att_type.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/command\"><code>&lt;command&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/embed\"><code>&lt;embed&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script\"><code>&lt;script&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\"><code>&lt;style&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/menu\"><code>&lt;menu&gt;</code></a>",
+      "text": "<button>, <input>, <command>, <embed>, <object>, <script>, <source>, <style>, <menu>"
+    },
+    "description": {
+      "html": "Defines the type of the element.",
+      "text": "Defines the type of the element."
+    },
+    "note": null
+  },
+  "usemap": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_usemap.asp\">usemap</a>",
+      "text": "usemap"
+    },
+    "url": "https://www.w3schools.com/tags/att_usemap.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/usemap",
+      "https://www.w3schools.com/tags/att_usemap.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img\"><code>&lt;img&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/object\"><code>&lt;object&gt;</code></a>",
+      "text": "<img>, <input>, <object>"
+    },
+    "description": {
+      "html": "Specifies an image as a client-side image map",
+      "text": "Specifies an image as a client-side image map"
+    },
+    "note": null
+  },
+  "value": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_value.asp\">value</a>",
+      "text": "value"
+    },
+    "url": "https://www.w3schools.com/tags/att_value.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/value",
+      "https://www.w3schools.com/tags/att_value.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button\"><code>&lt;button&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/data\"><code>&lt;data&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/li\"><code>&lt;li&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meter\"><code>&lt;meter&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option\"><code>&lt;option&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress\"><code>&lt;progress&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/param\"><code>&lt;param&gt;</code></a>",
+      "text": "<button>, <data>, <input>, <li>, <meter>, <option>, <progress>, <param>"
+    },
+    "description": {
+      "html": "Defines a default value which will be displayed in the element on page load.",
+      "text": "Defines a default value which will be displayed in the element on page load."
+    },
+    "note": null
+  },
+  "width": {
+    "keyword": {
+      "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-width\" target=\"_blank\">width</a>",
+      "text": "width"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-width",
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "<code>width</code> is an attribute specifically for <code>svg</code> or <code>iframe</code> elements (default is 300). Although in the case of an iframe, it's generally better practice to set the width the same way you would any other element, using the CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\" target=\"_blank\">width</a> property.",
+      "text": "width is an attribute specifically for svg or iframe elements (default is 300). Although in the case of an iframe, it's generally better practice to set the width of an iframe the same way you would any other element, using the CSS width property."
+    }
+  },
+  "wrap": {
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://www.w3schools.com/tags/att_wrap.asp\">wrap</a>",
+      "text": "wrap"
+    },
+    "url": "https://www.w3schools.com/tags/att_wrap.asp",
+    "urls": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/wrap",
+      "https://www.w3schools.com/tags/att_wrap.asp"
+    ],
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a>",
+      "text": "<textarea>"
+    },
+    "description": {
+      "html": "Indicates whether the text should be wrapped.",
+      "text": "Indicates whether the text should be wrapped."
+    },
+    "note": null
+  },
+  "allowfullscreen": {
+    "keyword": {
+      "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-allowfullscreen/\" target=\"_blank\">allowfullscreen</a>",
+      "text": "allowfullscreen"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-allowfullscreen/",
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "<code>allowfullscreen</code> is an attribute specifically for <code>iframe</code> elements. Though <code>iframes</code> can be used to embed any other website into a page, it is often used to embed sites that stream videos (like YouTube or Vimeo), this attribute allows that these iframes to be displayed in fullscreen mode.",
+      "text": "allowfullscreen is an attribute specifically for iframe elements. Though iframes can be used to embed any other website into a page, it is often used to embed sites that stream videos (like YouTube or Vimeo), this attribute allows that these iframes to be displayed in fullscreen mode."
+    }
+  },
+  "frameborder": {
+    "keyword": {
+      "html": "<a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-frameborder\" target=\"_blank\">frameborder</a>",
+      "text": "frameborder"
+    },
+    "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe#attr-frameborder",
+    "status": "standard",
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe\"><code>&lt;iframe&gt;</code></a>",
+      "text": "<iframe>"
+    },
+    "description": {
+      "html": "<code>frameborder</code> is an attribute specifically for <code>iframe</code> elements. The value 1 (the default) draws a border around this frame. The value 0 removes the border around this frame, but you instead use the CSS property border to control <code>iframe</code> borders instead.",
+      "text": "frameborder is an attribute specifically for iframe elements. The value 1 (the default) draws a border around this frame. The value 0 removes the border around this frame, but you should use the CSS property border to control iframe borders instead."
+    }
+  }
+}

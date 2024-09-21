@@ -85,38 +85,42 @@ class Netitor {
 
     this.edu = {
       html: {
-        attributes: require('./edu-data/html-attributes.json'),
-        elements: require('./edu-data/html-elements.json')
+        attributes: require('./edu-data/html/attributes.json'),
+        elements: require('./edu-data/html/elements.json')
+      },
+      svg: {
+        attributes: require('./edu-data/html/svg-attributes.json'),
+        elements: require('./edu-data/html/svg-elements.json')
       },
       css: {
-        'at-rules': require('./edu-data/css-at-rules.json'),
-        colors: require('./edu-data/css-colors.json'),
-        'data-types': require('./edu-data/css-data-types.json'),
-        functions: require('./edu-data/css-functions.json'),
-        properties: require('./edu-data/css-properties.json'),
-        'pseudo-classes': require('./edu-data/css-pseudo-classes.json'),
-        'pseudo-elements': require('./edu-data/css-pseudo-elements.json'),
-        units: require('./edu-data/css-units.json')
+        'at-rules': require('./edu-data/css/at-rules.json'),
+        colors: require('./edu-data/css/colors.json'),
+        'data-types': require('./edu-data/css/data-types.json'),
+        functions: require('./edu-data/css/functions.json'),
+        properties: require('./edu-data/css/properties.json'),
+        'pseudo-classes': require('./edu-data/css/pseudo-classes.json'),
+        'pseudo-elements': require('./edu-data/css/pseudo-elements.json'),
+        units: require('./edu-data/css/units.json')
       },
       js: {
-        arrays: require('./edu-data/js-arrays.json'),
-        date: require('./edu-data/js-date.json'),
-        document: require('./edu-data/js-document.json'),
-        'dom-node': require('./edu-data/js-dom-node.json'),
-        'dom-element': require('./edu-data/js-dom-element.json'),
-        'dom-event-target': require('./edu-data/js-dom-event-target.json'),
-        'dom-media': require('./edu-data/js-dom-media.json'),
-        'canvas-dom': require('./edu-data/js-dom-canvas.json'),
-        canvas2d: require('./edu-data/js-canvas2d.json'),
-        events: require('./edu-data/js-events.json'),
-        // history: require('./edu-data/js-history.json'),
-        location: require('./edu-data/js-location.json'),
-        math: require('./edu-data/js-math.json'),
-        navigator: require('./edu-data/js-navigator.json'),
-        number: require('./edu-data/js-number.json'),
-        refs: require('./edu-data/js-refs.json'),
-        string: require('./edu-data/js-string.json'),
-        window: require('./edu-data/js-window.json')
+        arrays: require('./edu-data/js/arrays.json'),
+        date: require('./edu-data/js/date.json'),
+        document: require('./edu-data/js/document.json'),
+        'dom-node': require('./edu-data/js/dom-node.json'),
+        'dom-element': require('./edu-data/js/dom-element.json'),
+        'dom-event-target': require('./edu-data/js/dom-event-target.json'),
+        'dom-media': require('./edu-data/js/dom-media.json'),
+        'canvas-dom': require('./edu-data/js/dom-canvas.json'),
+        canvas2d: require('./edu-data/js/canvas2d.json'),
+        events: require('./edu-data/js/events.json'),
+        // history: require('./edu-data/js/history.json'),
+        location: require('./edu-data/js/location.json'),
+        math: require('./edu-data/js/math.json'),
+        navigator: require('./edu-data/js/navigator.json'),
+        number: require('./edu-data/js/number.json'),
+        refs: require('./edu-data/js/refs.json'),
+        string: require('./edu-data/js/string.json'),
+        window: require('./edu-data/js/window.json')
       }
     }
 
@@ -315,7 +319,7 @@ class Netitor {
   }
 
   marker (line, color, callback) {
-    if (!line) return this.cm.clearGutter('gutter-marker')
+    if (typeof line !== 'number') return this.cm.clearGutter('gutter-marker')
     const c = document.createElement('div')
     c.className = 'netitor-gutter-marker'
     c.style.width = '8px'
@@ -383,7 +387,7 @@ class Netitor {
   addCustomElements (obj) {
     let m = 'addCustomElements() expects an object as it\'s argument '
     m += 'with a structure that looks like this: '
-    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-elements.json'
+    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html/elements.json'
 
     if (typeof obj === 'object') {
       for (const ele in obj) {
@@ -415,7 +419,7 @@ class Netitor {
   addCustomAttributes (obj) {
     let m = 'addCustomAttributes() expects an object as it\'s argument '
     m += 'with a structure that looks like this: '
-    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html-attributes.json'
+    m += 'https://github.com/netizenorg/netitor/blob/master/src/edu-data/html/attributes.json'
 
     if (typeof obj === 'object') {
       for (const attr in obj) this._customAttributes[attr] = obj[attr]

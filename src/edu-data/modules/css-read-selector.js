@@ -1,5 +1,5 @@
-const pseudoEles = require('../css-pseudo-elements.json')
-const pseudoClasses = require('../css-pseudo-classes.json')
+const pseudoEles = require('../css/pseudo-elements.json')
+const pseudoClasses = require('../css/pseudo-classes.json')
 const CssSelectorParser = require('css-selector-parser').CssSelectorParser
 const cssSelector = new CssSelectorParser()
 // cssSelector.registerSelectorPseudos('has')
@@ -7,11 +7,11 @@ cssSelector.registerNestingOperators('>', '+', '~')
 cssSelector.registerAttrEqualityMods('^', '$', '*', '~')
 cssSelector.enableSubstitutes()
 
-const refURL = 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors'
+const refURL = 'https://css-tricks.com/css-selectors/'
 
 function ntro (group) {
-  if (group) return 'Commas separate multiple <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank">CSS selectors</a> determining how to apply the CSS rules in the code block that follows it, ' // the 1st ... the 2nd... etc
-  else return 'This <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank">CSS selector</a> will apply the CSS rules in the code block that follows it to '
+  if (group) return 'Commas separate multiple <a href="https://css-tricks.com/css-selectors" target="_blank">CSS selectors</a> determining how to apply the CSS rules in the code block that follows it, ' // the 1st ... the 2nd... etc
+  else return 'This <a href="https://css-tricks.com/css-selectors/" target="_blank">CSS selector</a> will apply the CSS rules in the code block that follows it to '
 }
 
 function ordinal (num) {

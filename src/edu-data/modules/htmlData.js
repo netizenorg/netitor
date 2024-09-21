@@ -1,5 +1,7 @@
-const htmlAttr = require('../html-attributes.json')
-const htmlEles = require('../html-elements.json')
+const htmlAttr = require('../html/attributes.json')
+const htmlEles = require('../html/elements.json')
+const svgEles = require('../html/svg-elements.json')
+const svgAttr = require('../html/svg-attributes.json')
 
 const htmlC = {
   name: 'HTML comments',
@@ -26,7 +28,9 @@ const genObj = (o) => {
 
 function htmlData (o) {
   if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
+  else if (o.type === 'element' && svgEles[o.data]) o.nfo = svgEles[o.data]
   else if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
+  else if (o.type === 'attribute' && svgAttr[o.data]) o.nfo = svgAttr[o.data]
   else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
     o.nfo = htmlAttr['data-*']
   } else if (o.type === 'comment') {

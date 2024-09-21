@@ -1,5 +1,5 @@
-const htmlEles = require('../edu-data/html-elements.json')
-const cssProps = require('../edu-data/css-properties.json')
+const htmlEles = require('../edu-data/html/elements.json')
+const cssProps = require('../edu-data/css/properties.json')
 const stringSimilarity = require('string-similarity')
 
 function checkSpelling (str, type) {

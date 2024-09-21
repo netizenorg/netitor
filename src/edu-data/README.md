@@ -1,5 +1,73 @@
 # educational data
 
-The vast majority of these `json` files were automatically generated using our [eduscraper](https://github.com/netizenorg/eduscraper), a web scraper that scrapes educational web literacy info from various websites including [https://developer.mozilla.org](https://developer.mozilla.org), [https://www.w3schools.com](https://www.w3schools.com) among others.
+We originally used our [eduscraper](https://github.com/netizenorg/eduscraper) to generate these json files automatically. The educscraper was a web scraper that scrapes educational web literacy info from various websites including [https://developer.mozilla.org](https://developer.mozilla.org), [https://www.w3schools.com](https://www.w3schools.com) among others.
 
-The only files created manually are the files inside of the `/modules` directory and `index.js` as well as the `css-units.json` && `css-functions.json` files (was quicker write those by hand then write various web scrapers).
+But because this scraper needed to be regularly updated and because these json files often needed to be edited by hand, we've opted for another approach.
+
+**NOTE:** When used in netnet.studio, the edu-info get's augmented by the CSS and the HTML Reference Widget for certain pieces of code, see [html-reference/data/edu-supplement.json](https://github.com/netizenorg/netnet.studio/blob/main/www/widgets/html-reference/data/edu-supplement.json) and [css-reference/data/edu-supplement.json](https://github.com/netizenorg/netnet.studio/blob/main/www/widgets/css-reference/data/edu-supplement.json) for details.
+
+# Scraping Using the WebConsole
+
+If ever we need to scrape data from one of these resources, do so by running the following script in your browser's Web Console:
+
+```js
+const data = {}
+
+// PAGE SPECIFIC SCRAPING CODE HERE
+
+const jsonData = JSON.stringify(data, null, 2)
+const blob = new window.Blob([jsonData], { type: 'application/json' })
+const url = URL.createObjectURL(blob)
+const a = document.createElement('a')
+a.href = url
+a.download = 'data.json'
+document.body.appendChild(a)
+a.click()
+document.body.removeChild(a)
+URL.revokeObjectURL(url)
+```
+
+Where "AGE SPECIFIC SCRAPING CODE HERE" could look something like this script written to scrape data from MDN's [CSS Functions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions) page:
+
+```js
+document.querySelectorAll('.main-page-content section[aria-labelledby]').forEach(sec => {
+  const id = sec.getAttribute('aria-labelledby')
+  const type = id.split('_')[0]
+  sec.querySelectorAll('dt').forEach(dt => {
+    const name = dt.textContent.trim().replace('()', '')
+    const nxt = dt.nextElementSibling.querySelector('p')
+    const xtraTxt = `This is a type of ${type} function.`
+    const xtraHTML = `This is a type of <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#${id}" target="_blank">${type} function</a>, checkout this <a href="https://css-tricks.com/complete-guide-to-css-functions/" target="_blank">CSS Functions Guide</a> for more.`
+    data[name] = {
+      status: 'standard',
+      url: dt.querySelector('a').getAttribute('href'),
+      html: `${nxt.innerHTML.trim()} ${xtraHTML}`,
+      text: `${nxt.textContent.trim()} ${xtraTxt}`
+    }
+  })
+})
+```
+
+The example above will download a file called `data.json` with the same structure as the data objects in `edu-data/css/functions.json`
+
+# Utility Scripts
+
+## Comparing JSON Files
+
+In this `edu-data` directory there is an node script called `find-missing.js` which can be used to compare two JSON files, it returns objects from the second JSON file whose key's are missing form the first, for example running this (from the `edu-data` directory):
+
+```
+node find-missing.js './css/functions.json' './data.json'
+```
+
+assuming there is a file called `data.json` also in the `edu-data` folder (presumably created with the scripts above), then this will create a new file in the `edu-data` folder called `missingKeys.json` with any keys/objects included in data.json that are missing from functions.json.
+
+You can then copy+paste these into the appropriate file (in this case `functions.json`) and delete both the scraped `data.json` file and the `missingKeys.json` file.
+
+## Rerording data
+
+In this `edu-data` directory there is an node script called `abc-order.js` which can be used to reorder a JSON file's keys alphabetically, it will return a file with the same name and in the same directory as the input file except with "-sorted" appended at the end of the name, run it like:
+
+```
+node abc-order.js './css/functions.json'
+```

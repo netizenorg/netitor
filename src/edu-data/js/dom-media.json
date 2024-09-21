@@ -1,0 +1,614 @@
+{
+  "audioTracks": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/audioTracks",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/audioTracks\">audioTracks</a>",
+      "text": "audioTracks"
+    },
+    "description": {
+      "html": "\n    <p>An <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/AudioTrackList\"><code>AudioTrackList</code></a> that lists the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/AudioTrack\"><code>AudioTrack</code></a> objects contained in the element.</p>\n  ",
+      "text": "\n    An AudioTrackList that lists the AudioTrack objects contained in the element.\n  "
+    }
+  },
+  "autoplay": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/autoplay",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/autoplay\">autoplay</a>",
+      "text": "autoplay"
+    },
+    "description": {
+      "html": "\n    <p>A boolean value that reflects the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-autoplay\"><code>autoplay</code></a> HTML attribute, indicating whether playback should automatically begin as soon as enough media is available to do so without interruption.</p>\n    <div class=\"notecard note\" id=\"sect1\">\n      <p><strong>Note:</strong> Automatically playing audio when the user doesn&apos;t expect or desire it is a poor user experience and should be avoided in most cases, though there are exceptions. See the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Media/Autoplay_guide\">Autoplay guide for media and Web Audio APIs</a> for more information. Keep in mind that browsers may ignore autoplay requests, so you should ensure that your code isn&apos;t dependent on autoplay working.</p>\n    </div>\n  ",
+      "text": "\n    A boolean value that reflects the autoplay HTML attribute, indicating whether playback should automatically begin as soon as enough media is available to do so without interruption.\n    \n      Note: Automatically playing audio when the user doesn't expect or desire it is a poor user experience and should be avoided in most cases, though there are exceptions. See the Autoplay guide for media and Web Audio APIs for more information. Keep in mind that browsers may ignore autoplay requests, so you should ensure that your code isn't dependent on autoplay working.\n    \n  "
+    }
+  },
+  "buffered": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/buffered",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/buffered\">buffered</a>",
+      "text": "buffered"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges\"><code>TimeRanges</code></a> object that indicates the ranges of the media source that the browser has buffered (if any) at the moment the <code>buffered</code> property is accessed.</p>\n  ",
+      "text": "\n    Returns a TimeRanges object that indicates the ranges of the media source that the browser has buffered (if any) at the moment the buffered property is accessed.\n  "
+    }
+  },
+  "controls": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controls",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controls\">controls</a>",
+      "text": "controls"
+    },
+    "description": {
+      "html": "\n    <p>A boolean that reflects the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-controls\"><code>controls</code></a> HTML attribute, indicating whether user interface items for controlling the resource should be displayed.</p>\n  ",
+      "text": "\n    A boolean that reflects the controls HTML attribute, indicating whether user interface items for controlling the resource should be displayed.\n  "
+    }
+  },
+  "controlsList": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controlsList",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controlsList\">controlsList</a>",
+      "text": "controlsList"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList\"><code>DOMTokenList</code></a> that helps the user agent select what controls to show on the media element whenever the user agent shows its own set of controls. The <code>DOMTokenList</code> takes one or more of three possible values: <code>nodownload</code>, <code>nofullscreen</code>, and <code>noremoteplayback</code>.</p>\n  ",
+      "text": "\n    Returns a DOMTokenList that helps the user agent select what controls to show on the media element whenever the user agent shows its own set of controls. The DOMTokenList takes one or more of three possible values: nodownload, nofullscreen, and noremoteplayback.\n  "
+    }
+  },
+  "crossOrigin": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/crossOrigin",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/crossOrigin\">crossOrigin</a>",
+      "text": "crossOrigin"
+    },
+    "description": {
+      "html": "\n    <p>A string indicating the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin\">CORS setting</a> for this media element.</p>\n  ",
+      "text": "\n    A string indicating the CORS setting for this media element.\n  "
+    }
+  },
+  "currentSrc": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentSrc",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentSrc\">currentSrc</a>",
+      "text": "currentSrc"
+    },
+    "description": {
+      "html": "\n    <p>Returns a string with the absolute URL of the chosen media resource.</p>\n  ",
+      "text": "\n    Returns a string with the absolute URL of the chosen media resource.\n  "
+    }
+  },
+  "currentTime": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/currentTime\">currentTime</a>",
+      "text": "currentTime"
+    },
+    "description": {
+      "html": "\n    <p>A double-precision floating-point value indicating the current playback time in seconds; if the media has not started to play and has not been seeked, this value is the media&apos;s initial playback time. Setting this value seeks the media to the new time. The time is specified relative to the media&apos;s timeline.</p>\n  ",
+      "text": "\n    A double-precision floating-point value indicating the current playback time in seconds; if the media has not started to play and has not been seeked, this value is the media's initial playback time. Setting this value seeks the media to the new time. The time is specified relative to the media's timeline.\n  "
+    }
+  },
+  "defaultMuted": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultMuted",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultMuted\">defaultMuted</a>",
+      "text": "defaultMuted"
+    },
+    "description": {
+      "html": "\n    <p>A boolean that reflects the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-muted\"><code>muted</code></a> HTML attribute, which indicates whether the media element&apos;s audio output should be muted by default.</p>\n  ",
+      "text": "\n    A boolean that reflects the muted HTML attribute, which indicates whether the media element's audio output should be muted by default.\n  "
+    }
+  },
+  "defaultPlaybackRate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultPlaybackRate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/defaultPlaybackRate\">defaultPlaybackRate</a>",
+      "text": "defaultPlaybackRate"
+    },
+    "description": {
+      "html": "\n    <p>A <code>double</code> indicating the default playback rate for the media.</p>\n  ",
+      "text": "\n    A double indicating the default playback rate for the media.\n  "
+    }
+  },
+  "disableRemotePlayback": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/disableRemotePlayback",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/disableRemotePlayback\">disableRemotePlayback</a>",
+      "text": "disableRemotePlayback"
+    },
+    "description": {
+      "html": "\n    <p>A boolean that sets or returns the remote playback state, indicating whether the media element is allowed to have a remote playback UI.</p>\n  ",
+      "text": "\n    A boolean that sets or returns the remote playback state, indicating whether the media element is allowed to have a remote playback UI.\n  "
+    }
+  },
+  "duration": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/duration",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/duration\">duration</a>",
+      "text": "duration"
+    },
+    "description": {
+      "html": "\n    <p>A read-only double-precision floating-point value indicating the total duration of the media in seconds. If no media data is available, the returned value is <code>NaN</code>. If the media is of indefinite length (such as streamed live media, a WebRTC call&apos;s media, or similar), the value is <code>+Infinity</code>.</p>\n  ",
+      "text": "\n    A read-only double-precision floating-point value indicating the total duration of the media in seconds. If no media data is available, the returned value is NaN. If the media is of indefinite length (such as streamed live media, a WebRTC call's media, or similar), the value is +Infinity.\n  "
+    }
+  },
+  "ended": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended\">ended</a>",
+      "text": "ended"
+    },
+    "description": {
+      "html": "\n    <p>Returns a boolean that indicates whether the media element has finished playing.</p>\n  ",
+      "text": "\n    Returns a boolean that indicates whether the media element has finished playing.\n  "
+    }
+  },
+  "error": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error\">error</a>",
+      "text": "error"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaError\"><code>MediaError</code></a> object for the most recent error, or <code>null</code> if there has not been an error.</p>\n  ",
+      "text": "\n    Returns a MediaError object for the most recent error, or null if there has not been an error.\n  "
+    }
+  },
+  "loop": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loop",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loop\">loop</a>",
+      "text": "loop"
+    },
+    "description": {
+      "html": "\n    <p>A boolean that reflects the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-loop\"><code>loop</code></a> HTML attribute, which indicates whether the media element should start over when it reaches the end.</p>\n  ",
+      "text": "\n    A boolean that reflects the loop HTML attribute, which indicates whether the media element should start over when it reaches the end.\n  "
+    }
+  },
+  "mediaKeys": {
+    "status": "standard",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">mediaKeys</a>",
+      "text": "mediaKeys"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaKeys\"><code>MediaKeys</code></a> object or <code>null</code>. MediaKeys is a set of keys that an associated HTMLMediaElement can use for decryption of media data during playback.</p>\n  ",
+      "text": "\n    Returns a MediaKeys object or null. MediaKeys is a set of keys that an associated HTMLMediaElement can use for decryption of media data during playback.\n  "
+    }
+  },
+  "muted": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/muted",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/muted\">muted</a>",
+      "text": "muted"
+    },
+    "description": {
+      "html": "\n    <p>A boolean that determines whether audio is muted. <code>true</code> if the audio is muted and <code>false</code> otherwise.</p>\n  ",
+      "text": "\n    A boolean that determines whether audio is muted. true if the audio is muted and false otherwise.\n  "
+    }
+  },
+  "networkState": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/networkState",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/networkState\">networkState</a>",
+      "text": "networkState"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <code>unsigned short</code> (enumeration) indicating the current state of fetching the media over the network.</p>\n  ",
+      "text": "\n    Returns a unsigned short (enumeration) indicating the current state of fetching the media over the network.\n  "
+    }
+  },
+  "paused": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/paused",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/paused\">paused</a>",
+      "text": "paused"
+    },
+    "description": {
+      "html": "\n    <p>Returns a boolean that indicates whether the media element is paused.</p>\n  ",
+      "text": "\n    Returns a boolean that indicates whether the media element is paused.\n  "
+    }
+  },
+  "playbackRate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/playbackRate\">playbackRate</a>",
+      "text": "playbackRate"
+    },
+    "description": {
+      "html": "\n    <p>A <code>double</code> that indicates the rate at which the media is being played back.</p>\n  ",
+      "text": "\n    A double that indicates the rate at which the media is being played back.\n  "
+    }
+  },
+  "played": {
+    "status": "standard",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">played</a>",
+      "text": "played"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges\"><code>TimeRanges</code></a> object that contains the ranges of the media source that the browser has played, if any.</p>\n  ",
+      "text": "\n    Returns a TimeRanges object that contains the ranges of the media source that the browser has played, if any.\n  "
+    }
+  },
+  "preload": {
+    "status": "standard",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">preload</a>",
+      "text": "preload"
+    },
+    "description": {
+      "html": "\n    <p>A string that reflects the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-preload\"><code>preload</code></a> HTML attribute, indicating what data should be preloaded, if any. Possible values are: <code>none</code>, <code>metadata</code>, <code>auto</code>.</p>\n  ",
+      "text": "\n    A string that reflects the preload HTML attribute, indicating what data should be preloaded, if any. Possible values are: none, metadata, auto.\n  "
+    }
+  },
+  "preservesPitch": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/preservesPitch",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/preservesPitch\">preservesPitch</a>",
+      "text": "preservesPitch"
+    },
+    "description": {
+      "html": "\n    <p>A boolean value that determines if the pitch of the sound will be preserved. If set to <code>false</code>, the pitch will adjust to the speed of the audio.</p>\n  ",
+      "text": "\n    A boolean value that determines if the pitch of the sound will be preserved. If set to false, the pitch will adjust to the speed of the audio.\n  "
+    }
+  },
+  "readyState": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/readyState",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/readyState\">readyState</a>",
+      "text": "readyState"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <code>unsigned short</code> (enumeration) indicating the readiness state of the media.</p>\n  ",
+      "text": "\n    Returns a unsigned short (enumeration) indicating the readiness state of the media.\n  "
+    }
+  },
+  "seekable": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekable",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekable\">seekable</a>",
+      "text": "seekable"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TimeRanges\"><code>TimeRanges</code></a> object that contains the time ranges that the user is able to seek to, if any.</p>\n  ",
+      "text": "\n    Returns a TimeRanges object that contains the time ranges that the user is able to seek to, if any.\n  "
+    }
+  },
+  "seeking": {
+    "status": "standard",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">seeking</a>",
+      "text": "seeking"
+    },
+    "description": {
+      "html": "\n    <p>Returns a boolean that indicates whether the media is in the process of seeking to a new position.</p>\n  ",
+      "text": "\n    Returns a boolean that indicates whether the media is in the process of seeking to a new position.\n  "
+    }
+  },
+  "sinkId": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/sinkId",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/sinkId\">sinkId</a>",
+      "text": "sinkId"
+    },
+    "description": {
+      "html": "\n    <p>Returns a string that is the unique ID of the audio device delivering output, or an empty string if it is using the user agent default. This ID should be one of the <code>MediaDeviceInfo.deviceid</code> values returned from <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/enumerateDevices\"><code>MediaDevices.enumerateDevices()</code></a>, <code>id-multimedia</code>, or <code>id-communications</code>.</p>\n  ",
+      "text": "\n    Returns a string that is the unique ID of the audio device delivering output, or an empty string if it is using the user agent default. This ID should be one of the MediaDeviceInfo.deviceid values returned from MediaDevices.enumerateDevices(), id-multimedia, or id-communications.\n  "
+    }
+  },
+  "src": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/src",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/src\">src</a>",
+      "text": "src"
+    },
+    "description": {
+      "html": "\n    <p>A string that reflects the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-src\"><code>src</code></a> HTML attribute, which contains the URL of a media resource to use.</p>\n  ",
+      "text": "\n    A string that reflects the src HTML attribute, which contains the URL of a media resource to use.\n  "
+    }
+  },
+  "srcObject": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/srcObject",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/srcObject\">srcObject</a>",
+      "text": "srcObject"
+    },
+    "description": {
+      "html": "\n    <p>A <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaStream\"><code>MediaStream</code></a> representing the media to play or that has played in the current <code>HTMLMediaElement</code>, or <code>null</code> if not assigned.</p>\n  ",
+      "text": "\n    A MediaStream representing the media to play or that has played in the current HTMLMediaElement, or null if not assigned.\n  "
+    }
+  },
+  "textTracks": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/textTracks",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/textTracks\">textTracks</a>",
+      "text": "textTracks"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TextTrackList\"><code>TextTrackList</code></a> object containing the list of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TextTrack\"><code>TextTrack</code></a> objects contained in the element.</p>\n  ",
+      "text": "\n    Returns a TextTrackList object containing the list of TextTrack objects contained in the element.\n  "
+    }
+  },
+  "videoTracks": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/videoTracks",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/videoTracks\">videoTracks</a>",
+      "text": "videoTracks"
+    },
+    "description": {
+      "html": "\n    <p>Returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList\"><code>VideoTrackList</code></a> object containing the list of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/VideoTrack\"><code>VideoTrack</code></a> objects contained in the element.</p>\n  ",
+      "text": "\n    Returns a VideoTrackList object containing the list of VideoTrack objects contained in the element.\n  "
+    }
+  },
+  "volume": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volume",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/volume\">volume</a>",
+      "text": "volume"
+    },
+    "description": {
+      "html": "\n    <p>A <code>double</code> indicating the audio volume, from 0.0 (silent) to 1.0 (loudest).</p>\n  ",
+      "text": "\n    A double indicating the audio volume, from 0.0 (silent) to 1.0 (loudest).\n  "
+    }
+  },
+  "onencrypted": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement\">onencrypted</a>",
+      "text": "onencrypted"
+    },
+    "description": {
+      "html": "\n    <p>Sets the event handler called when the media is encrypted.</p>\n  ",
+      "text": "\n    Sets the event handler called when the media is encrypted.\n  "
+    }
+  },
+  "onwaitingforkey": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement\">onwaitingforkey</a>",
+      "text": "onwaitingforkey"
+    },
+    "description": {
+      "html": "\n    <p>Sets the event handler called when playback is blocked while waiting for an encryption key.</p>\n  ",
+      "text": "\n    Sets the event handler called when playback is blocked while waiting for an encryption key.\n  "
+    }
+  },
+  "controller": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controller",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/controller\">controller</a>",
+      "text": "controller"
+    },
+    "description": {
+      "html": "\n    <p>A <a class=\"page-not-created\" title=\"The documentation about this has not yet been written; please consider contributing!\"><code>MediaController</code></a> object that represents the media controller assigned to the element, or <code>null</code> if none is assigned.</p>\n  ",
+      "text": "\n    A MediaController object that represents the media controller assigned to the element, or null if none is assigned.\n  "
+    }
+  },
+  "mediaGroup": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/mediaGroup",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/mediaGroup\">mediaGroup</a>",
+      "text": "mediaGroup"
+    },
+    "description": {
+      "html": "\n    <p>A string that reflects the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-mediagroup\"><code>mediagroup</code></a> HTML attribute, which indicates the name of the group of elements it belongs to. A group of media elements shares a common <a class=\"page-not-created\" title=\"The documentation about this has not yet been written; please consider contributing!\"><code>MediaController</code></a>.</p>\n  ",
+      "text": "\n    A string that reflects the mediagroup HTML attribute, which indicates the name of the group of elements it belongs to. A group of media elements shares a common MediaController.\n  "
+    }
+  },
+  "mozAudioCaptured": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">mozAudioCaptured</a>",
+      "text": "mozAudioCaptured"
+    },
+    "description": {
+      "html": "\n    <p>Returns a boolean. Related to audio stream capture.</p>\n  ",
+      "text": "\n    Returns a boolean. Related to audio stream capture.\n  "
+    }
+  },
+  "mozFragmentEnd": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">mozFragmentEnd</a>",
+      "text": "mozFragmentEnd"
+    },
+    "description": {
+      "html": "\n    <p>A <code>double</code> that provides access to the fragment end time if the media element has a fragment URI for <code>currentSrc</code>, otherwise it is equal to the media duration.</p>\n  ",
+      "text": "\n    A double that provides access to the fragment end time if the media element has a fragment URI for currentSrc, otherwise it is equal to the media duration.\n  "
+    }
+  },
+  "addTextTrack": {
+    "status": "standard",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">addTextTrack()</a>",
+      "text": "addTextTrack()"
+    },
+    "description": {
+      "html": "\n    <p>Adds a new <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/TextTrack\"><code>TextTrack</code></a> object (such as a track for subtitles) to a media element. This is a programmatic interface only and does not affect the DOM.</p>\n  ",
+      "text": "\n    Adds a new TextTrack object (such as a track for subtitles) to a media element. This is a programmatic interface only and does not affect the DOM.\n  "
+    }
+  },
+  "captureStream": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/captureStream",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/captureStream\">captureStream()</a>",
+      "text": "captureStream()"
+    },
+    "description": {
+      "html": "\n    <p>Returns <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaStream\"><code>MediaStream</code></a>, captures a stream of the media content.</p>\n  ",
+      "text": "\n    Returns MediaStream, captures a stream of the media content.\n  "
+    }
+  },
+  "canPlayType": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canPlayType",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/canPlayType\">canPlayType()</a>",
+      "text": "canPlayType()"
+    },
+    "description": {
+      "html": "\n    <p>Given a string specifying a MIME media type (potentially with the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Media/Formats/codecs_parameter\"><code>codecs</code> parameter</a> included), <code>canPlayType()</code> returns the string <code>probably</code> if the media should be playable, <code>maybe</code> if there&apos;s not enough information to determine whether the media will play or not, or an empty string if the media cannot be played.</p>\n  ",
+      "text": "\n    Given a string specifying a MIME media type (potentially with the codecs parameter included), canPlayType() returns the string probably if the media should be playable, maybe if there's not enough information to determine whether the media will play or not, or an empty string if the media cannot be played.\n  "
+    }
+  },
+  "fastSeek": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/fastSeek",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/fastSeek\">fastSeek()</a>",
+      "text": "fastSeek()"
+    },
+    "description": {
+      "html": "\n    <p>Quickly seeks to the given time with low precision.</p>\n  ",
+      "text": "\n    Quickly seeks to the given time with low precision.\n  "
+    }
+  },
+  "load": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/load",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/load\">load()</a>",
+      "text": "load()"
+    },
+    "description": {
+      "html": "\n    <p>Resets the media to the beginning and selects the best available source from the sources provided using the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#attr-src\"><code>src</code></a> attribute or the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source\"><code>&lt;source&gt;</code></a> element.</p>\n  ",
+      "text": "\n    Resets the media to the beginning and selects the best available source from the sources provided using the src attribute or the <source> element.\n  "
+    }
+  },
+  "pause": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause\">pause()</a>",
+      "text": "pause()"
+    },
+    "description": {
+      "html": "\n    <p>Pauses the media playback.</p>\n  ",
+      "text": "\n    Pauses the media playback.\n  "
+    }
+  },
+  "play": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/play\">play()</a>",
+      "text": "play()"
+    },
+    "description": {
+      "html": "\n    <p>Begins playback of the media.</p>\n  ",
+      "text": "\n    Begins playback of the media.\n  "
+    }
+  },
+  "seekToNextFrame": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekToNextFrame",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/seekToNextFrame\">seekToNextFrame()</a>",
+      "text": "seekToNextFrame()"
+    },
+    "description": {
+      "html": "\n    <p>Seeks to the next frame in the media. This non-standard, experimental method makes it possible to manually drive reading and rendering of media at a custom speed, or to move through the media frame-by-frame to perform filtering or other operations.</p>\n  ",
+      "text": "\n    Seeks to the next frame in the media. This non-standard, experimental method makes it possible to manually drive reading and rendering of media at a custom speed, or to move through the media frame-by-frame to perform filtering or other operations.\n  "
+    }
+  },
+  "setMediaKeys": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/setMediaKeys",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/setMediaKeys\">setMediaKeys()</a>",
+      "text": "setMediaKeys()"
+    },
+    "description": {
+      "html": "\n    <p>Returns <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a>. Sets the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaKeys\"><code>MediaKeys</code></a> keys to use when decrypting media during playback.</p>\n  ",
+      "text": "\n    Returns Promise. Sets the MediaKeys keys to use when decrypting media during playback.\n  "
+    }
+  },
+  "setSinkId": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/setSinkId",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/setSinkId\">setSinkId()</a>",
+      "text": "setSinkId()"
+    },
+    "description": {
+      "html": "\n    <p>Sets the ID of the audio device to use for output and returns a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\"><code>Promise</code></a>. This only works when the application is authorized to use the specified device.</p>\n  ",
+      "text": "\n    Sets the ID of the audio device to use for output and returns a Promise. This only works when the application is authorized to use the specified device.\n  "
+    }
+  },
+  "mozCaptureStream": {
+    "status": "non-standard",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">mozCaptureStream()</a>",
+      "text": "mozCaptureStream()"
+    },
+    "description": {
+      "html": "\n    <p>[enter description]</p>\n  ",
+      "text": "\n    [enter description]\n  "
+    }
+  },
+  "mozCaptureStreamUntilEnded": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">mozCaptureStreamUntilEnded()</a>",
+      "text": "mozCaptureStreamUntilEnded()"
+    },
+    "description": {
+      "html": "\n    <p>[enter description]</p>\n  ",
+      "text": "\n    [enter description]\n  "
+    }
+  },
+  "mozGetMetadata": {
+    "status": "obsolete",
+    "url": "https://developer.mozilla.orgundefined",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.orgundefined\">mozGetMetadata()</a>",
+      "text": "mozGetMetadata()"
+    },
+    "description": {
+      "html": "\n    <p>Returns <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object\"><code>Object</code></a>, which contains properties that represent metadata from the playing media resource as <code>{key: value}</code> pairs. A separate copy of the data is returned each time the method is called. This method must be called after the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadedmetadata_event\">loadedmetadata</a> event fires.</p>\n  ",
+      "text": "\n    Returns Object, which contains properties that represent metadata from the playing media resource as {key: value} pairs. A separate copy of the data is returned each time the method is called. This method must be called after the loadedmetadata event fires.\n  "
+    }
+  }
+}

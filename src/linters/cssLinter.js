@@ -25,8 +25,8 @@
 */
 
 const CSSTranslateError = require('./css-friendly-translator.js')
-const cssProps = require('../edu-data/css-properties.json')
-const htmlEles = require('../edu-data/html-elements.json')
+const cssProps = require('../edu-data/css/properties.json')
+const htmlEles = require('../edu-data/html/elements.json')
 const stylelint = require('stylelint-browser-bundle').default
 
 const CssSelectorParser = require('css-selector-parser').CssSelectorParser

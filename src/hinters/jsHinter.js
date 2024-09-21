@@ -1,34 +1,34 @@
 /* eslint-disable no-new-func */
-const jsRefs = require('../edu-data/js-refs.json')
-const jsEvents = require('../edu-data/js-events.json')
-const nnProps = require('../edu-data/custom/custom-nn.min.js')
+const jsRefs = require('../edu-data/js/refs.json')
+const jsEvents = require('../edu-data/js/events.json')
+const nnProps = require('../edu-data/custom/nn.min.js')
 const snippets = require('./customSnippets.js')
 
 const roots = {
-  document: require('../edu-data/js-document.json'),
-  Math: require('../edu-data/js-math.json'),
-  history: require('../edu-data/js-history.json'),
-  location: require('../edu-data/js-location.json'),
-  window: require('../edu-data/js-window.json'),
-  navigator: require('../edu-data/js-navigator.json')
+  document: require('../edu-data/js/document.json'),
+  Math: require('../edu-data/js/math.json'),
+  history: require('../edu-data/js/history.json'),
+  location: require('../edu-data/js/location.json'),
+  window: require('../edu-data/js/window.json'),
+  navigator: require('../edu-data/js/navigator.json')
 }
 
 const instances = {
-  jsNums: require('../edu-data/js-number.json'),
-  jsStrs: require('../edu-data/js-string.json'),
-  jsDate: require('../edu-data/js-date.json'),
-  jsArr: require('../edu-data/js-arrays.json'),
-  jsDOM: require('../edu-data/js-dom-node.json'),
-  jsEle: require('../edu-data/js-dom-element.json'),
-  jsHTML: require('../edu-data/js-html-element.json'),
-  jsTarg: require('../edu-data/js-dom-event-target.json'),
-  jsMedia: require('../edu-data/js-dom-media.json'),
-  jsCanv: require('../edu-data/js-dom-canvas.json'),
-  jsCtx: require('../edu-data/js-canvas2d.json')
+  jsNums: require('../edu-data/js/number.json'),
+  jsStrs: require('../edu-data/js/string.json'),
+  jsDate: require('../edu-data/js/date.json'),
+  jsArr: require('../edu-data/js/arrays.json'),
+  jsDOM: require('../edu-data/js/dom-node.json'),
+  jsEle: require('../edu-data/js/dom-element.json'),
+  jsHTML: require('../edu-data/js/html-element.json'),
+  jsTarg: require('../edu-data/js/dom-event-target.json'),
+  jsMedia: require('../edu-data/js/dom-media.json'),
+  jsCanv: require('../edu-data/js/dom-canvas.json'),
+  jsCtx: require('../edu-data/js/canvas2d.json')
 }
 
 // CSS properties for HTMLElement.style object
-const CSS = require('../edu-data/css-properties.json')
+const CSS = require('../edu-data/css/properties.json')
 const cssPropsList = []
 const camelCase = (input) => {
   return input.toLowerCase().replace(/-(.)/g, function (match, group1) {

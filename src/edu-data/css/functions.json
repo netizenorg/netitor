@@ -1,0 +1,638 @@
+{
+  "abs": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/abs",
+    "html": "Calculates the absolute value of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#sign-related_functions\" target=\"_blank\">sign-related function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the absolute value of a number. This is a type of sign-related function."
+  },
+  "acos": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/acos",
+    "html": "Calculates the trigonometric inverse cosine of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#trigonometric_functions\" target=\"_blank\">trigonometric function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the trigonometric inverse cosine of a number. This is a type of trigonometric function."
+  },
+  "anchor": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/anchor",
+    "html": "Returns a length relative to the position of the edges of an anchor-positioned element's associated anchor element. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#anchor_positioning_functions\" target=\"_blank\">anchor function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Returns a length relative to the position of the edges of an anchor-positioned element's associated anchor element. This is a type of anchor function."
+  },
+  "anchor-size": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/anchor-size",
+    "html": "Returns a length relative to the size of the associated anchor element. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#anchor_positioning_functions\" target=\"_blank\">anchor function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Returns a length relative to the size of the associated anchor element. This is a type of anchor function."
+  },
+  "annotation": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/font-variant-alternates#annotation",
+    "html": "Enables annotations such as circled digits or inverted characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value <code>nalt</code>, such as <code>nalt 2</code>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#font_functions\" target=\"_blank\">font function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Enables annotations such as circled digits or inverted characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value nalt, such as nalt 2. This is a type of font function."
+  },
+  "asin": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/asin",
+    "html": "Calculates the trigonometric inverse sine of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#trigonometric_functions\" target=\"_blank\">trigonometric function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the trigonometric inverse sine of a number. This is a type of trigonometric function."
+  },
+  "atan": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/atan",
+    "html": "Calculates the trigonometric inverse tangent of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#trigonometric_functions\" target=\"_blank\">trigonometric function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the trigonometric inverse tangent of a number. This is a type of trigonometric function."
+  },
+  "atan2": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/atan2",
+    "html": "Calculates the trigonometric inverse tangent of two-numbers in a plane. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#trigonometric_functions\" target=\"_blank\">trigonometric function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the trigonometric inverse tangent of two-numbers in a plane. This is a type of trigonometric function."
+  },
+  "attr": {
+    "status": "experimental",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/attr",
+    "html": "The <strong><code>attr()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function is used to retrieve the value of an attribute of the selected element and use it in the stylesheet. It can also be used on <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements\">pseudo-elements</a>, in which case the value of the attribute on the pseudo-element's originating element is returned. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The attr() CSS function is used to retrieve the value of an attribute of the selected element and use it in the stylesheet. It can also be used on pseudo-elements, in which case the value of the attribute on the pseudo-element's originating element is returned."
+  },
+  "blur": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/blur",
+    "html": "Increases the image gaussian blur. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Increases the image gaussian blur. This is a type of filter function."
+  },
+  "brightness": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/brightness",
+    "html": "Brightens or darkens an image. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Brightens or darkens an image. This is a type of filter function."
+  },
+  "calc": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/calc",
+    "html": "The <strong><code>calc()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function lets you perform calculations when specifying CSS property values. It can be used anywhere a <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\" title=\"The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.\">\"length\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\" title=\"The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.\">\"frequency\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" title=\"The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions.\">\"angle\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\" title=\"The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.\">\"time\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\" title=\"The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.\">\"percentage\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\" title=\"The <number> CSS data type represents a number, being either an integer or a number with a fractional component.\">\"number\"</a>, or <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\" title=\"The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.\">\"integer\"</a> is allowed. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The calc() CSS function lets you perform calculations when specifying CSS property values. It can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed."
+  },
+  "character-variant": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/font-variant-alternates#character-variant",
+    "html": "Enables specific stylistic alternatives for characters. It is similar to <code>styleset()</code>, but doesn't create coherent glyphs for a set of characters; individual characters will have independent and not necessarily coherent styles. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value <code>cvXY</code>, such as <code>cv02</code>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#font_functions\" target=\"_blank\">font function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Enables specific stylistic alternatives for characters. It is similar to styleset(), but doesn't create coherent glyphs for a set of characters; individual characters will have independent and not necessarily coherent styles. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value cvXY, such as cv02. This is a type of font function."
+  },
+  "circle": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/basic-shape/circle",
+    "html": "Defines a circle shape. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#shape_functions\" target=\"_blank\">shape function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a circle shape. This is a type of shape function."
+  },
+  "clamp": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/clamp",
+    "html": "The <strong><code>clamp()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function clamps a value between an upper and lower bound. <code>clamp()</code> enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. The <code>clamp()</code> function can be used anywhere a <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\" title=\"The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.\">\"length\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\" title=\"The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.\">\"frequency\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" title=\"The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions.\">\"angle\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\" title=\"The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.\">\"time\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\" title=\"The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.\">\"percentage\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\" title=\"The <number> CSS data type represents a number, being either an integer or a number with a fractional component.\">\"number\"</a>, or <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\" title=\"The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.\">\"integer\"</a> is allowed. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The clamp() CSS function clamps a value between an upper and lower bound. clamp() enables selecting a middle value within a range of values between a defined minimum and maximum. It takes three parameters: a minimum value, a preferred value, and a maximum allowed value. The clamp() function can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed."
+  },
+  "color": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/color",
+    "html": "Specifies a particular, specified colorspace rather than the implicit sRGB colorspace. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Specifies a particular, specified colorspace rather than the implicit sRGB colorspace. This is a type of color function."
+  },
+  "color-contrast": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/color-contrast",
+    "html": "Selects the highest color contrast from a list of colors, compare to a base color value. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Selects the highest color contrast from a list of colors, compare to a base color value. This is a type of color function."
+  },
+  "color-mix": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/color-mix",
+    "html": "Mixes two color values in a given colorspace by a given amount. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Mixes two color values in a given colorspace by a given amount. This is a type of color function."
+  },
+  "conic-gradient": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/conic-gradient()",
+    "html": "The <strong><code>conic-gradient()</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions\">function</a> creates an image consisting of a gradient with color transitions rotated around a center point (rather than radiating from the center). Example conic gradients include pie charts and color wheels. The result of the <code>conic-gradient()</code> function is an object of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/gradient\"><b>&lt;gradient&gt;</b></a> data type, which is a special kind of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/image\"><b>&lt;image&gt;</b></a>. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The conic-gradient() CSS function creates an image consisting of a gradient with color transitions rotated around a center point (rather than radiating from the center). Example conic gradients include pie charts and color wheels. The result of the conic-gradient() function is an object of the gradient data type, which is a special kind of image."
+  },
+  "contrast": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/contrast",
+    "html": "Increases or decreases the image contrast. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Increases or decreases the image contrast. This is a type of filter function."
+  },
+  "cos": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/cos",
+    "html": "Calculates the trigonometric cosine of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#trigonometric_functions\" target=\"_blank\">trigonometric function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the trigonometric cosine of a number. This is a type of trigonometric function."
+  },
+  "counter": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/counter",
+    "html": "Returns a string representing the current value of the named counter if there is one. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#counter_functions\" target=\"_blank\">counter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Returns a string representing the current value of the named counter if there is one. This is a type of counter function."
+  },
+  "counters": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/counters",
+    "html": "Enables nested counters, returning a concatenated string representing the current values of the named counters, if there are any. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#counter_functions\" target=\"_blank\">counter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Enables nested counters, returning a concatenated string representing the current values of the named counters, if there are any. This is a type of counter function."
+  },
+  "cross-fade": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/cross-fade",
+    "html": "Blends two or more images at a defined transparency. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#image_functions_2\" target=\"_blank\">image function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Blends two or more images at a defined transparency. This is a type of image function."
+  },
+  "cubic-bezier": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/easing-function#cubic_b%C3%A9zier_easing_function",
+    "html": "Easing function that defines a cubic Bézier curve. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#easing_functions\" target=\"_blank\">easing function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Easing function that defines a cubic Bézier curve. This is a type of easing function."
+  },
+  "device-cmyk": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/device-cmyk",
+    "html": "Defines CMYK colors in a device-dependent way. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines CMYK colors in a device-dependent way. This is a type of color function."
+  },
+  "drop-shadow": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/drop-shadow",
+    "html": "Applies a drop shadow behind an image. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Applies a drop shadow behind an image. This is a type of filter function."
+  },
+  "element": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/element",
+    "html": "Defines an <a href=\"/en-US/docs/Web/CSS/image\"><code>&lt;image&gt;</code></a> value generated from an arbitrary HTML element. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#image_functions_2\" target=\"_blank\">image function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines an <image> value generated from an arbitrary HTML element. This is a type of image function."
+  },
+  "ellipse": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/basic-shape/ellipse",
+    "html": "Defines an ellipse shape. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#shape_functions\" target=\"_blank\">shape function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines an ellipse shape. This is a type of shape function."
+  },
+  "env": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/env",
+    "html": "Uses the user-agent defined as environment variable. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#reference_functions\" target=\"_blank\">reference function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Uses the user-agent defined as environment variable. This is a type of reference function."
+  },
+  "exp": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/exp",
+    "html": "Calculates <code>e</code> raised to the power of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#exponential_functions\" target=\"_blank\">exponential function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates e raised to the power of a number. This is a type of exponential function."
+  },
+  "fit-content": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/fit-content_function",
+    "html": "Clamps a given size to an available size according to the formula <code>min(maximum size, max(minimum size, argument))</code>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#grid_functions\" target=\"_blank\">grid function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Clamps a given size to an available size according to the formula min(maximum size, max(minimum size, argument)). This is a type of grid function."
+  },
+  "grayscale": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/grayscale",
+    "html": "Converts an image to grayscale. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Converts an image to grayscale. This is a type of filter function."
+  },
+  "hsl": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/hsl",
+    "html": "Defines a given color according to its hue, saturation, lightness and alpha (transparency) components. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a given color according to its hue, saturation, lightness and alpha (transparency) components. This is a type of color function."
+  },
+  "hue-rotate": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/hue-rotate",
+    "html": "Changes the overall hue of an image. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Changes the overall hue of an image. This is a type of filter function."
+  },
+  "hwb": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/hwb",
+    "html": "Defines a given color according to its hue, whiteness and blackness components. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a given color according to its hue, whiteness and blackness components. This is a type of color function."
+  },
+  "hypot": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/hypot",
+    "html": "Calculates the square root of the sum of the squares of its arguments. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#exponential_functions\" target=\"_blank\">exponential function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the square root of the sum of the squares of its arguments. This is a type of exponential function."
+  },
+  "image": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/image/image",
+    "html": "Defines an <a href=\"/en-US/docs/Web/CSS/image\"><code>&lt;image&gt;</code></a> in a similar fashion to the <a href=\"/en-US/docs/Web/CSS/url_value\"><code>&lt;url&gt;</code></a> type, but with added functionality including specifying the image's directionality and fallback images for when the preferred image is not supported. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#image_functions_2\" target=\"_blank\">image function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines an <image> in a similar fashion to the <url> type, but with added functionality including specifying the image's directionality and fallback images for when the preferred image is not supported. This is a type of image function."
+  },
+  "image-set": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/image/image-set",
+    "html": "Picks the most appropriate CSS image from a given set, primarily for high pixel density screens. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#image_functions_2\" target=\"_blank\">image function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Picks the most appropriate CSS image from a given set, primarily for high pixel density screens. This is a type of image function."
+  },
+  "inset": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/basic-shape/inset",
+    "html": "Defines an inset rectangle shape. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#shape_functions\" target=\"_blank\">shape function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines an inset rectangle shape. This is a type of shape function."
+  },
+  "invert": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/invert",
+    "html": "Inverts the colors of an image. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Inverts the colors of an image. This is a type of filter function."
+  },
+  "lab": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/lab",
+    "html": "Defines a given color according to its lightness, a-axis distance and b-axis distance in the lab colorspace. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a given color according to its lightness, a-axis distance and b-axis distance in the lab colorspace. This is a type of color function."
+  },
+  "lch": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/lch",
+    "html": "Defines a given color according to its lightness, chroma and hue components. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a given color according to its lightness, chroma and hue components. This is a type of color function."
+  },
+  "light-dark": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/light-dark",
+    "html": "Returns one of two provided colors based on the current color scheme. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Returns one of two provided colors based on the current color scheme. This is a type of color function."
+  },
+  "linear": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/easing-function#linear_easing_function",
+    "html": "Easing function that interpolates linearly between its points. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#easing_functions\" target=\"_blank\">easing function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Easing function that interpolates linearly between its points. This is a type of easing function."
+  },
+  "linear-gradient": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/linear-gradient()",
+    "html": "The <strong><code>linear-gradient()</code></strong> <a target=\"_blank\" href=\"/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions\">function</a> creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/gradient\"><b>gradient</b></a> data type, which is a special kind of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/image\"><b>image</b></a>. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The linear-gradient() CSS function creates an image consisting of a progressive transition between two or more colors along a straight line. Its result is an object of the gradient data type, which is a special kind of image."
+  },
+  "log": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/log",
+    "html": "Calculates the logarithm of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#exponential_functions\" target=\"_blank\">exponential function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the logarithm of a number. This is a type of exponential function."
+  },
+  "matrix": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/matrix",
+    "html": "Describes a homogeneous 2D transformation matrix. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Describes a homogeneous 2D transformation matrix."
+  },
+  "matrix3d": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/matrix3d",
+    "html": "Describes a 3D transformation as a 4×4 homogeneous matrix. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Describes a 3D transformation as a 4×4 homogeneous matrix."
+  },
+  "max": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/max",
+    "html": "The <strong><code>max()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function lets you set the largest (most positive) value from a list of comma-separated expressions as the value of a CSS property value. The <code>max()</code> function can be used anywhere a <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\" title=\"The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.\">\"length\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\" title=\"The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.\">\"frequency\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" title=\"The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions.\">\"angle\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\" title=\"The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.\">\"time\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\" title=\"The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.\">\"percentage\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\" title=\"The <number> CSS data type represents a number, being either an integer or a number with a fractional component.\">\"number\"</a>, or <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\" title=\"The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.\">\"integer\"</a> is allowed. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The max() CSS function lets you set the largest (most positive) value from a list of comma-separated expressions as the value of a CSS property value. The max() function can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed."
+  },
+  "min": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/min",
+    "html": "The <strong><code>min()</code></strong> <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function lets you set the smallest (most negative) value from a list of comma-separated expressions as the value of a CSS property value. The <code>min()</code> function can be used anywhere a <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/length\" title=\"The <length> CSS data type represents a distance value. Lengths can be used in numerous CSS properties, such as width, height, margin, padding, border-width, font-size, and text-shadow.\">\"length\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/frequency\" title=\"The <frequency> CSS data type represents a frequency dimension, such as the pitch of a speaking voice. It is not currently used in any CSS properties.\">\"frequency\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" title=\"The <angle> CSS data type represents an angle value expressed in degrees, gradians, radians, or turns. It is used, for example, in <gradient>s and in some transform functions.\">\"angle\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/time\" title=\"The <time> CSS data type represents a time value expressed in seconds or milliseconds. It is used in animation, transition, and related properties.\">\"time\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/percentage\" title=\"The <percentage> CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size.\">\"percentage\"</a>, <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/number\" title=\"The <number> CSS data type represents a number, being either an integer or a number with a fractional component.\">\"number\"</a>, or <a target =\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/integer\" title=\"The <integer> CSS data type is a special type of <number> that represents a whole number, whether positive or negative. Integers can be used in numerous CSS properties, such as column-count, counter-increment, grid-column, grid-row, and z-index.\">\"integer\"</a> is allowed. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The min() CSS function lets you set the smallest (most negative) value from a list of comma-separated expressions as the value of a CSS property value. The min() function can be used anywhere a <length>, <frequency>, <angle>, <time>, <percentage>, <number>, or <integer> is allowed."
+  },
+  "minmax": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/minmax",
+    "html": "Defines a size range greater-than or equal-to <em>min</em> and less-than or equal-to <em>max</em>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#grid_functions\" target=\"_blank\">grid function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a size range greater-than or equal-to min and less-than or equal-to max. This is a type of grid function."
+  },
+  "mod": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/mod",
+    "html": "Calculates a modulus (with the same sign as the divisor) when dividing one number by another. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#stepped_value_functions\" target=\"_blank\">stepped function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates a modulus (with the same sign as the divisor) when dividing one number by another. This is a type of stepped function."
+  },
+  "oklab": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/oklab",
+    "html": "Defines a given color according to its lightness, a-axis distance, b-axis distance in the lab colorspace and alpha (transparency). This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a given color according to its lightness, a-axis distance, b-axis distance in the lab colorspace and alpha (transparency). This is a type of color function."
+  },
+  "oklch": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/oklch",
+    "html": "Defines a given color according to its lightness, chroma, hue and alpha (transparency) components. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a given color according to its lightness, chroma, hue and alpha (transparency) components. This is a type of color function."
+  },
+  "opacity": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/opacity",
+    "html": "Adds transparency to an image. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Adds transparency to an image. This is a type of filter function."
+  },
+  "ornaments": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/font-variant-alternates#ornaments",
+    "html": "Enables ornaments such as <a href=\"https://en.wikipedia.org/wiki/Fleuron_%28typography%29\" class=\"external\" target=\"_blank\">fleurons</a> and other dingbat glyphs. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value <code>ornm</code>, such as <code>ornm 2</code>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#font_functions\" target=\"_blank\">font function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Enables ornaments such as fleurons and other dingbat glyphs. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value ornm, such as ornm 2. This is a type of font function."
+  },
+  "paint": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/image/paint",
+    "html": "Defines an <a href=\"/en-US/docs/Web/CSS/image\"><code>&lt;image&gt;</code></a> value generated with a PaintWorklet. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#image_functions_2\" target=\"_blank\">image function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines an <image> value generated with a PaintWorklet. This is a type of image function."
+  },
+  "path": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/basic-shape/path",
+    "html": "Accepts an SVG path string to enable a shape to be drawn. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#shape_functions\" target=\"_blank\">shape function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Accepts an SVG path string to enable a shape to be drawn. This is a type of shape function."
+  },
+  "perspective": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/perspective",
+    "html": "Sets the distance between the user and the z=0 plane. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Sets the distance between the user and the z=0 plane."
+  },
+  "polygon": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/basic-shape/polygon",
+    "html": "Defines a polygon shape. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#shape_functions\" target=\"_blank\">shape function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a polygon shape. This is a type of shape function."
+  },
+  "pow": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/pow",
+    "html": "Calculates the base raised to the power of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#exponential_functions\" target=\"_blank\">exponential function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the base raised to the power of a number. This is a type of exponential function."
+  },
+  "radial-gradient": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient/radial-gradient()",
+    "html": "The <strong><code>radial-gradient()</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions\">function</a> creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/gradient\"><b>&lt;gradient&gt;</b></a> data type, which is a special kind of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/image\"><b>&lt;image&gt;</b></a>. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The radial-gradient() CSS function creates an image consisting of a progressive transition between two or more colors that radiate from an origin. Its shape may be a circle or an ellipse. The function's result is an object of the gradient data type, which is a special kind of image"
+  },
+  "rect": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/basic-shape/rect",
+    "html": "Defines a rectangle shape using the distances from the top and left edges of the reference box. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#shape_functions\" target=\"_blank\">shape function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a rectangle shape using the distances from the top and left edges of the reference box. This is a type of shape function."
+  },
+  "rem": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/rem",
+    "html": "Calculates a remainder (with the same sign as the dividend) when dividing one number by another. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#stepped_value_functions\" target=\"_blank\">stepped function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates a remainder (with the same sign as the dividend) when dividing one number by another. This is a type of stepped function."
+  },
+  "repeat": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/repeat",
+    "html": "Represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#grid_functions\" target=\"_blank\">grid function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Represents a repeated fragment of the track list, allowing a large number of columns or rows that exhibit a recurring pattern. This is a type of grid function."
+  },
+  "repeating-conic-gradient": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/gradient/repeating-conic-gradient",
+    "html": "Is similar to <code>conic-gradient()</code> and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#gradient_functions\" target=\"_blank\">gradient function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Is similar to conic-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. This is a type of gradient function."
+  },
+  "repeating-linear-gradient": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/gradient/repeating-linear-gradient",
+    "html": "Is similar to <code>linear-gradient()</code> and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#gradient_functions\" target=\"_blank\">gradient function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Is similar to linear-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. This is a type of gradient function."
+  },
+  "repeating-radial-gradient": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/gradient/repeating-radial-gradient",
+    "html": "Is similar to <code>radial-gradient()</code> and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#gradient_functions\" target=\"_blank\">gradient function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Is similar to radial-gradient() and takes the same arguments, but it repeats the color stops infinitely in all directions so as to cover its entire container. This is a type of gradient function."
+  },
+  "rgb": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/color_value/rgb",
+    "html": "Defines a given color according to its red, green, blue and alpha (transparency) components. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#color_functions\" target=\"_blank\">color function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a given color according to its red, green, blue and alpha (transparency) components. This is a type of color function."
+  },
+  "rotate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotate",
+    "html": "Rotates an element around a fixed point on the 2D plane. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Rotates an element around a fixed point on the 2D plane."
+  },
+  "rotate3d": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotate3d",
+    "html": "Rotates an element around a fixed axis in 3D space. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Rotates an element around a fixed axis in 3D space."
+  },
+  "rotateX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotateX",
+    "html": "Rotates an element around the horizontal axis. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Rotates an element around the horizontal axis."
+  },
+  "rotateY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotateY",
+    "html": "Rotates an element around the vertical axis. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Rotates an element around the vertical axis."
+  },
+  "rotateZ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/rotateZ",
+    "html": "Rotates an element around the z-axis. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Rotates an element around the z-axis."
+  },
+  "round": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/round",
+    "html": "Calculates a rounded number based on a rounding strategy. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#stepped_value_functions\" target=\"_blank\">stepped function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates a rounded number based on a rounding strategy. This is a type of stepped function."
+  },
+  "saturate": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/saturate",
+    "html": "Changes the overall saturation of an image. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Changes the overall saturation of an image. This is a type of filter function."
+  },
+  "scale": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scale",
+    "html": "Scales an element up or down on the 2D plane. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Scales an element up or down on the 2D plane."
+  },
+  "scale3d": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scale3d",
+    "html": "Scales an element up or down in 3D space. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Scales an element up or down in 3D space."
+  },
+  "scaleX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scaleX",
+    "html": "Scales an element up or down horizontally. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Scales an element up or down horizontally."
+  },
+  "scaleY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scaleY",
+    "html": "Scales an element up or down vertically. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Scales an element up or down vertically."
+  },
+  "scaleZ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/scaleZ",
+    "html": "Scales an element up or down along the z-axis. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Scales an element up or down along the z-axis."
+  },
+  "scroll": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/animation-timeline/scroll",
+    "html": "Sets the <a href=\"/en-US/docs/Web/CSS/animation-timeline\"><code>animation-timeline</code></a> of an element to an <em>anonymous scroll progress timeline</em>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#animation_functions\" target=\"_blank\">animation function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Sets the animation-timeline of an element to an anonymous scroll progress timeline. This is a type of animation function."
+  },
+  "sepia": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/filter-function/sepia",
+    "html": "Increases the sepia of an image. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#filter_functions\" target=\"_blank\">filter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Increases the sepia of an image. This is a type of filter function."
+  },
+  "shape": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/basic-shape/shape",
+    "html": "Accepts a comma-separated list of commands defining the shape to be drawn. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#shape_functions\" target=\"_blank\">shape function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Accepts a comma-separated list of commands defining the shape to be drawn. This is a type of shape function."
+  },
+  "sign": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/sign",
+    "html": "Calculates the sign (positive or negative) of the number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#sign-related_functions\" target=\"_blank\">sign-related function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the sign (positive or negative) of the number. This is a type of sign-related function."
+  },
+  "sin": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/sin",
+    "html": "Calculates the trigonometric sine of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#trigonometric_functions\" target=\"_blank\">trigonometric function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the trigonometric sine of a number. This is a type of trigonometric function."
+  },
+  "skew": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/skew",
+    "html": "Skews an element on the 2D plane. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Skews an element on the 2D plane."
+  },
+  "skewX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/skewX",
+    "html": "Skews an element in the horizontal direction. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Skews an element in the horizontal direction."
+  },
+  "skewY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/skewY",
+    "html": "Skews an element in the vertical direction. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Skews an element in the vertical direction."
+  },
+  "sqrt": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/sqrt",
+    "html": "Calculates the square root of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#exponential_functions\" target=\"_blank\">exponential function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the square root of a number. This is a type of exponential function."
+  },
+  "steps": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/easing-function#steps_easing_function",
+    "html": "Iteration along a specified number of stops along the transition, displaying each stop for equal lengths of time. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#easing_functions\" target=\"_blank\">easing function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Iteration along a specified number of stops along the transition, displaying each stop for equal lengths of time. This is a type of easing function."
+  },
+  "styleset": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/font-variant-alternates#styleset",
+    "html": "Enables stylistic alternatives for sets of characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value <code>ssXY</code>, such as <code>ss02</code>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#font_functions\" target=\"_blank\">font function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Enables stylistic alternatives for sets of characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value ssXY, such as ss02. This is a type of font function."
+  },
+  "stylistic": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/font-variant-alternates#stylistic",
+    "html": "Enables stylistic alternates for individual characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value <code>salt</code>, like <code>salt 2</code>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#font_functions\" target=\"_blank\">font function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Enables stylistic alternates for individual characters. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType value salt, like salt 2. This is a type of font function."
+  },
+  "swash": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/font-variant-alternates#swash",
+    "html": "Enables <a href=\"https://en.wikipedia.org/wiki/Swash_%28typography%29\" class=\"external\" target=\"_blank\">swash</a> glyphs. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType values <code>swsh</code> and <code>cswh</code>, such as <code>swsh 2</code> and <code>cswh 2</code>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#font_functions\" target=\"_blank\">font function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Enables swash glyphs. The parameter is a font-specific name mapped to a number. It corresponds to the OpenType values swsh and cswh, such as swsh 2 and cswh 2. This is a type of font function."
+  },
+  "symbols": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/symbols",
+    "html": "Defines the counter styles inline, directly as the value of a property. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#counter_functions\" target=\"_blank\">counter function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines the counter styles inline, directly as the value of a property. This is a type of counter function."
+  },
+  "tan": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/tan",
+    "html": "Calculates the trigonometric tangent of a number. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#trigonometric_functions\" target=\"_blank\">trigonometric function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Calculates the trigonometric tangent of a number. This is a type of trigonometric function."
+  },
+  "translate": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translate",
+    "html": "Translates an element on the 2D plane. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Translates an element on the 2D plane."
+  },
+  "translate3d": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translate3d",
+    "html": "Translates an element in 3D space. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Translates an element in 3D space."
+  },
+  "translateX": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translateX",
+    "html": "Translates an element horizontally. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Translates an element horizontally."
+  },
+  "translateY": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translateY",
+    "html": "Translates an element vertically. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Translates an element vertically."
+  },
+  "translateZ": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org//en-US/docs/Web/CSS/transform-function/translateZ",
+    "html": "Translates an element along the z-axis. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Translates an element along the z-axis."
+  },
+  "url": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/url_function",
+    "html": "The <strong><code>url()</code></strong> function is used to include external resources, like images or fonts, in your CSS. You just need to provide the link to the resource by providing a link to that asset. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#reference_functions\" target=\"_blank\">reference function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The url() function is used to include external resources, like images or fonts, in your CSS by providing a link to that asset."
+  },
+  "var": {
+    "status": "standard",
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/var",
+    "html": "The <strong><code>var()</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> function can be used to insert the value of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/--*\">custom property</a> (sometimes called a \"CSS variable\") instead of any part of a value of another property. Learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "The var() CSS function can be used to insert the value of a custom property (sometimes called a \"CSS variable\") instead of any part of a value of another property."
+  },
+  "view": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/animation-timeline/view",
+    "html": "Sets the <a href=\"/en-US/docs/Web/CSS/animation-timeline\"><code>animation-timeline</code></a> of an element to an <em>anonymous view progress timeline</em>. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#animation_functions\" target=\"_blank\">animation function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Sets the animation-timeline of an element to an anonymous view progress timeline. This is a type of animation function."
+  },
+  "xywh": {
+    "status": "standard",
+    "url": "/en-US/docs/Web/CSS/basic-shape/xywh",
+    "html": "Defines a rectangle shape using the specified distances from the top and left edges of the reference box and the rectangle width and height. This is a type of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Functions#shape_functions\" target=\"_blank\">shape function</a>, learn more in this <a href=\"https://css-tricks.com/complete-guide-to-css-functions/\" target=\"_blank\">CSS Functions Guide</a>.",
+    "text": "Defines a rectangle shape using the specified distances from the top and left edges of the reference box and the rectangle width and height. This is a type of shape function."
+  }
+}

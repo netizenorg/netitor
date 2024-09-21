@@ -1,4 +1,4 @@
-const htmlEles = require('../edu-data/html-elements.json')
+const htmlEles = require('../edu-data/html/elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 const HTMLStandards = require('./html-standards-validator.js')
 

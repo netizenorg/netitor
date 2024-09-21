@@ -9,11 +9,7 @@
     "prebuild": "npm run lint; npm run compile-css",
     "build": "browserify src/main.js > build/netitor.js",
     "postbuild": "terser build/netitor.js -cm -o build/netitor.min.js",
-    "watch": "nodemon --watch src --ignore src/css/*.js -x 'npm run build'",
-    "pull-modules": "git submodule update --init --recursive",
-    "update-modules": "git submodule update --remote --merge",
-    "eduscraper": "node eduscraper/index.js js-html-element src/edu-data",
-    "educustom": "node src/edu-data/custom/index.js"
+    "watch": "nodemon --watch src --ignore src/css/*.js -x 'npm run build'"
   },
   "author": "netizen.org <hi@netizen.org>",
   "license": "GPL-3.0",
