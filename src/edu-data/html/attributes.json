@@ -171,8 +171,8 @@
       "text": "<applet>, <area>, <img>, <input>"
     },
     "description": {
-      "html": "Alternative text in case an image can&apos;t be displayed.",
-      "text": "Alternative text in case an image can't be displayed."
+      "html": "The <code>alt</code> attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection or an error in the <code>src</code> attribute). If the user is using a screen reader (because they are visually impaired for example) the <code>alt</code> attribute is also used to provide a caption to read aloud. For these reasons it also helps improve your page's <a href=\"https://en.wikipedia.org/wiki/Search_engine_optimization\" target=\"_blank\">SEO</a>.",
+      "text": "The alt attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection or an error in the src attribute). If the user is using a screen reader (because they are visually impaired for example) the alt attribute is also used to provide a caption to read aloud. For these reasons it also helps improve your page's SEO."
     },
     "note": null
   },
@@ -2389,8 +2389,8 @@
       "text": "<audio>, <embed>, <iframe>, <img>, <input>, <script>, <source>, <track>, <video>"
     },
     "description": {
-      "html": "The URL of the embeddable content.",
-      "text": "The URL of the embeddable content."
+      "html": "The <code>src</code> attribute is used to embed content (other assets or even other web pages), by assigning a URL to another file's location as it's value.",
+      "text": "The src attribute is used to embed content (other assets or even other web pages), by assigning a URL to another file's location as it's value."
     },
     "note": null
   },
@@ -2577,8 +2577,8 @@
       "text": "<a>, <area>, <base>, <form>"
     },
     "description": {
-      "html": "Specifies where to open the linked document (in the case of an <code>&lt;a&gt;</code> element) or where to display the response recieved (in the case of a <code>&lt;form&gt;</code> element)",
-      "text": "Specifies where to open the linked document (in the case of an <a> element) or where to display the response recieved (in the case of a <form> element)"
+      "html": "Specifies where to open the linked document (in the case of an <code>&lt;a&gt;</code> element) or where to display the response received (in the case of a <code>&lt;form&gt;</code> element). Setting it's value to <code>target=\"_blank\"</code> for example will open the linked page on a new tab.",
+      "text": "Specifies where to open the linked document (in the case of an <a> element) or where to display the response received (in the case of a <form> element). Setting it's value to target=\"_blank\" for example will open the linked page on a new tab."
     },
     "note": null
   },

@@ -2,20 +2,20 @@
   "s": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
-    "html": "Represents a time in seconds. Examples: <code>0s</code>, <code>1.5s</code>, <code>-60s</code>.",
-    "text": "Represents a time in seconds. Examples: 0s, 1.5s, -60s."
+    "html": "<code>s</code> is a unit of time represented in \"seconds\". Examples: <code>0s</code>, <code>1.5s</code>, <code>-60s</code>.",
+    "text": "s is a unit of time represented in \"seconds\". Examples: 0s, 1.5s, -60s."
   },
   "ms": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/time",
-    "html": "Represents a time in milliseconds. Examples: <code>0ms</code>, <code>150.25ms</code>, <code>-60000ms</code>.",
-    "text": "Represents a time in milliseconds. Examples: 0ms, 150.25ms, -60000ms."
+    "html": "<code>ms</code> is a unit of time represented in \"milliseconds\". <code>1000ms</code> is <code>1s</code> (second).",
+    "text": "ms is a unit of time represented in \"milliseconds\". 1000ms is 1s (second)."
   },
   "%": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/percentage",
-    "html": "The <strong><code>&lt;percentage&gt;</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types\">data type</a> represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\" title=\"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\"><code>width</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\" title=\"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\"><code>height</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/margin\" title=\"The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left.\"><code>margin</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/padding\" title=\"The padding CSS property sets the padding area on all four sides of an element. It is a shorthand for padding-top, padding-right, padding-bottom, and padding-left.\"><code>padding</code></a>, and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a>.",
-    "text": "The % (percentage) CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent object. Numerous properties can use percentages, such as width, height, margin, padding, and font-size."
+    "html": "The <strong><code>&lt;percentage&gt;</code></strong> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\">CSS</a> <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Types\">data type</a> represents a percentage value. It is often used to define a size as relative to an element's parent element. Numerous properties can use percentages, such as <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\" title=\"The width CSS property sets an element's width. By default, it sets the width of the content area, but if box-sizing is set to border-box, it sets the width of the border area.\"><code>width</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\" title=\"The height CSS property specifies the height of an element. By default, the property defines the height of the content area. If box-sizing is set to border-box, however, it instead determines the height of the border area.\"><code>height</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/margin\" title=\"The margin CSS property sets the margin area on all four sides of an element. It is a shorthand for margin-top, margin-right, margin-bottom, and margin-left.\"><code>margin</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/padding\" title=\"The padding CSS property sets the padding area on all four sides of an element. It is a shorthand for padding-top, padding-right, padding-bottom, and padding-left.\"><code>padding</code></a>, and <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a>.",
+    "text": "The % (percentage) CSS data type represents a percentage value. It is often used to define a size as relative to an element's parent element. Numerous properties can use percentages, such as width, height, margin, padding, and font-size."
   },
   "cap": {
     "status": "experimental",
@@ -26,14 +26,14 @@
   "ch": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
-    "html": "Represents the width, or more precisely the advance measure, of the glyph \"0\" (zero, the Unicode character U+0030) in the element's <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font\" title=\"The font CSS property is a shorthand for font-style, font-variant, font-weight, font-stretch, font-size, line-height, and font-family. Alternatively, it sets an element's font to a system font.\"><code>font</code></a>. In the cases where it is impossible or impractical to determine the measure of the \"0\" glyph, it must be assumed to be 0.5em wide by 1em tall.",
-    "text": "Represents the width, or more precisely the advance measure, of the glyph \"0\" (zero, the Unicode character U+0030) in the element's font. In the cases where it is impossible or impractical to determine the measure of the \"0\" glyph, it must be assumed to be 0.5em wide by 1em tall."
+    "html": "<code>ch</code> is a unit of length which equates to the width of the character <code>0</code>, so <code>width: 2ch;</code> would be the width of 2 zeroes. This can change depending on the font-family you're using. Read more about <a href=\"http://clagnut.com/blog/2384/\" target=\"_blank\">ch and similar units</a>.",
+    "text": "ch is a unit of length equal to the width of the character 0, so width: 2ch; would be the width of 2 zeroes. This can vary depending on the font-family you're using."
   },
   "em": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
-    "html": "Represents the calculated <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> of the element. If used on the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> property itself, it represents the <em>inherited</em> font-size of the element.",
-    "text": "Represents the calculated font-size of the element. If used on the font-size property itself, it represents the inherited font-size of the element."
+    "html": "<code>em</code> is a unit of length which relates directly to font size. For example, if <code>font-size: 10px;</code> than <code>width: 2em;</code> would be a width of <code>20px</code>. When applied to <code>font-size: 1em;</code> then it's relative to the inherited font-size, usually it's parent element's. Read more about <a href=\"http://clagnut.com/blog/2384/\" target=\"_blank\">em and similar units</a>.",
+    "text": "Rem is a unit of length related to font size. For example, if font-size: 10px; then width: 2em; would equal a width of 20px. When applied to font-size: 1em;, it's relative to the inherited font size, usually that of the parent element."
   },
   "ex": {
     "status": "standard",
@@ -56,8 +56,8 @@
   "rem": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
-    "html": "Represents the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a> of the root element (typically <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/html\" title=\"The HTML <html> element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.\"><code>&lt;html&gt;</code></a>). When used within the root element <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-size\" title=\"The font-size CSS property sets the size of the font. Changing the font size also updates the sizes of the font size-relative <length> units, such as&nbsp;em, ex, and so forth.\"><code>font-size</code></a>, it represents its initial value (a common browser default is <code>16px</code>, but user-defined preferences may modify this).",
-    "text": "Represents the font-size of the root element (typically <html>). When used within the root element font-size, it represents its initial value (a common browser default is 16px, but user-defined preferences may modify this)."
+    "html": "<code>rem</code> is a unit of length which relates directly to font size of the \"root\" element (the <code>&lt;html&gt;</code>) which essentially means the browser's default font-size. For example, assuming the user has their browser's font-size set to 16px, a <code>width: 2em;</code> would equate to 32px. Read more about <a href=\"http://clagnut.com/blog/2384/\" target=\"_blank\">rem and similar units</a>.",
+    "text": "rem is a unit of length related to the font size of the \"root\" element (the <html> tag), which generally means the browser's default font size. For example, if the user's browser font size is set to 16px, a width: 2rem; would equal 32px."
   },
   "rlh": {
     "status": "experimental",
@@ -68,14 +68,14 @@
   "vh": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
-    "html": "Equal to 1% of the height of the viewport's initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>.",
-    "text": "Equal to 1% of the height of the viewport's initial containing block."
+    "html": "<code>vh</code> stands for \"viewport height\", the viewport is the \"viewable portion\" of your document, meaning everything you currently see in your window. You can think of <code>vh</code> as a percentage of the window's height (as opposed to the <code>%</code> which is always relative to the parent element).",
+    "text": "vh stands for \"viewport height,\" which refers to the visible portion of your document—everything you currently see in your window. You can think of vh as a percentage of the window's height, unlike %, which is always relative to the parent element."
   },
   "vw": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
-    "html": "Equal to 1% of the width of the viewport's initial <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/All_About_The_Containing_Block\">containing block</a>.",
-    "text": "Equal to 1% of the width of the viewport's initial containing block."
+    "html": "<code>vw</code> stands for \"viewport width\", the viewport is the \"viewable portion\" of your document, meaning everything you currently see in your window. You can think of <code>vw</code> as a percentage of the window's width (as opposed to the <code>%</code> which is always relative to the parent element).",
+    "text": "vw stands for \"viewport width,\" which refers to the visible portion of your document—everything you currently see in your window. You can think of vw as a percentage of the window's width, unlike %, which is always relative to the parent element."
   },
   "vi": {
     "status": "experimental",
@@ -104,8 +104,8 @@
   "px": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/length",
-    "html": "One pixel. For screen displays, it traditionally represents one device pixel (dot). However, for <em>printers</em> and <em>high-resolution screens</em>, one CSS pixel implies multiple device pixels. <code>1px</code> = 1/96th of <code>1in</code>.",
-    "text": "One pixel. For screen displays, it traditionally represents one device pixel (dot). However, for printers and high-resolution screens, one CSS pixel implies multiple device pixels. 1px = 1/96th of 1in."
+    "html": "<code>px</code> or \"pixel\" is a unit of length representing one device pixel (dot), the smallest discrete element of an image on your screen.",
+    "text": "px or \"pixel\" is a unit of length representing one device pixel (dot), the smallest discrete element of an image on your screen."
   },
   "cm": {
     "status": "standard",
@@ -146,26 +146,26 @@
   "deg": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
-    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Degree_%28angle%29\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Degree_%28angle%29\">degrees</a>. One full circle is <code>360deg</code>. Examples: <code>0deg</code>, <code>90deg</code>, <code>14.23deg</code>.",
-    "text": "Represents an angle in degrees. One full circle is 360deg. Examples: 0deg, 90deg, 14.23deg."
+    "html": "<code>deg</code> is an <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" target=\"_blank\">angle</a>, a unit of rotation measured in \"degrees\". One full circle is <code>360deg</code>.",
+    "text": "deg is an angle unit used to measure rotation in \"degrees.\" One full circle is 360deg. Read more about angles."
   },
   "grad": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
-    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Gradian\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Gradian\">gradians</a>. One full circle is <code>400grad</code>. Examples: <code>0grad</code>, <code>100grad</code>, <code>38.8grad</code>.",
-    "text": "Represents an angle in gradians. One full circle is 400grad. Examples: 0grad, 100grad, 38.8grad."
+    "html": "<code>grad</code> is an <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" target=\"_blank\">angle</a>, a unit of rotation measured in \"gradians\". One full circle is <code>400grad</code>.",
+    "text": "grad is an angle unit used to measure rotation in \"gradians.\" One full circle is 400grad. Read more about angles."
   },
   "rad": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
-    "html": "Represents an angle in <a class=\"external\" target=\"_blank\" href=\"http://en.wikipedia.org/wiki/Radian\" rel=\"noopener\" title=\"http://en.wikipedia.org/wiki/Radian\">radians</a>. One full circle is 2π radians which approximates to <code>6.2832rad</code>. <code>1rad</code> is 180/π degrees. Examples: <code>0rad</code>, <code>1.0708rad</code>, <code>6.2832rad</code>.",
-    "text": "Represents an angle in radians. One full circle is 2π radians which approximates to 6.2832rad. 1rad is 180/π degrees. Examples: 0rad, 1.0708rad, 6.2832rad."
+    "html": "<code>rad</code> is an <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" target=\"_blank\">angle</a>, a unit of rotation measured in \"radians\". One full circle is  2π radians or roughly <code>6.2832rad</code>.",
+    "text": "rad is an angle unit used to measure rotation in \"radians.\" One full circle is 2π radians, or roughly 6.2832rad. Read more about angles."
   },
   "turn": {
     "status": "standard",
     "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/angle",
-    "html": "Represents an angle in a number of turns. One full circle is <code>1turn</code>. Examples: <code>0turn</code>, <code>0.25turn</code>, <code>1.2turn</code>.",
-    "text": "Represents an angle in a number of turns. One full circle is 1turn. Examples: 0turn, 0.25turn, 1.2turn."
+    "html": "<code>turn</code> is an <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/angle\" target=\"_blank\">angle</a>, a unit of rotation measured in \"turns\". One full circle is <code>1turn</code>.",
+    "text": "turn is an angle unit used to measure rotation in \"turns.\" One full circle is 1turn. Read more about angles."
   },
   "fr": {
     "status": "standard",

@@ -101,8 +101,7 @@
       "xlink:show",
       "xlink:actuate",
       "target"
-    ],
-    "example": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- A link around a shape -->\n  <a href=\"/docs/Web/SVG/Element/circle\">\n    <circle cx=\"50\" cy=\"40\" r=\"35\" />\n  </a>\n\n  <!-- A link around a text -->\n  <a href=\"/docs/Web/SVG/Element/text\">\n    <text x=\"50\" y=\"90\" text-anchor=\"middle\">&lt;circle&gt;</text>\n  </a>\n</svg>"
+    ]
   },
   "animate": {
     "keyword": {
@@ -166,8 +165,7 @@
       "additive",
       "accumulate",
       "externalResourcesRequired"
-    ],
-    "example": "<svg viewBox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\">\n  <rect width=\"10\" height=\"10\">\n    <animate\n      attributeName=\"rx\"\n      values=\"0;5;0\"\n      dur=\"10s\"\n      repeatCount=\"indefinite\" />\n  </rect>\n</svg>"
+    ]
   },
   "animateMotion": {
     "keyword": {
@@ -233,8 +231,7 @@
       "keyPoints",
       "rotate",
       "origin"
-    ],
-    "example": "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path\n    fill=\"none\"\n    stroke=\"lightgrey\"\n    d=\"M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z\" />\n\n  <circle r=\"5\" fill=\"red\">\n    <animateMotion\n      dur=\"10s\"\n      repeatCount=\"indefinite\"\n      path=\"M20,50 C20,-50 180,150 180,50 C180-50 20,150 20,50 z\" />\n  </circle>\n</svg>"
+    ]
   },
   "animateTransform": {
     "keyword": {
@@ -403,8 +400,7 @@
       "cx",
       "cy",
       "r"
-    ],
-    "example": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <circle cx=\"50\" cy=\"50\" r=\"50\" />\n</svg>"
+    ]
   },
   "clipPath": {
     "keyword": {
@@ -504,8 +500,7 @@
       "writing-mode",
       "externalResourcesRequired",
       "clipPathUnits"
-    ],
-    "example": "<svg viewBox=\"0 0 100 100\">\n  <clipPath id=\"myClip\">\n    <!--\n      Everything outside the circle will be\n      clipped and therefore invisible.\n    -->\n    <circle cx=\"40\" cy=\"35\" r=\"35\" />\n  </clipPath>\n\n  <!-- The original black heart, for reference -->\n  <path\n    id=\"heart\"\n    d=\"M10,30 A20,20,0,0,1,50,30 A20,20,0,0,1,90,30 Q90,60,50,90 Q10,60,10,30 Z\" />\n\n  <!--\n    Only the portion of the red heart\n    inside the clip circle is visible.\n  -->\n  <use clip-path=\"url(#myClip)\" href=\"#heart\" fill=\"red\" />\n</svg>"
+    ]
   },
   "cursor": {
     "keyword": {
@@ -647,8 +642,7 @@
       "word-spacing",
       "writing-mode",
       "externalResourcesRequired"
-    ],
-    "example": "<svg viewBox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Some graphical objects to use -->\n  <defs>\n    <circle id=\"myCircle\" cx=\"0\" cy=\"0\" r=\"5\" />\n\n    <linearGradient id=\"myGradient\" gradientTransform=\"rotate(90)\">\n      <stop offset=\"20%\" stop-color=\"gold\" />\n      <stop offset=\"90%\" stop-color=\"red\" />\n    </linearGradient>\n  </defs>\n\n  <!-- using my graphical objects -->\n  <use x=\"5\" y=\"5\" href=\"#myCircle\" fill=\"url('#myGradient')\" />\n</svg>"
+    ]
   },
   "desc": {
     "keyword": {
@@ -683,8 +677,7 @@
       "tabindex",
       "title",
       "translate"
-    ],
-    "example": "<svg viewBox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\">\n  <circle cx=\"5\" cy=\"5\" r=\"4\">\n    <desc>\n      I'm a circle and that description is here to demonstrate how I can be\n      described, but is it really necessary to describe a simple circle like me?\n    </desc>\n  </circle>\n</svg>"
+    ]
   },
   "ellipse": {
     "keyword": {
@@ -788,8 +781,7 @@
       "cy",
       "rx",
       "ry"
-    ],
-    "example": "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <ellipse cx=\"100\" cy=\"50\" rx=\"100\" ry=\"50\" />\n</svg>"
+    ]
   },
   "feBlend": {
     "keyword": {
@@ -1707,8 +1699,7 @@
       "stdDeviation",
       "dx",
       "dy"
-    ],
-    "example": "<svg viewBox=\"0 0 30 10\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <filter id=\"shadow\">\n      <feDropShadow dx=\"0.2\" dy=\"0.4\" stdDeviation=\"0.2\" />\n    </filter>\n    <filter id=\"shadow2\">\n      <feDropShadow dx=\"0\" dy=\"0\" stdDeviation=\"0.5\" flood-color=\"cyan\" />\n    </filter>\n    <filter id=\"shadow3\">\n      <feDropShadow\n        dx=\"-0.8\"\n        dy=\"-0.8\"\n        stdDeviation=\"0\"\n        flood-color=\"pink\"\n        flood-opacity=\"0.5\" />\n    </filter>\n  </defs>\n\n  <circle cx=\"5\" cy=\"50%\" r=\"4\" style=\"fill:pink; filter:url(#shadow);\" />\n\n  <circle cx=\"15\" cy=\"50%\" r=\"4\" style=\"fill:pink; filter:url(#shadow2);\" />\n\n  <circle cx=\"25\" cy=\"50%\" r=\"4\" style=\"fill:pink; filter:url(#shadow3);\" />\n</svg>"
+    ]
   },
   "feFlood": {
     "keyword": {
@@ -3473,8 +3464,7 @@
       "y",
       "width",
       "height"
-    ],
-    "example": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\">\n  <style>\n    div {\n      color: white;\n      font: 18px serif;\n      height: 100%;\n      overflow: auto;\n    }\n  </style>\n\n  <polygon points=\"5,5 195,10 185,185 10,195\" />\n\n  <!-- Common use case: embed HTML text into SVG -->\n  <foreignObject x=\"20\" y=\"20\" width=\"160\" height=\"160\">\n    <!--\n      In the context of SVG embedded in an HTML document, the XHTML\n      namespace could be omitted, but it is mandatory in the\n      context of an SVG document\n    -->\n    <div xmlns=\"http://www.w3.org/1999/xhtml\">\n      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis mollis\n      mi ut ultricies. Nullam magna ipsum, porta vel dui convallis, rutrum\n      imperdiet eros. Aliquam erat volutpat.\n    </div>\n  </foreignObject>\n</svg>"
+    ]
   },
   "g": {
     "keyword": {
@@ -3574,8 +3564,7 @@
       "word-spacing",
       "writing-mode",
       "externalResourcesRequired"
-    ],
-    "example": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Using g to inherit presentation attributes -->\n  <g fill=\"white\" stroke=\"green\" stroke-width=\"5\">\n    <circle cx=\"40\" cy=\"40\" r=\"25\" />\n    <circle cx=\"60\" cy=\"60\" r=\"25\" />\n  </g>\n</svg>"
+    ]
   },
   "glyph": {
     "keyword": {
@@ -4030,8 +4019,7 @@
       "x2",
       "y1",
       "y2"
-    ],
-    "example": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <line x1=\"0\" y1=\"80\" x2=\"100\" y2=\"20\" stroke=\"black\" />\n\n  <!-- If you do not specify the stroke\n       color the line will not be visible -->\n</svg>"
+    ]
   },
   "linearGradient": {
     "keyword": {
@@ -4135,8 +4123,7 @@
       "x2",
       "y2",
       "spreadMethod"
-    ],
-    "example": "<svg\n  viewBox=\"0 0 10 10\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <linearGradient id=\"myGradient\" gradientTransform=\"rotate(90)\">\n      <stop offset=\"5%\" stop-color=\"gold\" />\n      <stop offset=\"95%\" stop-color=\"red\" />\n    </linearGradient>\n  </defs>\n\n  <!-- using my linear gradient -->\n  <circle cx=\"5\" cy=\"5\" r=\"4\" fill=\"url('#myGradient')\" />\n</svg>"
+    ]
   },
   "marker": {
     "keyword": {
@@ -4345,8 +4332,7 @@
       "y",
       "width",
       "height"
-    ],
-    "example": "<svg viewBox=\"-10 -10 120 120\">\n  <rect x=\"-10\" y=\"-10\" width=\"120\" height=\"120\" fill=\"blue\" />\n  <mask id=\"myMask\">\n    <!-- Everything under a white pixel will be visible -->\n    <rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" fill=\"white\" />\n\n    <!-- Everything under a black pixel will be invisible -->\n    <path\n      d=\"M10,35 A20,20,0,0,1,50,35 A20,20,0,0,1,90,35 Q90,65,50,95 Q10,65,10,35 Z\"\n      fill=\"black\" />\n  </mask>\n\n  <polygon points=\"-10,110 110,110 110,-10\" fill=\"orange\" />\n\n  <!-- with this mask applied, we \"punch\" a heart shape hole into the circle -->\n  <circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"purple\" mask=\"url(#myMask)\" />\n</svg>"
+    ]
   },
   "metadata": {
     "keyword": {
@@ -4618,8 +4604,7 @@
       "writing-mode",
       "externalResourcesRequired",
       "pathLength"
-    ],
-    "example": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <path\n    d=\"M 10,30\n           A 20,20 0,0,1 50,30\n           A 20,20 0,0,1 90,30\n           Q 90,60 50,90\n           Q 10,60 10,30 z\" />\n</svg>"
+    ]
   },
   "pattern": {
     "keyword": {
@@ -4728,8 +4713,7 @@
       "width",
       "height",
       "preserveAspectRatio"
-    ],
-    "example": "<svg viewBox=\"0 0 230 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <defs>\n    <pattern id=\"star\" viewBox=\"0,0,10,10\" width=\"10%\" height=\"10%\">\n      <polygon points=\"0,0 2,5 0,10 5,8 10,10 8,5 10,0 5,2\" />\n    </pattern>\n  </defs>\n\n  <circle cx=\"50\" cy=\"50\" r=\"50\" fill=\"url(#star)\" />\n  <circle\n    cx=\"180\"\n    cy=\"50\"\n    r=\"40\"\n    fill=\"none\"\n    stroke-width=\"20\"\n    stroke=\"url(#star)\" />\n</svg>"
+    ]
   },
   "polygon": {
     "keyword": {
@@ -4830,8 +4814,7 @@
       "writing-mode",
       "externalResourcesRequired",
       "points"
-    ],
-    "example": "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Example of a polygon with the default fill -->\n  <polygon points=\"0,100 50,25 50,75 100,0\" />\n\n  <!-- Example of the same polygon shape with stroke and no fill -->\n  <polygon points=\"100,100 150,25 150,75 200,0\" fill=\"none\" stroke=\"black\" />\n</svg>"
+    ]
   },
   "polyline": {
     "keyword": {
@@ -4932,8 +4915,7 @@
       "writing-mode",
       "externalResourcesRequired",
       "points"
-    ],
-    "example": "<svg viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Example of a polyline with the default fill -->\n  <polyline points=\"0,100 50,25 50,75 100,0\" />\n\n  <!-- Example of the same polyline shape with stroke and no fill -->\n  <polyline points=\"100,100 150,25 150,75 200,0\" fill=\"none\" stroke=\"black\" />\n</svg>"
+    ]
   },
   "radialGradient": {
     "keyword": {
@@ -5038,8 +5020,7 @@
       "fx",
       "fy",
       "spreadMethod"
-    ],
-    "example": "<svg\n  viewBox=\"0 0 10 10\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <radialGradient id=\"myGradient\">\n      <stop offset=\"10%\" stop-color=\"gold\" />\n      <stop offset=\"95%\" stop-color=\"red\" />\n    </radialGradient>\n  </defs>\n\n  <!-- using my radial gradient -->\n  <circle cx=\"5\" cy=\"5\" r=\"4\" fill=\"url('#myGradient')\" />\n</svg>"
+    ]
   },
   "rect": {
     "keyword": {
@@ -5145,8 +5126,7 @@
       "height",
       "rx",
       "ry"
-    ],
-    "example": "<svg viewBox=\"0 0 220 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Simple rectangle -->\n  <rect width=\"100\" height=\"100\" />\n\n  <!-- Rounded corner rectangle -->\n  <rect x=\"120\" width=\"100\" height=\"100\" rx=\"15\" />\n</svg>"
+    ]
   },
   "script": {
     "keyword": {
@@ -5184,8 +5164,7 @@
       "href",
       "externalResourcesRequired",
       "type"
-    ],
-    "example": "Click the circle to change colors.\n<svg\n  viewBox=\"0 0 10 10\"\n  height=\"120px\"\n  width=\"120px\"\n  xmlns=\"http://www.w3.org/2000/svg\">\n  <circle cx=\"5\" cy=\"5\" r=\"4\" />\n\n  <script>\n    // <![CDATA[\n    function getColor() {\n      const R = Math.round(Math.random() * 255)\n        .toString(16)\n        .padStart(2, \"0\");\n\n      const G = Math.round(Math.random() * 255)\n        .toString(16)\n        .padStart(2, \"0\");\n\n      const B = Math.round(Math.random() * 255)\n        .toString(16)\n        .padStart(2, \"0\");\n\n      return `#${R}${G}${B}`;\n    }\n\n    document.querySelector(\"circle\").addEventListener(\"click\", (e) => {\n      e.target.style.fill = getColor();\n    });\n    // ]]>\n  </script>\n</svg>"
+    ]
   },
   "set": {
     "keyword": {
@@ -5238,8 +5217,7 @@
       "fill",
       "externalResourcesRequired",
       "to"
-    ],
-    "example": "<svg viewBox=\"0 0 10 10\" xmlns=\"http://www.w3.org/2000/svg\">\n  <style>\n    rect {\n      cursor: pointer;\n    }\n    .round {\n      rx: 5px;\n      fill: green;\n    }\n  </style>\n\n  <rect id=\"me\" width=\"10\" height=\"10\">\n    <set attributeName=\"class\" to=\"round\" begin=\"me.click\" dur=\"2s\" />\n  </rect>\n</svg>"
+    ]
   },
   "stop": {
     "keyword": {
@@ -5335,8 +5313,7 @@
       "word-spacing",
       "writing-mode",
       "offset"
-    ],
-    "example": "<svg\n  viewBox=\"0 0 10 10\"\n  xmlns=\"http://www.w3.org/2000/svg\"\n  xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n  <defs>\n    <linearGradient id=\"myGradient\" gradientTransform=\"rotate(90)\">\n      <stop offset=\"5%\" stop-color=\"gold\" />\n      <stop offset=\"95%\" stop-color=\"red\" />\n    </linearGradient>\n  </defs>\n\n  <!-- using my linear gradient -->\n  <circle cx=\"5\" cy=\"5\" r=\"4\" fill=\"url('#myGradient')\" />\n</svg>"
+    ]
   },
   "svg": {
     "keyword": {
@@ -5644,8 +5621,7 @@
       "externalResourcesRequired",
       "preserveAspectRatio",
       "viewBox"
-    ],
-    "example": "<svg viewBox=\"0 0 80 20\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- Our symbol in its own coordinate system -->\n  <symbol id=\"myDot\" width=\"10\" height=\"10\" viewBox=\"0 0 2 2\">\n    <circle cx=\"1\" cy=\"1\" r=\"1\" />\n  </symbol>\n\n  <!-- A grid to materialize our symbol positioning -->\n  <path\n    d=\"M0,10 h80 M10,0 v20 M25,0 v20 M40,0 v20 M55,0 v20 M70,0 v20\"\n    fill=\"none\"\n    stroke=\"pink\" />\n\n  <!-- All instances of our symbol -->\n  <use href=\"#myDot\" x=\"5\" y=\"5\" style=\"opacity:1.0\" />\n  <use href=\"#myDot\" x=\"20\" y=\"5\" style=\"opacity:0.8\" />\n  <use href=\"#myDot\" x=\"35\" y=\"5\" style=\"opacity:0.6\" />\n  <use href=\"#myDot\" x=\"50\" y=\"5\" style=\"opacity:0.4\" />\n  <use href=\"#myDot\" x=\"65\" y=\"5\" style=\"opacity:0.2\" />\n</svg>"
+    ]
   },
   "text": {
     "keyword": {
@@ -5752,8 +5728,7 @@
       "rotate",
       "textLength",
       "lengthAdjust"
-    ],
-    "example": "<svg viewBox=\"0 0 240 80\" xmlns=\"http://www.w3.org/2000/svg\">\n  <style>\n    .small {\n      font: italic 13px sans-serif;\n    }\n    .heavy {\n      font: bold 30px sans-serif;\n    }\n\n    /* Note that the color of the text is set with the    *\n     * fill property, the color property is for HTML only */\n    .Rrrrr {\n      font: italic 40px serif;\n      fill: red;\n    }\n  </style>\n\n  <text x=\"20\" y=\"35\" class=\"small\">My</text>\n  <text x=\"40\" y=\"35\" class=\"heavy\">cat</text>\n  <text x=\"55\" y=\"55\" class=\"small\">is</text>\n  <text x=\"65\" y=\"55\" class=\"Rrrrr\">Grumpy!</text>\n</svg>"
+    ]
   },
   "textPath": {
     "keyword": {
@@ -5857,8 +5832,7 @@
       "startOffset",
       "method",
       "spacing"
-    ],
-    "example": "<svg viewBox=\"0 0 100 100\" xmlns=\"http://www.w3.org/2000/svg\">\n  <!-- to hide the path, it is usually wrapped in a <defs> element -->\n  <!-- <defs> -->\n  <path\n    id=\"MyPath\"\n    fill=\"none\"\n    stroke=\"red\"\n    d=\"M10,90 Q90,90 90,45 Q90,10 50,10 Q10,10 10,40 Q10,70 45,70 Q70,70 75,50\" />\n  <!-- </defs> -->\n\n  <text>\n    <textPath href=\"#MyPath\">Quick brown fox jumps over the lazy dog.</textPath>\n  </text>\n</svg>"
+    ]
   },
   "title": {
     "keyword": {
@@ -5893,8 +5867,7 @@
       "tabindex",
       "title",
       "translate"
-    ],
-    "example": "<svg viewBox=\"0 0 20 10\" xmlns=\"http://www.w3.org/2000/svg\">\n  <circle cx=\"5\" cy=\"5\" r=\"4\">\n    <title>I'm a circle</title>\n  </circle>\n\n  <rect x=\"11\" y=\"1\" width=\"8\" height=\"8\">\n    <title>I'm a square</title>\n  </rect>\n</svg>"
+    ]
   },
   "tref": {
     "keyword": {
@@ -6102,8 +6075,7 @@
       "rotate",
       "textLength",
       "lengthAdjust"
-    ],
-    "example": "<svg viewBox=\"0 0 240 40\" xmlns=\"http://www.w3.org/2000/svg\">\n  <style>\n    text {\n      font: italic 12px serif;\n    }\n    tspan {\n      font: bold 10px sans-serif;\n      fill: red;\n    }\n  </style>\n\n  <text x=\"10\" y=\"30\" class=\"small\">\n    You are\n    <tspan>not</tspan>\n    a banana!\n  </text>\n</svg>"
+    ]
   },
   "use": {
     "keyword": {
@@ -6208,8 +6180,7 @@
       "y",
       "width",
       "height"
-    ],
-    "example": "<svg viewBox=\"0 0 30 10\" xmlns=\"http://www.w3.org/2000/svg\">\n  <circle id=\"myCircle\" cx=\"5\" cy=\"5\" r=\"4\" stroke=\"blue\" />\n  <use href=\"#myCircle\" x=\"10\" fill=\"blue\" />\n  <use href=\"#myCircle\" x=\"20\" fill=\"white\" stroke=\"red\" />\n</svg>"
+    ]
   },
   "view": {
     "keyword": {

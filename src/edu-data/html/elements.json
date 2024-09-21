@@ -113,8 +113,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML External Resource Link element (<code>&lt;link&gt;</code>)</strong> specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both &quot;favicon&quot; style icons and icons for the home screen and apps on mobile devices) among other things.",
-      "text": "The HTML External Resource Link element (<link>) specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both \"favicon\" style icons and icons for the home screen and apps on mobile devices) among other things."
+      "html": "The <code>&lt;link&gt;</code> element is most commonly used to import a CSS file (often referred to as a \"stylesheet\") into the HTML page, so that the rules defined in the stylesheet can be applied to any of the elements on this page. The <code>link</code> can also be used to preload resources (like fonts) and to set your projects icons (for mobile apps and browser tabs).",
+      "text": "TThe <link> element is most commonly used to import a CSS file (often referred to as a \"stylesheet\") into the HTML page, so that the rules defined in the stylesheet can be applied to any of the elements on this page. The <link> can also be used to preload resources (like fonts) and to set your projects icons (for mobile apps and browser tabs)."
     },
     "singleton": true,
     "attributes": [
@@ -477,8 +477,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
-      "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
+      "html": "The <code>&lt;h1&gt;</code> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <code>&lt;h1&gt;</code> heading is the largest.",
+      "text": "The <h1> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <h1> heading is the largest."
     },
     "singleton": false,
     "flow": "block",
@@ -512,8 +512,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
-      "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
+      "html": "The <code>&lt;h2&gt;</code> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <code>&lt;h2&gt;</code> heading is the second largest.",
+      "text": "The <h2> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <h2> heading is the second largest."
     },
     "singleton": false,
     "flow": "block",
@@ -547,8 +547,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
-      "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
+      "html": "The <code>&lt;h3&gt;</code> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <code>&lt;h3&gt;</code> heading is the third largest.",
+      "text": "The <h3> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <h3> heading is the third largest."
     },
     "singleton": false,
     "flow": "block",
@@ -582,8 +582,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
-      "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
+      "html": "The <code>&lt;h4&gt;</code> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <code>&lt;h4&gt;</code> heading is the fourth largest.",
+      "text": "The <h4> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <h4> heading is the fourth largest."
     },
     "singleton": false,
     "flow": "block",
@@ -617,8 +617,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
-      "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
+      "html": "The <code>&lt;h5&gt;</code> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <code>&lt;h5&gt;</code> heading is the fifth largest.",
+      "text": "The <h5> element is used to create a heading, like the title of a section or the by-line of a news article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <h5> heading is the fifth largest."
     },
     "singleton": false,
     "flow": "block",
@@ -652,8 +652,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;h1&gt;</code>&#x2013;<code>&lt;h6&gt;</code> elements</strong> represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level and <code>&lt;h6&gt;</code> is the lowest.",
-      "text": "The HTML <h1>–<h6> elements represent six levels of section headings. <h1> is the highest section level and <h6> is the lowest."
+      "html": "The <code>&lt;h6&gt;</code> element is used to create a heading, like the title of a section or the by-line of a article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <code>&lt;h6&gt;</code> heading is the smallest.",
+      "text": "The <h6> element is used to create a heading, like the title of a section or the by-line of a article. The content in headings appear larger than the content of most other elements. Of the 6 levels, this <h6> heading is the smallest."
     },
     "singleton": false,
     "flow": "block",
@@ -1218,8 +1218,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;pre&gt;</code> element</strong> represents preformatted text which is to be presented exactly as written in the HTML file.",
-      "text": "The HTML <pre> element represents preformatted text which is to be presented exactly as written in the HTML file."
+      "html": "In HTML, line breaks and indentation in your code are not rendered in the browser. The <code>&lt;pre&gt;</code> tag, or \"preformatted text\" element, is an exception to this rule. Any content in between opening and closing <code>&lt;pre&gt;</code> tags will be rendered exactly as it appears in the HTML code (tabs, line breaks and all).",
+      "text": "In HTML, line breaks and indentation in your code are not rendered in the browser. The <pre> tag, or \"preformatted text\" element, is an exception to this rule. Any content in between opening and closing <pre> tags will be rendered exactly as it appears in the HTML code (tabs, line breaks and all)."
     },
     "singleton": false,
     "flow": "block",
@@ -3640,8 +3640,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;input&gt;</code> element</strong> is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent.",
-      "text": "The HTML <input> element is used to create interactive controls for web-based forms in order to accept data from the user; a wide variety of types of input data and control widgets are available, depending on the device and user agent."
+      "html": "The HTML <code>&lt;input&gt;</code> element is used to create interactive controls and common GUI (graphical user interface) elements often used in forms. A wide variety of types are available.",
+      "text": "TThe HTML <input> element is used to create interactive controls and common GUI (graphical user interface) elements often used in forms. A wide variety of types are available."
     },
     "singleton": true,
     "flow": "inline",

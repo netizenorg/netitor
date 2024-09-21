@@ -2908,8 +2908,8 @@
       "text": "image-rendering"
     },
     "description": {
-      "html": "no information available",
-      "text": "no information available"
+      "html": "This property defines how the browser should render an image if it is scaled up or down from its original dimensions. By default, each browser will attempt to apply <a href=\"https://en.wikipedia.org/wiki/Aliasing\" target=\"_blank\">aliasing</a> to this scaled image in order to prevent distortion, but this can sometimes be a problem if we want the image to preserve its original pixelated form.",
+      "text": "This property defines how the browser should render an image when it is scaled up or down from its original size. By default, browsers apply aliasing to reduce distortion, but this can be an issue if you want the image to retain its original pixelated form."
     }
   },
   "image-resolution": {
@@ -3328,8 +3328,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "Sets all the margin properties in one declaration",
-      "text": "Sets all the margin properties in one declaration"
+      "html": "All HTML elements are shaped like a <a href=\"https://www.w3schools.com/Css/css_boxmodel.asp\" target=\"_blank\">box</a> by default. The <code>margin</code> property is used to add space around this box. It's values can be written in a variety of ways.",
+      "text": "All HTML elements are shaped like a box by default. The margin property is used to add space around this box, and its values can be written in various ways."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/margin",
     "keyword": {
@@ -4054,8 +4054,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for all the padding-* properties",
-      "text": "A shorthand property for all the padding-* properties"
+      "html": "All HTML elements are shaped like a <a href=\"https://www.w3schools.com/Css/css_boxmodel.asp\" target=\"_blank\">box</a> by default. The <code>padding</code> property is used to add space within the box around it's content. It's values can be written in a variety of ways.",
+      "text": "All HTML elements are shaped like a box by default. The padding property is used to add space within the box around it's content, and its values can be written in various ways."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/padding",
     "keyword": {
@@ -6232,8 +6232,8 @@
       "text": "clip-path"
     },
     "description": {
-      "html": "no information available",
-      "text": "no information available"
+      "html": "The <code>clip-path</code> property can be used to \"clip\" or \"mask\" certain regions of an element. It's a great way of transforming elements into all sorts of different shapes. Checkout this great <a href=\"https://bennettfeely.com/clippy/\" target=\"_blank\">clip-path generator</a> or learn more about it at <a href=\"https://css-tricks.com/almanac/properties/c/clip-path/\" target=\"_blank\">css-tricks.com</a>.",
+      "text": "The clip-path property can be used to \"clip\" or \"mask\" certain regions of an element. It's a great way to transform elements into various shapes. Learn more about it at css-tricks.com."
     }
   },
   "clip-rule": {

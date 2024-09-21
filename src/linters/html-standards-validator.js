@@ -124,7 +124,7 @@ class HTMLStandards {
         const evidence = name
 
         if (!inContext) {
-          const friendly = `<code>&lt;${name}&gt;</code> is an <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element" target="_blank">SVG element</a>, which means it must be defined within an <code>&lt;svg&gt;</code> element to render properly.`
+          const friendly = `<code>&lt;${name}&gt;</code> is an <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element" target="_blank">SVG element</a>, which means it must be defined within an opening <code>&lt;svg&gt;</code> and closing <code>&lt;/svg&gt;</code> tag to render properly.`
           errz.push({ language, type, message, friendly, evidence, col, line, rule })
         }
       }

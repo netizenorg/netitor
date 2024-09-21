@@ -22,8 +22,8 @@ const cssCommentNfo = {
     text: 'comments'
   },
   description: {
-    html: 'A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document',
-    text: 'A CSS comment is used to add explanatory notes to the code or to prevent the browser from interpreting specific parts of the style sheet. By design, comments have no effect on the layout of a document'
+    html: 'Most coding languages support comments, which are ignored by browsers and used to explain code or temporarily disable it. In HTML, comments start with <code>/*</code> and end with <code>*/</code>. They help document logic, give credit to code you copy/pasted or "comment out" (temporarily disable) sections. Use the shortcut <b>CTRL + /</b> (or <b>CMD + /</b> on Mac) to quickly add or remove comments.',
+    text: 'Most coding languages support comments, which are ignored by browsers and used to explain code or temporarily disable it. In HTML, comments start with /* and end with */. They help document logic, give credit to code you copy/pasted or "comment out" (temporarily disable) sections. Use the shortcut CTRL + / (or CMD + / on Mac) to quickly add or remove comments.'
   }
 }
 
