@@ -1863,8 +1863,8 @@
         "text": "click"
       },
       "description": {
-        "html": "An element receives a <strong><code>click</code></strong> event when a pointing device button (such as a mouse&apos;s primary mouse button) is both pressed and released while the pointer is located inside the element.",
-        "text": "An element receives a click event when a pointing device button (such as a mouse's primary mouse button) is both pressed and released while the pointer is located inside the element."
+        "html": "An element receives a <strong><code>click</code></strong> event when you press and release a button on your mouse (or other pointer device) while the pointer is over that element.",
+        "text": "An element receives a click event when you press and release a button on your mouse (or other pointer device) while the pointer is over that element"
       }
     }
   ],

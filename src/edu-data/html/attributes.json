@@ -2755,5 +2755,1317 @@
       "html": "<code>frameborder</code> is an attribute specifically for <code>iframe</code> elements. The value 1 (the default) draws a border around this frame. The value 0 removes the border around this frame, but you instead use the CSS property border to control <code>iframe</code> borders instead.",
       "text": "frameborder is an attribute specifically for iframe elements. The value 1 (the default) draws a border around this frame. The value 0 removes the border around this frame, but you should use the CSS property border to control iframe borders instead."
     }
+  },
+  "onabort": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onabort.asp\" target=\"_blank\">onabort</a>",
+      "text": "onabort"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onabort.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onabort event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/AbortSignal/abort_event\" target=\"_blank\">AbortSignal</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/FileReader/abort_event\" target=\"_blank\">FileReader</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/abort_event\" target=\"_blank\">HTMLMediaElement</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/abort_event\" target=\"_blank\">IDBDatabase</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/abort_event\" target=\"_blank\">IDBTransaction</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/abort_event\" target=\"_blank\">XMLHttpRequest</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onabort) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onabort event can be used on a few different types of elements, including AbortSignal, FileReader, HTMLMediaElement, IDBDatabase, IDBTransaction, and XMLHttpRequest. That said, it's better to use addEventListener instead of \"on\" event attributes (like onabort) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onafterprint": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onafterprint.asp\" target=\"_blank\">onafterprint</a>",
+      "text": "onafterprint"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onafterprint.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>afterprint</code></strong> event is fired after the associated document has started printing or the print preview has been closed. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onafterprint) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The afterprint event is fired after the associated document has started printing or the print preview has been closed. That said, it's better to use addEventListener instead of \"on\" event attributes (like onafterprint) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onanimationend": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onanimationend.asp\" target=\"_blank\">onanimationend</a>",
+      "text": "onanimationend"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onanimationend.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onanimationend event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationend_event\" target=\"_blank\">Document</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationend_event\" target=\"_blank\">Element</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationend_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onanimationend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onanimationend event can be used on a few different types of elements, including Document, Element, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like onanimationend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onanimationiteration": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onanimationiteration.asp\" target=\"_blank\">onanimationiteration</a>",
+      "text": "onanimationiteration"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onanimationiteration.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onanimationiteration event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event\" target=\"_blank\">Document</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event\" target=\"_blank\">Element</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationiteration_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onanimationiteration) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onanimationiteration event can be used on a few different types of elements, including Document, Element, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like onanimationiteration) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onanimationstart": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onanimationstart.asp\" target=\"_blank\">onanimationstart</a>",
+      "text": "onanimationstart"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onanimationstart.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onanimationstart event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationstart_event\" target=\"_blank\">Document</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationstart_event\" target=\"_blank\">Element</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/animationstart_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onanimationstart) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onanimationstart event can be used on a few different types of elements, including Document, Element, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like onanimationstart) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onbeforeprint": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onbeforeprint.asp\" target=\"_blank\">onbeforeprint</a>",
+      "text": "onbeforeprint"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onbeforeprint.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>beforeprint</code></strong> event is fired when the associated document is about to be printed or previewed for printing. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onbeforeprint) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The beforeprint event is fired when the associated document is about to be printed or previewed for printing. That said, it's better to use addEventListener instead of \"on\" event attributes (like onbeforeprint) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onbeforeunload": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onbeforeunload.asp\" target=\"_blank\">onbeforeunload</a>",
+      "text": "onbeforeunload"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onbeforeunload.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>beforeunload</code></strong> event is fired when the window, the document and its resources are about to be unloaded. The document is still visible and the event is still cancelable at this point. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onbeforeunload) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The beforeunload event is fired when the window, the document and its resources are about to be unloaded. The document is still visible and the event is still cancelable at this point. That said, it's better to use addEventListener instead of \"on\" event attributes (like onbeforeunload) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onblur": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onblur.asp\" target=\"_blank\">onblur</a>",
+      "text": "onblur"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onblur.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onblur event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event\" target=\"_blank\">Element</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/blur_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onblur) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onblur event can be used on a few different types of elements, including Element, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like onblur) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "oncanplay": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_oncanplay.asp\" target=\"_blank\">oncanplay</a>",
+      "text": "oncanplay"
+    },
+    "url": "https://www.w3schools.com/jsref/event_oncanplay.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>canplay</code> event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like oncanplay) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The canplay event is fired when the user agent can play the media, but estimates that not enough data has been loaded to play the media up to its end without having to stop for further buffering of content. That said, it's better to use addEventListener instead of \"on\" event attributes (like oncanplay) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "oncanplaythrough": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_oncanplaythrough.asp\" target=\"_blank\">oncanplaythrough</a>",
+      "text": "oncanplaythrough"
+    },
+    "url": "https://www.w3schools.com/jsref/event_oncanplaythrough.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>canplaythrough</code> event is fired when the user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like oncanplaythrough) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The canplaythrough event is fired when the user agent can play the media, and estimates that enough data has been loaded to play the media up to its end without having to stop for further buffering of content. That said, it's better to use addEventListener instead of \"on\" event attributes (like oncanplaythrough) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onchange": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onchange.asp\" target=\"_blank\">onchange</a>",
+      "text": "onchange"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onchange.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onchange event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/AudioTrackList/change_event\" target=\"_blank\">AudioTrackList</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/change_event\" target=\"_blank\">HTMLElement</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/TextTrackList/change_event\" target=\"_blank\">TextTrackList</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/VideoTrackList/change_event\" target=\"_blank\">VideoTrackList</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onchange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onchange event can be used on a few different types of elements, including AudioTrackList, HTMLElement, TextTrackList, and VideoTrackList. That said, it's better to use addEventListener instead of \"on\" event attributes (like onchange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onclick": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onclick.asp\" target=\"_blank\">onclick</a>",
+      "text": "onclick"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onclick.asp",
+    "status": "standard",
+    "description": {
+      "html": "An element receives a <strong><code>click</code></strong> event when you press and release a button on your mouse (or other pointer device) while the pointer is over that element. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onclick) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "An element receives a click event when you press and release a button on your mouse (or other pointer device) while the pointer is over that element. That said, it's better to use addEventListener instead of \"on\" event attributes (like onclick) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "oncontextmenu": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_oncontextmenu.asp\" target=\"_blank\">oncontextmenu</a>",
+      "text": "oncontextmenu"
+    },
+    "url": "https://www.w3schools.com/jsref/event_oncontextmenu.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>contextmenu</code></strong> event fires when the user attempts to open a context menu. This event is typically triggered by clicking the right mouse button, or by pressing the context menu key. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like oncontextmenu) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The contextmenu event fires when the user attempts to open a context menu. This event is typically triggered by clicking the right mouse button, or by pressing the context menu key. That said, it's better to use addEventListener instead of \"on\" event attributes (like oncontextmenu) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "oncopy": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_oncopy.asp\" target=\"_blank\">oncopy</a>",
+      "text": "oncopy"
+    },
+    "url": "https://www.w3schools.com/jsref/event_oncopy.asp",
+    "status": "standard",
+    "description": {
+      "html": "The oncopy event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/copy_event\" target=\"_blank\">Document</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/copy_event\" target=\"_blank\">Element</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGGraphicsElement/copy_event\" target=\"_blank\">SVGGraphicsElement</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/copy_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like oncopy) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The oncopy event can be used on a few different types of elements, including Document, Element, SVGGraphicsElement, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like oncopy) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "oncut": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_oncut.asp\" target=\"_blank\">oncut</a>",
+      "text": "oncut"
+    },
+    "url": "https://www.w3schools.com/jsref/event_oncut.asp",
+    "status": "standard",
+    "description": {
+      "html": "The oncut event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/cut_event\" target=\"_blank\">Document</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/cut_event\" target=\"_blank\">Element</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGGraphicsElement/cut_event\" target=\"_blank\">SVGGraphicsElement</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/cut_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like oncut) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The oncut event can be used on a few different types of elements, including Document, Element, SVGGraphicsElement, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like oncut) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondblclick": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondblclick.asp\" target=\"_blank\">ondblclick</a>",
+      "text": "ondblclick"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondblclick.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>dblclick</code></strong> event fires when a pointing device button (such as a mouse&apos;s primary button) is double-clicked; that is, when it&apos;s rapidly clicked twice on a single element within a very short span of time. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondblclick) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The dblclick event fires when a pointing device button (such as a mouse's primary button) is double-clicked; that is, when it's rapidly clicked twice on a single element within a very short span of time. That said, it's better to use addEventListener instead of \"on\" event attributes (like ondblclick) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondrag": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondrag.asp\" target=\"_blank\">ondrag</a>",
+      "text": "ondrag"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondrag.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>drag</code> event is fired every few hundred milliseconds as an element or text selection is being dragged by the user. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondrag) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The drag event is fired every few hundred milliseconds as an element or text selection is being dragged by the user. That said, it's better to use addEventListener instead of \"on\" event attributes (like ondrag) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondragend": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondragend.asp\" target=\"_blank\">ondragend</a>",
+      "text": "ondragend"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondragend.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>dragend</code> event is fired when a drag operation is being ended (by releasing a mouse button or hitting the escape key). That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondragend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The dragend event is fired when a drag operation is being ended (by releasing a mouse button or hitting the escape key). That said, it's better to use addEventListener instead of \"on\" event attributes (like ondragend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondragenter": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondragenter.asp\" target=\"_blank\">ondragenter</a>",
+      "text": "ondragenter"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondragenter.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>dragenter</code> event is fired when a dragged element or text selection enters a valid drop target. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondragenter) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The dragenter event is fired when a dragged element or text selection enters a valid drop target. That said, it's better to use addEventListener instead of \"on\" event attributes (like ondragenter) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondragleave": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondragleave.asp\" target=\"_blank\">ondragleave</a>",
+      "text": "ondragleave"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondragleave.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>dragleave</code> event is fired when a dragged element or text selection leaves a valid drop target. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondragleave) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The dragleave event is fired when a dragged element or text selection leaves a valid drop target. That said, it's better to use addEventListener instead of \"on\" event attributes (like ondragleave) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondragover": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondragover.asp\" target=\"_blank\">ondragover</a>",
+      "text": "ondragover"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondragover.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>dragover</code> event is fired when an element or text selection is being dragged over a valid drop target (every few hundred milliseconds). That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondragover) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The dragover event is fired when an element or text selection is being dragged over a valid drop target (every few hundred milliseconds). That said, it's better to use addEventListener instead of \"on\" event attributes (like ondragover) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondragstart": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondragstart.asp\" target=\"_blank\">ondragstart</a>",
+      "text": "ondragstart"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondragstart.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>dragstart</code> event is fired when the user starts dragging an element or text selection. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondragstart) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The dragstart event is fired when the user starts dragging an element or text selection. That said, it's better to use addEventListener instead of \"on\" event attributes (like ondragstart) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondrop": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondrop.asp\" target=\"_blank\">ondrop</a>",
+      "text": "ondrop"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondrop.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>drop</code></strong> event is fired when an element or text selection is dropped on a valid drop target. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondrop) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The drop event is fired when an element or text selection is dropped on a valid drop target. That said, it's better to use addEventListener instead of \"on\" event attributes (like ondrop) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ondurationchange": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ondurationchange.asp\" target=\"_blank\">ondurationchange</a>",
+      "text": "ondurationchange"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ondurationchange.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>durationchange</code> event is fired when the <code>duration</code> attribute has been updated. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ondurationchange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The durationchange event is fired when the duration attribute has been updated. That said, it's better to use addEventListener instead of \"on\" event attributes (like ondurationchange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onended": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onended.asp\" target=\"_blank\">onended</a>",
+      "text": "onended"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onended.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onended event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/AudioScheduledSourceNode/ended_event\" target=\"_blank\">AudioScheduledSourceNode</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/ended_event\" target=\"_blank\">HTMLMediaElement</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaStreamTrack/ended_event\" target=\"_blank\">MediaStreamTrack</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onended) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onended event can be used on a few different types of elements, including AudioScheduledSourceNode, HTMLMediaElement, and MediaStreamTrack. That said, it's better to use addEventListener instead of \"on\" event attributes (like onended) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onerror": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onerror.asp\" target=\"_blank\">onerror</a>",
+      "text": "onerror"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onerror.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onerror event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/error_event\" target=\"_blank\">Element</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventSource/error_event\" target=\"_blank\">EventSource</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/FileReader/error_event\" target=\"_blank\">FileReader</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/error_event\" target=\"_blank\">HTMLMediaElement</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/error_event\" target=\"_blank\">IDBDatabase</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/IDBRequest/error_event\" target=\"_blank\">IDBRequest</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/error_event\" target=\"_blank\">IDBTransaction</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/MediaRecorder/error_event\" target=\"_blank\">MediaRecorder</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/error_event\" target=\"_blank\">RTCDataChannel</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/RTCDtlsTransport/error_event\" target=\"_blank\">RTCDtlsTransport</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/error_event\" target=\"_blank\">SpeechRecognition</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/error_event\" target=\"_blank\">SpeechSynthesisUtterance</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGElement/error_event\" target=\"_blank\">SVGElement</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/error_event\" target=\"_blank\">WebSocket</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/error_event\" target=\"_blank\">Window</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/error_event\" target=\"_blank\">XMLHttpRequest</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onerror) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onerror event can be used on a few different types of elements, including Element, EventSource, FileReader, HTMLMediaElement, IDBDatabase, IDBRequest, IDBTransaction, MediaRecorder, RTCDataChannel, RTCDtlsTransport, SpeechRecognition, SpeechSynthesisUtterance, SVGElement, WebSocket, Window, and XMLHttpRequest. That said, it's better to use addEventListener instead of \"on\" event attributes (like onerror) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onfocus": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onfocus.asp\" target=\"_blank\">onfocus</a>",
+      "text": "onfocus"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onfocus.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onfocus event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event\" target=\"_blank\">Element</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/focus_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onfocus) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onfocus event can be used on a few different types of elements, including Element, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like onfocus) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onfocusin": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onfocusin.asp\" target=\"_blank\">onfocusin</a>",
+      "text": "onfocusin"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onfocusin.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>focusin</code></strong> event fires when an element has received focus, after the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/focus_event\" title=\"focus\"><code>focus</code></a> event. The two events differ in that <code>focusin</code> bubbles, while <code>focus</code> does not. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onfocusin) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The focusin event fires when an element has received focus, after the focus event. The two events differ in that focusin bubbles, while focus does not. That said, it's better to use addEventListener instead of \"on\" event attributes (like onfocusin) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onfocusout": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onfocusout.asp\" target=\"_blank\">onfocusout</a>",
+      "text": "onfocusout"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onfocusout.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>focusout</code></strong> event fires when an element has lost focus, after the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event\" title=\"blur\"><code>blur</code></a> event. The two events differ in that <code>focusout</code> bubbles, while <code>blur</code> does not. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onfocusout) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The focusout event fires when an element has lost focus, after the blur event. The two events differ in that focusout bubbles, while blur does not. That said, it's better to use addEventListener instead of \"on\" event attributes (like onfocusout) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onfullscreenchange": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onfullscreenchange.asp\" target=\"_blank\">onfullscreenchange</a>",
+      "text": "onfullscreenchange"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onfullscreenchange.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onfullscreenchange event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreenchange_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/fullscreenchange_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onfullscreenchange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onfullscreenchange event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like onfullscreenchange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onfullscreenerror": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onfullscreenerror.asp\" target=\"_blank\">onfullscreenerror</a>",
+      "text": "onfullscreenerror"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onfullscreenerror.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onfullscreenerror event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/fullscreenerror_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/fullscreenerror_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onfullscreenerror) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onfullscreenerror event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like onfullscreenerror) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onhashchange": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onhashchange.asp\" target=\"_blank\">onhashchange</a>",
+      "text": "onhashchange"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onhashchange.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>hashchange</code></strong> event is fired when the fragment identifier of the URL has changed (the part of the URL beginning with and following the <code>#</code> symbol). That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onhashchange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The hashchange event is fired when the fragment identifier of the URL has changed (the part of the URL beginning with and following the # symbol). That said, it's better to use addEventListener instead of \"on\" event attributes (like onhashchange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "oninput": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_oninput.asp\" target=\"_blank\">oninput</a>",
+      "text": "oninput"
+    },
+    "url": "https://www.w3schools.com/jsref/event_oninput.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>input</code></strong> event fires when the <code>value</code> of an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input\"><code>&lt;input&gt;</code></a>, <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/select\"><code>&lt;select&gt;</code></a>, or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea\"><code>&lt;textarea&gt;</code></a> element has been changed. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like oninput) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The input event fires when the value of an <input>, <select>, or <textarea> element has been changed. That said, it's better to use addEventListener instead of \"on\" event attributes (like oninput) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "oninvalid": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_oninvalid.asp\" target=\"_blank\">oninvalid</a>",
+      "text": "oninvalid"
+    },
+    "url": "https://www.w3schools.com/jsref/event_oninvalid.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>invalid</code></strong> event fires when a submittable element has been checked for validity and doesn&apos;t satisfy its constraints. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like oninvalid) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The invalid event fires when a submittable element has been checked for validity and doesn't satisfy its constraints. That said, it's better to use addEventListener instead of \"on\" event attributes (like oninvalid) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onkeydown": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onkeydown.asp\" target=\"_blank\">onkeydown</a>",
+      "text": "onkeydown"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onkeydown.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onkeydown event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onkeydown) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onkeydown event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like onkeydown) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onkeypress": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onkeypress.asp\" target=\"_blank\">onkeypress</a>",
+      "text": "onkeypress"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onkeypress.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onkeypress event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keypress_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onkeypress) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onkeypress event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like onkeypress) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onkeyup": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onkeyup.asp\" target=\"_blank\">onkeyup</a>",
+      "text": "onkeyup"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onkeyup.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onkeyup event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/keyup_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onkeyup) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onkeyup event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like onkeyup) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onload": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onload.asp\" target=\"_blank\">onload</a>",
+      "text": "onload"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onload.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onload event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/FileReader/load_event\" target=\"_blank\">FileReader</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGElement/load_event\" target=\"_blank\">SVGElement</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/load_event\" target=\"_blank\">Window</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/load_event\" target=\"_blank\">XMLHttpRequest</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onload) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onload event can be used on a few different types of elements, including FileReader, SVGElement, Window, and XMLHttpRequest. That said, it's better to use addEventListener instead of \"on\" event attributes (like onload) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onloadeddata": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onloadeddata.asp\" target=\"_blank\">onloadeddata</a>",
+      "text": "onloadeddata"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onloadeddata.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>loadeddata</code></strong> event is fired when the frame at the current playback position of the media has finished loading; often the first frame. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onloadeddata) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The loadeddata event is fired when the frame at the current playback position of the media has finished loading; often the first frame. That said, it's better to use addEventListener instead of \"on\" event attributes (like onloadeddata) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onloadedmetadata": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onloadedmetadata.asp\" target=\"_blank\">onloadedmetadata</a>",
+      "text": "onloadedmetadata"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onloadedmetadata.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>loadedmetadata</code> event is fired when the metadata has been loaded. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onloadedmetadata) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The loadedmetadata event is fired when the metadata has been loaded. That said, it's better to use addEventListener instead of \"on\" event attributes (like onloadedmetadata) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onloadstart": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onloadstart.asp\" target=\"_blank\">onloadstart</a>",
+      "text": "onloadstart"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onloadstart.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onloadstart event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/FileReader/loadstart_event\" target=\"_blank\">FileReader</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/loadstart_event\" target=\"_blank\">HTMLMediaElement</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/loadstart_event\" target=\"_blank\">XMLHttpRequest</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onloadstart) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onloadstart event can be used on a few different types of elements, including FileReader, HTMLMediaElement, and XMLHttpRequest. That said, it's better to use addEventListener instead of \"on\" event attributes (like onloadstart) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onmessage": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onmessage.asp\" target=\"_blank\">onmessage</a>",
+      "text": "onmessage"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onmessage.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onmessage event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel/message_event\" target=\"_blank\">BroadcastChannel</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/DedicatedWorkerGlobalScope/message_event\" target=\"_blank\">DedicatedWorkerGlobalScope</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventSource/message_event\" target=\"_blank\">EventSource</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/MessagePort/message_event\" target=\"_blank\">MessagePort</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/message_event\" target=\"_blank\">RTCDataChannel</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerContainer/message_event\" target=\"_blank\">ServiceWorkerContainer</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/ServiceWorkerGlobalScope/message_event\" target=\"_blank\">ServiceWorkerGlobalScope</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/message_event\" target=\"_blank\">WebSocket</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/message_event\" target=\"_blank\">Window</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Worker/message_event\" target=\"_blank\">Worker</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onmessage) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onmessage event can be used on a few different types of elements, including BroadcastChannel, DedicatedWorkerGlobalScope, EventSource, MessagePort, RTCDataChannel, ServiceWorkerContainer, ServiceWorkerGlobalScope, WebSocket, Window, and Worker. That said, it's better to use addEventListener instead of \"on\" event attributes (like onmessage) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onmousedown": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onmousedown.asp\" target=\"_blank\">onmousedown</a>",
+      "text": "onmousedown"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onmousedown.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>mousedown</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device button is pressed while the pointer is inside the element. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onmousedown) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The mousedown event is fired at an Element when a pointing device button is pressed while the pointer is inside the element. That said, it's better to use addEventListener instead of \"on\" event attributes (like onmousedown) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onmouseenter": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onmouseenter.asp\" target=\"_blank\">onmouseenter</a>",
+      "text": "onmouseenter"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onmouseenter.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>mouseenter</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (usually a mouse) is initially moved so that its hotspot is within the element at which the event was fired. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onmouseenter) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The mouseenter event is fired at an Element when a pointing device (usually a mouse) is initially moved so that its hotspot is within the element at which the event was fired. That said, it's better to use addEventListener instead of \"on\" event attributes (like onmouseenter) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onmouseleave": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onmouseleave.asp\" target=\"_blank\">onmouseleave</a>",
+      "text": "onmouseleave"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onmouseleave.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>mouseleave</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when the cursor of a pointing device (usually a mouse) is moved out of it. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onmouseleave) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The mouseleave event is fired at an Element when the cursor of a pointing device (usually a mouse) is moved out of it. That said, it's better to use addEventListener instead of \"on\" event attributes (like onmouseleave) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onmousemove": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onmousemove.asp\" target=\"_blank\">onmousemove</a>",
+      "text": "onmousemove"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onmousemove.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>mousemove</code> event is fired at an element when a pointing device (usually a mouse) is moved while the cursor&apos;s hotspot is inside it. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onmousemove) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The mousemove event is fired at an element when a pointing device (usually a mouse) is moved while the cursor's hotspot is inside it. That said, it's better to use addEventListener instead of \"on\" event attributes (like onmousemove) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onmouseover": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onmouseover.asp\" target=\"_blank\">onmouseover</a>",
+      "text": "onmouseover"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onmouseover.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>mouseover</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (such as a mouse or trackpad) is used to move the cursor onto the element or one of its child elements. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onmouseover) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The mouseover event is fired at an Element when a pointing device (such as a mouse or trackpad) is used to move the cursor onto the element or one of its child elements. That said, it's better to use addEventListener instead of \"on\" event attributes (like onmouseover) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onmouseout": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onmouseout.asp\" target=\"_blank\">onmouseout</a>",
+      "text": "onmouseout"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onmouseout.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>mouseout</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a pointing device (usually a mouse) is used to move the cursor so that it is no longer contained within the element or one of its children. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onmouseout) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The mouseout event is fired at an Element when a pointing device (usually a mouse) is used to move the cursor so that it is no longer contained within the element or one of its children. That said, it's better to use addEventListener instead of \"on\" event attributes (like onmouseout) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onmouseup": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onmouseup.asp\" target=\"_blank\">onmouseup</a>",
+      "text": "onmouseup"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onmouseup.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>mouseup</code></strong> event is fired at an <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element\"><code>Element</code></a> when a button on a pointing device (such as a mouse or trackpad) is released while the pointer is located inside it. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onmouseup) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The mouseup event is fired at an Element when a button on a pointing device (such as a mouse or trackpad) is released while the pointer is located inside it. That said, it's better to use addEventListener instead of \"on\" event attributes (like onmouseup) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onoffline": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onoffline.asp\" target=\"_blank\">onoffline</a>",
+      "text": "onoffline"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onoffline.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>offline</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface is fired when the browser has lost access to the network and the value of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine\"><code>Navigator.onLine</code></a> switches to <code>false</code>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onoffline) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The offline event of the Window interface is fired when the browser has lost access to the network and the value of Navigator.onLine switches to false. That said, it's better to use addEventListener instead of \"on\" event attributes (like onoffline) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ononline": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ononline.asp\" target=\"_blank\">ononline</a>",
+      "text": "ononline"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ononline.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>online</code></strong> event of the <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> interface is fired when the browser has gained access to the network and the value of <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Navigator/onLine\"><code>Navigator.onLine</code></a> switches to <code>true</code>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ononline) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The online event of the Window interface is fired when the browser has gained access to the network and the value of Navigator.onLine switches to true. That said, it's better to use addEventListener instead of \"on\" event attributes (like ononline) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onopen": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onopen.asp\" target=\"_blank\">onopen</a>",
+      "text": "onopen"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onopen.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onopen event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/EventSource/open_event\" target=\"_blank\">EventSource</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel/open_event\" target=\"_blank\">RTCDataChannel</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/open_event\" target=\"_blank\">WebSocket</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onopen) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onopen event can be used on a few different types of elements, including EventSource, RTCDataChannel, and WebSocket. That said, it's better to use addEventListener instead of \"on\" event attributes (like onopen) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onpagehide": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onpagehide.asp\" target=\"_blank\">onpagehide</a>",
+      "text": "onpagehide"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onpagehide.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>pagehide</code></strong> event is sent to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> when the browser hides the current page in the process of presenting a different page from the session&apos;s history. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onpagehide) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The pagehide event is sent to a Window when the browser hides the current page in the process of presenting a different page from the session's history. That said, it's better to use addEventListener instead of \"on\" event attributes (like onpagehide) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onpageshow": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onpageshow.asp\" target=\"_blank\">onpageshow</a>",
+      "text": "onpageshow"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onpageshow.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>pageshow</code></strong> event is sent to a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window\"><code>Window</code></a> when the browser displays the window&apos;s document due to navigation. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onpageshow) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The pageshow event is sent to a Window when the browser displays the window's document due to navigation. That said, it's better to use addEventListener instead of \"on\" event attributes (like onpageshow) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onpaste": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onpaste.asp\" target=\"_blank\">onpaste</a>",
+      "text": "onpaste"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onpaste.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onpaste event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/paste_event\" target=\"_blank\">Document</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/paste_event\" target=\"_blank\">Element</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/SVGGraphicsElement/paste_event\" target=\"_blank\">SVGGraphicsElement</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/paste_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onpaste) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onpaste event can be used on a few different types of elements, including Document, Element, SVGGraphicsElement, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like onpaste) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onpause": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onpause.asp\" target=\"_blank\">onpause</a>",
+      "text": "onpause"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onpause.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onpause event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/pause_event\" target=\"_blank\">HTMLMediaElement</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance/pause_event\" target=\"_blank\">SpeechSynthesisUtterance</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onpause) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onpause event can be used on a few different types of elements, including HTMLMediaElement, and SpeechSynthesisUtterance. That said, it's better to use addEventListener instead of \"on\" event attributes (like onpause) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onplay": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onplay.asp\" target=\"_blank\">onplay</a>",
+      "text": "onplay"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onplay.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>play</code> event is fired when the <code>paused</code> property is changed from <code>true</code> to <code>false</code>, as a result of the <code>play</code> method, or the <code>autoplay</code> attribute. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onplay) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The play event is fired when the paused property is changed from true to false, as a result of the play method, or the autoplay attribute. That said, it's better to use addEventListener instead of \"on\" event attributes (like onplay) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onplaying": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onplaying.asp\" target=\"_blank\">onplaying</a>",
+      "text": "onplaying"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onplaying.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>playing</code> event is fired after playback is first started, and whenever it is restarted. For example it is fired when playback resumes after having been paused or delayed due to lack of data. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onplaying) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The playing event is fired after playback is first started, and whenever it is restarted. For example it is fired when playback resumes after having been paused or delayed due to lack of data. That said, it's better to use addEventListener instead of \"on\" event attributes (like onplaying) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onprogress": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onprogress.asp\" target=\"_blank\">onprogress</a>",
+      "text": "onprogress"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onprogress.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onprogress event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/FileReader/progress_event\" target=\"_blank\">FileReader</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/progress_event\" target=\"_blank\">HTMLMediaElement</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/progress_event\" target=\"_blank\">XMLHttpRequest</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onprogress) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onprogress event can be used on a few different types of elements, including FileReader, HTMLMediaElement, and XMLHttpRequest. That said, it's better to use addEventListener instead of \"on\" event attributes (like onprogress) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onratechange": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onratechange.asp\" target=\"_blank\">onratechange</a>",
+      "text": "onratechange"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onratechange.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>ratechange</code> event is fired when the playback rate has changed. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onratechange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The ratechange event is fired when the playback rate has changed. That said, it's better to use addEventListener instead of \"on\" event attributes (like onratechange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onresize": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onresize.asp\" target=\"_blank\">onresize</a>",
+      "text": "onresize"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onresize.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onresize event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/PictureInPictureWindow/resize_event\" target=\"_blank\">PictureInPictureWindow</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/VisualViewport/resize_event\" target=\"_blank\">VisualViewport</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Window/resize_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onresize) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onresize event can be used on a few different types of elements, including PictureInPictureWindow, VisualViewport, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like onresize) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onreset": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onreset.asp\" target=\"_blank\">onreset</a>",
+      "text": "onreset"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onreset.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onreset event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement/reset_event\" target=\"_blank\">HTMLFormElement</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XRReferenceSpace/reset_event\" target=\"_blank\">XRReferenceSpace</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onreset) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onreset event can be used on a few different types of elements, including HTMLFormElement, and XRReferenceSpace. That said, it's better to use addEventListener instead of \"on\" event attributes (like onreset) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onscroll": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onscroll.asp\" target=\"_blank\">onscroll</a>",
+      "text": "onscroll"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onscroll.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onscroll event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Document/scroll_event\" target=\"_blank\">Document</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/scroll_event\" target=\"_blank\">Element</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/VisualViewport/scroll_event\" target=\"_blank\">VisualViewport</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onscroll) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onscroll event can be used on a few different types of elements, including Document, Element, and VisualViewport. That said, it's better to use addEventListener instead of \"on\" event attributes (like onscroll) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onsearch": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onsearch.asp\" target=\"_blank\">onsearch</a>",
+      "text": "onsearch"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onsearch.asp",
+    "status": "standard",
+    "description": {
+      "html": "<strong>Non-standard:</strong> This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onsearch) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "Non-standard: This feature is non-standard and is not on a standards track. Do not use it on production sites facing the Web: it will not work for every user. There may also be large incompatibilities between implementations and the behavior may change in the future. That said, it's better to use addEventListener instead of \"on\" event attributes (like onsearch) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onseeked": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onseeked.asp\" target=\"_blank\">onseeked</a>",
+      "text": "onseeked"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onseeked.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>seeked</code> event is fired when a seek operation completed, the current playback position has changed, and the Boolean <code>seeking</code> attribute is changed to <code>false</code>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onseeked) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The seeked event is fired when a seek operation completed, the current playback position has changed, and the Boolean seeking attribute is changed to false. That said, it's better to use addEventListener instead of \"on\" event attributes (like onseeked) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onseeking": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onseeking.asp\" target=\"_blank\">onseeking</a>",
+      "text": "onseeking"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onseeking.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>seeking</code> event is fired when a seek operation starts, meaning the Boolean <code>seeking</code> attribute has changed to <code>true</code> and the media is seeking a new position. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onseeking) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The seeking event is fired when a seek operation starts, meaning the Boolean seeking attribute has changed to true and the media is seeking a new position. That said, it's better to use addEventListener instead of \"on\" event attributes (like onseeking) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onselect": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onselect.asp\" target=\"_blank\">onselect</a>",
+      "text": "onselect"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onselect.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onselect event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement/select_event\" target=\"_blank\">Element</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/XRSession/select_event\" target=\"_blank\">XRSession</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onselect) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onselect event can be used on a few different types of elements, including Element, and XRSession. That said, it's better to use addEventListener instead of \"on\" event attributes (like onselect) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onshow": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onshow.asp\" target=\"_blank\">onshow</a>",
+      "text": "onshow"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onshow.asp",
+    "status": "standard",
+    "description": {
+      "html": "<strong>Deprecated:</strong> This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the <a target=\"_blank\" href=\"#browser_compatibility\">compatibility table</a> at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onshow) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "Deprecated: This feature is no longer recommended. Though some browsers might still support it, it may have already been removed from the relevant web standards, may be in the process of being dropped, or may only be kept for compatibility purposes. Avoid using it, and update existing code if possible; see the compatibility table at the bottom of this page to guide your decision. Be aware that this feature may cease to work at any time. That said, it's better to use addEventListener instead of \"on\" event attributes (like onshow) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onstalled": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onstalled.asp\" target=\"_blank\">onstalled</a>",
+      "text": "onstalled"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onstalled.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>stalled</code> event is fired when the user agent is trying to fetch media data, but data is unexpectedly not forthcoming. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onstalled) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The stalled event is fired when the user agent is trying to fetch media data, but data is unexpectedly not forthcoming. That said, it's better to use addEventListener instead of \"on\" event attributes (like onstalled) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onsubmit": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onsubmit.asp\" target=\"_blank\">onsubmit</a>",
+      "text": "onsubmit"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onsubmit.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>submit</code></strong> event fires when a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form\"><code>&lt;form&gt;</code></a> is submitted. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onsubmit) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The submit event fires when a <form> is submitted. That said, it's better to use addEventListener instead of \"on\" event attributes (like onsubmit) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onsuspend": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onsuspend.asp\" target=\"_blank\">onsuspend</a>",
+      "text": "onsuspend"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onsuspend.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>suspend</code> event is fired when media data loading has been suspended. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onsuspend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The suspend event is fired when media data loading has been suspended. That said, it's better to use addEventListener instead of \"on\" event attributes (like onsuspend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ontimeupdate": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ontimeupdate.asp\" target=\"_blank\">ontimeupdate</a>",
+      "text": "ontimeupdate"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ontimeupdate.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>timeupdate</code> event is fired when the time indicated by the <code>currentTime</code> attribute has been updated. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ontimeupdate) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The timeupdate event is fired when the time indicated by the currentTime attribute has been updated. That said, it's better to use addEventListener instead of \"on\" event attributes (like ontimeupdate) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ontoggle": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ontoggle.asp\" target=\"_blank\">ontoggle</a>",
+      "text": "ontoggle"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ontoggle.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <strong><code>toggle</code></strong> event fires when the <code>open</code>/<code>closed</code> state of a <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details\"><code>&lt;details&gt;</code></a> element is toggled. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ontoggle) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The toggle event fires when the open/closed state of a <details> element is toggled. That said, it's better to use addEventListener instead of \"on\" event attributes (like ontoggle) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ontouchcancel": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ontouchcancel.asp\" target=\"_blank\">ontouchcancel</a>",
+      "text": "ontouchcancel"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ontouchcancel.asp",
+    "status": "standard",
+    "description": {
+      "html": "The ontouchcancel event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/touchcancel_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/touchcancel_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ontouchcancel) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The ontouchcancel event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like ontouchcancel) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ontouchend": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ontouchend.asp\" target=\"_blank\">ontouchend</a>",
+      "text": "ontouchend"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ontouchend.asp",
+    "status": "standard",
+    "description": {
+      "html": "The ontouchend event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/touchend_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/touchend_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ontouchend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The ontouchend event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like ontouchend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ontouchmove": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ontouchmove.asp\" target=\"_blank\">ontouchmove</a>",
+      "text": "ontouchmove"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ontouchmove.asp",
+    "status": "standard",
+    "description": {
+      "html": "The ontouchmove event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/touchmove_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/touchmove_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ontouchmove) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The ontouchmove event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like ontouchmove) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ontouchstart": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ontouchstart.asp\" target=\"_blank\">ontouchstart</a>",
+      "text": "ontouchstart"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ontouchstart.asp",
+    "status": "standard",
+    "description": {
+      "html": "The ontouchstart event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/touchstart_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/touchstart_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ontouchstart) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The ontouchstart event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like ontouchstart) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "ontransitionend": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_ontransitionend.asp\" target=\"_blank\">ontransitionend</a>",
+      "text": "ontransitionend"
+    },
+    "url": "https://www.w3schools.com/jsref/event_ontransitionend.asp",
+    "status": "standard",
+    "description": {
+      "html": "The ontransitionend event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/transitionend_event\" target=\"_blank\">Document</a>, <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/transitionend_event\" target=\"_blank\">Element</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/transitionend_event\" target=\"_blank\">Window</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like ontransitionend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The ontransitionend event can be used on a few different types of elements, including Document, Element, and Window. That said, it's better to use addEventListener instead of \"on\" event attributes (like ontransitionend) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onunload": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onunload.asp\" target=\"_blank\">onunload</a>",
+      "text": "onunload"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onunload.asp",
+    "status": "standard",
+    "description": {
+      "html": "<strong>Warning:</strong> Developers should avoid using this event. See &quot;Usage notes&quot; below. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onunload) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "Warning: Developers should avoid using this event. See \"Usage notes\" below. That said, it's better to use addEventListener instead of \"on\" event attributes (like onunload) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onvolumechange": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onvolumechange.asp\" target=\"_blank\">onvolumechange</a>",
+      "text": "onvolumechange"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onvolumechange.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>volumechange</code> event is fired when the volume has changed. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onvolumechange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The volumechange event is fired when the volume has changed. That said, it's better to use addEventListener instead of \"on\" event attributes (like onvolumechange) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onwaiting": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onwaiting.asp\" target=\"_blank\">onwaiting</a>",
+      "text": "onwaiting"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onwaiting.asp",
+    "status": "standard",
+    "description": {
+      "html": "The <code>waiting</code> event is fired when playback has stopped because of a temporary lack of data. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onwaiting) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The waiting event is fired when playback has stopped because of a temporary lack of data. That said, it's better to use addEventListener instead of \"on\" event attributes (like onwaiting) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
+  },
+  "onwheel": {
+    "keyword": {
+      "html": "<a href=\"https://www.w3schools.com/jsref/event_onwheel.asp\" target=\"_blank\">onwheel</a>",
+      "text": "onwheel"
+    },
+    "url": "https://www.w3schools.com/jsref/event_onwheel.asp",
+    "status": "standard",
+    "description": {
+      "html": "The onwheel event can be used on a few different types of elements, including <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/wheel_event\" target=\"_blank\">Document</a>, and <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Element/wheel_event\" target=\"_blank\">Element</a>. That said, it's better to use <a href=\"https://www.w3schools.com/jsref/met_element_addeventlistener.asp\" target=\"_blank\">addEventListener</a> instead of <code>on</code> event attributes (like onwheel) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows.",
+      "text": "The onwheel event can be used on a few different types of elements, including Document, and Element. That said, it's better to use addEventListener instead of \"on\" event attributes (like onwheel) because it keeps your HTML and JavaScript separate, making your code cleaner, easier to manage, and more flexible as your project grows."
+    },
+    "elements": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes\">Global attribute</a>",
+      "text": "Global attribute"
+    }
   }
 }
