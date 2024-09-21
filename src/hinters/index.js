@@ -30,7 +30,7 @@ function main (cm, options) {
   const lan = cm.getModeAt(pos).name
 
   let list = []
-  if (lan === 'xml') list = htmlHinter(tok)
+  if (lan === 'xml') list = htmlHinter(tok, cm)
   else if (lan === 'css') list = cssHinter(tok, cm)
   else if (lan === 'javascript') list = jsHinter(tok, cm, pos)
 

@@ -35,6 +35,7 @@ const snippets = {
     img: 'img src="<CURSOR_STARTS_HERE>filename.jpg<CURSOR_ENDS_HERE>" alt="description of image">',
     'html (template)': '<!DOCTYPE html>\n<html lang="en-US">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\t\t<CURSOR_GOES_HERE>\n\t</body>\n</html>\n'
   },
+  svg: {},
   css: {
     atRules: {
       '@keyframes (template)': '@keyframes {\n0% {\n<CURSOR_STARTS_HERE>/* from this */<CURSOR_ENDS_HERE>\n}\n100% {\n/* to this */\n}\n}',
