@@ -30,7 +30,7 @@ function htmlData (o) {
   if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
   else if (o.type === 'element' && svgEles[o.data]) o.nfo = svgEles[o.data]
   else if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
-  else if (o.type === 'attribute' && svgAttr[o.data]) o.nfo = svgAttr[o.data]
+  else if (o.type === 'attribute' && svgAttr[o.data.toLowerCase()]) o.nfo = svgAttr[o.data.toLowerCase()]
   else if (o.type === 'attribute' && o.data.indexOf('data-') === 0) {
     o.nfo = htmlAttr['data-*']
   } else if (o.type === 'comment') {

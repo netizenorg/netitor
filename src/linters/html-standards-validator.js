@@ -7,7 +7,7 @@ const allEles = { ...svgEles, ...htmlEles }
 const allAttr = { ...svgAttr, ...htmlAttr }
 
 class HTMLStandards {
-  static checkSVGcontext (editor, lineNumber, colNumber = 0, name) {
+  static checkSVGcontext (editor, lineNumber, colNumber = 0) {
     const pos = { line: lineNumber, ch: colNumber }
     const token = editor.getTokenAt(pos)
     const state = token.state
@@ -32,8 +32,6 @@ class HTMLStandards {
   static verifyStandardElements (doc, code, cm) {
     const language = 'html'
     const errz = []
-    let line = 0
-    let col = 0
     const type = 'warning'
     const rule = {
       id: 'standard-elements',
@@ -41,13 +39,30 @@ class HTMLStandards {
       link: 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element'
     }
 
+    // Split the code into lines once
+    const lines = code.split('\n')
+
+    // Create a map to track the number of times each element name has been processed
+    const elementCountMap = {}
+
     for (let i = 0; i < doc.all.length; i++) {
-      const name = doc.all[i].localName
+      const element = doc.all[i]
+      const name = element.localName.toLowerCase()
+
+      // Initialize count for this element name if not already done
+      if (!elementCountMap[name]) {
+        elementCountMap[name] = 0
+      }
+
+      // Increment the count for this element
+      elementCountMap[name]++
+
       const isSVG = Object.prototype.hasOwnProperty.call(svgEles, name)
       const isHTML = Object.prototype.hasOwnProperty.call(htmlEles, name)
-      const valid = Object.prototype.hasOwnProperty.call(allEles, name)
+      const valid = Object.keys(allEles).map(ele => ele.toLowerCase()).includes(name.toLowerCase())
       const message = `<${name}> is not a standard HTML or SVG element`
       const htmlMsg = `<code>&lt;${name}&gt;</code> is not a standard <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank">HTML</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Element" target="_blank">SVG</a> element`
+
       if (!valid) {
         const customElement = (
           name.includes('-') &&
@@ -55,10 +70,23 @@ class HTMLStandards {
           name.indexOf('-') !== name.length - 1
         )
 
-        const lines = code.split('\n')
-        const mch = lines.filter(str => str.toLowerCase().indexOf(name) >= 0)[0]
-        line = lines.indexOf(mch) + 1
-        if (mch) col = mch.indexOf(name)
+        // Find all lines that contain the element's opening tag
+        const matchingLines = lines
+          .map((str, index) => ({ str: str.toLowerCase(), index }))
+          .filter(lineObj => lineObj.str.includes(`<${name}`))
+
+        // Get the specific occurrence based on the count
+        const occurrenceIndex = elementCountMap[name] - 1
+        const mchObj = matchingLines[occurrenceIndex]
+
+        if (!mchObj) {
+          console.warn(`Could not find a matching line for <${name}> occurrence ${elementCountMap[name]}`)
+          continue // Skip if no matching line is found
+        }
+
+        const mch = lines[mchObj.index]
+        const line = mchObj.index + 1 // Convert to 1-based line number
+        const col = mch.indexOf(name)
 
         const smatch = this.checkSpelling(name, 'elements')
         const suggest = smatch ? `Did you mean to write <strong>"${smatch}"</strong>? ` : ''
@@ -70,14 +98,29 @@ class HTMLStandards {
         const friendly = `${htmlMsg}. ${suggest}${fmsg}`
         const evidence = name
         errz.push({ language, type, message, friendly, evidence, col, line, rule })
-      } else if (isSVG && !isHTML) {
-        // of this is an SVG element, make sure it's inside of <svg> parent
-        const lines = code.split('\n')
-        const mch = lines.filter(str => str.toLowerCase().indexOf(`<${name}`) >= 0)[0]
-        line = lines.indexOf(mch) + 1
-        if (mch) col = mch.indexOf(name)
+      } else if (isSVG && !isHTML && name !== 'svg') {
+        // Ensure SVG elements are within <svg> tags
+        // .........................................
+        // first, find all lines that contain the element's opening tag
+        const matchingLines = lines
+          .map((str, index) => ({ str: str.toLowerCase(), index }))
+          .filter(lineObj => lineObj.str.includes(`<${name}`))
 
-        const inContext = this.checkSVGcontext(cm, line, col, name)
+        // Get the specific occurrence based on the count
+        const occurrenceIndex = elementCountMap[name] - 1
+        const mchObj = matchingLines[occurrenceIndex]
+
+        if (!mchObj) {
+          console.warn(`Could not find a matching line for <${name}> occurrence ${elementCountMap[name]}`)
+          continue // Skip if no matching line is found
+        }
+
+        const mch = lines[mchObj.index]
+        const line = mchObj.index + 1 // Convert to 1-based line number
+        const col = mch.indexOf(name)
+
+        const inContext = this.checkSVGcontext(cm, line - 1, col) // Adjust to 0-based
+
         const evidence = name
 
         if (!inContext) {
@@ -86,6 +129,7 @@ class HTMLStandards {
         }
       }
     }
+
     return errz
   }
 
@@ -118,7 +162,6 @@ class HTMLStandards {
           const match = lines.filter(str => str.toLowerCase().indexOf(attr) >= 0)[0]
           line = lines.indexOf(match) + 1
           if (match) col = match.indexOf(attr)
-
           if (!Object.keys(allAttr).includes(attr)) {
             const smatch = this.checkSpelling(attr, 'attributes')
             const suggest = smatch
