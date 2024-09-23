@@ -125,17 +125,35 @@ const translate = {
         return obj
       }
     }
-
     // if not singleton, assuming then either opening/closing tag is missing
-    let line = msg.substring(msg.length - 2, msg.length - 1)
-    if (!Number(line)) line = obj.line
+    // first check which tag is missing (opening or closing)
     const end = msg.includes('></') ? '></' : '> ]'
     const tagname = parseKeyword({ message: msg, start: '[ <', end })
-
+    const missingOpen = msg.includes('no start tag') || tagname[0] !== '/'
+    // then check for spelling error
     const smatch = HTMLStandards.checkSpelling(tagname, 'elements')
-    const suggest = smatch ? ` Did you mean to write <strong>"${smatch}"</strong>?` : ''
+    const element = tagname.replace('/', '')
+    const suggest = (smatch && element !== smatch) ? ` Did you mean to write <strong>"${smatch}"</strong>?` : ''
+    // get line number(s)
+    let lineNums = []
+    const line = msg.substring(msg.length - 2, msg.length - 1)
+    if (!Number(line) || Number(line) === obj.line) lineNums = [obj.line]
+    else lineNums = [line, obj.line]
+    lineNums = lineNums.map(n => Number(n)).sort((a, b) => a - b)
 
-    obj.friendly = `It looks like the <code>&lt;${tagname}&gt;</code> tag on line ${line} doesn't have a matching closing tag. If you did add a closing tag make sure you spelled the element's name correctly in both the <a href="https://media.prod.mdn.mozit.cloud/attachments/2014/11/14/9347/c07aa313dbdd667585430f4eca354dbd/grumpy-cat-small.png" target="_blank">opening and closing tags</a>.${suggest}`
+    if (missingOpen) {
+      if (lineNums.length > 1) {
+        obj.friendly = `The closing <code>&lt;/${element}&gt;</code> tag on line ${lineNums[1]} seems to be missing its opening <code>&lt;${element}&gt;</code> tag somewhere before it, maybe there should be one near line ${lineNums[0]}?${suggest}`
+      } else {
+        obj.friendly = `The closing <code>&lt;/${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its opening <code>&lt;${element}&gt;</code> tag somewhere before it.${suggest}`
+      }
+    } else { // missing closing tag
+      if (lineNums.length > 1) {
+        obj.friendly = `The opening <code>&lt;${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its closing <code>&lt;/${element}&gt;</code> tag, maybe there should be one near line ${lineNums[1]}?.${suggest}`
+      } else {
+        obj.friendly = `The opening <code>&lt;${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its closing <code>&lt;/${element}&gt;</code> tag somewhere after it.${suggest}`
+      }
+    }
     return obj
   },
   'tag-self-close': (obj) => {
