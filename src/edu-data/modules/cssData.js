@@ -145,7 +145,7 @@ function cssFunc (str) {
 function cssData (o, state, cm) {
   if (state === 'top' && o.type !== 'comment' && o.type !== 'variable-3') {
     o.nfo = checkSelector(o, cm)
-  } else if (o.type === 'property' && cssProps[o.data]) {
+  } else if ((o.type === 'property' || o.type === 'property error') && cssProps[o.data]) {
     o.nfo = cssProps[o.data]
   } else if (o.type === 'variable-3') {
     if (pseudoClasses[':' + o.data]) o.nfo = pseudoClasses[':' + o.data]
