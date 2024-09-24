@@ -157,20 +157,24 @@ class HTMLStandards {
 
           const evidence = attr
           const message = `${attr} is not a standard HTML or SVG attribute`
-          const htmlMsg = `<code>${attr}</code> is not a standard <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes" target="_blank">HTML</a> or <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute" target="_blank">SVG</a> attribute`
+          const isHTMLele = Object.prototype.hasOwnProperty.call(htmlEles, attr)
+          const isSVGele = Object.prototype.hasOwnProperty.call(svgEles, attr)
+          const htmlMsg = `<code>${attr}</code> is not a standard HTML or SVG <i><a href="https://developer.mozilla.org/en-US/docs/Glossary/Attribute" target="_blank">attribute</a></i>`
+          const isEle = (isHTMLele || isSVGele) ? `, but it is an ${isHTML ? 'HTML' : 'SVG'} <i><a href="https://developer.mozilla.org/en-US/docs/Glossary/Element" target="_blank">element</a></i>. Maybe you forgot to put some <code>&lt;</code> angle brackets <code>&gt;</code> around it` : ''
           const lines = code.split('\n')
           const match = lines.filter(str => str.toLowerCase().indexOf(attr) >= 0)[0]
           line = lines.indexOf(match) + 1
           if (match) col = match.indexOf(attr)
           if (!Object.keys(allAttr).includes(attr)) {
             const smatch = this.checkSpelling(attr, 'attributes')
-            const suggest = smatch
-              ? `Check your spelling, did you mean to write <strong>"${smatch}"</strong>? ` : ''
+            const suggest = (smatch && (isHTMLele || isSVGele))
+              ? `Or maybe you mispelled the <strong>"${smatch}"</strong> attribute? `
+              : (smatch) ? `Check your spelling, did you mean to write <strong>"${smatch}"</strong>? ` : ''
 
             const reEvent = /^on(unload|message|submit|select|scroll|resize|mouseover|mouseout|mousemove|mouseleave|mouseenter|mousedown|load|keyup|keypress|keydown|focus|dblclick|click|change|blur|error)$/i
             if (attr.indexOf('data-') !== 0 && !reEvent.test(attr)) {
               const fmsg = `If you were trying to create your own <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes" target="_blank">custom data attribute</a> you need to write it like this: <code>data-${attr}</code>`
-              const friendly = `${htmlMsg}. ${suggest}${fmsg}`
+              const friendly = `${htmlMsg}${isEle}. ${suggest}${fmsg}`
 
               errz.push({ language, type, message, friendly, evidence, col, line, rule })
             }

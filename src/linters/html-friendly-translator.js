@@ -1,4 +1,5 @@
 const htmlEles = require('../edu-data/html/elements.json')
+const svgEles = require('../edu-data/html/svg-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 const HTMLStandards = require('./html-standards-validator.js')
 
@@ -240,7 +241,17 @@ const translate = {
     }).replace(/\s/g, '')
     const convert = { '<': 'lt;', '>': 'gt;', '&': 'amp;' }
     obj.type = 'warning'
-    obj.friendly = `Careful, the "&${convert[char]}" is a special symbol in HTML, use "&amp;${convert[char]}" instead, this will appear like "&${convert[char]}" on your page.`
+    const ele = obj.evidence.match(/\/?([a-zA-Z0-9]+)>?/)
+    let mb // maybe missing bracket
+    if (ele[1]) {
+      const isHTMLele = Object.prototype.hasOwnProperty.call(htmlEles, ele[1])
+      const isSVGele = Object.prototype.hasOwnProperty.call(svgEles, ele[1])
+      mb = (isHTMLele || isSVGele)
+    }
+    const avoidBrackets = `the <code>&${convert[char]}</code> is a special symbol in HTML used to denote an <a href="https://developer.mozilla.org/en-US/docs/Glossary/Element" target="_blank">element</a>'s <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag" target="_blank">tags</a>. ${mb ? 'If so, y' : 'Y'}ou might want to use <code>&amp;${convert[char]}</code> instead, which will appear like <code>&${convert[char]}</code> on your page.`
+    obj.friendly = mb
+      ? `Your <code>${ele[1]}</code> <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag" target="_blank">tag</a> might be missing a bracket. Or maybe you're trying to write the <code>&${convert[char]}</code> as content, but be carefull because ${avoidBrackets}`
+      : `Careful, ${avoidBrackets}`
     return obj
   }
 }
