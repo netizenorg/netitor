@@ -161,7 +161,24 @@ function collectObjs (data) {
   return { html, text }
 }
 
-function augmentedObjNfo (data) {
+function analyzeProp (keyword, codeLine) {
+  const keywordIndex = codeLine.indexOf('.' + keyword)
+  if (keywordIndex === -1) {
+    return { beforeDot: null, hasParenthesis: false }
+  }
+
+  const dotIndex = codeLine.lastIndexOf('.', keywordIndex)
+  if (dotIndex === -1) {
+    return { beforeDot: null, hasParenthesis: false }
+  }
+
+  const beforeDot = codeLine.slice(0, dotIndex).trim().split(/\s+/).pop()
+  const afterKeyword = codeLine.slice(keywordIndex + keyword.length + 1).trim()
+  const hasParenthesis = afterKeyword.startsWith('(')
+  return { beforeDot, hasParenthesis }
+}
+
+function augmentedObjNfo (data, line) {
   let obj
   for (const key in stdLib) {
     if (Object.keys(stdLib[key]).includes(data)) {
@@ -173,10 +190,30 @@ function augmentedObjNfo (data) {
       break
     }
   }
-  return obj
+  if (obj !== undefined) return obj
+  else {
+    const a = analyzeProp(data, line)
+    if (!a.beforeDot) {
+      console.error('netitor: found property without associated object')
+      return null
+    }
+    const url = `https://duckduckgo.com/?q=javascript+${a.beforeDot}.${data}`
+    const t = a.hasParenthesis ? 'method' : 'property'
+    const t2 = a.hasParenthesis ? 'function' : 'variable'
+    const d = `<code>${data}</code> is a ${t} of the <code>${a.beforeDot}</code> object. In JavaScript, a <i>${t}</i> is what you call a ${t2} which belongs to an object. The <code>${a.beforeDot}</code> object is not one of JavaScript's standard `
+    const dTXT = `built-in objects or any Web APIs documented here. If it's not an object you defined yourself, then you should search online for documentation of this ${t}.`
+    const dHTML = `<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects" target="_blank">built-in objects</a> or any <a href="https://developer.mozilla.org/en-US/docs/Web/API" target="_blank">Web APIs</a> documented in this editor. If it's not an object you defined yourself, then should search online for <a href="${url}" target="_blank">documentation of this ${t}</a>.`
+    const description = { html: d + dHTML, text: d + dTXT }
+    const keyword = {
+      html: `<a href="${url}" target="_blank">${data}</a>`,
+      text: data
+    }
+    obj = { description, keyword, status: 'standard', url }
+    return obj
+  }
 }
 
-function checkOtherJSObjs (data) {
+function checkOtherJSObjs (data, line) {
   if (shared.includes(data)) {
     const obj = collectObjs(data)
     const txt = `Multiple JavaScript object's have a ${data}() method, this could be referring to `
@@ -192,7 +229,7 @@ function checkOtherJSObjs (data) {
         html: txt + obj.html.join(', ')
       }
     }
-  } else return augmentedObjNfo(data)
+  } else return augmentedObjNfo(data, line)
 }
 
 function isEvent (o, cm) {
@@ -346,7 +383,8 @@ function jsData (o, cm) {
     } else if (isChildOf('nn', o.data, cm) && nnProps[o.data]) {
       o.nfo = nnNfo(o.data, nnProps[o.data])
     } else {
-      o.nfo = checkOtherJSObjs(o.data)
+      const line = cm.getLine(o.line - 1)
+      o.nfo = checkOtherJSObjs(o.data, line)
     }
   } else if (o.type === 'comment') {
     o.nfo = commentNfo
