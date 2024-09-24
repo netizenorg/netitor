@@ -27,6 +27,7 @@ const list = (type, str) => {
 
 const creativeLibImports = {
   d3: '<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.4/d3.min.js"></script>',
+  gsap: '<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>',
   hydra: '<script src="https://unpkg.com/hydra-synth@1.3.29/dist/hydra-synth.js"></script>',
   p5: '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>',
   paper: '<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.min.js"></script>',
@@ -36,6 +37,8 @@ const creativeLibImports = {
 
 const creativeLibTemplates = {
   d3: `${creativeLibImports.d3}\n<script>\n\t/* global d3 */\n\tfunction setup () {\n\t\tconst data = [30, 86, 168, 281, 303, 365]\n\t\tconst width = 400\n\t\tconst height = 400\n\t\tconst barWidth = width / data.length\n\n\t\tconst svg = d3.select('body')\n\t\t\t.append('svg')\n\t\t\t.attr('width', width)\n\t\t\t.attr('height', height)\n\n\t\tsvg.selectAll('rect')\n\t\t\t.data(data)\n\t\t\t.enter()\n\t\t\t\t.append('rect')\n\t\t\t\t.attr('x', (d, i) => i * barWidth)\n\t\t\t\t.attr('y', d => height - d)\n\t\t\t\t.attr('width', barWidth - 5)\n\t\t\t\t.attr('height', d => d)\n\t\t\t\t.style('fill', 'teal')\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
+
+  gsap: `${creativeLibImports.gsap}\n<script>\n\t/* global gsap */\n\tfunction setup () {\n\t\t// Create a box element\n\t\tconst box = document.createElement('div')\n\t\tbox.style.width = '100px'\n\t\tbox.style.height = '100px'\n\t\tbox.style.backgroundColor = 'red'\n\t\tbox.style.position = 'absolute'\n\t\tbox.style.top = '50px'\n\t\tbox.style.left = '50px'\n\t\tdocument.body.appendChild(box)\n\t\t\n\t\t// Animate the box using GSAP\n\t\tgsap.to(box, {\n\t\t\tduration: 2,\n\t\t\tx: 300,\n\t\t\trotation: 360,\n\t\t\tscale: 1.5,\n\t\t\trepeat: -1,\n\t\t\tyoyo: true,\n\t\t\tease: 'power1.inOut'\n\t\t})\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
 
   hydra: `${creativeLibImports.hydra}\n<script>\n\t/* global Hydra, osc */\n\tfunction setup () {\n\t\tconst canvas = document.createElement('canvas')\n\t\tcanvas.width = 400\n\t\tcanvas.height = 400\n\t\t\n\t\tconst hydra = new Hydra({ canvas, detectAudio: false })\n\t\t\n\t\tosc(10, 0.1, 1.2)\n\t\t\t.color(0.9, 0.8, 0.2)\n\t\t\t.out()\n\t\t\n\t\tdocument.body.appendChild(hydra.canvas)\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
 
@@ -58,12 +61,14 @@ const snippets = {
     img: 'img src="<CURSOR_STARTS_HERE>filename.jpg<CURSOR_ENDS_HERE>" alt="description of image">',
     'html (template)': '<!DOCTYPE html>\n<html lang="en-US">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\t\t<CURSOR_GOES_HERE>\n\t</body>\n</html>\n',
     'script (d3.js)': creativeLibImports.d3,
+    'script (gsap.js)': creativeLibImports.gsap,
     'script (hydra.js)': creativeLibImports.hydra,
     'script (p5.js)': creativeLibImports.p5,
     'script (paper.js)': creativeLibImports.paper,
     'script (three.js)': creativeLibImports.three,
     'script (tone.js)': creativeLibImports.tone,
     'd3.js (template)': creativeLibTemplates.d3,
+    'gsap.js (template)': creativeLibTemplates.gsap,
     'hydra.js (template)': creativeLibTemplates.hydra,
     'p5.js (template)': creativeLibTemplates.p5,
     'paper.js (template)': creativeLibTemplates.paper,
