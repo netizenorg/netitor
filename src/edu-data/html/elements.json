@@ -1367,8 +1367,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML Bring Attention To element (<code>&lt;b&gt;</code>)</strong> is used to draw the reader&apos;s attention to the element&apos;s contents, which are not otherwise granted special importance.",
-      "text": "The HTML Bring Attention To element (<b>) is used to draw the reader's attention to the element's contents, which are not otherwise granted special importance."
+      "html": "In the old days of HTML, the <code>&lt;b&gt;</code>  element was used to bold text. But today in the era of HTML5 this element has a newer <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b#usage_notes\" target=\"_blank\">semantic meaning</a>. It is used to bring attention to a certain line of text, like keywords in a summary or product names in a review for example. It will still bold the text, but if all you want is that stylistic change you should apply the CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight\" target=\"_blank\">font-weight</a> property to something like a <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span\" target=\"_blank\">span</a> element instead to avoid implying other semantic meanings.",
+      "text": "In the old days of HTML, the <b> element was used to bold text. But today in the era of HTML5 this element has a newer semantic meaning. It is used to bring attention to a certain line of text, like keywords in a summary or product names in a review for example. It will still bold the text, but if all you want is that stylistic change you should apply the CSS font-weight property to something like a span element instead to avoid implying other semantic meanings."
     },
     "singleton": false,
     "flow": "inline",
@@ -1683,8 +1683,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML Idiomatic&#xA0;Text element (<code>&lt;i&gt;</code>)</strong> represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others.",
-      "text": "The HTML Idiomatic Text element (<i>) represents a range of text that is set off from the normal text for some reason, such as idiomatic text, technical terms, taxonomical designations, among others."
+      "html": "In the old days of HTML, the <code>&lt;i&gt;</code> element was used to italicize text. But today in the era of HTML5 this element has a newer <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i#usage_notes\" target=\"_blank\">semantic meaning</a>. It is used to imply idiomatic text, technical terms and other taxonomical designations. It will still italicize the text, but if all you want is that stylistic change you should apply the CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/font-style\" target=\"_blank\">font-style</a> property to something like a <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span\" target=\"_blank\">span</a> element instead to avoid implying other semantic meanings.",
+      "text": "In the old days of HTML, the <i> element was used to italicize text. But today in the era of HTML5 this element has a newer semantic meaning. It is used to imply idiomatic text, technical terms and other taxonomical designations. It will still italicize the text, but if all you want is that stylistic change you should apply the CSS font-style property to something like a span element instead to avoid implying other semantic meanings."
     },
     "singleton": false,
     "flow": "inline",
@@ -2276,8 +2276,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML</strong> <strong>Unarticulated Annotation element</strong> (<strong><code>&lt;u&gt;</code></strong>) represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation.",
-      "text": "The HTML Unarticulated Annotation element (<u>) represents a span of inline text which should be rendered in a way that indicates that it has a non-textual annotation."
+      "html": "In the old days of HTML, the <code>&lt;u&gt;</code> element was used to underline text. But today in the era of HTML5 this element has a newer <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/u#usage_notes\" target=\"_blank\">semantic meaning</a>. It is used to apply non-textual annotations to a line of text, for example a mis-spelled word or a proper name in Chinese. It will still underline the text, but if all you want is that stylistic change you should apply the CSS <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration\" target=\"_blank\">text-decoration</a> property to something like a <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/span\" target=\"_blank\">span</a> element instead to avoid implying other semantic meanings.",
+      "text": "In the old days of HTML, the <u> element was used to underline text. But today in the era of HTML5 this element has a newer semantic meaning. It is used to apply non-textual annotations to a line of text, for example a mis-spelled word or a proper name in Chinese. It will still underline the text, but if all you want is that stylistic change you should apply the CSS text-decoration property to something like a span element instead to avoid implying other semantic meanings."
     },
     "singleton": false,
     "flow": "inline",
