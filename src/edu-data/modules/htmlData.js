@@ -2,6 +2,7 @@ const htmlAttr = require('../html/attributes.json')
 const htmlEles = require('../html/elements.json')
 const svgEles = require('../html/svg-elements.json')
 const svgAttr = require('../html/svg-attributes.json')
+const { parseStyleAttr } = require('./parse-css.js')
 
 const htmlB = {
   name: 'angle brackets',
@@ -35,7 +36,7 @@ const genObj = (o) => {
   }
 }
 
-function htmlData (o) {
+function htmlData (o, i, cm) {
   if (o.type === 'element' && htmlEles[o.data]) o.nfo = htmlEles[o.data]
   else if (o.type === 'element' && svgEles[o.data]) o.nfo = svgEles[o.data]
   else if (o.type === 'attribute' && htmlAttr[o.data]) o.nfo = htmlAttr[o.data]
@@ -48,6 +49,9 @@ function htmlData (o) {
     o.nfo = genObj(htmlC)
   } else if (o.data.includes('<!DOCTYPE')) {
     o.nfo = genObj(htmlD)
+  } else if (o.type === 'string') {
+    // check attribute value for CSS code
+    o.nfo = parseStyleAttr(o.data, i, cm)
   }
   return o.nfo
 }

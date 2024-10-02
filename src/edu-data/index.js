@@ -10,6 +10,7 @@ function eduData (cm) {
   const inner = CodeMirror.innerMode(cm.getMode(), tok.state)
   const state = inner.state.state
 
+  const i = pos.ch - tok.start
   const o = {
     language: lan === 'xml' ? 'html' : lan,
     data: tok.string,
@@ -17,7 +18,7 @@ function eduData (cm) {
     line: pos.line + 1
   }
 
-  if (o.language === 'html') o.nfo = htmlData(o)
+  if (o.language === 'html') o.nfo = htmlData(o, i, cm)
   else if (o.language === 'css') o.nfo = cssData(o, state, cm)
   else if (o.language === 'javascript') o.nfo = jsData(o, cm)
 
