@@ -2515,8 +2515,8 @@
       "text": "Global attribute"
     },
     "description": {
-      "html": "Defines CSS styles which will override styles previously set.",
-      "text": "Defines CSS styles which will override styles previously set."
+      "html": "Using the <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/style\" target=\"_blank\">style</a> attribute is one of three ways to include CSS code in your HTML. This approach is known as \"inline styling\" because you're writing your CSS declarations in the same line as the element you want to style. Another approach would be to define CSS rules within a <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" target=\"_blank\">&lt;style&gt;</a> element or in an external CSS file. Checkout this <a href=\"https://www.w3schools.com/CSS/css_howto.asp\" target=\"_blank\">CSS reference</a> to learn more about these different approaches.",
+      "text": "Using the style attribute is one of three ways to include CSS code in your HTML. This approach is known as \"inline styling\" because you're writing your CSS declarations in the same line as the element you want to style. Another approach would be to define CSS rules within a <style> element or in an external CSS file."
     },
     "note": null
   },

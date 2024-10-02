@@ -195,8 +195,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style",
     "status": "standard",
     "description": {
-      "html": "The <strong>HTML <code>&lt;style&gt;</code> element</strong> contains style information for a document, or part of a document.",
-      "text": "The HTML <style> element contains style information for a document, or part of a document."
+      "html": "The <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/style\" target=\"_blank\">&lt;style&gt;</a> element is used to apply <a href=\"https://www.w3schools.com/Css/css_syntax.asp\" target=\"_blank\">CSS rules</a> to a single page. This is one of three ways to include CSS code in your HTML. This approach is great when working on a single HTML page, but it's considered better practice to write your CSS in an external file when you want to apply the same CSS code to more than one HTML page. Checkout this <a href=\"https://www.w3schools.com/CSS/css_howto.asp\" target=\"_blank\">CSS reference</a> to learn more about these different approaches.",
+      "text": "The <style> element is used to apply CSS rules to a single page. This is one of three ways to include CSS code in your HTML. This approach is great when working on a single HTML page, but it's considered better practice to write your CSS in an external file when you want to apply the same CSS code to more than one HTML page."
     },
     "singleton": false,
     "attributes": [
