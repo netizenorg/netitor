@@ -402,3 +402,5 @@ The `nfo` property will contain an object with educational/reference information
   data: "color"
 }
 ```
+
+EOL
