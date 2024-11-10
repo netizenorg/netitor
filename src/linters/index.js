@@ -42,7 +42,7 @@ async function linter (cm) {
   const lang = cm.getMode().name
 
   let errz = (lang === 'css')
-    ? cssLinter(code) : (lang === 'javascript')
+    ? await cssLinter(code) : (lang === 'javascript')
       ? jsLinter(code) : htmlLinter(code, cm)
 
   if (lang === 'htmlmixed') {
