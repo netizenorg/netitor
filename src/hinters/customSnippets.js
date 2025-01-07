@@ -37,21 +37,220 @@ const creativeLibImports = {
 }
 
 const creativeLibTemplates = {
-  d3: `${creativeLibImports.d3}\n<script>\n\t/* global d3 */\n\tfunction setup () {\n\t\tconst data = [30, 86, 168, 281, 303, 365]\n\t\tconst width = 400\n\t\tconst height = 400\n\t\tconst barWidth = width / data.length\n\n\t\tconst svg = d3.select('body')\n\t\t\t.append('svg')\n\t\t\t.attr('width', width)\n\t\t\t.attr('height', height)\n\n\t\tsvg.selectAll('rect')\n\t\t\t.data(data)\n\t\t\t.enter()\n\t\t\t.append('rect')\n\t\t\t.attr('x', (d, i) => i * barWidth)\n\t\t\t.attr('y', d => height - d)\n\t\t\t.attr('width', barWidth - 5)\n\t\t\t.attr('height', d => d)\n\t\t\t.style('fill', 'teal')\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
+  d3: `${creativeLibImports.d3}
+<script>
+  /* global d3 */
+  function setup() {
+    const data = [30, 86, 168, 281, 303, 365]
+    const width = 400
+    const height = 400
+    const barWidth = width / data.length
 
-  gsap: `${creativeLibImports.gsap}\n<script>\n\t/* global gsap */\n\tfunction setup () {\n\t\t// Create a box element\n\t\tconst box = document.createElement('div')\n\t\tbox.style.width = '100px'\n\t\tbox.style.height = '100px'\n\t\tbox.style.backgroundColor = 'red'\n\t\tbox.style.position = 'absolute'\n\t\tbox.style.top = '50px'\n\t\tbox.style.left = '50px'\n\t\tdocument.body.appendChild(box)\n\t\t\n\t\t// Animate the box using GSAP\n\t\tgsap.to(box, {\n\t\t\tduration: 2,\n\t\t\tx: 300,\n\t\t\trotation: 360,\n\t\t\tscale: 1.5,\n\t\t\trepeat: -1,\n\t\t\tyoyo: true,\n\t\t\tease: 'power1.inOut'\n\t\t})\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
+    const svg = d3.select('body')
+      .append('svg')
+      .attr('width', width)
+      .attr('height', height)
 
-  hydra: `${creativeLibImports.hydra}\n<script>\n\t/* global Hydra, osc */\n\tfunction setup () {\n\t\tconst canvas = document.createElement('canvas')\n\t\tcanvas.width = 400\n\t\tcanvas.height = 400\n\t\t\n\t\tconst hydra = new Hydra({ canvas, detectAudio: false })\n\t\t\n\t\tosc(10, 0.1, 1.2)\n\t\t\t.color(0.9, 0.8, 0.2)\n\t\t\t.out()\n\t\t\n\t\tdocument.body.appendChild(hydra.canvas)\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
+    svg.selectAll('rect')
+      .data(data)
+      .enter()
+      .append('rect')
+      .attr('x', (d, i) => i * barWidth)
+      .attr('y', d => height - d)
+      .attr('width', barWidth - 5)
+      .attr('height', d => d)
+      .style('fill', 'teal')
+  }
 
-  nn: `${creativeLibImports.nn}\n<script>\n\t/* global nn */\n\t<CURSOR_GOES_HERE>\n</script>`,
+  window.addEventListener('load', setup)
+</script>`,
 
-  p5: `${creativeLibImports.p5}\n<script>\n\t/* global p5 */\n\tlet sketch = (p) => {\n\t\tp.setup = () => {\n\t\t\tp.createCanvas(400, 400)\n\t\t\tp.background(0, 255, 255)\n\t\t}\n\n\t\tp.draw = () => {\n\t\t\tp.fill(255, 0, 200)\n\t\t\tp.ellipse(p.mouseX, p.mouseY, 50, 50)\n\t\t}\n\t}\n\tnew p5(sketch)\n</script>`,
+  gsap: `${creativeLibImports.gsap}
+<script>
+  /* global gsap */
+  function setup() {
+    // Create a box element
+    const box = document.createElement('div')
+    box.style.width = '100px'
+    box.style.height = '100px'
+    box.style.backgroundColor = 'red'
+    box.style.position = 'absolute'
+    box.style.top = '50px'
+    box.style.left = '50px'
+    document.body.appendChild(box)
 
-  paper: `<div>click on the canvas below</div>\n${creativeLibImports.paper}\n<script>\n\t/* global paper */\n\tconst circles = []\n\t\n\t// function to run when we click on the canvas\n\tfunction click(event) {\n\t\tconst circle = new paper.Path.Circle({\n\t\t\tcenter: event.point,\n\t\t\tradius: 20,\n\t\t\tfillColor: 'blue',\n\t\t\tstrokeColor: 'black',\n\t\t\tstrokeWidth: 2\n\t\t})\n\n\t\tcircles.push(circle)\n\n\t\t// Animate the circle's radius\n\t\tcircle.onFrame = function () {\n\t\t\tthis.scale(0.99)\n\t\t\tif (this.bounds.width < 1) {\n\t\t\t\tthis.remove()\n\t\t\t\tcircles.splice(circles.indexOf(this), 1)\n\t\t\t}\n\t\t}\n\t}\n\n\tfunction setup() {\n\t\t// Create and append the canvas to the document body\n\t\tconst canvas = document.createElement('canvas')\n\t\tcanvas.width = 400\n\t\tcanvas.height = 400\n\t\tdocument.body.appendChild(canvas)\n\n\t\t// Setup Paper.js with the created canvas\n\t\tpaper.setup(canvas)\n\n\t\t// Create a background rectangle\n\t\tnew paper.Path.Rectangle({\n\t\t\tpoint: [0, 0],\n\t\t\tsize: [400, 400],\n\t\t\tfillColor: '#f0f0f0'\n\t\t})\n\n\t\t// Function to handle mouse clicks\n\t\tpaper.view.attach('mousedown', click)\n  }\n\n  window.addEventListener('load', setup)\n</script>`,
+    // Animate the box using GSAP
+    gsap.to(box, {
+      duration: 2,
+      x: 300,
+      rotation: 360,
+      scale: 1.5,
+      repeat: -1,
+      yoyo: true,
+      ease: 'power1.inOut'
+    })
+  }
 
-  three: `${creativeLibImports.three}\n<script>\n\t/* global THREE */\n\tlet scene, camera, renderer, cube\n\tlet width = 400\n\tlet height = 400\n\t\t\n\tfunction setup () {\n\t\tscene = new THREE.Scene()\n\t\tcamera = new THREE.PerspectiveCamera(75, width/height, 0.1, 1000)\n\n\t\trenderer = new THREE.WebGLRenderer()\n\t\trenderer.setSize(width, height)\n\t\tdocument.body.appendChild(renderer.domElement)\n\n\t\tconst geometry = new THREE.BoxGeometry(1, 1, 1)\n\t\tconst material = new THREE.MeshNormalMaterial()\n\t\tcube = new THREE.Mesh(geometry, material)\n\t\tscene.add(cube)\n\n\t\tcamera.position.z = 2\n\t}\n\t\n\tfunction animate() {\n\t\trequestAnimationFrame(animate)\n\t\n\t\tcube.rotation.x += 0.01\n\t\tcube.rotation.y += 0.01\n\n\t\trenderer.render(scene, camera)\n\t}\n\n\twindow.addEventListener('load', setup)\n\twindow.addEventListener('load', animate)\n\t\n</script>`,
+  window.addEventListener('load', setup)
+</script>`,
 
-  tone: `<div>click anywhere to play a note</div>\n${creativeLibImports.tone}\n<script>\n\t/* global Tone */\n\tlet synth\n\tfunction setup () {\n\t\tsynth = new Tone.Synth().toDestination()\n\t}\n\t\n\tfunction play () {\n\t\tsynth.triggerAttackRelease('C4', '8n')\n\t}\n\t\n\twindow.addEventListener('load', setup)\n\twindow.addEventListener('click', play)\n</script>`
+  hydra: `${creativeLibImports.hydra}
+<script>
+  /* global Hydra, osc */
+  function setup() {
+    const canvas = document.createElement('canvas')
+    canvas.width = 400
+    canvas.height = 400
+
+    const hydra = new Hydra({
+      canvas,
+      detectAudio: false
+    })
+
+    osc(10, 0.1, 1.2)
+      .color(0.9, 0.8, 0.2)
+      .out()
+
+    document.body.appendChild(hydra.canvas)
+  }
+
+  window.addEventListener('load', setup)
+</script>`,
+
+  nn: `${creativeLibImports.nn}
+<script>
+  /* global nn */
+  function randomBG () {
+    nn.get('body')
+      .css({ background: nn.randomColor() })
+  }
+
+  nn.on('load', randomBG)
+  nn.on('click', randomBG)
+</script>`,
+
+  p5: `${creativeLibImports.p5}
+<script>
+  /* global p5 */
+  let sketch = (p) => {
+    p.setup = () => {
+      p.createCanvas(400, 400)
+      p.background(0, 255, 255)
+    }
+
+    p.draw = () => {
+      p.fill(255, 0, 200)
+      p.ellipse(p.mouseX, p.mouseY, 50, 50)
+    }
+  }
+  new p5(sketch)
+</script>`,
+
+  paper: `<div>click on the canvas below</div>
+${creativeLibImports.paper}
+<script>
+  /* global paper */
+  const circles = []
+
+  // function to run when we click on the canvas
+  function click(event) {
+    const circle = new paper.Path.Circle({
+      center: event.point,
+      radius: 20,
+      fillColor: 'blue',
+      strokeColor: 'black',
+      strokeWidth: 2
+    })
+
+    circles.push(circle)
+
+    // Animate the circle's radius
+    circle.onFrame = function() {
+      this.scale(0.99)
+      if (this.bounds.width < 1) {
+        this.remove()
+        circles.splice(circles.indexOf(this), 1)
+      }
+    }
+  }
+
+  function setup() {
+    // Create and append the canvas to the document body
+    const canvas = document.createElement('canvas')
+    canvas.width = 400
+    canvas.height = 400
+    document.body.appendChild(canvas)
+
+    // Setup Paper.js with the created canvas
+    paper.setup(canvas)
+
+    // Create a background rectangle
+    new paper.Path.Rectangle({
+      point: [0, 0],
+      size: [400, 400],
+      fillColor: '#f0f0f0'
+    })
+
+    // Function to handle mouse clicks
+    paper.view.attach('mousedown', click)
+  }
+
+  window.addEventListener('load', setup)
+</script>`,
+
+  three: `${creativeLibImports.three}
+<script>
+  /* global THREE */
+  let scene, camera, renderer, cube
+  let width = 400
+  let height = 400
+
+  function setup() {
+    scene = new THREE.Scene()
+    camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000)
+
+    renderer = new THREE.WebGLRenderer()
+    renderer.setSize(width, height)
+    document.body.appendChild(renderer.domElement)
+
+    const geometry = new THREE.BoxGeometry(1, 1, 1)
+    const material = new THREE.MeshNormalMaterial()
+    cube = new THREE.Mesh(geometry, material)
+    scene.add(cube)
+
+    camera.position.z = 2
+  }
+
+  function animate() {
+    requestAnimationFrame(animate)
+
+    cube.rotation.x += 0.01
+    cube.rotation.y += 0.01
+
+    renderer.render(scene, camera)
+  }
+
+  window.addEventListener('load', setup)
+  window.addEventListener('load', animate)
+</script>`,
+
+  tone: `<div>click anywhere to play a note</div>
+${creativeLibImports.tone}
+<script>
+  /* global Tone */
+  let synth
+
+  function setup() {
+    synth = new Tone.Synth().toDestination()
+  }
+
+  function play() {
+    synth.triggerAttackRelease('C4', '8n')
+  }
+
+  window.addEventListener('load', setup)
+  window.addEventListener('click', play)
+</script>`
 }
 
 const snippets = {
@@ -62,7 +261,16 @@ const snippets = {
     a: 'a href="#"><CURSOR_GOES_HERE></a>',
     'a (new tab)': '<a href="#" target="_blank"><CURSOR_GOES_HERE></a>',
     img: 'img src="<CURSOR_STARTS_HERE>filename.jpg<CURSOR_ENDS_HERE>" alt="description of image">',
-    'html (template)': '<!DOCTYPE html>\n<html lang="en-US">\n\t<head>\n\t\t<meta charset="utf-8">\n\t\t<title>Untitled</title>\n\t</head>\n\t<body>\n\t\t<CURSOR_GOES_HERE>\n\t</body>\n</html>\n',
+    'html (template)': `<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <title>Untitled</title>
+  </head>
+  <body>
+    <CURSOR_GOES_HERE>
+  </body>
+</html>`,
     'script (d3.js)': creativeLibImports.d3,
     'script (gsap.js)': creativeLibImports.gsap,
     'script (hydra.js)': creativeLibImports.hydra,
@@ -79,7 +287,14 @@ const snippets = {
     'paper.js (template)': creativeLibTemplates.paper,
     'three.js (template)': creativeLibTemplates.three,
     'tone.js (template)': creativeLibTemplates.tone,
-    svg: '<svg width="200" height="200">\n\t<circle\n\t\tcx="100"\n\t\tcy="120"\n\t\tr="70"\n\t\tfill="pink">\n\t</circle>\n</svg>'
+    svg: `<svg width="200" height="200">
+  <circle
+    cx="100"
+    cy="120"
+    r="70"
+    fill="pink">
+  </circle>
+</svg>`
   },
   svg: {},
   css: {
