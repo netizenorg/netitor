@@ -26,18 +26,18 @@ const list = (type, str) => {
 }
 
 const creativeLibImports = {
-  d3: '<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.4/d3.min.js"></script>',
+  d3: '<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>',
   gsap: '<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>',
   hydra: '<script src="https://unpkg.com/hydra-synth@1.3.29/dist/hydra-synth.js"></script>',
   nn: '<script src="https://cdn.jsdelivr.net/gh/netizenorg/netnet-standard-library/build/nn.min.js"></script>',
   p5: '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>',
   paper: '<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.min.js"></script>',
   three: '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.1/three.js"></script>',
-  tone: '<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.39/Tone.min.js"></script>'
+  tone: '<script src="https://unpkg.com/tone"></script>'
 }
 
 const creativeLibTemplates = {
-  d3: `${creativeLibImports.d3}\n<script>\n\t/* global d3 */\n\tfunction setup () {\n\t\tconst data = [30, 86, 168, 281, 303, 365]\n\t\tconst width = 400\n\t\tconst height = 400\n\t\tconst barWidth = width / data.length\n\n\t\tconst svg = d3.select('body')\n\t\t\t.append('svg')\n\t\t\t.attr('width', width)\n\t\t\t.attr('height', height)\n\n\t\tsvg.selectAll('rect')\n\t\t\t.data(data)\n\t\t\t.enter()\n\t\t\t\t.append('rect')\n\t\t\t\t.attr('x', (d, i) => i * barWidth)\n\t\t\t\t.attr('y', d => height - d)\n\t\t\t\t.attr('width', barWidth - 5)\n\t\t\t\t.attr('height', d => d)\n\t\t\t\t.style('fill', 'teal')\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
+  d3: `${creativeLibImports.d3}\n<script>\n\t/* global d3 */\n\tfunction setup () {\n\t\tconst data = [30, 86, 168, 281, 303, 365]\n\t\tconst width = 400\n\t\tconst height = 400\n\t\tconst barWidth = width / data.length\n\n\t\tconst svg = d3.select('body')\n\t\t\t.append('svg')\n\t\t\t.attr('width', width)\n\t\t\t.attr('height', height)\n\n\t\tsvg.selectAll('rect')\n\t\t\t.data(data)\n\t\t\t.enter()\n\t\t\t.append('rect')\n\t\t\t.attr('x', (d, i) => i * barWidth)\n\t\t\t.attr('y', d => height - d)\n\t\t\t.attr('width', barWidth - 5)\n\t\t\t.attr('height', d => d)\n\t\t\t.style('fill', 'teal')\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
 
   gsap: `${creativeLibImports.gsap}\n<script>\n\t/* global gsap */\n\tfunction setup () {\n\t\t// Create a box element\n\t\tconst box = document.createElement('div')\n\t\tbox.style.width = '100px'\n\t\tbox.style.height = '100px'\n\t\tbox.style.backgroundColor = 'red'\n\t\tbox.style.position = 'absolute'\n\t\tbox.style.top = '50px'\n\t\tbox.style.left = '50px'\n\t\tdocument.body.appendChild(box)\n\t\t\n\t\t// Animate the box using GSAP\n\t\tgsap.to(box, {\n\t\t\tduration: 2,\n\t\t\tx: 300,\n\t\t\trotation: 360,\n\t\t\tscale: 1.5,\n\t\t\trepeat: -1,\n\t\t\tyoyo: true,\n\t\t\tease: 'power1.inOut'\n\t\t})\n\t}\n\t\n\twindow.addEventListener('load', setup)\n</script>`,
 
@@ -78,7 +78,8 @@ const snippets = {
     'p5.js (template)': creativeLibTemplates.p5,
     'paper.js (template)': creativeLibTemplates.paper,
     'three.js (template)': creativeLibTemplates.three,
-    'tone.js (template)': creativeLibTemplates.tone
+    'tone.js (template)': creativeLibTemplates.tone,
+    svg: '<svg width="200" height="200">\n\t<circle\n\t\tcx="100"\n\t\tcy="120"\n\t\tr="70"\n\t\tfill="pink">\n\t</circle>\n</svg>'
   },
   svg: {},
   css: {
