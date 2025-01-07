@@ -173,7 +173,7 @@ class Netitor {
   set language (v) {
     this._lang = v
     this._temp_code_str = this.code
-    const curEditor = document.querySelector('.CodeMirror.cm-s-netizen')
+    const curEditor = this.cm.getWrapperElement()
     if (curEditor instanceof HTMLElement) this.ele.removeChild(curEditor)
     this.cm = null
     this._createEditor()
@@ -625,7 +625,7 @@ class Netitor {
   }
 
   _repositionGutterMarkers () {
-    const x = document.querySelector('.CodeMirror-gutter-elt').offsetWidth
+    const x = this.ele.querySelector('.CodeMirror-gutter-elt').offsetWidth
     this.ele.querySelectorAll('.netitor-gutter-marker').forEach(m => {
       m.style.transform = `translate(${x}px, 9px)`
     })
@@ -653,7 +653,7 @@ class Netitor {
   }
 
   async _update (cm) {
-    const h = document.querySelector('.CodeMirror-hints')
+    const h = this.ele.querySelector('.CodeMirror-hints')
     if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
     this.errz = (this._lint && !h) ? await linter(cm) : []
     this.errz = this.errz.length > 0 ? this._rmvExceptions(this.errz) : this.errz
@@ -664,7 +664,7 @@ class Netitor {
   // NOTE: this.update() >> calls >>  this._updateRenderIframe()
 
   _updateRenderIframe () {
-    const showingHint = document.querySelector('.CodeMirror-hints.netizen')
+    const showingHint = this.ele.querySelector('.CodeMirror-hints.netizen')
     if (showingHint) return
 
     // this ensures that <a href="#some-id"> elements work as expected
