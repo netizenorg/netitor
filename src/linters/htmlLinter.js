@@ -7,7 +7,7 @@ const svgAttr = require('../edu-data/html/svg-attributes.json')
 const HTMLStandardsRules = {
   'standard-elements': true,
   'standard-attributes': true,
-  'avoid-trailing-slashes': true,
+  'avoid-trailing-slashes': false, // gets in the way with SVG conventions these days
   'declare-document-language': true,
   'declare-document-charset': false, // not necesssary these days
   'declare-document-doctype': true

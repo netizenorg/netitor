@@ -321,9 +321,9 @@ class HTMLStandards {
       errz = errz.concat(this.verifyStandardAttributes(doc, code))
     }
 
-    if (this.checkRule(rules, 'avoid-trailing-slashes')) {
-      errz = errz.concat(this.verifyTrailingSlashes(doc, code))
-    }
+    // if (this.checkRule(rules, 'avoid-trailing-slashes')) {
+    //   errz = errz.concat(this.verifyTrailingSlashes(doc, code))
+    // }
 
     if (this.checkRule(rules, 'declare-document-language')) {
       errz = errz.concat(this.verifyLanAttr(doc, code))
