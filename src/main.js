@@ -368,7 +368,17 @@ class Netitor {
       .catch(err => this.err(err))
   }
 
-  tidy () { this._tidy() }
+  tidy (code, lang = 'html') {
+    if (code) {
+      lang = lang.toLowerCase()
+      const o = { indent_size: 2, indent_inner_html: true, extra_liners: [] }
+      const clean = (lang === 'css')
+        ? beautifyCSS(code, o) : (lang === 'javascript' || lang === 'js')
+          ? beautifyJS(code, o) : beautifyHTML(code, o)
+
+      return clean
+    } else this._tidy() // tidy this editor's code
+  }
 
   addCustomRoot (path) {
     if (path === null) {
