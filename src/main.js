@@ -535,7 +535,15 @@ class Netitor {
     //     cm.replaceSelection(spaces)
     //   }
     // })
-
+    this.cm.on('inputRead', (cm, change) => {
+      if (!this._hint) return
+      if (cm.state.completionActive) return
+      const origin = change && change.origin
+      if (origin !== '+input' && origin !== 'input') return
+      const txt = (change && change.text ? change.text : []).join('')
+      if (!/[\w\-.:#]/.test(txt)) return
+      if (this._shouldHint(cm)) cm.showHint()
+    })
     this.cm.on('change', (cm, co) => this._delayUpdate(cm, co))
     this.cm.on('renderLine', (cm, line, elt) => {
       const wrap = cm.getOption('lineWrapping')
@@ -678,19 +686,18 @@ class Netitor {
   }
 
   async _update (cm) {
-    const h = this.ele.querySelector('.CodeMirror-hints')
-    if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
-    this.errz = (this._lint && !h) ? await linter(cm) : []
+    const active = !!cm.state.completionActive
+    this.errz = (this._lint && !active) ? await linter(cm) : []
     this.errz = this.errz.length > 0 ? this._rmvExceptions(this.errz) : this.errz
     this.errz = this.errz.sort((a, b) => (a.type === 'error' ? 0 : 1) - (b.type === 'error' ? 0 : 1))
     if (this.errz) this.emit('lint-error', this.errz)
-    if (this._auto && !h && this._passThroughErrz(this.errz)) this.update()
+    if (this._auto && !active && this._passThroughErrz(this.errz)) this.update()
   }
 
   // NOTE: this.update() >> calls >>  this._updateRenderIframe()
 
   _updateRenderIframe () {
-    const showingHint = this.ele.querySelector('.CodeMirror-hints.netizen')
+    const showingHint = !!this.cm.state.completionActive
     if (showingHint) return
 
     // this ensures that <a href="#some-id"> elements work as expected
