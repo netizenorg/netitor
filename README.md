@@ -336,17 +336,31 @@ In some cases you may notice these errors in your console `The resource from “
 
 
 ```js
-function example (event) {
-  // do something when some event happens
+function example (data, eventObj) {
+  // handle the event
 }
 
-ne.on('event-name', example) // register a function
-ne.remove('event-name', example) // remove a registered function
+// Register a listener
+const unsubscribe = ne.on('event-name', example)
+
+// Later: remove it via the returned unsubscribe...
+unsubscribe()
+
+// ...or explicitly by event + callback
+ne.off('event-name', example)
+
+// Clear all listeners for an event
+ne.off('event-name')
+
+// One-time listener (removed after first call)
+ne.once('event-name', (data, eventObj) => {
+  // runs only once
+})
+
 ```
 
 You can attach (and remove) functions which you'd like to fire on any of the netitor's various events (listed below).
 <br><br>
-
 
 
 **code-update**: This fires every time the code in the netitor changes. The callback function is passed two arguments, the first is a string containing all the code currently in the editor (essentially the same as `ne.code`) the second is an object containing information about what whas just updated `{ from, to, text, removed, origin }`

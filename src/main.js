@@ -211,20 +211,65 @@ class Netitor {
   }
 
   on (event, callback) {
-    if (Object.prototype.hasOwnProperty.call(this.events, event)) {
-      this.events[event].push(callback)
-    } else this.err(`${event} is not a valid event`)
+    if (!Object.prototype.hasOwnProperty.call(this.events, event)) {
+      this.err(`${event} is not a valid event`)
+      return () => {}
+    }
+    this.events[event].push(callback)
+    // return an unsubscribe function
+    return () => this.off(event, callback)
   }
 
-  remove (event, callback) {
-    this.events[event] = this.events[event].filter(f => f !== callback)
+  off (event, callback) {
+    if (!Object.prototype.hasOwnProperty.call(this.events, event)) {
+      this.err(`${event} is not a valid event`)
+      return 0
+    }
+
+    const list = this.events[event]
+
+    if (typeof callback !== 'function') {
+      const n = list.length
+      list.length = 0
+      return n
+    }
+
+    let removed = 0
+    for (let i = list.length - 1; i >= 0; i--) {
+      const fn = list[i]
+      const orig = fn && fn._orig
+      if (fn === callback || orig === callback) {
+        list.splice(i, 1)
+        removed++
+      }
+    }
+    return removed
+  }
+
+  // once(event, fn) that auto-unsubscribes after first call
+  once (event, callback) {
+    const wrap = (data, eventObj) => {
+      this.off(event, wrap)
+      callback(data, eventObj)
+    }
+    wrap._orig = callback
+    return this.on(event, wrap)
   }
 
   emit (event, data, eventObj) {
-    if (Object.prototype.hasOwnProperty.call(this.events, event)) {
-      // if (typeof this.events[event] === 'function') this.events[event](data)
-      this.events[event].forEach(f => f(data, eventObj))
-    } else this.err(`${event} is not a valid event`)
+    if (!Object.prototype.hasOwnProperty.call(this.events, event)) {
+      this.err(`${event} is not a valid event`)
+      return 0
+    }
+
+    // snapshot so listeners can add/remove safely during emit
+    const snapshot = this.events[event].slice()
+    let called = 0
+    for (const fn of snapshot) {
+      fn(data, eventObj)
+      called++
+    }
+    return called
   }
 
   scrollTo (lineNumber, callback) {
