@@ -1,5 +1,5 @@
 const htmlEles = require('../edu-data/html/elements.json')
-const svgEles = require('../edu-data/html/svg-elements.json')
+// const svgEles = require('../edu-data/html/svg-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
 const HTMLStandards = require('./html-standards-validator.js')
 
@@ -131,10 +131,12 @@ const translate = {
     const end = msg.includes('></') ? '></' : '> ]'
     const tagname = parseKeyword({ message: msg, start: '[ <', end })
     const missingOpen = msg.includes('no start tag') || tagname[0] !== '/'
-    // then check for spelling error
+    // then check for spelling error (if not suggest a potential missing bracket)
     const smatch = HTMLStandards.checkSpelling(tagname, 'elements')
     const element = tagname.replace('/', '')
-    const suggest = (smatch && element !== smatch) ? ` Did you mean to write <strong>"${smatch}"</strong>?` : ''
+    const suggest = (smatch && element !== smatch)
+      ? `Did you mean to write <strong>"${smatch}"</strong>?`
+      : 'Make sure you\'re not missing a <code>&lt;</code> <code>/</code> or <code>&gt;</code> somewhere.'
     // get line number(s)
     let lineNums = []
     const line = msg.substring(msg.length - 2, msg.length - 1)
@@ -144,17 +146,18 @@ const translate = {
 
     if (missingOpen) {
       if (lineNums.length > 1) {
-        obj.friendly = `The closing <code>&lt;/${element}&gt;</code> tag on line ${lineNums[1]} seems to be missing its opening <code>&lt;${element}&gt;</code> tag somewhere before it, maybe there should be one near line ${lineNums[0]}?${suggest}`
+        obj.friendly = `The closing <code>&lt;/${element}&gt;</code> tag on line ${lineNums[1]} seems to be missing its opening <code>&lt;${element}&gt;</code> tag somewhere before it. ${suggest} Otherwise, I'd guess you need a <code>&lt;${element}&gt;</code> near line ${lineNums[0]} somewhere?`
       } else {
-        obj.friendly = `The closing <code>&lt;/${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its opening <code>&lt;${element}&gt;</code> tag somewhere before it.${suggest}`
+        obj.friendly = `The closing <code>&lt;/${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its opening <code>&lt;${element}&gt;</code> tag somewhere before it. ${suggest}`
       }
     } else { // missing closing tag
       if (lineNums.length > 1) {
-        obj.friendly = `The opening <code>&lt;${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its closing <code>&lt;/${element}&gt;</code> tag, maybe there should be one near line ${lineNums[1]}?.${suggest}`
+        obj.friendly = `The opening <code>&lt;${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its closing <code>&lt;/${element}&gt;</code> tag. ${suggest} Otherwise, I'd guess you need a <code>&lt;/${element}&gt;</code> near line ${lineNums[1]} somewhere?`
       } else {
-        obj.friendly = `The opening <code>&lt;${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its closing <code>&lt;/${element}&gt;</code> tag somewhere after it.${suggest}`
+        obj.friendly = `The opening <code>&lt;${element}&gt;</code> tag on line ${lineNums[0]} seems to be missing its closing <code>&lt;/${element}&gt;</code> tag somewhere after it. ${suggest}`
       }
     }
+    obj.line = missingOpen && lineNums.length > 1 ? lineNums[1] : lineNums[0]
     return obj
   },
   'tag-self-close': (obj) => {
@@ -241,17 +244,31 @@ const translate = {
     }).replace(/\s/g, '')
     const convert = { '<': 'lt;', '>': 'gt;', '&': 'amp;' }
     obj.type = 'warning'
-    const ele = obj.evidence.match(/\/?([a-zA-Z0-9]+)>?/)
-    let mb // maybe missing bracket
-    if (ele[1]) {
-      const isHTMLele = Object.prototype.hasOwnProperty.call(htmlEles, ele[1])
-      const isSVGele = Object.prototype.hasOwnProperty.call(svgEles, ele[1])
-      mb = (isHTMLele || isSVGele)
+    /*
+      // THIS WAS OLD LOGIC FOR SPOTTING POTENIAL MISSING TAGS,
+      // DON'T THINK WE NEED THIS ANYMORE (GIVEN OTHER UPDATES)
+
+      const ele = obj.evidence.match(/\/?([a-zA-Z0-9]+)>?/)
+      let mb // maybe missing bracket
+      if (ele[1]) {
+        const isHTMLele = Object.prototype.hasOwnProperty.call(htmlEles, ele[1])
+        const isSVGele = Object.prototype.hasOwnProperty.call(svgEles, ele[1])
+        mb = (isHTMLele || isSVGele)
+      }
+
+      const avoidBrackets = `the <code>&${convert[char]}</code> is a special symbol in HTML used to denote an <a href="https://developer.mozilla.org/en-US/docs/Glossary/Element" target="_blank">element</a>'s <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag" target="_blank">tags</a>. ${mb ? 'If so, y' : 'Y'}ou might want to use <code>&amp;${convert[char]}</code> instead, which will appear like <code>&${convert[char]}</code> on your page.`
+      obj.friendly = mb
+        ? `Your <code>${ele[1]}</code> <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag" target="_blank">tag</a> might be missing a bracket. Or maybe you're trying to write the <code>&${convert[char]}</code> as content, but be carefull because ${avoidBrackets}`
+        : `Careful, ${avoidBrackets}`
+      return obj
+    */
+    obj.friendly = `The <code>&${convert[char]}</code> is a "reserved character" in HTML, which are symbols that the browser interprets as part of the code's syntax. Instead you should write <code>&amp;${convert[char]}</code> which will render this: <b>&${convert[char]}</b>.`
+    if (char === '<' || char === '>') {
+      obj.friendly += ' If you meant for that bracket to be part of a tag make sure it\'s in the right spot'
+      obj.friendly += (char === '<')
+        ? ', a <code>&lt;</code> should always have a tag name or a <code>/</code> right after it.'
+        : ', a <code>&gt;</code> should always have a tag name or attribute right before it.'
     }
-    const avoidBrackets = `the <code>&${convert[char]}</code> is a special symbol in HTML used to denote an <a href="https://developer.mozilla.org/en-US/docs/Glossary/Element" target="_blank">element</a>'s <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag" target="_blank">tags</a>. ${mb ? 'If so, y' : 'Y'}ou might want to use <code>&amp;${convert[char]}</code> instead, which will appear like <code>&${convert[char]}</code> on your page.`
-    obj.friendly = mb
-      ? `Your <code>${ele[1]}</code> <a href="https://developer.mozilla.org/en-US/docs/Glossary/Tag" target="_blank">tag</a> might be missing a bracket. Or maybe you're trying to write the <code>&${convert[char]}</code> as content, but be carefull because ${avoidBrackets}`
-      : `Careful, ${avoidBrackets}`
     return obj
   }
 }

@@ -682,6 +682,7 @@ class Netitor {
     if (this._hint && this._shouldHint(cm) && !h) cm.showHint()
     this.errz = (this._lint && !h) ? await linter(cm) : []
     this.errz = this.errz.length > 0 ? this._rmvExceptions(this.errz) : this.errz
+    this.errz = this.errz.sort((a, b) => (a.type === 'error' ? 0 : 1) - (b.type === 'error' ? 0 : 1))
     if (this.errz) this.emit('lint-error', this.errz)
     if (this._auto && !h && this._passThroughErrz(this.errz)) this.update()
   }
