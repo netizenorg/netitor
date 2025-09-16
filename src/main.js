@@ -318,6 +318,21 @@ class Netitor {
     } else execSpotlight()
   }
 
+  getMarkers () {
+    const markers = []
+    const doc = this.cm.getDoc()
+    const totalLines = doc.lineCount()
+    const gn = 'gutter-marker'
+    for (let i = 0; i < totalLines; ++i) {
+      const info = this.cm.lineInfo(i)
+      if (info && info.gutterMarkers && info.gutterMarkers[gn]) {
+        const element = info.gutterMarkers[gn]
+        markers.push({ line: i + 1, color: element.style.backgroundColor, element })
+      }
+    }
+    return markers
+  }
+
   marker (line, color, callback) {
     if (typeof line !== 'number') return this.cm.clearGutter('gutter-marker')
     const c = document.createElement('div')
