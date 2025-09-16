@@ -15,6 +15,62 @@ const colors = Object.keys(cssColors)
 const medias = Object.keys(spec.mediaFeatures)
   .map(key => { return { text: key + ': ', displayText: key } })
 
+function getDefinedCssVariables (cm, opts = {}) {
+  const { includeInlineStyles = false } = opts
+  const mode = String(cm.getOption('mode') || '').toLowerCase()
+  const docText = cm.getValue()
+  const cssBlocks = []
+
+  if (mode.includes('css') && !mode.includes('html')) {
+    cssBlocks.push(docText)
+  } else if (mode.includes('html')) {
+    // <style> ... </style>
+    const styleTagRe = /<style\b[^>]*>([\s\S]*?)<\/style>/gi
+    let m
+    while ((m = styleTagRe.exec(docText))) {
+      // If a type attribute exists and it's clearly not CSS, skip it
+      const tagOpen = docText.slice(m.index, m.index + docText.slice(m.index).indexOf('>') + 1)
+      const typeAttr = /type\s*=\s*(['"])([^'"]+)\1/i.exec(tagOpen)
+      const type = typeAttr ? typeAttr[2].toLowerCase() : 'text/css'
+      if (!typeAttr || /css|postcss/.test(type)) cssBlocks.push(m[1])
+    }
+
+    if (includeInlineStyles) {
+      // style="--x: 1rem; color: red"
+      const styleAttrRe = /style\s*=\s*(['"])([\s\S]*?)\1/gi
+      let a
+      while ((a = styleAttrRe.exec(docText))) cssBlocks.push(a[2])
+    }
+  } else {
+    // Fallback: treat whole doc as CSS
+    cssBlocks.push(docText)
+  }
+
+  const strip = str => {
+    // remove /* comments */ then neutralize quoted strings
+    let s = str.replace(/\/\*[\s\S]*?\*\//g, '')
+    s = s.replace(/'(?:\\.|[^'\\])*'/g, "''")
+    s = s.replace(/"(?:\\.|[^"\\])*"/g, '""')
+    return s
+  }
+
+  const names = new Set()
+  const declRe = /(^|[^\w-])(--[A-Za-z_][\w-]*)\s*:/g // --name:
+  const atPropRe = /@property\s+(--[A-Za-z_][\w-]*)\b/g // @property --name
+
+  for (const block of cssBlocks) {
+    const src = strip(block)
+
+    let m1
+    while ((m1 = atPropRe.exec(src))) names.add(m1[1])
+
+    let m2
+    while ((m2 = declRe.exec(src))) names.add(m2[2])
+  }
+
+  return Array.from(names).sort()
+}
+
 function propHintList (str) {
   const list = []
   for (const prop in cssProps) {
@@ -73,8 +129,12 @@ function cssHinter (token, cm) {
     return atRulesHintList(token.string, cm)
   } else if (state === 'prop' && token.type === 'variable') {
     return valHintList(token.string, cm)
-  } else if (state.includes('parens')) {
+  } else if (state.includes('atBlock_parens')) {
     return medias
+  } else if (state.includes('parens')) {
+    if (token.string.indexOf('-') === 0) {
+      return getDefinedCssVariables(cm)
+    } else return null
   } else {
     return mediaTypes(token.string, cm)
   }
