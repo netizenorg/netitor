@@ -140,6 +140,10 @@ async function linter (code) {
     err[i].language = 'css'
   }
 
+  // ignore no-descending-specificity for :root above pseudo-classes
+  const rmv = '":root" to come before selector "::'
+  err = err.filter(e => !(e.rule === 'no-descending-specificity' && e.message.includes(rmv)))
+
   return err
 }
 
