@@ -704,6 +704,7 @@ class Netitor {
   }
 
   _repositionGutterMarkers () {
+    if (!this.ele.querySelector('.CodeMirror-gutter-elt')) return
     const x = this.ele.querySelector('.CodeMirror-gutter-elt').offsetWidth
     this.ele.querySelectorAll('.netitor-gutter-marker').forEach(m => {
       m.style.transform = `translate(${x}px, 9px)`
