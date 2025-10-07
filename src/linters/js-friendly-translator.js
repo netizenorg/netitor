@@ -190,11 +190,11 @@ const dict = {
   // ..
   // W001: "'hasOwnProperty' is a really bad name.",
   // W002: "Value of '{a}' may be overwritten in IE 8 and earlier.",
-  W003: (obj) => {
-    obj.friendly = `'${cde(obj.jshint.a)}' was used before it was defined. This will work fine because JavaScript will ${lnk('hoist', 'https://developer.mozilla.org/en-US/docs/Glossary/Hoisting')} it for you, but it may lead to some confusing code.`
-    obj.type = 'warning'
-    return obj
-  },
+  // W003: (obj) => {
+  //   obj.friendly = `'${cde(obj.jshint.a)}' was used before it was defined. This will work fine because JavaScript will ${lnk('hoist', 'https://developer.mozilla.org/en-US/docs/Glossary/Hoisting')} it for you, but it may lead to some confusing code.`
+  //   obj.type = 'warning'
+  //   return obj
+  // },
   // W004: "'{a}' is already defined.",
   // W005: "A dot following a number can be confused with a decimal point.",
   // W006: "Confusing minuses.",

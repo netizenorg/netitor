@@ -3,10 +3,10 @@ const globals = require('./js-globals.json')
 const JSTranslateError = require('./js-friendly-translator.js')
 
 const options = {
-  esversion: 8,
+  esversion: 11,
   undef: true, // catch undefined variables
-  latedef: true, // make sure they're defined before used
-  unused: true, // catch unused vars  // TODO: make 'warning'
+  latedef: 'nofunc', // must define var before used (allow hoisted funcs)
+  unused: true, // catch unused vars
   eqeqeq: true, // require === vs == (etc)
   varstmt: true, // prevent 'var'
   asi: true, // supress semicolon errors

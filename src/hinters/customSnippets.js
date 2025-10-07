@@ -278,7 +278,7 @@ ${creativeLibImports.tone}
     two.play() // start Two's "update" ~60fps
   }
 
-  function animate (frameCount) {
+  function animate () {
     // this runs every time two.update() is called
     if (group.scale > 0.9999) {
       group.scale = group.rotation = 0
