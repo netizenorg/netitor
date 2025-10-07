@@ -33,7 +33,8 @@ const creativeLibImports = {
   p5: '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>',
   paper: '<script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.12.15/paper-full.min.js"></script>',
   three: '<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.1/three.js"></script>',
-  tone: '<script src="https://unpkg.com/tone"></script>'
+  tone: '<script src="https://unpkg.com/tone"></script>',
+  two: '<script src="https://cdn.jsdelivr.net/npm/two.js@latest/build/two.js"></script>'
 }
 
 const creativeLibTemplates = {
@@ -250,6 +251,44 @@ ${creativeLibImports.tone}
 
   window.addEventListener('load', setup)
   window.addEventListener('click', play)
+</script>`,
+  two: `${creativeLibImports.two}
+<script>
+  /* global Two */
+  const two = new Two()
+  let group
+
+  function setup () {
+    two.appendTo(document.body)
+
+    const circle = two.makeCircle(-70, 0, 50)
+    const rect = two.makeRectangle(70, 0, 100, 100)
+    circle.fill = '#FF8000'
+    rect.fill = 'rgba(0, 200, 255, 0.75)'
+
+    const cx = two.width * 0.5
+    const cy = two.height * 0.5
+    group = two.makeGroup(circle, rect)
+    group.position.set(cx, cy)
+    group.scale = 0
+    group.noStroke()
+
+    // run animate everytime Two update
+    two.bind('update', animate)
+    two.play() // start Two's "update" ~60fps
+  }
+
+  function animate (frameCount) {
+    // this runs every time two.update() is called
+    if (group.scale > 0.9999) {
+      group.scale = group.rotation = 0
+    }
+    const t = (1 - group.scale) * 0.04
+    group.scale += t
+    group.rotation += t * 4 * Math.PI
+  }
+
+  window.addEventListener('load', setup)
 </script>`
 }
 
@@ -279,6 +318,7 @@ const snippets = {
     'script (paper.js)': creativeLibImports.paper,
     'script (three.js)': creativeLibImports.three,
     'script (tone.js)': creativeLibImports.tone,
+    'script (two.js)': creativeLibImports.two,
     'd3.js (template)': creativeLibTemplates.d3,
     'gsap.js (template)': creativeLibTemplates.gsap,
     'hydra.js (template)': creativeLibTemplates.hydra,
@@ -287,6 +327,7 @@ const snippets = {
     'paper.js (template)': creativeLibTemplates.paper,
     'three.js (template)': creativeLibTemplates.three,
     'tone.js (template)': creativeLibTemplates.tone,
+    'two.js (template)': creativeLibTemplates.two,
     svg: `<svg width="200" height="200">
   <circle
     cx="100"
