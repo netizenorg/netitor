@@ -76,8 +76,8 @@ const varNfo = {
     text: 'variable'
   },
   description: {
-    text: ' is a variable. A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. But one special thing about variables is that their contained values can change.',
-    html: '</code> is a variable. A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. But one special thing about variables is that their contained values can change.'
+    text: ' is a variable. When you want your program to remember a value, we store that value in a variable, a name we give to a slot in memory where your computer stores that value. Variables can hold different kinds of values, which we call their "data type"',
+    html: '</code> is a variable. When you want your program to remember a value, we store that value in a variable, a name we give to a slot in memory where your computer stores that value. Variables can hold different kinds of values, which we call their <i>data type</i>.'
   }
 }
 

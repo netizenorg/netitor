@@ -582,6 +582,7 @@ class Netitor {
     // })
     this.cm.on('inputRead', (cm, change) => {
       if (!this._hint) return
+      // avoid re-triggering hints while a menu is already active
       if (cm.state.completionActive) return
       const origin = change && change.origin
       if (origin !== '+input' && origin !== 'input') return
@@ -731,18 +732,20 @@ class Netitor {
   }
 
   async _update (cm) {
-    const active = !!cm.state.completionActive
-    this.errz = (this._lint && !active) ? await linter(cm) : []
+    // treat hint menu as open only when the DOM menu exists
+    const hintOpen = !!document.querySelector('.CodeMirror-hints')
+    this.errz = (this._lint && !hintOpen) ? await linter(cm) : []
     this.errz = this.errz.length > 0 ? this._rmvExceptions(this.errz) : this.errz
     this.errz = this.errz.sort((a, b) => (a.type === 'error' ? 0 : 1) - (b.type === 'error' ? 0 : 1))
     if (this.errz) this.emit('lint-error', this.errz)
-    if (this._auto && !active && this._passThroughErrz(this.errz)) this.update()
+    if (this._auto && !hintOpen && this._passThroughErrz(this.errz)) this.update()
   }
 
   // NOTE: this.update() >> calls >>  this._updateRenderIframe()
 
   _updateRenderIframe () {
-    const showingHint = !!this.cm.state.completionActive
+    // only block rendering when the hint menu is actually visible
+    const showingHint = !!document.querySelector('.CodeMirror-hints')
     if (showingHint) return
 
     // this ensures that <a href="#some-id"> elements work as expected
