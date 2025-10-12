@@ -26,6 +26,7 @@ const list = (type, str) => {
 }
 
 const creativeLibImports = {
+  anime: '<script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>',
   d3: '<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>',
   gsap: '<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>',
   hydra: '<script src="https://unpkg.com/hydra-synth@1.3.29/dist/hydra-synth.js"></script>',
@@ -38,6 +39,37 @@ const creativeLibImports = {
 }
 
 const creativeLibTemplates = {
+  anime: `${creativeLibImports.anime}
+<script>
+  /* global anime */
+
+  function setup () {
+    const el = document.createElement('div')
+    el.textContent = 'Welcome!'
+    el.style.fontSize = '64px'
+    el.style.margin = '240px auto'
+    el.style.width = 'fit-content'
+    document.body.appendChild(el)
+
+    const { chars } = anime.splitText(el, {
+      words: false,
+      chars: true
+    })
+
+    anime.animate(chars, {
+      y: [
+        { to: '-2.75rem', ease: 'outExpo', duration: 600 },
+        { to: 0, ease: 'outBounce', duration: 800, delay: 100 }
+      ],
+      rotate: { from: '-360deg', delay: 100 },
+      delay: anime.stagger(50),
+      loopDelay: 1000,
+      loop: true
+    })
+  }
+
+  window.addEventListener('load', setup)
+</script>`,
   d3: `${creativeLibImports.d3}
 <script>
   /* global d3 */
@@ -310,6 +342,7 @@ const snippets = {
     <CURSOR_GOES_HERE>
   </body>
 </html>`,
+    'script (anime.js)': creativeLibImports.anime,
     'script (d3.js)': creativeLibImports.d3,
     'script (gsap.js)': creativeLibImports.gsap,
     'script (hydra.js)': creativeLibImports.hydra,
@@ -319,6 +352,7 @@ const snippets = {
     'script (three.js)': creativeLibImports.three,
     'script (tone.js)': creativeLibImports.tone,
     'script (two.js)': creativeLibImports.two,
+    'anime.js (template)': creativeLibTemplates.anime,
     'd3.js (template)': creativeLibTemplates.d3,
     'gsap.js (template)': creativeLibTemplates.gsap,
     'hydra.js (template)': creativeLibTemplates.hydra,
