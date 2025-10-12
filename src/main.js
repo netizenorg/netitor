@@ -171,6 +171,17 @@ class Netitor {
 
   get language () { return this._lang }
   set language (v) {
+    v = v.toLowerCase()
+    if (v === 'html') v = 'htmlmixed'
+    else if (v === 'md') v = 'markdown'
+    else if (v === 'js') v = 'javascript'
+    this._lang = v
+    this.cm.setOption('mode', v)
+    // NOTE: can't remember why we did it this way, instead of "setOption"
+    // but this is now causing issues with netnet projects && templates
+    // so going to use setOption, but leaving this old code here in case
+    // we realize some bigger justification for this && need to revisit it
+    /*
     this._lang = v
     this._temp_code_str = this.code
     const curEditor = this.cm.getWrapperElement()
@@ -179,6 +190,7 @@ class Netitor {
     this._createEditor()
     this.code = this._temp_code_str
     delete this._temp_code_str
+    */
   }
 
   get renderWithErrors () { return this._rerr }
