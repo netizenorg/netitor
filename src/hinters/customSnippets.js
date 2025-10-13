@@ -153,16 +153,13 @@ const creativeLibTemplates = {
 <script>
   /* global nn */
   function drawGifs () {
-    const rot = nn.getAll('img').length
-    const gif = 'https://netnet.studio/cd.gif'
     // if mouse is not (!) pressed down exit function
     if (!nn.mouseDown) return
     // otherwise, create a new gif
     nn.create('img')
-      .set('src', gif)
+      .set('src', 'https://netnet.studio/cd.gif')
       .positionOrigin('center')
       .position(nn.mouseX, nn.mouseY)
-      .rotate(rot)
       .css('pointer-events', 'none')
       .addTo('body')
   }
