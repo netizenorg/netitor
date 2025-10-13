@@ -42,7 +42,6 @@ const creativeLibTemplates = {
   anime: `${creativeLibImports.anime}
 <script>
   /* global anime */
-
   function setup () {
     const el = document.createElement('div')
     el.textContent = 'Welcome!'
@@ -73,7 +72,7 @@ const creativeLibTemplates = {
   d3: `${creativeLibImports.d3}
 <script>
   /* global d3 */
-  function setup() {
+  function setup () {
     const data = [30, 86, 168, 281, 303, 365]
     const width = 400
     const height = 400
@@ -101,7 +100,7 @@ const creativeLibTemplates = {
   gsap: `${creativeLibImports.gsap}
 <script>
   /* global gsap */
-  function setup() {
+  function setup () {
     // Create a box element
     const box = document.createElement('div')
     box.style.width = '100px'
@@ -130,7 +129,7 @@ const creativeLibTemplates = {
   hydra: `${creativeLibImports.hydra}
 <script>
   /* global Hydra, osc */
-  function setup() {
+  function setup () {
     const canvas = document.createElement('canvas')
     canvas.width = 400
     canvas.height = 400
@@ -153,13 +152,24 @@ const creativeLibTemplates = {
   nn: `${creativeLibImports.nn}
 <script>
   /* global nn */
-  function randomBG () {
-    nn.get('body')
-      .css({ background: nn.randomColor() })
+  function drawGifs () {
+    const rot = nn.getAll('img').length
+    const gif = 'https://netnet.studio/cd.gif'
+    // if mouse is not (!) pressed down exit function
+    if (!nn.mouseDown) return
+    // otherwise, create a new gif
+    nn.create('img')
+      .set('src', gif)
+      .positionOrigin('center')
+      .position(nn.mouseX, nn.mouseY)
+      .rotate(rot)
+      .css('pointer-events', 'none')
+      .addTo('body')
   }
 
-  nn.on('load', randomBG)
-  nn.on('click', randomBG)
+  // click and drag mouse across the screen
+  // to draw new gif img elements
+  nn.on('mousemove', drawGifs)
 </script>`,
 
   p5: `${creativeLibImports.p5}
@@ -179,53 +189,49 @@ const creativeLibTemplates = {
   new p5(sketch)
 </script>`,
 
-  paper: `<div>click on the canvas below</div>
-${creativeLibImports.paper}
+  paper: `${creativeLibImports.paper}
 <script>
   /* global paper */
-  const circles = []
+  let path
+  const points = 25
+  const segLength = 10
 
-  // function to run when we click on the canvas
-  function click(event) {
-    const circle = new paper.Path.Circle({
-      center: event.point,
-      radius: 20,
-      fillColor: 'blue',
-      strokeColor: 'black',
-      strokeWidth: 2
-    })
-
-    circles.push(circle)
-
-    // Animate the circle's radius
-    circle.onFrame = function() {
-      this.scale(0.99)
-      if (this.bounds.width < 1) {
-        this.remove()
-        circles.splice(circles.indexOf(this), 1)
-      }
-    }
-  }
-
-  function setup() {
-    // Create and append the canvas to the document body
+  function setup () {
     const canvas = document.createElement('canvas')
-    canvas.width = 400
-    canvas.height = 400
+    canvas.width = 600
+    canvas.height = 600
     document.body.appendChild(canvas)
 
-    // Setup Paper.js with the created canvas
     paper.setup(canvas)
 
-    // Create a background rectangle
-    new paper.Path.Rectangle({
-      point: [0, 0],
-      size: [400, 400],
-      fillColor: '#f0f0f0'
+    path = new paper.Path({
+      strokeColor: 'red',
+      strokeWidth: 20,
+      strokeCap: 'round'
     })
 
-    // Function to handle mouse clicks
-    paper.view.attach('mousedown', click)
+    const start = paper.view.center.divide([10, 1])
+    for (let i = 0; i < points; i++) {
+      const seg = new paper.Point(i * segLength, 0)
+      const point = start.add(seg)
+      path.add(point)
+    }
+
+    paper.view.onMouseMove = update
+  }
+
+  function update (e) {
+    path.firstSegment.point = e.point
+
+    for (let i = 0; i < points - 1; i++) {
+      const seg = path.segments[i]
+      const nextSeg = seg.next
+      const vector = seg.point.subtract(nextSeg.point)
+      vector.length = segLength
+      nextSeg.point = seg.point.subtract(vector)
+    }
+
+    path.smooth({ type: 'continuous' })
   }
 
   window.addEventListener('load', setup)
@@ -238,7 +244,7 @@ ${creativeLibImports.paper}
   let width = 400
   let height = 400
 
-  function setup() {
+  function setup () {
     scene = new THREE.Scene()
     camera = new THREE.PerspectiveCamera(75, width / height, 0.1, 1000)
 
@@ -254,7 +260,7 @@ ${creativeLibImports.paper}
     camera.position.z = 2
   }
 
-  function animate() {
+  function animate () {
     requestAnimationFrame(animate)
 
     cube.rotation.x += 0.01
@@ -273,11 +279,11 @@ ${creativeLibImports.tone}
   /* global Tone */
   let synth
 
-  function setup() {
+  function setup () {
     synth = new Tone.Synth().toDestination()
   }
 
-  function play() {
+  function play () {
     synth.triggerAttackRelease('C4', '8n')
   }
 
