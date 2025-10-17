@@ -390,6 +390,28 @@ class Netitor {
     return markers
   }
 
+  clearMarkers (colorFilter) {
+    const gutterId = 'gutter-marker'
+    const doc = this.cm.getDoc()
+    const total = doc.lineCount()
+
+    const filterSet = Array.isArray(colorFilter)
+      ? new Set(colorFilter.map(c => c.toLowerCase())) : null
+
+    for (let line = 0; line < total; ++line) {
+      const info = this.cm.lineInfo(line)
+      let markerEl
+      if (info.gutterMarkers && info.gutterMarkers[gutterId]) {
+        markerEl = info.gutterMarkers[gutterId]
+      }
+      if (!markerEl) continue // no marker on this line, skip it
+      const bg = (markerEl.style.backgroundColor || '').trim().toLowerCase()
+      // if colorFilter, then only filter those out
+      if (filterSet && !filterSet.has(bg)) continue
+      this.cm.setGutterMarker(line, gutterId, null)
+    }
+  }
+
   marker (line, color, callback) {
     if (typeof line !== 'number') return this.cm.clearGutter('gutter-marker')
     const c = document.createElement('div')
