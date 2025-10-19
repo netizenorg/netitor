@@ -110,7 +110,7 @@ const stylelintRules = {
   'declaration-bang-space-before': 'always',
   'declaration-block-no-duplicate-properties': true,
   'declaration-block-no-shorthand-property-overrides': true,
-  'declaration-colon-space-after': 'always',
+  'declaration-colon-space-after': 'always-single-line',
   'declaration-colon-space-before': 'never',
   'function-name-case': 'lower',
   'function-linear-gradient-no-nonstandard-direction': true,
