@@ -465,10 +465,20 @@ class Netitor {
   tidy (code, lang = 'html') {
     if (code) {
       lang = lang.toLowerCase()
-      const o = { indent_size: 2, indent_inner_html: true, extra_liners: [] }
-      const clean = (lang === 'css')
+      const o = {
+        indent_size: 2,
+        indent_inner_html: true,
+        extra_liners: [],
+        // keep a space for anonymous functions: function () {}
+        space_after_anon_function: true
+      }
+
+      let clean = (lang === 'css')
         ? beautifyCSS(code, o) : (lang === 'javascript' || lang === 'js')
           ? beautifyJS(code, o) : beautifyHTML(code, o)
+
+      // Post-pass for named functions on all non-CSS content.
+      if (lang !== 'css') clean = this._addSpaceAfterFunctionNames(clean, lang)
 
       return clean
     } else this._tidy() // tidy this editor's code
@@ -1048,15 +1058,48 @@ class Netitor {
     const o = {
       indent_size: 2,
       indent_inner_html: true,
-      extra_liners: []
+      extra_liners: [],
+      // keep a space for anonymous functions: function () {}
+      space_after_anon_function: true
     }
 
-    const clean = (this._lang === 'css')
+    let clean = (this._lang === 'css')
       ? beautifyCSS(this.code, o) : (this._lang === 'javascript')
         ? beautifyJS(this.code, o) : beautifyHTML(this.code, o)
 
+    // Post-pass for named functions on all non-CSS content.
+    if (this._lang !== 'css') clean = this._addSpaceAfterFunctionNames(clean)
+
     if (!checkOnly) this.code = clean
     return this.code === clean
+  }
+
+  _addSpaceAfterFunctionNames (content, lang) {
+    // NOTE: this is here in order to conform to StandardJS's rule:
+    // https://eslint.org/docs/latest/rules/space-before-function-paren
+    // in future might makes sense to replace js-beautify with eslint/standardjs
+    // if we refactor, then we should get rid of this method
+    const addSpace = (s) => s.replace(
+      /\b(function\s*\*?\s+)([A-Za-z_$][\w$]*\s*(?:<[^>]*>)?)\(/g,
+      '$1$2 ('
+    )
+
+    const l = (lang || this._lang || '').toString().toLowerCase()
+    if (l === 'css') return content
+
+    // If explicit JS, transform whole string
+    if (l === 'javascript' || l === 'js') return addSpace(content)
+
+    // For HTML-like content, only transform inside <script> blocks
+    return content.replace(/<script\b[^>]*>([\s\S]*?)<\/script>/gi, (match) => {
+      const typeMatch = match.match(/type\s*=\s*(["'])(.*?)\1/i)
+      if (typeMatch) {
+        const t = typeMatch[2].toLowerCase()
+        const isJS = t.includes('javascript') || t.includes('ecmascript') || t === 'module' || t === 'text/module'
+        if (!isJS) return match
+      }
+      return match.replace(/(<script\b[^>]*>)([\s\S]*?)(<\/script>)/i, (m, open, body, close) => open + addSpace(body) + close)
+    })
   }
 
   _updateTheme (v) {
