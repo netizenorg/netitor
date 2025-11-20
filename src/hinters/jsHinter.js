@@ -24,7 +24,9 @@ const instances = {
   jsTarg: require('../edu-data/js/dom-event-target.json'),
   jsMedia: require('../edu-data/js/dom-media.json'),
   jsCanv: require('../edu-data/js/dom-canvas.json'),
-  jsCtx: require('../edu-data/js/canvas2d.json')
+  jsCtx: require('../edu-data/js/canvas2d.json'),
+  nnDOM: require('../edu-data/custom/nn-dom-element.json'),
+  nnCanvas: require('../edu-data/custom/nn-canvas.json')
 }
 
 // CSS properties for HTMLElement.style object
@@ -54,6 +56,21 @@ function evaluate (lines, root) {
   } else if (l.includes('.getContext(')) {
     return 'jsCtx'
   }
+
+  // detect nn overloaded elements based on assignment line
+  try {
+    const lower = l.toLowerCase()
+    if (lower.includes('nn.create(') || lower.includes('nn.get(')) {
+      const m = l.match(/nn\.(?:create|get)\(\s*['"]([^'"\s]+)/)
+      if (m && m[1]) {
+        // avoid escaping inside char class to satisfy lint: split on . or # first, then on [
+        const pre = m[1].split(/[.#]/)[0]
+        const tag = pre.split('[')[0].toLowerCase()
+        if (tag === 'canvas') return 'nnCanvas'
+      }
+      return 'nnDOM'
+    }
+  } catch (e) { /* ignore */ }
 
   try {
     // all these "stubs" && the addition of the list ('nn', 'document', etc)
@@ -108,17 +125,28 @@ function evaluate (lines, root) {
 
 function genList (str, obj, key) {
   const list = []
-  let o
-  if (key === 'jsDOM') {
-    o = { ...obj.jsDOM, ...obj.jsEle, ...obj.jsHTML, ...obj.jsTarg, ...obj.jsMedia, ...obj.jsCanv }
-  } else {
-    o = obj[key]
-  }
-  // ...
-  for (const prop in o) {
-    if (prop.includes(str)) {
-      list.push({ text: o[prop].keyword.text, displayText: prop })
+  const pushFrom = (o, seen) => {
+    if (!o) return
+    for (const prop in o) {
+      if (prop.includes(str) && (!seen || !seen.has(prop))) {
+        const kw = o[prop] && o[prop].keyword && o[prop].keyword.text
+        list.push({ text: kw || prop, displayText: prop })
+        if (seen) seen.add(prop)
+      }
     }
+  }
+  if (key === 'jsDOM') {
+    pushFrom({ ...obj.jsDOM, ...obj.jsEle, ...obj.jsHTML, ...obj.jsTarg, ...obj.jsMedia, ...obj.jsCanv })
+  } else if (key === 'nnDOM') {
+    const seen = new Set()
+    pushFrom(obj.nnDOM, seen)
+    pushFrom({ ...obj.jsDOM, ...obj.jsEle, ...obj.jsHTML, ...obj.jsTarg, ...obj.jsMedia, ...obj.jsCanv }, seen)
+  } else if (key === 'nnCanvas') {
+    const seen = new Set()
+    pushFrom(obj.nnCanvas, seen)
+    pushFrom({ ...obj.jsCanv, ...obj.jsCtx }, seen)
+  } else {
+    pushFrom(obj[key])
   }
   return list
 }

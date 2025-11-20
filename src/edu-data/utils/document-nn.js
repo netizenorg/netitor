@@ -1,5 +1,10 @@
 #!/usr/bin/env node
 
+// NOTE: the last time i updated the src/edu-data/custom/nn.min.js i did so manually
+// think we're going to need to update or replace this script so that it instead pulls
+// from something other than the .md docs as those have started shifting/changing
+// in netnet-standard-library since i last used this script
+
 /**
  * document-nn.js
  *

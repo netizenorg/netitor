@@ -42,10 +42,18 @@ function main (cm, options) {
     list = reOrder(list, tok.string)
   }
 
+  // Adjust insertion range so selecting a hint after a dot doesn't replace the dot
+  let fromCh = tok.start
+  let toCh = tok.end
+  if (lan === 'javascript' && tok.string === '.') {
+    fromCh = tok.end
+    toCh = tok.end
+  }
+
   return {
     list: list,
-    from: { line: pos.line, ch: tok.start },
-    to: { line: pos.line, ch: tok.end }
+    from: { line: pos.line, ch: fromCh },
+    to: { line: pos.line, ch: toCh }
   }
 }
 
