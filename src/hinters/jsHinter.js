@@ -56,13 +56,49 @@ function evaluate (lines, root) {
   }
 
   try {
-    if (new Function(`${l}\n return typeof ${root} === 'string'`)()) {
+    // all these "stubs" && the addition of the list ('nn', 'document', etc)
+    // inside the eval (new Function) is to avoide the side effect of executing
+    // lines of code that end up effecting the main page. I caught this when
+    // when doing this in the editor: const c = nn.create('canvas').addTo('body')
+    // and then triggering the code hinting on "c..."
+    const chain = new Proxy(function () {}, {
+      get: () => chain,
+      apply: () => chain
+    })
+    const nnStub = new Proxy({}, { get: () => chain })
+    const docStub = new Proxy({}, { get: () => chain })
+
+    const winStub = new Proxy({}, {
+      get: (t, p) => {
+        if (p === 'document') return docStub
+        if (p === 'innerWidth') return 1024
+        if (p === 'innerHeight') return 768
+        if (p === 'devicePixelRatio') return 1
+        if (p === 'alert' || p === 'confirm' || p === 'prompt') return () => undefined
+        if (p === 'setTimeout' || p === 'setInterval') return () => 0
+        if (p === 'requestAnimationFrame') return () => 0
+        if (p === 'open') return () => chain
+        if (p === 'location' || p === 'history' || p === 'localStorage' || p === 'sessionStorage' || p === 'navigator') {
+          return new Proxy({}, { get: () => chain })
+        }
+        return chain
+      }
+    })
+    const fetchStub = () => Promise.resolve(chain)
+    const toStub = () => 0
+    const iiStub = () => 0
+    const rafStub = () => 0
+    const alertStub = () => undefined
+    const confirmStub = () => false
+    const promptStub = () => null
+
+    if (new Function('nn', 'document', 'window', 'fetch', 'setTimeout', 'setInterval', 'requestAnimationFrame', 'alert', 'confirm', 'prompt', `${l}\n return typeof ${root} === 'string'`)(nnStub, docStub, winStub, fetchStub, toStub, iiStub, rafStub, alertStub, confirmStub, promptStub)) {
       return 'jsStrs'
-    } else if (new Function(`${l}\n return typeof ${root} === 'number'`)()) {
+    } else if (new Function('nn', 'document', 'window', 'fetch', 'setTimeout', 'setInterval', 'requestAnimationFrame', 'alert', 'confirm', 'prompt', `${l}\n return typeof ${root} === 'number'`)(nnStub, docStub, winStub, fetchStub, toStub, iiStub, rafStub, alertStub, confirmStub, promptStub)) {
       return 'jsNums'
-    } else if (new Function(`${l}\n return ${root} instanceof Array`)()) {
+    } else if (new Function('nn', 'document', 'window', 'fetch', 'setTimeout', 'setInterval', 'requestAnimationFrame', 'alert', 'confirm', 'prompt', `${l}\n return ${root} instanceof Array`)(nnStub, docStub, winStub, fetchStub, toStub, iiStub, rafStub, alertStub, confirmStub, promptStub)) {
       return 'jsArr'
-    } else if (new Function(`${l}\n return ${root} instanceof Date`)()) {
+    } else if (new Function('nn', 'document', 'window', 'fetch', 'setTimeout', 'setInterval', 'requestAnimationFrame', 'alert', 'confirm', 'prompt', `${l}\n return ${root} instanceof Date`)(nnStub, docStub, winStub, fetchStub, toStub, iiStub, rafStub, alertStub, confirmStub, promptStub)) {
       return 'jsDate'
     }
   } catch (err) {
