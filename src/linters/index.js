@@ -2,6 +2,37 @@ const htmlLinter = require('./htmlLinter.js')
 const cssLinter = require('./cssLinter.js')
 const jsLinter = require('./jsLinter.js')
 
+function localPathLinter (code, language) {
+  const errz = []
+  const lines = code.split('\n')
+  const localPathRE = /\b(file:\/\/\/?|[a-zA-Z]:[\\/]+|\/Users\/|\/home\/)[^\s"'`)<>]+/g
+
+  lines.forEach((str, idx) => {
+    let match
+    while ((match = localPathRE.exec(str))) {
+      const prefix = match[1]
+      const displayPath = prefix.indexOf('file://') === 0
+        ? 'file://...'
+        : /^[a-zA-Z]:/.test(prefix)
+          ? `${prefix[0]}:\\...`
+          : `${prefix}...`
+
+      errz.push({
+        language,
+        type: 'warning',
+        rule: 'local-path',
+        message: 'Local file paths will not work on the web.',
+        friendly: `It looks like you're using a local file path: <code>${displayPath}</code>. This might work on your computer, but it won't work for other people online because their browser can't access files from your machine. Use a relative path to a file in your project like <code>cat.jpg</code> or a web URL that starts with <code>https://</code>.`,
+        evidence: str,
+        line: idx + 1,
+        col: match.index + 1
+      })
+    }
+  })
+
+  return errz
+}
+
 function parseMixed (code) {
   const parser = new window.DOMParser()
   const doc = parser.parseFromString(code, 'text/html')
@@ -50,6 +81,8 @@ async function linter (cm) {
     errz = await concatErrz(errz, parsed, 'css')
     errz = await concatErrz(errz, parsed, 'js')
   }
+
+  errz = errz.concat(localPathLinter(code, lang))
 
   // HACK: not sure why, but some errors return e.line: 0 ???
   errz = errz.map(o => {
