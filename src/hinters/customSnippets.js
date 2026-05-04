@@ -7,9 +7,11 @@ const hint = (cm, self, data) => {
   const str = data.text
   cm.replaceSelection(str)
   const lines = (str.match(/\n/g) || '').length + 1
-  const t = { line: to.line + lines }
-  cm.setSelection(from, t)
-  cm.indentSelection('smart')
+  if (lines > 1) {
+    const t = { line: to.line + lines }
+    cm.setSelection(from, t)
+    cm.indentSelection('smart')
+  }
   // cm.setSelection(t)
 }
 
@@ -388,7 +390,7 @@ const snippets = {
     function: 'function <CURSOR_STARTS_HERE>name<CURSOR_ENDS_HERE> () {\n\n}\n',
     'canvas (template)': '// create canvas\nconst canvas = document.createElement(\'canvas\')\nconst ctx = canvas.getContext(\'2d\')\n\n// initial setup function (runs once)\nfunction setup () {\ndocument.body.appendChild(canvas)\n  \n}\n\n// draw loop (runs ~60 times a second)\nfunction draw () {\nrequestAnimationFrame(draw)\n  \n}\n\n// run setup() and draw() when page loads\nwindow.addEventListener(\'load\', setup)\nwindow.addEventListener(\'load\', draw)\n',
     'canvas (template++)': '// create canvas\nconst canvas = document.createElement(\'canvas\')\ncanvas.width = window.innerWidth\ncanvas.height = window.innerHeight\nconst ctx = canvas.getContext(\'2d\')\n\n// initial setup function (runs once)\nfunction setup () {\ndocument.body.appendChild(canvas)\nconst x = canvas.width / 2 - 50\nconst y = canvas.height / 2 - 50\nctx.fillRect(x, y, 100, 100)\n}\n\n// draw loop (runs ~60 times a second)\nfunction draw () {\nrequestAnimationFrame(draw)\nctx.fillStyle = \'pink\'\nconst x = Math.random() * canvas.width\nconst y = Math.random() * canvas.height\nctx.fillRect(x, y, 10, 10)\n}\n\n// run setup() and draw() when page loads\nwindow.addEventListener(\'load\', setup)\nwindow.addEventListener(\'load\', draw)\n',
-    log: 'console.log(<CURSOR_STARTS_HERE>\'hello world\'<CURSOR_ENDS_HERE>)'
+    log: 'console.log(<CURSOR_GOES_HERE>)'
   }
 }
 
