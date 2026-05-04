@@ -58,8 +58,6 @@ class Netitor {
     this._ferr = typeof opts.friendlyErr === 'boolean' ? opts.friendlyErr : true
     this._rerr = typeof opts.renderWithErrors === 'boolean'
       ? opts.renderWithErrors : false
-    this._ercb = typeof opts.errorCallback === 'function'
-      ? opts.errorCallback : null // NOTE: undocumented (not working as expected)
 
     this.events = {
       'lint-error': [],
@@ -786,48 +784,38 @@ class Netitor {
     if (this._auto && !hintOpen && this._passThroughErrz(this.errz)) this.update()
   }
 
+  // this ensures that <a href="#"> and <a href="#some-id"> elements work as expected
+  // also warn when they're not linking to id that doesn't exist on this page
+  _installIframeLinkGuard () {
+    const doc = this.iframe.contentDocument
+    if (!doc) return
+    doc.addEventListener('click', e => {
+      const link = e.target.closest && e.target.closest('a[href]')
+      if (!link) return
+      const href = link.getAttribute('href')
+      if (!href) return
+      const trimmed = href.trim()
+      if (trimmed === '#') { e.preventDefault(); return }
+      if (trimmed.startsWith('#')) {
+        e.preventDefault()
+        const id = decodeURIComponent(trimmed.slice(1))
+        const target = doc.getElementById(id)
+        if (target) target.scrollIntoView()
+        else {
+          const m = `( ◕ ◞ ◕ ): you're trying to link to a location on this page that doesn't exist, there is no element with an id of '${id}'`
+          // console.error(m)
+          throw new Error(m)
+        }
+      }
+    }, true)
+  }
+
   // NOTE: this.update() >> calls >>  this._updateRenderIframe()
 
   _updateRenderIframe () {
     // only block rendering when the hint menu is actually visible
     const showingHint = !!document.querySelector('.CodeMirror-hints')
     if (showingHint) return
-
-    // this ensures that <a href="#some-id"> elements work as expected
-    const fixAnchorLinks = (c) => {
-      if (this.language !== 'html') return c
-
-      const parser = new window.DOMParser()
-      const doc = parser.parseFromString(c, 'text/html')
-      const anchorTags = doc.querySelectorAll('a[href^="#"]')
-      if (anchorTags.length <= 0) return c
-
-      c += `
-      <script>
-        document.addEventListener('click', function(e) {
-          let target = e.target
-          while (target && target !== document) {
-            if (target.tagName === 'A') {
-              const href = target.getAttribute('href')
-              if (href && href.startsWith('#') && href.length > 1) {
-                e.preventDefault()
-                const id = decodeURIComponent(href.substring(1))
-                const element = document.getElementById(id)
-                if (element) {
-                  element.scrollIntoView()
-                } else {
-                  console.error("( ◕ ◞ ◕ ): you're trying to link to a location on this page that doesn't exist, there is no element with an id of '"+id+"'")
-                }
-              }
-              break
-            }
-            target = target.parentNode
-          }
-        })
-      </script>
-      `
-      return c
-    }
 
     // if browser doesn't support "srcdoc" update will need to recrate iframe
     const update = (c) => {
@@ -839,6 +827,7 @@ class Netitor {
         this.iframe.style.width = '100%'
         this.iframe.style.height = '100%'
         this.iframe.style.border = '0'
+        this.iframe.addEventListener('load', () => this._installIframeLinkGuard())
         this.render.appendChild(this.iframe)
         const content = this.iframe.contentDocument || this.iframe.contentWindow.document
         content.open()
@@ -852,11 +841,8 @@ class Netitor {
       this.iframe.style.width = '100%'
       this.iframe.style.height = '100%'
       this.iframe.style.border = '0'
+      this.iframe.addEventListener('load', () => this._installIframeLinkGuard())
       this.render.appendChild(this.iframe)
-      this.iframe.contentWindow.addEventListener('error', (err) => {
-        if (this._ercb) this._ercb(err) // NOTE: not working right
-        return true
-      })
     } else if (this.iframe.hasAttribute('srcdoc')) {
       this.iframe.removeAttribute('srcdoc')
     }
@@ -866,8 +852,6 @@ class Netitor {
     if (this._altSrcCode && code.includes('{{code}}')) {
       code = code.replace('{{code}}', this.code)
     }
-
-    code = fixAnchorLinks(code)
 
     if (this._lang === 'markdown') code = markdown.makeHtml(code)
 
