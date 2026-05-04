@@ -402,11 +402,11 @@ const dict = {
     }
     return obj
   },
-  W117: (obj) => {
-    obj.friendly = `You're trying to use the variable ${cde(obj.jshint.a)}, but you haven't previously created/defined it (at least not within the same ${lnk('scope', 'https://developer.mozilla.org/en-US/docs/Glossary/Scope')} as this line).`
-    obj.type = 'warning'
-    return obj
-  },
+  // W117: (obj) => {
+  //   obj.friendly = `You're trying to use the variable ${cde(obj.jshint.a)}, but you haven't previously created/defined it (at least not within the same ${lnk('scope', 'https://developer.mozilla.org/en-US/docs/Glossary/Scope')} as this line).`
+  //   obj.type = 'warning'
+  //   return obj
+  // },
   W118: (obj) => {
     obj.friendly = `The ${cde(obj.jshint.a)} is either obsolete or otherwise no longer available on the web. Try writing this a different way.`
     return obj

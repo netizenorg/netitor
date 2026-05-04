@@ -4,7 +4,6 @@ const JSTranslateError = require('./js-friendly-translator.js')
 
 const options = {
   esversion: 11,
-  undef: true, // catch undefined variables
   latedef: 'nofunc', // must define var before used (allow hoisted funcs)
   unused: true, // catch unused vars
   eqeqeq: true, // require === vs == (etc)

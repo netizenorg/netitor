@@ -43,7 +43,6 @@ const creativeLibImports = {
 const creativeLibTemplates = {
   anime: `${creativeLibImports.anime}
 <script>
-  /* global anime */
   function setup () {
     const el = document.createElement('div')
     el.textContent = 'Welcome!'
@@ -73,7 +72,6 @@ const creativeLibTemplates = {
 </script>`,
   d3: `${creativeLibImports.d3}
 <script>
-  /* global d3 */
   function setup () {
     const data = [30, 86, 168, 281, 303, 365]
     const width = 400
@@ -101,7 +99,6 @@ const creativeLibTemplates = {
 
   gsap: `${creativeLibImports.gsap}
 <script>
-  /* global gsap */
   function setup () {
     // Create a box element
     const box = document.createElement('div')
@@ -130,7 +127,6 @@ const creativeLibTemplates = {
 
   hydra: `${creativeLibImports.hydra}
 <script>
-  /* global Hydra, osc */
   function setup () {
     const canvas = document.createElement('canvas')
     canvas.width = 400
@@ -153,7 +149,6 @@ const creativeLibTemplates = {
 
   nn: `${creativeLibImports.nn}
 <script>
-  /* global nn */
   function drawGifs () {
     // if mouse is not (!) pressed down exit function
     if (!nn.mouseDown) return
@@ -173,7 +168,6 @@ const creativeLibTemplates = {
 
   p5: `${creativeLibImports.p5}
 <script>
-  /* global p5 */
   let sketch = (p) => {
     p.setup = () => {
       p.createCanvas(400, 400)
@@ -190,7 +184,6 @@ const creativeLibTemplates = {
 
   paper: `${creativeLibImports.paper}
 <script>
-  /* global paper */
   let path
   const points = 25
   const segLength = 10
@@ -238,7 +231,6 @@ const creativeLibTemplates = {
 
   three: `${creativeLibImports.three}
 <script>
-  /* global THREE */
   let scene, camera, renderer, cube
   let width = 400
   let height = 400
@@ -275,7 +267,6 @@ const creativeLibTemplates = {
   tone: `<div>click anywhere to play a note</div>
 ${creativeLibImports.tone}
 <script>
-  /* global Tone */
   let synth
 
   function setup () {
@@ -291,7 +282,6 @@ ${creativeLibImports.tone}
 </script>`,
   two: `${creativeLibImports.two}
 <script>
-  /* global Two */
   const two = new Two()
   let group
 
