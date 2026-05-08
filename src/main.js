@@ -869,7 +869,6 @@ class Netitor {
         if (this._proxy) code = prependProxyURL(code, this._proxy)
         update(code)
       }
-      if (!this._root) this._checkForCORSerr()
       this.emit('render-update')
     }
   }
@@ -879,36 +878,6 @@ class Netitor {
   _passThroughErrz (errz) {
     if (this._rerr) return true
     else return errz.length === 0
-  }
-
-  _checkForCORSerr () {
-    const emitErr = (path, err) => {
-      const lines = this.cm.getValue().split('\n')
-      const filtered = lines.filter(s => s.includes(path))
-      filtered.forEach(str => {
-        const arr = str.split('/')
-        const img = arr[arr.length - 1].replace(/"/g, '').replace(/>/g, '')
-        if (!this.errz) this.errz = []
-        this.errz.push({
-          type: 'error',
-          language: 'html',
-          message: err.toString(),
-          friendly: `The ${img} image you are trying to request is on a server that prevents "<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403" target="_blank">cross domain requests</a>"`,
-          line: lines.indexOf(str) + 1,
-          col: 0
-        })
-      })
-      this.emit('lint-error', this.errz)
-    }
-    // find all img elements, check for CORS errors
-    // ex: https://www.iconsdb.com/icons/preview/white/dvd-xxl.png
-    const iframe = this.render.querySelector('iframe')
-    let doc = iframe.contentWindow || iframe.contentDocument
-    if (doc.document) doc = doc.document
-    const paths = [...doc.querySelectorAll('img')]
-    paths.map(ele => ele.getAttribute('src')).forEach(p => {
-      window.fetch(p).then(r => { /* ok */ }).catch(e => emitErr(p, e))
-    })
   }
 
   _err2str (err, specific) {
