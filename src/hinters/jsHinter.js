@@ -1,7 +1,7 @@
 /* eslint-disable no-new-func */
 const jsRefs = require('../edu-data/js/refs.json')
 const jsEvents = require('../edu-data/js/events.json')
-const nnProps = require('../edu-data/custom/nn.min.js')
+const nnDocs = require('../edu-data/custom/nn-netitor-docs.json')
 const snippets = require('./customSnippets.js')
 
 const roots = {
@@ -25,8 +25,11 @@ const instances = {
   jsMedia: require('../edu-data/js/dom-media.json'),
   jsCanv: require('../edu-data/js/dom-canvas.json'),
   jsCtx: require('../edu-data/js/canvas2d.json'),
-  nnDOM: require('../edu-data/custom/nn-dom-element.json'),
-  nnCanvas: require('../edu-data/custom/nn-canvas.json')
+  nnDOM: nnDocs.nnDOM,
+  nnCanvas: nnDocs.nnCanvas,
+  nnSVG: nnDocs.nnSVG,
+  nnFilterVideo: nnDocs.nnFilterVideo,
+  nnHyper: nnDocs.nnHyper
 }
 
 // CSS properties for HTMLElement.style object
@@ -67,9 +70,12 @@ function evaluate (lines, root) {
         const pre = m[1].split(/[.#]/)[0]
         const tag = pre.split('[')[0].toLowerCase()
         if (tag === 'canvas') return 'nnCanvas'
+        if (tag === 'svg') return 'nnSVG'
       }
       return 'nnDOM'
     }
+    if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
+    if (lower.includes('nn.hyper(')) return 'nnHyper'
   } catch (e) { /* ignore */ }
 
   try {
@@ -145,16 +151,70 @@ function genList (str, obj, key) {
     const seen = new Set()
     pushFrom(obj.nnCanvas, seen)
     pushFrom({ ...obj.jsCanv, ...obj.jsCtx }, seen)
+  } else if (key === 'nnSVG') {
+    pushFrom(obj.nnSVG)
+  } else if (key === 'nnFilterVideo') {
+    pushFrom(obj.nnFilterVideo)
+  } else if (key === 'nnHyper') {
+    pushFrom(obj.nnHyper)
   } else {
     pushFrom(obj[key])
   }
   return list
 }
 
+function evaluateChainRoot (rootLine, cm) {
+  const lower = rootLine.toLowerCase()
+  // direct nn calls on the root line
+  if (lower.includes('nn.create(') || lower.includes('nn.get(')) {
+    const m = rootLine.match(/nn\.(?:create|get)\(\s*['"]([^'"\s]+)/)
+    if (m && m[1]) {
+      const pre = m[1].split(/[.#]/)[0]
+      const tag = pre.split('[')[0].toLowerCase()
+      if (tag === 'canvas') return 'nnCanvas'
+      if (tag === 'svg') return 'nnSVG'
+    }
+    return 'nnDOM'
+  }
+  if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
+  if (lower.includes('nn.hyper(')) return 'nnHyper'
+  // variable reference — reuse existing evaluate() with its assignment-line lookup
+  const varMatch = rootLine.match(/\b([a-zA-Z_$][a-zA-Z0-9_$]*)\./)
+  if (varMatch) {
+    const varName = varMatch[1]
+    if (varName && varName !== 'nn') {
+      const lines = cm.getDoc().children[0].lines
+        .filter((o, i) => cm.getModeAt({ line: i }).helperType === 'javascript')
+        .map(o => o.text)
+        .filter(txt => txt.includes(`${varName}=`) || txt.includes(`${varName} =`))
+      return evaluate(lines, varName) || null
+    }
+  }
+  return null
+}
+
 function getPropList (str, cm) {
   let list = []
   const pos = cm.getCursor()
   const line = cm.getLine(pos.line)
+
+  // multi-line chain: current line is a continuation (starts with '.'),
+  // walk back to find the root line and evaluate from there
+  if (line.slice(0, pos.ch).trim().startsWith('.')) {
+    let lineNum = pos.line - 1
+    let rootLine = ''
+    while (lineNum >= 0) {
+      const l = cm.getLine(lineNum).trim()
+      if (!l.startsWith('.')) { rootLine = l; break }
+      lineNum--
+    }
+    if (rootLine) {
+      const type = evaluateChainRoot(rootLine, cm)
+      if (type) list = genList(str, instances, type)
+    }
+    return list
+  }
+
   const array = line.split(' ')
   const arr = array.find(s => s.includes(`.${str}`)).split('.')
 
@@ -217,7 +277,7 @@ function checkForEvents (str, cm) {
 
 function checkForObj (o, str, cm) {
   const pos = cm.getCursor()
-  const line = cm.getLine(pos.line)
+  const line = cm.getLine(pos.line).slice(0, pos.ch)
   const s = line.substr(line.length - o.length - str.length, o.length)
   if (s === o) return true
   else return false
@@ -229,7 +289,7 @@ function genStyleList (str) {
 
 function genNNList (str) {
   const list = []
-  for (const p in nnProps) {
+  for (const p in nnDocs.nn) {
     if (p.includes(str)) list.push({ text: p, displayText: p })
   }
   return list

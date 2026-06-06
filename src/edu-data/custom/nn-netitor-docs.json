@@ -1,0 +1,2474 @@
+{
+  "nn": {
+    "on": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/on",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/on\" target=\"_blank\">on</a>",
+        "text": "on"
+      },
+      "description": {
+        "html": "This is an event listener, a piece of code that waits for a specific action, like a 'click',  'keypress' and <a href=\"https://devdoc.net/web/developer.mozilla.org/en-US/docs/DOM/DOM_event_reference.1.html\" target=\"_blank\">others</a>, and then runs a function when that action happens. We specify the type of the event (a string) we want to listen for as the first argument, and pass the name of (or \"reference\" to) the function we want to call as the second argument.",
+        "text": "This is an event listener, a piece of code that waits for a specific action, like a 'click',  'keypress' and others, and then runs a function when that action happens. We specify the type of the event (a string) we want to listen for as the first argument, and pass the name of (or \"reference\" to) the function we want to call as the second argument."
+      }
+    },
+    "off": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/off",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/off\" target=\"_blank\">off</a>",
+        "text": "off"
+      },
+      "description": {
+        "html": "If you had previously set an event listener with <code>.on()</code> you can remove it with <code>.off()</code>, just make sure you pass the same event type (a string) and function name to this method as you originally did with on.",
+        "text": "If you had previously set an event listener with .on() you can remove it with .off(), just make sure you pass the same event type (a string) and function name to this method as you originally did with on."
+      }
+    },
+    "mouseX": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/mouseX",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/mouseX\" target=\"_blank\">mouseX</a>",
+        "text": "mouseX"
+      },
+      "description": {
+        "html": "This property stores a number, the current horizontal mouse position in pixels relative to the left edge of the window",
+        "text": "This property stores a number, the current horizontal mouse position in pixels relative to the left edge of the window"
+      }
+    },
+    "mouseY": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/mouseY",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/mouseY\" target=\"_blank\">mouseY</a>",
+        "text": "mouseY"
+      },
+      "description": {
+        "html": "This property stores a number, the current vertical mouse position in pixels relative to the top edge of the window",
+        "text": "This property stores a number, the current vertical mouse position in pixels relative to the top edge of the window"
+      }
+    },
+    "mouseDown": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/mouseDown",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/mouseDown\" target=\"_blank\">mouseDown</a>",
+        "text": "mouseDown"
+      },
+      "description": {
+        "html": "This property stores a boolean value, <code>true</code> if the mouse is currently being pressed down, or <code>false</code> if it is not.",
+        "text": "This property stores a boolean value, true if the mouse is currently being pressed down, or false if it is not."
+      }
+    },
+    "pointer": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/pointer",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/pointer\" target=\"_blank\">pointer</a>",
+        "text": "pointer"
+      },
+      "description": {
+        "html": "A pointer can be your mouse, but it could also be a pen/stylus or a finger touching a screen (on mobile devies), it's an object with <code>pointer.x</code> and <code>pointer.y</code> properties as well as <code>pointer.type</code> (mouse, touch or pen) and <code>pointer.id</code> (if there's more than one finger touching the screen)",
+        "text": "A pointer can be your mouse, but it could also be a pen/stylus or a finger touching a screen (on mobile devies), it's an object with pointer.x and pointer.y properties as well as pointer.type (mouse, touch or pen) and pointer.id (if there's more than one finger touching the screen)"
+      }
+    },
+    "pointers": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/pointers",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/pointers\" target=\"_blank\">pointers</a>",
+        "text": "pointers"
+      },
+      "description": {
+        "html": "This is an array (or list) of \"pointers\", which can be a mouse, a pen/stylus or fingers touching a screen (on mobile devies). Pointers are objects with <code>p.x</code> and <code>p.y</code> properties as well as <code>p.type</code> (mouse, touch or pen)",
+        "text": "This is an array (or list) of \"pointers\", which can be a mouse, a pen/stylus or fingers touching a screen (on mobile devies). Pointers are objects with p.x and p.y properties as well as p.type (mouse, touch or pen)"
+      }
+    },
+    "width": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/width",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/width\" target=\"_blank\">width</a>",
+        "text": "width"
+      },
+      "description": {
+        "html": "This is either the width of the screen in pixels when <code>nn.width</code>, or of a particular element, for example <code>img.width</code>",
+        "text": "This is either the width of the screen in pixels when nn.width, or of a particular element, for example img.width"
+      }
+    },
+    "height": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/height",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/height\" target=\"_blank\">height</a>",
+        "text": "height"
+      },
+      "description": {
+        "html": "This is either the height of the screen in piexels when <code>nn.height</code>, or of a particular element, for example <code>img.height</code>",
+        "text": "This is either the height of the screen in piexels when nn.height, or of a particular element, for example img.height"
+      }
+    },
+    "get": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/get",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/get\" target=\"_blank\">get</a>",
+        "text": "get"
+      },
+      "description": {
+        "html": "When there's there's an element on your page you want to reference or modify in your JavaScript you can \"get\" it using this method, you can pass an elemnt type <code>.get('div')</code>, a class <code>.get('.title')</code> or id <code>.get('#title')</code>. It will find the first element that matches the argument string.",
+        "text": "When there's there's an element on your page you want to reference or modify in your JavaScript you can \"get\" it using this method, you can pass an elemnt type .get('div'), a class .get('.title') or id .get('#title'). It will find the first element that matches the argument string."
+      }
+    },
+    "getAll": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/getAll",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/getAll\" target=\"_blank\">getAll</a>",
+        "text": "getAll"
+      },
+      "description": {
+        "html": "Similar to <code>nn.get()</code>, which can be used to grab a specific element, by id for example <code>.get('#title')</code>, when there's multiple elements on your page you want to grab all at once you can pull them into an array using this method. For example <code>nn.getAll('.cards')</code> returns a list of all the elements where <code>class=\"cards\"</code>.",
+        "text": "Similar to nn.get(), which can be used to grab a specific element, by id for example .get('#title'), when there's multiple elements on your page you want to grab all at once you can pull them into an array using this method. For example nn.getAll('.cards') returns a list of all the elements where class=\"cards\"."
+      }
+    },
+    "create": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/create",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/create\" target=\"_blank\">create</a>",
+        "text": "create"
+      },
+      "description": {
+        "html": "You can use this method to dynamically create any HTML element via JavaScript. Keep in mind, it won't be rendered on the page until you also call <code>.addTo()</code> to inject it into a specific element, like <code>nn.create('input').addTo('body')</code>",
+        "text": "You can use this method to dynamically create any HTML element via JavaScript. Keep in mind, it won't be rendered on the page until you also call .addTo() to inject it into a specific element, like nn.create('input').addTo('body')"
+      }
+    },
+    "isBrowser": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/isBrowser",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/isBrowser\" target=\"_blank\">isBrowser</a>",
+        "text": "isBrowser"
+      },
+      "description": {
+        "html": "This method tells you whether your code is currently running inside a web browser. It returns <code>true</code> if it is, which is useful when your code might also run in other environments like Node.js.",
+        "text": "This method tells you whether your code is currently running inside a web browser. It returns true if it is, which is useful when your code might also run in other environments like Node.js."
+      }
+    },
+    "isMobile": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/isMobile",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/isMobile\" target=\"_blank\">isMobile</a>",
+        "text": "isMobile"
+      },
+      "description": {
+        "html": "This method tells you whether the page is being viewed on a mobile or tablet device. Use it to adapt your layout or interactions for smaller screens or touch input.",
+        "text": "This method tells you whether the page is being viewed on a mobile or tablet device. Use it to adapt your layout or interactions for smaller screens or touch input."
+      }
+    },
+    "hasWebGL": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebGL",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebGL\" target=\"_blank\">hasWebGL</a>",
+        "text": "hasWebGL"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports WebGL, which is needed for 3D graphics and GPU-accelerated rendering. Use it before trying to set up any WebGL-based work.",
+        "text": "This method checks whether the browser supports WebGL, which is needed for 3D graphics and GPU-accelerated rendering. Use it before trying to set up any WebGL-based work."
+      }
+    },
+    "hasWebVR": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebVR",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebVR\" target=\"_blank\">hasWebVR</a>",
+        "text": "hasWebVR"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports the older WebVR API for virtual reality. Note that WebVR has been largely replaced by WebXR in modern browsers, so you may want to use <code>nn.hasWebXR()</code> instead.",
+        "text": "This method checks whether the browser supports the older WebVR API for virtual reality. Note that WebVR has been largely replaced by WebXR in modern browsers, so you may want to use nn.hasWebXR() instead."
+      }
+    },
+    "hasMIDI": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasMIDI",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasMIDI\" target=\"_blank\">hasMIDI</a>",
+        "text": "hasMIDI"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports Web MIDI, which is needed to connect to MIDI devices like keyboards or controllers. Use it before calling <code>nn.MIDI()</code>.",
+        "text": "This method checks whether the browser supports Web MIDI, which is needed to connect to MIDI devices like keyboards or controllers. Use it before calling nn.MIDI()."
+      }
+    },
+    "hasTouch": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasTouch",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasTouch\" target=\"_blank\">hasTouch</a>",
+        "text": "hasTouch"
+      },
+      "description": {
+        "html": "This method checks whether the device has a touch screen. Use it to decide whether to listen for touch events or to adjust interactions for finger-based input.",
+        "text": "This method checks whether the device has a touch screen. Use it to decide whether to listen for touch events or to adjust interactions for finger-based input."
+      }
+    },
+    "hasWebAudio": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebAudio",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebAudio\" target=\"_blank\">hasWebAudio</a>",
+        "text": "hasWebAudio"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports the Web Audio API, which is needed for generating sound, analyzing audio, or building synthesizers in the browser.",
+        "text": "This method checks whether the browser supports the Web Audio API, which is needed for generating sound, analyzing audio, or building synthesizers in the browser."
+      }
+    },
+    "hasWebXR": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebXR",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebXR\" target=\"_blank\">hasWebXR</a>",
+        "text": "hasWebXR"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports WebXR, the API for augmented and virtual reality experiences in the browser.",
+        "text": "This method checks whether the browser supports WebXR, the API for augmented and virtual reality experiences in the browser."
+      }
+    },
+    "hasMediaDevices": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasMediaDevices",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasMediaDevices\" target=\"_blank\">hasMediaDevices</a>",
+        "text": "hasMediaDevices"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports camera and microphone access. Use it before calling <code>nn.askFor('video')</code> or <code>nn.askFor('audio')</code>.",
+        "text": "This method checks whether the browser supports camera and microphone access. Use it before calling nn.askFor('video') or nn.askFor('audio')."
+      }
+    },
+    "hasDeviceMotion": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasDeviceMotion",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasDeviceMotion\" target=\"_blank\">hasDeviceMotion</a>",
+        "text": "hasDeviceMotion"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports device motion events, which give you accelerometer data like shaking or tilting. Useful before building motion-driven experiences on mobile.",
+        "text": "This method checks whether the browser supports device motion events, which give you accelerometer data like shaking or tilting. Useful before building motion-driven experiences on mobile."
+      }
+    },
+    "hasDeviceOrientation": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasDeviceOrientation",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasDeviceOrientation\" target=\"_blank\">hasDeviceOrientation</a>",
+        "text": "hasDeviceOrientation"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports device orientation events, which tell you how the device is tilted and rotated. Useful before building tilt-based interactions on mobile.",
+        "text": "This method checks whether the browser supports device orientation events, which tell you how the device is tilted and rotated. Useful before building tilt-based interactions on mobile."
+      }
+    },
+    "hasPointerLock": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasPointerLock",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasPointerLock\" target=\"_blank\">hasPointerLock</a>",
+        "text": "hasPointerLock"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports Pointer Lock, which lets you hide the cursor and capture raw mouse movement. It's used for first-person or immersive mouse-driven experiences.",
+        "text": "This method checks whether the browser supports Pointer Lock, which lets you hide the cursor and capture raw mouse movement. It's used for first-person or immersive mouse-driven experiences."
+      }
+    },
+    "hasGamepad": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasGamepad",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasGamepad\" target=\"_blank\">hasGamepad</a>",
+        "text": "hasGamepad"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports gamepad controllers. Use it before building experiences that respond to a connected game controller.",
+        "text": "This method checks whether the browser supports gamepad controllers. Use it before building experiences that respond to a connected game controller."
+      }
+    },
+    "hasWebSerial": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebSerial",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebSerial\" target=\"_blank\">hasWebSerial</a>",
+        "text": "hasWebSerial"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports Web Serial, which lets you communicate with hardware like Arduino over a USB cable. Use it before calling <code>nn.askForSerial()</code>.",
+        "text": "This method checks whether the browser supports Web Serial, which lets you communicate with hardware like Arduino over a USB cable. Use it before calling nn.askForSerial()."
+      }
+    },
+    "hasWebUSB": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebUSB",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebUSB\" target=\"_blank\">hasWebUSB</a>",
+        "text": "hasWebUSB"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports Web USB, which lets you connect directly to USB devices like custom hardware or microcontrollers. Use it before calling <code>nn.askForUSB()</code>.",
+        "text": "This method checks whether the browser supports Web USB, which lets you connect directly to USB devices like custom hardware or microcontrollers. Use it before calling nn.askForUSB()."
+      }
+    },
+    "hasBluetooth": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasBluetooth",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasBluetooth\" target=\"_blank\">hasBluetooth</a>",
+        "text": "hasBluetooth"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports Web Bluetooth, which lets you connect to nearby Bluetooth devices wirelessly. Use it before calling <code>nn.askForBluetooth()</code>.",
+        "text": "This method checks whether the browser supports Web Bluetooth, which lets you connect to nearby Bluetooth devices wirelessly. Use it before calling nn.askForBluetooth()."
+      }
+    },
+    "hasSpeechRecognition": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasSpeechRecognition",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasSpeechRecognition\" target=\"_blank\">hasSpeechRecognition</a>",
+        "text": "hasSpeechRecognition"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports speech recognition, which lets you convert spoken words into text. Useful before building voice-controlled experiences.",
+        "text": "This method checks whether the browser supports speech recognition, which lets you convert spoken words into text. Useful before building voice-controlled experiences."
+      }
+    },
+    "hasSpeechSynthesis": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasSpeechSynthesis",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasSpeechSynthesis\" target=\"_blank\">hasSpeechSynthesis</a>",
+        "text": "hasSpeechSynthesis"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports speech synthesis, which lets you make the browser read text out loud. Useful before building experiences that speak to the user.",
+        "text": "This method checks whether the browser supports speech synthesis, which lets you make the browser read text out loud. Useful before building experiences that speak to the user."
+      }
+    },
+    "hasWebAssembly": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebAssembly",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasWebAssembly\" target=\"_blank\">hasWebAssembly</a>",
+        "text": "hasWebAssembly"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports WebAssembly, which lets you run very fast, low-level code in the browser. It's useful for heavy computation like simulations or ported C/C++ libraries.",
+        "text": "This method checks whether the browser supports WebAssembly, which lets you run very fast, low-level code in the browser. It's useful for heavy computation like simulations or ported C/C++ libraries."
+      }
+    },
+    "hasFullscreen": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasFullscreen",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/hasFullscreen\" target=\"_blank\">hasFullscreen</a>",
+        "text": "hasFullscreen"
+      },
+      "description": {
+        "html": "This method checks whether the browser supports fullscreen mode, which lets you expand any element or the whole page to fill the screen.",
+        "text": "This method checks whether the browser supports fullscreen mode, which lets you expand any element or the whole page to fill the screen."
+      }
+    },
+    "screen": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/screen",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/screen\" target=\"_blank\">screen</a>",
+        "text": "screen"
+      },
+      "description": {
+        "html": "This method returns information about the user's screen, including its width, height, orientation (landscape or portrait), and color depth.",
+        "text": "This method returns information about the user's screen, including its width, height, orientation (landscape or portrait), and color depth."
+      }
+    },
+    "orientation": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/orientation",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/orientation\" target=\"_blank\">orientation</a>",
+        "text": "orientation"
+      },
+      "description": {
+        "html": "This method tells you whether the device is currently in landscape or portrait orientation. Useful for adjusting your layout when the user rotates their phone or tablet.",
+        "text": "This method tells you whether the device is currently in landscape or portrait orientation. Useful for adjusting your layout when the user rotates their phone or tablet."
+      }
+    },
+    "gpuInfo": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/gpuInfo",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/gpuInfo\" target=\"_blank\">gpuInfo</a>",
+        "text": "gpuInfo"
+      },
+      "description": {
+        "html": "This method returns information about the user's graphics card, including the manufacturer and model name. Useful if you need to know what GPU is powering the rendering.",
+        "text": "This method returns information about the user's graphics card, including the manufacturer and model name. Useful if you need to know what GPU is powering the rendering."
+      }
+    },
+    "browserInfo": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/browserInfo",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/browserInfo\" target=\"_blank\">browserInfo</a>",
+        "text": "browserInfo"
+      },
+      "description": {
+        "html": "This method returns the name and version of the user's browser, like <code>{ name: \"Firefox\", version: \"120\" }</code>. Useful for detecting which browser your audience is using.",
+        "text": "This method returns the name and version of the user's browser, like { name: \"Firefox\", version: \"120\" }. Useful for detecting which browser your audience is using."
+      }
+    },
+    "platformInfo": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/platformInfo",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/platformInfo\" target=\"_blank\">platformInfo</a>",
+        "text": "platformInfo"
+      },
+      "description": {
+        "html": "This method returns a summary of the user's platform, including their browser, operating system, whether they're on mobile, and how many processor cores they have.",
+        "text": "This method returns a summary of the user's platform, including their browser, operating system, whether they're on mobile, and how many processor cores they have."
+      }
+    },
+    "audioSupport": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/audioSupport",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/audioSupport\" target=\"_blank\">audioSupport</a>",
+        "text": "audioSupport"
+      },
+      "description": {
+        "html": "This method tells you which audio file formats the user's browser can play, like MP3, WAV, or AAC. Each format gets a value of <code>\"probably\"</code>, <code>\"maybe\"</code>, or <code>\"no\"</code>.",
+        "text": "This method tells you which audio file formats the user's browser can play, like MP3, WAV, or AAC. Each format gets a value of \"probably\", \"maybe\", or \"no\"."
+      }
+    },
+    "videoSupport": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/videoSupport",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/videoSupport\" target=\"_blank\">videoSupport</a>",
+        "text": "videoSupport"
+      },
+      "description": {
+        "html": "This method tells you which video formats the user's browser can play, like WebM or H.264. Each format gets a value of <code>\"probably\"</code>, <code>\"maybe\"</code>, or <code>\"no\"</code>.",
+        "text": "This method tells you which video formats the user's browser can play, like WebM or H.264. Each format gets a value of \"probably\", \"maybe\", or \"no\"."
+      }
+    },
+    "storageSupport": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/storageSupport",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/storageSupport\" target=\"_blank\">storageSupport</a>",
+        "text": "storageSupport"
+      },
+      "description": {
+        "html": "This method tells you which browser storage options are available, like <code>localStorage</code> and <code>sessionStorage</code>. Useful for deciding how to save data between page visits.",
+        "text": "This method tells you which browser storage options are available, like localStorage and sessionStorage. Useful for deciding how to save data between page visits."
+      }
+    },
+    "fontSupport": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/fontSupport",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/fontSupport\" target=\"_blank\">fontSupport</a>",
+        "text": "fontSupport"
+      },
+      "description": {
+        "html": "This method returns a list of fonts installed on the user's system. Useful if you want to use a locally available font in your work, or to create typography-driven generative pieces.",
+        "text": "This method returns a list of fonts installed on the user's system. Useful if you want to use a locally available font in your work, or to create typography-driven generative pieces."
+      }
+    },
+    "language": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/language",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/language\" target=\"_blank\">language</a>",
+        "text": "language"
+      },
+      "description": {
+        "html": "This method returns the language and region set in the user's browser, like <code>{ language: \"English\", country: \"US\" }</code>. Useful for tailoring your work to different audiences.",
+        "text": "This method returns the language and region set in the user's browser, like { language: \"English\", country: \"US\" }. Useful for tailoring your work to different audiences."
+      }
+    },
+    "timeZone": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#averigua/timeZone",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#averigua/timeZone\" target=\"_blank\">timeZone</a>",
+        "text": "timeZone"
+      },
+      "description": {
+        "html": "This method returns the user's time zone, like <code>\"America/Chicago\"</code>. Useful for making work that responds to where in the world your audience is located.",
+        "text": "This method returns the user's time zone, like \"America/Chicago\". Useful for making work that responds to where in the world your audience is located."
+      }
+    },
+    "randomColor": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/randomColor",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/randomColor\" target=\"_blank\">randomColor</a>",
+        "text": "randomColor"
+      },
+      "description": {
+        "html": "This method generates a random color every time you call it. With no arguments it returns a hex color string like <code>#a3f2c1</code>, which you can use as a color value anywhere in your code.",
+        "text": "This method generates a random color every time you call it. With no arguments it returns a hex color string like #a3f2c1, which you can use as a color value anywhere in your code."
+      }
+    },
+    "rgb": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/rgb",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/rgb\" target=\"_blank\">rgb</a>",
+        "text": "rgb"
+      },
+      "description": {
+        "html": "This method creates a color by mixing red, green, and blue values, each ranging from 0 to 255. For example, <code>nn.rgb(255, 0, 0)</code> is pure red. You can add a fourth number between 0 and 1 to control transparency, where 0 is invisible and 1 is fully opaque.",
+        "text": "This method creates a color by mixing red, green, and blue values, each ranging from 0 to 255. For example, nn.rgb(255, 0, 0) is pure red. You can add a fourth number between 0 and 1 to control transparency, where 0 is invisible and 1 is fully opaque."
+      }
+    },
+    "hex": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/hex",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/hex\" target=\"_blank\">hex</a>",
+        "text": "hex"
+      },
+      "description": {
+        "html": "This method creates a color from red, green, and blue values, each ranging from 0 to 255, and returns it as a hex string like <code>#ff0000</code>. You can add a fourth number between 0 and 1 to control transparency, where 0 is invisible and 1 is fully opaque.",
+        "text": "This method creates a color from red, green, and blue values, each ranging from 0 to 255, and returns it as a hex string like #ff0000. You can add a fourth number between 0 and 1 to control transparency, where 0 is invisible and 1 is fully opaque."
+      }
+    },
+    "hsl": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/hsl",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/hsl\" target=\"_blank\">hsl</a>",
+        "text": "hsl"
+      },
+      "description": {
+        "html": "This method creates a color using hue (0–360, the position on the color wheel), saturation (0–100, how vivid), and lightness (0–100, where 0 is black, 100 is white, and 50 is the pure color). You can add a fourth number between 0 and 1 to control transparency.",
+        "text": "This method creates a color using hue (0–360, the position on the color wheel), saturation (0–100, how vivid), and lightness (0–100, where 0 is black, 100 is white, and 50 is the pure color). You can add a fourth number between 0 and 1 to control transparency."
+      }
+    },
+    "toRGB": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/toRGB",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/toRGB\" target=\"_blank\">toRGB</a>",
+        "text": "toRGB"
+      },
+      "description": {
+        "html": "This method converts any color value into an object with separate red, green, and blue properties. It's useful when you want to read or modify a specific channel of a color, no matter what format the color started in.",
+        "text": "This method converts any color value into an object with separate red, green, and blue properties. It's useful when you want to read or modify a specific channel of a color, no matter what format the color started in."
+      }
+    },
+    "toHex": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/toHex",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/toHex\" target=\"_blank\">toHex</a>",
+        "text": "toHex"
+      },
+      "description": {
+        "html": "This method converts any color value into a hex string. It's useful when you have a color in one format (like a named color or an rgb string) and need it as a hex value to use somewhere else.",
+        "text": "This method converts any color value into a hex string. It's useful when you have a color in one format (like a named color or an rgb string) and need it as a hex value to use somewhere else."
+      }
+    },
+    "toHSL": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/toHSL",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/toHSL\" target=\"_blank\">toHSL</a>",
+        "text": "toHSL"
+      },
+      "description": {
+        "html": "This method converts any color value into an object with separate hue, saturation, and lightness properties. It's handy when you want to tweak a color, like shifting its hue or making it less vivid, without caring what format it started in.",
+        "text": "This method converts any color value into an object with separate hue, saturation, and lightness properties. It's handy when you want to tweak a color, like shifting its hue or making it less vivid, without caring what format it started in."
+      }
+    },
+    "alpha2hex": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/alpha2hex",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/alpha2hex\" target=\"_blank\">alpha2hex</a>",
+        "text": "alpha2hex"
+      },
+      "description": {
+        "html": "This method converts a transparency value (between 0 and 1) into the two-character code you can tack onto the end of a hex color to make it transparent. For example, appending the result to <code>#ff0000</code> gives you a semi-transparent red.",
+        "text": "This method converts a transparency value (between 0 and 1) into the two-character code you can tack onto the end of a hex color to make it transparent. For example, appending the result to #ff0000 gives you a semi-transparent red."
+      }
+    },
+    "hex2alpha": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/hex2alpha",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/hex2alpha\" target=\"_blank\">hex2alpha</a>",
+        "text": "hex2alpha"
+      },
+      "description": {
+        "html": "This is the reverse of <code>nn.alpha2hex()</code>. It converts the two-character transparency code at the end of a hex color back into a number between 0 and 1 that you can use in your code.",
+        "text": "This is the reverse of nn.alpha2hex(). It converts the two-character transparency code at the end of a hex color back into a number between 0 and 1 that you can use in your code."
+      }
+    },
+    "lerpColor": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/lerpColor",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/lerpColor\" target=\"_blank\">lerpColor</a>",
+        "text": "lerpColor"
+      },
+      "description": {
+        "html": "This method smoothly blends between two colors, just like <code>nn.lerp()</code> does for numbers. The third argument controls how far along the blend you are: 0 gives the first color, 1 gives the second, and anything in between gives a mix.",
+        "text": "This method smoothly blends between two colors, just like nn.lerp() does for numbers. The third argument controls how far along the blend you are: 0 gives the first color, 1 gives the second, and anything in between gives a mix."
+      }
+    },
+    "colorGradient": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/colorGradient",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/colorGradient\" target=\"_blank\">colorGradient</a>",
+        "text": "colorGradient"
+      },
+      "description": {
+        "html": "This method creates a gradient from an array of colors. Pass a direction string like <code>'to right'</code> to get a CSS gradient you can use as a background, or pass a number to get an array of color steps you can animate through one by one.",
+        "text": "This method creates a gradient from an array of colors. Pass a direction string like 'to right' to get a CSS gradient you can use as a background, or pass a number to get an array of color steps you can animate through one by one."
+      }
+    },
+    "colorScheme": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/colorScheme",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/colorScheme\" target=\"_blank\">colorScheme</a>",
+        "text": "colorScheme"
+      },
+      "description": {
+        "html": "This method generates a set of colors that look good together based on color theory rules. You pick a starting color and a harmony type like <code>'complementary'</code> or <code>'analogous'</code>, and it returns an array of colors that match.",
+        "text": "This method generates a set of colors that look good together based on color theory rules. You pick a starting color and a harmony type like 'complementary' or 'analogous', and it returns an array of colors that match."
+      }
+    },
+    "isLight": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/isLight",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/isLight\" target=\"_blank\">isLight</a>",
+        "text": "isLight"
+      },
+      "description": {
+        "html": "This method tells you whether a color is light or dark. It's useful for automatically deciding whether to show black or white text on top of a dynamic background so the text always stays readable.",
+        "text": "This method tells you whether a color is light or dark. It's useful for automatically deciding whether to show black or white text on top of a dynamic background so the text always stays readable."
+      }
+    },
+    "colorContrast": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/colorContrast",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/colorContrast\" target=\"_blank\">colorContrast</a>",
+        "text": "colorContrast"
+      },
+      "description": {
+        "html": "This method measures how much contrast there is between two colors, on a scale from 1 (no difference) to 21 (black on white). A score of at least 4.5 is recommended for text to be readable and accessible.",
+        "text": "This method measures how much contrast there is between two colors, on a scale from 1 (no difference) to 21 (black on white). A score of at least 4.5 is recommended for text to be readable and accessible."
+      }
+    },
+    "colorMatch": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/colorMatch",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/colorMatch\" target=\"_blank\">colorMatch</a>",
+        "text": "colorMatch"
+      },
+      "description": {
+        "html": "This method scans a string of text and finds the first color value in it, returning what type it is and the color string itself. It's useful if you have a block of CSS or other text and want to pull out whatever color is mentioned.",
+        "text": "This method scans a string of text and finds the first color value in it, returning what type it is and the color string itself. It's useful if you have a block of CSS or other text and want to pull out whatever color is mentioned."
+      }
+    },
+    "closestColor": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#color/closestColor",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#color/closestColor\" target=\"_blank\">closestColor</a>",
+        "text": "closestColor"
+      },
+      "description": {
+        "html": "This method takes a color and a list of colors and returns whichever one in the list looks most similar. It's useful for snapping a random or unknown color to the nearest color in a fixed palette.",
+        "text": "This method takes a color and a list of colors and returns whichever one in the list looks most similar. It's useful for snapping a random or unknown color to the nearest color in a fixed palette."
+      }
+    },
+    "parse": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#data/parse",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#data/parse\" target=\"_blank\">parse</a>",
+        "text": "parse"
+      },
+      "description": {
+        "html": "This method converts a raw text string (like CSV or JSON) into actual JavaScript data you can work with. For example, if you fetch a spreadsheet from the web, passing the resulting text through this method turns it into an array of objects.",
+        "text": "This method converts a raw text string (like CSV or JSON) into actual JavaScript data you can work with. For example, if you fetch a spreadsheet from the web, passing the resulting text through this method turns it into an array of objects."
+      }
+    },
+    "serialize": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#data/serialize",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#data/serialize\" target=\"_blank\">serialize</a>",
+        "text": "serialize"
+      },
+      "description": {
+        "html": "This method converts JavaScript data into a plain text string so it can be saved or sent somewhere. An array of objects becomes CSV text, and everything else becomes JSON text.",
+        "text": "This method converts JavaScript data into a plain text string so it can be saved or sent somewhere. An array of objects becomes CSV text, and everything else becomes JSON text."
+      }
+    },
+    "download": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#data/download",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#data/download\" target=\"_blank\">download</a>",
+        "text": "download"
+      },
+      "description": {
+        "html": "This method saves something to the user's computer as a file download. You can pass it a canvas, an image, an SVG, or plain data, and it automatically picks the right file format and extension.",
+        "text": "This method saves something to the user's computer as a file download. You can pass it a canvas, an image, an SVG, or plain data, and it automatically picks the right file format and extension."
+      }
+    },
+    "upload": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#data/upload",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#data/upload\" target=\"_blank\">upload</a>",
+        "text": "upload"
+      },
+      "description": {
+        "html": "This method opens the browser's file picker so the user can choose a file from their computer. It returns the file's contents already parsed, so images come back as a URL you can display, and CSV or JSON files come back as usable data.",
+        "text": "This method opens the browser's file picker so the user can choose a file from their computer. It returns the file's contents already parsed, so images come back as a URL you can display, and CSV or JSON files come back as usable data."
+      }
+    },
+    "lerp": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/lerp",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/lerp\" target=\"_blank\">lerp</a>",
+        "text": "lerp"
+      },
+      "description": {
+        "html": "This method smoothly blends between two values. The third argument <code>t</code> controls how far along you are: <code>0</code> gives the first value, <code>1</code> gives the second, and anything in between gives a proportional mix. It's great for making things follow the mouse smoothly.",
+        "text": "This method smoothly blends between two values. The third argument t controls how far along you are: 0 gives the first value, 1 gives the second, and anything in between gives a proportional mix. It's great for making things follow the mouse smoothly."
+      }
+    },
+    "norm": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/norm",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/norm\" target=\"_blank\">norm</a>",
+        "text": "norm"
+      },
+      "description": {
+        "html": "This method tells you where a value falls within a range, expressed as a number between <code>0</code> and <code>1</code>. For example, if your range is 0 to 200 and your value is 100, it returns <code>0.5</code> because 100 is halfway through.",
+        "text": "This method tells you where a value falls within a range, expressed as a number between 0 and 1. For example, if your range is 0 to 200 and your value is 100, it returns 0.5 because 100 is halfway through."
+      }
+    },
+    "clamp": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/clamp",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/clamp\" target=\"_blank\">clamp</a>",
+        "text": "clamp"
+      },
+      "description": {
+        "html": "This method keeps a value within a minimum and maximum limit. If the value goes too low it gets pinned to the minimum, and if it goes too high it gets pinned to the maximum, so it can never escape the range you set.",
+        "text": "This method keeps a value within a minimum and maximum limit. If the value goes too low it gets pinned to the minimum, and if it goes too high it gets pinned to the maximum, so it can never escape the range you set."
+      }
+    },
+    "map": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/map",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/map\" target=\"_blank\">map</a>",
+        "text": "map"
+      },
+      "description": {
+        "html": "This method converts a value from one range into a corresponding value in a different range. For example, you can map the mouse's X position (0 to page width) to a color hue (0 to 360), so moving the mouse all the way across changes the full spectrum of colors.",
+        "text": "This method converts a value from one range into a corresponding value in a different range. For example, you can map the mouse's X position (0 to page width) to a color hue (0 to 360), so moving the mouse all the way across changes the full spectrum of colors."
+      }
+    },
+    "dist": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/dist",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/dist\" target=\"_blank\">dist</a>",
+        "text": "dist"
+      },
+      "description": {
+        "html": "This method calculates the straight-line distance between two points on screen. You pass in the x and y coordinates of both points, and it returns how many pixels apart they are.",
+        "text": "This method calculates the straight-line distance between two points on screen. You pass in the x and y coordinates of both points, and it returns how many pixels apart they are."
+      }
+    },
+    "angleBtw": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/angleBtw",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/angleBtw\" target=\"_blank\">angleBtw</a>",
+        "text": "angleBtw"
+      },
+      "description": {
+        "html": "This method calculates the angle between two points, which tells you what direction point 2 is from point 1. It's useful for rotating an arrow or sprite so it always faces the mouse or another element.",
+        "text": "This method calculates the angle between two points, which tells you what direction point 2 is from point 1. It's useful for rotating an arrow or sprite so it always faces the mouse or another element."
+      }
+    },
+    "radToDeg": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/radToDeg",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/radToDeg\" target=\"_blank\">radToDeg</a>",
+        "text": "radToDeg"
+      },
+      "description": {
+        "html": "This method converts an angle from radians into degrees. JavaScript's math functions work in radians, but degrees (0–360) are usually easier to think about, so use this to convert when you need a human-readable angle.",
+        "text": "This method converts an angle from radians into degrees. JavaScript's math functions work in radians, but degrees (0–360) are usually easier to think about, so use this to convert when you need a human-readable angle."
+      }
+    },
+    "degToRad": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/degToRad",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/degToRad\" target=\"_blank\">degToRad</a>",
+        "text": "degToRad"
+      },
+      "description": {
+        "html": "This method converts an angle from degrees into radians. When you want to use <code>Math.sin()</code> or <code>Math.cos()</code> with a human-friendly degree value like 90°, pass it through this first.",
+        "text": "This method converts an angle from degrees into radians. When you want to use Math.sin() or Math.cos() with a human-friendly degree value like 90°, pass it through this first."
+      }
+    },
+    "cartesianToPolar": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/cartesianToPolar",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/cartesianToPolar\" target=\"_blank\">cartesianToPolar</a>",
+        "text": "cartesianToPolar"
+      },
+      "description": {
+        "html": "This method converts an (x, y) position into a distance and angle measured from the origin. Instead of thinking \"how far right and down is this point?\", polar coordinates let you think \"how far away is it, and in what direction?\"",
+        "text": "This method converts an (x, y) position into a distance and angle measured from the origin. Instead of thinking \"how far right and down is this point?\", polar coordinates let you think \"how far away is it, and in what direction?\""
+      }
+    },
+    "polarToCartesian": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/polarToCartesian",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/polarToCartesian\" target=\"_blank\">polarToCartesian</a>",
+        "text": "polarToCartesian"
+      },
+      "description": {
+        "html": "This method converts a distance and angle into an (x, y) position. It's the key to placing things in a circle: give it a radius and an angle, and it tells you exactly where on screen that point should be.",
+        "text": "This method converts a distance and angle into an (x, y) position. It's the key to placing things in a circle: give it a radius and an angle, and it tells you exactly where on screen that point should be."
+      }
+    },
+    "shuffle": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/shuffle",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/shuffle\" target=\"_blank\">shuffle</a>",
+        "text": "shuffle"
+      },
+      "description": {
+        "html": "This method randomly reorders the items in an array, like shuffling a deck of cards. It changes the original array directly and returns it so you can use it right away.",
+        "text": "This method randomly reorders the items in an array, like shuffling a deck of cards. It changes the original array directly and returns it so you can use it right away."
+      }
+    },
+    "randomInt": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/randomInt",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/randomInt\" target=\"_blank\">randomInt</a>",
+        "text": "randomInt"
+      },
+      "description": {
+        "html": "This method returns a random whole number between a minimum and maximum value, including both endpoints. For example, <code>nn.randomInt(1, 6)</code> simulates rolling a six-sided die.",
+        "text": "This method returns a random whole number between a minimum and maximum value, including both endpoints. For example, nn.randomInt(1, 6) simulates rolling a six-sided die."
+      }
+    },
+    "randomFloat": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/randomFloat",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/randomFloat\" target=\"_blank\">randomFloat</a>",
+        "text": "randomFloat"
+      },
+      "description": {
+        "html": "This method returns a random decimal number between a minimum and maximum value. Unlike <code>nn.randomInt()</code>, the result is not rounded, so you get values like <code>0.732</code> or <code>3.14</code>, which is useful for things like random opacity or scale.",
+        "text": "This method returns a random decimal number between a minimum and maximum value. Unlike nn.randomInt(), the result is not rounded, so you get values like 0.732 or 3.14, which is useful for things like random opacity or scale."
+      }
+    },
+    "random": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/random",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/random\" target=\"_blank\">random</a>",
+        "text": "random"
+      },
+      "description": {
+        "html": "This is a flexible all-in-one random method. Pass two numbers to get a random number in that range, pass an array to get a random item from it, or pass a string to get a random word or character from it.",
+        "text": "This is a flexible all-in-one random method. Pass two numbers to get a random number in that range, pass an array to get a random item from it, or pass a string to get a random word or character from it."
+      }
+    },
+    "perlin": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/perlin",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/perlin\" target=\"_blank\">perlin</a>",
+        "text": "perlin"
+      },
+      "description": {
+        "html": "This method creates a Perlin noise generator, which produces random values that flow smoothly from one to the next rather than jumping around unpredictably. It's great for natural-looking motion, terrain, or textures.",
+        "text": "This method creates a Perlin noise generator, which produces random values that flow smoothly from one to the next rather than jumping around unpredictably. It's great for natural-looking motion, terrain, or textures."
+      }
+    },
+    "ease": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#maths/ease",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#maths/ease\" target=\"_blank\">ease</a>",
+        "text": "ease"
+      },
+      "description": {
+        "html": "This method shapes how an animation progresses over time, making it feel more natural instead of moving at a constant speed. You pass a progress value between <code>0</code> and <code>1</code> and an easing type like <code>'OutBounce'</code> or <code>'InOutCubic'</code>, and it returns a transformed value that speeds up, slows down, or bounces.",
+        "text": "This method shapes how an animation progresses over time, making it feel more natural instead of moving at a constant speed. You pass a progress value between 0 and 1 and an easing type like 'OutBounce' or 'InOutCubic', and it returns a transformed value that speeds up, slows down, or bounces."
+      }
+    },
+    "loadImage": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/loadImage",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/loadImage\" target=\"_blank\">loadImage</a>",
+        "text": "loadImage"
+      },
+      "description": {
+        "html": "This method loads an image from a URL and gives it back to you once it has fully loaded. Use it with <code>await</code> so your code pauses and waits for the image to be ready before continuing.",
+        "text": "This method loads an image from a URL and gives it back to you once it has fully loaded. Use it with await so your code pauses and waits for the image to be ready before continuing."
+      }
+    },
+    "filterImage": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/filterImage",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/filterImage\" target=\"_blank\">filterImage</a>",
+        "text": "filterImage"
+      },
+      "description": {
+        "html": "This method lets you manipulate an image's pixels directly. You pass it an image and a function, and inside that function you can change the red, green, blue, and alpha (transparency) values of every pixel.",
+        "text": "This method lets you manipulate an image's pixels directly. You pass it an image and a function, and inside that function you can change the red, green, blue, and alpha (transparency) values of every pixel."
+      }
+    },
+    "filterVideo": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/filterVideo",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/filterVideo\" target=\"_blank\">filterVideo</a>",
+        "text": "filterVideo"
+      },
+      "description": {
+        "html": "This method applies a pixel filter to a live video stream in real time. You pass it a video element and a function that modifies pixel values, and it returns a canvas that shows the filtered result, updating every frame automatically.",
+        "text": "This method applies a pixel filter to a live video stream in real time. You pass it a video element and a function that modifies pixel values, and it returns a canvas that shows the filtered result, updating every frame automatically."
+      }
+    },
+    "askFor": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askFor",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askFor\" target=\"_blank\">askFor</a>",
+        "text": "askFor"
+      },
+      "description": {
+        "html": "This is a single method for requesting access to any browser device or permission. Pass a string like <code>'video'</code>, <code>'audio'</code>, or <code>'gps'</code> and the browser will prompt the user to grant access.",
+        "text": "This is a single method for requesting access to any browser device or permission. Pass a string like 'video', 'audio', or 'gps' and the browser will prompt the user to grant access."
+      }
+    },
+    "askForStream": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForStream",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForStream\" target=\"_blank\">askForStream</a>",
+        "text": "askForStream"
+      },
+      "description": {
+        "html": "This method requests camera and/or microphone access with fine-grained control, like specifying a resolution or frame rate. For most cases <code>nn.askFor('video')</code> is simpler.",
+        "text": "This method requests camera and/or microphone access with fine-grained control, like specifying a resolution or frame rate. For most cases nn.askFor('video') is simpler."
+      }
+    },
+    "askForCapture": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForCapture",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForCapture\" target=\"_blank\">askForCapture</a>",
+        "text": "askForCapture"
+      },
+      "description": {
+        "html": "This method asks the user to share their screen, a window, or a browser tab, and returns a live video stream of it. It must be triggered by a user action like a button click.",
+        "text": "This method asks the user to share their screen, a window, or a browser tab, and returns a live video stream of it. It must be triggered by a user action like a button click."
+      }
+    },
+    "askForNotifications": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForNotifications",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForNotifications\" target=\"_blank\">askForNotifications</a>",
+        "text": "askForNotifications"
+      },
+      "description": {
+        "html": "This method asks the user for permission to show browser notifications. It must be triggered by a user action like a button click, and resolves with <code>'granted'</code>, <code>'denied'</code>, or <code>'default'</code>.",
+        "text": "This method asks the user for permission to show browser notifications. It must be triggered by a user action like a button click, and resolves with 'granted', 'denied', or 'default'."
+      }
+    },
+    "askForClipboard": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForClipboard",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForClipboard\" target=\"_blank\">askForClipboard</a>",
+        "text": "askForClipboard"
+      },
+      "description": {
+        "html": "This method asks the user for permission to read their clipboard and returns the text that was most recently copied to it.",
+        "text": "This method asks the user for permission to read their clipboard and returns the text that was most recently copied to it."
+      }
+    },
+    "askForBluetooth": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForBluetooth",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForBluetooth\" target=\"_blank\">askForBluetooth</a>",
+        "text": "askForBluetooth"
+      },
+      "description": {
+        "html": "This method shows the browser's Bluetooth device picker and connects to whichever device the user selects. It must be triggered by a user action like a button click, and may not be supported in all browsers.",
+        "text": "This method shows the browser's Bluetooth device picker and connects to whichever device the user selects. It must be triggered by a user action like a button click, and may not be supported in all browsers."
+      }
+    },
+    "askForUSB": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForUSB",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForUSB\" target=\"_blank\">askForUSB</a>",
+        "text": "askForUSB"
+      },
+      "description": {
+        "html": "This method shows the browser's USB device picker and connects to the device the user selects. It must be triggered by a user action like a button click, and may not be supported in all browsers.",
+        "text": "This method shows the browser's USB device picker and connects to the device the user selects. It must be triggered by a user action like a button click, and may not be supported in all browsers."
+      }
+    },
+    "askForSerial": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForSerial",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForSerial\" target=\"_blank\">askForSerial</a>",
+        "text": "askForSerial"
+      },
+      "description": {
+        "html": "This method shows the browser's serial port picker, useful for communicating with hardware like Arduino over USB. It must be triggered by a user action like a button click, and may not be supported in all browsers.",
+        "text": "This method shows the browser's serial port picker, useful for communicating with hardware like Arduino over USB. It must be triggered by a user action like a button click, and may not be supported in all browsers."
+      }
+    },
+    "askForMotion": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForMotion",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForMotion\" target=\"_blank\">askForMotion</a>",
+        "text": "askForMotion"
+      },
+      "description": {
+        "html": "This method asks the user for permission to access the device's accelerometer, which measures physical movement and shaking. On iOS you must ask explicitly, but on most other devices no prompt is needed.",
+        "text": "This method asks the user for permission to access the device's accelerometer, which measures physical movement and shaking. On iOS you must ask explicitly, but on most other devices no prompt is needed."
+      }
+    },
+    "askForOrientation": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForOrientation",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForOrientation\" target=\"_blank\">askForOrientation</a>",
+        "text": "askForOrientation"
+      },
+      "description": {
+        "html": "This method asks the user for permission to access the device's gyroscope, which tracks how the device is tilted and rotated in space. On iOS you must ask explicitly, but on most other devices no prompt is needed.",
+        "text": "This method asks the user for permission to access the device's gyroscope, which tracks how the device is tilted and rotated in space. On iOS you must ask explicitly, but on most other devices no prompt is needed."
+      }
+    },
+    "askForGPS": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/askForGPS",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/askForGPS\" target=\"_blank\">askForGPS</a>",
+        "text": "askForGPS"
+      },
+      "description": {
+        "html": "This method asks the user for their current location and returns the latitude and longitude. The browser will prompt the user for permission before sharing their location.",
+        "text": "This method asks the user for their current location and returns the latitude and longitude. The browser will prompt the user for permission before sharing their location."
+      }
+    },
+    "hyper": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/hyper",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/hyper\" target=\"_blank\">hyper</a>",
+        "text": "hyper"
+      },
+      "description": {
+        "html": "This method lets you attach timed events to a video or audio element, so a function automatically runs when playback reaches a specific moment. Chain <code>.at(seconds, fn)</code> to register each cue.",
+        "text": "This method lets you attach timed events to a video or audio element, so a function automatically runs when playback reaches a specific moment. Chain .at(seconds, fn) to register each cue."
+      }
+    },
+    "popup": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/popup",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/popup\" target=\"_blank\">popup</a>",
+        "text": "popup"
+      },
+      "description": {
+        "html": "This method opens a new browser window at a given URL, with a position and size you control. It returns a reference to that window so you can later move it with <code>.moveTo()</code>, resize it with <code>.resizeTo()</code>, or close it with <code>.close()</code>.",
+        "text": "This method opens a new browser window at a given URL, with a position and size you control. It returns a reference to that window so you can later move it with .moveTo(), resize it with .resizeTo(), or close it with .close()."
+      }
+    },
+    "MIDI": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/MIDI",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/MIDI\" target=\"_blank\">MIDI</a>",
+        "text": "MIDI"
+      },
+      "description": {
+        "html": "This method requests access to any connected MIDI devices and registers a function that gets called every time a MIDI message arrives, like a key press on a MIDI keyboard. The message object has <code>dev</code> (device name), <code>chl</code> (channel/note), and <code>val</code> (velocity) properties.",
+        "text": "This method requests access to any connected MIDI devices and registers a function that gets called every time a MIDI message arrives, like a key press on a MIDI keyboard. The message object has dev (device name), chl (channel/note), and val (velocity) properties."
+      }
+    },
+    "noteToMidi": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/noteToMidi",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/noteToMidi\" target=\"_blank\">noteToMidi</a>",
+        "text": "noteToMidi"
+      },
+      "description": {
+        "html": "This method converts a note name like <code>\"C4\"</code> or <code>\"A#3\"</code> into its MIDI number. MIDI numbers are how most music software refers to pitches internally, for example middle C (<code>\"C4\"</code>) is 60.",
+        "text": "This method converts a note name like \"C4\" or \"A#3\" into its MIDI number. MIDI numbers are how most music software refers to pitches internally, for example middle C (\"C4\") is 60."
+      }
+    },
+    "midiToNote": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/midiToNote",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/midiToNote\" target=\"_blank\">midiToNote</a>",
+        "text": "midiToNote"
+      },
+      "description": {
+        "html": "This method converts a MIDI number back into a human-readable note name. For example, <code>60</code> gives you <code>\"C4\"</code> (middle C) and <code>69</code> gives you <code>\"A4\"</code>.",
+        "text": "This method converts a MIDI number back into a human-readable note name. For example, 60 gives you \"C4\" (middle C) and 69 gives you \"A4\"."
+      }
+    },
+    "noteToFrequency": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/noteToFrequency",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/noteToFrequency\" target=\"_blank\">noteToFrequency</a>",
+        "text": "noteToFrequency"
+      },
+      "description": {
+        "html": "This method converts a note name into its frequency in Hz, the number you need to play that pitch with the Web Audio API. For example, <code>\"A4\"</code> gives you <code>440</code> Hz.",
+        "text": "This method converts a note name into its frequency in Hz, the number you need to play that pitch with the Web Audio API. For example, \"A4\" gives you 440 Hz."
+      }
+    },
+    "frequencyToNote": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/frequencyToNote",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/frequencyToNote\" target=\"_blank\">frequencyToNote</a>",
+        "text": "frequencyToNote"
+      },
+      "description": {
+        "html": "This method converts a frequency in Hz back into the nearest note name. For example, <code>440</code> gives you <code>\"A4\"</code>. It's useful for identifying what note a detected sound is closest to.",
+        "text": "This method converts a frequency in Hz back into the nearest note name. For example, 440 gives you \"A4\". It's useful for identifying what note a detected sound is closest to."
+      }
+    },
+    "midiToFrequency": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/midiToFrequency",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/midiToFrequency\" target=\"_blank\">midiToFrequency</a>",
+        "text": "midiToFrequency"
+      },
+      "description": {
+        "html": "This method converts a MIDI note number into its frequency in Hz. For example, MIDI <code>69</code> (<code>\"A4\"</code>) gives you <code>440</code> Hz, which is the standard tuning reference pitch.",
+        "text": "This method converts a MIDI note number into its frequency in Hz. For example, MIDI 69 (\"A4\") gives you 440 Hz, which is the standard tuning reference pitch."
+      }
+    },
+    "frequencyToMidi": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/frequencyToMidi",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/frequencyToMidi\" target=\"_blank\">frequencyToMidi</a>",
+        "text": "frequencyToMidi"
+      },
+      "description": {
+        "html": "This method converts a frequency in Hz into the nearest MIDI note number. For example, <code>440</code> Hz gives you <code>69</code>. It's the reverse of <code>nn.midiToFrequency()</code>.",
+        "text": "This method converts a frequency in Hz into the nearest MIDI note number. For example, 440 Hz gives you 69. It's the reverse of nn.midiToFrequency()."
+      }
+    },
+    "stripOctave": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/stripOctave",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/stripOctave\" target=\"_blank\">stripOctave</a>",
+        "text": "stripOctave"
+      },
+      "description": {
+        "html": "This method strips the octave number off a note name, leaving just the pitch class. For example, <code>\"C4\"</code> becomes <code>\"C\"</code> and <code>\"A#3\"</code> becomes <code>\"A#\"</code>.",
+        "text": "This method strips the octave number off a note name, leaving just the pitch class. For example, \"C4\" becomes \"C\" and \"A#3\" becomes \"A#\"."
+      }
+    },
+    "createScale": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/createScale",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/createScale\" target=\"_blank\">createScale</a>",
+        "text": "createScale"
+      },
+      "description": {
+        "html": "This method generates a musical scale as an array of note names. You give it a root note and a mode name like <code>\"major\"</code> or <code>\"blues\"</code>, and it returns all the notes in that scale.",
+        "text": "This method generates a musical scale as an array of note names. You give it a root note and a mode name like \"major\" or \"blues\", and it returns all the notes in that scale."
+      }
+    },
+    "randomMode": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/randomMode",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/randomMode\" target=\"_blank\">randomMode</a>",
+        "text": "randomMode"
+      },
+      "description": {
+        "html": "This method generates a random set of musical intervals that define a made-up scale. You can pass the result straight into <code>nn.createScale()</code> to get an array of notes in that invented scale.",
+        "text": "This method generates a random set of musical intervals that define a made-up scale. You can pass the result straight into nn.createScale() to get an array of notes in that invented scale."
+      }
+    },
+    "rotateScale": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/rotateScale",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/rotateScale\" target=\"_blank\">rotateScale</a>",
+        "text": "rotateScale"
+      },
+      "description": {
+        "html": "This method rotates a scale so it starts from a different note in the sequence. For example, rotating C major by 1 step gives you D Dorian, which uses the same notes but starts on D instead.",
+        "text": "This method rotates a scale so it starts from a different note in the sequence. For example, rotating C major by 1 step gives you D Dorian, which uses the same notes but starts on D instead."
+      }
+    },
+    "transposeScale": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/transposeScale",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/transposeScale\" target=\"_blank\">transposeScale</a>",
+        "text": "transposeScale"
+      },
+      "description": {
+        "html": "This method shifts every note in a scale up or down by a number of semitones, like moving a piece of music to a different key. Positive numbers go up in pitch, negative numbers go down.",
+        "text": "This method shifts every note in a scale up or down by a number of semitones, like moving a piece of music to a different key. Positive numbers go up in pitch, negative numbers go down."
+      }
+    },
+    "createChord": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/createChord",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/createChord\" target=\"_blank\">createChord</a>",
+        "text": "createChord"
+      },
+      "description": {
+        "html": "This method picks specific notes out of a scale to form a chord. You pass it a scale array and a chord type like <code>\"triad\"</code> or <code>\"seventh\"</code>, and it returns just the notes that make up that chord.",
+        "text": "This method picks specific notes out of a scale to form a chord. You pass it a scale array and a chord type like \"triad\" or \"seventh\", and it returns just the notes that make up that chord."
+      }
+    },
+    "voiceChord": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#music/voiceChord",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#music/voiceChord\" target=\"_blank\">voiceChord</a>",
+        "text": "voiceChord"
+      },
+      "description": {
+        "html": "This method takes a chord of pitch names without octave numbers and assigns each one an octave so all the notes go in ascending order with no overlaps. It's what you use to turn a chord from <code>nn.createChord()</code> into a properly voiced chord ready to use with something like Tone.js.",
+        "text": "This method takes a chord of pitch names without octave numbers and assigns each one an octave so all the notes go in ascending order with no overlaps. It's what you use to turn a chord from nn.createChord() into a properly voiced chord ready to use with something like Tone.js."
+      }
+    },
+    "sleep": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#utils/sleep",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#utils/sleep\" target=\"_blank\">sleep</a>",
+        "text": "sleep"
+      },
+      "description": {
+        "html": "This method pauses your code for a given number of milliseconds before continuing. Use it with <code>await</code> inside an <code>async</code> function, for example <code>await nn.sleep(1000)</code> waits one second.",
+        "text": "This method pauses your code for a given number of milliseconds before continuing. Use it with await inside an async function, for example await nn.sleep(1000) waits one second."
+      }
+    },
+    "times": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#utils/times",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#utils/times\" target=\"_blank\">times</a>",
+        "text": "times"
+      },
+      "description": {
+        "html": "This method calls a function a specific number of times, a shorthand for writing a <code>for</code> loop. For example, <code>nn.times(5, draw)</code> calls your <code>draw</code> function five times in a row.",
+        "text": "This method calls a function a specific number of times, a shorthand for writing a for loop. For example, nn.times(5, draw) calls your draw function five times in a row."
+      }
+    },
+    "range": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#utils/range",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#utils/range\" target=\"_blank\">range</a>",
+        "text": "range"
+      },
+      "description": {
+        "html": "This method generates an array of numbers between a start and end value. For example, <code>nn.range(1, 5)</code> gives you <code>[1, 2, 3, 4]</code>, which you can then loop over to create or position things.",
+        "text": "This method generates an array of numbers between a start and end value. For example, nn.range(1, 5) gives you [1, 2, 3, 4], which you can then loop over to create or position things."
+      }
+    }
+  },
+  "nnDOM": {
+    "on": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/on",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/on\" target=\"_blank\">on</a>",
+        "text": "on"
+      },
+      "description": {
+        "html": "This is an event listener, a piece of code that waits for a specific action, like a 'click',  'keypress' and <a href=\"https://devdoc.net/web/developer.mozilla.org/en-US/docs/DOM/DOM_event_reference.1.html\" target=\"_blank\">others</a>, and then runs a function when that action happens. We specify the type of the event (a string) we want to listen for as the first argument, and pass the name of (or \"reference\" to) the function we want to call as the second argument.",
+        "text": "This is an event listener, a piece of code that waits for a specific action, like a 'click',  'keypress' and others, and then runs a function when that action happens. We specify the type of the event (a string) we want to listen for as the first argument, and pass the name of (or \"reference\" to) the function we want to call as the second argument."
+      }
+    },
+    "off": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/off",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/off\" target=\"_blank\">off</a>",
+        "text": "off"
+      },
+      "description": {
+        "html": "If you had previously set an event listener with <code>.on()</code> you can remove it with <code>.off()</code>, just make sure you pass the same event type (a string) and function name to this method as you originally did with on.",
+        "text": "If you had previously set an event listener with .on() you can remove it with .off(), just make sure you pass the same event type (a string) and function name to this method as you originally did with on."
+      }
+    },
+    "width": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/width",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/width\" target=\"_blank\">width</a>",
+        "text": "width"
+      },
+      "description": {
+        "html": "This is either the width of the screen in pixels when <code>nn.width</code>, or of a particular element, for example <code>img.width</code>",
+        "text": "This is either the width of the screen in pixels when nn.width, or of a particular element, for example img.width"
+      }
+    },
+    "height": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/height",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/height\" target=\"_blank\">height</a>",
+        "text": "height"
+      },
+      "description": {
+        "html": "This is either the height of the screen in piexels when <code>nn.height</code>, or of a particular element, for example <code>img.height</code>",
+        "text": "This is either the height of the screen in piexels when nn.height, or of a particular element, for example img.height"
+      }
+    },
+    "get": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/get",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/get\" target=\"_blank\">get</a>",
+        "text": "get"
+      },
+      "description": {
+        "html": "When there's there's an element on your page you want to reference or modify in your JavaScript you can \"get\" it using this method, you can pass an elemnt type <code>.get('div')</code>, a class <code>.get('.title')</code> or id <code>.get('#title')</code>. It will find the first element that matches the argument string.",
+        "text": "When there's there's an element on your page you want to reference or modify in your JavaScript you can \"get\" it using this method, you can pass an elemnt type .get('div'), a class .get('.title') or id .get('#title'). It will find the first element that matches the argument string."
+      }
+    },
+    "getAll": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/getAll",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/getAll\" target=\"_blank\">getAll</a>",
+        "text": "getAll"
+      },
+      "description": {
+        "html": "Similar to <code>nn.get()</code>, which can be used to grab a specific element, by id for example <code>.get('#title')</code>, when there's multiple elements on your page you want to grab all at once you can pull them into an array using this method. For example <code>nn.getAll('.cards')</code> returns a list of all the elements where <code>class=\"cards\"</code>.",
+        "text": "Similar to nn.get(), which can be used to grab a specific element, by id for example .get('#title'), when there's multiple elements on your page you want to grab all at once you can pull them into an array using this method. For example nn.getAll('.cards') returns a list of all the elements where class=\"cards\"."
+      }
+    },
+    "content": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/content",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/content\" target=\"_blank\">content</a>",
+        "text": "content"
+      },
+      "description": {
+        "html": "This method is used to change the content inside of the element. Passing an empty string or <code>null</code> clears out the content of the elment",
+        "text": "This method is used to change the content inside of the element. Passing an empty string or null clears out the content of the elment"
+      }
+    },
+    "addTo": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/addTo",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/addTo\" target=\"_blank\">addTo</a>",
+        "text": "addTo"
+      },
+      "description": {
+        "html": "This method places the element onto the page by injecting it inside a parent element. For example, <code>.addTo('body')</code> makes it visible by adding it inside the <code>&lt;body&gt;</code> tag.",
+        "text": "This method places the element onto the page by injecting it inside a parent element. For example, .addTo('body') makes it visible by adding it inside the <body> tag."
+      }
+    },
+    "set": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/set",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/set\" target=\"_blank\">set</a>",
+        "text": "set"
+      },
+      "description": {
+        "html": "This method sets HTML attributes on an element, like the <code>src</code> on an image or <code>href</code> on a link. For example <code>.set('src', 'photo.jpg')</code> tells an <code>&lt;img&gt;</code> which image file to display.",
+        "text": "This method sets HTML attributes on an element, like the src on an image or href on a link. For example .set('src', 'photo.jpg') tells an <img> which image file to display."
+      }
+    },
+    "css": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/css",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/css\" target=\"_blank\">css</a>",
+        "text": "css"
+      },
+      "description": {
+        "html": "This method applies CSS styles directly to an element, like changing its <code>background</code>, <code>width</code>, or <code>fontSize</code>. You can set one style at a time or pass an object with many styles at once.",
+        "text": "This method applies CSS styles directly to an element, like changing its background, width, or fontSize. You can set one style at a time or pass an object with many styles at once."
+      }
+    },
+    "transition": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/transition",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/transition\" target=\"_blank\">transition</a>",
+        "text": "transition"
+      },
+      "description": {
+        "html": "This method makes style changes animate smoothly rather than snapping instantly to their new values. For example, <code>.transition('background', 500)</code> means any future background color change will smoothly fade over 500 milliseconds.",
+        "text": "This method makes style changes animate smoothly rather than snapping instantly to their new values. For example, .transition('background', 500) means any future background color change will smoothly fade over 500 milliseconds."
+      }
+    },
+    "position": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/position",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/position\" target=\"_blank\">position</a>",
+        "text": "position"
+      },
+      "description": {
+        "html": "This method places the element at a specific (x, y) coordinate on the page, where x is measured from the left edge and y from the top edge of the window.",
+        "text": "This method places the element at a specific (x, y) coordinate on the page, where x is measured from the left edge and y from the top edge of the window."
+      }
+    },
+    "positionOrigin": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/positionOrigin",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/positionOrigin\" target=\"_blank\">positionOrigin</a>",
+        "text": "positionOrigin"
+      },
+      "description": {
+        "html": "By default <code>.position(x, y)</code> places the element's top-left corner at those coordinates. Calling <code>.positionOrigin('center')</code> first makes the coordinates point to the element's center instead.",
+        "text": "By default .position(x, y) places the element's top-left corner at those coordinates. Calling .positionOrigin('center') first makes the coordinates point to the element's center instead."
+      }
+    },
+    "size": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/size",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/size\" target=\"_blank\">size</a>",
+        "text": "size"
+      },
+      "description": {
+        "html": "This method sets the width and height of an element. Pass numbers to use pixels, or strings like <code>'100vw'</code> or <code>'50%'</code> for other units. Pass just one value to make it a square, or pass <code>null</code> for a dimension you want to leave unchanged.",
+        "text": "This method sets the width and height of an element. Pass numbers to use pixels, or strings like '100vw' or '50%' for other units. Pass just one value to make it a square, or pass null for a dimension you want to leave unchanged."
+      }
+    },
+    "rotate": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/rotate",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/rotate\" target=\"_blank\">rotate</a>",
+        "text": "rotate"
+      },
+      "description": {
+        "html": "This method rotates the element by a given number of degrees. Positive values spin it clockwise; negative values spin it counter-clockwise.",
+        "text": "This method rotates the element by a given number of degrees. Positive values spin it clockwise; negative values spin it counter-clockwise."
+      }
+    },
+    "scale": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/scale",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/scale\" target=\"_blank\">scale</a>",
+        "text": "scale"
+      },
+      "description": {
+        "html": "This method resizes the element relative to its original size. A value of <code>1</code> is normal, <code>2</code> is double the size, and <code>0.5</code> is half.",
+        "text": "This method resizes the element relative to its original size. A value of 1 is normal, 2 is double the size, and 0.5 is half."
+      }
+    },
+    "skew": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/skew",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/skew\" target=\"_blank\">skew</a>",
+        "text": "skew"
+      },
+      "description": {
+        "html": "This method slants the element along the horizontal and/or vertical axis, creating a leaning or shearing effect, like italicizing a shape.",
+        "text": "This method slants the element along the horizontal and/or vertical axis, creating a leaning or shearing effect, like italicizing a shape."
+      }
+    },
+    "blur": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/blur",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/blur\" target=\"_blank\">blur</a>",
+        "text": "blur"
+      },
+      "description": {
+        "html": "This method blurs the element, making it look out of focus. The higher the number, the blurrier it appears.",
+        "text": "This method blurs the element, making it look out of focus. The higher the number, the blurrier it appears."
+      }
+    },
+    "brightness": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/brightness",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/brightness\" target=\"_blank\">brightness</a>",
+        "text": "brightness"
+      },
+      "description": {
+        "html": "This method adjusts how bright the element appears. A value of <code>1</code> is normal, <code>0</code> is completely black, and values above <code>1</code> make it brighter than normal.",
+        "text": "This method adjusts how bright the element appears. A value of 1 is normal, 0 is completely black, and values above 1 make it brighter than normal."
+      }
+    },
+    "contrast": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/contrast",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/contrast\" target=\"_blank\">contrast</a>",
+        "text": "contrast"
+      },
+      "description": {
+        "html": "This method adjusts the contrast of the element. A value of <code>1</code> is normal, <code>0</code> turns it flat gray, and values above <code>1</code> make light areas lighter and dark areas darker.",
+        "text": "This method adjusts the contrast of the element. A value of 1 is normal, 0 turns it flat gray, and values above 1 make light areas lighter and dark areas darker."
+      }
+    },
+    "dropShadow": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/dropShadow",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/dropShadow\" target=\"_blank\">dropShadow</a>",
+        "text": "dropShadow"
+      },
+      "description": {
+        "html": "This method adds a shadow to the element. Unlike a regular box shadow, this one traces the actual visible shape of the element, so it works properly on images with transparent backgrounds.",
+        "text": "This method adds a shadow to the element. Unlike a regular box shadow, this one traces the actual visible shape of the element, so it works properly on images with transparent backgrounds."
+      }
+    },
+    "grayscale": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/grayscale",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/grayscale\" target=\"_blank\">grayscale</a>",
+        "text": "grayscale"
+      },
+      "description": {
+        "html": "This method removes color from the element. A value of <code>0</code> keeps it in full color, and <code>1</code> turns it completely black and white.",
+        "text": "This method removes color from the element. A value of 0 keeps it in full color, and 1 turns it completely black and white."
+      }
+    },
+    "hueRotate": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/hueRotate",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/hueRotate\" target=\"_blank\">hueRotate</a>",
+        "text": "hueRotate"
+      },
+      "description": {
+        "html": "This method shifts all the colors in the element by a given number of degrees around the color wheel. Think of it like cycling through different color palettes without changing the shapes or patterns.",
+        "text": "This method shifts all the colors in the element by a given number of degrees around the color wheel. Think of it like cycling through different color palettes without changing the shapes or patterns."
+      }
+    },
+    "invert": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/invert",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/invert\" target=\"_blank\">invert</a>",
+        "text": "invert"
+      },
+      "description": {
+        "html": "This method flips all the colors to their opposites, like a photo negative. A value of <code>1</code> fully inverts; <code>0</code> has no effect.",
+        "text": "This method flips all the colors to their opposites, like a photo negative. A value of 1 fully inverts; 0 has no effect."
+      }
+    },
+    "opacity": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/opacity",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/opacity\" target=\"_blank\">opacity</a>",
+        "text": "opacity"
+      },
+      "description": {
+        "html": "This method controls how transparent the element is. A value of <code>1</code> is fully visible, and <code>0</code> makes it completely invisible.",
+        "text": "This method controls how transparent the element is. A value of 1 is fully visible, and 0 makes it completely invisible."
+      }
+    },
+    "sepia": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/sepia",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/sepia\" target=\"_blank\">sepia</a>",
+        "text": "sepia"
+      },
+      "description": {
+        "html": "This method gives the element a warm brownish vintage tone, like an old photograph. A value of <code>0</code> is no change; <code>1</code> is fully sepia.",
+        "text": "This method gives the element a warm brownish vintage tone, like an old photograph. A value of 0 is no change; 1 is fully sepia."
+      }
+    },
+    "saturate": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/saturate",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/saturate\" target=\"_blank\">saturate</a>",
+        "text": "saturate"
+      },
+      "description": {
+        "html": "This method controls how vivid or muted the colors are. A value of <code>1</code> is normal, <code>0</code> makes it grayscale, and higher values like <code>3</code> make the colors intensely vibrant.",
+        "text": "This method controls how vivid or muted the colors are. A value of 1 is normal, 0 makes it grayscale, and higher values like 3 make the colors intensely vibrant."
+      }
+    },
+    "x": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/x",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/x\" target=\"_blank\">x</a>",
+        "text": "x"
+      },
+      "description": {
+        "html": "This property contains a number representing how far the element's left edge is from the left side of the window, in pixels.",
+        "text": "This property contains a number representing how far the element's left edge is from the left side of the window, in pixels."
+      }
+    },
+    "y": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/y",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/y\" target=\"_blank\">y</a>",
+        "text": "y"
+      },
+      "description": {
+        "html": "This property contains a number representing how far the element's top edge is from the top of the window, in pixels.",
+        "text": "This property contains a number representing how far the element's top edge is from the top of the window, in pixels."
+      }
+    },
+    "top": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/top",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/top\" target=\"_blank\">top</a>",
+        "text": "top"
+      },
+      "description": {
+        "html": "This property contains a number representing how far the element's top edge is from the top of the window, in pixels. Same value as <code>.y</code>.",
+        "text": "This property contains a number representing how far the element's top edge is from the top of the window, in pixels. Same value as .y."
+      }
+    },
+    "left": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/left",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/left\" target=\"_blank\">left</a>",
+        "text": "left"
+      },
+      "description": {
+        "html": "This property contains a number representing how far the element's left edge is from the left side of the window, in pixels. Same value as <code>.x</code>.",
+        "text": "This property contains a number representing how far the element's left edge is from the left side of the window, in pixels. Same value as .x."
+      }
+    },
+    "bottom": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/bottom",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/bottom\" target=\"_blank\">bottom</a>",
+        "text": "bottom"
+      },
+      "description": {
+        "html": "This property contains a number representing how far the element's bottom edge is from the top of the window, in pixels.",
+        "text": "This property contains a number representing how far the element's bottom edge is from the top of the window, in pixels."
+      }
+    },
+    "right": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/right",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/right\" target=\"_blank\">right</a>",
+        "text": "right"
+      },
+      "description": {
+        "html": "This property contains a number representing how far the element's right edge is from the left side of the window, in pixels.",
+        "text": "This property contains a number representing how far the element's right edge is from the left side of the window, in pixels."
+      }
+    },
+    "data": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#dom/data",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#dom/data\" target=\"_blank\">data</a>",
+        "text": "data"
+      },
+      "description": {
+        "html": "This property lets you attach your own custom data directly to an element. For example, <code>box.data.score = 10</code> stores a score on that element, and <code>box.data.score</code> reads it back later.",
+        "text": "This property lets you attach your own custom data directly to an element. For example, box.data.score = 10 stores a score on that element, and box.data.score reads it back later."
+      }
+    }
+  },
+  "nnCanvas": {
+    "circle": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/circle",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/circle\" target=\"_blank\">circle</a>",
+        "text": "circle"
+      },
+      "description": {
+        "html": "This method draws a circle on the canvas. The first two numbers set its center position, and the third number sets its radius (half the total width of the circle).",
+        "text": "This method draws a circle on the canvas. The first two numbers set its center position, and the third number sets its radius (half the total width of the circle)."
+      }
+    },
+    "ellipse": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/ellipse",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/ellipse\" target=\"_blank\">ellipse</a>",
+        "text": "ellipse"
+      },
+      "description": {
+        "html": "This method draws an oval on the canvas. The first two numbers set its center position, the third sets how wide it is (horizontal radius), and the fourth sets how tall it is (vertical radius).",
+        "text": "This method draws an oval on the canvas. The first two numbers set its center position, the third sets how wide it is (horizontal radius), and the fourth sets how tall it is (vertical radius)."
+      }
+    },
+    "rect": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/rect",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/rect\" target=\"_blank\">rect</a>",
+        "text": "rect"
+      },
+      "description": {
+        "html": "This method draws a rectangle on the canvas. The first two numbers set the position of its top-left corner, and the next two set its width and height. If you only pass one size value it draws a square.",
+        "text": "This method draws a rectangle on the canvas. The first two numbers set the position of its top-left corner, and the next two set its width and height. If you only pass one size value it draws a square."
+      }
+    },
+    "line": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/line",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/line\" target=\"_blank\">line</a>",
+        "text": "line"
+      },
+      "description": {
+        "html": "This method draws a straight line on the canvas. The first two numbers are the starting point (x, y) and the last two numbers are the ending point (x, y).",
+        "text": "This method draws a straight line on the canvas. The first two numbers are the starting point (x, y) and the last two numbers are the ending point (x, y)."
+      }
+    },
+    "triangle": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/triangle",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/triangle\" target=\"_blank\">triangle</a>",
+        "text": "triangle"
+      },
+      "description": {
+        "html": "This method draws a triangle on the canvas. The six numbers are the x, y coordinates of each of its three corners.",
+        "text": "This method draws a triangle on the canvas. The six numbers are the x, y coordinates of each of its three corners."
+      }
+    },
+    "fillColor": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/fillColor",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/fillColor\" target=\"_blank\">fillColor</a>",
+        "text": "fillColor"
+      },
+      "description": {
+        "html": "This property sets the fill color used when drawing shapes. Assign any CSS color string like <code>'coral'</code> or <code>'#ff6b6b'</code>, and all shapes drawn after that will use that color.",
+        "text": "This property sets the fill color used when drawing shapes. Assign any CSS color string like 'coral' or '#ff6b6b', and all shapes drawn after that will use that color."
+      }
+    },
+    "strokeColor": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/strokeColor",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/strokeColor\" target=\"_blank\">strokeColor</a>",
+        "text": "strokeColor"
+      },
+      "description": {
+        "html": "This property sets the outline color used when drawing shapes. Set it to <code>'transparent'</code> if you don't want any outline.",
+        "text": "This property sets the outline color used when drawing shapes. Set it to 'transparent' if you don't want any outline."
+      }
+    },
+    "lineWidth": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/lineWidth",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/lineWidth\" target=\"_blank\">lineWidth</a>",
+        "text": "lineWidth"
+      },
+      "description": {
+        "html": "This property sets how thick the outlines and lines are when drawing. The default is <code>1</code>, and higher numbers make thicker lines.",
+        "text": "This property sets how thick the outlines and lines are when drawing. The default is 1, and higher numbers make thicker lines."
+      }
+    },
+    "lineCap": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/lineCap",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/lineCap\" target=\"_blank\">lineCap</a>",
+        "text": "lineCap"
+      },
+      "description": {
+        "html": "This property controls the shape of the ends of a line. <code>'butt'</code> is flat (default), <code>'round'</code> adds a rounded cap, and <code>'square'</code> adds a flat extension.",
+        "text": "This property controls the shape of the ends of a line. 'butt' is flat (default), 'round' adds a rounded cap, and 'square' adds a flat extension."
+      }
+    },
+    "lineJoin": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/lineJoin",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/lineJoin\" target=\"_blank\">lineJoin</a>",
+        "text": "lineJoin"
+      },
+      "description": {
+        "html": "This property controls how corners look where two lines or shape edges meet. <code>'miter'</code> is a sharp point (default), <code>'round'</code> is rounded, and <code>'bevel'</code> cuts the corner flat.",
+        "text": "This property controls how corners look where two lines or shape edges meet. 'miter' is a sharp point (default), 'round' is rounded, and 'bevel' cuts the corner flat."
+      }
+    },
+    "text": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/text",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/text\" target=\"_blank\">text</a>",
+        "text": "text"
+      },
+      "description": {
+        "html": "This method draws a text string onto the canvas. The first argument is the text itself, and the next two numbers are the x, y position where it will be drawn.",
+        "text": "This method draws a text string onto the canvas. The first argument is the text itself, and the next two numbers are the x, y position where it will be drawn."
+      }
+    },
+    "font": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/font",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/font\" target=\"_blank\">font</a>",
+        "text": "font"
+      },
+      "description": {
+        "html": "This property sets the font used when drawing text, using the same format as CSS, for example <code>'bold 24px monospace'</code>.",
+        "text": "This property sets the font used when drawing text, using the same format as CSS, for example 'bold 24px monospace'."
+      }
+    },
+    "textAlign": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/textAlign",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/textAlign\" target=\"_blank\">textAlign</a>",
+        "text": "textAlign"
+      },
+      "description": {
+        "html": "This property controls how text is horizontally aligned relative to the x position you pass to <code>.text()</code>. For example, <code>'center'</code> means the x coordinate lands at the middle of the text.",
+        "text": "This property controls how text is horizontally aligned relative to the x position you pass to .text(). For example, 'center' means the x coordinate lands at the middle of the text."
+      }
+    },
+    "textBaseline": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/textBaseline",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/textBaseline\" target=\"_blank\">textBaseline</a>",
+        "text": "textBaseline"
+      },
+      "description": {
+        "html": "This property controls how text is vertically aligned relative to the y position you pass to <code>.text()</code>. For example, <code>'middle'</code> means the y coordinate lands at the vertical center of the text.",
+        "text": "This property controls how text is vertically aligned relative to the y position you pass to .text(). For example, 'middle' means the y coordinate lands at the vertical center of the text."
+      }
+    },
+    "save": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/save",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/save\" target=\"_blank\">save</a>",
+        "text": "save"
+      },
+      "description": {
+        "html": "These two methods work as a pair. <code>.save()</code> takes a snapshot of the current drawing settings (colors, transforms, etc.) and <code>.restore()</code> brings them back, so any temporary changes you make in between don't affect the rest of your drawing.",
+        "text": "These two methods work as a pair. .save() takes a snapshot of the current drawing settings (colors, transforms, etc.) and .restore() brings them back, so any temporary changes you make in between don't affect the rest of your drawing."
+      }
+    },
+    "restore": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/restore",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/restore\" target=\"_blank\">restore</a>",
+        "text": "restore"
+      },
+      "description": {
+        "html": "These two methods work as a pair. <code>.save()</code> takes a snapshot of the current drawing settings (colors, transforms, etc.) and <code>.restore()</code> brings them back, so any temporary changes you make in between don't affect the rest of your drawing.",
+        "text": "These two methods work as a pair. .save() takes a snapshot of the current drawing settings (colors, transforms, etc.) and .restore() brings them back, so any temporary changes you make in between don't affect the rest of your drawing."
+      }
+    },
+    "translate": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/translate",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/translate\" target=\"_blank\">translate</a>",
+        "text": "translate"
+      },
+      "description": {
+        "html": "This method shifts the canvas's origin point so that all subsequent drawing commands are offset by the given x and y amounts. Use it inside a <code>.save()</code> / <code>.restore()</code> pair so only certain shapes are affected.",
+        "text": "This method shifts the canvas's origin point so that all subsequent drawing commands are offset by the given x and y amounts. Use it inside a .save() / .restore() pair so only certain shapes are affected."
+      }
+    },
+    "rotate": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/rotate",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/rotate\" target=\"_blank\">rotate</a>",
+        "text": "rotate"
+      },
+      "description": {
+        "html": "This method rotates the canvas coordinate system by a given angle in radians. Use it inside a <code>.save()</code> / <code>.restore()</code> pair so only the shapes you want are drawn at that rotation.",
+        "text": "This method rotates the canvas coordinate system by a given angle in radians. Use it inside a .save() / .restore() pair so only the shapes you want are drawn at that rotation."
+      }
+    },
+    "scale": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/scale",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/scale\" target=\"_blank\">scale</a>",
+        "text": "scale"
+      },
+      "description": {
+        "html": "This method scales the canvas coordinate system up or down. A value of <code>1</code> is normal, <code>2</code> doubles the size, and <code>0.5</code> halves it. Use it inside a <code>.save()</code> / <code>.restore()</code> pair so only the shapes you want are affected.",
+        "text": "This method scales the canvas coordinate system up or down. A value of 1 is normal, 2 doubles the size, and 0.5 halves it. Use it inside a .save() / .restore() pair so only the shapes you want are affected."
+      }
+    },
+    "beginPath": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/beginPath",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/beginPath\" target=\"_blank\">beginPath</a>",
+        "text": "beginPath"
+      },
+      "description": {
+        "html": "This method starts a new custom shape. After calling it, use methods like <code>.moveTo()</code>, <code>.lineTo()</code>, and <code>.arc()</code> to trace the outline, then call <code>.fill()</code> or <code>.stroke()</code> to actually draw it.",
+        "text": "This method starts a new custom shape. After calling it, use methods like .moveTo(), .lineTo(), and .arc() to trace the outline, then call .fill() or .stroke() to actually draw it."
+      }
+    },
+    "arc": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/arc",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/arc\" target=\"_blank\">arc</a>",
+        "text": "arc"
+      },
+      "description": {
+        "html": "This method adds a curved arc to the current path, used inside a <code>.beginPath()</code> block. The first two numbers are the center position, the third is the radius, and the last two are the start and end angles in radians.",
+        "text": "This method adds a curved arc to the current path, used inside a .beginPath() block. The first two numbers are the center position, the third is the radius, and the last two are the start and end angles in radians."
+      }
+    },
+    "bezierCurveTo": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/bezierCurveTo",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/bezierCurveTo\" target=\"_blank\">bezierCurveTo</a>",
+        "text": "bezierCurveTo"
+      },
+      "description": {
+        "html": "This method adds a smooth curved line to the current path. The last two numbers are the end point, and the first four are two \"control points\" that pull the curve toward them, shaping how it bends.",
+        "text": "This method adds a smooth curved line to the current path. The last two numbers are the end point, and the first four are two \"control points\" that pull the curve toward them, shaping how it bends."
+      }
+    },
+    "blendMode": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/blendMode",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/blendMode\" target=\"_blank\">blendMode</a>",
+        "text": "blendMode"
+      },
+      "description": {
+        "html": "This property controls how newly drawn shapes blend with whatever is already on the canvas. For example, <code>'multiply'</code> darkens where shapes overlap, and <code>'screen'</code> lightens them.",
+        "text": "This property controls how newly drawn shapes blend with whatever is already on the canvas. For example, 'multiply' darkens where shapes overlap, and 'screen' lightens them."
+      }
+    },
+    "globalAlpha": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/globalAlpha",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/globalAlpha\" target=\"_blank\">globalAlpha</a>",
+        "text": "globalAlpha"
+      },
+      "description": {
+        "html": "This property sets the global transparency for everything drawn after it is set. A value of <code>1</code> is fully visible and <code>0</code> is completely invisible.",
+        "text": "This property sets the global transparency for everything drawn after it is set. A value of 1 is fully visible and 0 is completely invisible."
+      }
+    },
+    "shadowBlur": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/shadowBlur",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/shadowBlur\" target=\"_blank\">shadowBlur</a>",
+        "text": "shadowBlur"
+      },
+      "description": {
+        "html": "This property adds a glow or shadow to shapes drawn after it is set. You also need to set <code>canvas.shadowColor</code> for the effect to be visible, and you can use <code>canvas.shadowOffsetX</code> / <code>canvas.shadowOffsetY</code> to shift the shadow position.",
+        "text": "This property adds a glow or shadow to shapes drawn after it is set. You also need to set canvas.shadowColor for the effect to be visible, and you can use canvas.shadowOffsetX / canvas.shadowOffsetY to shift the shadow position."
+      }
+    },
+    "clear": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/clear",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/clear\" target=\"_blank\">clear</a>",
+        "text": "clear"
+      },
+      "description": {
+        "html": "This method erases everything on the canvas. It's typically called at the start of each animation frame to wipe the previous frame before drawing the new one.",
+        "text": "This method erases everything on the canvas. It's typically called at the start of each animation frame to wipe the previous frame before drawing the new one."
+      }
+    },
+    "size": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/size",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/size\" target=\"_blank\">size</a>",
+        "text": "size"
+      },
+      "description": {
+        "html": "This method sets how many pixels wide and tall the canvas drawing area is. Without calling it the canvas defaults to a small size, so use <code>.size(nn.width, nn.height)</code> to make it fill the whole window.",
+        "text": "This method sets how many pixels wide and tall the canvas drawing area is. Without calling it the canvas defaults to a small size, so use .size(nn.width, nn.height) to make it fill the whole window."
+      }
+    },
+    "getPixels": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/getPixels",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/getPixels\" target=\"_blank\">getPixels</a>",
+        "text": "getPixels"
+      },
+      "description": {
+        "html": "This method returns all the pixel data on the canvas as an array, where each item has <code>r</code>, <code>g</code>, <code>b</code>, and <code>a</code> (red, green, blue, alpha) values. You can then modify those values and write them back using <code>.setPixels()</code>.",
+        "text": "This method returns all the pixel data on the canvas as an array, where each item has r, g, b, and a (red, green, blue, alpha) values. You can then modify those values and write them back using .setPixels()."
+      }
+    },
+    "setPixels": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/setPixels",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/setPixels\" target=\"_blank\">setPixels</a>",
+        "text": "setPixels"
+      },
+      "description": {
+        "html": "This method writes a modified pixel array back onto the canvas, making your changes visible. Use it together with <code>.getPixels()</code> to apply custom effects to every pixel.",
+        "text": "This method writes a modified pixel array back onto the canvas, making your changes visible. Use it together with .getPixels() to apply custom effects to every pixel."
+      }
+    },
+    "drawImage": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/drawImage",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/drawImage\" target=\"_blank\">drawImage</a>",
+        "text": "drawImage"
+      },
+      "description": {
+        "html": "This method draws an image onto the canvas. The first argument is a URL string or an existing image element, the next two numbers set the position of its top-left corner, and the optional last two numbers set its width and height.",
+        "text": "This method draws an image onto the canvas. The first argument is a URL string or an existing image element, the next two numbers set the position of its top-left corner, and the optional last two numbers set its width and height."
+      }
+    },
+    "createLinearGradient": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#canvas/createLinearGradient",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#canvas/createLinearGradient\" target=\"_blank\">createLinearGradient</a>",
+        "text": "createLinearGradient"
+      },
+      "description": {
+        "html": "This method creates a gradient that fades from one color to another in a straight line. The four numbers define the start point (x, y) and end point (x, y) of the gradient. After creating it, add colors with <code>.addColorStop()</code> and assign it to <code>canvas.fillColor</code>.",
+        "text": "This method creates a gradient that fades from one color to another in a straight line. The four numbers define the start point (x, y) and end point (x, y) of the gradient. After creating it, add colors with .addColorStop() and assign it to canvas.fillColor."
+      }
+    }
+  },
+  "nnSVG": {
+    "circle": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/circle",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/circle\" target=\"_blank\">circle</a>",
+        "text": "circle"
+      },
+      "description": {
+        "html": "This method creates a circle in the SVG. The first two numbers set its center position, and the third sets its radius (half the total width).",
+        "text": "This method creates a circle in the SVG. The first two numbers set its center position, and the third sets its radius (half the total width)."
+      }
+    },
+    "rect": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/rect",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/rect\" target=\"_blank\">rect</a>",
+        "text": "rect"
+      },
+      "description": {
+        "html": "This method creates a rectangle in the SVG. The first two numbers set the position of its top-left corner, and the next two set its width and height.",
+        "text": "This method creates a rectangle in the SVG. The first two numbers set the position of its top-left corner, and the next two set its width and height."
+      }
+    },
+    "line": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/line",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/line\" target=\"_blank\">line</a>",
+        "text": "line"
+      },
+      "description": {
+        "html": "This method creates a straight line in the SVG. The first two numbers are the starting point (x, y) and the last two are the ending point (x, y).",
+        "text": "This method creates a straight line in the SVG. The first two numbers are the starting point (x, y) and the last two are the ending point (x, y)."
+      }
+    },
+    "ellipse": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/ellipse",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/ellipse\" target=\"_blank\">ellipse</a>",
+        "text": "ellipse"
+      },
+      "description": {
+        "html": "This method creates an oval in the SVG. The first two numbers set its center position, the third sets how wide it is (horizontal radius), and the fourth sets how tall it is (vertical radius).",
+        "text": "This method creates an oval in the SVG. The first two numbers set its center position, the third sets how wide it is (horizontal radius), and the fourth sets how tall it is (vertical radius)."
+      }
+    },
+    "path": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/path",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/path\" target=\"_blank\">path</a>",
+        "text": "path"
+      },
+      "description": {
+        "html": "This method creates a custom shape in the SVG from a path data string. The string is made up of commands like <code>M</code> (move to), <code>L</code> (line to), and <code>Z</code> (close path) that trace out any shape you want.",
+        "text": "This method creates a custom shape in the SVG from a path data string. The string is made up of commands like M (move to), L (line to), and Z (close path) that trace out any shape you want."
+      }
+    },
+    "polygon": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/polygon",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/polygon\" target=\"_blank\">polygon</a>",
+        "text": "polygon"
+      },
+      "description": {
+        "html": "This method creates a closed shape in the SVG from a list of corner points. You can pass a string like <code>'0,0 100,0 50,100'</code> or an array of <code>[x, y]</code> pairs, one per corner.",
+        "text": "This method creates a closed shape in the SVG from a list of corner points. You can pass a string like '0,0 100,0 50,100' or an array of [x, y] pairs, one per corner."
+      }
+    },
+    "text": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/text",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/text\" target=\"_blank\">text</a>",
+        "text": "text"
+      },
+      "description": {
+        "html": "This method creates a text element in the SVG. The first argument is the text string, and the next two numbers are its x, y position.",
+        "text": "This method creates a text element in the SVG. The first argument is the text string, and the next two numbers are its x, y position."
+      }
+    },
+    "group": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/group",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/group\" target=\"_blank\">group</a>",
+        "text": "group"
+      },
+      "description": {
+        "html": "This method creates a group that can contain multiple shapes. Any transforms or styles applied to the group affect all the shapes inside it, so you can move or rotate them all at once.",
+        "text": "This method creates a group that can contain multiple shapes. Any transforms or styles applied to the group affect all the shapes inside it, so you can move or rotate them all at once."
+      }
+    },
+    "fill": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/fill",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/fill\" target=\"_blank\">fill</a>",
+        "text": "fill"
+      },
+      "description": {
+        "html": "This method sets the fill color of an SVG shape. Pass any CSS color string, or <code>'none'</code> for no fill.",
+        "text": "This method sets the fill color of an SVG shape. Pass any CSS color string, or 'none' for no fill."
+      }
+    },
+    "stroke": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/stroke",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/stroke\" target=\"_blank\">stroke</a>",
+        "text": "stroke"
+      },
+      "description": {
+        "html": "This method sets the outline color of an SVG shape. SVG elements have no outline by default, so you need to call this to make one appear.",
+        "text": "This method sets the outline color of an SVG shape. SVG elements have no outline by default, so you need to call this to make one appear."
+      }
+    },
+    "strokeWidth": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/strokeWidth",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/strokeWidth\" target=\"_blank\">strokeWidth</a>",
+        "text": "strokeWidth"
+      },
+      "description": {
+        "html": "This method sets how thick the outline of a shape is. Use it together with <code>.stroke()</code> which sets the outline color.",
+        "text": "This method sets how thick the outline of a shape is. Use it together with .stroke() which sets the outline color."
+      }
+    },
+    "strokeDash": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/strokeDash",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/strokeDash\" target=\"_blank\">strokeDash</a>",
+        "text": "strokeDash"
+      },
+      "description": {
+        "html": "This method makes the outline of a shape dashed or dotted. Pass a single number for a simple dash, or an array of numbers to control the alternating dash and gap lengths, like <code>[10, 5]</code> for 10-unit dashes with 5-unit gaps.",
+        "text": "This method makes the outline of a shape dashed or dotted. Pass a single number for a simple dash, or an array of numbers to control the alternating dash and gap lengths, like [10, 5] for 10-unit dashes with 5-unit gaps."
+      }
+    },
+    "strokeOffset": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/strokeOffset",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/strokeOffset\" target=\"_blank\">strokeOffset</a>",
+        "text": "strokeOffset"
+      },
+      "description": {
+        "html": "This method shifts the starting position of the dash pattern along the outline. Animating it over time creates the effect of a line drawing itself, which is a classic SVG animation trick.",
+        "text": "This method shifts the starting position of the dash pattern along the outline. Animating it over time creates the effect of a line drawing itself, which is a classic SVG animation trick."
+      }
+    },
+    "opacity": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/opacity",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/opacity\" target=\"_blank\">opacity</a>",
+        "text": "opacity"
+      },
+      "description": {
+        "html": "This method sets how transparent the shape is. A value of <code>1</code> is fully visible and <code>0</code> is completely invisible.",
+        "text": "This method sets how transparent the shape is. A value of 1 is fully visible and 0 is completely invisible."
+      }
+    },
+    "position": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/position",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/position\" target=\"_blank\">position</a>",
+        "text": "position"
+      },
+      "description": {
+        "html": "This method moves the SVG element to the given x, y coordinates. For circles and ellipses it moves the center, and for rectangles and text it moves the top-left corner.",
+        "text": "This method moves the SVG element to the given x, y coordinates. For circles and ellipses it moves the center, and for rectangles and text it moves the top-left corner."
+      }
+    },
+    "positionOrigin": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/positionOrigin",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/positionOrigin\" target=\"_blank\">positionOrigin</a>",
+        "text": "positionOrigin"
+      },
+      "description": {
+        "html": "By default <code>.position(x, y)</code> places a rectangle or text element's top-left corner at those coordinates. Calling <code>.positionOrigin('center')</code> first makes the coordinates point to the element's center instead.",
+        "text": "By default .position(x, y) places a rectangle or text element's top-left corner at those coordinates. Calling .positionOrigin('center') first makes the coordinates point to the element's center instead."
+      }
+    },
+    "size": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/size",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/size\" target=\"_blank\">size</a>",
+        "text": "size"
+      },
+      "description": {
+        "html": "This method resizes an SVG element. What you pass depends on the shape: for a circle pass a radius, for an ellipse pass horizontal and vertical radii, and for a rectangle pass width and height.",
+        "text": "This method resizes an SVG element. What you pass depends on the shape: for a circle pass a radius, for an ellipse pass horizontal and vertical radii, and for a rectangle pass width and height."
+      }
+    },
+    "viewBox": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/viewBox",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/viewBox\" target=\"_blank\">viewBox</a>",
+        "text": "viewBox"
+      },
+      "description": {
+        "html": "This method sets the internal coordinate system of the SVG. For example, <code>svg.viewBox(0, 0, 100, 100)</code> lets you draw everything using 0 to 100 units regardless of the actual screen size.",
+        "text": "This method sets the internal coordinate system of the SVG. For example, svg.viewBox(0, 0, 100, 100) lets you draw everything using 0 to 100 units regardless of the actual screen size."
+      }
+    },
+    "rotate": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/rotate",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/rotate\" target=\"_blank\">rotate</a>",
+        "text": "rotate"
+      },
+      "description": {
+        "html": "This method rotates the SVG element by a given number of degrees. You can optionally pass a center x, y point to rotate around, otherwise it rotates around the top-left corner of the SVG.",
+        "text": "This method rotates the SVG element by a given number of degrees. You can optionally pass a center x, y point to rotate around, otherwise it rotates around the top-left corner of the SVG."
+      }
+    },
+    "scale": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/scale",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/scale\" target=\"_blank\">scale</a>",
+        "text": "scale"
+      },
+      "description": {
+        "html": "This method scales the SVG element up or down. A value of <code>1</code> is normal, <code>2</code> doubles the size, and <code>0.5</code> halves it.",
+        "text": "This method scales the SVG element up or down. A value of 1 is normal, 2 doubles the size, and 0.5 halves it."
+      }
+    },
+    "translate": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/translate",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/translate\" target=\"_blank\">translate</a>",
+        "text": "translate"
+      },
+      "description": {
+        "html": "This method shifts the element by a given x, y offset on top of its existing position. It's especially useful with groups, where you translate the whole group to a center point and then rotate everything around it.",
+        "text": "This method shifts the element by a given x, y offset on top of its existing position. It's especially useful with groups, where you translate the whole group to a center point and then rotate everything around it."
+      }
+    },
+    "textAlign": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/textAlign",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/textAlign\" target=\"_blank\">textAlign</a>",
+        "text": "textAlign"
+      },
+      "description": {
+        "html": "This method controls how the SVG text is horizontally aligned relative to its x position. For example, <code>'center'</code> means the x coordinate lands at the middle of the text.",
+        "text": "This method controls how the SVG text is horizontally aligned relative to its x position. For example, 'center' means the x coordinate lands at the middle of the text."
+      }
+    },
+    "textBaseline": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/textBaseline",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/textBaseline\" target=\"_blank\">textBaseline</a>",
+        "text": "textBaseline"
+      },
+      "description": {
+        "html": "This method controls how the SVG text is vertically aligned relative to its y position. For example, <code>'middle'</code> means the y coordinate lands at the vertical center of the text.",
+        "text": "This method controls how the SVG text is vertically aligned relative to its y position. For example, 'middle' means the y coordinate lands at the vertical center of the text."
+      }
+    },
+    "borderRadius": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#svg/rect",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#svg/rect\" target=\"_blank\">borderRadius</a>",
+        "text": "borderRadius"
+      },
+      "description": {
+        "html": "Rounds the corners of an SVG <code>&lt;rect&gt;</code>. Pass one value to round all corners equally, or two values to set the horizontal (<code>rx</code>) and vertical (<code>ry</code>) radii independently. Returns the element so you can keep chaining.",
+        "text": "Rounds the corners of an SVG <rect>. Pass one value to round all corners equally, or two values to set the horizontal (rx) and vertical (ry) radii independently. Returns the element so you can keep chaining."
+      }
+    }
+  },
+  "nnFilterVideo": {
+    "update": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/filterVideo",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/filterVideo\" target=\"_blank\">update</a>",
+        "text": "update"
+      },
+      "description": {
+        "html": "Swaps the filter function (and optionally the raw-vs-objects setting) on a live video canvas created by <code>nn.filterVideo()</code>, without stopping and restarting the animation loop. Pass a new function as the first argument, and optionally <code>{ raw: true }</code> as the second to switch between pixel-objects mode and flat-array mode.",
+        "text": "Swaps the filter function (and optionally the raw-vs-objects setting) on a live video canvas created by nn.filterVideo(), without stopping and restarting the animation loop. Pass a new function as the first argument, and optionally { raw: true } as the second to switch between pixel-objects mode and flat-array mode."
+      }
+    },
+    "stop": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/filterVideo",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/filterVideo\" target=\"_blank\">stop</a>",
+        "text": "stop"
+      },
+      "description": {
+        "html": "Stops the per-frame animation loop on a live video canvas created by <code>nn.filterVideo()</code>. Once stopped the canvas freezes on its last frame. There is no built-in resume — call <code>nn.filterVideo()</code> again if you need to restart.",
+        "text": "Stops the per-frame animation loop on a live video canvas created by nn.filterVideo(). Once stopped the canvas freezes on its last frame. There is no built-in resume — call nn.filterVideo() again if you need to restart."
+      }
+    }
+  },
+  "nnHyper": {
+    "at": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/hyper",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/hyper\" target=\"_blank\">at</a>",
+        "text": "at"
+      },
+      "description": {
+        "html": "Registers a callback to fire when the playhead of an audio or video element naturally reaches a specific time. The first argument is the time in seconds, and the second is the function to call. Seeking past a cue silently skips it — the callback only fires when the playhead passes through the time during normal playback. Returns the cue object so you can chain multiple <code>.at()</code> calls.",
+        "text": "Registers a callback to fire when the playhead of an audio or video element naturally reaches a specific time. The first argument is the time in seconds, and the second is the function to call. Seeking past a cue silently skips it — the callback only fires when the playhead passes through the time during normal playback. Returns the cue object so you can chain multiple .at() calls."
+      }
+    },
+    "off": {
+      "status": "standard",
+      "url": "https://netizenorg.github.io/netnet-standard-library/docs/#media/hyper",
+      "keyword": {
+        "html": "<a href=\"https://netizenorg.github.io/netnet-standard-library/docs/#media/hyper\" target=\"_blank\">off</a>",
+        "text": "off"
+      },
+      "description": {
+        "html": "Removes a previously registered time cue. Pass the same time (in seconds) and the same function reference that you originally passed to <code>.at()</code>. If no matching cue is found nothing happens.",
+        "text": "Removes a previously registered time cue. Pass the same time (in seconds) and the same function reference that you originally passed to .at(). If no matching cue is found nothing happens."
+      }
+    }
+  }
+}

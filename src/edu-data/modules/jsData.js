@@ -17,7 +17,7 @@ const jsHTML = require('../js/html-element.json')
 const jsMedia = require('../js/dom-media.json')
 const jsTarg = require('../js/dom-event-target.json')
 const jsArr = require('../js/arrays.json')
-const nnProps = require('../custom/nn.min.js')
+const nnDocs = require('../custom/nn-netitor-docs.json')
 const cssProps = require('../css/properties.json')
 
 const camelCase = (input) => {
@@ -44,14 +44,14 @@ const commentNfo = {
 
 const jsNNnfo = {
   status: 'standard',
-  url: 'https://github.com/netizenorg/netnet-standard-library/#netnet-standard-library',
+  url: 'https://netizenorg.github.io/netnet-standard-library/',
   keyword: {
-    html: '<a href="https://github.com/netizenorg/netnet-standard-library/#netnet-standard-library" target="_blank">nn</a>',
+    html: '<a href="https://netizenorg.github.io/netnet-standard-library/" target="_blank">nn</a>',
     text: 'nn'
   },
   description: {
-    html: '<code>nn</code> may be an instance of the "netnet-standard-library.js" or "nn.min.js" for short assuming you\'ve included it in your project using a <code>&lt;script src="nn.min.js"&gt;&lt;/script&gt;</code>. It\'s impossible to know what sort of features are hidden away inside this global <code>nn</code> object just by looking at it. Anytime you\'re using an external library like this you should refer to the library\'s <a href="https://github.com/netizenorg/netnet-standard-library/#netnet-standard-library" target="_blank">website or GitHub page</a> to find documentation for its API (application programming interface) and learn how to use the classes, methods and/or properties built into it',
-    text: 'nn may be an instance of the "netnet-standard-library.js" or "nn.min.js" for short assuming you\'ve included it in your project using a <script src="nn.min.js"></script>. It\'s impossible to know what sort of features are hidden away inside this global nn object just by looking at it. Anytime you\'re using an external library like this you should refer to the library\'s website or GitHub page to find documentation for its API (application programming interface) and learn how to use the classes, methods and/or properties built into it'
+    html: 'This may be be an instance of the <a href="https://netizenorg.github.io/netnet-standard-library/" target="_blank">netnet-standard-library.js</a> (or <code>nn.min.js</code> for short). Like all libraries, it\'s only available if you\'ve imported it, in this case with a <code>&lt;script&gt;</code> tag. Every library is different, anytime you\'re using one you should refer to the library\'s <a href="https://netizenorg.github.io/netnet-standard-library/" target="_blank">website</a> or <a href="https://github.com/netizenorg/netnet-standard-library" target="_blank">GitHub</a> page to find documentation and learn how it works.',
+    text: 'This may be be an instance of the "netnet-standard-library.js" (or "nn.min.js" for short). Like all libraries, it\'s only available if you\'ve imported it, in this case with a <script> tag. Every library is different, anytime you\'re using one you should refer to the library\'s website or GitHub page to find documentation and learn how it works.'
   }
 }
 
@@ -334,16 +334,57 @@ function strNfo (obj) {
   }
 }
 
-function nnNfo (str, obj) {
-  return {
-    status: 'standard',
-    url: obj.url,
-    keyword: {
-      html: `<a href="${obj.url}" target="_blank">${str}</a>`,
-      text: str
-    },
-    description: { text: obj.text, html: obj.html }
+function findChainRoot (cm) {
+  const pos = cm.getCursor()
+  let lineNum = pos.line
+  let line = cm.getLine(lineNum).trim()
+  while (line.startsWith('.') && lineNum > 0) {
+    lineNum--
+    line = cm.getLine(lineNum).trim()
   }
+  return line
+}
+
+function evaluateNNType (rootLine, cm) {
+  const lower = rootLine.toLowerCase()
+  if (lower.includes('nn.create(') || lower.includes('nn.get(')) {
+    const m = rootLine.match(/nn\.(?:create|get)\(\s*['"]([^'"\s]+)/)
+    if (m && m[1]) {
+      const tag = m[1].split(/[.#\[]/)[0].toLowerCase()
+      if (tag === 'canvas') return 'nnCanvas'
+      if (tag === 'svg') return 'nnSVG'
+    }
+    return 'nnDOM'
+  }
+  if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
+  if (lower.includes('nn.hyper(')) return 'nnHyper'
+  // variable reference — look up its assignment one level deep
+  const varMatch = rootLine.match(/\b([a-zA-Z_$][a-zA-Z0-9_$]*)\./)
+  if (varMatch) {
+    const varName = varMatch[1]
+    if (varName !== 'nn') {
+      const allLines = cm.getDoc().children[0].lines
+        .filter((o, i) => cm.getModeAt({ line: i }).helperType === 'javascript')
+        .map(o => o.text)
+        .filter(txt => (txt.includes(`${varName}=`) || txt.includes(`${varName} =`)) &&
+                        txt.toLowerCase().includes('nn.'))
+      for (const l of allLines) {
+        const ll = l.toLowerCase()
+        if (ll.includes('nn.create(') || ll.includes('nn.get(')) {
+          const m = l.match(/nn\.(?:create|get)\(\s*['"]([^'"\s]+)/)
+          if (m && m[1]) {
+            const tag = m[1].split(/[.#\[]/)[0].toLowerCase()
+            if (tag === 'canvas') return 'nnCanvas'
+            if (tag === 'svg') return 'nnSVG'
+          }
+          return 'nnDOM'
+        }
+        if (ll.includes('nn.filtervideo(')) return 'nnFilterVideo'
+        if (ll.includes('nn.hyper(')) return 'nnHyper'
+      }
+    }
+  }
+  return null
 }
 
 function jsData (o, cm) {
@@ -380,11 +421,17 @@ function jsData (o, cm) {
       o.nfo = jsNavigator[o.data]
     } else if (isChildOf('style', o.data, cm) && jsStyle[o.data]) {
       o.nfo = jsStyle[o.data]
-    } else if (isChildOf('nn', o.data, cm) && nnProps[o.data]) {
-      o.nfo = nnNfo(o.data, nnProps[o.data])
+    } else if (isChildOf('nn', o.data, cm) && nnDocs.nn[o.data]) {
+      o.nfo = nnDocs.nn[o.data]
     } else {
-      const line = cm.getLine(o.line - 1)
-      o.nfo = checkOtherJSObjs(o.data, line)
+      const rootLine = findChainRoot(cm)
+      const nnType = evaluateNNType(rootLine, cm)
+      if (nnType && nnDocs[nnType] && nnDocs[nnType][o.data]) {
+        o.nfo = nnDocs[nnType][o.data]
+      } else {
+        const line = cm.getLine(o.line - 1)
+        o.nfo = checkOtherJSObjs(o.data, line)
+      }
     }
   } else if (o.type === 'comment') {
     o.nfo = commentNfo
