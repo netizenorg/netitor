@@ -2,7 +2,7 @@
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-A pedagogical web based code editor for creative netizens in training. You can play with a [live demo here](https://netizenorg.github.io/netitor/) (check out + create different [themes here](https://netizenorg.github.io/netitor/theme/))
+A pedagogical web based code editor for creative netizens in training. You can play with a [live demo here](https://netizenorg.github.io/netitor/)
 
 [![netitor screenshot](screenshot.png)](https://netizenorg.github.io/netitor/#code/eJyFk9uO2yAQhu/9FCNHlrJV3JDdZA9OGvU1eokN2DQYLMBJ3NW+e8fGOXWz6gWnYQY+/hk2zneKbyOAb/AOuTmmTv6Rusxwbhm3KZrW8BGhQ25YB+84AWDSNYp2GQjFj+vB9Lt1XoouLYz2XPsMCuy5DZtUyVKn0vPa3W7UUqcVl2WFAQtC9tVopraUOgMSljktdqU1rWYZuF2Xq5b3GwPVd2FpzUeuxjjppcFIyxX1cs/DAQfJfJXBIyHNiHu69MoUHowczREYdRVn1/bUUiZbxF+R5EKFPNocLjCWszSnShmjPyHR3BnV+hHJmyaDdHW+fURcfEZcPF4Qr4ToeahKy35ERaeFtIXiQD08kaRvM5iIouh7Qh6+ekpoiwSWbwnMYYmrvj2HdorCqqgoMwfMCLyiPIsVdhNCyNNs8ACQ2nGP70H70PVeEyHEy1gAWtY0yCCUQcalA04dTzH/pvUYLqSWnt9VMsuowIoZBT0XWByvb4sxV6bY3Sb8Xy1f70qZK3oK9JZqJ4ytszDFKuLT5VtznIU8PJwJf+54N9SeG58U8FA4wJ9075xfU8wDBvduvexfuoWLRk+siOS/B35Em/n4k6Now+QeCkWd+xEPhHH/v6+tV+LG280cd7ZRGP4CUGQxJQ==)
 
@@ -28,7 +28,8 @@ You can double click any pieces of code in the [online demo](https://netizenorg.
 
 There are a few ways you can contribute to this project and support our development:
 - [netizen.org](https://netizen.org) is a 501(c)3 tax deductible organization, so you might consider making a [donation](https://donorbox.org/netizen)! Your support helps ensure our tools and workshops remain accessible to folks from all backgrounds.
-- want to create your own netitor theme? check out our [custom theme creator](https://github.com/netizenorg/netitor/wiki/Creating-Custom-Themes)
+- want to create your own netitor theme? check out our [custom theme editor](https://netizenorg.github.io/netitor/theme/) as well as the [contributor notes](https://github.com/netizenorg/netitor/wiki/Creating-Custom-Themes) for it.
+- want to help edit some of the edu copy? check out our [custom edu-text copy editor](https://netizenorg.github.io/netitor/copy-editor/) as well as [contributor notes](https://github.com/netizenorg/netitor/wiki/Editing-Edu-Data-Copy)
 - did you find a potential bug in our code? please let us know by creating an [issue](https://github.com/netizenorg/netitor/issues) (or sending us an email hi@netizen.org)
 - would you like to fix that bug yourself? Please feel free to "Fork" this project and submit a [PR](https://github.com/netizenorg/netitor/pulls) (Pull Request). Check out [Development Notes](https://github.com/netizenorg/netitor/wiki/Development-Notes) in the Wiki section of this repo for more info.
 
