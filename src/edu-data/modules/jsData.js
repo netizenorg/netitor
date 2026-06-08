@@ -183,10 +183,6 @@ function augmentedObjNfo (data, line) {
   let obj
   for (const key in stdLib) {
     if (Object.keys(stdLib[key]).includes(data)) {
-      const t = stdLib[key][data].description.text
-      const h = stdLib[key][data].description.html
-      stdLib[key][data].description.text = `${data} is a property/method of a ${key} object. ` + t
-      stdLib[key][data].description.html = `<a target="_blank" href="${stdLib[key][data].url}">${data}</a> is a property/method of a ${key} object. ` + h
       obj = stdLib[key][data]
       break
     }
