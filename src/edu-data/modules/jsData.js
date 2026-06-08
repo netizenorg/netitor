@@ -1,3 +1,4 @@
+const jsSyntax = require('../js/syntax.json')
 const jsRefs = require('../js/refs.json')
 const jsWindow = require('../js/window.json')
 const jsDoc = require('../js/document.json')
@@ -418,7 +419,18 @@ function evaluateNNType (rootLine, cm) {
   return null
 }
 
+// Maps closing brackets to their open-bracket key in jsSyntax
+const bracketPair = { ']': '[', '}': '{', ')': '(' }
+
 function jsData (o, cm) {
+  // Punctuation tokens have o.type === null in CodeMirror — handle them first
+  // before the !o.type guard below would otherwise drop them.
+  const syntaxKey = jsSyntax[o.data] ? o.data : bracketPair[o.data]
+  if (syntaxKey) {
+    o.nfo = jsSyntax[syntaxKey]
+    return o.nfo
+  }
+
   if (!o.type) return null
 
   if (o.type === 'def') {
