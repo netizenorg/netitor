@@ -99,7 +99,7 @@
         "text": "width"
       },
       "description": {
-        "html": "This is either the width of the screen in pixels when <code>nn.width</code>, or of a particular element, for example <code>img.width</code>",
+        "html": "This is either the width of the screen in pixels when <code>nn.width</code>, or of a particular element, for example <code>img.width</code>.",
         "text": "This is either the width of the screen in pixels when nn.width, or of a particular element, for example img.width"
       },
       "note": "nn"
@@ -112,7 +112,7 @@
         "text": "height"
       },
       "description": {
-        "html": "This is either the height of the screen in piexels when <code>nn.height</code>, or of a particular element, for example <code>img.height</code>",
+        "html": "This is either the height of the screen in piexels when <code>nn.height</code>, or of a particular element, for example <code>img.height</code>.",
         "text": "This is either the height of the screen in piexels when nn.height, or of a particular element, for example img.height"
       },
       "note": "nn"
@@ -151,8 +151,8 @@
         "text": "create"
       },
       "description": {
-        "html": "You can use this method to dynamically create any HTML element via JavaScript. Keep in mind, it won't be rendered on the page until you also call <code>.addTo()</code> to inject it into a specific element, like <code>nn.create('input').addTo('body')</code>",
-        "text": "You can use this method to dynamically create any HTML element via JavaScript. Keep in mind, it won't be rendered on the page until you also call .addTo() to inject it into a specific element, like nn.create('input').addTo('body')"
+        "html": "You can use this method to dynamically create any HTML element via JavaScript. Keep in mind, it won't be rendered on the page until you also call <code>.addTo()</code> to inject it into a specific element, like this for example: <code>nn.create('input').addTo('body')</code>.",
+        "text": "You can use this method to dynamically create any HTML element via JavaScript. Keep in mind, it won't be rendered on the page until you also call .addTo() to inject it into a specific element, like this for example:  nn.create('input').addTo('body')."
       },
       "note": "nn"
     },
@@ -1492,7 +1492,7 @@
         "text": "width"
       },
       "description": {
-        "html": "This is either the width of the screen in pixels when <code>nn.width</code>, or of a particular element, for example <code>img.width</code>",
+        "html": "This is either the width of the screen in pixels when <code>nn.width</code>, or of a particular element, for example <code>img.width</code>.",
         "text": "This is either the width of the screen in pixels when nn.width, or of a particular element, for example img.width"
       },
       "note": "nn"
@@ -1505,7 +1505,7 @@
         "text": "height"
       },
       "description": {
-        "html": "This is either the height of the screen in piexels when <code>nn.height</code>, or of a particular element, for example <code>img.height</code>",
+        "html": "This is either the height of the screen in piexels when <code>nn.height</code>, or of a particular element, for example <code>img.height</code>.",
         "text": "This is either the height of the screen in piexels when nn.height, or of a particular element, for example img.height"
       },
       "note": "nn"
