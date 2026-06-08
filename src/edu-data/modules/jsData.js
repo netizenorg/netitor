@@ -52,8 +52,8 @@ const jsNNnfo = {
     text: 'nn'
   },
   description: {
-    html: 'This may be be an instance of the <a href="https://netizenorg.github.io/netnet-standard-library/" target="_blank">netnet-standard-library.js</a> (or <code>nn.min.js</code> for short). Like all libraries, it\'s only available if you\'ve imported it, in this case with a <code>&lt;script&gt;</code> tag. Every library is different, anytime you\'re using one you should refer to the library\'s <a href="https://netizenorg.github.io/netnet-standard-library/" target="_blank">website</a> or <a href="https://github.com/netizenorg/netnet-standard-library" target="_blank">GitHub</a> page to find documentation and learn how it works.',
-    text: 'This may be be an instance of the "netnet-standard-library.js" (or "nn.min.js" for short). Like all libraries, it\'s only available if you\'ve imported it, in this case with a <script> tag. Every library is different, anytime you\'re using one you should refer to the library\'s website or GitHub page to find documentation and learn how it works.'
+    html: 'This may be be an instance of the <a href="https://netizenorg.github.io/netnet-standard-library/" target="_blank">netnet-standard-library.js</a> (or <code>nn.min.js</code> for short). Like all libraries, it\'s only available if you\'ve imported it, in this case with a <code>&lt;script&gt;</code> tag. Every library is different, anytime you\'re using a library you should refer to that library\'s <a href="https://netizenorg.github.io/netnet-standard-library/" target="_blank">website</a> or <a href="https://github.com/netizenorg/netnet-standard-library" target="_blank">GitHub</a> page to find info and docs to learn how it works.',
+    text: 'This may be be an instance of the "netnet-standard-library.js" (or "nn.min.js" for short). Like all libraries, it\'s only available if you\'ve imported it, in this case with a <script> tag. Every library is different, anytime you\'re using a library you should refer to that library\'s website or GitHub page to find info and docs to learn how it works.'
   }
 }
 
