@@ -1,0 +1,543 @@
+/* ── Fonts (shared with theme editor) ─────────────────────────────────────── */
+
+@font-face {
+  font-family: 'fira-sans-bold';
+  src: url('../../theme/css/fonts/firasans-bold-webfont.woff2') format('woff2'),
+       url('../../theme/css/fonts/firasans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fira-sans-regular';
+  src: url('../../theme/css/fonts/firasans-regular-webfont.woff2') format('woff2'),
+       url('../../theme/css/fonts/firasans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fira-mono-regular';
+  src: url('../../theme/css/fonts/FiraMono-Regular.woff2') format('woff2'),
+       url('../../theme/css/fonts/FiraMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* ── Design tokens ─────────────────────────────────────────────────────────── */
+
+:root {
+  --bg:        #1c1c36;
+  --surface:   #21213e;
+  --surface2:  #292848;
+  --border:    #3a3a5e;
+  --text:      #c3c3db;
+  --dim:       #6c6c96;
+  --accent:    #c76ebc;
+  --green:     #81c994;
+  --cyan:      #82ccd7;
+  --yellow:    #e6db6f;
+  --red:       #e06c75;
+  --sans:      'fira-sans-regular', Helvetica, Arial, sans-serif;
+  --sans-bold: 'fira-sans-bold', Helvetica, Arial, sans-serif;
+  --mono:      'fira-mono-regular', monospace;
+}
+
+/* ── Reset ─────────────────────────────────────────────────────────────────── */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Base ──────────────────────────────────────────────────────────────────── */
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* ── Header ────────────────────────────────────────────────────────────────── */
+
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 11px 24px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+header h1 {
+  font-family: var(--sans-bold);
+  font-size: 15px;
+  color: var(--accent);
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.api-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.api-row label {
+  font-size: 12px;
+  color: var(--dim);
+  white-space: nowrap;
+}
+
+.api-input {
+  width: 220px;
+}
+
+#apiKeyStatus {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.key-set   { color: var(--green); }
+.key-unset { color: var(--dim); }
+
+/* ── Toolbar ───────────────────────────────────────────────────────────────── */
+
+.toolbar {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 9px 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.spacer {
+  flex: 1;
+  min-width: 8px;
+}
+
+.entry-count {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--dim);
+  white-space: nowrap;
+  min-width: 56px;
+}
+
+/* ── Main layout ───────────────────────────────────────────────────────────── */
+
+main {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.editor-panel {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 24px;
+  border-right: 1px solid var(--border);
+}
+
+.claude-panel {
+  width: 360px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 24px;
+  gap: 16px;
+}
+
+/* ── Inputs ────────────────────────────────────────────────────────────────── */
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 13px;
+  padding: 7px 13px;
+  border-radius: 20px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--accent);
+}
+
+select {
+  cursor: pointer;
+}
+
+#fileSelect  { min-width: 200px; }
+#entrySelect { min-width: 200px; flex: 1 1 300px; max-width: 440px; }
+
+input.field-input {
+  width: 100%;
+  border-radius: 12px;
+}
+
+select.field-select {
+  border-radius: 12px;
+  padding-right: 28px;
+}
+
+textarea.field-textarea {
+  width: 100%;
+  resize: vertical;
+  min-height: 60px;
+  font-family: var(--mono);
+  font-size: 12px;
+  border-radius: 12px;
+  line-height: 1.6;
+}
+
+/* Description fields — mimic the presentation context */
+#f-description-text,
+#f-description-html {
+  width: 100%;
+  max-width: 430px;
+  padding: 14px;
+  font-size: 16px;
+  line-height: 1.45em;
+  font-family: var(--sans);
+  min-height: 160px;
+  border-radius: 15px;
+}
+
+/* ── Buttons ───────────────────────────────────────────────────────────────── */
+
+button {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 7px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 13px;
+  font-family: var(--sans);
+  transition: background 0.12s, border-color 0.12s, color 0.12s, opacity 0.12s;
+  white-space: nowrap;
+}
+
+button:hover:not(:disabled) {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+/* Accent (purple pill) — matches theme editor's .button */
+.btn-accent {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+  font-family: var(--sans-bold);
+}
+
+.btn-accent:hover:not(:disabled) {
+  filter: brightness(1.1);
+  color: var(--bg);
+  border-color: var(--accent);
+}
+
+/* Small secondary button */
+.btn-sm {
+  padding: 5px 13px;
+  font-size: 12px;
+}
+
+/* Full-width button */
+.btn-wide {
+  width: 100%;
+  text-align: center;
+}
+
+/* Flash states */
+.btn-saved {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--bg);
+  font-family: var(--sans-bold);
+}
+
+/* Danger button (destructive actions) */
+.btn-danger {
+  border-color: var(--red);
+  color: var(--red);
+}
+
+.btn-danger:hover:not(:disabled) {
+  background: var(--red);
+  border-color: var(--red);
+  color: var(--bg);
+}
+
+/* Warning button (reversible actions) */
+.btn-warning {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+.btn-warning:hover:not(:disabled) {
+  background: var(--yellow);
+  border-color: var(--yellow);
+  color: var(--bg);
+}
+
+/* Success button (positive actions) */
+.btn-success {
+  border-color: var(--green);
+  color: var(--green);
+}
+
+.btn-success:hover:not(:disabled) {
+  background: var(--green);
+  border-color: var(--green);
+  color: var(--bg);
+}
+
+/* Use-this button inside suggestion cards */
+.use-btn {
+  align-self: flex-end;
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--bg);
+  font-family: var(--sans-bold);
+  padding: 5px 14px;
+  font-size: 12px;
+}
+
+.use-btn:hover:not(:disabled) {
+  filter: brightness(1.1);
+  color: var(--bg);
+  border-color: var(--accent);
+}
+
+/* ── Status badge ──────────────────────────────────────────────────────────── */
+
+.badge {
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 3px 12px;
+  border-radius: 20px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.badge.original {
+  background: var(--surface2);
+  color: var(--dim);
+  border: 1px solid var(--border);
+}
+
+.badge.saved {
+  background: rgba(129, 201, 148, 0.12);
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.badge.modified {
+  background: rgba(230, 219, 111, 0.12);
+  color: var(--yellow);
+  border: 1px solid var(--yellow);
+}
+
+/* ── Entry editor fields ───────────────────────────────────────────────────── */
+
+#entryTitle {
+  font-family: var(--mono);
+  font-size: 15px;
+  color: var(--accent);
+  margin-bottom: 20px;
+  letter-spacing: 0.01em;
+}
+
+#entryTitle a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s;
+}
+
+#entryTitle a:hover {
+  border-bottom-color: var(--accent);
+}
+
+.field-group {
+  margin-bottom: 20px;
+}
+
+.field-group-header {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--dim);
+  padding-bottom: 7px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.field-nested {
+  padding-left: 16px;
+  border-left: 2px solid var(--border);
+}
+
+.field-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 13px;
+}
+
+.field-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--dim);
+  letter-spacing: 0.03em;
+}
+
+/* Description sub-fields: side-by-side, collapse when narrow */
+.desc-group > .field-nested {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding-left: 0;
+  border-left: none;
+}
+
+.desc-group > .field-nested > .field-row {
+  flex: 1 1 280px;
+}
+
+/* ── Claude panel ──────────────────────────────────────────────────────────── */
+
+.claude-panel h2 {
+  font-family: var(--sans-bold);
+  font-size: 15px;
+  color: var(--accent);
+}
+
+.panel-note {
+  font-size: 12px;
+  color: var(--dim);
+  line-height: 1.65;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid var(--border);
+}
+
+.suggestion-card {
+  background: var(--surface2);
+  border: 1px solid var(--border);
+  border-radius: 15px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  transition: border-color 0.15s;
+}
+
+.suggestion-card:hover {
+  border-color: var(--accent);
+}
+
+.suggestion-num {
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--dim);
+}
+
+.suggestion-text {
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
+.suggestion-html {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--dim);
+  background: var(--bg);
+  padding: 9px 11px;
+  border-radius: 10px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* ── Spinner ───────────────────────────────────────────────────────────────── */
+
+.spinner {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(28, 28, 54, 0.4);
+  border-top-color: var(--bg);
+  border-radius: 50%;
+  animation: spin 0.65s linear infinite;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* ── Empty / error states ──────────────────────────────────────────────────── */
+
+.empty-state {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--dim);
+  text-align: center;
+  padding: 30px 0;
+  line-height: 1.7;
+}
+
+.empty-state small {
+  font-size: 11px;
+  opacity: 0.75;
+}
+
+.error-msg {
+  color: var(--red);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* ── Scrollbars ────────────────────────────────────────────────────────────── */
+
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--dim); }

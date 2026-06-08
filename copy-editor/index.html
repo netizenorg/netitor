@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>netitor copy editor</title>
+  <!--
+    ┌─────────────────────────────────────────────────────────────────────┐
+    │  Must be served over HTTP — cannot be opened as file://             │
+    │  because it fetches JSON from the repo.                             │
+    │                                                                     │
+    │  Quick options:                                                     │
+    │    npx serve .            →  http://localhost:3000/copy-editor/     │
+    │    python3 -m http.server →  http://localhost:8000/copy-editor/     │
+    │    VS Code Live Server    →  right-click → "Open with Live Server"  │
+    └─────────────────────────────────────────────────────────────────────┘
+  -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────────────────── -->
+<header>
+  <h1>netitor copy editor</h1>
+  <div class="api-row">
+    <label for="apiKeyInput">anthropic api key</label>
+    <input type="password" id="apiKeyInput" placeholder="sk-ant-..." class="api-input">
+    <button id="saveApiKeyBtn" class="btn-sm">save key</button>
+    <span id="apiKeyStatus" class="key-unset">not set</span>
+  </div>
+</header>
+
+<!-- ── Toolbar ─────────────────────────────────────────────────────────────── -->
+<nav class="toolbar">
+  <select id="fileSelect">
+    <option value="">— choose a file —</option>
+  </select>
+  <select id="entrySelect" disabled>
+    <option value="">— choose an entry —</option>
+  </select>
+  <button id="prevBtn" disabled title="Previous entry (←)">◄</button>
+  <button id="nextBtn" disabled title="Next entry (→)">►</button>
+  <span class="entry-count" id="entryCount"></span>
+  <span id="statusBadge" class="badge"></span>
+  <span class="spacer"></span>
+  <button id="saveLocalBtn" class="btn-accent" disabled>save locally</button>
+  <button id="resetBtn" class="btn-sm btn-warning" disabled>↺ undo/revert</button>
+  <button id="clearSavesBtn" class="btn-sm btn-danger" disabled>✕ clear local saves</button>
+  <button id="downloadBtn" class="btn-sm btn-success" disabled>⬇ download json</button>
+</nav>
+
+<!-- ── Main ────────────────────────────────────────────────────────────────── -->
+<main>
+
+  <!-- Left: entry editor -->
+  <div class="editor-panel">
+    <div id="fieldContainer">
+      <div class="empty-state">
+        select a file from the dropdown above to begin.<br>
+        <small>serve this via a local http server — see the comment at the top of the source.</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- Right: Claude suggestions -->
+  <div class="claude-panel">
+    <h2>claude suggestions</h2>
+    <p class="panel-note">
+      claude will suggest 3 beginner-friendly rewrites of the current description.
+      apply one, then tweak it before saving.
+    </p>
+    <button id="getSuggestionsBtn" class="btn-accent btn-wide" disabled>get 3 suggestions</button>
+    <hr class="divider">
+    <div id="suggestionsContainer">
+      <div class="empty-state">select an entry and click above.</div>
+    </div>
+  </div>
+
+</main>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>
