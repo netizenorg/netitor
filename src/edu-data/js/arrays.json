@@ -7,8 +7,8 @@
       "text": "length"
     },
     "description": {
-      "html": "Reflects the number of elements in an array.",
-      "text": "Reflects the number of elements in an array."
+      "html": "Returns how many items are in an array, useful for loops or checking if the array is empty.",
+      "text": "Returns how many items are in an array, useful for loops or checking if the array is empty."
     }
   },
   "concat": {
@@ -55,8 +55,8 @@
       "text": "every()"
     },
     "description": {
-      "html": "Returns <code>true</code> if every element in this array satisfies the testing function.",
-      "text": "Returns true if every element in this array satisfies the testing function."
+      "html": "Tests whether all elements in the array meet a condition defined by a function you pass into it, returning <code>true</code> if they do.",
+      "text": "Tests whether all elements in the array meet a condition defined by a function you pass into it, returning true if they do."
     }
   },
   "fill": {
@@ -79,8 +79,8 @@
       "text": "filter()"
     },
     "description": {
-      "html": "Returns a new array containing all elements of the calling array for which the provided filtering function returns <code>true</code>.",
-      "text": "Returns a new array containing all elements of the calling array for which the provided filtering function returns true."
+      "html": "Creates a new array containing only the items from the original array that pass a test you specify in the function you pass into it.",
+      "text": "Creates a new array containing only the items from the original array that pass a test you specify in the function you pass into it."
     }
   },
   "find": {
@@ -91,8 +91,8 @@
       "text": "find()"
     },
     "description": {
-      "html": "Returns the found <code><var>element</var></code> in the array, if some element in the array satisfies the testing function, or <code>undefined</code> if not found.",
-      "text": "Returns the found element in the array, if some element in the array satisfies the testing function, or undefined if not found."
+      "html": "Returns the found item in the array, if some element in the array satisfies the testing function you pass into it, or returns <code>undefined</code> if not found.",
+      "text": "Returns the found item in the array, if some element in the array satisfies the testing function you pass into it, or returns undefined if not found."
     }
   },
   "findIndex": {
@@ -115,8 +115,8 @@
       "text": "forEach()"
     },
     "description": {
-      "html": "Calls a function for each element in the array.",
-      "text": "Calls a function for each element in the array."
+      "html": "Runs the function you pass it once for every item in an array, passing into that function each item in the array as well as its index value. Functionally similar, but syntactically different, from creating a <code>for</code> loop for iterating over an array",
+      "text": "Runs the function you pass it once for every item in an array, passing into that function each item in the array as well as its index value. Functionally similar, but syntactically different, from creating a for loop for iterating over an array."
     }
   },
   "includes": {
@@ -127,8 +127,8 @@
       "text": "includes()"
     },
     "description": {
-      "html": "Determines whether the array contains a value, returning <code>true</code> or <code>false</code> as appropriate.",
-      "text": "Determines whether the array contains a value, returning true or false as appropriate."
+      "html": "Checks if an array contains a specific value, returning <code>true</code> if found or <code>false</code> if not.",
+      "text": "Checks if an array contains a specific value, returning true if found or false if not."
     }
   },
   "indexOf": {
@@ -139,8 +139,8 @@
       "text": "indexOf()"
     },
     "description": {
-      "html": "Returns the first (least) index of an element within the array equal to an elemnet, or <code>-1</code> if none is found.",
-      "text": "Returns the first (least) index of an element within the array equal to an elemnet, or -1 if none is found."
+      "html": "Searches an array for a specific value and tells you where it first appears by returning that index value, or <code>-1</code> if it's not there at all.",
+      "text": "Searches an array for a specific value and tells you where it first appears by returning that index value, or -1 if it's not there at all."
     }
   },
   "join": {
@@ -151,8 +151,8 @@
       "text": "join()"
     },
     "description": {
-      "html": "Joins all elements of an array into a string.",
-      "text": "Joins all elements of an array into a string."
+      "html": "Combines all items in an array into a single string, placing an optional separator you pass it (like a comma or space) between each item. It's the opposite of a string's <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split\" target=\"_blank\">split()</a> method.",
+      "text": "Combines all items in an array into a single string, placing an optional separator you pass it (like a comma or space) between each item. It's the opposite of a string's split() method."
     }
   },
   "keys": {
@@ -187,8 +187,8 @@
       "text": "map()"
     },
     "description": {
-      "html": "Returns a new array containing the results of calling a function on every element in this array.",
-      "text": "Returns a new array containing the results of calling a function on every element in this array."
+      "html": "Transforms each element in an array using a function you provide, returning a brand new array with all the transformed values.",
+      "text": "Transforms each element in an array using a function you provide, returning a brand new array with all the transformed values."
     }
   },
   "pop": {
@@ -223,8 +223,8 @@
       "text": "reduce()"
     },
     "description": {
-      "html": "Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value.",
-      "text": "Apply a function against an accumulator and each value of the array (from left-to-right) as to reduce it to a single value."
+      "html": "Combines all items in an array into a single value by running a function on each item, great for totaling numbers or building a result step by step.",
+      "text": "Combines all items in an array into a single value by running a function on each item, great for totaling numbers or building a result step by step."
     }
   },
   "reduceRight": {
@@ -271,8 +271,8 @@
       "text": "slice()"
     },
     "description": {
-      "html": "Extracts a section of the calling array and returns a new array.",
-      "text": "Extracts a section of the calling array and returns a new array."
+      "html": "Copies out a portion of an array (from a start index to an end index) and gives you a new array with just those items, leaving the original unchanged.",
+      "text": "Copies out a portion of an array (from a start index to an end index) and gives you a new array with just those items, leaving the original unchanged."
     }
   },
   "some": {
@@ -283,8 +283,8 @@
       "text": "some()"
     },
     "description": {
-      "html": "Returns <code>true</code> if at least one element in this array satisfies the provided testing function.",
-      "text": "Returns true if at least one element in this array satisfies the provided testing function."
+      "html": "Checks if at least one item in an array passes a test you define and pass it as a function, returning <code>true</code> or <code>false</code>.",
+      "text": "Checks if at least one item in an array passes a test you define and pass it as a function, returning true or false."
     }
   },
   "sort": {
@@ -295,8 +295,8 @@
       "text": "sort()"
     },
     "description": {
-      "html": "Sorts the elements of an array in place and returns the array.",
-      "text": "Sorts the elements of an array in place and returns the array."
+      "html": "Rearranges the items in an array into a new order (alphabetically by default) and changes the original array.",
+      "text": "Rearranges the items in an array into a new order (alphabetically by default) and changes the original array."
     }
   },
   "splice": {
@@ -307,8 +307,8 @@
       "text": "splice()"
     },
     "description": {
-      "html": "Adds and/or removes elements from an array.",
-      "text": "Adds and/or removes elements from an array."
+      "html": "Changes an array by removing, replacing, or adding items at a specific spot.",
+      "text": "Changes an array by removing, replacing, or adding items at a specific spot."
     }
   },
   "toLocaleString": {

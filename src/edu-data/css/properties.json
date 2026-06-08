@@ -8,8 +8,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment between the lines inside a flexible container when the items do not use all available space",
-      "text": "Specifies the alignment between the lines inside a flexible container when the items do not use all available space"
+      "html": "Specifies the alignment between the lines inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a> when the items do not use all available space",
+      "text": "Specifies the alignment between the lines inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a> when the items do not use all available space"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-content",
     "keyword": {
@@ -26,8 +26,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment for items inside a flexible container",
-      "text": "Specifies the alignment for items inside a flexible container"
+      "html": "Specifies the alignment for items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>",
+      "text": "Specifies the alignment for items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
     "keyword": {
@@ -44,8 +44,8 @@
     "default": "auto",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment for selected items inside a flexible container",
-      "text": "Specifies the alignment for selected items inside a flexible container"
+      "html": "Specifies the alignment for selected items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>",
+      "text": "Specifies the alignment for selected items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-self",
     "keyword": {
@@ -105,8 +105,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies whether an animation should be played forwards, backwards or \n    in alternate cycles",
-      "text": "Specifies whether an animation should be played forwards, backwards or \n    in alternate cycles"
+      "html": "Specifies whether an animation should be played forwards, backwards or in alternate cycles",
+      "text": "Specifies whether an animation should be played forwards, backwards or in alternate cycles"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-direction",
     "keyword": {
@@ -139,8 +139,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Specifies a style for the element when the animation is not playing (before \n    it starts, after it ends, or both)",
-      "text": "Specifies a style for the element when the animation is not playing (before \n    it starts, after it ends, or both)"
+      "html": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)",
+      "text": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode",
     "keyword": {
@@ -2789,8 +2789,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment between the items inside a flexible container when the items do not use all available space",
-      "text": "Specifies the alignment between the items inside a flexible container when the items do not use all available space"
+      "html": "Specifies the alignment between the items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a> when the items do not use all available space",
+      "text": "Specifies the alignment between the items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a> when the items do not use all available space"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/justify-content",
     "keyword": {

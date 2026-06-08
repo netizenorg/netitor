@@ -27,6 +27,7 @@ export const FILES = [
   { label: 'HTML / svg-attributes',  path: '../src/edu-data/html/svg-attributes.json' },
   { label: 'HTML / svg-elements',    path: '../src/edu-data/html/svg-elements.json' },
   { label: 'JS / arrays',            path: '../src/edu-data/js/arrays.json' },
+  { label: 'JS / syntax',            path: '../src/edu-data/js/syntax.json' },
   { label: 'JS / canvas2d',          path: '../src/edu-data/js/canvas2d.json' },
   { label: 'JS / date',              path: '../src/edu-data/js/date.json' },
   { label: 'JS / document',          path: '../src/edu-data/js/document.json' },
