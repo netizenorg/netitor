@@ -187,11 +187,43 @@ ne.highlight({
 ```js
 ne.getLine(num)
 ne.getVisibleRange()
+ne.search(query, caseSensitive)
 ```
 
 **getLine(num)**: takes a number and returns the code on that particular line.
 
 **getVisibleRange()**: returns an object with the visible line numbers, for ex: ` { top: 254, bottom: 280 }`
+
+**search(query, caseSensitive)**: searches through all the code in the editor and returns a results object for navigating matches. The first argument can be a string or a regular expression. The optional second argument is a boolean for case-sensitive matching (defaults to `false`).
+
+```js
+const results = ne.search('console.log')    // string, case-insensitive
+const results = ne.search('myVar', true)    // string, case-sensitive
+const results = ne.search(/function\s+\w+/) // regex
+```
+
+The returned object looks like this:
+```js
+{
+  count: 5,   // number of matches found
+  current: 0, // index of the current match (-1 if none)
+  matches: [  // array of all match positions
+    {
+      line: 3,
+      from: { line: 2, ch: 0 },
+      to:   { line: 2, ch: 11 },
+      lineText: 'console.log("hi")' // full text of that line
+    }
+    // …
+  ],
+  scrollTo(idx), // scroll to and select the match at index
+  next(),        // select the next match
+  prev(),        // select the previous match
+  clear()        // remove all highlights and deselect
+}
+```
+
+All matches are highlighted in the editor immediately when `search()` is called. The currently focused match (set by `scrollTo`, `next`, or `prev`) is highlighted more prominently. Call `results.clear()` when you're done to remove all highlights.
 
 <br><br>
 

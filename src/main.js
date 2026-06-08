@@ -560,6 +560,69 @@ class Netitor {
 
   prependProxyURL (code, proxy) { return prependProxyURL(code, proxy) }
 
+  search (query, caseSensitive = false) {
+    const cm = this.cm
+
+    // Collect all matches using CodeMirror's SearchCursor
+    const matches = []
+    const cursor = cm.getSearchCursor(
+      query,
+      CodeMirror.Pos(0, 0),
+      { caseFold: !caseSensitive }
+    )
+    while (cursor.findNext()) {
+      matches.push({
+        line: cursor.from().line + 1, // 1-based for external use
+        from: cursor.from(),
+        to: cursor.to(),
+        lineText: cm.getLine(cursor.from().line)
+      })
+    }
+
+    // Mark all matches in the document
+    const markers = matches.map(m =>
+      cm.markText(m.from, m.to, { className: 'netitor-search-match' })
+    )
+
+    let current = -1
+
+    const focusMatch = (idx) => {
+      if (matches.length === 0) return
+      // Swap active class on previous marker
+      if (current >= 0) {
+        markers[current].clear()
+        markers[current] = cm.markText(
+          matches[current].from,
+          matches[current].to,
+          { className: 'netitor-search-match' }
+        )
+      }
+      current = ((idx % matches.length) + matches.length) % matches.length
+      // Replace current marker with the active-highlight version
+      markers[current].clear()
+      markers[current] = cm.markText(
+        matches[current].from,
+        matches[current].to,
+        { className: 'netitor-search-match-active' }
+      )
+      cm.scrollIntoView({ from: matches[current].from, to: matches[current].to }, 80)
+      cm.setSelection(matches[current].from, matches[current].to)
+    }
+
+    return {
+      get count () { return matches.length },
+      get current () { return current },
+      matches,
+      scrollTo (idx) { focusMatch(idx) },
+      next () { focusMatch(current + 1) },
+      prev () { focusMatch(current - 1) },
+      clear () {
+        markers.forEach(m => m.clear())
+        current = -1
+      }
+    }
+  }
+
   update (srcCode) {
     if (srcCode === this.code) this._altSrcCode = null
     else if (srcCode) this._altSrcCode = srcCode
