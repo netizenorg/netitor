@@ -18,6 +18,7 @@ const jsMedia = require('../js/dom-media.json')
 const jsTarg = require('../js/dom-event-target.json')
 const jsArr = require('../js/arrays.json')
 const nnDocs = require('../custom/nn-netitor-docs.json')
+const htmlAttrs = require('../html/attributes.json')
 const cssProps = require('../css/properties.json')
 
 const camelCase = (input) => {
@@ -334,6 +335,40 @@ function strNfo (obj) {
   }
 }
 
+function isNNSetContext (cm) {
+  const pos = cm.getCursor()
+  for (let i = pos.line; i >= Math.max(0, pos.line - 20); i--) {
+    const l = cm.getLine(i)
+    if (l && l.includes('.set(')) return true
+  }
+  return false
+}
+
+function isHTMLAttributeString (o, cm) {
+  const pos = cm.getCursor()
+  const line = cm.getLine(pos.line)
+  if (!line.includes('.set(')) return null
+  const attr = o.data.replace(/['"]/g, '')
+  return htmlAttrs[attr] || null
+}
+
+function isNNCSSContext (cm) {
+  const pos = cm.getCursor()
+  for (let i = pos.line; i >= Math.max(0, pos.line - 20); i--) {
+    const l = cm.getLine(i)
+    if (l && l.includes('.css(')) return true
+  }
+  return false
+}
+
+function isCSSPropertyString (o, cm) {
+  const pos = cm.getCursor()
+  const line = cm.getLine(pos.line)
+  if (!line.includes('.css(')) return null
+  const prop = o.data.replace(/['"]/g, '')
+  return jsStyle[prop] || jsStyle[camelCase(prop)] || null
+}
+
 function findChainRoot (cm) {
   const pos = cm.getCursor()
   let lineNum = pos.line
@@ -401,6 +436,8 @@ function jsData (o, cm) {
     o.nfo = funcNfo
   } else if (o.type.includes('string')) {
     o.nfo = isEvent(o, cm)
+    if (!o.nfo) o.nfo = isCSSPropertyString(o, cm)
+    if (!o.nfo) o.nfo = isHTMLAttributeString(o, cm)
     o.nfo = o.nfo ? o.nfo : strNfo(o)
   } else if (o.type === 'number') {
     o.nfo = numNfo
@@ -423,6 +460,10 @@ function jsData (o, cm) {
       o.nfo = jsStyle[o.data]
     } else if (isChildOf('nn', o.data, cm) && nnDocs.nn[o.data]) {
       o.nfo = nnDocs.nn[o.data]
+    } else if (jsStyle[o.data] && isNNCSSContext(cm)) {
+      o.nfo = jsStyle[o.data]
+    } else if (htmlAttrs[o.data] && isNNSetContext(cm)) {
+      o.nfo = htmlAttrs[o.data]
     } else {
       const rootLine = findChainRoot(cm)
       const nnType = evaluateNNType(rootLine, cm)
