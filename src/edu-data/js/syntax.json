@@ -7,8 +7,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays",
     "status": "standard",
     "description": {
-      "html": "Square brackets <code>[ ]</code> are used to create or access an <a href=\"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays\" target=\"_blank\">Array</a>, an ordered list of values stored under a single variable name. You can put any values inside (numbers, strings, even other arrays), separated by commas: e.g. <code>let colors = [\"red\", \"green\", \"blue\"]</code>. To read a specific item back, use its index (position) inside brackets, counting from 0: <code>colors[0]</code> gives you <code>\"red\"</code>.",
-      "text": "Square brackets [ ] are used to create or access an Array, an ordered list of values stored under a single variable name. You can put any values inside (numbers, strings, even other arrays), separated by commas: e.g. let colors = [\"red\", \"green\", \"blue\"]. To read a specific item back, use its index (position) inside brackets, counting from 0: colors[0] gives you \"red\"."
+      "html": "Square brackets <code>[ ]</code> are used to create or access an <a href=\"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays\" target=\"_blank\">Array</a>, an ordered list of values stored under a single variable name. You can put any comma separated values inside (numbers, strings, even other arrays), like <code>let colors = [\"red\", \"green\", \"blue\"]</code>. To read a specific item back, use its index (position) inside brackets, counting from 0: <code>colors[0]</code> gives you <code>\"red\"</code>.",
+      "text": "Square brackets [ ] are used to create or access an Array, an ordered list of values stored under a single variable name. You can put any comma separated values inside (numbers, strings, even other arrays), like let colors = [\"red\", \"green\", \"blue\"]. To read a specific item back, use its index (position) inside brackets, counting from 0: colors[0] gives you \"red\"."
     }
   },
   "{": {
@@ -19,8 +19,8 @@
     "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer",
     "status": "standard",
     "description": {
-      "html": "Curly braces <code>{ }</code> have two main jobs in JavaScript. First, they create an <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer\" target=\"_blank\">Object</a> — a collection of related values stored as <i>key: value</i> pairs: <code>let person = { name: \"Alice\", age: 25 }</code>. Access a value with dot notation: <code>person.name</code> gives you <code>\"Alice\"</code>. Second, they wrap the body of functions, loops, and <code>if</code>-statements, everything between the braces is the block of code that runs together.",
-      "text": "Curly braces { } have two main jobs in JavaScript. First, they create an Object — a collection of related values stored as key: value pairs: let person = { name: \"Alice\", age: 25 }. Access a value with dot notation: person.name gives you \"Alice\". Second, they wrap the body of functions, loops, and if-statements, everything between the braces is the block of code that runs together."
+      "html": "Curly braces <code>{ }</code> have two main jobs in JavaScript. First, they create an <a href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer\" target=\"_blank\">Object</a>, a collection of related values stored as <i>key: value</i> pairs, for example <code>let person = { name: \"Ada\", age: 27 }</code>. Access a value with dot notation: <code>person.name</code> gives you <code>\"Ada\"</code>. Second, they wrap the body of functions, loops, and <code>if</code>-statements, everything between the braces is the block of code that runs together.",
+      "text": "Curly braces { } have two main jobs in JavaScript. First, they create an Object, a collection of related values stored as key: value pairs: let person = { name: \"Alice\", age: 27 }. Access a value with dot notation: person.name gives you \"Alice\". Second, they wrap the body of functions, loops, and if-statements, everything between the braces is the block of code that runs together."
     }
   },
   "(": {
