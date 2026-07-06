@@ -34,7 +34,7 @@ class ThemeCreator {
 
     str.split('\n')
       .filter(s => s.includes(':'))
-      .map(s => s.replace(/'/g, '').replace(/,/g, '').trim().split(': '))
+      .map(s => s.replace(/['"]/g, '').replace(/,/g, '').trim().split(': '))
       .forEach(a => { data[a[0]] = a[1] })
 
     const metadata = {
