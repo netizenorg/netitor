@@ -1,3 +1,4 @@
+
 module.exports = {
   metadata: {
     name: 'light',
@@ -5,37 +6,37 @@ module.exports = {
     description: 'a taste of cotton candy in the clouds.'
   },
   /* THEME STARTS HERE */
-  text: '#aa9595',
+  text: '#896c6c',
   background: '#ffffff',
   /* CODE SYNTAX COLORS */
-  meta: '#7E7E7F',
-  tag: '#ef9f9f',
-  tag_bracket: '#aa9595',
-  attribute: '#aa90fe',
-  qualifier: '#aa90fe',
-  comment: '#d3c8c8',
-  variable: '#72d6ad',
-  variable_2: '#66D9CF',
-  variable_3: '#7E7E7F',
-  variable_callee: '#66D9CF',
-  def: '#7E7E7F',
-  builtin: '#aa90fe',
-  property: '#7E7E7F',
-  keyword: '#aa90fe',
-  string: '#66D9CF',
-  string_2: '#66D9CF',
-  number: '#dfd29b',
-  atom: '#7E7E7F',
-  operator: '#ef9f9f',
+  meta: '#7d7575',
+  tag: '#b85a6a',
+  tag_bracket: '#896c6c',
+  attribute: '#8654e7',
+  qualifier: '#8654e7',
+  comment: '#b8aaad',
+  variable: '#7d7575',
+  variable_2: '#7d7575',
+  variable_3: '#7d7575',
+  variable_callee: '#7d7575',
+  def: '#8654e7',
+  builtin: '#8654e7',
+  property: '#6162ee',
+  keyword: '#6162ee',
+  string: '#289696',
+  string_2: '#6162ee',
+  number: '#ae51ab',
+  atom: '#ae51ab',
+  operator: '#b85a6a',
   /* MISC EDITOR COLORS */
-  line_numbers: '#cdb1ae',
-  active_line_bg: '#7E7E7F',
+  line_numbers: '#b8aaad',
+  active_line_bg: '#7d7575',
   selected: '#31313219',
   /* MATCHING TAG/BRACKET INDICATORS */
-  match_color: '#aa9595',
-  match_border: '#d3c8c8',
+  match_color: '#896c6c',
+  match_border: '#815ee7',
   /* AUTOCOMPLETE/HINT MENU SELECTED ITEM */
   hint_color: '#ffffff',
-  hint_bg: '#E07E7E',
+  hint_bg: '#b85a6a',
   hint_shadow: '#aa90febf'
 }
