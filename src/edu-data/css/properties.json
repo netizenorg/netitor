@@ -8,8 +8,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment between the lines inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a> when the items do not use all available space",
-      "text": "Specifies the alignment between the lines inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a> when the items do not use all available space"
+      "html": "Controls how multiple rows or columns of <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flex items</a> are spaced out when there's extra room inside of their container.",
+      "text": "Controls how multiple rows or columns of flex items are spaced out when there's extra room inside of their container."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-content",
     "keyword": {
@@ -26,8 +26,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment for items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>",
-      "text": "Specifies the alignment for items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>"
+      "html": "Controls how <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flex items</a> are spaced along their container's cross axis. As an example: along a horizontal row of times, <code>align-items</code> will determine how each item fills the container's leftover vertical space.",
+      "text": "Controls how flex items are spaced along their container's cross axis. As an example: along a horizontal row of times, align-items will determine how each item fills the container's leftover vertical space."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
     "keyword": {
@@ -44,8 +44,8 @@
     "default": "auto",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment for selected items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>",
-      "text": "Specifies the alignment for selected items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>"
+      "html": "Lets a single item override how it aligns inside of its <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flex</a> or <a href=\"https://css-tricks.com/complete-guide-css-grid-layout/grid\" target=\"_blank\">grid</a> container, independent of other items.",
+      "text": "Lets a single item override how it aligns inside of its flex or grid container, independent of other items."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-self",
     "keyword": {
@@ -71,8 +71,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for all the animation-* properties",
-      "text": "A shorthand property for all the animation-* properties"
+      "html": "CSS animations need definitions like name, duration, timing, and delay. This <code>animation</code> property combines all of those settings into one single line instead of writing out each <code>animation-*</code> property separately.",
+      "text": "CSS animations need definitions like name, duration, timing, and delay. This animation property combines all of those settings into one single line instead of writing out each animation-* property separately."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation",
     "keyword": {
@@ -88,8 +88,8 @@
     "default": "0s",
     "status": "standard",
     "description": {
-      "html": "Specifies a delay for the start of an animation",
-      "text": "Specifies a delay for the start of an animation"
+      "html": "Delays the start of a CSS animation by a specified time (like <code>2s</code> for 2 seconds).",
+      "text": "Delays the start of a CSS animation by a specified time (like 2s for 2 seconds)."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-delay",
     "keyword": {
@@ -105,8 +105,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies whether an animation should be played forwards, backwards or in alternate cycles",
-      "text": "Specifies whether an animation should be played forwards, backwards or in alternate cycles"
+      "html": "Sets the playback direction of a CSS animation either forward (<code>normal</code>) or backward (<code>reverse</code>). You can also <code>alternate</code> between the two, creating a yo-yo effect.",
+      "text": "Sets the playback direction of a CSS animation either forward (normal) or backward (reverse). You can also alternate between the two, creating a yo-yo effect."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-direction",
     "keyword": {
@@ -122,8 +122,8 @@
     "default": "0s",
     "status": "standard",
     "description": {
-      "html": "Specifies how long an animation should take to complete one cycle",
-      "text": "Specifies how long an animation should take to complete one cycle"
+      "html": "Controls the speed of your animation. Set how long one full run of your animation takes in seconds (<code>s</code>) or milliseconds (<code>ms</code>).",
+      "text": "Controls the speed of your animation. Set how long one full run of your animation takes in seconds (s) or milliseconds (ms)."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-duration",
     "keyword": {
@@ -139,8 +139,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)",
-      "text": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)"
+      "html": "Controls whether animation styles stick around before it starts or after it finishes. This is useful for keeping elements in their final animated state, for example.",
+      "text": "Controls whether animation styles stick around before it starts or after it finishes. This is useful for keeping elements in their final animated state, for example."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode",
     "keyword": {
@@ -156,8 +156,8 @@
     "default": "1",
     "status": "standard",
     "description": {
-      "html": "Specifies the number of times an animation should be played",
-      "text": "Specifies the number of times an animation should be played"
+      "html": "Defines how many times an animation repeats before stopping. Use <code>infinite</code> to loop the animation forever!",
+      "text": "Defines how many times an animation repeats before stopping. Use infinite to loop the animation forever!"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count",
     "keyword": {
@@ -173,8 +173,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Specifies a name for the @keyframes animation",
-      "text": "Specifies a name for the @keyframes animation"
+      "html": "Sets which <code>@keyframes</code> animation should run on this element — just use the name you defined in your <code>@keyframes</code> block.",
+      "text": "Sets which @keyframes animation should run on this element — just use the name you defined in your @keyframes block."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-name",
     "keyword": {
@@ -190,8 +190,8 @@
     "default": "running",
     "status": "standard",
     "description": {
-      "html": "Specifies whether the animation is running or paused",
-      "text": "Specifies whether the animation is running or paused"
+      "html": "Controls whether your animation is currently playing or paused.",
+      "text": "Controls whether your animation is currently playing or paused."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-play-state",
     "keyword": {
@@ -207,8 +207,8 @@
     "default": "ease",
     "status": "standard",
     "description": {
-      "html": "Specifies the speed curve of an animation",
-      "text": "Specifies the speed curve of an animation"
+      "html": "Defines how an animation speeds up or slows down as it plays, essentially controlling its pace. Try <code>linear</code> to keep it steady throughout, and then try <code>ease</code> to notice the natural feel timing functions can apply.",
+      "text": "Defines how an animation speeds up or slows down as it plays, essentially controlling its pace. Try linear to keep it steady throughout, and then try ease to notice the natural feel timing functions can apply."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function",
     "keyword": {
@@ -229,8 +229,8 @@
       "text": "appearance"
     },
     "description": {
-      "html": "The <strong><code>appearance</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\" target=\"_blank\">CSS</a> property is used to display UI elements with platform-specific styling, based on the operating system's theme.",
-      "text": "The appearance CSS property is used to display UI elements with platform-specific styling, based on the operating system's theme."
+      "html": "Form elements (like <code>&lt;button&gt;</code> or <code>&lt;checkbox&gt;</code>) adopt a lot of styling from a user's browser and operating system. <code>appearance</code> controls whether a form element uses that default styling or removes it.",
+      "text": "Form elements (like <button> or <checkbox>) adopt a lot of native styling from a user's browser and operating system. appearance controls whether the form element uses that default styling or removes it."
     }
   },
   "azimuth": {
@@ -245,8 +245,8 @@
       "text": "azimuth"
     },
     "description": {
-      "html": "no information available",
-      "text": "no information available"
+      "html": "Specifies the degrees (0–360) for lighting in SVG filters, where 0° points right and 90° points down.",
+      "text": "Specifies the degrees (0–360) for lighting in SVG filters, where 0° points right and 90° points down."
     }
   },
   "backdrop-filter": {
@@ -262,8 +262,8 @@
       "text": "backdrop-filter"
     },
     "description": {
-      "html": "The <strong><code>backdrop-filter</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\" target=\"_blank\">CSS</a> property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything _behind_ the element, to see the effect the element or its background needs to be transparent or partially transparent.",
-      "text": "The backdrop-filter CSS property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything _behind_ the element, to see the effect the element or its background needs to be transparent or partially transparent."
+      "html": "Makes the area behind an element blurry or color-shifted. Because this effect applies to everything _behind_ the element, the element will need some transparency (using <code>opacity</code> or a semi-transparent <code>background</code>) for the effect to show.",
+      "text": "Makes the area behind an element blurry or color-shifted. Because this effect applies to everything _behind_ the element, the element will need some transparency (using opacity or a semi-transparent background) for the effect to show."
     }
   },
   "backface-visibility": {
