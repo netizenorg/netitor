@@ -3,6 +3,8 @@ const svgEles = require('../edu-data/html/svg-elements.json')
 const htmlAttr = require('../edu-data/html/attributes.json')
 const svgAttr = require('../edu-data/html/svg-attributes.json')
 const stringSimilarity = require('string-similarity')
+const attrSynonyms = require('./html-attr-synonyms.json')
+const eleSynonyms = require('./html-ele-synonyms.json')
 const allEles = { ...svgEles, ...htmlEles }
 const allAttr = { ...svgAttr, ...htmlAttr }
 
@@ -88,8 +90,11 @@ class HTMLStandards {
         const line = mchObj.index + 1 // Convert to 1-based line number
         const col = mch.indexOf(name)
 
-        const smatch = this.checkSpelling(name, 'elements')
-        const suggest = smatch ? `Did you mean to write <strong>"${smatch}"</strong>? ` : ''
+        const synonym = eleSynonyms[name.toLowerCase()]
+        const smatch = synonym ? null : this.checkSpelling(name, 'elements')
+        const suggest = synonym
+          ? `Looks like you might be thinking of <strong>"&lt;${synonym.ele}&gt;"</strong>, that's the element used for ${synonym.hint}. `
+          : smatch ? `Did you mean to write <strong>"${smatch}"</strong>? ` : ''
 
         const fmsg = customElement
           ? 'But it may be a <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements" target="_blank">custom element</a>, assuming you\'ve imported this custom element yourself using a library or your own custom code.'
@@ -166,10 +171,13 @@ class HTMLStandards {
           line = lines.indexOf(match) + 1
           if (match) col = match.indexOf(attr)
           if (!Object.keys(allAttr).includes(attr)) {
-            const smatch = this.checkSpelling(attr, 'attributes')
-            const suggest = (smatch && (isHTMLele || isSVGele))
-              ? `Or maybe you mispelled the <strong>"${smatch}"</strong> attribute? `
-              : (smatch) ? `Check your spelling, did you mean to write <strong>"${smatch}"</strong>? ` : ''
+            const synonym = attrSynonyms[attr.toLowerCase()]
+            const smatch = synonym ? null : this.checkSpelling(attr, 'attributes')
+            const suggest = synonym
+              ? `Looks like you might be thinking of <strong>"${synonym.attr}"</strong>, that's the attribute used ${synonym.hint}. `
+              : (smatch && (isHTMLele || isSVGele))
+                ? `Or maybe you mispelled the <strong>"${smatch}"</strong> attribute? `
+                : (smatch) ? `Check your spelling, did you mean to write <strong>"${smatch}"</strong>? ` : ''
 
             const reEvent = /^on(unload|message|submit|select|scroll|resize|mouseover|mouseout|mousemove|mouseleave|mouseenter|mousedown|load|keyup|keypress|keydown|focus|dblclick|click|change|blur|error)$/i
             if (attr.indexOf('data-') !== 0 && !reEvent.test(attr)) {

@@ -1,6 +1,7 @@
 const htmlEles = require('../edu-data/html/elements.json')
 const cssProps = require('../edu-data/css/properties.json')
 const stringSimilarity = require('string-similarity')
+const cssPropSynonyms = require('./css-prop-synonyms.json')
 
 function checkSpelling (str, type) {
   const list = type === 'elements'
@@ -181,8 +182,11 @@ const dict = {
     obj = reformatObj(obj)
     const vals = parseVals(obj.message)
 
-    const smatch = checkSpelling(vals[0], 'property')
-    const suggest = smatch ? `, did you mean to write <strong>"${smatch}"</strong>?` : ''
+    const synonym = cssPropSynonyms[vals[0].toLowerCase()]
+    const smatch = synonym ? null : checkSpelling(vals[0], 'property')
+    const suggest = synonym
+      ? `. Looks like you might be thinking of <strong>"${synonym.prop}"</strong>, that's the property used for ${synonym.hint}`
+      : smatch ? `, did you mean to write <strong>"${smatch}"</strong>?` : ''
 
     obj.friendly = `There is no <code>${vals[0]}</code> property in CSS${suggest}`
     return obj

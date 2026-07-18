@@ -1,0 +1,17 @@
+{
+  "file":      { "attr": "src",   "hint": "for specifying the path to an image, video, audio, script, or other file" },
+  "source":    { "attr": "src",   "hint": "for specifying the path to an image, video, audio, script, or other file" },
+  "path":      { "attr": "src",   "hint": "for specifying the path to an image, video, audio, script, or other file" },
+  "filename":  { "attr": "src",   "hint": "for specifying the path to an image, video, audio, script, or other file" },
+  "filepath":  { "attr": "src",   "hint": "for specifying the path to an image, video, audio, script, or other file" },
+  "link":      { "attr": "href",  "hint": "for specifying the URL or path a link points to" },
+  "address":   { "attr": "href",  "hint": "for specifying the URL or path a link points to" },
+  "url":       { "attr": "href",  "hint": "for specifying the URL or path a link points to" },
+  "classname": { "attr": "class", "hint": "for assigning one or more CSS class names to an element" },
+  "classname-": { "attr": "class", "hint": "for assigning one or more CSS class names to an element" },
+  "class-name": { "attr": "class", "hint": "for assigning one or more CSS class names to an element" },
+  "alt-text":  { "attr": "alt",   "hint": "for providing a text description of an image for screen readers and when the image fails to load" },
+  "alttext":   { "attr": "alt",   "hint": "for providing a text description of an image for screen readers and when the image fails to load" },
+  "description": { "attr": "alt", "hint": "for providing a text description of an image for screen readers and when the image fails to load" },
+  "tooltip":   { "attr": "title", "hint": "for providing extra information about an element, usually shown as a tooltip on hover" }
+}
