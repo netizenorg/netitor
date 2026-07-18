@@ -330,7 +330,6 @@ const snippets = {
     'html (template)': `<!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
     <title>Untitled</title>
   </head>
   <body>
