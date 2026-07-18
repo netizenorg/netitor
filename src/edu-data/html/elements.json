@@ -235,7 +235,7 @@
       "html": "The <code>&lt;title&gt;</code> element defines the document&apos;s title that is shown in a Browser&apos;s title bar or a page&apos;s tab. It's also the text tat shows up in web search results.",
       "text": "The <title> element defines the document's title that is shown in a Browser's title bar or a page's tab. It's also the text tat shows up in web search results."
     },
-    "singleton": "false",
+    "singleton": false,
     "attributes": [
       "accesskey",
       "autocapitalize",
@@ -269,7 +269,7 @@
       "html": "This is where you put all the content people will actually see on your page. Every HTML document has exactly one <code>&lt;head&gt;</code> and one  <code>&lt;body&gt;</code> element.",
       "text": "This is where you put all the content people will actually see on your page. Every HTML document has exactly one <head> and one  <body> element."
     },
-    "singleton": "false",
+    "singleton": false,
     "attributes": [
       "accesskey",
       "autocapitalize",
@@ -340,7 +340,7 @@
       "html": "Wraps a piece of content that makes sense on its own, like a blog post, news article, or forum comment.",
       "text": "The  <code>&lt;article&gt;</code> element is used to wrap a piece of content that makes sense on its own, like a blog post, news article, or forum comment."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -375,7 +375,7 @@
       "html": "The <code>&lt;aside&gt;</code> element represents a portion of a document whose content is only indirectly related to the document's main content.",
       "text": "The <aside> element represents a portion of a document whose content is only indirectly related to the document's main content."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -410,7 +410,7 @@
       "html": "The <code>&lt;footer&gt;</code> element represents a footer for its nearest <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Sectioning_content\">sectioning content</a> or <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Using_HTML_sections_and_outlines#Sectioning_root\">sectioning root</a> element. A footer typically contains information about the author of the section, copyright data or links to related documents.",
       "text": "The <footer> element represents a footer for its nearest sectioning content or sectioning root element. A footer typically contains information about the author of the section, copyright data or links to related documents."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -445,7 +445,7 @@
       "html": "The <code>&lt;header&gt;</code> element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.",
       "text": "The <header> element represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -690,7 +690,7 @@
       "html": "The <code>&lt;hgroup&gt;</code> element represents a multi-level heading for a section of a document. It groups a set of <code><a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/HTML/Element/Heading_Elements\">&lt;h1&gt;&#x2013;&lt;h6&gt;</a></code> elements.",
       "text": "The <hgroup> element represents a multi-level heading for a section of a document. It groups a set of <h1>–<h6> elements."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -795,7 +795,7 @@
       "html": "The <code>&lt;section&gt;</code> element represents a standalone section, which doesn't have a more specific <a href=\"https://developer.mozilla.org/en-US/curriculum/core/semantic-html/\" target=\"_blank\">semantic</a> element to represent it, contained within an HTML document.",
       "text": "The <section> element represents a standalone section, which doesn't have a more specific semantic element to represent it, contained within an HTML document."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -830,7 +830,7 @@
       "html": "Creates a block-level quote, perfect for longer citations that deserve their own space on the page. Add a <code>cite</code> attribute within it to credit the source URL.",
       "text": "Creates a block-level quote, perfect for longer citations that deserve their own space on the page. Add a cite attribute within it to credit the source URL."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -866,7 +866,7 @@
       "html": "The <code>&lt;dd&gt;</code> element provides the description, definition, or value for the preceding term <code>dt<code> in a description list <code>dl<code>.",
       "text": "The <dd> element provides the description, definition, or value for the preceding term (dt) in a description list (dl)."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -901,7 +901,7 @@
       "html": "The most common HTML element for grouping content into sections that you can then style, move, or organize with CSS.",
       "text": "The most common HTML element for grouping content into sections that you can then style, move, or organize with CSS."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -1113,7 +1113,7 @@
       "html": "The <code>&lt;li&gt;</code> element is used to represent an item in a list, like <code>&lt;ol&gt;</code> (ordered lists) and <code>&lt;ul&gt;</code> (unordered lists).",
       "text": "The <li> element is used to represent an item in a list, like <ol> (ordered lists) and <ul> (unordered lists)."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -1149,7 +1149,7 @@
       "html": "Displays a list with automatic numbering, wrap each item in an <code>&lt;li&gt;</code> tag inside the <code>&lt;ol&gt;</code>.",
       "text": "Displays a list with automatic numbering, wrap each item in an <li> tag inside the <ol>."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "block",
     "attributes": [
       "accesskey",
@@ -1335,7 +1335,7 @@
       "html": "<code>&lt;abbr&gt;</code>, the abbreviation element,  represents an abbreviation or acronym; the optional <code>title</code> attribute can provide an expansion or description for the abbreviation.",
       "text": "<abbr>, the abbreviation element,  represents an abbreviation or acronym; the optional title attribute can provide an expansion or description for the abbreviation."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
@@ -1510,7 +1510,7 @@
       "html": "The Citation element <code>&lt;cite&gt;</code> is used to describe a reference to a cited creative work, and must include the title of that work.",
       "text": "The Citation element <cite> is used to describe a reference to a cited creative work, and must include the title of that work."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
@@ -1545,7 +1545,7 @@
       "html": "The <code>&lt;code&gt;</code> element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code.",
       "text": "The <code> element displays its contents styled in a fashion intended to indicate that the text is a short fragment of computer code."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
@@ -2103,7 +2103,7 @@
       "html": "The <code>&lt;span&gt;</code> element is a generic inline container for phrasing content, which does not inherently represent anything specific. It can be used to group elements for styling purposes (using the <code>class</code> or <code>id</code> attributes), or because they share attribute values, such as <code>lang</code>.",
       "text": "The <span> element is a generic inline container for phrasing content, which does not inherently represent anything specific. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
@@ -2683,7 +2683,7 @@
       "html": "The Inline Frame element or <code>&lt;iframe&gt;</code> lets you embed a completely separate web page within your own page using the <code>src</code> attribute to point to its address.",
       "text": "The Inline Frame element or <iframe> lets you embed a completely separate web page within your own page using the src attribute to point to its address."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
@@ -3480,7 +3480,7 @@
       "html": "Makes a button users can click to do something, like submitting a <code>&lt;form&gt;</code> or running JavaScript code with your own custom functionality.",
       "text": "Makes a button users can click to do something, like submitting a <form> or running JavaScript code with your own custom functionality."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
@@ -3526,7 +3526,7 @@
       "html": "Used in combintion with the <code>&lt;input&gt;</code> and <code>&lt;option&gt;</code> elements, the <code>&lt;datalist&gt;</code> element is used to create a text field with auto-suggestions (based on it's <code>&lt;option&gt;</code> elements) that drop down as the user types into it.",
       "text": "Used in combintion with the <input> and <option> elements, the <datalist> element is used to create a text field with auto-suggestions (based on it's <option> elements) that drop down as the user types into it."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
@@ -3860,7 +3860,7 @@
       "html": "Use <code>&lt;option&gt;</code> to define each item a user can pick from a <code>&lt;select&gt;</code> (dropdown menu) or <code>&lt;datalist&gt;</code> (auto-suggestion search field) element",
       "text": "Use <option> to define each item a user can pick from a <select> (dropdown menu) or <datalist> (auto-suggestion search field) element"
     },
-    "singleton": "false",
+    "singleton": false,
     "attributes": [
       "accesskey",
       "autocapitalize",
@@ -3974,7 +3974,7 @@
       "html": "Creates a dropdown menu where users can pick one option from a list, put <code>&lt;option&gt;</code> elements inside to define the choices.",
       "text": "Creates a dropdown menu where users can pick one option from a list, put <option> elements inside to define the choices."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
@@ -4243,7 +4243,7 @@
       "html": "Holds reusable HTML snippets that remain invisible until JavaScript copies them into your document, useful for creating repeated elements like list items or cards.",
       "text": "Holds reusable HTML snippets that remain invisible until JavaScript copies them into your document, useful for creating repeated elements like list items or cards."
     },
-    "singleton": "false",
+    "singleton": false,
     "flow": "inline",
     "attributes": [
       "accesskey",
