@@ -6,6 +6,7 @@ const cssColors = require('../css/colors.json')
 const cssTypes = require('../css/data-types.json')
 const cssUnits = require('../css/units.json')
 const cssFunctions = require('../css/functions.json')
+const cssDisplay = require('../css/display.json')
 const checkSelector = require('./css-read-selector.js')
 
 const clrURL = {
@@ -176,6 +177,8 @@ function cssData (o, state, cm) {
       o.nfo = createColorNfo(c, 'rgb')
     } else if (o.data.indexOf('hsl') === 0) {
       o.nfo = createColorNfo(c, 'hsl')
+    } else if (o.type === 'atom' && cssDisplay[c]) {
+      o.nfo = cssDisplay[c]
     }
   }
 

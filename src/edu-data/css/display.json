@@ -1,0 +1,122 @@
+{
+  "block": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display#block",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/display#block\">block</a>",
+      "text": "block"
+    },
+    "description": {
+      "html": "A <code>block</code> element starts on a new line and stretches to fill the full width of its container. Browsers treat elements like <code>&lt;div&gt;</code>, <code>&lt;p&gt;</code>, and <code>&lt;h1&gt;</code> as block by default. You can control the width and height of a block element and add margin and padding on all four sides.",
+      "text": "A block element starts on a new line and stretches to fill the full width of its container. Browsers treat elements like <div>, <p>, and <h1> as block by default. You can control the width and height of a block element and add margin and padding on all four sides."
+    }
+  },
+  "inline": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline\">inline</a>",
+      "text": "inline"
+    },
+    "description": {
+      "html": "An <code>inline</code> element sits inside the flow of text and does not start on a new line, it only takes up as much space as its content. Elements like <code>&lt;span&gt;</code>, <code>&lt;a&gt;</code>, and <code>&lt;img&gt;</code> are inline by default.",
+      "text": "An inline element sits inside the flow of text and does not start on a new line, it only takes up as much space as its content. Elements like <span>, <a>, and <img> are inline by default."
+    }
+  },
+  "inline-block": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline-block",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/display#inline-block\">inline-block</a>",
+      "text": "inline-block"
+    },
+    "description": {
+      "html": "<code>inline-block</code> is a hybrid display value, the element sits inline with surrounding text (no line break before or after) but behaves like a block internally, so you <em>can</em> set its <code>width</code>, <code>height</code>, and vertical padding and margin.",
+      "text": "inline-block is a hybrid display value, the element sits inline with surrounding text (no line break before or after) but behaves like a block internally, so you can set its width, height, and vertical padding and margin."
+    }
+  },
+  "flex": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout\">flex</a>",
+      "text": "flex"
+    },
+    "description": {
+      "html": "<code>flex</code> turns an element into a flexbox container, useful when creating responsive layouts. Its direct children become <em>flex items</em> that you can arrange in a row or column, align, and distribute space between using properties like <i>flex-direction</i>, <i>justify-content</i>, and <i>align-items</i>. To learn more about this system checkout the <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/#css-flexbox-properties\" target=\"_blank\">Complete CSS Flexbox Layout Guide </a>.",
+      "text": "flex turns an element into a flexbox container, useful when creating responsive layouts. Its direct children become flex items that you can arrange in a row or column, align, and distribute space between using properties like flex-direction, justify-content, and align-items. To learn more about this system checkout the Complete CSS Flexbox Layout Guide ."
+    }
+  },
+  "inline-flex": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout\">inline-flex</a>",
+      "text": "inline-flex"
+    },
+    "description": {
+      "html": "<code>inline-flex</code> works exactly like <code>flex</code>, the element becomes a flexbox container whose children can be arranged, aligned, and spaced, but the container itself sits <em>inline</em> in the text flow rather than starting on a new line like <code>flex</code> does by default. To learn more about this system checkout the <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/#css-flexbox-properties\" target=\"_blank\">Complete CSS Flexbox Layout Guide </a>.",
+      "text": "inline-flex works exactly like flex, the element becomes a flexbox container whose children can be arranged, aligned, and spaced, but the container itself sits inline in the text flow rather than starting on a new line like flex does by default. To learn more about this system checkout the Complete CSS Flexbox Layout Guide ."
+    }
+  },
+  "grid": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout\">grid</a>",
+      "text": "grid"
+    },
+    "description": {
+      "html": "<code>grid</code> turns an element into a CSS Grid container. You define rows and columns with <i>grid-template-rows</i> and <i>grid-template-columns</i>, then place children into named areas or specific cells. Grid excels at two-dimensional layouts, think page skeletons, image galleries, and dashboards. To learn more about this system checkout the <a href=\"https://css-tricks.com/complete-guide-css-grid-layout\" target=\"_blank\">Complete CSS Grid Layout Guide</a>.",
+      "text": "grid turns an element into a CSS Grid container. You define rows and columns with grid-template-rows and grid-template-columns, then place children into named areas or specific cells. Grid excels at two-dimensional layouts, think page skeletons, image galleries, and dashboards. To learn more about this system checkout the Complete CSS Grid Layout Guide."
+    }
+  },
+  "inline-grid": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout\">inline-grid</a>",
+      "text": "inline-grid"
+    },
+    "description": {
+      "html": "<code>inline-grid</code> works exactly like <code>grid</code>, the element becomes a CSS Grid container with full row and column control, but the container itself sits <em>inline</em> in the text flow rather than starting on a new line. To learn more about this system checkout the <a href=\"https://css-tricks.com/complete-guide-css-grid-layout\" target=\"_blank\">Complete CSS Grid Layout Guide</a>.",
+      "text": "inline-grid works exactly like grid, the element becomes a CSS Grid container with full row and column control, but the container itself sits inline in the text flow rather than starting on a new line. To learn more about this system checkout the Complete CSS Grid Layout Guide."
+    }
+  },
+  "none": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display#none",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/display#none\">none</a>",
+      "text": "none"
+    },
+    "description": {
+      "html": "<code>display: none</code> completely removes the element from the rendered layout, it takes up no space and is invisible. Unlike <code>visibility: hidden</code>, which hides the element but preserves its space, <code>none</code> removes the element entirely as if it were never in the HTML. It's common to toggle an element's display value between <em>none</em> and something else to hide/show it on the page.",
+      "text": "display: none completely removes the element from the rendered layout, it takes up no space and is invisible. Unlike visibility: hidden, which hides the element but preserves its space, none removes the element entirely as if it were never in the HTML. It's common to toggle an element's display value between none and something else to hide/show it on the page."
+    }
+  },
+  "contents": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display#contents",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/display#contents\">contents</a>",
+      "text": "contents"
+    },
+    "description": {
+      "html": "<code>display: contents</code> makes the element itself disappear from the box model, its own box is not rendered, but its <em>children</em> remain fully visible and participate in the layout as if they were direct children of the element's parent. Useful for wrapper <code>&lt;div&gt;</code>s that you need in the HTML for semantic or scripting reasons but don't want to affect your grid or flex layout.",
+      "text": "display: contents makes the element itself disappear from the box model, its own box is not rendered, but its children remain fully visible and participate in the layout as if they were direct children of the element's parent. Useful for wrapper <div>s that you need in the HTML for semantic or scripting reasons but don't want to affect your grid or flex layout."
+    }
+  },
+  "flow-root": {
+    "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/display#flow-root",
+    "status": "standard",
+    "keyword": {
+      "html": "<a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/display#flow-root\">flow-root</a>",
+      "text": "flow-root"
+    },
+    "description": {
+      "html": "<code>display: flow-root</code> creates a block-level element that establishes a new <a href=\"https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context\" target=\"_blank\">block formatting context</a>. This is a cleaner alternative to the classic <code>overflow: hidden</code> clearfix hack, it reliably contains floated children and prevents margin collapse without clipping content.",
+      "text": "display: flow-root creates a block-level element that establishes a new block formatting context. This is a cleaner alternative to the classic overflow: hidden clearfix hack, it reliably contains floated children and prevents margin collapse without clipping content."
+    }
+  }
+}

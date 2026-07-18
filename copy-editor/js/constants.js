@@ -17,6 +17,7 @@ export const FILES = [
   { label: 'CSS / at-rules',         path: '../src/edu-data/css/at-rules.json' },
   { label: 'CSS / colors',           path: '../src/edu-data/css/colors.json' },
   { label: 'CSS / data-types',       path: '../src/edu-data/css/data-types.json' },
+  { label: 'CSS / display',          path: '../src/edu-data/css/display.json' },
   { label: 'CSS / functions',        path: '../src/edu-data/css/functions.json' },
   { label: 'CSS / properties',       path: '../src/edu-data/css/properties.json' },
   { label: 'CSS / pseudo-classes',   path: '../src/edu-data/css/pseudo-classes.json' },
