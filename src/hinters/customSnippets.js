@@ -319,6 +319,268 @@ ${creativeLibImports.tone}
 </script>`
 }
 
+const eastereggs = {
+  cow: `<!--
+  This ASCII Cow has been remixed by many Internet users over the years, it's one of the earlist memes on the net. To see some of these remixes visit: http://www.textfiles.com/art/cows.txt
+-->
+<pre>
+         (__)
+         (oo)
+  /-------\\/
+ / |     ||
+*  ||----||
+
+     Cow
+</pre>`,
+  evan: `<!--
+all-html.net (2011) by Evan Roth
+
+a net art piece consisting of "One sentence contained within every HTML tag in alphabetical order." read more about it here: https://esoteric.codes/blog/all-html
+-->
+<a>
+<abbr>
+<acronym>
+<address>
+<!--<applet>-->
+<area>
+<b>
+<base>
+<basefont>
+<bdo>
+<big>
+<blockquote>
+<!--<body>-->
+<br>
+<button>
+<caption>
+<center>
+<cite>
+<code>
+<col>
+<colgroup>
+<dd>
+<del>
+<dfn>
+<dir>
+<div>
+<dl>
+<dt>
+<em>
+<fieldset>
+<font>
+<form>
+<frame>'
+<frameset>
+<head>
+<h1>
+<h2>
+<h3>
+<h4>
+<h5>
+<h6>
+<hr>
+<!--<html>-->
+<i>
+<!--<iframe>-->
+<img>
+<input>
+<ins>
+<kbd>
+<label>
+<legend>
+<li>
+<link>
+<map>
+<menu>
+<meta>
+<!--<noframes>-->
+<!--<noscript>-->
+<object>
+<ol>
+<!--<optgroup>-->
+<!--<option>-->
+<p>
+<param>
+<pre>
+<q>
+<s>
+<samp>
+<!--<script>-->
+<!--<select>-->
+<small>
+<span>
+<strike>
+<strong>
+<!--<style>-->
+<sub>
+<sup>
+<table>
+<tbody>
+<td>
+<!--<textarea>-->
+<tfoot>
+<th>
+<thead>
+<!--<title>-->
+<tr>
+<tt>
+<u>
+<ul>
+<var>
+
+One sentence contained within every HTML tag in alphabetical order.
+
+</var>
+</ul>
+</u>
+</tt>
+</tr>
+</title>
+</thead>
+</th>
+</tfoot>
+</textarea>
+</td>
+</tbody>
+</table>
+</sup>
+</sub>
+</style>
+</strong>
+</strike>
+</span>
+</small>
+</select>
+</script>
+</samp>
+</s>
+</q>
+</pre>
+</param>
+</p>
+</option>
+</optgroup>
+</ol>
+</object>
+</noscript>
+</noframes>
+</meta>
+</menu>
+</map>
+</link>
+</li>
+</legend>
+</label>
+</kbd>
+</ins>
+</input>
+</iframe>
+</i>
+<!--</html>-->
+</hr>
+</h6>
+</h5>
+</h4>
+</h3>
+</h2>
+</h1>
+</head>
+</frameset>
+</frame>
+</form>
+</font>
+</fieldset>
+</em>
+</dt>
+</dl>
+</div>
+</dir>
+</dfn>
+</del>
+</dd>
+</colgroup>
+</col>
+</code>
+</cite>
+</center>
+</caption>
+</button>
+</br>
+<!--</body>-->
+</blockquote>
+</big>
+</bdo>
+</basefont>
+</base>
+</b>
+</area>
+</applet>
+</address>
+</acronym>
+</abbr>
+</a>`,
+lynn: `<style>
+  /*
+    #dailycssimages 01: Bear Cub (~2015~2017) by Lynn Fisher
+
+    a classic piece of CSS Art, by the creator of #divtober, check out more of Fisher's CSS art at https://singlediv.com
+  */
+  .entry {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+
+  .entry:before,
+  .entry:after {
+    display: block;
+    content: '';
+    position: absolute;
+  }
+
+  .entry.panda-cub {
+    width: 210px;
+    height: 160px;
+    margin-left: -110px;
+    margin-top: -80px;
+    background-color: #fff;
+    background-image: radial-gradient(ellipse at 50% 60%, #333 12px, transparent 12px), radial-gradient(ellipse at 50% 80%, #555 6px, transparent 6px);
+    border-top-left-radius: 110px;
+    border-top-right-radius: 110px;
+    border-bottom-left-radius: 110px 60px;
+    border-bottom-right-radius: 110px 60px;
+    border: 5px solid #333;
+    border-bottom-width: 10px;
+    box-shadow: inset 10px -10px 0 #eee;
+  }
+
+  .entry.panda-cub:before {
+    width: 70px;
+    height: 40px;
+    left: 29px;
+    top: 55px;
+    background-color: #333;
+    background-image: radial-gradient(circle at 51px 20px, #fff 3px, transparent 3px), radial-gradient(circle at 46px 20px, #333 7px, transparent 7px), radial-gradient(circle at 45px 20px, #fff 10px, transparent 10px);
+    border-radius: 50% 50% 45% 42%;
+    transform: rotate(-45deg);
+    box-shadow: 10px -72px 0 -4px #333;
+  }
+
+  .entry.panda-cub:after {
+    width: 70px;
+    height: 40px;
+    left: 111px;
+    top: 55px;
+    background-color: #333;
+    background-image: radial-gradient(circle at 24px 15px, #fff 3px, transparent 3px), radial-gradient(circle at 24px 20px, #333 7px, transparent 7px), radial-gradient(circle at 25px 20px, #fff 10px, transparent 10px);
+    border-radius: 50% 50% 42% 45%;
+    transform: rotate(45deg);
+    box-shadow: -10px -72px 0 -4px #333;
+  }
+</style>
+<div class="entry panda-cub"></div>`
+}
+
 const snippets = {
   html: {
     doctype: '<!DOCTYPE html>',
@@ -363,7 +625,10 @@ const snippets = {
     r="70"
     fill="pink">
   </circle>
-</svg>`
+</svg>`,
+    cow: eastereggs.cow,
+    evan: eastereggs.evan,
+    lynn: eastereggs.lynn
   },
   svg: {},
   css: {
