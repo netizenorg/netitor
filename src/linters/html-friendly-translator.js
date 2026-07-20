@@ -105,7 +105,7 @@ const translate = {
     return obj
   },
   'alt-require': (obj) => {
-    obj.friendly = `Your <code>${htmlToStr(obj.evidence)}</code> is missing it's <code>alt</code> attribute. The alt attribute's value should be a description of the image, while it isn't mandatory it is incredibly useful for accessibility — screen readers read this description out to their users so they know what the image means. Alt text is also displayed on the page if the image can't be loaded for some reason: for example, network errors, content blocking, or <a href="https://en.wikipedia.org/wiki/Link_rot" target="_blank">linkrot</a>.`
+    obj.friendly = `Your <code>${htmlToStr(obj.evidence)}</code> is missing it's <code>alt</code> attribute. The alt attribute's value should be a description of the image, while it isn't mandatory it is incredibly useful for accessibility. For example, screen readers read this description out to their users so they know what the image means. Alt text is also displayed on the page if the image can't be loaded for some reason, maybe due to network errors, content blocking, or <a href="https://en.wikipedia.org/wiki/Link_rot" target="_blank">linkrot</a>.`
     return obj
   },
   'tags-check': (obj) => {

@@ -589,6 +589,19 @@ const snippets = {
     a: 'a href="#"><CURSOR_GOES_HERE></a>',
     'a (new tab)': '<a href="#" target="_blank"><CURSOR_GOES_HERE></a>',
     img: 'img src="<CURSOR_STARTS_HERE>filename.jpg<CURSOR_ENDS_HERE>" alt="description of image">',
+    'meta (author)': '<meta name="author" content="<CURSOR_STARTS_HERE>your name<CURSOR_ENDS_HERE>">',
+    'meta (description)': '<meta name="description" content="<CURSOR_STARTS_HERE>your description<CURSOR_ENDS_HERE>">',
+    favicon: '<link rel="icon" href="<CURSOR_STARTS_HERE>your-icon.png<CURSOR_ENDS_HERE>">',
+    'meta (mobile viewport)': '<meta name="viewport" content="width=device-width, initial-scale=1">',
+    'meta (mobile tags)': `<meta name="theme-color" content="#ffffff">
+<link rel="apple-touch-icon" href="<CURSOR_STARTS_HERE>your-icon.png<CURSOR_ENDS_HERE>">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">`,
+    'meta (social cards)': `<meta property="og:title" content="<CURSOR_STARTS_HERE>your page title<CURSOR_ENDS_HERE>">
+<meta property="og:description" content="your page description">
+<meta property="og:image" content="https://website.com/images/splash.png">
+<meta property="og:url" content="https://website.com">
+<meta property="og:type" content="website">`,
     'html (template)': `<!DOCTYPE html>
 <html lang="en-US">
   <head>
