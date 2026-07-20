@@ -519,7 +519,7 @@ One sentence contained within every HTML tag in alphabetical order.
 </acronym>
 </abbr>
 </a>`,
-lynn: `<style>
+  lynn: `<style>
   /*
     #dailycssimages 01: Bear Cub (~2015~2017) by Lynn Fisher
 
@@ -593,15 +593,8 @@ const snippets = {
     'meta (description)': '<meta name="description" content="<CURSOR_STARTS_HERE>your description<CURSOR_ENDS_HERE>">',
     favicon: '<link rel="icon" href="<CURSOR_STARTS_HERE>your-icon.png<CURSOR_ENDS_HERE>">',
     'meta (mobile viewport)': '<meta name="viewport" content="width=device-width, initial-scale=1">',
-    'meta (mobile tags)': `<meta name="theme-color" content="#ffffff">
-<link rel="apple-touch-icon" href="<CURSOR_STARTS_HERE>your-icon.png<CURSOR_ENDS_HERE>">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">`,
-    'meta (social cards)': `<meta property="og:title" content="<CURSOR_STARTS_HERE>your page title<CURSOR_ENDS_HERE>">
-<meta property="og:description" content="your page description">
-<meta property="og:image" content="https://website.com/images/splash.png">
-<meta property="og:url" content="https://website.com">
-<meta property="og:type" content="website">`,
+    'meta (mobile tags)': '<meta name="theme-color" content="#ffffff">\n<link rel="apple-touch-icon" href="<CURSOR_STARTS_HERE>your-icon.png<CURSOR_ENDS_HERE>">\n<meta name="apple-mobile-web-app-capable" content="yes">\n<meta name="apple-mobile-web-app-status-bar-style" content="default">\n',
+    'meta (social cards)': '<meta property="og:title" content="<CURSOR_STARTS_HERE>your page title<CURSOR_ENDS_HERE>">\n<meta property="og:description" content="your page description">\n<meta property="og:image" content="https://website.com/images/splash.png">\n<meta property="og:url" content="https://website.com">\n<meta property="og:type" content="website">\n',
     'html (template)': `<!DOCTYPE html>
 <html lang="en-US">
   <head>
