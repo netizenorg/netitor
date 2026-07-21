@@ -26,12 +26,15 @@ You can double click any pieces of code in the [online demo](https://netizenorg.
 
 # Contribute
 
-There are a few ways you can contribute to this project and support our development:
-- [netizen.org](https://netizen.org) is a 501(c)3 tax deductible organization, so you might consider making a [donation](https://donorbox.org/netizen)! Your support helps ensure our tools and workshops remain accessible to folks from all backgrounds.
+You can support netnet.studio (the netitor and the netnet-standard-library) by joining our [Patreon](https://patreon.com/netnetstudio). Or if you prefer to make a larger one-time donation, contact us at hi@netizen.org or consider making an anonymous donation to [netizen.org](https://netizen.org), we're a 501(c)3 tax deductible organization, your support helps ensure our tools and workshops remain accessible to folks from all backgrounds.
+
+You could also help contribute directly to the development of this repo:
+
 - want to create your own netitor theme? check out our [custom theme editor](https://netizenorg.github.io/netitor/theme-editor/) as well as the [contributor notes](https://github.com/netizenorg/netitor/wiki/Creating-Custom-Themes) for it.
 - want to help edit some of the edu copy? check out our [custom edu-text copy editor](https://netizenorg.github.io/netitor/copy-editor/) as well as [contributor notes](https://github.com/netizenorg/netitor/wiki/Editing-Edu-Data-Copy)
 - did you find a potential bug in our code? please let us know by creating an [issue](https://github.com/netizenorg/netitor/issues) (or sending us an email hi@netizen.org)
 - would you like to fix that bug yourself? Please feel free to "Fork" this project and submit a [PR](https://github.com/netizenorg/netitor/pulls) (Pull Request). Check out [Development Notes](https://github.com/netizenorg/netitor/wiki/Development-Notes) in the Wiki section of this repo for more info.
+
 
 <br><br>
 
