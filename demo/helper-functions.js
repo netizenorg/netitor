@@ -3,7 +3,7 @@
 // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•* some example helper functions
 
 window.reset = () => {
-  const netnetFace = '<div class="face"><a href="https://netnet.studio"><div></div></a></div class="face">'
+  const netnetFace = '<div class="face"><div onclick="document.querySelector(\'main-menu\').toggle()"></div></div>'
   document.querySelector('#nfo').innerHTML = netnetFace
   document.querySelector('#nfo').className = ''
   ne.spotlight('clear')
@@ -50,6 +50,20 @@ window.showCSSNFO = (eve) => {
     <h1>${eve.nfo.keyword.html}</h1>
     <p>${eve.nfo.description.html} ${status} ${links}</p>
   `
+}
+
+window.loadSketch = (fn) => {
+  const input = document.createElement('input')
+  input.type = 'file'
+  input.accept = '.html,.htm'
+  input.onchange = (e) => {
+    const file = e.target.files[0]
+    if (!file) return
+    const reader = new window.FileReader()
+    reader.onload = (ev) => { fn(ev.target.result) }
+    reader.readAsText(file)
+  }
+  input.click()
 }
 
 window.markErrors = (eve) => {

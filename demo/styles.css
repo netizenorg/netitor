@@ -63,11 +63,15 @@ section {
   align-items: center;
   font-size: 32px;
 }
-.face > a {
-  color: #000 !important;
-  text-decoration: none;
+
+.face div:hover {
+  cursor: pointer;
 }
-.face > a:hover { color: var(--netizen-tag) !important; }
+
+.face div:hover:before {
+  color: var(--netizen-tag);
+}
+
 .face div:before {
   content: '( ◕ ◞ ◕ )';
   animation: blinking 10s infinite;

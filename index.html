@@ -14,10 +14,12 @@
     </section>
 
     <save-sketch></save-sketch>
+    <main-menu></main-menu>
 
     <script src="build/netitor.js"></script>
     <script src="demo/helper-functions.js"></script>
     <script src="demo/save-sketch.js"></script>
+    <script src="demo/main-menu.js"></script>
     <script>
 
       const ne = new Netitor({
@@ -26,7 +28,16 @@
         renderWithErrors: true,
         // theme: 'moz-light',
         language: 'html',
-        code: '<h1>Hello World Wide Web</h1>'
+        wrap: true,
+        code: `<center style="font-family: sans-serif;">
+  <h1>Hello World Wide Web!</h1>
+  <p style="max-width: 550px;">
+    Welcome to <code>netnet</code>-<i style="font-family: serif;">lite</i>, a streamlined lite-weight version of <a href="https://netnet.studio" target="_blank">netnet.studio</a>.
+  </p>
+  <p style="max-width: 550px;">
+    Live edit the code; double-click any keywords to learn what they are; if there's an issue a <span style="color: red;">dot</span> will appear next to the line-number (click it to display a friendly error message); click on netnet's face ( ◕ ◞ ◕ ) to open the menu.
+  </p>
+</center>`
       })
 
       // •.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•*•.¸¸¸.•
@@ -36,7 +47,7 @@
       if (ne.hasCodeInHash) ne.loadFromHash()
 
       // here we're creating a shortcut to save the current sketch to the URL
-      // if when the user either presses Ctrl+S or ⌘+S
+      // if when the user either presses Ctrl+S/O/T or ⌘+S/O/T
       window.addEventListener('keydown', (e) => {
         // console.log(e.key);
         if((e.ctrlKey || e.metaKey) && e.key === 's'){
@@ -45,6 +56,14 @@
           // <save-sketch> is a custom element that creates the save dialogue
           // located in demo/save-sketch.js of this repo
           document.querySelector('save-sketch').displaySaveDialogue()
+        } else if((e.ctrlKey || e.metaKey) && e.key === 'o'){
+          // load an HTML from file, place all it's code in the netitor
+          loadSketch((html) => { ne.code = html })
+        } else if((e.ctrlKey || e.metaKey) && e.key === 't'){
+          ne.tidy() // tidy the code editor's spacing/indentation
+        } else if(e.shiftKey && e.key === 'Enter'){
+          e.preventDefault()
+          if (!ne.autoUpdate) ne.update()
         }
       })
 
