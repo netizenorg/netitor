@@ -1,11 +1,15 @@
 # educational data
 
-We originally used our [eduscraper](https://github.com/netizenorg/eduscraper) to generate these json files automatically. The educscraper was a web scraper that scrapes educational web literacy info from various websites including [https://developer.mozilla.org](https://developer.mozilla.org), [https://www.w3schools.com](https://www.w3schools.com) among others.
+We originally used our [eduscraper](https://github.com/netizenorg/eduscraper) to generate these json files automatically. The educscraper was a web scraper that scrapes educational web literacy info from various websites including [https://developer.mozilla.org](https://developer.mozilla.org), [https://www.w3schools.com](https://www.w3schools.com) among others. But because this scraper needed to be regularly updated and because these json files often needed to be edited by hand, we've opted for scraping using the Web Console (see "old" notes below).
 
-But because this scraper needed to be regularly updated and because these json files often needed to be edited by hand, we've opted for another approach.
+Over time these json files have been edited and augmented manually, so from now on any edits should be made manually using the [Copy Editor](https://netizenorg.github.io/netitor/copy-editor/) see [dev notes here](https://github.com/netizenorg/netitor/wiki/Editing-Edu-Data-Copy).
+
 
 **NOTE:** When used in netnet.studio, the edu-info get's augmented by the CSS and the HTML Reference Widget for certain pieces of code, see [html-reference/data/edu-supplement.json](https://github.com/netizenorg/netnet.studio/blob/main/www/widgets/html-reference/data/edu-supplement.json) and [css-reference/data/edu-supplement.json](https://github.com/netizenorg/netnet.studio/blob/main/www/widgets/css-reference/data/edu-supplement.json) for details.
 
+------------------
+
+### --------------- [ OLD NOTES ] ---------------
 # Scraping Using the WebConsole
 
 If ever we need to scrape data from one of these resources, do so by running the following script in your browser's Web Console:
