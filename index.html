@@ -59,7 +59,8 @@
         } else if((e.ctrlKey || e.metaKey) && e.key === 'o'){
           // load an HTML from file, place all it's code in the netitor
           loadSketch((html) => { ne.code = html })
-        } else if((e.ctrlKey || e.metaKey) && e.key === 't'){
+        } else if((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === 't'){
+          e.preventDefault()
           ne.tidy() // tidy the code editor's spacing/indentation
         } else if(e.shiftKey && e.key === 'Enter'){
           e.preventDefault()

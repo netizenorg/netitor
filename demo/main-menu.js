@@ -99,7 +99,7 @@ class MainMenu extends window.HTMLElement {
               <ul id="shortcuts-list">
                 <li><i>save</i>: <code>${modifier} + S</code></li>
                 <li><i>open</i>: <code>${modifier} + O</code></li>
-                <li><i>tidy</i>: <code>${modifier} + T</code></li>
+                <li><i>tidy</i>: <code>${modifier} + Shift + T</code></li>
               </ul>
             </div>
           </section>
