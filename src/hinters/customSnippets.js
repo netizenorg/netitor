@@ -15,14 +15,24 @@ const hint = (cm, self, data) => {
   // cm.setSelection(t)
 }
 
+// rawHint skips smart-indentation, preserving pre-formatted content like the donut
+const rawHint = (cm, self, data) => {
+  const from = cm.getCursor('from')
+  from.ch = cm.getLine(from.line).indexOf(cm.getLine(from.line).trim())
+  const str = data.text
+  cm.replaceSelection(str)
+}
+
 const list = (type, str) => {
   const t = type.split('.')
   const dict = (t.length === 2) ? snippets[t[0]][t[1]] : snippets[t[0]]
   const list = []
   for (const snip in dict) {
-    const text = dict[snip]
+    const val = dict[snip]
+    const text = typeof val === 'object' ? val.text : val
+    const h = typeof val === 'object' ? val.hint : hint
     const displayText = snip
-    if (displayText.includes(str)) list.push({ text, displayText, hint })
+    if (displayText.includes(str)) list.push({ text, displayText, hint: h })
   }
   return list
 }
@@ -578,7 +588,41 @@ One sentence contained within every HTML tag in alphabetical order.
     box-shadow: -10px -72px 0 -4px #333;
   }
 </style>
-<div class="entry panda-cub"></div>`
+<div class="entry panda-cub"></div>`,
+  a1k0n: `// donut.c (2006) by A1K0N (aka Andy Sloane)
+// originally written in C (refactored here to JS) this piece
+// is an example of both ASCII art and generative art, at home
+// in both in the "demoscene" and the world of "code poetry"
+// learn more at https://www.a1k0n.net/2011/07/20/donut-math.html
+
+                       let p=document.
+                  createElement('pre'),b=[],z=[],
+              A=1,B=1;window.addEventListener('load',
+           function(){document.body.appendChild(p);
+         setInterval(function(){b=[];z=[];A+=0.07;B+=0.03;
+      let cA=Math.cos(A),sA=Math.sin(A),cB=Math.cos(B),sB=
+     Math.sin(B);for(let k=0;k<1760;k++){b[k]=k%80===79?"\\n":
+   " ";z[k]=0}for(let j=0;j<           6.28;j+=0.07){let ct=Math
+  .cos(j),st=Math.sin(j);                 for(let i=0;i<6.28;i+=
+ 0.02){let sp=Math.sin(                    i),cp=Math.cos(i),h=ct+
+ 2,D=1/(sp*h*sA+st*                          cA+5),t=sp*h*cA-st*
+sA,x=0|(40+30*D*(cp*                           h*cB-t*sB)),y=0|(12+
+15*D*(cp*h*sB+t*cB))                           ,o=x+80*y,N=0|(8*((
+st*sA-sp*ct*cA)*cB-                            sp*ct*sA-st*cA-cp*ct*
+sB));if(y<22&&y>=0                            &&x>=0&&x<79&&D>z[o]
+){z[o]=D;b[o]=                                 ".,-~:;=!*#$@"[N>0?N
+:0]}}}p.innerHTML=b.                           join('');},50)});/*.
+,-~:;=!#$@.,-~:;=!#$                         @.,-~:;=!#$@.,-~:;=!
+#$@.,-~:;=!#$@.,-~:;=!                     #$@.,-~:;=!#$@.,-~:;=!
+ #$@.,-~:;=!#$@.,-~:;=!#                 $@.,-~:;=!#$@.,-~:;=!#$
+  @.,-~:;=!#$@.,-~:;=!#$@.,           -~:;=!#$@.,-~:;=!#$@.,-~:
+    ;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=
+      !#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=
+        !#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.
+          ,-~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,
+              -~:;=!#$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;=!
+                  #$@.,-~:;=!#$@.,-~:;=!#$@.,-~:;
+                      =!#$@.,-~:;=!#$@.*/`
 }
 
 const snippets = {
@@ -634,7 +678,8 @@ const snippets = {
 </svg>`,
     cow: eastereggs.cow,
     evan: eastereggs.evan,
-    lynn: eastereggs.lynn
+    lynn: eastereggs.lynn,
+    a1k0n: { text: `<script>\n${eastereggs.a1k0n}\n</script>`, hint: rawHint }
   },
   svg: {},
   css: {
@@ -650,7 +695,8 @@ const snippets = {
     function: 'function <CURSOR_STARTS_HERE>name<CURSOR_ENDS_HERE> () {\n\n}\n',
     'canvas (template)': '// create canvas\nconst canvas = document.createElement(\'canvas\')\nconst ctx = canvas.getContext(\'2d\')\n\n// initial setup function (runs once)\nfunction setup () {\ndocument.body.appendChild(canvas)\n  \n}\n\n// draw loop (runs ~60 times a second)\nfunction draw () {\nrequestAnimationFrame(draw)\n  \n}\n\n// run setup() and draw() when page loads\nwindow.addEventListener(\'load\', setup)\nwindow.addEventListener(\'load\', draw)\n',
     'canvas (template++)': '// create canvas\nconst canvas = document.createElement(\'canvas\')\ncanvas.width = window.innerWidth\ncanvas.height = window.innerHeight\nconst ctx = canvas.getContext(\'2d\')\n\n// initial setup function (runs once)\nfunction setup () {\ndocument.body.appendChild(canvas)\nconst x = canvas.width / 2 - 50\nconst y = canvas.height / 2 - 50\nctx.fillRect(x, y, 100, 100)\n}\n\n// draw loop (runs ~60 times a second)\nfunction draw () {\nrequestAnimationFrame(draw)\nctx.fillStyle = \'pink\'\nconst x = Math.random() * canvas.width\nconst y = Math.random() * canvas.height\nctx.fillRect(x, y, 10, 10)\n}\n\n// run setup() and draw() when page loads\nwindow.addEventListener(\'load\', setup)\nwindow.addEventListener(\'load\', draw)\n',
-    log: 'console.log(<CURSOR_GOES_HERE>)'
+    log: 'console.log(<CURSOR_GOES_HERE>)',
+    a1k0n: { text: eastereggs.a1k0n, hint: rawHint }
   }
 }
 

@@ -39,9 +39,13 @@ function elementHintList (tok, tag, cm) {
   for (const snip in snippets) {
     if (!Object.prototype.hasOwnProperty.call(eles, snip)) {
       if (snip.includes(str)) {
-        const text = (tok.type === 'tag')
-          ? snippets[snip].substr(1) : snippets[snip]
-        list.push({ text, displayText: snip })
+        const val = snippets[snip]
+        if (val && typeof val === 'object') {
+          list.push({ text: val.text, displayText: snip, hint: val.hint })
+        } else {
+          const text = (tok.type === 'tag') ? val.substr(1) : val
+          list.push({ text, displayText: snip })
+        }
       }
     }
   }
