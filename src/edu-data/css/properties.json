@@ -8,8 +8,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment between the lines inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a> when the items do not use all available space",
-      "text": "Specifies the alignment between the lines inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a> when the items do not use all available space"
+      "html": "Controls how multiple rows or columns of <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flex items</a> are spaced out when there's extra room inside of their container.",
+      "text": "Controls how multiple rows or columns of flex items are spaced out when there's extra room inside of their container."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-content",
     "keyword": {
@@ -26,8 +26,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment for items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>",
-      "text": "Specifies the alignment for items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>"
+      "html": "Controls how <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flex items</a> are spaced along their container's cross axis. As an example: along a horizontal row of times, <code>align-items</code> will determine how each item fills the container's leftover vertical space.",
+      "text": "Controls how flex items are spaced along their container's cross axis. As an example: along a horizontal row of times, align-items will determine how each item fills the container's leftover vertical space."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-items",
     "keyword": {
@@ -44,8 +44,8 @@
     "default": "auto",
     "status": "standard",
     "description": {
-      "html": "Specifies the alignment for selected items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>",
-      "text": "Specifies the alignment for selected items inside a <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flexible container</a>"
+      "html": "Lets a single item override how it aligns inside of its <a href=\"https://css-tricks.com/snippets/css/a-guide-to-flexbox/\" target=\"_blank\">flex</a> or <a href=\"https://css-tricks.com/complete-guide-css-grid-layout/grid\" target=\"_blank\">grid</a> container, independent of other items.",
+      "text": "Lets a single item override how it aligns inside of its flex or grid container, independent of other items."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/align-self",
     "keyword": {
@@ -71,8 +71,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for all the animation-* properties",
-      "text": "A shorthand property for all the animation-* properties"
+      "html": "CSS animations need a handful of definitions to run, like name, duration, timing, and delay. This <code>animation</code> property combines those settings into one single line instead of writing out each <code>animation-*</code> property separately.",
+      "text": "CSS animations need a handful of definitions to run, like name, duration, timing, and delay. This animation property combines those settings into one single line instead of writing out each animation-* property separately."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation",
     "keyword": {
@@ -88,8 +88,8 @@
     "default": "0s",
     "status": "standard",
     "description": {
-      "html": "Specifies a delay for the start of an animation",
-      "text": "Specifies a delay for the start of an animation"
+      "html": "Delays the start of a CSS animation by a specified time (like <code>2s</code> for 2 seconds).",
+      "text": "Delays the start of a CSS animation by a specified time (like 2s for 2 seconds)."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-delay",
     "keyword": {
@@ -105,8 +105,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies whether an animation should be played forwards, backwards or in alternate cycles",
-      "text": "Specifies whether an animation should be played forwards, backwards or in alternate cycles"
+      "html": "Sets the playback direction of a CSS animation either forward (<code>normal</code>) or backward (<code>reverse</code>). You can also <code>alternate</code> between the two, creating a yo-yo effect.",
+      "text": "Sets the playback direction of a CSS animation either forward (normal) or backward (reverse). You can also alternate between the two, creating a yo-yo effect."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-direction",
     "keyword": {
@@ -122,8 +122,8 @@
     "default": "0s",
     "status": "standard",
     "description": {
-      "html": "Specifies how long an animation should take to complete one cycle",
-      "text": "Specifies how long an animation should take to complete one cycle"
+      "html": "Controls the speed of your animation. Set how long one full run of your animation takes in seconds (<code>s</code>) or milliseconds (<code>ms</code>).",
+      "text": "Controls the speed of your animation. Set how long one full run of your animation takes in seconds (s) or milliseconds (ms)."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-duration",
     "keyword": {
@@ -139,8 +139,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)",
-      "text": "Specifies a style for the element when the animation is not playing (before it starts, after it ends, or both)"
+      "html": "Controls whether animation styles stick around before it starts or after it finishes. This is useful for keeping elements in their final animated state, for example.",
+      "text": "Controls whether animation styles stick around before it starts or after it finishes. This is useful for keeping elements in their final animated state, for example."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode",
     "keyword": {
@@ -156,8 +156,8 @@
     "default": "1",
     "status": "standard",
     "description": {
-      "html": "Specifies the number of times an animation should be played",
-      "text": "Specifies the number of times an animation should be played"
+      "html": "Defines how many times an animation repeats before stopping. Use <code>infinite</code> to loop the animation forever!",
+      "text": "Defines how many times an animation repeats before stopping. Use infinite to loop the animation forever!"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count",
     "keyword": {
@@ -173,8 +173,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Specifies a name for the @keyframes animation",
-      "text": "Specifies a name for the @keyframes animation"
+      "html": "Sets which <code>@keyframes</code> animation should run on this element — just use the name you defined in your <code>@keyframes</code> block.",
+      "text": "Sets which @keyframes animation should run on this element — just use the name you defined in your @keyframes block."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-name",
     "keyword": {
@@ -190,8 +190,8 @@
     "default": "running",
     "status": "standard",
     "description": {
-      "html": "Specifies whether the animation is running or paused",
-      "text": "Specifies whether the animation is running or paused"
+      "html": "Controls whether your animation is currently playing or paused.",
+      "text": "Controls whether your animation is currently playing or paused."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-play-state",
     "keyword": {
@@ -207,8 +207,8 @@
     "default": "ease",
     "status": "standard",
     "description": {
-      "html": "Specifies the speed curve of an animation",
-      "text": "Specifies the speed curve of an animation"
+      "html": "Defines how an animation speeds up or slows down as it plays, essentially controlling its pace. Try <code>linear</code> to keep it steady throughout, and then try <code>ease</code> to notice the natural feel timing functions can apply.",
+      "text": "Defines how an animation speeds up or slows down as it plays, essentially controlling its pace. Try linear to keep it steady throughout, and then try ease to notice the natural feel timing functions can apply."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function",
     "keyword": {
@@ -229,8 +229,8 @@
       "text": "appearance"
     },
     "description": {
-      "html": "The <strong><code>appearance</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\" target=\"_blank\">CSS</a> property is used to display UI elements with platform-specific styling, based on the operating system's theme.",
-      "text": "The appearance CSS property is used to display UI elements with platform-specific styling, based on the operating system's theme."
+      "html": "Form elements (like <code>&lt;button&gt;</code> or <code>&lt;checkbox&gt;</code>) adopt a lot of styling from a user's browser and operating system. <code>appearance</code> controls whether a form element uses that default styling or removes it.",
+      "text": "Form elements (like <button> or <checkbox>) adopt a lot of native styling from a user's browser and operating system. appearance controls whether the form element uses that default styling or removes it."
     }
   },
   "azimuth": {
@@ -245,8 +245,8 @@
       "text": "azimuth"
     },
     "description": {
-      "html": "no information available",
-      "text": "no information available"
+      "html": "Specifies the degrees (0–360) for lighting in SVG filters, where 0° points right and 90° points down.",
+      "text": "Specifies the degrees (0–360) for lighting in SVG filters, where 0° points right and 90° points down."
     }
   },
   "backdrop-filter": {
@@ -262,8 +262,8 @@
       "text": "backdrop-filter"
     },
     "description": {
-      "html": "The <strong><code>backdrop-filter</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\" target=\"_blank\">CSS</a> property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything _behind_ the element, to see the effect the element or its background needs to be transparent or partially transparent.",
-      "text": "The backdrop-filter CSS property lets you apply graphical effects such as blurring or color shifting to the area behind an element. Because it applies to everything _behind_ the element, to see the effect the element or its background needs to be transparent or partially transparent."
+      "html": "Makes the area behind an element blurry or color-shifted. Because this effect applies to everything _behind_ the element, the element will need some transparency (using <code>opacity</code> or a semi-transparent <code>background</code>) for the effect to show.",
+      "text": "Makes the area behind an element blurry or color-shifted. Because this effect applies to everything _behind_ the element, the element will need some transparency (using opacity or a semi-transparent background) for the effect to show."
     }
   },
   "backface-visibility": {
@@ -275,8 +275,8 @@
     "default": "visible",
     "status": "standard",
     "description": {
-      "html": "Defines whether or not the back face of an element should be visible when facing the user",
-      "text": "Defines whether or not the back face of an element should be visible when facing the user"
+      "html": "Controls whether the reverse side of an element is visible when it's is flipped or rotated in 3D space using <code>transform</code>.",
+      "text": "Controls whether the reverse side of an element is visible when it's is flipped or rotated in 3D space using transform."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/backface-visibility",
     "keyword": {
@@ -302,8 +302,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for all the background-* properties",
-      "text": "A shorthand property for all the background-* properties"
+      "html": "A shorthand property for an element's background. Instead of defining <code>color</code>, <code>image</code>, and <code>position</code> individually, <code>background</code> lets you set multiple background styles in one line.",
+      "text": "A shorthand property for an element's background. Instead of defining color, image, and position individually, background lets you set multiple background styles in one line."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background",
     "keyword": {
@@ -320,8 +320,8 @@
     "default": "scroll",
     "status": "standard",
     "description": {
-      "html": "Sets whether a background image scrolls with the rest of the page, or is fixed",
-      "text": "Sets whether a background image scrolls with the rest of the page, or is fixed"
+      "html": "Controls whether a background image scrolls with the page or stays fixed in place when you scroll.",
+      "text": "Controls whether a background image scrolls with the page or stays fixed in place when you scroll."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-attachment",
     "keyword": {
@@ -338,8 +338,8 @@
     "default": "normal",
     "status": "standard",
     "description": {
-      "html": "Specifies the blending mode of each background layer (color/image)",
-      "text": "Specifies the blending mode of each background layer (color/image)"
+      "html": "Controls how background images and colors mix together, similar to blending layers in photo editing software.",
+      "text": "Controls how background images and colors mix together, similar to blending layers in photo editing software."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-blend-mode",
     "keyword": {
@@ -356,8 +356,8 @@
     "default": "border-box",
     "status": "standard",
     "description": {
-      "html": "Defines how far the background (color or image) should extend within an \n    element",
-      "text": "Defines how far the background (color or image) should extend within an \n    element"
+      "html": "Sets the clipping area for backgrounds so you can control whether they show through transparent borders or stay inside padding — try <code>border-box</code>, <code>padding-box</code>, or <code>content-box</code>.",
+      "text": "Sets the clipping area for backgrounds so you can control whether they show through transparent borders or stay inside padding."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-clip",
     "keyword": {
@@ -374,8 +374,8 @@
     "default": "transparent",
     "status": "standard",
     "description": {
-      "html": "Specifies the background color of an element",
-      "text": "Specifies the background color of an element"
+      "html": "Specifies the background color of an element using a color name, hex code, or RGB value.",
+      "text": "Specifies the background color of an element using a color name, hex code, or RGB value."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-color",
     "keyword": {
@@ -392,8 +392,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Specifies one or more background images for an element",
-      "text": "Specifies one or more background images for an element"
+      "html": "Defines an image as an element's background using <code>url('path/to/image.jpg')</code>. You can also use a gradient function here!",
+      "text": "Defines an image as an element's background using url('path/to/image.jpg'). You can also use a gradient function here!"
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-image",
     "keyword": {
@@ -410,8 +410,8 @@
     "default": "padding-box",
     "status": "standard",
     "description": {
-      "html": "Specifies the origin position of a background image",
-      "text": "Specifies the origin position of a background image"
+      "html": "Determines the starting point for background images, letting you align them with the outer border edge, the padding area, or the content box of an element.",
+      "text": "Determines the starting point for background images, letting you align them with the outer border edge, the padding area, or the content box of an element."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-origin",
     "keyword": {
@@ -428,8 +428,8 @@
     "default": "0% 0%",
     "status": "standard",
     "description": {
-      "html": "Specifies the position of a background image",
-      "text": "Specifies the position of a background image"
+      "html": "Sets where a background image appears inside its element, like <code>top left</code> or <code>center</code>.",
+      "text": "Positions a background image inside of its container, aligning it horizontally and vertically."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-position",
     "keyword": {
@@ -449,8 +449,8 @@
       "text": "background-position-x"
     },
     "description": {
-      "html": "The <strong><code>background-position-x</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\" target=\"_blank\">CSS</a> property sets the initial horizontal position for each background image. The position is relative to the position layer set by <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin\" target=\"_blank\">background-origin</a>.",
-      "text": "The background-position-x CSS property sets the initial horizontal position for each background image. The position is relative to the position layer set by background-origin."
+      "html": "Sets where a background image sits on the horizontal axis, also known as the <code>x</code> axis.",
+      "text": "Sets where a background image sits on the horizontal axis, also known as the x axis."
     }
   },
   "background-position-y": {
@@ -465,8 +465,8 @@
       "text": "background-position-y"
     },
     "description": {
-      "html": "The <strong><code>background-position-y</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\" target=\"_blank\">CSS</a> property sets the initial vertical position for each background image. The position is relative to the position layer set by <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin\" target=\"_blank\">background-origin</a>.",
-      "text": "The background-position-y CSS property sets the initial vertical position for each background image. The position is relative to the position layer set by background-origin."
+      "html": "Sets where a background image sits on the vertical axis, also known as the <code>y</code> axis.",
+      "text": "Sets where a background image sits on the vertical axis, also known as the y axis."
     }
   },
   "background-repeat": {
@@ -478,8 +478,8 @@
     "default": "repeat",
     "status": "standard",
     "description": {
-      "html": "Sets if/how a background image will be repeated",
-      "text": "Sets if/how a background image will be repeated"
+      "html": "Controls if and how a background image tiles (repeats) to fill its container.",
+      "text": "Controls if and how a background image tiles (repeats) to fill its container."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-repeat",
     "keyword": {
@@ -496,8 +496,8 @@
     "default": "auto auto",
     "status": "standard",
     "description": {
-      "html": "Specifies the size of the background images",
-      "text": "Specifies the size of the background images"
+      "html": "Determines how big your background image displays. For example, you can use <code>cover</code> for it to fill the whole element, while <code>contain</code> scales the image to fit inside the element without cutting off.",
+      "text": "Determines how big your background image displays. For example, you can use cover for it to fill the whole element, while contain scales the image to fit inside the element without cutting off."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-size",
     "keyword": {
@@ -517,8 +517,8 @@
       "text": "block-size"
     },
     "description": {
-      "html": "The <strong><code>block-size</code></strong> <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS\" target=\"_blank\">CSS</a> property defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/width\" target=\"_blank\">width</a> or the <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/height\" target=\"_blank\">height</a> property, depending on the value of <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/writing-mode\" target=\"_blank\">writing-mode</a>.",
-      "text": "The block-size CSS property defines the horizontal or vertical size of an element's block, depending on its writing mode. It corresponds to either the width or the height property, depending on the value of writing-mode."
+      "html": "Controls the element's size in the direction text flows —  <code>height</code> for horizontal languages, <code>width</code> for vertical ones. You can stick with <code>height</code> and <code>width</code> unless you're building multilingual layouts.",
+      "text": "Controls the element's size in the direction text flows —  height for horizontal languages, width for vertical ones. You can stick with height and width unless you're building multilingual layouts."
     }
   },
   "border": {
@@ -534,8 +534,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for border-width, border-style and border-color",
-      "text": "A shorthand property for border-width, border-style and border-color"
+      "html": "A shorthand property that combines all border declarations into a single line: <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>. Use it to draw a border around an element in one go.",
+      "text": "A shorthand property that combines all border declarations into a single line: border-width, border-style, and border-color. Use it to draw a border around an element in one go."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border",
     "keyword": {
@@ -555,8 +555,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for border-bottom-width, border-bottom-style \n    and border-bottom-color",
-      "text": "A shorthand property for border-bottom-width, border-bottom-style \n    and border-bottom-color"
+      "html": "Draws a border at the bottom of an element in one go. This shorthand property combines all border declarations into a single line: <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>.",
+      "text": "Draws a border at the bottom of an element in one go. This shorthand property combines all border declarations into a single line: border-width, border-style, and border-color."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom",
     "keyword": {
@@ -572,8 +572,8 @@
     "default": "currentcolor",
     "status": "standard",
     "description": {
-      "html": "Sets the color of the bottom border",
-      "text": "Sets the color of the bottom border"
+      "html": "Sets the element's bottom border color and leaves the other border sides unchanged.",
+      "text": "Sets the element's bottom border color and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-color",
     "keyword": {
@@ -589,8 +589,8 @@
     "default": "0",
     "status": "standard",
     "description": {
-      "html": "Defines the radius of the border of the bottom-left corner",
-      "text": "Defines the radius of the border of the bottom-left corner"
+      "html": "Sets the element's bottom-left border radius and leaves the other border corners unchanged.",
+      "text": "Sets the element's bottom-left border radius and leaves the other border corners unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius",
     "keyword": {
@@ -606,8 +606,8 @@
     "default": "0",
     "status": "standard",
     "description": {
-      "html": "Defines the radius of the border of the bottom-right corner",
-      "text": "Defines the radius of the border of the bottom-right corner"
+      "html": "Sets the element's bottom-right border radius and leaves the other border corners unchanged.",
+      "text": "Sets the element's bottom-right border radius and leaves the other border corners unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius",
     "keyword": {
@@ -623,8 +623,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Sets the style of the bottom border",
-      "text": "Sets the style of the bottom border"
+      "html": "Sets the element's bottom border style (<code>solid</code>, <code>dashed</code>, <code>dotted</code>, etc) and leaves the other border sides unchanged.",
+      "text": "Sets the element's bottom border style (solid, dashed, dotted, etc) and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-style",
     "keyword": {
@@ -640,8 +640,8 @@
     "default": "medium",
     "status": "standard",
     "description": {
-      "html": "Sets the width of the bottom border",
-      "text": "Sets the width of the bottom border"
+      "html": "Sets the element's bottom border width and leaves the other border sides unchanged.",
+      "text": "Sets the element's bottom border width and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-width",
     "keyword": {
@@ -658,8 +658,8 @@
     "default": "separate",
     "status": "standard",
     "description": {
-      "html": "Sets whether table borders should collapse into a single border or be separated",
-      "text": "Sets whether table borders should collapse into a single border or be separated"
+      "html": "Sets whether borders on table cells merge together or remain separate.",
+      "text": "Sets whether borders on table cells merge together or remain separate."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-collapse",
     "keyword": {
@@ -680,8 +680,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "Sets the color of the four borders",
-      "text": "Sets the color of the four borders"
+      "html": "Sets the element's border color.",
+      "text": "Sets the element's border color. Use color names, hex codes, or rgb() values."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-color",
     "keyword": {
@@ -704,8 +704,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for all the border-image-* properties",
-      "text": "A shorthand property for all the border-image-* properties"
+      "html": "A shorthand property that combines all border-image declarations into a single line. Sets <code>border-image-source</code>, <code>border-image-slice</code>, <code>border-image-repeat</code>, and more in one go.",
+      "text": "A shorthand property that combines all border-image-* declarations into a single line. Set border-image-source, border-image-slice, border-image-repeat, and more in one go."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image",
     "keyword": {
@@ -721,8 +721,8 @@
     "default": "0",
     "status": "standard",
     "description": {
-      "html": "Specifies the amount by which the border image area extends beyond the border box",
-      "text": "Specifies the amount by which the border image area extends beyond the border box"
+      "html": "Pushes your <code>border-image</code> outward beyond the normal border area, letting it extend into the padding or margin space around your element.",
+      "text": "Pushes your border image outward beyond the normal border area, letting it extend into the padding or margin space around your element."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-outset",
     "keyword": {
@@ -738,8 +738,8 @@
     "default": "stretch",
     "status": "standard",
     "description": {
-      "html": "Specifies whether the border image should be repeated, rounded or stretched",
-      "text": "Specifies whether the border image should be repeated, rounded or stretched"
+      "html": "Controls how your decorative border image repeats, stretches, or rounds itself to fit around your element's edges.",
+      "text": "Controls how your decorative border image repeats, stretches, or rounds itself to fit around your element's edges."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-repeat",
     "keyword": {
@@ -755,8 +755,8 @@
     "default": "100%",
     "status": "standard",
     "description": {
-      "html": "Specifies how to slice the border image",
-      "text": "Specifies how to slice the border image"
+      "html": "Divides a border image from the top, right, bottom, and left edges, determining which parts of the image become corners versus repeating edges.",
+      "text": "Divides a border image from the top, right, bottom, and left edges, determining which parts of the image become corners versus repeating edges."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-slice",
     "keyword": {
@@ -772,8 +772,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Specifies the path to the image to be used as a border",
-      "text": "Specifies the path to the image to be used as a border"
+      "html": "Defines the path to an image file you'd like to use as a decorative border around an element.",
+      "text": "Defines the path to an image file you'd like to use as a decorative border around an element."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-source",
     "keyword": {
@@ -789,8 +789,8 @@
     "default": "1",
     "status": "standard",
     "description": {
-      "html": "Specifies the width of the border image",
-      "text": "Specifies the width of the border image"
+      "html": "This sets how thick your element's border image appears, and is separate from the element's actual <code>border-width</code>.",
+      "text": "This sets how thick your element's border image appears, and is separate from the element's actual border-width."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-image-width",
     "keyword": {
@@ -810,8 +810,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for all the border-left-* properties",
-      "text": "A shorthand property for all the border-left-* properties"
+      "html": "Draws a border on the left side of an element in one go. This shorthand property combines all border declarations into a single line: <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>.",
+      "text": "Draws a border on the left side of an element in one go. This shorthand property combines all border declarations into a single line: border-width, border-style, and border-color."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left",
     "keyword": {
@@ -827,8 +827,8 @@
     "default": "currentcolor",
     "status": "standard",
     "description": {
-      "html": "Sets the color of the left border",
-      "text": "Sets the color of the left border"
+      "html": "Sets the element's left border color and leaves the other border sides unchanged.",
+      "text": "Sets the element's left border color and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-color",
     "keyword": {
@@ -844,8 +844,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Sets the style of the left border",
-      "text": "Sets the style of the left border"
+      "html": "Sets the element's left border style (<code>solid</code>, <code>dashed</code>, <code>dotted</code>, etc) and leaves the other border sides unchanged.",
+      "text": "Sets the element's left border style (solid, dashed, dotted, etc) and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-style",
     "keyword": {
@@ -861,8 +861,8 @@
     "default": "medium",
     "status": "standard",
     "description": {
-      "html": "Sets the width of the left border",
-      "text": "Sets the width of the left border"
+      "html": "Sets the element's left border width and leaves the other border sides unchanged.",
+      "text": "Sets the element's left border width and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-left-width",
     "keyword": {
@@ -884,8 +884,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "This gives the element rounded corners. You can turn any element into a circle by applying a value of <code>50%</code>. Checkout this <a href=\"https://border-radius.com/\" target=\"_blank\">border-radius generator</a> or this other <a href=\"https://9elements.github.io/fancy-border-radius/\" target=\"_blank\">fancier generator</a> to better understand how it works.",
-      "text": "This gives the element rounded corners. You can turn any element into a circle by applying a value of 50%"
+      "html": "This gives the element rounded corners. You can turn any element into a circle by applying a value of <code>50%</code>. Check out this <a href=\"https://border-radius.com/\" target=\"_blank\">border-radius generator</a> or this other <a href=\"https://9elements.github.io/fancy-border-radius/\" target=\"_blank\">fancier generator</a> to better understand how it works.",
+      "text": "This gives the element rounded corners. You can turn any element into a circle by applying a value of 50%. Check out this border-radius generator or this other fancier generator to better understand how it works."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-radius",
     "keyword": {
@@ -905,8 +905,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for all the border-right-* properties",
-      "text": "A shorthand property for all the border-right-* properties"
+      "html": "Draws a border on the right side of an element in one go. This shorthand property combines all border declarations into a single line: <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>.",
+      "text": "Draws a border on the right side of an element in one go. This shorthand property combines all border declarations into a single line: border-width, border-style, and border-color."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right",
     "keyword": {
@@ -922,8 +922,8 @@
     "default": "currentcolor",
     "status": "standard",
     "description": {
-      "html": "Sets the color of the right border",
-      "text": "Sets the color of the right border"
+      "html": "Sets the element's right border color and leaves the other border sides unchanged.",
+      "text": "Sets the element's right border color and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-color",
     "keyword": {
@@ -939,8 +939,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Sets the style of the right border",
-      "text": "Sets the style of the right border"
+      "html": "Sets the element's right border style (<code>solid</code>, <code>dashed</code>, <code>dotted</code>, etc) and leaves the other border sides unchanged.",
+      "text": "Sets the element's right border style (solid, dashed, dotted, etc) and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-style",
     "keyword": {
@@ -956,8 +956,8 @@
     "default": "medium",
     "status": "standard",
     "description": {
-      "html": "Sets the width of the right border",
-      "text": "Sets the width of the right border"
+      "html": "Sets the element's right border width and leaves the other border sides unchanged.",
+      "text": "Sets the element's right border width and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-right-width",
     "keyword": {
@@ -1017,8 +1017,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "A shorthand property for border-top-width, border-top-style and\n    border-top-color",
-      "text": "A shorthand property for border-top-width, border-top-style and\n    border-top-color"
+      "html": "Draws a border at the top of an element in one go. This shorthand property combines all border declarations into a single line: <code>border-width</code>, <code>border-style</code>, and <code>border-color</code>.",
+      "text": "Draws a border at the top of an element in one go. This shorthand property combines all border declarations into a single line: border-width, border-style, and border-color."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top",
     "keyword": {
@@ -1034,8 +1034,8 @@
     "default": "currentcolor",
     "status": "standard",
     "description": {
-      "html": "Sets the color of the top border",
-      "text": "Sets the color of the top border"
+      "html": "Sets the element's top border color and leaves the other border sides unchanged.",
+      "text": "Sets the element's top border color and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-color",
     "keyword": {
@@ -1051,8 +1051,8 @@
     "default": "0",
     "status": "standard",
     "description": {
-      "html": "Defines the radius of the border of the top-left corner",
-      "text": "Defines the radius of the border of the top-left corner"
+      "html": "Sets the element's top-left border radius and leaves the other border corners unchanged.",
+      "text": "Sets the element's top-left border radius and leaves the other border corners unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius",
     "keyword": {
@@ -1068,8 +1068,8 @@
     "default": "0",
     "status": "standard",
     "description": {
-      "html": "Defines the radius of the border of the top-right corner",
-      "text": "Defines the radius of the border of the top-right corner"
+      "html": "Sets the element's top-right border radius and leaves the other border corners unchanged.",
+      "text": "Sets the element's top-right border radius and leaves the other border corners unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius",
     "keyword": {
@@ -1085,8 +1085,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Sets the style of the top border",
-      "text": "Sets the style of the top border"
+      "html": "Sets the element's top border style (<code>solid</code>, <code>dashed</code>, <code>dotted</code>, etc) and leaves the other border sides unchanged.",
+      "text": "Sets the element's top border style (solid, dashed, dotted, etc) and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-style",
     "keyword": {
@@ -1102,8 +1102,8 @@
     "default": "medium",
     "status": "standard",
     "description": {
-      "html": "Sets the width of the top border",
-      "text": "Sets the width of the top border"
+      "html": "Sets the element's top border width and leaves the other border sides unchanged.",
+      "text": "Sets the element's top border width and leaves the other border sides unchanged."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-top-width",
     "keyword": {
@@ -1124,8 +1124,8 @@
     ],
     "status": "standard",
     "description": {
-      "html": "Sets the width of the four borders",
-      "text": "Sets the width of the four borders"
+      "html": "Sets how thick the border around an element will be. You can use numeric values like <code>10px</code>, or the keywords <code>thin</code>, <code>medium</code>, <code>thick</code>.",
+      "text": "Sets how thick the border around an element will be. You can use numeric values like 10px, or the keywords thin, medium, thick."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/border-width",
     "keyword": {
@@ -1142,8 +1142,8 @@
     "default": "auto",
     "status": "standard",
     "description": {
-      "html": "Sets the elements position, from the bottom of its parent element",
-      "text": "Sets the elements position, from the bottom of its parent element"
+      "html": "Controls how far an element sits from the bottom of its container. This will only work when your element's <code>position</code> is set to <code>relative</code>, <code>absolute</code>, or <code>fixed</code>.",
+      "text": "Controls how far an element sits from the bottom of its container. This will only work when your element's position is set to relative, absolute, or fixed."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/bottom",
     "keyword": {
@@ -1160,8 +1160,8 @@
     "default": "slice",
     "status": "standard",
     "description": {
-      "html": "Sets the behavior of the background and border of an element at page-break, or, for  in-line elements, at line-break.",
-      "text": "Sets the behavior of the background and border of an element at page-break, or, for  in-line elements, at line-break."
+      "html": "Controls how decorations appear when an element breaks across multiple lines. A good example is text that's too long for it's container: using this property with either <code>slice</code> or <code>clone</code> will control how backgrounds, box-shadows, border-images and more will splice or repeat.",
+      "text": "Controls how decorations appear when an element breaks across multiple lines. A good example is text that's too long for it's container: using this property with either slice or clone will control how backgrounds, box-shadows, border-images and more will splice or repeat."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-decoration-break",
     "keyword": {
@@ -1196,8 +1196,8 @@
     "default": "content-box",
     "status": "standard",
     "description": {
-      "html": "Defines how the width and height of an element are calculated: should \n    they include padding and borders, or not",
-      "text": "Defines how the width and height of an element are calculated: should \n    they include padding and borders, or not"
+      "html": "Sets how an element's total width and height is calculated. <code>content-box</code>, the default value, only calculates size via the content area of your element. <code>border-box</code>, on the other hand, accounts for your element's border and padding in total width/height calculations. See this <a href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Box_model\" target=\"_blank\">box model guide</a> for a visual reference on content area, padding, and border.",
+      "text": "Sets how an element's total width and height is calculated. content-box, the default value, only calculates size via the content area of your element. border-box, on the other hand, accounts for your element's border and padding in total width/height calculations. See this box model guide for a visual reference on content area, padding, and border."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/box-sizing",
     "keyword": {
@@ -1213,8 +1213,8 @@
     "default": "auto",
     "status": "standard",
     "description": {
-      "html": "Specifies whether or not a page-, column-, or region-break should occur \n    after the specified element",
-      "text": "Specifies whether or not a page-, column-, or region-break should occur \n    after the specified element"
+      "html": "Controls how content breaks onto a new page or column after this element.",
+      "text": "Controls how content breaks onto a new page or column after this element."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-after",
     "keyword": {
@@ -1230,8 +1230,8 @@
     "default": "auto",
     "status": "standard",
     "description": {
-      "html": "Specifies whether or not a page-, column-, or region-break should occur \n    before the specified element",
-      "text": "Specifies whether or not a page-, column-, or region-break should occur \n    before the specified element"
+      "html": "Controls how content breaks onto a new page or column before this element.",
+      "text": "Controls how content breaks onto a new page or column before this element."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-before",
     "keyword": {
@@ -1248,8 +1248,8 @@
     "default": "auto",
     "status": "standard",
     "description": {
-      "html": "Specifies whether or not a page-, column-, or region-break should occur \n    inside the specified element",
-      "text": "Specifies whether or not a page-, column-, or region-break should occur \n    inside the specified element"
+      "html": "Controls how content breaks onto a new page or column inside of this element.",
+      "text": "Controls how content breaks onto a new page or column inside of this element."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
     "keyword": {
