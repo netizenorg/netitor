@@ -173,8 +173,8 @@
     "default": "none",
     "status": "standard",
     "description": {
-      "html": "Sets which <code>@keyframes</code> animation should run on this element — just use the name you defined in your <code>@keyframes</code> block.",
-      "text": "Sets which @keyframes animation should run on this element — just use the name you defined in your @keyframes block."
+      "html": "Sets which <code>@keyframes</code> animation should run on this element; just use the name you defined in your <code>@keyframes</code> block.",
+      "text": "Sets which @keyframes animation should run on this element; just use the name you defined in your @keyframes block."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/animation-name",
     "keyword": {
@@ -356,7 +356,7 @@
     "default": "border-box",
     "status": "standard",
     "description": {
-      "html": "Sets the clipping area for backgrounds so you can control whether they show through transparent borders or stay inside padding — try <code>border-box</code>, <code>padding-box</code>, or <code>content-box</code>.",
+      "html": "Sets the clipping area for backgrounds so you can control whether they show through transparent borders or stay inside padding; try <code>border-box</code>, <code>padding-box</code>, or <code>content-box</code>.",
       "text": "Sets the clipping area for backgrounds so you can control whether they show through transparent borders or stay inside padding."
     },
     "url": "https://developer.mozilla.org/docs/Web/CSS/background-clip",
@@ -517,8 +517,8 @@
       "text": "block-size"
     },
     "description": {
-      "html": "Controls the element's size in the direction text flows —  <code>height</code> for horizontal languages, <code>width</code> for vertical ones. You can stick with <code>height</code> and <code>width</code> unless you're building multilingual layouts.",
-      "text": "Controls the element's size in the direction text flows —  height for horizontal languages, width for vertical ones. You can stick with height and width unless you're building multilingual layouts."
+      "html": "Controls the element's size in the direction text flows; <code>height</code> for horizontal languages, <code>width</code> for vertical ones. You can stick with <code>height</code> and <code>width</code> unless you're building multilingual layouts.",
+      "text": "Controls the element's size in the direction text flows; height for horizontal languages, width for vertical ones. You can stick with height and width unless you're building multilingual layouts."
     }
   },
   "border": {
