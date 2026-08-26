@@ -70,6 +70,7 @@ class Netitor {
 
     this.themes = THEMES
     this._highlights = [] // highlighted lines
+    this._spotlightMarks = [] // sub-line range markers from spotlight()
     this._root = null // path to prepend to all src/href attr
 
     // for scrollTo debounce logic
@@ -336,8 +337,21 @@ class Netitor {
   }
 
   spotlight (lines, transition) {
-    if (typeof lines === 'number') lines = [lines]
-    const t = transition || 'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'
+    this._spotlightMarks.forEach(m => m.clear())
+    this._spotlightMarks = []
+
+    if (typeof lines === 'number' || (lines && typeof lines === 'object' && !Array.isArray(lines))) lines = [lines]
+    else if (typeof lines === 'string') lines = null // treat any string (e.g. 'clear') as a reset
+    const trans = transition || 'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'
+
+    // separate plain line numbers from optional sub-line range objects
+    // { line, startCol, endCol } — objects spotlight a range within a line
+    const lineNums = lines instanceof Array
+      ? lines.map(l => typeof l === 'object' ? l.line : l)
+      : null
+    const subRanges = lines instanceof Array
+      ? lines.filter(l => typeof l === 'object' && l.line != null)
+      : []
 
     const execSpotlight = () => {
       const codeLines = [...this.ele.querySelectorAll('.CodeMirror-code > div')]
@@ -349,24 +363,47 @@ class Netitor {
       for (const num in dict) {
         const d = dict[num] // code line element
         const n = Number(num) // gutter number
-        d.style.transition = t
-        if (lines instanceof Array) { // line numbers to spotlight...
-          if (lines.includes(n)) setTimeout(() => { d.style.opacity = 1 })
+        d.style.transition = trans
+        if (lineNums instanceof Array) { // line numbers to spotlight...
+          if (lineNums.includes(n)) setTimeout(() => { d.style.opacity = 1 })
           else setTimeout(() => { d.style.opacity = 0.25 })
         } else setTimeout(() => { d.style.opacity = 1 }) // nothing to spotlight
       }
 
-      if (lines instanceof Array && lines.length > 0) {
+      // for sub-line ranges: the line element is at full opacity (lineNums includes it),
+      // so we dim the portions of the line OUTSIDE the range via markText spans
+      for (const r of subRanges) {
+        const lineLen = (this.cm.getLine(r.line - 1) || '').length
+        const startCh = r.startCol || 0
+        const endCh = r.endCol != null ? r.endCol : lineLen
+        const dimCss = 'opacity: 0.25'
+        if (startCh > 0) {
+          this._spotlightMarks.push(this.cm.markText(
+            { line: r.line - 1, ch: 0 },
+            { line: r.line - 1, ch: startCh },
+            { css: dimCss }
+          ))
+        }
+        if (endCh < lineLen) {
+          this._spotlightMarks.push(this.cm.markText(
+            { line: r.line - 1, ch: endCh },
+            { line: r.line - 1, ch: lineLen },
+            { css: dimCss }
+          ))
+        }
+      }
+
+      if (lineNums instanceof Array && lineNums.length > 0) {
         this._spotlighting = true
       } else this._spotlighting = false
     }
 
     if (lines) {
-      const t = Math.min(...lines)
-      const b = Math.max(...lines)
+      const top = Math.min(...lineNums)
+      const bot = Math.max(...lineNums)
       const range = this.getVisibleRange()
-      if (t >= range.bottom || b >= range.bottom || t <= range.top) {
-        this.scrollTo(t - 2, () => {
+      if (top >= range.bottom || bot >= range.bottom || top <= range.top) {
+        this.scrollTo(top - 2, () => {
           setTimeout(() => execSpotlight(), 600)
         })
       } else execSpotlight()

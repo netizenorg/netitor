@@ -157,7 +157,14 @@ ne.tidy()
 ```js
 ne.scrollTo(line, callback)
 ne.marker(line, color, cb)
+
+// spotlight entire lines
 ne.spotlight(lines, transition)
+// or spotlight a specific character range within a line
+ne.spotlight({ line: 5, startCol: 3, endCol: 15 })
+// or mix whole lines and sub-line ranges
+ne.spotlight([3, { line: 5, startCol: 3, endCol: 15 }, 7])
+
 ne.highlight(line, color)
 // or...
 ne.highlight({
@@ -177,9 +184,12 @@ ne.highlight({
 
 **clearMarkers([colorFilter])**: this method will remove all the markers (similar to `ne.marker(null)` or `ne.marker()`) except that it can take an optional array of color filters. When passed an array of colors it will only clear the markers whose colors match those included in the array.
 
-**spotlight(lineNumbers, transition)**: this method will spotlight a line (or lines if passed an array of line numbers) of code in the editor. This means all other lines will fade their opacity while the spotlighted lines remain visible. You can change the transition of the spotlighting speed and ease by passing an optional transition string, the default is `'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'`. To remove a spotlight run `ne.spotlight(null)` or `ne.spotlight()`.
-
 **highlight(lineNumber, color)**: this method will highlight a line of code in the editor. It requires a number as it's first argument (the line you want to highlight) with a CSS color string as an optional second argument (the default color is a translucent red), for example `ne.highlight(3, 'green')` will highlight the third line in the netitor with the color green. Alternatively, you can pass an options argument (as seen above). To remove all the highlights run `ne.highlight(null)` or `ne.highlight()` with no arguments.
+
+**spotlight(lines, transition)**: this method will spotlight a line (or lines if passed an array) of code in the editor, all other lines will fade their opacity while the spotlighted lines remain visible. You can change the transition speed and easing by passing an optional transition string (default is `'opacity 500ms cubic-bezier(0.165, 0.84, 0.44, 1)'`). To remove a spotlight call `ne.spotlight(null)` or `ne.spotlight()`.
+
+In addition to plain line numbers, you can spotlight a specific character range *within* a line by passing an object with `{ line, startCol, endCol }`. In this case the characters outside the range on that line are faded, so only the specified range appears fully lit. You can mix whole-line numbers and range objects freely in the same array.
+
 
 <br><br>
 
