@@ -201471,8 +201471,8 @@ class Netitor {
         } else setTimeout(() => { d.style.opacity = 1 }) // nothing to spotlight
       }
 
-      // for sub-line ranges: the line element is at full opacity (lineNums includes it),
-      // so we dim the portions of the line OUTSIDE the range via markText spans
+      // for sub-line ranges
+      // dim the portions of the line OUTSIDE the range via markText spans
       for (const r of subRanges) {
         const lineLen = (this.cm.getLine(r.line - 1) || '').length
         const startCh = r.startCol || 0
