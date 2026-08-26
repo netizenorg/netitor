@@ -201387,8 +201387,7 @@ class Netitor {
   scrollTo (lineNumber, callback) {
     clearTimeout(this._scrollTimer)
     this._scrollCompleteCallback = callback
-    this.cm.setCursor({ line: lineNumber, ch: 0 })
-    const coords = this.cm.cursorCoords(true, 'local')
+    const coords = this.cm.charCoords({ line: lineNumber, ch: 0 }, 'local')
     this.cm.getScrollerElement().scrollTo({
       top: coords.top,
       behavior: 'smooth'
