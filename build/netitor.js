@@ -156131,6 +156131,172 @@ module.exports={
 }
 
 },{}],140:[function(require,module,exports){
+// merges nn's docs with the docs for nn extensions (netnet-machine-learning)
+const docs = [
+  require('./nn-netitor-docs.json'),
+  require('./nn-ml-netitor-docs.json')
+]
+const merged = {}
+for (const d of docs) {
+  for (const ns in d) merged[ns] = { ...merged[ns], ...d[ns] }
+}
+module.exports = merged
+
+},{"./nn-ml-netitor-docs.json":141,"./nn-netitor-docs.json":142}],141:[function(require,module,exports){
+module.exports={
+  "nn": {
+    "hands": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/hands.md",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/hands.md\" target=\"_blank\">hands</a>",
+        "text": "hands"
+      },
+      "description": {
+        "html": "This method loads a machine learning model that finds hands in a video, giving you the position of 21 points on each hand (fingertips, knuckles and wrist). The model runs in your browser, so your video is never sent anywhere. This method comes from the <a href=\"https://github.com/netizenorg/netnet-machine-learning\" target=\"_blank\">netnet-machine-learning</a> extension, so it only works if you load its script after nn's.",
+        "text": "This method loads a machine learning model that finds hands in a video, giving you the position of 21 points on each hand (fingertips, knuckles and wrist). The model runs in your browser, so your video is never sent anywhere. This method comes from the netnet-machine-learning extension, so it only works if you load its script after nn's."
+      }
+    },
+    "face": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/face.md",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/face.md\" target=\"_blank\">face</a>",
+        "text": "face"
+      },
+      "description": {
+        "html": "This method loads a machine learning model that finds faces in a video, giving you the position of 478 points on each face, and optionally scores for its expression (like a smile or an open mouth). The model runs in your browser, so your video is never sent anywhere. This method comes from the <a href=\"https://github.com/netizenorg/netnet-machine-learning\" target=\"_blank\">netnet-machine-learning</a> extension, so it only works if you load its script after nn's.",
+        "text": "This method loads a machine learning model that finds faces in a video, giving you the position of 478 points on each face, and optionally scores for its expression (like a smile or an open mouth). The model runs in your browser, so your video is never sent anywhere. This method comes from the netnet-machine-learning extension, so it only works if you load its script after nn's."
+      }
+    },
+    "pose": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/pose.md",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/pose.md\" target=\"_blank\">pose</a>",
+        "text": "pose"
+      },
+      "description": {
+        "html": "This method loads a machine learning model that finds a body in a video, giving you the position of 33 points from face to feet. The model runs in your browser, so your video is never sent anywhere. This method comes from the <a href=\"https://github.com/netizenorg/netnet-machine-learning\" target=\"_blank\">netnet-machine-learning</a> extension, so it only works if you load its script after nn's.",
+        "text": "This method loads a machine learning model that finds a body in a video, giving you the position of 33 points from face to feet. The model runs in your browser, so your video is never sent anywhere. This method comes from the netnet-machine-learning extension, so it only works if you load its script after nn's."
+      }
+    },
+    "prompt": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md\" target=\"_blank\">prompt</a>",
+        "text": "prompt"
+      },
+      "description": {
+        "html": "This method sends a message to a large language model (LLM) and gives you its reply. The model can run locally on your own computer (with Ollama or another local provider), or in the cloud (with Gemini, Anthropic or OpenAI, using your own API key). This method comes from the <a href=\"https://github.com/netizenorg/netnet-machine-learning\" target=\"_blank\">netnet-machine-learning</a> extension, so it only works if you load its script after nn's.",
+        "text": "This method sends a message to a large language model (LLM) and gives you its reply. The model can run locally on your own computer (with Ollama or another local provider), or in the cloud (with Gemini, Anthropic or OpenAI, using your own API key). This method comes from the netnet-machine-learning extension, so it only works if you load its script after nn's."
+      }
+    }
+  },
+  "nnTracker": {
+    "detect": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/hands.md#how-it-works",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/hands.md#how-it-works\" target=\"_blank\">detect</a>",
+        "text": "detect"
+      },
+      "description": {
+        "html": "This method runs the model on the current frame of a video and returns what it found (hands, faces or bodies), each as a list of points on the page. Call it every frame, inside your animation loop.",
+        "text": "This method runs the model on the current frame of a video and returns what it found (hands, faces or bodies), each as a list of points on the page. Call it every frame, inside your animation loop."
+      }
+    },
+    "results": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/hands.md#going-further",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/hands.md#going-further\" target=\"_blank\">results</a>",
+        "text": "results"
+      },
+      "description": {
+        "html": "The full, raw output from the model you loaded with <code>nn.hands()</code>, <code>nn.face()</code> or <code>nn.pose()</code>, for the latest frame it looked at. It includes extras that detect() leaves out, like how confident the model is about what it found.",
+        "text": "The full, raw output from the model you loaded with nn.hands(), nn.face() or nn.pose(), for the latest frame it looked at. It includes extras that detect() leaves out, like how confident the model is about what it found."
+      }
+    },
+    "raw": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/hands.md#going-further",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/hands.md#going-further\" target=\"_blank\">raw</a>",
+        "text": "raw"
+      },
+      "description": {
+        "html": "The object from MediaPipe (Google's library that runs the model) behind the tracker you loaded with <code>nn.hands()</code>, <code>nn.face()</code> or <code>nn.pose()</code>. It's there for advanced uses this extension doesn't cover.",
+        "text": "The object from MediaPipe (Google's library that runs the model) behind the tracker you loaded with nn.hands(), nn.face() or nn.pose(). It's there for advanced uses this extension doesn't cover."
+      }
+    }
+  },
+  "nnPromptReply": {
+    "text": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#what-you-get-back",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#what-you-get-back\" target=\"_blank\">text</a>",
+        "text": "text"
+      },
+      "description": {
+        "html": "The text portion of the reply which came from the model you prompted with <code>nn.prompt()</code>.",
+        "text": "The text portion of the reply which came from the model you prompted with nn.prompt()."
+      }
+    },
+    "data": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#json-replies-schemas",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#json-replies-schemas\" target=\"_blank\">data</a>",
+        "text": "data"
+      },
+      "description": {
+        "html": "The reply from the model you prompted with <code>nn.prompt()</code>, as data (an object or array) rather than text. This is only there if you asked for a reply in a specific format, using a schema.",
+        "text": "The reply from the model you prompted with nn.prompt(), as data (an object or array) rather than text. This is only there if you asked for a reply in a specific format, using a schema."
+      }
+    },
+    "request": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#what-you-get-back",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#what-you-get-back\" target=\"_blank\">request</a>",
+        "text": "request"
+      },
+      "description": {
+        "html": "Exactly what <code>nn.prompt()</code> sent to the model's server, with your API key hidden. Log it to the console to see what's really being sent behind the scenes.",
+        "text": "Exactly what nn.prompt() sent to the model's server, with your API key hidden. Log it to the console to see what's really being sent behind the scenes."
+      }
+    },
+    "raw": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#what-you-get-back",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#what-you-get-back\" target=\"_blank\">raw</a>",
+        "text": "raw"
+      },
+      "description": {
+        "html": "The full, unedited response from the server of the model you prompted with <code>nn.prompt()</code>, before the text was picked out of it. Log it to the console to see everything that came back.",
+        "text": "The full, unedited response from the server of the model you prompted with nn.prompt(), before the text was picked out of it. Log it to the console to see everything that came back."
+      }
+    },
+    "status": {
+      "status": "standard",
+      "url": "https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#what-you-get-back",
+      "keyword": {
+        "html": "<a href=\"https://github.com/netizenorg/netnet-machine-learning/blob/main/docs/prompt.md#what-you-get-back\" target=\"_blank\">status</a>",
+        "text": "status"
+      },
+      "description": {
+        "html": "The HTTP status code the model's server sent back when you used <code>nn.prompt()</code>: a number that says how the request went. 200 means everything went OK.",
+        "text": "The HTTP status code the model's server sent back when you used nn.prompt(): a number that says how the request went. 200 means everything went OK."
+      }
+    }
+  }
+}
+
+},{}],142:[function(require,module,exports){
 module.exports={
   "nn": {
     "on": {
@@ -158811,7 +158977,7 @@ module.exports={
   }
 }
 
-},{}],141:[function(require,module,exports){
+},{}],143:[function(require,module,exports){
 module.exports={
   "role": {
     "keyword": {
@@ -162884,7 +163050,7 @@ module.exports={
   }
 }
 
-},{}],142:[function(require,module,exports){
+},{}],144:[function(require,module,exports){
 module.exports={
   "html": {
     "keyword": {
@@ -168232,7 +168398,7 @@ module.exports={
   }
 }
 
-},{}],143:[function(require,module,exports){
+},{}],145:[function(require,module,exports){
 module.exports={
   "accent-height": {
     "keyword": {
@@ -172091,7 +172257,7 @@ module.exports={
     }
   }
 }
-},{}],144:[function(require,module,exports){
+},{}],146:[function(require,module,exports){
 module.exports={
   "a": {
     "keyword": {
@@ -178356,7 +178522,7 @@ module.exports={
     ]
   }
 }
-},{}],145:[function(require,module,exports){
+},{}],147:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const htmlData = require('./modules/htmlData.js')
 const cssData = require('./modules/cssData.js')
@@ -178386,7 +178552,7 @@ function eduData (cm) {
 
 module.exports = eduData
 
-},{"./modules/cssData.js":167,"./modules/htmlData.js":168,"./modules/jsData.js":169,"codemirror":19}],146:[function(require,module,exports){
+},{"./modules/cssData.js":169,"./modules/htmlData.js":170,"./modules/jsData.js":171,"codemirror":19}],148:[function(require,module,exports){
 module.exports={
   "length": {
     "status": "standard",
@@ -178749,7 +178915,7 @@ module.exports={
     }
   }
 }
-},{}],147:[function(require,module,exports){
+},{}],149:[function(require,module,exports){
 module.exports={
   "isContextLost": {
     "status": "experimental",
@@ -179628,7 +179794,7 @@ module.exports={
     }
   }
 }
-},{}],148:[function(require,module,exports){
+},{}],150:[function(require,module,exports){
 module.exports={
   "now": {
     "status": "standard",
@@ -180231,7 +180397,7 @@ module.exports={
     }
   }
 }
-},{}],149:[function(require,module,exports){
+},{}],151:[function(require,module,exports){
 module.exports={
   "anchors": {
     "status": "standard",
@@ -181867,7 +182033,7 @@ module.exports={
   }
 }
 
-},{}],150:[function(require,module,exports){
+},{}],152:[function(require,module,exports){
 module.exports={
   "height": {
     "status": "standard",
@@ -181978,7 +182144,7 @@ module.exports={
     }
   }
 }
-},{}],151:[function(require,module,exports){
+},{}],153:[function(require,module,exports){
 module.exports={
   "assignedSlot": {
     "status": "standard",
@@ -183494,7 +183660,7 @@ module.exports={
   }
 }
 
-},{}],152:[function(require,module,exports){
+},{}],154:[function(require,module,exports){
 module.exports={
   "EventTarget": {
     "status": "standard",
@@ -183545,7 +183711,7 @@ module.exports={
     }
   }
 }
-},{}],153:[function(require,module,exports){
+},{}],155:[function(require,module,exports){
 module.exports={
   "audioTracks": {
     "status": "standard",
@@ -184160,7 +184326,7 @@ module.exports={
     }
   }
 }
-},{}],154:[function(require,module,exports){
+},{}],156:[function(require,module,exports){
 module.exports={
   "baseURI": {
     "status": "standard",
@@ -184511,7 +184677,7 @@ module.exports={
     }
   }
 }
-},{}],155:[function(require,module,exports){
+},{}],157:[function(require,module,exports){
 module.exports={
   "abort": [
     {
@@ -189424,7 +189590,7 @@ module.exports={
   ]
 }
 
-},{}],156:[function(require,module,exports){
+},{}],158:[function(require,module,exports){
 module.exports={
   "length": {
     "status": "standard",
@@ -189523,7 +189689,7 @@ module.exports={
     }
   }
 }
-},{}],157:[function(require,module,exports){
+},{}],159:[function(require,module,exports){
 module.exports={
   "accessKey": {
     "status": "standard",
@@ -189922,7 +190088,7 @@ module.exports={
     }
   }
 }
-},{}],158:[function(require,module,exports){
+},{}],160:[function(require,module,exports){
 module.exports={
   "ancestorOrigins": {
     "status": "standard",
@@ -190093,7 +190259,7 @@ module.exports={
     }
   }
 }
-},{}],159:[function(require,module,exports){
+},{}],161:[function(require,module,exports){
 module.exports={
   "E": {
     "status": "standard",
@@ -190612,7 +190778,7 @@ module.exports={
     }
   }
 }
-},{}],160:[function(require,module,exports){
+},{}],162:[function(require,module,exports){
 module.exports={
   "activeVRDisplays": {
     "status": "experimental",
@@ -191311,7 +191477,7 @@ module.exports={
     }
   }
 }
-},{}],161:[function(require,module,exports){
+},{}],163:[function(require,module,exports){
 module.exports={
   "Number": {
     "status": "standard",
@@ -191578,7 +191744,7 @@ module.exports={
     }
   }
 }
-},{}],162:[function(require,module,exports){
+},{}],164:[function(require,module,exports){
 module.exports={
   "Infinity": {
     "status": "standard",
@@ -193501,7 +193667,7 @@ module.exports={
     }
   }
 }
-},{}],163:[function(require,module,exports){
+},{}],165:[function(require,module,exports){
 module.exports={
   "String": {
     "status": "standard",
@@ -194116,7 +194282,7 @@ module.exports={
     }
   }
 }
-},{}],164:[function(require,module,exports){
+},{}],166:[function(require,module,exports){
 module.exports={
   "[": {
     "keyword": {
@@ -194156,7 +194322,7 @@ module.exports={
   }
 }
 
-},{}],165:[function(require,module,exports){
+},{}],167:[function(require,module,exports){
 module.exports={
   "print": {
     "url": "https://developer.mozilla.org/en-US/docs/Web/API/Window/print",
@@ -196656,7 +196822,7 @@ module.exports={
     }
   }
 }
-},{}],166:[function(require,module,exports){
+},{}],168:[function(require,module,exports){
 const pseudoEles = require('../css/pseudo-elements.json')
 const pseudoClasses = require('../css/pseudo-classes.json')
 const CssSelectorParser = require('css-selector-parser').CssSelectorParser
@@ -196855,7 +197021,7 @@ function checkSelector (o, cm) {
 
 module.exports = checkSelector
 
-},{"../css/pseudo-classes.json":137,"../css/pseudo-elements.json":138,"css-selector-parser":26}],167:[function(require,module,exports){
+},{"../css/pseudo-classes.json":137,"../css/pseudo-elements.json":138,"css-selector-parser":26}],169:[function(require,module,exports){
 const cssProps = require('../css/properties.json')
 const pseudoEles = require('../css/pseudo-elements.json')
 const pseudoClasses = require('../css/pseudo-classes.json')
@@ -197045,7 +197211,7 @@ function cssData (o, state, cm) {
 
 module.exports = cssData
 
-},{"../css/at-rules.json":131,"../css/colors.json":132,"../css/data-types.json":133,"../css/display.json":134,"../css/functions.json":135,"../css/properties.json":136,"../css/pseudo-classes.json":137,"../css/pseudo-elements.json":138,"../css/units.json":139,"./css-read-selector.js":166}],168:[function(require,module,exports){
+},{"../css/at-rules.json":131,"../css/colors.json":132,"../css/data-types.json":133,"../css/display.json":134,"../css/functions.json":135,"../css/properties.json":136,"../css/pseudo-classes.json":137,"../css/pseudo-elements.json":138,"../css/units.json":139,"./css-read-selector.js":168}],170:[function(require,module,exports){
 const htmlAttr = require('../html/attributes.json')
 const htmlEles = require('../html/elements.json')
 const svgEles = require('../html/svg-elements.json')
@@ -197106,7 +197272,7 @@ function htmlData (o, i, cm) {
 
 module.exports = htmlData
 
-},{"../html/attributes.json":141,"../html/elements.json":142,"../html/svg-attributes.json":143,"../html/svg-elements.json":144,"./parse-css.js":170}],169:[function(require,module,exports){
+},{"../html/attributes.json":143,"../html/elements.json":144,"../html/svg-attributes.json":145,"../html/svg-elements.json":146,"./parse-css.js":172}],171:[function(require,module,exports){
 const jsSyntax = require('../js/syntax.json')
 const jsRefs = require('../js/refs.json')
 const jsWindow = require('../js/window.json')
@@ -197127,7 +197293,7 @@ const jsHTML = require('../js/html-element.json')
 const jsMedia = require('../js/dom-media.json')
 const jsTarg = require('../js/dom-event-target.json')
 const jsArr = require('../js/arrays.json')
-const nnDocs = require('../custom/nn-netitor-docs.json')
+const nnDocs = require('../custom/nn-docs.js')
 const htmlAttrs = require('../html/attributes.json')
 const cssProps = require('../css/properties.json')
 
@@ -197499,6 +197665,8 @@ function evaluateNNType (rootLine, cm) {
   }
   if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
   if (lower.includes('nn.hyper(')) return 'nnHyper'
+  if (/nn\.(hands|face|pose)\(/.test(lower)) return 'nnTracker'
+  if (lower.includes('nn.prompt(')) return 'nnPromptReply'
   // variable reference — look up its assignment one level deep
   const varMatch = rootLine.match(/\b([a-zA-Z_$][a-zA-Z0-9_$]*)\./)
   if (varMatch) {
@@ -197522,6 +197690,8 @@ function evaluateNNType (rootLine, cm) {
         }
         if (ll.includes('nn.filtervideo(')) return 'nnFilterVideo'
         if (ll.includes('nn.hyper(')) return 'nnHyper'
+        if (/nn\.(hands|face|pose)\(/.test(ll)) return 'nnTracker'
+        if (ll.includes('nn.prompt(')) return 'nnPromptReply'
       }
     }
   }
@@ -197603,7 +197773,7 @@ function jsData (o, cm) {
 
 module.exports = jsData
 
-},{"../css/properties.json":136,"../custom/nn-netitor-docs.json":140,"../html/attributes.json":141,"../js/arrays.json":146,"../js/canvas2d.json":147,"../js/date.json":148,"../js/document.json":149,"../js/dom-canvas.json":150,"../js/dom-element.json":151,"../js/dom-event-target.json":152,"../js/dom-media.json":153,"../js/dom-node.json":154,"../js/events.json":155,"../js/history.json":156,"../js/html-element.json":157,"../js/location.json":158,"../js/math.json":159,"../js/navigator.json":160,"../js/number.json":161,"../js/refs.json":162,"../js/string.json":163,"../js/syntax.json":164,"../js/window.json":165}],170:[function(require,module,exports){
+},{"../css/properties.json":136,"../custom/nn-docs.js":140,"../html/attributes.json":143,"../js/arrays.json":148,"../js/canvas2d.json":149,"../js/date.json":150,"../js/document.json":151,"../js/dom-canvas.json":152,"../js/dom-element.json":153,"../js/dom-event-target.json":154,"../js/dom-media.json":155,"../js/dom-node.json":156,"../js/events.json":157,"../js/history.json":158,"../js/html-element.json":159,"../js/location.json":160,"../js/math.json":161,"../js/navigator.json":162,"../js/number.json":163,"../js/refs.json":164,"../js/string.json":165,"../js/syntax.json":166,"../js/window.json":167}],172:[function(require,module,exports){
 const cssProps = require('../css/properties.json')
 
 function parseCSS (string) {
@@ -197723,7 +197893,7 @@ function parseStyleAttr (data, i, cm) {
 
 module.exports = { parseStyleAttr }
 
-},{"../css/properties.json":136}],171:[function(require,module,exports){
+},{"../css/properties.json":136}],173:[function(require,module,exports){
 const CodeMirror = require('codemirror')
 const cssProps = require('../edu-data/css/properties.json')
 const pseudoEles = require('../edu-data/css/pseudo-elements.json')
@@ -197868,7 +198038,7 @@ function cssHinter (token, cm) {
 
 module.exports = cssHinter
 
-},{"../edu-data/css/at-rules.json":131,"../edu-data/css/colors.json":132,"../edu-data/css/properties.json":136,"../edu-data/css/pseudo-classes.json":137,"../edu-data/css/pseudo-elements.json":138,"../edu-data/html/elements.json":142,"./customSnippets.js":172,"codemirror":19}],172:[function(require,module,exports){
+},{"../edu-data/css/at-rules.json":131,"../edu-data/css/colors.json":132,"../edu-data/css/properties.json":136,"../edu-data/css/pseudo-classes.json":137,"../edu-data/css/pseudo-elements.json":138,"../edu-data/html/elements.json":144,"./customSnippets.js":174,"codemirror":19}],174:[function(require,module,exports){
 const hint = (cm, self, data) => {
   // custom hint function for snippets
   // so that it "smart indents" multi-line content
@@ -198583,7 +198753,7 @@ classIdSnippets.forEach(snip => {
 
 module.exports = { hint, snippets, list }
 
-},{}],173:[function(require,module,exports){
+},{}],175:[function(require,module,exports){
 const htmlAttr = require('../edu-data/html/attributes.json')
 const svgAttr = require('../edu-data/html/svg-attributes.json')
 const htmlEles = require('../edu-data/html/elements.json')
@@ -198661,7 +198831,7 @@ function htmlHinter (token, cm) {
 
 module.exports = htmlHinter
 
-},{"../edu-data/html/attributes.json":141,"../edu-data/html/elements.json":142,"../edu-data/html/svg-attributes.json":143,"../edu-data/html/svg-elements.json":144,"./customSnippets.js":172}],174:[function(require,module,exports){
+},{"../edu-data/html/attributes.json":143,"../edu-data/html/elements.json":144,"../edu-data/html/svg-attributes.json":145,"../edu-data/html/svg-elements.json":146,"./customSnippets.js":174}],176:[function(require,module,exports){
 const htmlHinter = require('./htmlHinter.js')
 const cssHinter = require('./cssHinter.js')
 const jsHinter = require('./jsHinter.js')
@@ -198723,11 +198893,11 @@ function main (cm, options) {
 
 module.exports = main
 
-},{"./cssHinter.js":171,"./htmlHinter.js":173,"./jsHinter.js":175}],175:[function(require,module,exports){
+},{"./cssHinter.js":173,"./htmlHinter.js":175,"./jsHinter.js":177}],177:[function(require,module,exports){
 /* eslint-disable no-new-func */
 const jsRefs = require('../edu-data/js/refs.json')
 const jsEvents = require('../edu-data/js/events.json')
-const nnDocs = require('../edu-data/custom/nn-netitor-docs.json')
+const nnDocs = require('../edu-data/custom/nn-docs.js')
 const snippets = require('./customSnippets.js')
 
 const roots = {
@@ -198755,7 +198925,9 @@ const instances = {
   nnCanvas: nnDocs.nnCanvas,
   nnSVG: nnDocs.nnSVG,
   nnFilterVideo: nnDocs.nnFilterVideo,
-  nnHyper: nnDocs.nnHyper
+  nnHyper: nnDocs.nnHyper,
+  nnTracker: nnDocs.nnTracker,
+  nnPromptReply: nnDocs.nnPromptReply
 }
 
 // CSS properties for HTMLElement.style object
@@ -198802,6 +198974,8 @@ function evaluate (lines, root) {
     }
     if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
     if (lower.includes('nn.hyper(')) return 'nnHyper'
+    if (/nn\.(hands|face|pose)\(/.test(lower)) return 'nnTracker'
+    if (lower.includes('nn.prompt(')) return 'nnPromptReply'
   } catch (e) { /* ignore */ }
 
   try {
@@ -198904,6 +199078,8 @@ function evaluateChainRoot (rootLine, cm) {
   }
   if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
   if (lower.includes('nn.hyper(')) return 'nnHyper'
+  if (/nn\.(hands|face|pose)\(/.test(lower)) return 'nnTracker'
+  if (lower.includes('nn.prompt(')) return 'nnPromptReply'
   // variable reference — reuse existing evaluate() with its assignment-line lookup
   const varMatch = rootLine.match(/\b([a-zA-Z_$][a-zA-Z0-9_$]*)\./)
   if (varMatch) {
@@ -199040,7 +199216,7 @@ function jsHinter (token, cm, pos) {
 
 module.exports = jsHinter
 
-},{"../edu-data/css/properties.json":136,"../edu-data/custom/nn-netitor-docs.json":140,"../edu-data/js/arrays.json":146,"../edu-data/js/canvas2d.json":147,"../edu-data/js/date.json":148,"../edu-data/js/document.json":149,"../edu-data/js/dom-canvas.json":150,"../edu-data/js/dom-element.json":151,"../edu-data/js/dom-event-target.json":152,"../edu-data/js/dom-media.json":153,"../edu-data/js/dom-node.json":154,"../edu-data/js/events.json":155,"../edu-data/js/history.json":156,"../edu-data/js/html-element.json":157,"../edu-data/js/location.json":158,"../edu-data/js/math.json":159,"../edu-data/js/navigator.json":160,"../edu-data/js/number.json":161,"../edu-data/js/refs.json":162,"../edu-data/js/string.json":163,"../edu-data/js/window.json":165,"./customSnippets.js":172}],176:[function(require,module,exports){
+},{"../edu-data/css/properties.json":136,"../edu-data/custom/nn-docs.js":140,"../edu-data/js/arrays.json":148,"../edu-data/js/canvas2d.json":149,"../edu-data/js/date.json":150,"../edu-data/js/document.json":151,"../edu-data/js/dom-canvas.json":152,"../edu-data/js/dom-element.json":153,"../edu-data/js/dom-event-target.json":154,"../edu-data/js/dom-media.json":155,"../edu-data/js/dom-node.json":156,"../edu-data/js/events.json":157,"../edu-data/js/history.json":158,"../edu-data/js/html-element.json":159,"../edu-data/js/location.json":160,"../edu-data/js/math.json":161,"../edu-data/js/navigator.json":162,"../edu-data/js/number.json":163,"../edu-data/js/refs.json":164,"../edu-data/js/string.json":165,"../edu-data/js/window.json":167,"./customSnippets.js":174}],178:[function(require,module,exports){
 const htmlEles = require('../edu-data/html/elements.json')
 const cssProps = require('../edu-data/css/properties.json')
 const stringSimilarity = require('string-similarity')
@@ -199284,7 +199460,7 @@ function translate (err) {
 
 module.exports = translate
 
-},{"../edu-data/css/properties.json":136,"../edu-data/html/elements.json":142,"./css-prop-synonyms.json":177,"string-similarity":118}],177:[function(require,module,exports){
+},{"../edu-data/css/properties.json":136,"../edu-data/html/elements.json":144,"./css-prop-synonyms.json":179,"string-similarity":118}],179:[function(require,module,exports){
 module.exports={
   "typeface":           { "prop": "font-family",      "hint": "setting the typeface" },
   "font-face":          { "prop": "font-family",      "hint": "setting the typeface" },
@@ -199324,7 +199500,7 @@ module.exports={
   "leading":            { "prop": "line-height",      "hint": "setting the vertical space between lines of text" }
 }
 
-},{}],178:[function(require,module,exports){
+},{}],180:[function(require,module,exports){
 /*
   NOTE:
   though i had used CSSLint (https://www.npmjs.com/package/csslint)
@@ -199476,7 +199652,7 @@ async function linter (code) {
 
 module.exports = linter
 
-},{"../edu-data/css/properties.json":136,"../edu-data/html/elements.json":142,"./css-friendly-translator.js":176,"css-selector-parser":26,"stylelint-browser-bundle":119}],179:[function(require,module,exports){
+},{"../edu-data/css/properties.json":136,"../edu-data/html/elements.json":144,"./css-friendly-translator.js":178,"css-selector-parser":26,"stylelint-browser-bundle":119}],181:[function(require,module,exports){
 module.exports={
   "file":      { "attr": "src",   "hint": "for specifying the path to an image, video, audio, script, or other file" },
   "source":    { "attr": "src",   "hint": "for specifying the path to an image, video, audio, script, or other file" },
@@ -199495,7 +199671,7 @@ module.exports={
   "tooltip":   { "attr": "title", "hint": "for providing extra information about an element, usually shown as a tooltip on hover" }
 }
 
-},{}],180:[function(require,module,exports){
+},{}],182:[function(require,module,exports){
 module.exports={
   "container":   { "ele": "div",      "hint": "a generic block-level container for grouping and styling content" },
   "wrapper":     { "ele": "div",      "hint": "a generic block-level container for grouping and styling content" },
@@ -199526,7 +199702,7 @@ module.exports={
   "player":{ "ele": "video",    "hint": "embedding a video (or audio for embedding audio)" }
 }
 
-},{}],181:[function(require,module,exports){
+},{}],183:[function(require,module,exports){
 const htmlEles = require('../edu-data/html/elements.json')
 // const svgEles = require('../edu-data/html/svg-elements.json')
 const singletons = Object.keys(htmlEles).filter(e => htmlEles[e].singleton)
@@ -199804,7 +199980,7 @@ const translate = {
 
 module.exports = translate
 
-},{"../edu-data/html/elements.json":142,"./html-standards-validator.js":182}],182:[function(require,module,exports){
+},{"../edu-data/html/elements.json":144,"./html-standards-validator.js":184}],184:[function(require,module,exports){
 const htmlEles = require('../edu-data/html/elements.json')
 const svgEles = require('../edu-data/html/svg-elements.json')
 const htmlAttr = require('../edu-data/html/attributes.json')
@@ -200158,7 +200334,7 @@ class HTMLStandards {
 
 module.exports = HTMLStandards
 
-},{"../edu-data/html/attributes.json":141,"../edu-data/html/elements.json":142,"../edu-data/html/svg-attributes.json":143,"../edu-data/html/svg-elements.json":144,"./html-attr-synonyms.json":179,"./html-ele-synonyms.json":180,"string-similarity":118}],183:[function(require,module,exports){
+},{"../edu-data/html/attributes.json":143,"../edu-data/html/elements.json":144,"../edu-data/html/svg-attributes.json":145,"../edu-data/html/svg-elements.json":146,"./html-attr-synonyms.json":181,"./html-ele-synonyms.json":182,"string-similarity":118}],185:[function(require,module,exports){
 const HTMLTranslateError = require('./html-friendly-translator.js')
 const HTMLStandards = require('./html-standards-validator.js')
 const HTMLHint = require('htmlhint').HTMLHint
@@ -200275,7 +200451,7 @@ function linter (code, cm) {
 
 module.exports = linter
 
-},{"../edu-data/html/svg-attributes.json":143,"../edu-data/html/svg-elements.json":144,"./html-friendly-translator.js":181,"./html-standards-validator.js":182,"htmlhint":50}],184:[function(require,module,exports){
+},{"../edu-data/html/svg-attributes.json":145,"../edu-data/html/svg-elements.json":146,"./html-friendly-translator.js":183,"./html-standards-validator.js":184,"htmlhint":50}],186:[function(require,module,exports){
 const htmlLinter = require('./htmlLinter.js')
 const cssLinter = require('./cssLinter.js')
 const jsLinter = require('./jsLinter.js')
@@ -200373,7 +200549,7 @@ async function linter (cm) {
 
 module.exports = linter
 
-},{"./cssLinter.js":178,"./htmlLinter.js":183,"./jsLinter.js":187}],185:[function(require,module,exports){
+},{"./cssLinter.js":180,"./htmlLinter.js":185,"./jsLinter.js":189}],187:[function(require,module,exports){
 function reformatObj (obj, warning) {
   const err = { jshint: obj }
   err.col = obj.character
@@ -200847,7 +201023,7 @@ function translate (err) {
 
 module.exports = translate
 
-},{}],186:[function(require,module,exports){
+},{}],188:[function(require,module,exports){
 module.exports={
   "console": false,
   "close": false,
@@ -201066,7 +201242,7 @@ module.exports={
   "showCSSNFO": false
 }
 
-},{}],187:[function(require,module,exports){
+},{}],189:[function(require,module,exports){
 const JSHINT = require('jshint').JSHINT
 const globals = require('./js-globals.json')
 const JSTranslateError = require('./js-friendly-translator.js')
@@ -201098,7 +201274,7 @@ function linter (code) {
 
 module.exports = linter
 
-},{"./js-friendly-translator.js":185,"./js-globals.json":186,"jshint":81}],188:[function(require,module,exports){
+},{"./js-friendly-translator.js":187,"./js-globals.json":188,"jshint":81}],190:[function(require,module,exports){
 /* global HTMLElement */
 const pako = require('pako')
 const stringSimilarity = require('string-similarity')
@@ -202286,7 +202462,7 @@ class Netitor {
 
 window.Netitor = Netitor
 
-},{"./css/css.js":123,"./css/themes/index.js":125,"./edu-data/css/at-rules.json":131,"./edu-data/css/colors.json":132,"./edu-data/css/data-types.json":133,"./edu-data/css/functions.json":135,"./edu-data/css/properties.json":136,"./edu-data/css/pseudo-classes.json":137,"./edu-data/css/pseudo-elements.json":138,"./edu-data/css/units.json":139,"./edu-data/html/attributes.json":141,"./edu-data/html/elements.json":142,"./edu-data/html/svg-attributes.json":143,"./edu-data/html/svg-elements.json":144,"./edu-data/index.js":145,"./edu-data/js/arrays.json":146,"./edu-data/js/canvas2d.json":147,"./edu-data/js/date.json":148,"./edu-data/js/document.json":149,"./edu-data/js/dom-canvas.json":150,"./edu-data/js/dom-element.json":151,"./edu-data/js/dom-event-target.json":152,"./edu-data/js/dom-media.json":153,"./edu-data/js/dom-node.json":154,"./edu-data/js/events.json":155,"./edu-data/js/location.json":158,"./edu-data/js/math.json":159,"./edu-data/js/navigator.json":160,"./edu-data/js/number.json":161,"./edu-data/js/refs.json":162,"./edu-data/js/string.json":163,"./edu-data/js/window.json":165,"./hinters/index.js":174,"./linters/index.js":184,"./prependProxyURL.js":189,"codemirror":19,"codemirror/addon/comment/comment":6,"codemirror/addon/edit/closebrackets":7,"codemirror/addon/edit/closetag":8,"codemirror/addon/edit/matchbrackets":9,"codemirror/addon/edit/matchtags":10,"codemirror/addon/hint/css-hint":12,"codemirror/addon/hint/html-hint":13,"codemirror/addon/hint/javascript-hint":14,"codemirror/addon/hint/show-hint":15,"codemirror/addon/hint/xml-hint":16,"codemirror/addon/search/searchcursor":17,"codemirror/keymap/sublime":18,"codemirror/mode/htmlmixed/htmlmixed":21,"codemirror/mode/markdown/markdown":23,"js-beautify":52,"pako":99,"showdown":117,"string-similarity":118}],189:[function(require,module,exports){
+},{"./css/css.js":123,"./css/themes/index.js":125,"./edu-data/css/at-rules.json":131,"./edu-data/css/colors.json":132,"./edu-data/css/data-types.json":133,"./edu-data/css/functions.json":135,"./edu-data/css/properties.json":136,"./edu-data/css/pseudo-classes.json":137,"./edu-data/css/pseudo-elements.json":138,"./edu-data/css/units.json":139,"./edu-data/html/attributes.json":143,"./edu-data/html/elements.json":144,"./edu-data/html/svg-attributes.json":145,"./edu-data/html/svg-elements.json":146,"./edu-data/index.js":147,"./edu-data/js/arrays.json":148,"./edu-data/js/canvas2d.json":149,"./edu-data/js/date.json":150,"./edu-data/js/document.json":151,"./edu-data/js/dom-canvas.json":152,"./edu-data/js/dom-element.json":153,"./edu-data/js/dom-event-target.json":154,"./edu-data/js/dom-media.json":155,"./edu-data/js/dom-node.json":156,"./edu-data/js/events.json":157,"./edu-data/js/location.json":160,"./edu-data/js/math.json":161,"./edu-data/js/navigator.json":162,"./edu-data/js/number.json":163,"./edu-data/js/refs.json":164,"./edu-data/js/string.json":165,"./edu-data/js/window.json":167,"./hinters/index.js":176,"./linters/index.js":186,"./prependProxyURL.js":191,"codemirror":19,"codemirror/addon/comment/comment":6,"codemirror/addon/edit/closebrackets":7,"codemirror/addon/edit/closetag":8,"codemirror/addon/edit/matchbrackets":9,"codemirror/addon/edit/matchtags":10,"codemirror/addon/hint/css-hint":12,"codemirror/addon/hint/html-hint":13,"codemirror/addon/hint/javascript-hint":14,"codemirror/addon/hint/show-hint":15,"codemirror/addon/hint/xml-hint":16,"codemirror/addon/search/searchcursor":17,"codemirror/keymap/sublime":18,"codemirror/mode/htmlmixed/htmlmixed":21,"codemirror/mode/markdown/markdown":23,"js-beautify":52,"pako":99,"showdown":117,"string-similarity":118}],191:[function(require,module,exports){
 module.exports = (code, proxy) => {
   const jsRegex = /(?:<(script)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)/g
   const cssRegex = /(?:<(link)(?:\s+(?=((?:"[\S\s]*?"|'[\S\s]*?'|(?:(?!\/>)[^>])?)+))\2)?\s*>)/g
@@ -202331,4 +202507,4 @@ module.exports = (code, proxy) => {
   return code
 }
 
-},{}]},{},[188]);
+},{}]},{},[190]);

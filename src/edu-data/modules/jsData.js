@@ -18,7 +18,7 @@ const jsHTML = require('../js/html-element.json')
 const jsMedia = require('../js/dom-media.json')
 const jsTarg = require('../js/dom-event-target.json')
 const jsArr = require('../js/arrays.json')
-const nnDocs = require('../custom/nn-netitor-docs.json')
+const nnDocs = require('../custom/nn-docs.js')
 const htmlAttrs = require('../html/attributes.json')
 const cssProps = require('../css/properties.json')
 
@@ -390,6 +390,8 @@ function evaluateNNType (rootLine, cm) {
   }
   if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
   if (lower.includes('nn.hyper(')) return 'nnHyper'
+  if (/nn\.(hands|face|pose)\(/.test(lower)) return 'nnTracker'
+  if (lower.includes('nn.prompt(')) return 'nnPromptReply'
   // variable reference — look up its assignment one level deep
   const varMatch = rootLine.match(/\b([a-zA-Z_$][a-zA-Z0-9_$]*)\./)
   if (varMatch) {
@@ -413,6 +415,8 @@ function evaluateNNType (rootLine, cm) {
         }
         if (ll.includes('nn.filtervideo(')) return 'nnFilterVideo'
         if (ll.includes('nn.hyper(')) return 'nnHyper'
+        if (/nn\.(hands|face|pose)\(/.test(ll)) return 'nnTracker'
+        if (ll.includes('nn.prompt(')) return 'nnPromptReply'
       }
     }
   }

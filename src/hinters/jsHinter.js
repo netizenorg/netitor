@@ -1,7 +1,7 @@
 /* eslint-disable no-new-func */
 const jsRefs = require('../edu-data/js/refs.json')
 const jsEvents = require('../edu-data/js/events.json')
-const nnDocs = require('../edu-data/custom/nn-netitor-docs.json')
+const nnDocs = require('../edu-data/custom/nn-docs.js')
 const snippets = require('./customSnippets.js')
 
 const roots = {
@@ -29,7 +29,9 @@ const instances = {
   nnCanvas: nnDocs.nnCanvas,
   nnSVG: nnDocs.nnSVG,
   nnFilterVideo: nnDocs.nnFilterVideo,
-  nnHyper: nnDocs.nnHyper
+  nnHyper: nnDocs.nnHyper,
+  nnTracker: nnDocs.nnTracker,
+  nnPromptReply: nnDocs.nnPromptReply
 }
 
 // CSS properties for HTMLElement.style object
@@ -76,6 +78,8 @@ function evaluate (lines, root) {
     }
     if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
     if (lower.includes('nn.hyper(')) return 'nnHyper'
+    if (/nn\.(hands|face|pose)\(/.test(lower)) return 'nnTracker'
+    if (lower.includes('nn.prompt(')) return 'nnPromptReply'
   } catch (e) { /* ignore */ }
 
   try {
@@ -178,6 +182,8 @@ function evaluateChainRoot (rootLine, cm) {
   }
   if (lower.includes('nn.filtervideo(')) return 'nnFilterVideo'
   if (lower.includes('nn.hyper(')) return 'nnHyper'
+  if (/nn\.(hands|face|pose)\(/.test(lower)) return 'nnTracker'
+  if (lower.includes('nn.prompt(')) return 'nnPromptReply'
   // variable reference — reuse existing evaluate() with its assignment-line lookup
   const varMatch = rootLine.match(/\b([a-zA-Z_$][a-zA-Z0-9_$]*)\./)
   if (varMatch) {
