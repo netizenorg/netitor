@@ -20,6 +20,8 @@ const jsTarg = require('../js/dom-event-target.json')
 const jsArr = require('../js/arrays.json')
 const nnDocs = require('../custom/nn-docs.js')
 const htmlAttrs = require('../html/attributes.json')
+const htmlEles = require('../html/elements.json')
+const svgEles = require('../html/svg-elements.json')
 const cssProps = require('../css/properties.json')
 
 const camelCase = (input) => {
@@ -358,6 +360,80 @@ function isNNCSSContext (cm) {
   return false
 }
 
+const escHTML = s => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;')
+const stripHTML = s => s.replace(/<[^>]+>/g, '').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&amp;/g, '&')
+
+// explains strings passed to nn.create(), nn.get(), nn.getAll() && .addTo()
+function isNNSelectorString (o, cm) {
+  const pos = cm.getCursor()
+  const tok = cm.getTokenAt(pos)
+  const before = cm.getLine(pos.line).slice(0, tok.start)
+  const m = before.match(/(nn\.create|nn\.get|nn\.getAll|\.addTo)\(\s*$/)
+  if (!m) return null
+  const str = o.data.replace(/^['"`]|['"`]$/g, '')
+  if (!str || str.includes('${')) return null
+
+  const method = m[1] === '.addTo' ? 'addTo' : m[1].slice(3)
+  const fn = `<code>${m[1]}()</code>`
+  const c = s => `<code>${escHTML(s)}</code>`
+  const tag = s => c(`<${s}>`)
+  const ele = htmlEles[str.toLowerCase()] || svgEles[str]
+  const id = str.match(/^#([\w-]+)$/)
+  const cls = str.match(/^\.([\w-]+)$/)
+  const isName = /^[a-zA-Z][\w-]*$/.test(str)
+  const single = ['html', 'head', 'body'].includes(str.toLowerCase())
+  const anyway = `There's no ${tag(str)} element in HTML, so this only works if one was added to the page anyway, for example with ${c(`nn.create('${str}')`)} or by writing ${tag(str)} in the HTML. That's unlikely, but possible.`
+  let html
+
+  if (method === 'create') {
+    const notName = `${fn} expects the name of an element, like ${c("'div'")} or ${c("'p'")}, not a CSS selector like ${c(`'${str}'`)}. Since that isn't a valid element name, this won't work the way you might expect, and may even cause an error.`
+    if (ele) html = `In this case, ${fn} is making a new ${tag(str)} element. `
+    else if (id || cls) {
+      const attr = id ? 'id' : 'class'
+      html = `${notName} To give a new element an ${attr}, create it first and then use <code>.set()</code>, for example ${c(`nn.create('div').set('${attr}', '${(id || cls)[1]}')`)}.`
+    } else if (isName) html = `In this case, ${fn} is making a new ${tag(str)} element. There's no ${tag(str)} element in HTML, but the browser will still create it (nn will print a warning in the console asking if you're sure). It will show up on the page like a plain ${tag('span')}, but it won't have any special meaning or default behavior.`
+    else html = notName
+  } else if (method === 'get' || method === 'getAll') {
+    const all = method === 'getAll'
+    const none = all ? 'it returns an empty array' : `it returns ${c('undefined')} (and nn prints a warning in the console)`
+    if (ele) {
+      const which = all ? 'every' : single ? 'the' : 'the first'
+      html = `In this case, ${fn} is grabbing ${which} ${tag(str)} element on the page${all ? ' and returning them in an array' : ''}. `
+    } else if (id) {
+      html = `In this case, ${fn} is looking for an element with an id of "${id[1]}", like ${tag(`div id="${id[1]}"`)}. If there's one on the page it will ${all ? 'return it inside an array' : 'grab it'}, if not ${none}.`
+      if (all) html += ' Since ids are meant to be unique, the array will usually have just one element in it.'
+    } else if (cls) html = `In this case, ${fn} is grabbing ${all ? 'every element' : 'the first element'} with a class of "${cls[1]}", like ${tag(`div class="${cls[1]}"`)}${all ? ', and returning them in an array' : ''}. If there aren't any on the page, ${none}.`
+    else if (isName) html = `In this case, ${fn} is looking for ${all ? 'every' : 'the first'} ${tag(str)} element on the page. ${anyway} If there isn't one, ${none}.`
+    else html = `This string is a CSS selector, ${fn} will grab ${all ? 'every element' : 'the first element'} on the page that matches it, the same way a selector in CSS chooses which elements a rule applies to. If nothing matches, ${none}.`
+  } else {
+    const none = "this line will cause an error, because there's nothing to add it to"
+    if (ele) html = `In this case, ${fn} is placing this element inside the ${single ? '' : 'first '}${tag(str)} element on the page. `
+    else if (id) html = `In this case, ${fn} is placing this element inside the element with an id of "${id[1]}", like ${tag(`div id="${id[1]}"`)}. If there's no element with that id on the page, ${none}.`
+    else if (cls) html = `In this case, ${fn} is placing this element inside the first element with a class of "${cls[1]}", like ${tag(`div class="${cls[1]}"`)}. If there aren't any on the page, ${none}.`
+    else if (isName) html = `In this case, ${fn} is placing this element inside the first ${tag(str)} element on the page. ${anyway} If there isn't one, ${none}.`
+    else html = `This string is a CSS selector, ${fn} will place this element inside the first element on the page that matches it. If nothing matches, ${none}.`
+  }
+
+  if (ele) {
+    return {
+      status: ele.status,
+      url: ele.url,
+      keyword: ele.keyword,
+      description: {
+        text: stripHTML(html) + ele.description.text,
+        html: html + ele.description.html
+      }
+    }
+  }
+  const nfo = method === 'addTo' ? nnDocs.nnDOM.addTo : nnDocs.nn[method]
+  return {
+    status: 'standard',
+    url: nfo.url,
+    keyword: nfo.keyword,
+    description: { text: stripHTML(html), html }
+  }
+}
+
 function isCSSPropertyString (o, cm) {
   const pos = cm.getCursor()
   const line = cm.getLine(pos.line)
@@ -382,7 +458,7 @@ function evaluateNNType (rootLine, cm) {
   if (lower.includes('nn.create(') || lower.includes('nn.get(')) {
     const m = rootLine.match(/nn\.(?:create|get)\(\s*['"]([^'"\s]+)/)
     if (m && m[1]) {
-      const tag = m[1].split(/[.#\[]/)[0].toLowerCase()
+      const tag = m[1].split(/[.#[]/)[0].toLowerCase()
       if (tag === 'canvas') return 'nnCanvas'
       if (tag === 'svg') return 'nnSVG'
     }
@@ -407,7 +483,7 @@ function evaluateNNType (rootLine, cm) {
         if (ll.includes('nn.create(') || ll.includes('nn.get(')) {
           const m = l.match(/nn\.(?:create|get)\(\s*['"]([^'"\s]+)/)
           if (m && m[1]) {
-            const tag = m[1].split(/[.#\[]/)[0].toLowerCase()
+            const tag = m[1].split(/[.#[]/)[0].toLowerCase()
             if (tag === 'canvas') return 'nnCanvas'
             if (tag === 'svg') return 'nnSVG'
           }
@@ -447,7 +523,8 @@ function jsData (o, cm) {
   } else if (o.data === 'function') {
     o.nfo = funcNfo
   } else if (o.type.includes('string')) {
-    o.nfo = isEvent(o, cm)
+    o.nfo = isNNSelectorString(o, cm)
+    if (!o.nfo) o.nfo = isEvent(o, cm)
     if (!o.nfo) o.nfo = isCSSPropertyString(o, cm)
     if (!o.nfo) o.nfo = isHTMLAttributeString(o, cm)
     o.nfo = o.nfo ? o.nfo : strNfo(o)
