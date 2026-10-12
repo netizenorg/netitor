@@ -1,6 +1,7 @@
 const JSHINT = require('jshint').JSHINT
 const globals = require('./js-globals.json')
 const JSTranslateError = require('./js-friendly-translator.js')
+const cssMethodCheck = require('./js-css-method-check.js')
 
 const options = {
   esversion: 11,
@@ -15,7 +16,9 @@ const options = {
 }
 
 function linter (code) {
-  JSHINT(code, options, globals)
+  // catch CSS syntax inside .css() first, then lint the rest w/out it
+  const css = cssMethodCheck(code)
+  JSHINT(css.code, options, globals)
   let errz = JSHINT.data().errors
 
   if (errz) {
@@ -24,7 +27,7 @@ function linter (code) {
   }
 
   // filter out "nulls", ie. errors to be ignored, ex W060
-  return errz || []
+  return (errz || []).concat(css.errz)
 }
 
 module.exports = linter
