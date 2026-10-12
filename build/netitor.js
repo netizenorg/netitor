@@ -200730,10 +200730,14 @@ function suggestions (p, code) {
     return `${k.includes('-') ? `'${k}'` : k}: ${d.val}`
   })
   const camel = ds.map(d => `${camelCase(kebabCase(d.prop))}: ${d.val}`)
+  // objects w/ more than one property get spread out over multiple lines
+  const obj = (arr) => arr.length === 1
+    ? `.css({ ${arr[0]} })`
+    : `.css({\n  ${arr.join(',\n  ')}\n})`
   const fixes = []
   if (ds.length === 1) fixes.push(`.css('${kebabCase(ds[0].prop)}', ${ds[0].val})`)
-  fixes.push(`.css({ ${kebab.join(', ')} })`)
-  if (camel.join() !== kebab.join()) fixes.push(`.css({ ${camel.join(', ')} })`)
+  fixes.push(obj(kebab))
+  if (camel.join() !== kebab.join()) fixes.push(obj(camel))
   return fixes
 }
 
@@ -200752,9 +200756,12 @@ function friendly (p, code) {
     reasons.push(`CSS values like ${cde(v)} need to be in quotes (as strings), otherwise JavaScript will think ${cde(v)} is a variable or some other piece of code.`)
   }
   if (p.semicolons) reasons.push(`Inside a JavaScript object, each property and value pair is separated by a comma ${cde(',')}, not a semicolon ${cde(';')}.`)
-  const fixes = suggestions(p, code).map(f => cde(f))
-  const last = fixes.length > 1 ? ` or ${fixes.pop()}` : ''
-  return `It looks like you've written CSS the way you would in a stylesheet, but inside the ${cde('.css()')} method you're writing JavaScript, so the syntax is a little different. ${reasons.join(' ')} Try writing it like this instead: ${fixes.join(', ')}${last}`
+  // <br> && &nbsp; b/c <code> is often styled w/ white-space: nowrap
+  const fixes = suggestions(p, code).map(f => cde(f
+    .replace(/^ +/gm, sp => '&nbsp;'.repeat(sp.length))
+    .replace(/\n/g, '<br>')
+  ))
+  return `It looks like you've written CSS the way you would in a stylesheet, but inside the ${cde('.css()')} method you're writing JavaScript, so the syntax is a little different. ${reasons.join(' ')} Try writing it like this instead:<br>${fixes.join('<br><br>or:<br>')}`
 }
 
 // returns the errors found, along with a version of the code where each
